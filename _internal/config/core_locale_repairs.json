@@ -1,0 +1,337 @@
+{
+  "audio.mute": {
+    "es": [
+      "Quita el sonido del ordenador",
+      "Deja el ordenador sin sonido",
+      "Pon en silencio el audio del ordenador"
+    ],
+    "pt": [
+      "Desliga o som do computador",
+      "Deixa o computador sem som",
+      "Põe o áudio do computador em silêncio"
+    ]
+  },
+  "audio.set_input_mute": {
+    "es": [
+      "Quita el sonido del micrófono",
+      "Deja el micrófono en silencio",
+      "Desactiva la entrada de audio del micrófono"
+    ],
+    "pt": [
+      "Desliga o som do microfone",
+      "Põe o microfone em silêncio",
+      "Desativa a entrada de áudio do microfone"
+    ]
+  },
+  "audio.mute_target": {
+    "pt": [
+      "Desliga o som da aplicação {target}",
+      "Põe a aplicação {target} em silêncio",
+      "Deixa a aplicação {target} sem áudio"
+    ]
+  },
+  "audio.set_default": {
+    "it": [
+      "Scegli {device_name} come uscita audio predefinita",
+      "Usa il dispositivo {device_name} per l’uscita audio",
+      "Imposta {device_name} come dispositivo audio di uscita"
+    ]
+  },
+  "autoclicker.toggle": {
+    "it": [
+      "Cambia lo stato del clic automatico",
+      "Inverti l’attivazione del clic automatico",
+      "Passa da attivo a disattivo o viceversa per il clic automatico"
+    ]
+  },
+  "application.close": {
+    "es": [
+      "Termina la aplicación {name}",
+      "Cierra el programa llamado {name}",
+      "Sal de la aplicación {name}"
+    ]
+  },
+  "browser.close_tab": {
+    "es": [
+      "Cierra la pestaña que estoy usando",
+      "Cierra esta pestaña del navegador",
+      "Quita la pestaña actual del navegador"
+    ],
+    "it": [
+      "Chiudi la scheda che sto usando",
+      "Chiudi questa scheda del browser",
+      "Rimuovi la scheda corrente dal browser"
+    ],
+    "de": [
+      "Schließe diesen Browsertab",
+      "Mach den gerade aktiven Tab zu",
+      "Beende die aktuell geöffnete Registerkarte"
+    ]
+  },
+  "browser_advanced.close_others": {
+    "es": [
+      "Cierra las pestañas salvo la actual",
+      "Deja abierta solo esta pestaña",
+      "Cierra todas las otras pestañas del navegador"
+    ],
+    "it": [
+      "Chiudi le schede tranne quella attiva",
+      "Lascia aperta solo questa scheda",
+      "Chiudi tutte le altre schede del browser"
+    ],
+    "de": [
+      "Schließe alle Tabs bis auf den aktuellen",
+      "Lass nur diesen Tab offen",
+      "Mach die übrigen Browsertabs zu"
+    ]
+  },
+  "jarvis.shutdown": {
+    "es": [
+      "Cierra el programa del asistente",
+      "Termina el asistente de escritorio",
+      "Sal de la aplicación del asistente"
+    ]
+  },
+  "browser.activate_tab": {
+    "es": [
+      "Ve a la pestaña {index}",
+      "Activa la pestaña número {index}",
+      "Abre la pestaña existente {index}"
+    ],
+    "pt": [
+      "Passa para o separador {index}",
+      "Ativa o separador número {index}",
+      "Abre o separador existente {index}"
+    ]
+  },
+  "browser.activate_tab_title": {
+    "es": [
+      "Ve a la pestaña cuyo título es {title}",
+      "Activa la pestaña llamada {title}",
+      "Abre la pestaña existente con título {title}"
+    ],
+    "pt": [
+      "Passa para o separador intitulado {title}",
+      "Ativa o separador chamado {title}",
+      "Abre o separador existente com o título {title}"
+    ]
+  },
+  "browser_advanced.activate_by_topic": {
+    "es": [
+      "Ve a la pestaña relacionada con {topic}",
+      "Activa la pestaña que trata de {topic}",
+      "Busca y activa la pestaña sobre {topic}"
+    ],
+    "pt": [
+      "Passa para o separador relacionado com {topic}",
+      "Ativa o separador que trata de {topic}",
+      "Procura e ativa o separador sobre {topic}"
+    ]
+  },
+  "filesystem.rename": {
+    "fr": [
+      "Change le nom du fichier {source} en {new_name}",
+      "Donne au fichier {source} le nom {new_name}",
+      "Utilise {new_name} comme nouveau nom du fichier {source}"
+    ],
+    "es": [
+      "Cambia el nombre del archivo {source} a {new_name}",
+      "Pon al archivo {source} el nombre {new_name}",
+      "Usa {new_name} como nuevo nombre del archivo {source}"
+    ],
+    "it": [
+      "Cambia il nome del file {source} in {new_name}",
+      "Assegna al file {source} il nome {new_name}",
+      "Usa {new_name} come nuovo nome del file {source}"
+    ],
+    "pt": [
+      "Altera o nome do ficheiro {source} para {new_name}",
+      "Dá ao ficheiro {source} o nome {new_name}",
+      "Usa {new_name} como novo nome do ficheiro {source}"
+    ]
+  },
+  "filesystem.read_text": {
+    "de": [
+      "Lies den Inhalt der Datei {source} vor",
+      "Was steht in der Datei {source}",
+      "Zeige mir den Textinhalt von {source}"
+    ],
+    "fr": [
+      "Lis le contenu du fichier {source}",
+      "Que contient le texte du fichier {source}",
+      "Affiche le texte contenu dans le fichier {source}"
+    ],
+    "es": [
+      "Lee el contenido del archivo {source}",
+      "Qué dice el texto del archivo {source}",
+      "Muestra el texto que contiene el archivo {source}"
+    ],
+    "it": [
+      "Leggi il contenuto del file {source}",
+      "Che cosa dice il testo del file {source}",
+      "Mostra il testo contenuto nel file {source}"
+    ],
+    "pt": [
+      "Lê o conteúdo do ficheiro {source}",
+      "O que diz o texto do ficheiro {source}",
+      "Mostra o texto contido no ficheiro {source}"
+    ]
+  },
+  "filesystem.search_text": {
+    "de": [
+      "Suche in der Datei {source} nach dem Text {query}",
+      "Finde die Textstelle {query} in der Datei {source}",
+      "Durchsuche die Datei {source} nach {query}"
+    ]
+  },
+  "browser.search": {
+    "de": [
+      "Suche im Internet nach {query}",
+      "Finde im Browser Ergebnisse zu {query}",
+      "Führe eine Websuche nach {query} durch"
+    ]
+  },
+  "filesystem.exists": {
+    "de": [
+      "Existiert die Datei {source}",
+      "Ist die Datei {source} vorhanden",
+      "Kontrolliere, ob es die Datei {source} gibt"
+    ]
+  },
+  "input_control.focus_control": {
+    "it": [
+      "Porta il cursore nel campo {name}",
+      "Sposta il focus sul campo {name}",
+      "Attiva il campo di immissione {name}"
+    ]
+  },
+  "input_control.click": {
+    "es": [
+      "Pulsa en el punto {x} {y}",
+      "Da un clic en las coordenadas {x} {y}",
+      "Haz clic en el punto de la pantalla {x} {y}"
+    ],
+    "it": [
+      "Fai un clic nel punto {x} {y}",
+      "Premi alle coordinate {x} {y}",
+      "Clicca nel punto dello schermo {x} {y}"
+    ]
+  },
+  "system.lock": {
+    "de": [
+      "Sperre meine Windows-Sitzung",
+      "Aktiviere die Bildschirmsperre",
+      "Wechsle zum Sperrbildschirm"
+    ],
+    "fr": [
+      "Verrouille ma session Windows",
+      "Active le verrouillage de l’ordinateur",
+      "Passe à l’écran de verrouillage"
+    ],
+    "es": [
+      "Activa el bloqueo del ordenador",
+      "Bloquea mi sesión de Windows",
+      "Pasa a la pantalla de bloqueo"
+    ],
+    "it": [
+      "Attiva il blocco del computer",
+      "Blocca la mia sessione Windows",
+      "Passa alla schermata di blocco"
+    ],
+    "pt": [
+      "Ativa o bloqueio do computador",
+      "Bloqueia a minha sessão do Windows",
+      "Passa para o ecrã de bloqueio"
+    ]
+  },
+  "system.shutdown": {
+    "fr": [
+      "Arrête complètement l’ordinateur",
+      "Lance l’arrêt du PC",
+      "Éteins mon ordinateur Windows"
+    ],
+    "es": [
+      "Apaga por completo el ordenador",
+      "Inicia el apagado del PC",
+      "Apaga mi equipo Windows"
+    ],
+    "it": [
+      "Arresta completamente il computer",
+      "Avvia lo spegnimento del PC",
+      "Spegni il mio computer Windows"
+    ],
+    "pt": [
+      "Desliga completamente o computador",
+      "Inicia o encerramento do PC",
+      "Desliga o meu computador Windows"
+    ]
+  },
+  "system.turn_off_displays": {
+    "de": [
+      "Schalte nur die Monitore aus",
+      "Mach die Bildschirme dunkel",
+      "Schalte die Anzeige der Monitore aus"
+    ],
+    "fr": [
+      "Éteins uniquement les moniteurs",
+      "Coupe l’affichage des écrans",
+      "Mets les moniteurs hors tension"
+    ],
+    "es": [
+      "Apaga solamente las pantallas",
+      "Apaga la imagen de los monitores",
+      "Deja apagadas las pantallas"
+    ],
+    "it": [
+      "Spegni soltanto gli schermi",
+      "Disattiva la visualizzazione dei monitor",
+      "Lascia spenti gli schermi"
+    ],
+    "pt": [
+      "Desliga apenas os ecrãs",
+      "Apaga a imagem dos monitores",
+      "Deixa os ecrãs desligados"
+    ]
+  },
+  "browser_advanced.restore_closed": {
+    "de": [
+      "Öffne den zuletzt geschlossenen Tab erneut",
+      "Hole den geschlossenen Browsertab zurück",
+      "Mach das Schließen des letzten Tabs rückgängig"
+    ]
+  },
+  "audio.restore_ducking": {
+    "de": [
+      "Stelle die vorherige Lautstärke wieder her",
+      "Hebe die vorübergehende Tonabsenkung auf",
+      "Setze die Lautstärke nach der Absenkung zurück"
+    ]
+  },
+  "browser.new_tab": {
+    "de": [
+      "Erstelle eine neue Registerkarte",
+      "Mach einen weiteren Browsertab auf",
+      "Füge einen neuen Tab hinzu"
+    ],
+    "fr": [
+      "Crée un nouvel onglet",
+      "Ajoute un onglet au navigateur",
+      "Ouvre un onglet supplémentaire"
+    ],
+    "es": [
+      "Crea una pestaña nueva",
+      "Añade una pestaña al navegador",
+      "Abre una pestaña adicional"
+    ],
+    "it": [
+      "Crea una nuova scheda",
+      "Aggiungi una scheda al browser",
+      "Apri una scheda aggiuntiva"
+    ],
+    "pt": [
+      "Cria um novo separador",
+      "Adiciona um separador ao navegador",
+      "Abre um separador adicional"
+    ]
+  }
+}
