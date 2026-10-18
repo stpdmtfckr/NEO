@@ -1,0 +1,5526 @@
+{
+  "discord.send_message": {
+    "ru": [
+      "напиши в Discord в канал {channel} текст {text}",
+      "передай в Discord каналу {channel} сообщение {text}",
+      "опубликуй в канале Discord {channel} сообщение {text}"
+    ],
+    "en": [
+      "write the text {text} in Discord channel {channel}",
+      "post the message {text} to Discord channel {channel}",
+      "deliver this message to Discord channel {channel}: {text}"
+    ],
+    "de": [
+      "schreibe den Text {text} in den Discord-Kanal {channel}",
+      "poste die Nachricht {text} im Discord-Kanal {channel}",
+      "übermittle dem Discord-Kanal {channel} die Nachricht {text}"
+    ],
+    "fr": [
+      "écris le texte {text} dans le salon Discord {channel}",
+      "publie le message {text} dans le salon Discord {channel}",
+      "transmets au salon Discord {channel} le message {text}"
+    ],
+    "es": [
+      "escribe el texto {text} en el canal de Discord {channel}",
+      "publica el mensaje {text} en el canal de Discord {channel}",
+      "transmite al canal de Discord {channel} el mensaje {text}"
+    ],
+    "it": [
+      "scrivi il testo {text} nel canale Discord {channel}",
+      "pubblica il messaggio {text} nel canale Discord {channel}",
+      "inoltra al canale Discord {channel} il messaggio {text}"
+    ],
+    "pt": [
+      "escreve o texto {text} no canal do Discord {channel}",
+      "publica a mensagem {text} no canal do Discord {channel}",
+      "transmite ao canal do Discord {channel} a mensagem {text}"
+    ]
+  },
+  "discord.user_account_automation_unavailable": {
+    "ru": [
+      "объясни ограничения управления личным аккаунтом Discord",
+      "можешь ли ты автоматизировать мой пользовательский аккаунт Discord",
+      "почему личный профиль Discord недоступен для автоматизации"
+    ],
+    "en": [
+      "explain the limits of controlling my personal Discord account",
+      "can you automate my Discord user account",
+      "why is my personal Discord profile unavailable for automation"
+    ],
+    "de": [
+      "erkläre die Grenzen der Steuerung meines persönlichen Discord-Kontos",
+      "kannst du mein Discord-Benutzerkonto automatisieren",
+      "warum ist mein persönliches Discord-Profil nicht automatisierbar"
+    ],
+    "fr": [
+      "explique les limites du contrôle de mon compte Discord personnel",
+      "peux-tu automatiser mon compte utilisateur Discord",
+      "pourquoi mon profil Discord personnel ne peut-il pas être automatisé"
+    ],
+    "es": [
+      "explica los límites para controlar mi cuenta personal de Discord",
+      "puedes automatizar mi cuenta de usuario de Discord",
+      "por qué mi perfil personal de Discord no está disponible para automatización"
+    ],
+    "it": [
+      "spiega i limiti del controllo del mio account Discord personale",
+      "puoi automatizzare il mio account utente Discord",
+      "perché il mio profilo Discord personale non è disponibile per l’automazione"
+    ],
+    "pt": [
+      "explica os limites do controlo da minha conta pessoal do Discord",
+      "podes automatizar a minha conta de utilizador do Discord",
+      "porque não está o meu perfil pessoal do Discord disponível para automatização"
+    ]
+  },
+  "discord.music_bot_play": {
+    "ru": [
+      "поставь трек {query} в Discord",
+      "хочу послушать песню {query} в Discord",
+      "найди и включи композицию {query} в Discord"
+    ],
+    "en": [
+      "put on the track {query} in Discord",
+      "I want to listen to the song {query} in Discord",
+      "find and play the song {query} in Discord"
+    ],
+    "de": [
+      "lege den Titel {query} auf in Discord",
+      "ich möchte das Lied {query} hören in Discord",
+      "suche und spiele den Song {query} in Discord"
+    ],
+    "fr": [
+      "mets le morceau {query} dans Discord",
+      "je veux écouter la chanson {query} dans Discord",
+      "cherche et lance le titre {query} dans Discord"
+    ],
+    "es": [
+      "pon el tema {query} en Discord",
+      "quiero escuchar la canción {query} en Discord",
+      "busca y reproduce la canción {query} en Discord"
+    ],
+    "it": [
+      "metti il brano {query} su Discord",
+      "voglio ascoltare la canzone {query} su Discord",
+      "cerca e riproduci il pezzo {query} su Discord"
+    ],
+    "pt": [
+      "põe a faixa {query} no Discord",
+      "quero ouvir a canção {query} no Discord",
+      "procura e toca a música {query} no Discord"
+    ]
+  },
+  "discord.music_youtube_url": {
+    "ru": [
+      "поставь аудио с YouTube {query} в Discord",
+      "хочу послушать в Discord YouTube по ссылке {query}",
+      "запусти аудиодорожку ссылки YouTube {query} через Discord"
+    ],
+    "en": [
+      "put on YouTube audio from {query} in Discord",
+      "I want to hear the YouTube link {query} in Discord",
+      "start the audio from YouTube URL {query} through Discord"
+    ],
+    "de": [
+      "lege YouTube-Audio von {query} in Discord auf",
+      "ich möchte den YouTube-Link {query} in Discord hören",
+      "starte die Audiospur der YouTube-URL {query} über Discord"
+    ],
+    "fr": [
+      "mets l’audio YouTube de {query} dans Discord",
+      "je veux écouter le lien YouTube {query} dans Discord",
+      "lance la piste audio du lien YouTube {query} via Discord"
+    ],
+    "es": [
+      "pon el audio de YouTube {query} en Discord",
+      "quiero escuchar el enlace de YouTube {query} en Discord",
+      "inicia el audio de la URL de YouTube {query} mediante Discord"
+    ],
+    "it": [
+      "metti l’audio YouTube di {query} su Discord",
+      "voglio ascoltare il link YouTube {query} su Discord",
+      "avvia la traccia audio dell’URL YouTube {query} tramite Discord"
+    ],
+    "pt": [
+      "põe o áudio do YouTube {query} no Discord",
+      "quero ouvir o link do YouTube {query} no Discord",
+      "inicia a faixa de áudio do URL do YouTube {query} através do Discord"
+    ]
+  },
+  "discord.music_my_tracks": {
+    "ru": [
+      "поставь мою коллекцию любимых песен в Discord",
+      "воспроизведи треки которым я поставил лайк в Discord",
+      "хочу послушать мои понравившиеся песни в Discord"
+    ],
+    "en": [
+      "put on my favorite songs collection in Discord",
+      "play the tracks I have liked in Discord",
+      "I want to hear my liked songs in Discord"
+    ],
+    "de": [
+      "lege meine Sammlung von Lieblingsliedern auf in Discord",
+      "spiele die Titel denen ich ein Like gegeben habe in Discord",
+      "ich möchte meine mit Gefällt mir markierten Songs hören in Discord"
+    ],
+    "fr": [
+      "mets ma collection de chansons favorites dans Discord",
+      "joue les titres que j’ai aimés dans Discord",
+      "je veux écouter mes morceaux favoris dans Discord"
+    ],
+    "es": [
+      "pon mi colección de canciones favoritas en Discord",
+      "reproduce los temas que he marcado con me gusta en Discord",
+      "quiero escuchar mis canciones favoritas en Discord"
+    ],
+    "it": [
+      "metti la mia raccolta di canzoni preferite su Discord",
+      "riproduci i brani a cui ho messo mi piace su Discord",
+      "voglio ascoltare le mie canzoni preferite su Discord"
+    ],
+    "pt": [
+      "põe a minha coleção de músicas favoritas no Discord",
+      "toca as faixas a que dei gosto no Discord",
+      "quero ouvir as minhas canções favoritas no Discord"
+    ]
+  },
+  "discord.music_my_wave": {
+    "ru": [
+      "запусти персональную станцию Моя волна в Discord",
+      "поставь мою персональную волну в Discord",
+      "хочу послушать Мою волну в Discord"
+    ],
+    "en": [
+      "start my personalized My Wave station in Discord",
+      "put on My Wave radio in Discord",
+      "I want to listen to My Wave in Discord"
+    ],
+    "de": [
+      "starte meinen persönlichen Sender My Wave in Discord",
+      "schalte das Radio My Wave ein in Discord",
+      "ich möchte My Wave hören in Discord"
+    ],
+    "fr": [
+      "démarre ma station personnalisée My Wave dans Discord",
+      "mets la radio My Wave dans Discord",
+      "je veux écouter My Wave dans Discord"
+    ],
+    "es": [
+      "inicia mi emisora personalizada My Wave en Discord",
+      "pon la radio My Wave en Discord",
+      "quiero escuchar My Wave en Discord"
+    ],
+    "it": [
+      "avvia la mia stazione personalizzata My Wave su Discord",
+      "metti la radio My Wave su Discord",
+      "voglio ascoltare My Wave su Discord"
+    ],
+    "pt": [
+      "inicia a minha estação personalizada My Wave no Discord",
+      "põe a rádio My Wave no Discord",
+      "quero ouvir My Wave no Discord"
+    ]
+  },
+  "discord.music_playlist": {
+    "ru": [
+      "поставь список песен {playlist} в Discord",
+      "хочу послушать плейлист {playlist} в Discord",
+      "запусти мой плейлист {playlist} в Discord"
+    ],
+    "en": [
+      "put on the playlist {playlist} in Discord",
+      "I want to hear the playlist {playlist} in Discord",
+      "start playing my playlist {playlist} in Discord"
+    ],
+    "de": [
+      "lege die Playlist {playlist} auf in Discord",
+      "ich möchte die Playlist {playlist} hören in Discord",
+      "starte meine Wiedergabeliste {playlist} in Discord"
+    ],
+    "fr": [
+      "mets la liste de lecture {playlist} dans Discord",
+      "je veux écouter la playlist {playlist} dans Discord",
+      "démarre ma playlist {playlist} dans Discord"
+    ],
+    "es": [
+      "pon la playlist {playlist} en Discord",
+      "quiero escuchar la lista {playlist} en Discord",
+      "inicia mi lista de reproducción {playlist} en Discord"
+    ],
+    "it": [
+      "metti la lista di riproduzione {playlist} su Discord",
+      "voglio ascoltare la playlist {playlist} su Discord",
+      "avvia la mia playlist {playlist} su Discord"
+    ],
+    "pt": [
+      "põe a lista de reprodução {playlist} no Discord",
+      "quero ouvir a playlist {playlist} no Discord",
+      "inicia a minha playlist {playlist} no Discord"
+    ]
+  },
+  "discord.music_queue_next": {
+    "ru": [
+      "добавь трек {query} в начало очереди в Discord",
+      "пусть песня {query} играет сразу после текущей в Discord",
+      "вставь композицию {query} первой среди следующих треков в Discord"
+    ],
+    "en": [
+      "add the track {query} at the front of the queue in Discord",
+      "play the song {query} immediately after the current one in Discord",
+      "insert the song {query} as the next queued track in Discord"
+    ],
+    "de": [
+      "füge den Titel {query} vorne in die Warteschlange ein in Discord",
+      "spiele das Lied {query} direkt nach dem aktuellen in Discord",
+      "setze den Song {query} als nächsten wartenden Titel ein in Discord"
+    ],
+    "fr": [
+      "ajoute le titre {query} au début de la file dans Discord",
+      "joue la chanson {query} juste après le morceau actuel dans Discord",
+      "insère le morceau {query} en première position de la file dans Discord"
+    ],
+    "es": [
+      "añade el tema {query} al principio de la cola en Discord",
+      "reproduce la canción {query} justo después de la actual en Discord",
+      "inserta la pista {query} como la próxima en la cola en Discord"
+    ],
+    "it": [
+      "aggiungi il brano {query} all’inizio della coda su Discord",
+      "riproduci la canzone {query} subito dopo quella attuale su Discord",
+      "inserisci il pezzo {query} come prossimo brano in coda su Discord"
+    ],
+    "pt": [
+      "adiciona a faixa {query} ao início da fila no Discord",
+      "toca a canção {query} logo depois da atual no Discord",
+      "insere a música {query} como a próxima da fila no Discord"
+    ]
+  },
+  "discord.music_queue_add": {
+    "ru": [
+      "поставь трек {query} последним в очередь в Discord",
+      "пусть песня {query} играет после всей очереди в Discord",
+      "дополни конец музыкальной очереди композицией {query} в Discord"
+    ],
+    "en": [
+      "put the track {query} last in the queue in Discord",
+      "play the song {query} after the entire queue in Discord",
+      "append the song {query} to the music queue in Discord"
+    ],
+    "de": [
+      "setze den Titel {query} ans Ende der Warteschlange in Discord",
+      "spiele das Lied {query} nach der gesamten Warteschlange in Discord",
+      "hänge den Song {query} an die Musikwarteschlange an in Discord"
+    ],
+    "fr": [
+      "mets le titre {query} en dernier dans la file dans Discord",
+      "joue la chanson {query} après toute la file dans Discord",
+      "ajoute le morceau {query} au bout de la file musicale dans Discord"
+    ],
+    "es": [
+      "pon el tema {query} al final de la cola en Discord",
+      "reproduce la canción {query} después de toda la cola en Discord",
+      "agrega la pista {query} al final de la cola musical en Discord"
+    ],
+    "it": [
+      "metti il brano {query} per ultimo in coda su Discord",
+      "riproduci la canzone {query} dopo l’intera coda su Discord",
+      "accoda il pezzo {query} alla fine della coda musicale su Discord"
+    ],
+    "pt": [
+      "põe a faixa {query} por último na fila no Discord",
+      "toca a canção {query} depois de toda a fila no Discord",
+      "acrescenta a música {query} ao fim da fila musical no Discord"
+    ]
+  },
+  "discord.music_queue_status": {
+    "ru": [
+      "какие песни стоят в очереди в Discord",
+      "покажи следующие треки в очереди в Discord",
+      "что будет играть после текущей песни в Discord"
+    ],
+    "en": [
+      "which songs are queued in Discord",
+      "show the upcoming tracks in the queue in Discord",
+      "what will play after the current song in Discord"
+    ],
+    "de": [
+      "welche Lieder stehen in der Warteschlange in Discord",
+      "zeige die nächsten Titel der Warteschlange in Discord",
+      "was läuft nach dem aktuellen Lied in Discord"
+    ],
+    "fr": [
+      "quelles chansons sont dans la file d’attente dans Discord",
+      "montre les prochains titres de la file dans Discord",
+      "qu’est-ce qui passera après la chanson actuelle dans Discord"
+    ],
+    "es": [
+      "qué canciones hay en la cola en Discord",
+      "muestra las próximas pistas de la cola en Discord",
+      "qué sonará después de la canción actual en Discord"
+    ],
+    "it": [
+      "quali canzoni sono in coda su Discord",
+      "mostra i prossimi brani della coda su Discord",
+      "cosa verrà riprodotto dopo la canzone attuale su Discord"
+    ],
+    "pt": [
+      "que músicas estão na fila no Discord",
+      "mostra as próximas faixas da fila no Discord",
+      "o que vai tocar depois da música atual no Discord"
+    ]
+  },
+  "discord.music_queue_clear": {
+    "ru": [
+      "удали все ожидающие треки из очереди в Discord",
+      "сбрось очередь воспроизведения в Discord",
+      "убери запланированные песни из очереди в Discord"
+    ],
+    "en": [
+      "remove all waiting tracks from the queue in Discord",
+      "reset the playback queue in Discord",
+      "discard the queued songs in Discord"
+    ],
+    "de": [
+      "entferne alle wartenden Titel aus der Warteschlange in Discord",
+      "setze die Wiedergabewarteschlange zurück in Discord",
+      "verwirf die vorgemerkten Lieder in Discord"
+    ],
+    "fr": [
+      "retire tous les titres en attente de la file dans Discord",
+      "réinitialise la file de lecture dans Discord",
+      "supprime les chansons mises en attente dans Discord"
+    ],
+    "es": [
+      "elimina todas las pistas pendientes de la cola en Discord",
+      "reinicia la cola de reproducción en Discord",
+      "descarta las canciones en espera en Discord"
+    ],
+    "it": [
+      "rimuovi tutti i brani in attesa dalla coda su Discord",
+      "azzera la coda di riproduzione su Discord",
+      "elimina le canzoni accodate su Discord"
+    ],
+    "pt": [
+      "remove todas as faixas pendentes da fila no Discord",
+      "repõe a fila de reprodução no Discord",
+      "descarta as músicas em espera no Discord"
+    ]
+  },
+  "discord.music_shuffle_on": {
+    "ru": [
+      "перемешай порядок музыки в Discord",
+      "проигрывай песни вперемешку в Discord",
+      "пусть треки идут в случайном порядке в Discord"
+    ],
+    "en": [
+      "shuffle the music order in Discord",
+      "play the songs randomly in Discord",
+      "let the tracks play in a random order in Discord"
+    ],
+    "de": [
+      "mische die Musikreihenfolge in Discord",
+      "spiele die Lieder durcheinander in Discord",
+      "lass die Titel in zufälliger Reihenfolge laufen in Discord"
+    ],
+    "fr": [
+      "mélange l’ordre des morceaux dans Discord",
+      "joue les chansons au hasard dans Discord",
+      "fais passer les titres dans un ordre aléatoire dans Discord"
+    ],
+    "es": [
+      "mezcla el orden de la música en Discord",
+      "reproduce las canciones al azar en Discord",
+      "haz que los temas suenen en orden aleatorio en Discord"
+    ],
+    "it": [
+      "mescola l’ordine della musica su Discord",
+      "riproduci le canzoni a caso su Discord",
+      "fai andare i brani in ordine casuale su Discord"
+    ],
+    "pt": [
+      "baralha a ordem da música no Discord",
+      "toca as canções ao acaso no Discord",
+      "faz as faixas tocarem por ordem aleatória no Discord"
+    ]
+  },
+  "discord.music_shuffle_off": {
+    "ru": [
+      "верни обычный порядок музыки в Discord",
+      "проигрывай песни по порядку в Discord",
+      "отмени перемешивание треков в Discord"
+    ],
+    "en": [
+      "restore the normal music order in Discord",
+      "play the songs in order in Discord",
+      "disable track shuffling in Discord"
+    ],
+    "de": [
+      "stelle die normale Musikreihenfolge wieder her in Discord",
+      "spiele die Lieder der Reihe nach in Discord",
+      "deaktiviere das Mischen der Titel in Discord"
+    ],
+    "fr": [
+      "rétablis l’ordre normal des morceaux dans Discord",
+      "joue les chansons dans l’ordre dans Discord",
+      "désactive le mélange des titres dans Discord"
+    ],
+    "es": [
+      "restaura el orden normal de la música en Discord",
+      "reproduce las canciones en orden en Discord",
+      "desactiva la mezcla de pistas en Discord"
+    ],
+    "it": [
+      "ripristina l’ordine normale della musica su Discord",
+      "riproduci le canzoni in ordine su Discord",
+      "disattiva il mescolamento dei brani su Discord"
+    ],
+    "pt": [
+      "repõe a ordem normal da música no Discord",
+      "toca as canções por ordem no Discord",
+      "desativa a mistura das faixas no Discord"
+    ]
+  },
+  "discord.music_repeat_track": {
+    "ru": [
+      "зацикли текущую песню в Discord",
+      "повторяй только этот трек в Discord",
+      "поставь эту композицию на повтор в Discord"
+    ],
+    "en": [
+      "loop the current song in Discord",
+      "repeat only this track in Discord",
+      "put this song on repeat in Discord"
+    ],
+    "de": [
+      "spiele das aktuelle Lied in Dauerschleife in Discord",
+      "wiederhole nur diesen Titel in Discord",
+      "stelle für dieses Lied die Wiederholung ein in Discord"
+    ],
+    "fr": [
+      "joue la chanson actuelle en boucle dans Discord",
+      "répète uniquement ce titre dans Discord",
+      "mets ce morceau en répétition dans Discord"
+    ],
+    "es": [
+      "reproduce la canción actual en bucle en Discord",
+      "repite solo esta pista en Discord",
+      "pon este tema en repetición en Discord"
+    ],
+    "it": [
+      "riproduci la canzone attuale in loop su Discord",
+      "ripeti soltanto questo brano su Discord",
+      "metti questa traccia in ripetizione su Discord"
+    ],
+    "pt": [
+      "toca a canção atual em ciclo no Discord",
+      "repete apenas esta faixa no Discord",
+      "põe esta música em repetição no Discord"
+    ]
+  },
+  "discord.music_repeat_playlist": {
+    "ru": [
+      "зацикли весь плейлист в Discord",
+      "повторяй список песен целиком в Discord",
+      "после конца плейлиста начинай его сначала в Discord"
+    ],
+    "en": [
+      "loop the whole playlist in Discord",
+      "repeat the complete song list in Discord",
+      "start the playlist again when it ends in Discord"
+    ],
+    "de": [
+      "spiele die ganze Playlist in Dauerschleife in Discord",
+      "wiederhole die vollständige Wiedergabeliste in Discord",
+      "beginne die Playlist nach ihrem Ende erneut in Discord"
+    ],
+    "fr": [
+      "joue toute la playlist en boucle dans Discord",
+      "répète la liste de lecture complète dans Discord",
+      "recommence la playlist quand elle se termine dans Discord"
+    ],
+    "es": [
+      "reproduce toda la lista en bucle en Discord",
+      "repite la lista completa de canciones en Discord",
+      "vuelve a empezar la playlist cuando termine en Discord"
+    ],
+    "it": [
+      "riproduci tutta la playlist in loop su Discord",
+      "ripeti l’intera lista di brani su Discord",
+      "ricomincia la playlist quando finisce su Discord"
+    ],
+    "pt": [
+      "toca toda a playlist em ciclo no Discord",
+      "repete a lista completa de músicas no Discord",
+      "recomeça a playlist quando terminar no Discord"
+    ]
+  },
+  "discord.music_repeat_off": {
+    "ru": [
+      "отмени зацикливание музыки в Discord",
+      "не повторяй песни автоматически в Discord",
+      "убери повтор воспроизведения в Discord"
+    ],
+    "en": [
+      "disable music looping in Discord",
+      "do not repeat songs automatically in Discord",
+      "remove playback repeat in Discord"
+    ],
+    "de": [
+      "deaktiviere die Musikschleife in Discord",
+      "wiederhole die Lieder nicht automatisch in Discord",
+      "beende die Wiedergabewiederholung in Discord"
+    ],
+    "fr": [
+      "désactive la lecture musicale en boucle dans Discord",
+      "ne répète pas les chansons automatiquement dans Discord",
+      "retire la répétition de lecture dans Discord"
+    ],
+    "es": [
+      "desactiva el bucle de música en Discord",
+      "no repitas canciones automáticamente en Discord",
+      "quita la repetición de reproducción en Discord"
+    ],
+    "it": [
+      "disattiva il loop della musica su Discord",
+      "non ripetere automaticamente le canzoni su Discord",
+      "togli la ripetizione della riproduzione su Discord"
+    ],
+    "pt": [
+      "desativa o ciclo de música no Discord",
+      "não repitas as canções automaticamente no Discord",
+      "retira a repetição da reprodução no Discord"
+    ]
+  },
+  "discord.music_like": {
+    "ru": [
+      "поставь лайк этой песне в Discord",
+      "сохрани текущий трек в любимые в Discord",
+      "мне нравится эта композиция в Discord"
+    ],
+    "en": [
+      "like this song in Discord",
+      "save the current track to my favorites in Discord",
+      "I like this music track in Discord"
+    ],
+    "de": [
+      "gib diesem Lied ein Like in Discord",
+      "speichere den aktuellen Titel als Favoriten in Discord",
+      "dieses Musikstück gefällt mir in Discord"
+    ],
+    "fr": [
+      "mets un j’aime à cette chanson dans Discord",
+      "enregistre le titre actuel dans mes favoris dans Discord",
+      "j’aime ce morceau dans Discord"
+    ],
+    "es": [
+      "dale me gusta a esta canción en Discord",
+      "guarda el tema actual en mis favoritos en Discord",
+      "me gusta esta pista en Discord"
+    ],
+    "it": [
+      "metti mi piace a questa canzone su Discord",
+      "salva il brano attuale tra i preferiti su Discord",
+      "questa traccia mi piace su Discord"
+    ],
+    "pt": [
+      "dá gosto a esta canção no Discord",
+      "guarda a faixa atual nos meus favoritos no Discord",
+      "gosto desta música no Discord"
+    ]
+  },
+  "discord.music_dislike": {
+    "ru": [
+      "поставь дизлайк текущему треку в Discord",
+      "эта песня мне не нравится пропусти её в Discord",
+      "исключи эту композицию из рекомендаций в Discord"
+    ],
+    "en": [
+      "dislike the current track in Discord",
+      "I dislike this song skip it in Discord",
+      "exclude this song from recommendations in Discord"
+    ],
+    "de": [
+      "markiere den aktuellen Titel mit Gefällt mir nicht in Discord",
+      "dieses Lied gefällt mir nicht überspringe es in Discord",
+      "schließe dieses Lied aus meinen Empfehlungen aus in Discord"
+    ],
+    "fr": [
+      "mets un je n’aime pas au titre actuel dans Discord",
+      "je n’aime pas cette chanson passe-la dans Discord",
+      "exclus ce morceau de mes recommandations dans Discord"
+    ],
+    "es": [
+      "marca no me gusta en la canción actual en Discord",
+      "no me gusta esta canción sáltala en Discord",
+      "excluye este tema de las recomendaciones en Discord"
+    ],
+    "it": [
+      "metti non mi piace al brano attuale su Discord",
+      "non mi piace questa canzone saltala su Discord",
+      "escludi questo brano dai suggerimenti su Discord"
+    ],
+    "pt": [
+      "marca não gosto na faixa atual no Discord",
+      "não gosto desta música salta-a no Discord",
+      "exclui esta canção das recomendações no Discord"
+    ]
+  },
+  "discord.music_skip": {
+    "ru": [
+      "переключи музыку на следующий трек в Discord",
+      "пропусти эту песню в Discord",
+      "давай следующий трек в Discord"
+    ],
+    "en": [
+      "skip to the next song in Discord",
+      "skip this track in Discord",
+      "move on to the next music track in Discord"
+    ],
+    "de": [
+      "springe zum nächsten Lied in Discord",
+      "überspringe diesen Titel in Discord",
+      "mach mit dem nächsten Musikstück weiter in Discord"
+    ],
+    "fr": [
+      "change de chanson pour la suivante dans Discord",
+      "saute cette chanson dans Discord",
+      "avance au prochain titre dans Discord"
+    ],
+    "es": [
+      "pasa a la siguiente canción en Discord",
+      "salta esta pista en Discord",
+      "avanza al próximo tema en Discord"
+    ],
+    "it": [
+      "passa alla canzone successiva su Discord",
+      "salta questo brano su Discord",
+      "vai alla prossima traccia su Discord"
+    ],
+    "pt": [
+      "passa à música seguinte no Discord",
+      "salta esta faixa no Discord",
+      "avança para a próxima canção no Discord"
+    ]
+  },
+  "discord.music_previous": {
+    "ru": [
+      "верни прошлую песню в Discord",
+      "переключи на трек который был до этого в Discord",
+      "назад на предыдущую композицию в Discord"
+    ],
+    "en": [
+      "go back to the last song in Discord",
+      "return to the previous music track in Discord",
+      "play the track before this one in Discord"
+    ],
+    "de": [
+      "gehe zum letzten Lied zurück in Discord",
+      "wechsle zum vorherigen Musikstück in Discord",
+      "spiele den Titel vor diesem in Discord"
+    ],
+    "fr": [
+      "reviens à la chanson précédente dans Discord",
+      "retourne au morceau d’avant dans Discord",
+      "remets le titre qui passait juste avant dans Discord"
+    ],
+    "es": [
+      "vuelve a la canción anterior en Discord",
+      "regresa al tema previo en Discord",
+      "pon la pista que sonaba antes de esta en Discord"
+    ],
+    "it": [
+      "torna alla canzone precedente su Discord",
+      "rimetti il brano di prima su Discord",
+      "riproduci la traccia che precedeva questa su Discord"
+    ],
+    "pt": [
+      "volta à música anterior no Discord",
+      "regressa à faixa de antes no Discord",
+      "toca a canção que estava antes desta no Discord"
+    ]
+  },
+  "discord.music_set_volume": {
+    "ru": [
+      "сделай громкость музыки {volume} процентов в Discord",
+      "громкость плеера {volume} процентов в Discord",
+      "выставь музыку на {volume} процентов громкости в Discord"
+    ],
+    "en": [
+      "make the music volume {volume} percent in Discord",
+      "set the player loudness to {volume} percent in Discord",
+      "adjust music to {volume} percent volume in Discord"
+    ],
+    "de": [
+      "passe die Musiklautstärke auf {volume} Prozent an in Discord",
+      "setze den Playerpegel auf {volume} Prozent in Discord",
+      "regle die Musik auf {volume} Prozent Lautstärke in Discord"
+    ],
+    "fr": [
+      "mets le volume musical à {volume} pour cent dans Discord",
+      "règle le niveau du lecteur à {volume} pour cent dans Discord",
+      "ajuste la musique à {volume} pour cent de volume dans Discord"
+    ],
+    "es": [
+      "pon el volumen musical al {volume} por ciento en Discord",
+      "ajusta el nivel del reproductor al {volume} por ciento en Discord",
+      "deja la música a un volumen del {volume} por ciento en Discord"
+    ],
+    "it": [
+      "porta il volume musicale al {volume} per cento su Discord",
+      "imposta il livello del lettore al {volume} per cento su Discord",
+      "regola la musica al {volume} per cento del volume su Discord"
+    ],
+    "pt": [
+      "põe o volume musical em {volume} por cento no Discord",
+      "ajusta o nível do leitor para {volume} por cento no Discord",
+      "deixa a música a {volume} por cento do volume no Discord"
+    ]
+  },
+  "discord.music_volume_up": {
+    "ru": [
+      "сделай музыку погромче в Discord",
+      "увеличь громкость музыкального плеера в Discord",
+      "подними уровень звука музыки в Discord"
+    ],
+    "en": [
+      "make the music louder in Discord",
+      "increase the music player volume in Discord",
+      "raise the music sound level in Discord"
+    ],
+    "de": [
+      "mach die Musik lauter in Discord",
+      "erhöhe die Lautstärke des Musikplayers in Discord",
+      "hebe den Musikpegel an in Discord"
+    ],
+    "fr": [
+      "mets la musique plus fort dans Discord",
+      "augmente le volume du lecteur musical dans Discord",
+      "monte le niveau sonore de la musique dans Discord"
+    ],
+    "es": [
+      "pon la música más alta en Discord",
+      "aumenta el volumen del reproductor musical en Discord",
+      "sube el nivel de sonido de la música en Discord"
+    ],
+    "it": [
+      "alza la musica su Discord",
+      "aumenta il volume del lettore musicale su Discord",
+      "alza il livello sonoro della musica su Discord"
+    ],
+    "pt": [
+      "põe a música mais alta no Discord",
+      "aumenta o volume do leitor de música no Discord",
+      "sobe o nível sonoro da música no Discord"
+    ]
+  },
+  "discord.music_volume_down": {
+    "ru": [
+      "сделай музыку потише в Discord",
+      "уменьши громкость музыкального плеера в Discord",
+      "снизь уровень звука музыки в Discord"
+    ],
+    "en": [
+      "make the music quieter in Discord",
+      "decrease the music player volume in Discord",
+      "lower the music sound level in Discord"
+    ],
+    "de": [
+      "mach die Musik leiser in Discord",
+      "verringere die Lautstärke des Musikplayers in Discord",
+      "senke den Musikpegel in Discord"
+    ],
+    "fr": [
+      "mets la musique moins fort dans Discord",
+      "diminue le volume du lecteur musical dans Discord",
+      "baisse le niveau sonore de la musique dans Discord"
+    ],
+    "es": [
+      "pon la música más baja en Discord",
+      "reduce el volumen del reproductor musical en Discord",
+      "baja el nivel de sonido de la música en Discord"
+    ],
+    "it": [
+      "abbassa la musica su Discord",
+      "riduci il volume del lettore musicale su Discord",
+      "abbassa il livello sonoro della musica su Discord"
+    ],
+    "pt": [
+      "põe a música mais baixa no Discord",
+      "reduz o volume do leitor de música no Discord",
+      "baixa o nível sonoro da música no Discord"
+    ]
+  },
+  "discord.music_pause": {
+    "ru": [
+      "приостанови воспроизведение музыки в Discord",
+      "пауза для музыки в Discord",
+      "прерви музыку на время в Discord"
+    ],
+    "en": [
+      "pause music playback in Discord",
+      "put the song on hold in Discord",
+      "temporarily pause the music in Discord"
+    ],
+    "de": [
+      "pausiere die Musikwiedergabe in Discord",
+      "lege bei der Musik eine Pause ein in Discord",
+      "unterbrich die Musik vorübergehend in Discord"
+    ],
+    "fr": [
+      "suspends la lecture musicale dans Discord",
+      "mets le morceau en pause dans Discord",
+      "interromps temporairement la musique dans Discord"
+    ],
+    "es": [
+      "pausa la reproducción musical en Discord",
+      "deja la canción en pausa en Discord",
+      "interrumpe temporalmente la música en Discord"
+    ],
+    "it": [
+      "metti in pausa la riproduzione musicale su Discord",
+      "sospendi il brano su Discord",
+      "interrompi temporaneamente la musica su Discord"
+    ],
+    "pt": [
+      "pausa a reprodução musical no Discord",
+      "deixa a música em pausa no Discord",
+      "interrompe temporariamente a música no Discord"
+    ]
+  },
+  "discord.music_resume": {
+    "ru": [
+      "продолжи проигрывание музыки в Discord",
+      "сними музыку с паузы в Discord",
+      "верни воспроизведение музыки в Discord"
+    ],
+    "en": [
+      "continue playing the music in Discord",
+      "unpause the music in Discord",
+      "pick up the music where it stopped in Discord"
+    ],
+    "de": [
+      "setze die Musikwiedergabe fort in Discord",
+      "hebe die Musikpause auf in Discord",
+      "lass die pausierte Musik weiterlaufen in Discord"
+    ],
+    "fr": [
+      "reprends la lecture de la musique dans Discord",
+      "retire la pause de la musique dans Discord",
+      "continue le morceau mis en pause dans Discord"
+    ],
+    "es": [
+      "continúa reproduciendo la música en Discord",
+      "quita la pausa de la música en Discord",
+      "reanuda la canción pausada en Discord"
+    ],
+    "it": [
+      "continua la riproduzione della musica su Discord",
+      "togli la pausa alla musica su Discord",
+      "riprendi il brano messo in pausa su Discord"
+    ],
+    "pt": [
+      "continua a reprodução da música no Discord",
+      "tira a música da pausa no Discord",
+      "retoma a faixa que estava em pausa no Discord"
+    ]
+  },
+  "discord.music_stop": {
+    "ru": [
+      "прекрати воспроизведение музыки в Discord",
+      "выключи текущую музыку в Discord",
+      "заверши проигрывание музыки в Discord"
+    ],
+    "en": [
+      "stop music playback in Discord",
+      "turn off the current music in Discord",
+      "end the music playback in Discord"
+    ],
+    "de": [
+      "beende die Musikwiedergabe in Discord",
+      "schalte die laufende Musik aus in Discord",
+      "stoppe den Musikplayer in Discord"
+    ],
+    "fr": [
+      "arrête la lecture musicale dans Discord",
+      "coupe la musique en cours dans Discord",
+      "termine la lecture de la musique dans Discord"
+    ],
+    "es": [
+      "detén la reproducción musical en Discord",
+      "apaga la música actual en Discord",
+      "termina la reproducción de música en Discord"
+    ],
+    "it": [
+      "ferma la riproduzione musicale su Discord",
+      "spegni la musica attuale su Discord",
+      "interrompi definitivamente la riproduzione musicale su Discord"
+    ],
+    "pt": [
+      "para a reprodução musical no Discord",
+      "desliga a música atual no Discord",
+      "termina a reprodução da música no Discord"
+    ]
+  },
+  "discord.bot_join_voice": {
+    "ru": [
+      "заведи бота Discord в голосовой канал {channel}",
+      "пусть бот Discord войдёт в голосовой канал {channel}",
+      "присоедини музыкального бота Discord к голосовому каналу {channel}"
+    ],
+    "en": [
+      "bring the Discord bot into voice channel {channel}",
+      "have the Discord bot join voice channel {channel}",
+      "connect the Discord music bot to voice channel {channel}"
+    ],
+    "de": [
+      "hole den Discord-Bot in den Sprachkanal {channel}",
+      "lass den Discord-Bot dem Sprachkanal {channel} beitreten",
+      "verbinde den Discord-Musikbot mit dem Sprachkanal {channel}"
+    ],
+    "fr": [
+      "fais entrer le bot Discord dans le salon vocal {channel}",
+      "demande au bot Discord de rejoindre le salon vocal {channel}",
+      "connecte le bot musical Discord au salon vocal {channel}"
+    ],
+    "es": [
+      "mete el bot de Discord en el canal de voz {channel}",
+      "haz que el bot de Discord entre al canal de voz {channel}",
+      "conecta el bot musical de Discord al canal de voz {channel}"
+    ],
+    "it": [
+      "porta il bot Discord nel canale vocale {channel}",
+      "fai entrare il bot Discord nel canale vocale {channel}",
+      "collega il bot musicale Discord al canale vocale {channel}"
+    ],
+    "pt": [
+      "leva o bot do Discord para o canal de voz {channel}",
+      "faz o bot do Discord entrar no canal de voz {channel}",
+      "liga o bot musical do Discord ao canal de voz {channel}"
+    ]
+  },
+  "discord.bot_leave_voice": {
+    "ru": [
+      "выведи бота Discord из голосового канала",
+      "пусть бот Discord покинет голосовой чат",
+      "разорви голосовое подключение бота Discord"
+    ],
+    "en": [
+      "remove the Discord bot from the voice channel",
+      "have the Discord bot leave voice chat",
+      "disconnect the Discord bot voice connection"
+    ],
+    "de": [
+      "entferne den Discord-Bot aus dem Sprachkanal",
+      "lass den Discord-Bot den Sprachchat verlassen",
+      "trenne die Sprachverbindung des Discord-Bots"
+    ],
+    "fr": [
+      "retire le bot Discord du salon vocal",
+      "fais quitter le chat vocal au bot Discord",
+      "coupe la connexion vocale du bot Discord"
+    ],
+    "es": [
+      "saca al bot de Discord del canal de voz",
+      "haz que el bot de Discord salga del chat de voz",
+      "desconecta la conexión de voz del bot de Discord"
+    ],
+    "it": [
+      "rimuovi il bot Discord dal canale vocale",
+      "fai uscire il bot Discord dalla chat vocale",
+      "interrompi la connessione vocale del bot Discord"
+    ],
+    "pt": [
+      "retira o bot do Discord do canal de voz",
+      "faz o bot do Discord sair da conversa de voz",
+      "desliga a ligação de voz do bot do Discord"
+    ]
+  },
+  "discord.list_channels": {
+    "ru": [
+      "перечисли каналы Discord на сервере {server}",
+      "какие каналы доступны в Discord на сервере {server}",
+      "выведи список каналов сервера Discord {server}"
+    ],
+    "en": [
+      "list the Discord channels on server {server}",
+      "which channels are available on Discord server {server}",
+      "display the channel list for Discord server {server}"
+    ],
+    "de": [
+      "liste die Discord-Kanäle des Servers {server} auf",
+      "welche Kanäle sind auf dem Discord-Server {server} verfügbar",
+      "zeige die Kanalliste des Discord-Servers {server}"
+    ],
+    "fr": [
+      "énumère les salons du serveur Discord {server}",
+      "quels salons sont disponibles sur le serveur Discord {server}",
+      "affiche la liste des salons du serveur Discord {server}"
+    ],
+    "es": [
+      "enumera los canales del servidor de Discord {server}",
+      "qué canales hay disponibles en el servidor de Discord {server}",
+      "muestra la lista de canales del servidor de Discord {server}"
+    ],
+    "it": [
+      "elenca i canali del server Discord {server}",
+      "quali canali sono disponibili sul server Discord {server}",
+      "visualizza la lista dei canali del server Discord {server}"
+    ],
+    "pt": [
+      "enumera os canais do servidor do Discord {server}",
+      "que canais estão disponíveis no servidor do Discord {server}",
+      "apresenta a lista de canais do servidor do Discord {server}"
+    ]
+  },
+  "discord.connect_channel": {
+    "ru": [
+      "соединись с каналом Discord {channel}",
+      "установи подключение к каналу {channel} в Discord",
+      "выбери для подключения канал Discord {channel}"
+    ],
+    "en": [
+      "establish a connection to Discord channel {channel}",
+      "connect to the channel {channel} on Discord",
+      "choose Discord channel {channel} for connection"
+    ],
+    "de": [
+      "stelle eine Verbindung zum Discord-Kanal {channel} her",
+      "verbinde dich auf Discord mit dem Kanal {channel}",
+      "wähle den Discord-Kanal {channel} für die Verbindung"
+    ],
+    "fr": [
+      "établis une connexion au salon Discord {channel}",
+      "connecte-toi au salon {channel} sur Discord",
+      "choisis le salon Discord {channel} pour la connexion"
+    ],
+    "es": [
+      "establece una conexión con el canal de Discord {channel}",
+      "conéctate al canal {channel} de Discord",
+      "elige el canal de Discord {channel} para la conexión"
+    ],
+    "it": [
+      "stabilisci una connessione al canale Discord {channel}",
+      "connettiti al canale {channel} su Discord",
+      "scegli il canale Discord {channel} per il collegamento"
+    ],
+    "pt": [
+      "estabelece uma ligação ao canal do Discord {channel}",
+      "liga-te ao canal {channel} no Discord",
+      "escolhe o canal do Discord {channel} para a ligação"
+    ]
+  },
+  "discord.attach_text_channel": {
+    "ru": [
+      "привяжи текстовый канал Discord {channel}",
+      "используй текстовый канал {channel} для сообщений Discord",
+      "назначь текстовый канал Discord {channel} для отправки"
+    ],
+    "en": [
+      "link the Discord text channel {channel}",
+      "use text channel {channel} for Discord messages",
+      "assign Discord text channel {channel} for sending messages"
+    ],
+    "de": [
+      "verknüpfe den Discord-Textkanal {channel}",
+      "verwende den Textkanal {channel} für Discord-Nachrichten",
+      "lege den Discord-Textkanal {channel} zum Senden fest"
+    ],
+    "fr": [
+      "rattache le salon textuel Discord {channel}",
+      "utilise le salon textuel {channel} pour les messages Discord",
+      "désigne le salon textuel Discord {channel} pour l’envoi"
+    ],
+    "es": [
+      "asocia para mensajes el canal de texto de Discord {channel}",
+      "usa el canal de texto {channel} para mensajes de Discord",
+      "asigna el canal de texto de Discord {channel} para enviar mensajes"
+    ],
+    "it": [
+      "associa il canale testuale Discord {channel}",
+      "usa il canale testuale {channel} per i messaggi Discord",
+      "imposta il canale testuale Discord {channel} per l’invio"
+    ],
+    "pt": [
+      "vincula para mensagens o canal de texto do Discord {channel}",
+      "usa o canal de texto {channel} para mensagens do Discord",
+      "define o canal de texto do Discord {channel} para o envio"
+    ]
+  },
+  "discord.detach_text_channel": {
+    "ru": [
+      "отвяжи текстовый канал Discord",
+      "убери привязанный канал сообщений Discord",
+      "прекрати использовать текущий текстовый канал Discord"
+    ],
+    "en": [
+      "unlink the Discord text channel",
+      "remove the linked Discord messaging channel",
+      "stop using the current Discord text channel"
+    ],
+    "de": [
+      "hebe die Verknüpfung des Discord-Textkanals auf",
+      "entferne den verbundenen Discord-Nachrichtenkanal",
+      "verwende den aktuellen Discord-Textkanal nicht mehr"
+    ],
+    "fr": [
+      "supprime l’association du salon textuel Discord",
+      "retire le salon de messages Discord associé",
+      "cesse d’utiliser le salon textuel Discord actuel"
+    ],
+    "es": [
+      "elimina la vinculación del canal de texto de Discord",
+      "quita el canal de mensajes de Discord vinculado",
+      "deja de usar el canal de texto actual de Discord"
+    ],
+    "it": [
+      "dissocia il canale testuale Discord",
+      "rimuovi il canale di messaggi Discord associato",
+      "smetti di usare il canale testuale Discord attuale"
+    ],
+    "pt": [
+      "desassocia o canal de texto do Discord",
+      "retira o canal de mensagens do Discord associado",
+      "deixa de usar o canal de texto atual do Discord"
+    ]
+  },
+  "discord.text_channel_status": {
+    "ru": [
+      "какой текстовый канал привязан в Discord",
+      "проверь текущую привязку канала сообщений Discord",
+      "куда настроена отправка текста в Discord"
+    ],
+    "en": [
+      "which Discord text channel is linked",
+      "check the current Discord message channel binding",
+      "where are Discord text messages configured to go"
+    ],
+    "de": [
+      "welcher Discord-Textkanal ist verknüpft",
+      "prüfe die aktuelle Zuordnung des Discord-Nachrichtenkanals",
+      "wohin werden Discord-Textnachrichten derzeit gesendet"
+    ],
+    "fr": [
+      "quel salon textuel Discord est associé",
+      "vérifie l’association actuelle du salon de messages Discord",
+      "vers quel salon l’envoi de texte Discord est-il configuré"
+    ],
+    "es": [
+      "qué canal de texto de Discord está vinculado",
+      "comprueba la vinculación actual del canal de mensajes de Discord",
+      "a dónde está configurado el envío de texto en Discord"
+    ],
+    "it": [
+      "quale canale testuale Discord è associato",
+      "verifica l’associazione attuale del canale di messaggi Discord",
+      "dove è configurato l’invio dei messaggi testuali Discord"
+    ],
+    "pt": [
+      "que canal de texto do Discord está associado",
+      "verifica a associação atual do canal de mensagens do Discord",
+      "para onde está configurado o envio de texto no Discord"
+    ]
+  },
+  "discord.background_status": {
+    "ru": [
+      "бот Discord сейчас подключён",
+      "покажи состояние фонового бота Discord",
+      "проверь доступность Discord бота"
+    ],
+    "en": [
+      "is the Discord bot connected right now",
+      "show the background Discord bot status",
+      "check whether the Discord bot is reachable"
+    ],
+    "de": [
+      "ist der Discord-Bot gerade verbunden",
+      "zeige den Zustand des Discord-Bots im Hintergrund",
+      "prüfe ob der Discord-Bot erreichbar ist"
+    ],
+    "fr": [
+      "le bot Discord est-il connecté actuellement",
+      "affiche l’état du bot Discord en arrière-plan",
+      "vérifie si le bot Discord est joignable"
+    ],
+    "es": [
+      "está conectado el bot de Discord ahora",
+      "muestra el estado del bot de Discord en segundo plano",
+      "comprueba si el bot de Discord está disponible"
+    ],
+    "it": [
+      "il bot Discord è collegato adesso",
+      "mostra lo stato del bot Discord in sottofondo",
+      "verifica se il bot Discord è raggiungibile"
+    ],
+    "pt": [
+      "o bot do Discord está ligado agora",
+      "mostra o estado do bot do Discord em segundo plano",
+      "verifica se o bot do Discord está acessível"
+    ]
+  },
+  "media.status": {
+    "ru": [
+      "назови текущее видео YouTube",
+      "что за ролик открыт на YouTube",
+      "покажи состояние видео YouTube"
+    ],
+    "en": [
+      "name the current YouTube video",
+      "which clip is open on YouTube",
+      "show the YouTube video state"
+    ],
+    "de": [
+      "nenne das aktuelle YouTube-Video",
+      "welcher Clip ist auf YouTube geöffnet",
+      "zeige den Zustand des YouTube-Videos"
+    ],
+    "fr": [
+      "donne le titre de la vidéo YouTube actuelle",
+      "quel clip est ouvert sur YouTube",
+      "affiche l’état de la vidéo YouTube"
+    ],
+    "es": [
+      "dime el título del vídeo actual de YouTube",
+      "qué clip está abierto en YouTube",
+      "muestra el estado del vídeo de YouTube"
+    ],
+    "it": [
+      "dimmi il titolo del video YouTube attuale",
+      "quale filmato è aperto su YouTube",
+      "mostra lo stato del video YouTube"
+    ],
+    "pt": [
+      "diz o título do vídeo atual do YouTube",
+      "que vídeo está aberto no YouTube",
+      "mostra o estado do vídeo do YouTube"
+    ]
+  },
+  "media.play_search": {
+    "ru": [
+      "поставь ролик {query} на YouTube",
+      "хочу посмотреть видео {query} на YouTube",
+      "найди и открой видео {query} в YouTube"
+    ],
+    "en": [
+      "put on the clip {query} on YouTube",
+      "I want to watch the video {query} on YouTube",
+      "find and open the YouTube video {query}"
+    ],
+    "de": [
+      "zeige den Clip {query} auf YouTube",
+      "ich möchte das Video {query} auf YouTube sehen",
+      "suche und öffne das YouTube-Video {query}"
+    ],
+    "fr": [
+      "mets le clip {query} sur YouTube",
+      "je veux regarder la vidéo {query} sur YouTube",
+      "cherche et ouvre la vidéo YouTube {query}"
+    ],
+    "es": [
+      "pon el clip {query} en YouTube",
+      "quiero ver el vídeo {query} en YouTube",
+      "busca y abre el vídeo de YouTube {query}"
+    ],
+    "it": [
+      "metti il filmato {query} su YouTube",
+      "voglio guardare il video {query} su YouTube",
+      "cerca e apri il video YouTube {query}"
+    ],
+    "pt": [
+      "põe o vídeo {query} no YouTube",
+      "quero ver o vídeo {query} no YouTube",
+      "procura e abre o vídeo do YouTube {query}"
+    ]
+  },
+  "media.play_pause": {
+    "ru": [
+      "переключи воспроизведение видео YouTube между паузой и продолжением",
+      "нажми воспроизведение или паузу для YouTube",
+      "измени состояние паузы ролика YouTube"
+    ],
+    "en": [
+      "toggle play and pause for the YouTube video",
+      "press play or pause on YouTube",
+      "switch the YouTube clip between playing and paused"
+    ],
+    "de": [
+      "wechsle beim YouTube-Video zwischen Wiedergabe und Pause",
+      "betätige Wiedergabe oder Pause auf YouTube",
+      "schalte den Pausenzustand des YouTube-Clips um"
+    ],
+    "fr": [
+      "bascule la vidéo YouTube entre lecture et pause",
+      "appuie sur lecture ou pause dans YouTube",
+      "inverse l’état de pause du clip YouTube"
+    ],
+    "es": [
+      "alterna entre reproducción y pausa en el vídeo de YouTube",
+      "pulsa reproducir o pausar en YouTube",
+      "cambia el estado de pausa del clip de YouTube"
+    ],
+    "it": [
+      "alterna riproduzione e pausa per il video YouTube",
+      "premi riproduci o pausa su YouTube",
+      "cambia lo stato di pausa del filmato YouTube"
+    ],
+    "pt": [
+      "alterna entre reprodução e pausa no vídeo do YouTube",
+      "carrega em reproduzir ou pausar no YouTube",
+      "muda o estado de pausa do vídeo do YouTube"
+    ]
+  },
+  "media.play": {
+    "ru": [
+      "сними видео YouTube с паузы",
+      "возобнови ролик на YouTube",
+      "пусть видео YouTube играет дальше"
+    ],
+    "en": [
+      "unpause the YouTube video",
+      "resume the clip on YouTube",
+      "let the YouTube video continue playing"
+    ],
+    "de": [
+      "hebe die Pause des YouTube-Videos auf",
+      "setze den Clip auf YouTube fort",
+      "lass das YouTube-Video weiterlaufen"
+    ],
+    "fr": [
+      "retire la pause de la vidéo YouTube",
+      "reprends le clip sur YouTube",
+      "laisse la vidéo YouTube continuer"
+    ],
+    "es": [
+      "quita la pausa del vídeo de YouTube",
+      "reanuda el clip en YouTube",
+      "deja que continúe el vídeo de YouTube"
+    ],
+    "it": [
+      "togli la pausa al video YouTube",
+      "riprendi il filmato su YouTube",
+      "lascia continuare il video YouTube"
+    ],
+    "pt": [
+      "tira o vídeo do YouTube da pausa",
+      "retoma o vídeo no YouTube",
+      "deixa o vídeo do YouTube continuar"
+    ]
+  },
+  "media.pause": {
+    "ru": [
+      "приостанови ролик YouTube",
+      "сделай паузу в видео на YouTube",
+      "пока прерви воспроизведение видео YouTube"
+    ],
+    "en": [
+      "pause the clip on YouTube",
+      "put YouTube video playback on hold",
+      "temporarily pause the YouTube video"
+    ],
+    "de": [
+      "pausiere den Clip auf YouTube",
+      "unterbrich die YouTube-Videowiedergabe kurz",
+      "lege beim YouTube-Video eine Pause ein"
+    ],
+    "fr": [
+      "suspends le clip YouTube",
+      "mets la lecture vidéo YouTube en pause",
+      "interromps temporairement la vidéo YouTube"
+    ],
+    "es": [
+      "pausa el clip de YouTube",
+      "deja la reproducción del vídeo de YouTube en pausa",
+      "interrumpe temporalmente el vídeo de YouTube"
+    ],
+    "it": [
+      "sospendi il filmato YouTube",
+      "metti la riproduzione del video YouTube in pausa",
+      "interrompi temporaneamente il video YouTube"
+    ],
+    "pt": [
+      "suspende o vídeo do YouTube",
+      "deixa a reprodução do vídeo do YouTube em pausa",
+      "interrompe temporariamente o vídeo do YouTube"
+    ]
+  },
+  "media.stop": {
+    "ru": [
+      "выключи воспроизведение ролика YouTube",
+      "прекрати видео на YouTube",
+      "заверши проигрывание видео YouTube"
+    ],
+    "en": [
+      "stop playback of the YouTube clip",
+      "turn off the YouTube video",
+      "end YouTube video playback"
+    ],
+    "de": [
+      "stoppe die Wiedergabe des YouTube-Clips",
+      "schalte das YouTube-Video aus",
+      "beende die YouTube-Videowiedergabe"
+    ],
+    "fr": [
+      "arrête la lecture du clip YouTube",
+      "coupe la vidéo YouTube",
+      "termine la lecture vidéo YouTube"
+    ],
+    "es": [
+      "detén la reproducción del clip de YouTube",
+      "apaga el vídeo de YouTube",
+      "termina la reproducción del vídeo de YouTube"
+    ],
+    "it": [
+      "ferma la riproduzione del filmato YouTube",
+      "spegni il video YouTube",
+      "termina la riproduzione del video YouTube"
+    ],
+    "pt": [
+      "para a reprodução do vídeo do YouTube",
+      "desliga o vídeo do YouTube",
+      "termina a reprodução do vídeo do YouTube"
+    ]
+  },
+  "media.seek_forward": {
+    "ru": [
+      "пропусти {seconds} секунд видео YouTube",
+      "продвинь ролик YouTube вперёд на {seconds} секунд",
+      "добавь {seconds} секунд к текущей позиции видео YouTube"
+    ],
+    "en": [
+      "skip ahead {seconds} seconds in the YouTube video",
+      "move the YouTube clip forward by {seconds} seconds",
+      "add {seconds} seconds to the current YouTube video position"
+    ],
+    "de": [
+      "springe im YouTube-Video {seconds} Sekunden vor",
+      "spule den YouTube-Clip um {seconds} Sekunden vor",
+      "verschiebe die aktuelle YouTube-Position um {seconds} Sekunden nach vorne"
+    ],
+    "fr": [
+      "saute {seconds} secondes dans la vidéo YouTube",
+      "avance le clip YouTube de {seconds} secondes",
+      "ajoute {seconds} secondes à la position actuelle de YouTube"
+    ],
+    "es": [
+      "salta {seconds} segundos hacia delante en el vídeo de YouTube",
+      "avanza el clip de YouTube {seconds} segundos",
+      "añade {seconds} segundos a la posición actual del vídeo de YouTube"
+    ],
+    "it": [
+      "salta avanti di {seconds} secondi nel video YouTube",
+      "avanza il filmato YouTube di {seconds} secondi",
+      "aggiungi {seconds} secondi alla posizione attuale del video YouTube"
+    ],
+    "pt": [
+      "salta {seconds} segundos para a frente no vídeo do YouTube",
+      "avança o vídeo do YouTube {seconds} segundos",
+      "acrescenta {seconds} segundos à posição atual do vídeo do YouTube"
+    ]
+  },
+  "media.seek_backward": {
+    "ru": [
+      "вернись на {seconds} секунд назад в видео YouTube",
+      "отмотай ролик YouTube назад на {seconds} секунд",
+      "вычти {seconds} секунд из текущей позиции видео YouTube"
+    ],
+    "en": [
+      "go back {seconds} seconds in the YouTube video",
+      "rewind the YouTube clip by {seconds} seconds",
+      "subtract {seconds} seconds from the current YouTube video position"
+    ],
+    "de": [
+      "gehe im YouTube-Video {seconds} Sekunden zurück",
+      "spule den YouTube-Clip um {seconds} Sekunden zurück",
+      "verschiebe die aktuelle YouTube-Position um {seconds} Sekunden nach hinten"
+    ],
+    "fr": [
+      "recule de {seconds} secondes dans la vidéo YouTube",
+      "rembobine le clip YouTube de {seconds} secondes",
+      "retire {seconds} secondes à la position actuelle de YouTube"
+    ],
+    "es": [
+      "vuelve {seconds} segundos atrás en el vídeo de YouTube",
+      "rebobina el clip de YouTube {seconds} segundos",
+      "resta {seconds} segundos a la posición actual del vídeo de YouTube"
+    ],
+    "it": [
+      "torna indietro di {seconds} secondi nel video YouTube",
+      "riavvolgi il filmato YouTube di {seconds} secondi",
+      "sottrai {seconds} secondi dalla posizione attuale del video YouTube"
+    ],
+    "pt": [
+      "volta {seconds} segundos atrás no vídeo do YouTube",
+      "rebobina o vídeo do YouTube {seconds} segundos",
+      "retira {seconds} segundos à posição atual do vídeo do YouTube"
+    ]
+  },
+  "media.seek_to": {
+    "ru": [
+      "перейди к {position_seconds} секундам видео YouTube",
+      "начни ролик YouTube с позиции {position_seconds} секунд",
+      "установи позицию видео YouTube на {position_seconds} секунд"
+    ],
+    "en": [
+      "jump to {position_seconds} seconds in the YouTube video",
+      "start the YouTube clip at the {position_seconds} second mark",
+      "set the YouTube video position to {position_seconds} seconds"
+    ],
+    "de": [
+      "springe im YouTube-Video zu Sekunde {position_seconds}",
+      "starte den YouTube-Clip bei {position_seconds} Sekunden",
+      "setze die YouTube-Videoposition auf {position_seconds} Sekunden"
+    ],
+    "fr": [
+      "va à {position_seconds} secondes dans la vidéo YouTube",
+      "reprends le clip YouTube à {position_seconds} secondes",
+      "règle la position de la vidéo YouTube sur {position_seconds} secondes"
+    ],
+    "es": [
+      "salta a {position_seconds} segundos del vídeo de YouTube",
+      "empieza el clip de YouTube desde {position_seconds} segundos",
+      "pon la posición del vídeo de YouTube en {position_seconds} segundos"
+    ],
+    "it": [
+      "vai al secondo {position_seconds} del video YouTube",
+      "inizia il filmato YouTube da {position_seconds} secondi",
+      "imposta la posizione del video YouTube a {position_seconds} secondi"
+    ],
+    "pt": [
+      "salta para os {position_seconds} segundos do vídeo do YouTube",
+      "começa o vídeo do YouTube aos {position_seconds} segundos",
+      "define a posição do vídeo do YouTube para {position_seconds} segundos"
+    ]
+  },
+  "media.fullscreen": {
+    "ru": [
+      "переключи YouTube между окном и полным экраном",
+      "нажми кнопку полного экрана в YouTube",
+      "измени полноэкранное состояние видео YouTube"
+    ],
+    "en": [
+      "toggle YouTube between windowed and fullscreen",
+      "press the fullscreen button on YouTube",
+      "switch the fullscreen state of the YouTube video"
+    ],
+    "de": [
+      "wechsle bei YouTube zwischen Fenster und Vollbild",
+      "betätige die Vollbildtaste auf YouTube",
+      "schalte den Vollbildzustand des YouTube-Videos um"
+    ],
+    "fr": [
+      "bascule YouTube entre fenêtre et plein écran",
+      "appuie sur le bouton plein écran de YouTube",
+      "inverse le mode plein écran de la vidéo YouTube"
+    ],
+    "es": [
+      "alterna YouTube entre ventana y pantalla completa",
+      "pulsa el botón de pantalla completa de YouTube",
+      "cambia el estado de pantalla completa del vídeo de YouTube"
+    ],
+    "it": [
+      "alterna YouTube tra finestra e schermo intero",
+      "premi il pulsante a schermo intero di YouTube",
+      "cambia lo stato di schermo intero del video YouTube"
+    ],
+    "pt": [
+      "alterna o YouTube entre janela e ecrã inteiro",
+      "carrega no botão de ecrã inteiro do YouTube",
+      "muda o estado de ecrã inteiro do vídeo do YouTube"
+    ]
+  },
+  "media.theater": {
+    "ru": [
+      "переключи YouTube между обычным видом и кинотеатром",
+      "нажми кнопку режима кинотеатра в YouTube",
+      "измени состояние режима кинотеатра YouTube"
+    ],
+    "en": [
+      "toggle YouTube between normal and theater view",
+      "press the theater mode button on YouTube",
+      "switch the YouTube theater mode state"
+    ],
+    "de": [
+      "wechsle bei YouTube zwischen normaler Ansicht und Kinomodus",
+      "betätige die Kinomodus-Taste auf YouTube",
+      "ändere den Zustand des YouTube-Kinomodus"
+    ],
+    "fr": [
+      "bascule YouTube entre vue normale et mode cinéma",
+      "appuie sur le bouton du mode cinéma de YouTube",
+      "inverse le mode cinéma de YouTube"
+    ],
+    "es": [
+      "alterna YouTube entre vista normal y modo cine",
+      "pulsa el botón de modo cine de YouTube",
+      "cambia el estado del modo cine de YouTube"
+    ],
+    "it": [
+      "alterna YouTube tra visualizzazione normale e modalità cinema",
+      "premi il pulsante della modalità cinema di YouTube",
+      "cambia lo stato della modalità cinema di YouTube"
+    ],
+    "pt": [
+      "alterna o YouTube entre vista normal e modo cinema",
+      "carrega no botão do modo cinema do YouTube",
+      "muda o estado do modo cinema do YouTube"
+    ]
+  },
+  "music.status": {
+    "ru": [
+      "назови текущую песню",
+      "какую музыку я сейчас слушаю",
+      "скажи название играющего трека"
+    ],
+    "en": [
+      "what song am I listening to",
+      "tell me the name of the current track",
+      "identify the music playing now"
+    ],
+    "de": [
+      "welches Lied höre ich gerade",
+      "nenne mir den laufenden Titel",
+      "wie heißt die Musik die gerade läuft"
+    ],
+    "fr": [
+      "quel morceau suis-je en train d’écouter",
+      "donne-moi le titre du morceau en cours",
+      "quelle chanson passe en ce moment"
+    ],
+    "es": [
+      "qué canción estoy escuchando",
+      "dime el nombre del tema actual",
+      "identifica la música que está sonando"
+    ],
+    "it": [
+      "che canzone sto ascoltando",
+      "dimmi il nome del brano attuale",
+      "qual è la musica in riproduzione"
+    ],
+    "pt": [
+      "que música estou a ouvir",
+      "diz-me o nome da faixa atual",
+      "identifica a música que está a tocar"
+    ]
+  },
+  "music.background_status": {
+    "ru": [
+      "покажи состояние фонового плеера",
+      "музыкальный плеер сейчас работает",
+      "расскажи о состоянии воспроизведения музыки"
+    ],
+    "en": [
+      "show the background player state",
+      "is the music player running",
+      "tell me the music playback status"
+    ],
+    "de": [
+      "zeige den Zustand des Hintergrundplayers",
+      "läuft der Musikplayer gerade",
+      "wie ist der Status der Musikwiedergabe"
+    ],
+    "fr": [
+      "affiche l’état du lecteur en arrière-plan",
+      "le lecteur de musique fonctionne-t-il",
+      "donne-moi l’état de la lecture musicale"
+    ],
+    "es": [
+      "muestra el estado del reproductor en segundo plano",
+      "está funcionando el reproductor de música",
+      "dime el estado de la reproducción musical"
+    ],
+    "it": [
+      "mostra lo stato del lettore in sottofondo",
+      "il lettore musicale è in funzione",
+      "qual è lo stato della riproduzione musicale"
+    ],
+    "pt": [
+      "mostra o estado do leitor em segundo plano",
+      "o leitor de música está a funcionar",
+      "diz-me o estado da reprodução musical"
+    ]
+  },
+  "music.play": {
+    "ru": [
+      "продолжи проигрывание музыки",
+      "сними музыку с паузы",
+      "верни воспроизведение музыки"
+    ],
+    "en": [
+      "continue playing the music",
+      "unpause the music",
+      "pick up the music where it stopped"
+    ],
+    "de": [
+      "setze die Musikwiedergabe fort",
+      "hebe die Musikpause auf",
+      "lass die pausierte Musik weiterlaufen"
+    ],
+    "fr": [
+      "reprends la lecture de la musique",
+      "retire la pause de la musique",
+      "continue le morceau mis en pause"
+    ],
+    "es": [
+      "continúa reproduciendo la música",
+      "quita la pausa de la música",
+      "reanuda la canción pausada"
+    ],
+    "it": [
+      "continua la riproduzione della musica",
+      "togli la pausa alla musica",
+      "riprendi il brano messo in pausa"
+    ],
+    "pt": [
+      "continua a reprodução da música",
+      "tira a música da pausa",
+      "retoma a faixa que estava em pausa"
+    ]
+  },
+  "music.pause": {
+    "ru": [
+      "приостанови воспроизведение музыки",
+      "пауза для музыки",
+      "прерви музыку на время"
+    ],
+    "en": [
+      "pause music playback",
+      "put the song on hold",
+      "temporarily pause the music"
+    ],
+    "de": [
+      "pausiere die Musikwiedergabe",
+      "lege bei der Musik eine Pause ein",
+      "unterbrich die Musik vorübergehend"
+    ],
+    "fr": [
+      "suspends la lecture musicale",
+      "mets le morceau en pause",
+      "interromps temporairement la musique"
+    ],
+    "es": [
+      "pausa la reproducción musical",
+      "deja la canción en pausa",
+      "interrumpe temporalmente la música"
+    ],
+    "it": [
+      "metti in pausa la riproduzione musicale",
+      "sospendi il brano",
+      "interrompi temporaneamente la musica"
+    ],
+    "pt": [
+      "pausa a reprodução musical",
+      "deixa a música em pausa",
+      "interrompe temporariamente a música"
+    ]
+  },
+  "music.stop": {
+    "ru": [
+      "прекрати воспроизведение музыки",
+      "выключи текущую музыку",
+      "заверши проигрывание музыки"
+    ],
+    "en": [
+      "stop music playback",
+      "turn off the current music",
+      "end the music playback"
+    ],
+    "de": [
+      "beende die Musikwiedergabe",
+      "schalte die laufende Musik aus",
+      "stoppe den Musikplayer"
+    ],
+    "fr": [
+      "arrête la lecture musicale",
+      "coupe la musique en cours",
+      "termine la lecture de la musique"
+    ],
+    "es": [
+      "detén la reproducción musical",
+      "apaga la música actual",
+      "termina la reproducción de música"
+    ],
+    "it": [
+      "ferma la riproduzione musicale",
+      "spegni la musica attuale",
+      "interrompi definitivamente la riproduzione musicale"
+    ],
+    "pt": [
+      "para a reprodução musical",
+      "desliga a música atual",
+      "termina a reprodução da música"
+    ]
+  },
+  "music.next": {
+    "ru": [
+      "переключи музыку на следующий трек",
+      "пропусти эту песню",
+      "давай следующий трек"
+    ],
+    "en": [
+      "skip to the next song",
+      "skip this track",
+      "move on to the next music track"
+    ],
+    "de": [
+      "springe zum nächsten Lied",
+      "überspringe diesen Titel",
+      "mach mit dem nächsten Musikstück weiter"
+    ],
+    "fr": [
+      "change de chanson pour la suivante",
+      "saute cette chanson",
+      "avance au prochain titre"
+    ],
+    "es": [
+      "pasa a la siguiente canción",
+      "salta esta pista",
+      "avanza al próximo tema"
+    ],
+    "it": [
+      "passa alla canzone successiva",
+      "salta questo brano",
+      "vai alla prossima traccia"
+    ],
+    "pt": [
+      "passa à música seguinte",
+      "salta esta faixa",
+      "avança para a próxima canção"
+    ]
+  },
+  "music.previous": {
+    "ru": [
+      "верни прошлую песню",
+      "переключи на трек который был до этого",
+      "назад на предыдущую композицию"
+    ],
+    "en": [
+      "go back to the last song",
+      "return to the previous music track",
+      "play the track before this one"
+    ],
+    "de": [
+      "gehe zum letzten Lied zurück",
+      "wechsle zum vorherigen Musikstück",
+      "spiele den Titel vor diesem"
+    ],
+    "fr": [
+      "reviens à la chanson précédente",
+      "retourne au morceau d’avant",
+      "remets le titre qui passait juste avant"
+    ],
+    "es": [
+      "vuelve a la canción anterior",
+      "regresa al tema previo",
+      "pon la pista que sonaba antes de esta"
+    ],
+    "it": [
+      "torna alla canzone precedente",
+      "rimetti il brano di prima",
+      "riproduci la traccia che precedeva questa"
+    ],
+    "pt": [
+      "volta à música anterior",
+      "regressa à faixa de antes",
+      "toca a canção que estava antes desta"
+    ]
+  },
+  "music.play_track": {
+    "ru": [
+      "поставь трек {query}",
+      "хочу послушать песню {query}",
+      "найди и включи композицию {query}"
+    ],
+    "en": [
+      "put on the track {query}",
+      "I want to listen to the song {query}",
+      "find and play the song {query}"
+    ],
+    "de": [
+      "lege den Titel {query} auf",
+      "ich möchte das Lied {query} hören",
+      "suche und spiele den Song {query}"
+    ],
+    "fr": [
+      "mets le morceau {query}",
+      "je veux écouter la chanson {query}",
+      "cherche et lance le titre {query}"
+    ],
+    "es": [
+      "pon el tema {query}",
+      "quiero escuchar la canción {query}",
+      "busca y reproduce la canción {query}"
+    ],
+    "it": [
+      "metti il brano {query}",
+      "voglio ascoltare la canzone {query}",
+      "cerca e riproduci il pezzo {query}"
+    ],
+    "pt": [
+      "põe a faixa {query}",
+      "quero ouvir a canção {query}",
+      "procura e toca a música {query}"
+    ]
+  },
+  "music.play_song": {
+    "ru": [
+      "поставь трек {query}",
+      "хочу послушать песню {query}",
+      "найди и включи композицию {query}"
+    ],
+    "en": [
+      "put on the track {query}",
+      "I want to listen to the song {query}",
+      "find and play the song {query}"
+    ],
+    "de": [
+      "lege den Titel {query} auf",
+      "ich möchte das Lied {query} hören",
+      "suche und spiele den Song {query}"
+    ],
+    "fr": [
+      "mets le morceau {query}",
+      "je veux écouter la chanson {query}",
+      "cherche et lance le titre {query}"
+    ],
+    "es": [
+      "pon el tema {query}",
+      "quiero escuchar la canción {query}",
+      "busca y reproduce la canción {query}"
+    ],
+    "it": [
+      "metti il brano {query}",
+      "voglio ascoltare la canzone {query}",
+      "cerca e riproduci il pezzo {query}"
+    ],
+    "pt": [
+      "põe a faixa {query}",
+      "quero ouvir a canção {query}",
+      "procura e toca a música {query}"
+    ]
+  },
+  "music.play_music": {
+    "ru": [
+      "поставь какую-нибудь музыку",
+      "хочу послушать музыку",
+      "запусти воспроизведение музыки"
+    ],
+    "en": [
+      "put some music on",
+      "I want to listen to music",
+      "start music playback"
+    ],
+    "de": [
+      "mach etwas Musik an",
+      "ich möchte Musik hören",
+      "starte die Musikwiedergabe"
+    ],
+    "fr": [
+      "mets un peu de musique",
+      "j’ai envie d’écouter de la musique",
+      "lance la lecture musicale"
+    ],
+    "es": [
+      "pon algo de música",
+      "quiero escuchar música",
+      "inicia la reproducción musical"
+    ],
+    "it": [
+      "metti un po’ di musica",
+      "voglio ascoltare musica",
+      "avvia la riproduzione musicale"
+    ],
+    "pt": [
+      "põe alguma música",
+      "quero ouvir música",
+      "inicia a reprodução musical"
+    ]
+  },
+  "music.search_track": {
+    "ru": [
+      "поищи трек {query}",
+      "отыщи песню {query}"
+    ],
+    "en": [
+      "look for the song {query}",
+      "search for the track {query}"
+    ],
+    "de": [
+      "suche nach dem Lied {query}",
+      "suche den Titel {query}"
+    ],
+    "fr": [
+      "cherche la chanson {query}",
+      "trouve le morceau {query}"
+    ],
+    "es": [
+      "encuentra la canción {query}",
+      "busca el tema {query}"
+    ],
+    "it": [
+      "cerca il brano {query}",
+      "trova il brano {query}"
+    ],
+    "pt": [
+      "pesquisa a música {query}",
+      "encontra a faixa {query}"
+    ]
+  },
+  "music.find_track": {
+    "ru": [
+      "поищи трек {query}",
+      "отыщи песню {query}"
+    ],
+    "en": [
+      "look for the song {query}",
+      "search for the track {query}"
+    ],
+    "de": [
+      "suche nach dem Lied {query}",
+      "suche den Titel {query}"
+    ],
+    "fr": [
+      "cherche la chanson {query}",
+      "trouve le morceau {query}"
+    ],
+    "es": [
+      "encuentra la canción {query}",
+      "busca el tema {query}"
+    ],
+    "it": [
+      "cerca il brano {query}",
+      "trova il brano {query}"
+    ],
+    "pt": [
+      "pesquisa a música {query}",
+      "encontra a faixa {query}"
+    ]
+  },
+  "music.find_song": {
+    "ru": [
+      "поищи трек {query}",
+      "отыщи песню {query}"
+    ],
+    "en": [
+      "look for the song {query}",
+      "search for the track {query}"
+    ],
+    "de": [
+      "suche nach dem Lied {query}",
+      "suche den Titel {query}"
+    ],
+    "fr": [
+      "cherche la chanson {query}",
+      "trouve le morceau {query}"
+    ],
+    "es": [
+      "encuentra la canción {query}",
+      "busca el tema {query}"
+    ],
+    "it": [
+      "cerca il brano {query}",
+      "trova il brano {query}"
+    ],
+    "pt": [
+      "pesquisa a música {query}",
+      "encontra a faixa {query}"
+    ]
+  },
+  "music.start_track": {
+    "ru": [
+      "поставь трек {query}",
+      "хочу послушать песню {query}",
+      "найди и включи композицию {query}"
+    ],
+    "en": [
+      "put on the track {query}",
+      "I want to listen to the song {query}",
+      "find and play the song {query}"
+    ],
+    "de": [
+      "lege den Titel {query} auf",
+      "ich möchte das Lied {query} hören",
+      "suche und spiele den Song {query}"
+    ],
+    "fr": [
+      "mets le morceau {query}",
+      "je veux écouter la chanson {query}",
+      "cherche et lance le titre {query}"
+    ],
+    "es": [
+      "pon el tema {query}",
+      "quiero escuchar la canción {query}",
+      "busca y reproduce la canción {query}"
+    ],
+    "it": [
+      "metti il brano {query}",
+      "voglio ascoltare la canzone {query}",
+      "cerca e riproduci il pezzo {query}"
+    ],
+    "pt": [
+      "põe a faixa {query}",
+      "quero ouvir a canção {query}",
+      "procura e toca a música {query}"
+    ]
+  },
+  "music.playlist": {
+    "ru": [
+      "поставь список песен {playlist}",
+      "хочу послушать плейлист {playlist}",
+      "запусти мой плейлист {playlist}"
+    ],
+    "en": [
+      "put on the playlist {playlist}",
+      "I want to hear the playlist {playlist}",
+      "start playing my playlist {playlist}"
+    ],
+    "de": [
+      "lege die Playlist {playlist} auf",
+      "ich möchte die Playlist {playlist} hören",
+      "starte meine Wiedergabeliste {playlist}"
+    ],
+    "fr": [
+      "mets la liste de lecture {playlist}",
+      "je veux écouter la playlist {playlist}",
+      "démarre ma playlist {playlist}"
+    ],
+    "es": [
+      "pon la playlist {playlist}",
+      "quiero escuchar la lista {playlist}",
+      "inicia mi lista de reproducción {playlist}"
+    ],
+    "it": [
+      "metti la lista di riproduzione {playlist}",
+      "voglio ascoltare la playlist {playlist}",
+      "avvia la mia playlist {playlist}"
+    ],
+    "pt": [
+      "põe a lista de reprodução {playlist}",
+      "quero ouvir a playlist {playlist}",
+      "inicia a minha playlist {playlist}"
+    ]
+  },
+  "music.my_wave": {
+    "ru": [
+      "запусти персональную станцию Моя волна",
+      "поставь мою персональную волну",
+      "хочу послушать Мою волну"
+    ],
+    "en": [
+      "start my personalized My Wave station",
+      "put on My Wave radio",
+      "I want to listen to My Wave"
+    ],
+    "de": [
+      "starte meinen persönlichen Sender My Wave",
+      "schalte das Radio My Wave ein",
+      "ich möchte My Wave hören"
+    ],
+    "fr": [
+      "démarre ma station personnalisée My Wave",
+      "mets la radio My Wave",
+      "je veux écouter My Wave"
+    ],
+    "es": [
+      "inicia mi emisora personalizada My Wave",
+      "pon la radio My Wave",
+      "quiero escuchar My Wave"
+    ],
+    "it": [
+      "avvia la mia stazione personalizzata My Wave",
+      "metti la radio My Wave",
+      "voglio ascoltare My Wave"
+    ],
+    "pt": [
+      "inicia a minha estação personalizada My Wave",
+      "põe a rádio My Wave",
+      "quero ouvir My Wave"
+    ]
+  },
+  "music.my_tracks": {
+    "ru": [
+      "поставь мою коллекцию любимых песен",
+      "воспроизведи треки которым я поставил лайк",
+      "хочу послушать мои понравившиеся песни"
+    ],
+    "en": [
+      "put on my favorite songs collection",
+      "play the tracks I have liked",
+      "I want to hear my liked songs"
+    ],
+    "de": [
+      "lege meine Sammlung von Lieblingsliedern auf",
+      "spiele die Titel denen ich ein Like gegeben habe",
+      "ich möchte meine mit Gefällt mir markierten Songs hören"
+    ],
+    "fr": [
+      "mets ma collection de chansons favorites",
+      "joue les titres que j’ai aimés",
+      "je veux écouter mes morceaux favoris"
+    ],
+    "es": [
+      "pon mi colección de canciones favoritas",
+      "reproduce los temas que he marcado con me gusta",
+      "quiero escuchar mis canciones favoritas"
+    ],
+    "it": [
+      "metti la mia raccolta di canzoni preferite",
+      "riproduci i brani a cui ho messo mi piace",
+      "voglio ascoltare le mie canzoni preferite"
+    ],
+    "pt": [
+      "põe a minha coleção de músicas favoritas",
+      "toca as faixas a que dei gosto",
+      "quero ouvir as minhas canções favoritas"
+    ]
+  },
+  "music.like": {
+    "ru": [
+      "поставь лайк этой песне",
+      "сохрани текущий трек в любимые",
+      "мне нравится эта композиция"
+    ],
+    "en": [
+      "like this song",
+      "save the current track to my favorites",
+      "I like this music track"
+    ],
+    "de": [
+      "gib diesem Lied ein Like",
+      "speichere den aktuellen Titel als Favoriten",
+      "dieses Musikstück gefällt mir"
+    ],
+    "fr": [
+      "mets un j’aime à cette chanson",
+      "enregistre le titre actuel dans mes favoris",
+      "j’aime ce morceau"
+    ],
+    "es": [
+      "dale me gusta a esta canción",
+      "guarda el tema actual en mis favoritos",
+      "me gusta esta pista"
+    ],
+    "it": [
+      "metti mi piace a questa canzone",
+      "salva il brano attuale tra i preferiti",
+      "questa traccia mi piace"
+    ],
+    "pt": [
+      "dá gosto a esta canção",
+      "guarda a faixa atual nos meus favoritos",
+      "gosto desta música"
+    ]
+  },
+  "music.unlike": {
+    "ru": [
+      "сними лайк с этой песни",
+      "удали текущий трек из любимых",
+      "больше не отмечай эту композицию как понравившуюся"
+    ],
+    "en": [
+      "remove my like from this song",
+      "take the current track out of my favorites",
+      "unmark this song as liked"
+    ],
+    "de": [
+      "entferne mein Like von diesem Lied",
+      "nimm den aktuellen Titel aus meinen Favoriten",
+      "hebe die Gefällt-mir-Markierung dieses Songs auf"
+    ],
+    "fr": [
+      "retire mon j’aime de cette chanson",
+      "enlève le titre actuel de mes favoris",
+      "ne marque plus ce morceau comme aimé"
+    ],
+    "es": [
+      "quita mi me gusta de esta canción",
+      "saca el tema actual de mis favoritos",
+      "desmarca esta canción de las que me gustan"
+    ],
+    "it": [
+      "togli il mio mi piace da questa canzone",
+      "rimuovi il brano attuale dai preferiti",
+      "togli questa traccia dai brani che mi piacciono"
+    ],
+    "pt": [
+      "retira o meu gosto desta canção",
+      "tira a faixa atual dos meus favoritos",
+      "desmarca esta música das que gosto"
+    ]
+  },
+  "music.dislike": {
+    "ru": [
+      "поставь дизлайк текущему треку",
+      "эта песня мне не нравится пропусти её",
+      "исключи эту композицию из рекомендаций"
+    ],
+    "en": [
+      "dislike the current track",
+      "I dislike this song skip it",
+      "exclude this song from recommendations"
+    ],
+    "de": [
+      "markiere den aktuellen Titel mit Gefällt mir nicht",
+      "dieses Lied gefällt mir nicht überspringe es",
+      "schließe dieses Lied aus meinen Empfehlungen aus"
+    ],
+    "fr": [
+      "mets un je n’aime pas au titre actuel",
+      "je n’aime pas cette chanson passe-la",
+      "exclus ce morceau de mes recommandations"
+    ],
+    "es": [
+      "marca no me gusta en la canción actual",
+      "no me gusta esta canción sáltala",
+      "excluye este tema de las recomendaciones"
+    ],
+    "it": [
+      "metti non mi piace al brano attuale",
+      "non mi piace questa canzone saltala",
+      "escludi questo brano dai suggerimenti"
+    ],
+    "pt": [
+      "marca não gosto na faixa atual",
+      "não gosto desta música salta-a",
+      "exclui esta canção das recomendações"
+    ]
+  },
+  "music.shuffle_on": {
+    "ru": [
+      "перемешай порядок музыки",
+      "проигрывай песни вперемешку",
+      "пусть треки идут в случайном порядке"
+    ],
+    "en": [
+      "shuffle the music order",
+      "play the songs randomly",
+      "let the tracks play in a random order"
+    ],
+    "de": [
+      "mische die Musikreihenfolge",
+      "spiele die Lieder durcheinander",
+      "lass die Titel in zufälliger Reihenfolge laufen"
+    ],
+    "fr": [
+      "mélange l’ordre des morceaux",
+      "joue les chansons au hasard",
+      "fais passer les titres dans un ordre aléatoire"
+    ],
+    "es": [
+      "mezcla el orden de la música",
+      "reproduce las canciones al azar",
+      "haz que los temas suenen en orden aleatorio"
+    ],
+    "it": [
+      "mescola l’ordine della musica",
+      "riproduci le canzoni a caso",
+      "fai andare i brani in ordine casuale"
+    ],
+    "pt": [
+      "baralha a ordem da música",
+      "toca as canções ao acaso",
+      "faz as faixas tocarem por ordem aleatória"
+    ]
+  },
+  "music.shuffle_off": {
+    "ru": [
+      "верни обычный порядок музыки",
+      "проигрывай песни по порядку",
+      "отмени перемешивание треков"
+    ],
+    "en": [
+      "restore the normal music order",
+      "play the songs in order",
+      "disable track shuffling"
+    ],
+    "de": [
+      "stelle die normale Musikreihenfolge wieder her",
+      "spiele die Lieder der Reihe nach",
+      "deaktiviere das Mischen der Titel"
+    ],
+    "fr": [
+      "rétablis l’ordre normal des morceaux",
+      "joue les chansons dans l’ordre",
+      "désactive le mélange des titres"
+    ],
+    "es": [
+      "restaura el orden normal de la música",
+      "reproduce las canciones en orden",
+      "desactiva la mezcla de pistas"
+    ],
+    "it": [
+      "ripristina l’ordine normale della musica",
+      "riproduci le canzoni in ordine",
+      "disattiva il mescolamento dei brani"
+    ],
+    "pt": [
+      "repõe a ordem normal da música",
+      "toca as canções por ordem",
+      "desativa a mistura das faixas"
+    ]
+  },
+  "music.repeat_on": {
+    "ru": [
+      "зацикли текущую песню",
+      "повторяй только этот трек",
+      "поставь эту композицию на повтор"
+    ],
+    "en": [
+      "loop the current song",
+      "repeat only this track",
+      "put this song on repeat"
+    ],
+    "de": [
+      "spiele das aktuelle Lied in Dauerschleife",
+      "wiederhole nur diesen Titel",
+      "stelle für dieses Lied die Wiederholung ein"
+    ],
+    "fr": [
+      "joue la chanson actuelle en boucle",
+      "répète uniquement ce titre",
+      "mets ce morceau en répétition"
+    ],
+    "es": [
+      "reproduce la canción actual en bucle",
+      "repite solo esta pista",
+      "pon este tema en repetición"
+    ],
+    "it": [
+      "riproduci la canzone attuale in loop",
+      "ripeti soltanto questo brano",
+      "metti questa traccia in ripetizione"
+    ],
+    "pt": [
+      "toca a canção atual em ciclo",
+      "repete apenas esta faixa",
+      "põe esta música em repetição"
+    ]
+  },
+  "music.repeat_track": {
+    "ru": [
+      "зацикли текущую песню",
+      "повторяй только этот трек",
+      "поставь эту композицию на повтор"
+    ],
+    "en": [
+      "loop the current song",
+      "repeat only this track",
+      "put this song on repeat"
+    ],
+    "de": [
+      "spiele das aktuelle Lied in Dauerschleife",
+      "wiederhole nur diesen Titel",
+      "stelle für dieses Lied die Wiederholung ein"
+    ],
+    "fr": [
+      "joue la chanson actuelle en boucle",
+      "répète uniquement ce titre",
+      "mets ce morceau en répétition"
+    ],
+    "es": [
+      "reproduce la canción actual en bucle",
+      "repite solo esta pista",
+      "pon este tema en repetición"
+    ],
+    "it": [
+      "riproduci la canzone attuale in loop",
+      "ripeti soltanto questo brano",
+      "metti questa traccia in ripetizione"
+    ],
+    "pt": [
+      "toca a canção atual em ciclo",
+      "repete apenas esta faixa",
+      "põe esta música em repetição"
+    ]
+  },
+  "music.repeat_playlist": {
+    "ru": [
+      "зацикли весь плейлист",
+      "повторяй список песен целиком",
+      "после конца плейлиста начинай его сначала"
+    ],
+    "en": [
+      "loop the whole playlist",
+      "repeat the complete song list",
+      "start the playlist again when it ends"
+    ],
+    "de": [
+      "spiele die ganze Playlist in Dauerschleife",
+      "wiederhole die vollständige Wiedergabeliste",
+      "beginne die Playlist nach ihrem Ende erneut"
+    ],
+    "fr": [
+      "joue toute la playlist en boucle",
+      "répète la liste de lecture complète",
+      "recommence la playlist quand elle se termine"
+    ],
+    "es": [
+      "reproduce toda la lista en bucle",
+      "repite la lista completa de canciones",
+      "vuelve a empezar la playlist cuando termine"
+    ],
+    "it": [
+      "riproduci tutta la playlist in loop",
+      "ripeti l’intera lista di brani",
+      "ricomincia la playlist quando finisce"
+    ],
+    "pt": [
+      "toca toda a playlist em ciclo",
+      "repete a lista completa de músicas",
+      "recomeça a playlist quando terminar"
+    ]
+  },
+  "music.repeat_off": {
+    "ru": [
+      "отмени зацикливание музыки",
+      "не повторяй песни автоматически",
+      "убери повтор воспроизведения"
+    ],
+    "en": [
+      "disable music looping",
+      "do not repeat songs automatically",
+      "remove playback repeat"
+    ],
+    "de": [
+      "deaktiviere die Musikschleife",
+      "wiederhole die Lieder nicht automatisch",
+      "beende die Wiedergabewiederholung"
+    ],
+    "fr": [
+      "désactive la lecture musicale en boucle",
+      "ne répète pas les chansons automatiquement",
+      "retire la répétition de lecture"
+    ],
+    "es": [
+      "desactiva el bucle de música",
+      "no repitas canciones automáticamente",
+      "quita la repetición de reproducción"
+    ],
+    "it": [
+      "disattiva il loop della musica",
+      "non ripetere automaticamente le canzoni",
+      "togli la ripetizione della riproduzione"
+    ],
+    "pt": [
+      "desativa o ciclo de música",
+      "não repitas as canções automaticamente",
+      "retira a repetição da reprodução"
+    ]
+  },
+  "music.set_volume": {
+    "ru": [
+      "сделай громкость музыки {volume} процентов",
+      "громкость плеера {volume} процентов",
+      "выставь музыку на {volume} процентов громкости"
+    ],
+    "en": [
+      "make the music volume {volume} percent",
+      "set the player loudness to {volume} percent",
+      "adjust music to {volume} percent volume"
+    ],
+    "de": [
+      "passe die Musiklautstärke auf {volume} Prozent an",
+      "setze den Playerpegel auf {volume} Prozent",
+      "regle die Musik auf {volume} Prozent Lautstärke"
+    ],
+    "fr": [
+      "mets le volume musical à {volume} pour cent",
+      "règle le niveau du lecteur à {volume} pour cent",
+      "ajuste la musique à {volume} pour cent de volume"
+    ],
+    "es": [
+      "pon el volumen musical al {volume} por ciento",
+      "ajusta el nivel del reproductor al {volume} por ciento",
+      "deja la música a un volumen del {volume} por ciento"
+    ],
+    "it": [
+      "porta il volume musicale al {volume} per cento",
+      "imposta il livello del lettore al {volume} per cento",
+      "regola la musica al {volume} per cento del volume"
+    ],
+    "pt": [
+      "põe o volume musical em {volume} por cento",
+      "ajusta o nível do leitor para {volume} por cento",
+      "deixa a música a {volume} por cento do volume"
+    ]
+  },
+  "music.volume_up": {
+    "ru": [
+      "сделай музыку погромче",
+      "увеличь громкость музыкального плеера",
+      "подними уровень звука музыки"
+    ],
+    "en": [
+      "make the music louder",
+      "increase the music player volume",
+      "raise the music sound level"
+    ],
+    "de": [
+      "mach die Musik lauter",
+      "erhöhe die Lautstärke des Musikplayers",
+      "hebe den Musikpegel an"
+    ],
+    "fr": [
+      "mets la musique plus fort",
+      "augmente le volume du lecteur musical",
+      "monte le niveau sonore de la musique"
+    ],
+    "es": [
+      "pon la música más alta",
+      "aumenta el volumen del reproductor musical",
+      "sube el nivel de sonido de la música"
+    ],
+    "it": [
+      "alza la musica",
+      "aumenta il volume del lettore musicale",
+      "alza il livello sonoro della musica"
+    ],
+    "pt": [
+      "põe a música mais alta",
+      "aumenta o volume do leitor de música",
+      "sobe o nível sonoro da música"
+    ]
+  },
+  "music.volume_down": {
+    "ru": [
+      "сделай музыку потише",
+      "уменьши громкость музыкального плеера",
+      "снизь уровень звука музыки"
+    ],
+    "en": [
+      "make the music quieter",
+      "decrease the music player volume",
+      "lower the music sound level"
+    ],
+    "de": [
+      "mach die Musik leiser",
+      "verringere die Lautstärke des Musikplayers",
+      "senke den Musikpegel"
+    ],
+    "fr": [
+      "mets la musique moins fort",
+      "diminue le volume du lecteur musical",
+      "baisse le niveau sonore de la musique"
+    ],
+    "es": [
+      "pon la música más baja",
+      "reduce el volumen del reproductor musical",
+      "baja el nivel de sonido de la música"
+    ],
+    "it": [
+      "abbassa la musica",
+      "riduci il volume del lettore musicale",
+      "abbassa il livello sonoro della musica"
+    ],
+    "pt": [
+      "põe a música mais baixa",
+      "reduz o volume do leitor de música",
+      "baixa o nível sonoro da música"
+    ]
+  },
+  "music.queue_status": {
+    "ru": [
+      "какие песни стоят в очереди",
+      "покажи следующие треки в очереди",
+      "что будет играть после текущей песни"
+    ],
+    "en": [
+      "which songs are queued",
+      "show the upcoming tracks in the queue",
+      "what will play after the current song"
+    ],
+    "de": [
+      "welche Lieder stehen in der Warteschlange",
+      "zeige die nächsten Titel der Warteschlange",
+      "was läuft nach dem aktuellen Lied"
+    ],
+    "fr": [
+      "quelles chansons sont dans la file d’attente",
+      "montre les prochains titres de la file",
+      "qu’est-ce qui passera après la chanson actuelle"
+    ],
+    "es": [
+      "qué canciones hay en la cola",
+      "muestra las próximas pistas de la cola",
+      "qué sonará después de la canción actual"
+    ],
+    "it": [
+      "quali canzoni sono in coda",
+      "mostra i prossimi brani della coda",
+      "cosa verrà riprodotto dopo la canzone attuale"
+    ],
+    "pt": [
+      "que músicas estão na fila",
+      "mostra as próximas faixas da fila",
+      "o que vai tocar depois da música atual"
+    ]
+  },
+  "music.queue_clear": {
+    "ru": [
+      "удали все ожидающие треки из очереди",
+      "сбрось очередь воспроизведения",
+      "убери запланированные песни из очереди"
+    ],
+    "en": [
+      "remove all waiting tracks from the queue",
+      "reset the playback queue",
+      "discard the queued songs"
+    ],
+    "de": [
+      "entferne alle wartenden Titel aus der Warteschlange",
+      "setze die Wiedergabewarteschlange zurück",
+      "verwirf die vorgemerkten Lieder"
+    ],
+    "fr": [
+      "retire tous les titres en attente de la file",
+      "réinitialise la file de lecture",
+      "supprime les chansons mises en attente"
+    ],
+    "es": [
+      "elimina todas las pistas pendientes de la cola",
+      "reinicia la cola de reproducción",
+      "descarta las canciones en espera"
+    ],
+    "it": [
+      "rimuovi tutti i brani in attesa dalla coda",
+      "azzera la coda di riproduzione",
+      "elimina le canzoni accodate"
+    ],
+    "pt": [
+      "remove todas as faixas pendentes da fila",
+      "repõe a fila de reprodução",
+      "descarta as músicas em espera"
+    ]
+  },
+  "music.queue_add": {
+    "ru": [
+      "поставь трек {query} последним в очередь",
+      "пусть песня {query} играет после всей очереди",
+      "дополни конец музыкальной очереди композицией {query}"
+    ],
+    "en": [
+      "put the track {query} last in the queue",
+      "play the song {query} after the entire queue",
+      "append the song {query} to the music queue"
+    ],
+    "de": [
+      "setze den Titel {query} ans Ende der Warteschlange",
+      "spiele das Lied {query} nach der gesamten Warteschlange",
+      "hänge den Song {query} an die Musikwarteschlange an"
+    ],
+    "fr": [
+      "mets le titre {query} en dernier dans la file",
+      "joue la chanson {query} après toute la file",
+      "ajoute le morceau {query} au bout de la file musicale"
+    ],
+    "es": [
+      "pon el tema {query} al final de la cola",
+      "reproduce la canción {query} después de toda la cola",
+      "agrega la pista {query} al final de la cola musical"
+    ],
+    "it": [
+      "metti il brano {query} per ultimo in coda",
+      "riproduci la canzone {query} dopo l’intera coda",
+      "accoda il pezzo {query} alla fine della coda musicale"
+    ],
+    "pt": [
+      "põe a faixa {query} por último na fila",
+      "toca a canção {query} depois de toda a fila",
+      "acrescenta a música {query} ao fim da fila musical"
+    ]
+  },
+  "music.queue_next": {
+    "ru": [
+      "добавь трек {query} в начало очереди",
+      "пусть песня {query} играет сразу после текущей",
+      "вставь композицию {query} первой среди следующих треков"
+    ],
+    "en": [
+      "add the track {query} at the front of the queue",
+      "play the song {query} immediately after the current one",
+      "insert the song {query} as the next queued track"
+    ],
+    "de": [
+      "füge den Titel {query} vorne in die Warteschlange ein",
+      "spiele das Lied {query} direkt nach dem aktuellen",
+      "setze den Song {query} als nächsten wartenden Titel ein"
+    ],
+    "fr": [
+      "ajoute le titre {query} au début de la file",
+      "joue la chanson {query} juste après le morceau actuel",
+      "insère le morceau {query} en première position de la file"
+    ],
+    "es": [
+      "añade el tema {query} al principio de la cola",
+      "reproduce la canción {query} justo después de la actual",
+      "inserta la pista {query} como la próxima en la cola"
+    ],
+    "it": [
+      "aggiungi il brano {query} all’inizio della coda",
+      "riproduci la canzone {query} subito dopo quella attuale",
+      "inserisci il pezzo {query} come prossimo brano in coda"
+    ],
+    "pt": [
+      "adiciona a faixa {query} ao início da fila",
+      "toca a canção {query} logo depois da atual",
+      "insere a música {query} como a próxima da fila"
+    ]
+  },
+  "music.seek": {
+    "ru": [
+      "перейди к {seconds} секундам текущего трека",
+      "начни текущую песню с позиции {seconds} секунд",
+      "выставь позицию музыки на {seconds} секунд"
+    ],
+    "en": [
+      "jump to {seconds} seconds in the current track",
+      "start this song from the {seconds} second mark",
+      "set the music position to {seconds} seconds"
+    ],
+    "de": [
+      "springe im aktuellen Titel zu Sekunde {seconds}",
+      "starte dieses Lied bei der Marke von {seconds} Sekunden",
+      "setze die Musikposition auf {seconds} Sekunden"
+    ],
+    "fr": [
+      "va à {seconds} secondes dans le titre actuel",
+      "reprends cette chanson à la marque de {seconds} secondes",
+      "règle la position musicale sur {seconds} secondes"
+    ],
+    "es": [
+      "salta a {seconds} segundos de la pista actual",
+      "empieza esta canción desde la marca de {seconds} segundos",
+      "pon la posición de la música en {seconds} segundos"
+    ],
+    "it": [
+      "vai al secondo {seconds} del brano attuale",
+      "riparti da questa canzone al punto di {seconds} secondi",
+      "imposta la posizione musicale a {seconds} secondi"
+    ],
+    "pt": [
+      "salta para os {seconds} segundos da faixa atual",
+      "começa esta canção na marca dos {seconds} segundos",
+      "define a posição da música para {seconds} segundos"
+    ]
+  },
+  "spotify.status": {
+    "ru": [
+      "назови текущую песню в Spotify",
+      "какую музыку я сейчас слушаю в Spotify",
+      "скажи название играющего трека в Spotify"
+    ],
+    "en": [
+      "what song am I listening to in Spotify",
+      "tell me the name of the current track in Spotify",
+      "identify the music playing now in Spotify"
+    ],
+    "de": [
+      "welches Lied höre ich gerade in Spotify",
+      "nenne mir den laufenden Titel in Spotify",
+      "wie heißt die Musik die gerade läuft in Spotify"
+    ],
+    "fr": [
+      "quel morceau suis-je en train d’écouter sur Spotify",
+      "donne-moi le titre du morceau en cours sur Spotify",
+      "quelle chanson passe en ce moment sur Spotify"
+    ],
+    "es": [
+      "qué canción estoy escuchando en Spotify",
+      "dime el nombre del tema actual en Spotify",
+      "identifica la música que está sonando en Spotify"
+    ],
+    "it": [
+      "che canzone sto ascoltando su Spotify",
+      "dimmi il nome del brano attuale su Spotify",
+      "qual è la musica in riproduzione su Spotify"
+    ],
+    "pt": [
+      "que música estou a ouvir no Spotify",
+      "diz-me o nome da faixa atual no Spotify",
+      "identifica a música que está a tocar no Spotify"
+    ]
+  },
+  "spotify.background_status": {
+    "ru": [
+      "покажи состояние фонового плеера в Spotify",
+      "музыкальный плеер сейчас работает в Spotify",
+      "расскажи о состоянии воспроизведения музыки в Spotify"
+    ],
+    "en": [
+      "show the background player state in Spotify",
+      "is the music player running in Spotify",
+      "tell me the music playback status in Spotify"
+    ],
+    "de": [
+      "zeige den Zustand des Hintergrundplayers in Spotify",
+      "läuft der Musikplayer gerade in Spotify",
+      "wie ist der Status der Musikwiedergabe in Spotify"
+    ],
+    "fr": [
+      "affiche l’état du lecteur en arrière-plan sur Spotify",
+      "le lecteur de musique fonctionne-t-il sur Spotify",
+      "donne-moi l’état de la lecture musicale sur Spotify"
+    ],
+    "es": [
+      "muestra el estado del reproductor en segundo plano en Spotify",
+      "está funcionando el reproductor de música en Spotify",
+      "dime el estado de la reproducción musical en Spotify"
+    ],
+    "it": [
+      "mostra lo stato del lettore in sottofondo su Spotify",
+      "il lettore musicale è in funzione su Spotify",
+      "qual è lo stato della riproduzione musicale su Spotify"
+    ],
+    "pt": [
+      "mostra o estado do leitor em segundo plano no Spotify",
+      "o leitor de música está a funcionar no Spotify",
+      "diz-me o estado da reprodução musical no Spotify"
+    ]
+  },
+  "spotify.play": {
+    "ru": [
+      "продолжи проигрывание музыки в Spotify",
+      "сними музыку с паузы в Spotify",
+      "верни воспроизведение музыки в Spotify"
+    ],
+    "en": [
+      "continue playing the music in Spotify",
+      "unpause the music in Spotify",
+      "pick up the music where it stopped in Spotify"
+    ],
+    "de": [
+      "setze die Musikwiedergabe fort in Spotify",
+      "hebe die Musikpause auf in Spotify",
+      "lass die pausierte Musik weiterlaufen in Spotify"
+    ],
+    "fr": [
+      "reprends la lecture de la musique sur Spotify",
+      "retire la pause de la musique sur Spotify",
+      "continue le morceau mis en pause sur Spotify"
+    ],
+    "es": [
+      "continúa reproduciendo la música en Spotify",
+      "quita la pausa de la música en Spotify",
+      "reanuda la canción pausada en Spotify"
+    ],
+    "it": [
+      "continua la riproduzione della musica su Spotify",
+      "togli la pausa alla musica su Spotify",
+      "riprendi il brano messo in pausa su Spotify"
+    ],
+    "pt": [
+      "continua a reprodução da música no Spotify",
+      "tira a música da pausa no Spotify",
+      "retoma a faixa que estava em pausa no Spotify"
+    ]
+  },
+  "spotify.pause": {
+    "ru": [
+      "приостанови воспроизведение музыки в Spotify",
+      "пауза для музыки в Spotify",
+      "прерви музыку на время в Spotify"
+    ],
+    "en": [
+      "pause music playback in Spotify",
+      "put the song on hold in Spotify",
+      "temporarily pause the music in Spotify"
+    ],
+    "de": [
+      "pausiere die Musikwiedergabe in Spotify",
+      "lege bei der Musik eine Pause ein in Spotify",
+      "unterbrich die Musik vorübergehend in Spotify"
+    ],
+    "fr": [
+      "suspends la lecture musicale sur Spotify",
+      "mets le morceau en pause sur Spotify",
+      "interromps temporairement la musique sur Spotify"
+    ],
+    "es": [
+      "pausa la reproducción musical en Spotify",
+      "deja la canción en pausa en Spotify",
+      "interrumpe temporalmente la música en Spotify"
+    ],
+    "it": [
+      "metti in pausa la riproduzione musicale su Spotify",
+      "sospendi il brano su Spotify",
+      "interrompi temporaneamente la musica su Spotify"
+    ],
+    "pt": [
+      "pausa a reprodução musical no Spotify",
+      "deixa a música em pausa no Spotify",
+      "interrompe temporariamente a música no Spotify"
+    ]
+  },
+  "spotify.stop": {
+    "ru": [
+      "прекрати воспроизведение музыки в Spotify",
+      "выключи текущую музыку в Spotify",
+      "заверши проигрывание музыки в Spotify"
+    ],
+    "en": [
+      "stop music playback in Spotify",
+      "turn off the current music in Spotify",
+      "end the music playback in Spotify"
+    ],
+    "de": [
+      "beende die Musikwiedergabe in Spotify",
+      "schalte die laufende Musik aus in Spotify",
+      "stoppe den Musikplayer in Spotify"
+    ],
+    "fr": [
+      "arrête la lecture musicale sur Spotify",
+      "coupe la musique en cours sur Spotify",
+      "termine la lecture de la musique sur Spotify"
+    ],
+    "es": [
+      "detén la reproducción musical en Spotify",
+      "apaga la música actual en Spotify",
+      "termina la reproducción de música en Spotify"
+    ],
+    "it": [
+      "ferma la riproduzione musicale su Spotify",
+      "spegni la musica attuale su Spotify",
+      "interrompi definitivamente la riproduzione musicale su Spotify"
+    ],
+    "pt": [
+      "para a reprodução musical no Spotify",
+      "desliga a música atual no Spotify",
+      "termina a reprodução da música no Spotify"
+    ]
+  },
+  "spotify.next": {
+    "ru": [
+      "переключи музыку на следующий трек в Spotify",
+      "пропусти эту песню в Spotify",
+      "давай следующий трек в Spotify"
+    ],
+    "en": [
+      "skip to the next song in Spotify",
+      "skip this track in Spotify",
+      "move on to the next music track in Spotify"
+    ],
+    "de": [
+      "springe zum nächsten Lied in Spotify",
+      "überspringe diesen Titel in Spotify",
+      "mach mit dem nächsten Musikstück weiter in Spotify"
+    ],
+    "fr": [
+      "change de chanson pour la suivante sur Spotify",
+      "saute cette chanson sur Spotify",
+      "avance au prochain titre sur Spotify"
+    ],
+    "es": [
+      "pasa a la siguiente canción en Spotify",
+      "salta esta pista en Spotify",
+      "avanza al próximo tema en Spotify"
+    ],
+    "it": [
+      "passa alla canzone successiva su Spotify",
+      "salta questo brano su Spotify",
+      "vai alla prossima traccia su Spotify"
+    ],
+    "pt": [
+      "passa à música seguinte no Spotify",
+      "salta esta faixa no Spotify",
+      "avança para a próxima canção no Spotify"
+    ]
+  },
+  "spotify.previous": {
+    "ru": [
+      "верни прошлую песню в Spotify",
+      "переключи на трек который был до этого в Spotify",
+      "назад на предыдущую композицию в Spotify"
+    ],
+    "en": [
+      "go back to the last song in Spotify",
+      "return to the previous music track in Spotify",
+      "play the track before this one in Spotify"
+    ],
+    "de": [
+      "gehe zum letzten Lied zurück in Spotify",
+      "wechsle zum vorherigen Musikstück in Spotify",
+      "spiele den Titel vor diesem in Spotify"
+    ],
+    "fr": [
+      "reviens à la chanson précédente sur Spotify",
+      "retourne au morceau d’avant sur Spotify",
+      "remets le titre qui passait juste avant sur Spotify"
+    ],
+    "es": [
+      "vuelve a la canción anterior en Spotify",
+      "regresa al tema previo en Spotify",
+      "pon la pista que sonaba antes de esta en Spotify"
+    ],
+    "it": [
+      "torna alla canzone precedente su Spotify",
+      "rimetti il brano di prima su Spotify",
+      "riproduci la traccia che precedeva questa su Spotify"
+    ],
+    "pt": [
+      "volta à música anterior no Spotify",
+      "regressa à faixa de antes no Spotify",
+      "toca a canção que estava antes desta no Spotify"
+    ]
+  },
+  "spotify.play_track": {
+    "ru": [
+      "поставь трек {query} в Spotify",
+      "хочу послушать песню {query} в Spotify",
+      "найди и включи композицию {query} в Spotify"
+    ],
+    "en": [
+      "put on the track {query} in Spotify",
+      "I want to listen to the song {query} in Spotify",
+      "find and play the song {query} in Spotify"
+    ],
+    "de": [
+      "lege den Titel {query} auf in Spotify",
+      "ich möchte das Lied {query} hören in Spotify",
+      "suche und spiele den Song {query} in Spotify"
+    ],
+    "fr": [
+      "mets le morceau {query} sur Spotify",
+      "je veux écouter la chanson {query} sur Spotify",
+      "cherche et lance le titre {query} sur Spotify"
+    ],
+    "es": [
+      "pon el tema {query} en Spotify",
+      "quiero escuchar la canción {query} en Spotify",
+      "busca y reproduce la canción {query} en Spotify"
+    ],
+    "it": [
+      "metti il brano {query} su Spotify",
+      "voglio ascoltare la canzone {query} su Spotify",
+      "cerca e riproduci il pezzo {query} su Spotify"
+    ],
+    "pt": [
+      "põe a faixa {query} no Spotify",
+      "quero ouvir a canção {query} no Spotify",
+      "procura e toca a música {query} no Spotify"
+    ]
+  },
+  "spotify.play_song": {
+    "ru": [
+      "поставь трек {query} в Spotify",
+      "хочу послушать песню {query} в Spotify",
+      "найди и включи композицию {query} в Spotify"
+    ],
+    "en": [
+      "put on the track {query} in Spotify",
+      "I want to listen to the song {query} in Spotify",
+      "find and play the song {query} in Spotify"
+    ],
+    "de": [
+      "lege den Titel {query} auf in Spotify",
+      "ich möchte das Lied {query} hören in Spotify",
+      "suche und spiele den Song {query} in Spotify"
+    ],
+    "fr": [
+      "mets le morceau {query} sur Spotify",
+      "je veux écouter la chanson {query} sur Spotify",
+      "cherche et lance le titre {query} sur Spotify"
+    ],
+    "es": [
+      "pon el tema {query} en Spotify",
+      "quiero escuchar la canción {query} en Spotify",
+      "busca y reproduce la canción {query} en Spotify"
+    ],
+    "it": [
+      "metti il brano {query} su Spotify",
+      "voglio ascoltare la canzone {query} su Spotify",
+      "cerca e riproduci il pezzo {query} su Spotify"
+    ],
+    "pt": [
+      "põe a faixa {query} no Spotify",
+      "quero ouvir a canção {query} no Spotify",
+      "procura e toca a música {query} no Spotify"
+    ]
+  },
+  "spotify.play_music": {
+    "ru": [
+      "продолжи проигрывание музыки в Spotify",
+      "сними музыку с паузы в Spotify",
+      "верни воспроизведение музыки в Spotify"
+    ],
+    "en": [
+      "continue playing the music in Spotify",
+      "unpause the music in Spotify",
+      "pick up the music where it stopped in Spotify"
+    ],
+    "de": [
+      "setze die Musikwiedergabe fort in Spotify",
+      "hebe die Musikpause auf in Spotify",
+      "lass die pausierte Musik weiterlaufen in Spotify"
+    ],
+    "fr": [
+      "reprends la lecture de la musique sur Spotify",
+      "retire la pause de la musique sur Spotify",
+      "continue le morceau mis en pause sur Spotify"
+    ],
+    "es": [
+      "continúa reproduciendo la música en Spotify",
+      "quita la pausa de la música en Spotify",
+      "reanuda la canción pausada en Spotify"
+    ],
+    "it": [
+      "continua la riproduzione della musica su Spotify",
+      "togli la pausa alla musica su Spotify",
+      "riprendi il brano messo in pausa su Spotify"
+    ],
+    "pt": [
+      "continua a reprodução da música no Spotify",
+      "tira a música da pausa no Spotify",
+      "retoma a faixa que estava em pausa no Spotify"
+    ]
+  },
+  "spotify.search_track": {
+    "ru": [
+      "поищи трек {query} в Spotify",
+      "отыщи песню {query} в Spotify"
+    ],
+    "en": [
+      "look for the song {query} on Spotify",
+      "search for the track {query} on Spotify"
+    ],
+    "de": [
+      "suche nach dem Lied {query} auf Spotify",
+      "suche den Titel {query} auf Spotify"
+    ],
+    "fr": [
+      "cherche la chanson {query} sur Spotify",
+      "trouve le morceau {query} sur Spotify"
+    ],
+    "es": [
+      "encuentra la canción {query} en Spotify",
+      "busca el tema {query} en Spotify"
+    ],
+    "it": [
+      "cerca il brano {query} su Spotify",
+      "trova il brano {query} su Spotify"
+    ],
+    "pt": [
+      "pesquisa a música {query} no Spotify",
+      "encontra a faixa {query} no Spotify"
+    ]
+  },
+  "spotify.find_track": {
+    "ru": [
+      "поищи трек {query} в Spotify",
+      "отыщи песню {query} в Spotify"
+    ],
+    "en": [
+      "look for the song {query} on Spotify",
+      "search for the track {query} on Spotify"
+    ],
+    "de": [
+      "suche nach dem Lied {query} auf Spotify",
+      "suche den Titel {query} auf Spotify"
+    ],
+    "fr": [
+      "cherche la chanson {query} sur Spotify",
+      "trouve le morceau {query} sur Spotify"
+    ],
+    "es": [
+      "encuentra la canción {query} en Spotify",
+      "busca el tema {query} en Spotify"
+    ],
+    "it": [
+      "cerca il brano {query} su Spotify",
+      "trova il brano {query} su Spotify"
+    ],
+    "pt": [
+      "pesquisa a música {query} no Spotify",
+      "encontra a faixa {query} no Spotify"
+    ]
+  },
+  "spotify.find_song": {
+    "ru": [
+      "поищи трек {query} в Spotify",
+      "отыщи песню {query} в Spotify"
+    ],
+    "en": [
+      "look for the song {query} on Spotify",
+      "search for the track {query} on Spotify"
+    ],
+    "de": [
+      "suche nach dem Lied {query} auf Spotify",
+      "suche den Titel {query} auf Spotify"
+    ],
+    "fr": [
+      "cherche la chanson {query} sur Spotify",
+      "trouve le morceau {query} sur Spotify"
+    ],
+    "es": [
+      "encuentra la canción {query} en Spotify",
+      "busca el tema {query} en Spotify"
+    ],
+    "it": [
+      "cerca il brano {query} su Spotify",
+      "trova il brano {query} su Spotify"
+    ],
+    "pt": [
+      "pesquisa a música {query} no Spotify",
+      "encontra a faixa {query} no Spotify"
+    ]
+  },
+  "spotify.start_track": {
+    "ru": [
+      "поставь трек {query} в Spotify",
+      "хочу послушать песню {query} в Spotify",
+      "найди и включи композицию {query} в Spotify"
+    ],
+    "en": [
+      "put on the track {query} in Spotify",
+      "I want to listen to the song {query} in Spotify",
+      "find and play the song {query} in Spotify"
+    ],
+    "de": [
+      "lege den Titel {query} auf in Spotify",
+      "ich möchte das Lied {query} hören in Spotify",
+      "suche und spiele den Song {query} in Spotify"
+    ],
+    "fr": [
+      "mets le morceau {query} sur Spotify",
+      "je veux écouter la chanson {query} sur Spotify",
+      "cherche et lance le titre {query} sur Spotify"
+    ],
+    "es": [
+      "pon el tema {query} en Spotify",
+      "quiero escuchar la canción {query} en Spotify",
+      "busca y reproduce la canción {query} en Spotify"
+    ],
+    "it": [
+      "metti il brano {query} su Spotify",
+      "voglio ascoltare la canzone {query} su Spotify",
+      "cerca e riproduci il pezzo {query} su Spotify"
+    ],
+    "pt": [
+      "põe a faixa {query} no Spotify",
+      "quero ouvir a canção {query} no Spotify",
+      "procura e toca a música {query} no Spotify"
+    ]
+  },
+  "spotify.playlist": {
+    "ru": [
+      "поставь список песен {playlist} в Spotify",
+      "хочу послушать плейлист {playlist} в Spotify",
+      "запусти мой плейлист {playlist} в Spotify"
+    ],
+    "en": [
+      "put on the playlist {playlist} in Spotify",
+      "I want to hear the playlist {playlist} in Spotify",
+      "start playing my playlist {playlist} in Spotify"
+    ],
+    "de": [
+      "lege die Playlist {playlist} auf in Spotify",
+      "ich möchte die Playlist {playlist} hören in Spotify",
+      "starte meine Wiedergabeliste {playlist} in Spotify"
+    ],
+    "fr": [
+      "mets la liste de lecture {playlist} sur Spotify",
+      "je veux écouter la playlist {playlist} sur Spotify",
+      "démarre ma playlist {playlist} sur Spotify"
+    ],
+    "es": [
+      "pon la playlist {playlist} en Spotify",
+      "quiero escuchar la lista {playlist} en Spotify",
+      "inicia mi lista de reproducción {playlist} en Spotify"
+    ],
+    "it": [
+      "metti la lista di riproduzione {playlist} su Spotify",
+      "voglio ascoltare la playlist {playlist} su Spotify",
+      "avvia la mia playlist {playlist} su Spotify"
+    ],
+    "pt": [
+      "põe a lista de reprodução {playlist} no Spotify",
+      "quero ouvir a playlist {playlist} no Spotify",
+      "inicia a minha playlist {playlist} no Spotify"
+    ]
+  },
+  "spotify.shuffle_on": {
+    "ru": [
+      "перемешай порядок музыки в Spotify",
+      "проигрывай песни вперемешку в Spotify",
+      "пусть треки идут в случайном порядке в Spotify"
+    ],
+    "en": [
+      "shuffle the music order in Spotify",
+      "play the songs randomly in Spotify",
+      "let the tracks play in a random order in Spotify"
+    ],
+    "de": [
+      "mische die Musikreihenfolge in Spotify",
+      "spiele die Lieder durcheinander in Spotify",
+      "lass die Titel in zufälliger Reihenfolge laufen in Spotify"
+    ],
+    "fr": [
+      "mélange l’ordre des morceaux sur Spotify",
+      "joue les chansons au hasard sur Spotify",
+      "fais passer les titres dans un ordre aléatoire sur Spotify"
+    ],
+    "es": [
+      "mezcla el orden de la música en Spotify",
+      "reproduce las canciones al azar en Spotify",
+      "haz que los temas suenen en orden aleatorio en Spotify"
+    ],
+    "it": [
+      "mescola l’ordine della musica su Spotify",
+      "riproduci le canzoni a caso su Spotify",
+      "fai andare i brani in ordine casuale su Spotify"
+    ],
+    "pt": [
+      "baralha a ordem da música no Spotify",
+      "toca as canções ao acaso no Spotify",
+      "faz as faixas tocarem por ordem aleatória no Spotify"
+    ]
+  },
+  "spotify.shuffle_off": {
+    "ru": [
+      "верни обычный порядок музыки в Spotify",
+      "проигрывай песни по порядку в Spotify",
+      "отмени перемешивание треков в Spotify"
+    ],
+    "en": [
+      "restore the normal music order in Spotify",
+      "play the songs in order in Spotify",
+      "disable track shuffling in Spotify"
+    ],
+    "de": [
+      "stelle die normale Musikreihenfolge wieder her in Spotify",
+      "spiele die Lieder der Reihe nach in Spotify",
+      "deaktiviere das Mischen der Titel in Spotify"
+    ],
+    "fr": [
+      "rétablis l’ordre normal des morceaux sur Spotify",
+      "joue les chansons dans l’ordre sur Spotify",
+      "désactive le mélange des titres sur Spotify"
+    ],
+    "es": [
+      "restaura el orden normal de la música en Spotify",
+      "reproduce las canciones en orden en Spotify",
+      "desactiva la mezcla de pistas en Spotify"
+    ],
+    "it": [
+      "ripristina l’ordine normale della musica su Spotify",
+      "riproduci le canzoni in ordine su Spotify",
+      "disattiva il mescolamento dei brani su Spotify"
+    ],
+    "pt": [
+      "repõe a ordem normal da música no Spotify",
+      "toca as canções por ordem no Spotify",
+      "desativa a mistura das faixas no Spotify"
+    ]
+  },
+  "spotify.repeat_on": {
+    "ru": [
+      "зацикли текущую песню в Spotify",
+      "повторяй только этот трек в Spotify",
+      "поставь эту композицию на повтор в Spotify"
+    ],
+    "en": [
+      "loop the current song in Spotify",
+      "repeat only this track in Spotify",
+      "put this song on repeat in Spotify"
+    ],
+    "de": [
+      "spiele das aktuelle Lied in Dauerschleife in Spotify",
+      "wiederhole nur diesen Titel in Spotify",
+      "stelle für dieses Lied die Wiederholung ein in Spotify"
+    ],
+    "fr": [
+      "joue la chanson actuelle en boucle sur Spotify",
+      "répète uniquement ce titre sur Spotify",
+      "mets ce morceau en répétition sur Spotify"
+    ],
+    "es": [
+      "reproduce la canción actual en bucle en Spotify",
+      "repite solo esta pista en Spotify",
+      "pon este tema en repetición en Spotify"
+    ],
+    "it": [
+      "riproduci la canzone attuale in loop su Spotify",
+      "ripeti soltanto questo brano su Spotify",
+      "metti questa traccia in ripetizione su Spotify"
+    ],
+    "pt": [
+      "toca a canção atual em ciclo no Spotify",
+      "repete apenas esta faixa no Spotify",
+      "põe esta música em repetição no Spotify"
+    ]
+  },
+  "spotify.repeat_track": {
+    "ru": [
+      "зацикли текущую песню в Spotify",
+      "повторяй только этот трек в Spotify",
+      "поставь эту композицию на повтор в Spotify"
+    ],
+    "en": [
+      "loop the current song in Spotify",
+      "repeat only this track in Spotify",
+      "put this song on repeat in Spotify"
+    ],
+    "de": [
+      "spiele das aktuelle Lied in Dauerschleife in Spotify",
+      "wiederhole nur diesen Titel in Spotify",
+      "stelle für dieses Lied die Wiederholung ein in Spotify"
+    ],
+    "fr": [
+      "joue la chanson actuelle en boucle sur Spotify",
+      "répète uniquement ce titre sur Spotify",
+      "mets ce morceau en répétition sur Spotify"
+    ],
+    "es": [
+      "reproduce la canción actual en bucle en Spotify",
+      "repite solo esta pista en Spotify",
+      "pon este tema en repetición en Spotify"
+    ],
+    "it": [
+      "riproduci la canzone attuale in loop su Spotify",
+      "ripeti soltanto questo brano su Spotify",
+      "metti questa traccia in ripetizione su Spotify"
+    ],
+    "pt": [
+      "toca a canção atual em ciclo no Spotify",
+      "repete apenas esta faixa no Spotify",
+      "põe esta música em repetição no Spotify"
+    ]
+  },
+  "spotify.repeat_playlist": {
+    "ru": [
+      "зацикли весь плейлист в Spotify",
+      "повторяй список песен целиком в Spotify",
+      "после конца плейлиста начинай его сначала в Spotify"
+    ],
+    "en": [
+      "loop the whole playlist in Spotify",
+      "repeat the complete song list in Spotify",
+      "start the playlist again when it ends in Spotify"
+    ],
+    "de": [
+      "spiele die ganze Playlist in Dauerschleife in Spotify",
+      "wiederhole die vollständige Wiedergabeliste in Spotify",
+      "beginne die Playlist nach ihrem Ende erneut in Spotify"
+    ],
+    "fr": [
+      "joue toute la playlist en boucle sur Spotify",
+      "répète la liste de lecture complète sur Spotify",
+      "recommence la playlist quand elle se termine sur Spotify"
+    ],
+    "es": [
+      "reproduce toda la lista en bucle en Spotify",
+      "repite la lista completa de canciones en Spotify",
+      "vuelve a empezar la playlist cuando termine en Spotify"
+    ],
+    "it": [
+      "riproduci tutta la playlist in loop su Spotify",
+      "ripeti l’intera lista di brani su Spotify",
+      "ricomincia la playlist quando finisce su Spotify"
+    ],
+    "pt": [
+      "toca toda a playlist em ciclo no Spotify",
+      "repete a lista completa de músicas no Spotify",
+      "recomeça a playlist quando terminar no Spotify"
+    ]
+  },
+  "spotify.repeat_off": {
+    "ru": [
+      "отмени зацикливание музыки в Spotify",
+      "не повторяй песни автоматически в Spotify",
+      "убери повтор воспроизведения в Spotify"
+    ],
+    "en": [
+      "disable music looping in Spotify",
+      "do not repeat songs automatically in Spotify",
+      "remove playback repeat in Spotify"
+    ],
+    "de": [
+      "deaktiviere die Musikschleife in Spotify",
+      "wiederhole die Lieder nicht automatisch in Spotify",
+      "beende die Wiedergabewiederholung in Spotify"
+    ],
+    "fr": [
+      "désactive la lecture musicale en boucle sur Spotify",
+      "ne répète pas les chansons automatiquement sur Spotify",
+      "retire la répétition de lecture sur Spotify"
+    ],
+    "es": [
+      "desactiva el bucle de música en Spotify",
+      "no repitas canciones automáticamente en Spotify",
+      "quita la repetición de reproducción en Spotify"
+    ],
+    "it": [
+      "disattiva il loop della musica su Spotify",
+      "non ripetere automaticamente le canzoni su Spotify",
+      "togli la ripetizione della riproduzione su Spotify"
+    ],
+    "pt": [
+      "desativa o ciclo de música no Spotify",
+      "não repitas as canções automaticamente no Spotify",
+      "retira a repetição da reprodução no Spotify"
+    ]
+  },
+  "spotify.set_volume": {
+    "ru": [
+      "сделай громкость музыки {volume} процентов в Spotify",
+      "громкость плеера {volume} процентов в Spotify",
+      "выставь музыку на {volume} процентов громкости в Spotify"
+    ],
+    "en": [
+      "make the music volume {volume} percent in Spotify",
+      "set the player loudness to {volume} percent in Spotify",
+      "adjust music to {volume} percent volume in Spotify"
+    ],
+    "de": [
+      "passe die Musiklautstärke auf {volume} Prozent an in Spotify",
+      "setze den Playerpegel auf {volume} Prozent in Spotify",
+      "regle die Musik auf {volume} Prozent Lautstärke in Spotify"
+    ],
+    "fr": [
+      "mets le volume musical à {volume} pour cent sur Spotify",
+      "règle le niveau du lecteur à {volume} pour cent sur Spotify",
+      "ajuste la musique à {volume} pour cent de volume sur Spotify"
+    ],
+    "es": [
+      "pon el volumen musical al {volume} por ciento en Spotify",
+      "ajusta el nivel del reproductor al {volume} por ciento en Spotify",
+      "deja la música a un volumen del {volume} por ciento en Spotify"
+    ],
+    "it": [
+      "porta il volume musicale al {volume} per cento su Spotify",
+      "imposta il livello del lettore al {volume} per cento su Spotify",
+      "regola la musica al {volume} per cento del volume su Spotify"
+    ],
+    "pt": [
+      "põe o volume musical em {volume} por cento no Spotify",
+      "ajusta o nível do leitor para {volume} por cento no Spotify",
+      "deixa a música a {volume} por cento do volume no Spotify"
+    ]
+  },
+  "spotify.volume_up": {
+    "ru": [
+      "сделай музыку погромче в Spotify",
+      "увеличь громкость музыкального плеера в Spotify",
+      "подними уровень звука музыки в Spotify"
+    ],
+    "en": [
+      "make the music louder in Spotify",
+      "increase the music player volume in Spotify",
+      "raise the music sound level in Spotify"
+    ],
+    "de": [
+      "mach die Musik lauter in Spotify",
+      "erhöhe die Lautstärke des Musikplayers in Spotify",
+      "hebe den Musikpegel an in Spotify"
+    ],
+    "fr": [
+      "mets la musique plus fort sur Spotify",
+      "augmente le volume du lecteur musical sur Spotify",
+      "monte le niveau sonore de la musique sur Spotify"
+    ],
+    "es": [
+      "pon la música más alta en Spotify",
+      "aumenta el volumen del reproductor musical en Spotify",
+      "sube el nivel de sonido de la música en Spotify"
+    ],
+    "it": [
+      "alza la musica su Spotify",
+      "aumenta il volume del lettore musicale su Spotify",
+      "alza il livello sonoro della musica su Spotify"
+    ],
+    "pt": [
+      "põe a música mais alta no Spotify",
+      "aumenta o volume do leitor de música no Spotify",
+      "sobe o nível sonoro da música no Spotify"
+    ]
+  },
+  "spotify.volume_down": {
+    "ru": [
+      "сделай музыку потише в Spotify",
+      "уменьши громкость музыкального плеера в Spotify",
+      "снизь уровень звука музыки в Spotify"
+    ],
+    "en": [
+      "make the music quieter in Spotify",
+      "decrease the music player volume in Spotify",
+      "lower the music sound level in Spotify"
+    ],
+    "de": [
+      "mach die Musik leiser in Spotify",
+      "verringere die Lautstärke des Musikplayers in Spotify",
+      "senke den Musikpegel in Spotify"
+    ],
+    "fr": [
+      "mets la musique moins fort sur Spotify",
+      "diminue le volume du lecteur musical sur Spotify",
+      "baisse le niveau sonore de la musique sur Spotify"
+    ],
+    "es": [
+      "pon la música más baja en Spotify",
+      "reduce el volumen del reproductor musical en Spotify",
+      "baja el nivel de sonido de la música en Spotify"
+    ],
+    "it": [
+      "abbassa la musica su Spotify",
+      "riduci il volume del lettore musicale su Spotify",
+      "abbassa il livello sonoro della musica su Spotify"
+    ],
+    "pt": [
+      "põe a música mais baixa no Spotify",
+      "reduz o volume do leitor de música no Spotify",
+      "baixa o nível sonoro da música no Spotify"
+    ]
+  },
+  "spotify.queue_add": {
+    "ru": [
+      "поставь трек {query} последним в очередь в Spotify",
+      "пусть песня {query} играет после всей очереди в Spotify",
+      "дополни конец музыкальной очереди композицией {query} в Spotify"
+    ],
+    "en": [
+      "put the track {query} last in the queue in Spotify",
+      "play the song {query} after the entire queue in Spotify",
+      "append the song {query} to the music queue in Spotify"
+    ],
+    "de": [
+      "setze den Titel {query} ans Ende der Warteschlange in Spotify",
+      "spiele das Lied {query} nach der gesamten Warteschlange in Spotify",
+      "hänge den Song {query} an die Musikwarteschlange an in Spotify"
+    ],
+    "fr": [
+      "mets le titre {query} en dernier dans la file sur Spotify",
+      "joue la chanson {query} après toute la file sur Spotify",
+      "ajoute le morceau {query} au bout de la file musicale sur Spotify"
+    ],
+    "es": [
+      "pon el tema {query} al final de la cola en Spotify",
+      "reproduce la canción {query} después de toda la cola en Spotify",
+      "agrega la pista {query} al final de la cola musical en Spotify"
+    ],
+    "it": [
+      "metti il brano {query} per ultimo in coda su Spotify",
+      "riproduci la canzone {query} dopo l’intera coda su Spotify",
+      "accoda il pezzo {query} alla fine della coda musicale su Spotify"
+    ],
+    "pt": [
+      "põe a faixa {query} por último na fila no Spotify",
+      "toca a canção {query} depois de toda a fila no Spotify",
+      "acrescenta a música {query} ao fim da fila musical no Spotify"
+    ]
+  },
+  "spotify.queue_next": {
+    "ru": [
+      "поставь трек {query} последним в очередь в Spotify",
+      "пусть песня {query} играет после всей очереди в Spotify",
+      "дополни конец музыкальной очереди композицией {query} в Spotify"
+    ],
+    "en": [
+      "put the track {query} last in the queue in Spotify",
+      "play the song {query} after the entire queue in Spotify",
+      "append the song {query} to the music queue in Spotify"
+    ],
+    "de": [
+      "setze den Titel {query} ans Ende der Warteschlange in Spotify",
+      "spiele das Lied {query} nach der gesamten Warteschlange in Spotify",
+      "hänge den Song {query} an die Musikwarteschlange an in Spotify"
+    ],
+    "fr": [
+      "mets le titre {query} en dernier dans la file sur Spotify",
+      "joue la chanson {query} après toute la file sur Spotify",
+      "ajoute le morceau {query} au bout de la file musicale sur Spotify"
+    ],
+    "es": [
+      "pon el tema {query} al final de la cola en Spotify",
+      "reproduce la canción {query} después de toda la cola en Spotify",
+      "agrega la pista {query} al final de la cola musical en Spotify"
+    ],
+    "it": [
+      "metti il brano {query} per ultimo in coda su Spotify",
+      "riproduci la canzone {query} dopo l’intera coda su Spotify",
+      "accoda il pezzo {query} alla fine della coda musicale su Spotify"
+    ],
+    "pt": [
+      "põe a faixa {query} por último na fila no Spotify",
+      "toca a canção {query} depois de toda a fila no Spotify",
+      "acrescenta a música {query} ao fim da fila musical no Spotify"
+    ]
+  },
+  "spotify.like": {
+    "ru": [
+      "поставь лайк этой песне в Spotify",
+      "сохрани текущий трек в любимые в Spotify",
+      "мне нравится эта композиция в Spotify"
+    ],
+    "en": [
+      "like this song in Spotify",
+      "save the current track to my favorites in Spotify",
+      "I like this music track in Spotify"
+    ],
+    "de": [
+      "gib diesem Lied ein Like in Spotify",
+      "speichere den aktuellen Titel als Favoriten in Spotify",
+      "dieses Musikstück gefällt mir in Spotify"
+    ],
+    "fr": [
+      "mets un j’aime à cette chanson sur Spotify",
+      "enregistre le titre actuel dans mes favoris sur Spotify",
+      "j’aime ce morceau sur Spotify"
+    ],
+    "es": [
+      "dale me gusta a esta canción en Spotify",
+      "guarda el tema actual en mis favoritos en Spotify",
+      "me gusta esta pista en Spotify"
+    ],
+    "it": [
+      "metti mi piace a questa canzone su Spotify",
+      "salva il brano attuale tra i preferiti su Spotify",
+      "questa traccia mi piace su Spotify"
+    ],
+    "pt": [
+      "dá gosto a esta canção no Spotify",
+      "guarda a faixa atual nos meus favoritos no Spotify",
+      "gosto desta música no Spotify"
+    ]
+  },
+  "spotify.unlike": {
+    "ru": [
+      "сними лайк с этой песни в Spotify",
+      "удали текущий трек из любимых в Spotify",
+      "больше не отмечай эту композицию как понравившуюся в Spotify"
+    ],
+    "en": [
+      "remove my like from this song in Spotify",
+      "take the current track out of my favorites in Spotify",
+      "unmark this song as liked in Spotify"
+    ],
+    "de": [
+      "entferne mein Like von diesem Lied in Spotify",
+      "nimm den aktuellen Titel aus meinen Favoriten in Spotify",
+      "hebe die Gefällt-mir-Markierung dieses Songs auf in Spotify"
+    ],
+    "fr": [
+      "retire mon j’aime de cette chanson sur Spotify",
+      "enlève le titre actuel de mes favoris sur Spotify",
+      "ne marque plus ce morceau comme aimé sur Spotify"
+    ],
+    "es": [
+      "quita mi me gusta de esta canción en Spotify",
+      "saca el tema actual de mis favoritos en Spotify",
+      "desmarca esta canción de las que me gustan en Spotify"
+    ],
+    "it": [
+      "togli il mio mi piace da questa canzone su Spotify",
+      "rimuovi il brano attuale dai preferiti su Spotify",
+      "togli questa traccia dai brani che mi piacciono su Spotify"
+    ],
+    "pt": [
+      "retira o meu gosto desta canção no Spotify",
+      "tira a faixa atual dos meus favoritos no Spotify",
+      "desmarca esta música das que gosto no Spotify"
+    ]
+  },
+  "spotify.seek": {
+    "ru": [
+      "перейди к {seconds} секундам текущего трека в Spotify",
+      "начни текущую песню с позиции {seconds} секунд в Spotify",
+      "выставь позицию музыки на {seconds} секунд в Spotify"
+    ],
+    "en": [
+      "jump to {seconds} seconds in the current track in Spotify",
+      "start this song from the {seconds} second mark in Spotify",
+      "set the music position to {seconds} seconds in Spotify"
+    ],
+    "de": [
+      "springe im aktuellen Titel zu Sekunde {seconds} in Spotify",
+      "starte dieses Lied bei der Marke von {seconds} Sekunden in Spotify",
+      "setze die Musikposition auf {seconds} Sekunden in Spotify"
+    ],
+    "fr": [
+      "va à {seconds} secondes dans le titre actuel sur Spotify",
+      "reprends cette chanson à la marque de {seconds} secondes sur Spotify",
+      "règle la position musicale sur {seconds} secondes sur Spotify"
+    ],
+    "es": [
+      "salta a {seconds} segundos de la pista actual en Spotify",
+      "empieza esta canción desde la marca de {seconds} segundos en Spotify",
+      "pon la posición de la música en {seconds} segundos en Spotify"
+    ],
+    "it": [
+      "vai al secondo {seconds} del brano attuale su Spotify",
+      "riparti da questa canzone al punto di {seconds} secondi su Spotify",
+      "imposta la posizione musicale a {seconds} secondi su Spotify"
+    ],
+    "pt": [
+      "salta para os {seconds} segundos da faixa atual no Spotify",
+      "começa esta canção na marca dos {seconds} segundos no Spotify",
+      "define a posição da música para {seconds} segundos no Spotify"
+    ]
+  },
+  "spotify.open": {
+    "ru": [
+      "запусти веб-плеер Spotify",
+      "покажи плеер Spotify",
+      "перейди к Spotify в браузере"
+    ],
+    "en": [
+      "launch the Spotify web player",
+      "show the Spotify player",
+      "go to Spotify in the browser"
+    ],
+    "de": [
+      "starte den Spotify-Webplayer",
+      "zeige den Spotify-Player",
+      "öffne Spotify im Browser"
+    ],
+    "fr": [
+      "lance le lecteur web Spotify",
+      "affiche le lecteur Spotify",
+      "va sur Spotify dans le navigateur"
+    ],
+    "es": [
+      "inicia el reproductor web de Spotify",
+      "muestra el reproductor de Spotify",
+      "ve a Spotify en el navegador"
+    ],
+    "it": [
+      "avvia il lettore web Spotify",
+      "mostra il lettore Spotify",
+      "vai su Spotify nel browser"
+    ],
+    "pt": [
+      "inicia o leitor web do Spotify",
+      "mostra o leitor do Spotify",
+      "vai ao Spotify no navegador"
+    ]
+  },
+  "spotify.connect": {
+    "ru": [
+      "открой подключение аккаунта Spotify",
+      "хочу авторизоваться в Spotify",
+      "покажи настройки подключения Spotify"
+    ],
+    "en": [
+      "open Spotify account connection settings",
+      "I want to authorize Spotify",
+      "show the Spotify connection setup"
+    ],
+    "de": [
+      "öffne die Einstellungen zur Spotify-Kontoverbindung",
+      "ich möchte Spotify autorisieren",
+      "zeige die Einrichtung der Spotify-Verbindung"
+    ],
+    "fr": [
+      "ouvre les paramètres de connexion du compte Spotify",
+      "je veux autoriser Spotify",
+      "affiche la configuration de connexion Spotify"
+    ],
+    "es": [
+      "abre los ajustes de conexión de la cuenta de Spotify",
+      "quiero autorizar Spotify",
+      "muestra la configuración de conexión de Spotify"
+    ],
+    "it": [
+      "apri le impostazioni di collegamento dell’account Spotify",
+      "voglio autorizzare Spotify",
+      "mostra la configurazione del collegamento Spotify"
+    ],
+    "pt": [
+      "abre as configurações de ligação da conta do Spotify",
+      "quero autorizar o Spotify",
+      "mostra a configuração da ligação ao Spotify"
+    ]
+  },
+  "spotify.authorize": {
+    "ru": [
+      "открой подключение аккаунта Spotify",
+      "хочу авторизоваться в Spotify",
+      "покажи настройки подключения Spotify"
+    ],
+    "en": [
+      "open Spotify account connection settings",
+      "I want to authorize Spotify",
+      "show the Spotify connection setup"
+    ],
+    "de": [
+      "öffne die Einstellungen zur Spotify-Kontoverbindung",
+      "ich möchte Spotify autorisieren",
+      "zeige die Einrichtung der Spotify-Verbindung"
+    ],
+    "fr": [
+      "ouvre les paramètres de connexion du compte Spotify",
+      "je veux autoriser Spotify",
+      "affiche la configuration de connexion Spotify"
+    ],
+    "es": [
+      "abre los ajustes de conexión de la cuenta de Spotify",
+      "quiero autorizar Spotify",
+      "muestra la configuración de conexión de Spotify"
+    ],
+    "it": [
+      "apri le impostazioni di collegamento dell’account Spotify",
+      "voglio autorizzare Spotify",
+      "mostra la configurazione del collegamento Spotify"
+    ],
+    "pt": [
+      "abre as configurações de ligação da conta do Spotify",
+      "quero autorizar o Spotify",
+      "mostra a configuração da ligação ao Spotify"
+    ]
+  },
+  "transfer.clipboard_to_discord": {
+    "ru": [
+      "передай содержимое буфера обмена в Discord в канал {channel}",
+      "опубликуй в канале Discord {channel} содержимое буфера обмена",
+      "перешли содержимое буфера обмена участникам канала Discord {channel}"
+    ],
+    "en": [
+      "post the clipboard contents to Discord channel {channel}",
+      "share the clipboard contents in the Discord channel {channel}",
+      "forward the clipboard contents to the members of Discord channel {channel}"
+    ],
+    "de": [
+      "poste den Inhalt der Zwischenablage im Discord-Kanal {channel}",
+      "teile den Inhalt der Zwischenablage im Discord-Kanal {channel}",
+      "leite den Inhalt der Zwischenablage an die Mitglieder des Discord-Kanals {channel} weiter"
+    ],
+    "fr": [
+      "publie le contenu du presse-papiers dans le salon Discord {channel}",
+      "partage le contenu du presse-papiers dans le salon Discord {channel}",
+      "transmets le contenu du presse-papiers aux membres du salon Discord {channel}"
+    ],
+    "es": [
+      "publica el contenido del portapapeles en el canal de Discord {channel}",
+      "comparte el contenido del portapapeles en el canal de Discord {channel}",
+      "reenvía el contenido del portapapeles a los miembros del canal de Discord {channel}"
+    ],
+    "it": [
+      "pubblica il contenuto degli appunti nel canale Discord {channel}",
+      "condividi il contenuto degli appunti nel canale Discord {channel}",
+      "inoltra il contenuto degli appunti ai membri del canale Discord {channel}"
+    ],
+    "pt": [
+      "publica o conteúdo da área de transferência no canal do Discord {channel}",
+      "partilha o conteúdo da área de transferência no canal do Discord {channel}",
+      "reencaminha o conteúdo da área de transferência para os membros do canal do Discord {channel}"
+    ]
+  },
+  "transfer.page_url_to_discord": {
+    "ru": [
+      "передай ссылку на открытую страницу браузера в Discord в канал {channel}",
+      "опубликуй в канале Discord {channel} ссылку на открытую страницу браузера",
+      "перешли ссылку на открытую страницу браузера участникам канала Discord {channel}"
+    ],
+    "en": [
+      "post the current browser page link to Discord channel {channel}",
+      "share the current browser page link in the Discord channel {channel}",
+      "forward the current browser page link to the members of Discord channel {channel}"
+    ],
+    "de": [
+      "poste den Link der aktuellen Browserseite im Discord-Kanal {channel}",
+      "teile den Link der aktuellen Browserseite im Discord-Kanal {channel}",
+      "leite den Link der aktuellen Browserseite an die Mitglieder des Discord-Kanals {channel} weiter"
+    ],
+    "fr": [
+      "publie le lien de la page actuelle du navigateur dans le salon Discord {channel}",
+      "partage le lien de la page actuelle du navigateur dans le salon Discord {channel}",
+      "transmets le lien de la page actuelle du navigateur aux membres du salon Discord {channel}"
+    ],
+    "es": [
+      "publica el enlace de la página actual del navegador en el canal de Discord {channel}",
+      "comparte el enlace de la página actual del navegador en el canal de Discord {channel}",
+      "reenvía el enlace de la página actual del navegador a los miembros del canal de Discord {channel}"
+    ],
+    "it": [
+      "pubblica il link della pagina attuale del browser nel canale Discord {channel}",
+      "condividi il link della pagina attuale del browser nel canale Discord {channel}",
+      "inoltra il link della pagina attuale del browser ai membri del canale Discord {channel}"
+    ],
+    "pt": [
+      "publica o link da página atual do navegador no canal do Discord {channel}",
+      "partilha o link da página atual do navegador no canal do Discord {channel}",
+      "reencaminha o link da página atual do navegador para os membros do canal do Discord {channel}"
+    ]
+  },
+  "transfer.last_screenshot_to_discord": {
+    "ru": [
+      "передай последний сделанный скриншот в Discord в канал {channel}",
+      "опубликуй в канале Discord {channel} последний сделанный скриншот",
+      "перешли последний сделанный скриншот участникам канала Discord {channel}"
+    ],
+    "en": [
+      "post the most recent screenshot to Discord channel {channel}",
+      "share the most recent screenshot in the Discord channel {channel}",
+      "forward the most recent screenshot to the members of Discord channel {channel}"
+    ],
+    "de": [
+      "poste den zuletzt aufgenommenen Screenshot im Discord-Kanal {channel}",
+      "teile den zuletzt aufgenommenen Screenshot im Discord-Kanal {channel}",
+      "leite den zuletzt aufgenommenen Screenshot an die Mitglieder des Discord-Kanals {channel} weiter"
+    ],
+    "fr": [
+      "publie la dernière capture d’écran dans le salon Discord {channel}",
+      "partage la dernière capture d’écran dans le salon Discord {channel}",
+      "transmets la dernière capture d’écran aux membres du salon Discord {channel}"
+    ],
+    "es": [
+      "publica la captura de pantalla más reciente en el canal de Discord {channel}",
+      "comparte la captura de pantalla más reciente en el canal de Discord {channel}",
+      "reenvía la captura de pantalla más reciente a los miembros del canal de Discord {channel}"
+    ],
+    "it": [
+      "pubblica l’ultima schermata acquisita nel canale Discord {channel}",
+      "condividi l’ultima schermata acquisita nel canale Discord {channel}",
+      "inoltra l’ultima schermata acquisita ai membri del canale Discord {channel}"
+    ],
+    "pt": [
+      "publica a captura de ecrã mais recente no canal do Discord {channel}",
+      "partilha a captura de ecrã mais recente no canal do Discord {channel}",
+      "reencaminha a captura de ecrã mais recente para os membros do canal do Discord {channel}"
+    ]
+  },
+  "transfer.selected_explorer_file_to_discord": {
+    "ru": [
+      "передай файл выделенный в проводнике в Discord в канал {channel}",
+      "опубликуй в канале Discord {channel} файл выделенный в проводнике",
+      "перешли файл выделенный в проводнике участникам канала Discord {channel}"
+    ],
+    "en": [
+      "post the file selected in File Explorer to Discord channel {channel}",
+      "share the file selected in File Explorer in the Discord channel {channel}",
+      "forward the file selected in File Explorer to the members of Discord channel {channel}"
+    ],
+    "de": [
+      "poste die im Explorer ausgewählte Datei im Discord-Kanal {channel}",
+      "teile die im Explorer ausgewählte Datei im Discord-Kanal {channel}",
+      "leite die im Explorer ausgewählte Datei an die Mitglieder des Discord-Kanals {channel} weiter"
+    ],
+    "fr": [
+      "publie le fichier sélectionné dans l’explorateur dans le salon Discord {channel}",
+      "partage le fichier sélectionné dans l’explorateur dans le salon Discord {channel}",
+      "transmets le fichier sélectionné dans l’explorateur aux membres du salon Discord {channel}"
+    ],
+    "es": [
+      "publica el archivo seleccionado en el explorador en el canal de Discord {channel}",
+      "comparte el archivo seleccionado en el explorador en el canal de Discord {channel}",
+      "reenvía el archivo seleccionado en el explorador a los miembros del canal de Discord {channel}"
+    ],
+    "it": [
+      "pubblica il file selezionato in Esplora file nel canale Discord {channel}",
+      "condividi il file selezionato in Esplora file nel canale Discord {channel}",
+      "inoltra il file selezionato in Esplora file ai membri del canale Discord {channel}"
+    ],
+    "pt": [
+      "publica o ficheiro selecionado no explorador no canal do Discord {channel}",
+      "partilha o ficheiro selecionado no explorador no canal do Discord {channel}",
+      "reencaminha o ficheiro selecionado no explorador para os membros do canal do Discord {channel}"
+    ]
+  },
+  "transfer.attach_file_discord": {
+    "ru": [
+      "передай файл {path} как вложение в Discord в канал {channel}",
+      "опубликуй в канале Discord {channel} файл {path} как вложение",
+      "перешли файл {path} как вложение участникам канала Discord {channel}"
+    ],
+    "en": [
+      "post the file {path} as an attachment to Discord channel {channel}",
+      "share the file {path} as an attachment in the Discord channel {channel}",
+      "forward the file {path} as an attachment to the members of Discord channel {channel}"
+    ],
+    "de": [
+      "poste die Datei {path} als Anhang im Discord-Kanal {channel}",
+      "teile die Datei {path} als Anhang im Discord-Kanal {channel}",
+      "leite die Datei {path} als Anhang an die Mitglieder des Discord-Kanals {channel} weiter"
+    ],
+    "fr": [
+      "publie le fichier {path} en pièce jointe dans le salon Discord {channel}",
+      "partage le fichier {path} en pièce jointe dans le salon Discord {channel}",
+      "transmets le fichier {path} en pièce jointe aux membres du salon Discord {channel}"
+    ],
+    "es": [
+      "publica el archivo {path} como adjunto en el canal de Discord {channel}",
+      "comparte el archivo {path} como adjunto en el canal de Discord {channel}",
+      "reenvía el archivo {path} como adjunto a los miembros del canal de Discord {channel}"
+    ],
+    "it": [
+      "pubblica il file {path} come allegato nel canale Discord {channel}",
+      "condividi il file {path} come allegato nel canale Discord {channel}",
+      "inoltra il file {path} come allegato ai membri del canale Discord {channel}"
+    ],
+    "pt": [
+      "publica o ficheiro {path} como anexo no canal do Discord {channel}",
+      "partilha o ficheiro {path} como anexo no canal do Discord {channel}",
+      "reencaminha o ficheiro {path} como anexo para os membros do canal do Discord {channel}"
+    ]
+  },
+  "yandex_music.status": {
+    "ru": [
+      "назови текущую песню в Яндекс Музыке",
+      "какую музыку я сейчас слушаю в Яндекс Музыке",
+      "скажи название играющего трека в Яндекс Музыке"
+    ],
+    "en": [
+      "what song am I listening to in Yandex Music",
+      "tell me the name of the current track in Yandex Music",
+      "identify the music playing now in Yandex Music"
+    ],
+    "de": [
+      "welches Lied höre ich gerade in Yandex Music",
+      "nenne mir den laufenden Titel in Yandex Music",
+      "wie heißt die Musik die gerade läuft in Yandex Music"
+    ],
+    "fr": [
+      "quel morceau suis-je en train d’écouter sur Yandex Music",
+      "donne-moi le titre du morceau en cours sur Yandex Music",
+      "quelle chanson passe en ce moment sur Yandex Music"
+    ],
+    "es": [
+      "qué canción estoy escuchando en Yandex Music",
+      "dime el nombre del tema actual en Yandex Music",
+      "identifica la música que está sonando en Yandex Music"
+    ],
+    "it": [
+      "che canzone sto ascoltando su Yandex Music",
+      "dimmi il nome del brano attuale su Yandex Music",
+      "qual è la musica in riproduzione su Yandex Music"
+    ],
+    "pt": [
+      "que música estou a ouvir no Yandex Music",
+      "diz-me o nome da faixa atual no Yandex Music",
+      "identifica a música que está a tocar no Yandex Music"
+    ]
+  },
+  "yandex_music.play": {
+    "ru": [
+      "продолжи проигрывание музыки в Яндекс Музыке",
+      "сними музыку с паузы в Яндекс Музыке",
+      "верни воспроизведение музыки в Яндекс Музыке"
+    ],
+    "en": [
+      "continue playing the music in Yandex Music",
+      "unpause the music in Yandex Music",
+      "pick up the music where it stopped in Yandex Music"
+    ],
+    "de": [
+      "setze die Musikwiedergabe fort in Yandex Music",
+      "hebe die Musikpause auf in Yandex Music",
+      "lass die pausierte Musik weiterlaufen in Yandex Music"
+    ],
+    "fr": [
+      "reprends la lecture de la musique sur Yandex Music",
+      "retire la pause de la musique sur Yandex Music",
+      "continue le morceau mis en pause sur Yandex Music"
+    ],
+    "es": [
+      "continúa reproduciendo la música en Yandex Music",
+      "quita la pausa de la música en Yandex Music",
+      "reanuda la canción pausada en Yandex Music"
+    ],
+    "it": [
+      "continua la riproduzione della musica su Yandex Music",
+      "togli la pausa alla musica su Yandex Music",
+      "riprendi il brano messo in pausa su Yandex Music"
+    ],
+    "pt": [
+      "continua a reprodução da música no Yandex Music",
+      "tira a música da pausa no Yandex Music",
+      "retoma a faixa que estava em pausa no Yandex Music"
+    ]
+  },
+  "yandex_music.pause": {
+    "ru": [
+      "приостанови воспроизведение музыки в Яндекс Музыке",
+      "пауза для музыки в Яндекс Музыке",
+      "прерви музыку на время в Яндекс Музыке"
+    ],
+    "en": [
+      "pause music playback in Yandex Music",
+      "put the song on hold in Yandex Music",
+      "temporarily pause the music in Yandex Music"
+    ],
+    "de": [
+      "pausiere die Musikwiedergabe in Yandex Music",
+      "lege bei der Musik eine Pause ein in Yandex Music",
+      "unterbrich die Musik vorübergehend in Yandex Music"
+    ],
+    "fr": [
+      "suspends la lecture musicale sur Yandex Music",
+      "mets le morceau en pause sur Yandex Music",
+      "interromps temporairement la musique sur Yandex Music"
+    ],
+    "es": [
+      "pausa la reproducción musical en Yandex Music",
+      "deja la canción en pausa en Yandex Music",
+      "interrumpe temporalmente la música en Yandex Music"
+    ],
+    "it": [
+      "metti in pausa la riproduzione musicale su Yandex Music",
+      "sospendi il brano su Yandex Music",
+      "interrompi temporaneamente la musica su Yandex Music"
+    ],
+    "pt": [
+      "pausa a reprodução musical no Yandex Music",
+      "deixa a música em pausa no Yandex Music",
+      "interrompe temporariamente a música no Yandex Music"
+    ]
+  },
+  "yandex_music.stop": {
+    "ru": [
+      "прекрати воспроизведение музыки в Яндекс Музыке",
+      "выключи текущую музыку в Яндекс Музыке",
+      "заверши проигрывание музыки в Яндекс Музыке"
+    ],
+    "en": [
+      "stop music playback in Yandex Music",
+      "turn off the current music in Yandex Music",
+      "end the music playback in Yandex Music"
+    ],
+    "de": [
+      "beende die Musikwiedergabe in Yandex Music",
+      "schalte die laufende Musik aus in Yandex Music",
+      "stoppe den Musikplayer in Yandex Music"
+    ],
+    "fr": [
+      "arrête la lecture musicale sur Yandex Music",
+      "coupe la musique en cours sur Yandex Music",
+      "termine la lecture de la musique sur Yandex Music"
+    ],
+    "es": [
+      "detén la reproducción musical en Yandex Music",
+      "apaga la música actual en Yandex Music",
+      "termina la reproducción de música en Yandex Music"
+    ],
+    "it": [
+      "ferma la riproduzione musicale su Yandex Music",
+      "spegni la musica attuale su Yandex Music",
+      "interrompi definitivamente la riproduzione musicale su Yandex Music"
+    ],
+    "pt": [
+      "para a reprodução musical no Yandex Music",
+      "desliga a música atual no Yandex Music",
+      "termina a reprodução da música no Yandex Music"
+    ]
+  },
+  "yandex_music.next": {
+    "ru": [
+      "переключи музыку на следующий трек в Яндекс Музыке",
+      "пропусти эту песню в Яндекс Музыке",
+      "давай следующий трек в Яндекс Музыке"
+    ],
+    "en": [
+      "skip to the next song in Yandex Music",
+      "skip this track in Yandex Music",
+      "move on to the next music track in Yandex Music"
+    ],
+    "de": [
+      "springe zum nächsten Lied in Yandex Music",
+      "überspringe diesen Titel in Yandex Music",
+      "mach mit dem nächsten Musikstück weiter in Yandex Music"
+    ],
+    "fr": [
+      "change de chanson pour la suivante sur Yandex Music",
+      "saute cette chanson sur Yandex Music",
+      "avance au prochain titre sur Yandex Music"
+    ],
+    "es": [
+      "pasa a la siguiente canción en Yandex Music",
+      "salta esta pista en Yandex Music",
+      "avanza al próximo tema en Yandex Music"
+    ],
+    "it": [
+      "passa alla canzone successiva su Yandex Music",
+      "salta questo brano su Yandex Music",
+      "vai alla prossima traccia su Yandex Music"
+    ],
+    "pt": [
+      "passa à música seguinte no Yandex Music",
+      "salta esta faixa no Yandex Music",
+      "avança para a próxima canção no Yandex Music"
+    ]
+  },
+  "yandex_music.previous": {
+    "ru": [
+      "верни прошлую песню в Яндекс Музыке",
+      "переключи на трек который был до этого в Яндекс Музыке",
+      "назад на предыдущую композицию в Яндекс Музыке"
+    ],
+    "en": [
+      "go back to the last song in Yandex Music",
+      "return to the previous music track in Yandex Music",
+      "play the track before this one in Yandex Music"
+    ],
+    "de": [
+      "gehe zum letzten Lied zurück in Yandex Music",
+      "wechsle zum vorherigen Musikstück in Yandex Music",
+      "spiele den Titel vor diesem in Yandex Music"
+    ],
+    "fr": [
+      "reviens à la chanson précédente sur Yandex Music",
+      "retourne au morceau d’avant sur Yandex Music",
+      "remets le titre qui passait juste avant sur Yandex Music"
+    ],
+    "es": [
+      "vuelve a la canción anterior en Yandex Music",
+      "regresa al tema previo en Yandex Music",
+      "pon la pista que sonaba antes de esta en Yandex Music"
+    ],
+    "it": [
+      "torna alla canzone precedente su Yandex Music",
+      "rimetti il brano di prima su Yandex Music",
+      "riproduci la traccia che precedeva questa su Yandex Music"
+    ],
+    "pt": [
+      "volta à música anterior no Yandex Music",
+      "regressa à faixa de antes no Yandex Music",
+      "toca a canção que estava antes desta no Yandex Music"
+    ]
+  },
+  "yandex_music.play_track": {
+    "ru": [
+      "поставь трек {query} в Яндекс Музыке",
+      "хочу послушать песню {query} в Яндекс Музыке",
+      "найди и включи композицию {query} в Яндекс Музыке"
+    ],
+    "en": [
+      "put on the track {query} in Yandex Music",
+      "I want to listen to the song {query} in Yandex Music",
+      "find and play the song {query} in Yandex Music"
+    ],
+    "de": [
+      "lege den Titel {query} auf in Yandex Music",
+      "ich möchte das Lied {query} hören in Yandex Music",
+      "suche und spiele den Song {query} in Yandex Music"
+    ],
+    "fr": [
+      "mets le morceau {query} sur Yandex Music",
+      "je veux écouter la chanson {query} sur Yandex Music",
+      "cherche et lance le titre {query} sur Yandex Music"
+    ],
+    "es": [
+      "pon el tema {query} en Yandex Music",
+      "quiero escuchar la canción {query} en Yandex Music",
+      "busca y reproduce la canción {query} en Yandex Music"
+    ],
+    "it": [
+      "metti il brano {query} su Yandex Music",
+      "voglio ascoltare la canzone {query} su Yandex Music",
+      "cerca e riproduci il pezzo {query} su Yandex Music"
+    ],
+    "pt": [
+      "põe a faixa {query} no Yandex Music",
+      "quero ouvir a canção {query} no Yandex Music",
+      "procura e toca a música {query} no Yandex Music"
+    ]
+  },
+  "yandex_music.play_song": {
+    "ru": [
+      "поставь трек {query} в Яндекс Музыке",
+      "хочу послушать песню {query} в Яндекс Музыке",
+      "найди и включи композицию {query} в Яндекс Музыке"
+    ],
+    "en": [
+      "put on the track {query} in Yandex Music",
+      "I want to listen to the song {query} in Yandex Music",
+      "find and play the song {query} in Yandex Music"
+    ],
+    "de": [
+      "lege den Titel {query} auf in Yandex Music",
+      "ich möchte das Lied {query} hören in Yandex Music",
+      "suche und spiele den Song {query} in Yandex Music"
+    ],
+    "fr": [
+      "mets le morceau {query} sur Yandex Music",
+      "je veux écouter la chanson {query} sur Yandex Music",
+      "cherche et lance le titre {query} sur Yandex Music"
+    ],
+    "es": [
+      "pon el tema {query} en Yandex Music",
+      "quiero escuchar la canción {query} en Yandex Music",
+      "busca y reproduce la canción {query} en Yandex Music"
+    ],
+    "it": [
+      "metti il brano {query} su Yandex Music",
+      "voglio ascoltare la canzone {query} su Yandex Music",
+      "cerca e riproduci il pezzo {query} su Yandex Music"
+    ],
+    "pt": [
+      "põe a faixa {query} no Yandex Music",
+      "quero ouvir a canção {query} no Yandex Music",
+      "procura e toca a música {query} no Yandex Music"
+    ]
+  },
+  "yandex_music.play_music": {
+    "ru": [
+      "запусти персональную станцию Моя волна в Яндекс Музыке",
+      "поставь мою персональную волну в Яндекс Музыке",
+      "хочу послушать Мою волну в Яндекс Музыке"
+    ],
+    "en": [
+      "start my personalized My Wave station in Yandex Music",
+      "put on My Wave radio in Yandex Music",
+      "I want to listen to My Wave in Yandex Music"
+    ],
+    "de": [
+      "starte meinen persönlichen Sender My Wave in Yandex Music",
+      "schalte das Radio My Wave ein in Yandex Music",
+      "ich möchte My Wave hören in Yandex Music"
+    ],
+    "fr": [
+      "démarre ma station personnalisée My Wave sur Yandex Music",
+      "mets la radio My Wave sur Yandex Music",
+      "je veux écouter My Wave sur Yandex Music"
+    ],
+    "es": [
+      "inicia mi emisora personalizada My Wave en Yandex Music",
+      "pon la radio My Wave en Yandex Music",
+      "quiero escuchar My Wave en Yandex Music"
+    ],
+    "it": [
+      "avvia la mia stazione personalizzata My Wave su Yandex Music",
+      "metti la radio My Wave su Yandex Music",
+      "voglio ascoltare My Wave su Yandex Music"
+    ],
+    "pt": [
+      "inicia a minha estação personalizada My Wave no Yandex Music",
+      "põe a rádio My Wave no Yandex Music",
+      "quero ouvir My Wave no Yandex Music"
+    ]
+  },
+  "yandex_music.search_track": {
+    "ru": [
+      "поищи трек {query} в Яндекс Музыке",
+      "отыщи песню {query} в Яндекс Музыке"
+    ],
+    "en": [
+      "look for the song {query} on Yandex Music",
+      "search for the track {query} on Yandex Music"
+    ],
+    "de": [
+      "suche nach dem Lied {query} auf Yandex Music",
+      "suche den Titel {query} auf Yandex Music"
+    ],
+    "fr": [
+      "cherche la chanson {query} sur Yandex Music",
+      "trouve le morceau {query} sur Yandex Music"
+    ],
+    "es": [
+      "encuentra la canción {query} en Yandex Music",
+      "busca el tema {query} en Yandex Music"
+    ],
+    "it": [
+      "cerca il brano {query} su Yandex Music",
+      "trova il brano {query} su Yandex Music"
+    ],
+    "pt": [
+      "pesquisa a música {query} no Yandex Music",
+      "encontra a faixa {query} no Yandex Music"
+    ]
+  },
+  "yandex_music.find_track": {
+    "ru": [
+      "поищи трек {query} в Яндекс Музыке",
+      "отыщи песню {query} в Яндекс Музыке"
+    ],
+    "en": [
+      "look for the song {query} on Yandex Music",
+      "search for the track {query} on Yandex Music"
+    ],
+    "de": [
+      "suche nach dem Lied {query} auf Yandex Music",
+      "suche den Titel {query} auf Yandex Music"
+    ],
+    "fr": [
+      "cherche la chanson {query} sur Yandex Music",
+      "trouve le morceau {query} sur Yandex Music"
+    ],
+    "es": [
+      "encuentra la canción {query} en Yandex Music",
+      "busca el tema {query} en Yandex Music"
+    ],
+    "it": [
+      "cerca il brano {query} su Yandex Music",
+      "trova il brano {query} su Yandex Music"
+    ],
+    "pt": [
+      "pesquisa a música {query} no Yandex Music",
+      "encontra a faixa {query} no Yandex Music"
+    ]
+  },
+  "yandex_music.find_song": {
+    "ru": [
+      "поищи трек {query} в Яндекс Музыке",
+      "отыщи песню {query} в Яндекс Музыке"
+    ],
+    "en": [
+      "look for the song {query} on Yandex Music",
+      "search for the track {query} on Yandex Music"
+    ],
+    "de": [
+      "suche nach dem Lied {query} auf Yandex Music",
+      "suche den Titel {query} auf Yandex Music"
+    ],
+    "fr": [
+      "cherche la chanson {query} sur Yandex Music",
+      "trouve le morceau {query} sur Yandex Music"
+    ],
+    "es": [
+      "encuentra la canción {query} en Yandex Music",
+      "busca el tema {query} en Yandex Music"
+    ],
+    "it": [
+      "cerca il brano {query} su Yandex Music",
+      "trova il brano {query} su Yandex Music"
+    ],
+    "pt": [
+      "pesquisa a música {query} no Yandex Music",
+      "encontra a faixa {query} no Yandex Music"
+    ]
+  },
+  "yandex_music.start_track": {
+    "ru": [
+      "поставь трек {query} в Яндекс Музыке",
+      "хочу послушать песню {query} в Яндекс Музыке",
+      "найди и включи композицию {query} в Яндекс Музыке"
+    ],
+    "en": [
+      "put on the track {query} in Yandex Music",
+      "I want to listen to the song {query} in Yandex Music",
+      "find and play the song {query} in Yandex Music"
+    ],
+    "de": [
+      "lege den Titel {query} auf in Yandex Music",
+      "ich möchte das Lied {query} hören in Yandex Music",
+      "suche und spiele den Song {query} in Yandex Music"
+    ],
+    "fr": [
+      "mets le morceau {query} sur Yandex Music",
+      "je veux écouter la chanson {query} sur Yandex Music",
+      "cherche et lance le titre {query} sur Yandex Music"
+    ],
+    "es": [
+      "pon el tema {query} en Yandex Music",
+      "quiero escuchar la canción {query} en Yandex Music",
+      "busca y reproduce la canción {query} en Yandex Music"
+    ],
+    "it": [
+      "metti il brano {query} su Yandex Music",
+      "voglio ascoltare la canzone {query} su Yandex Music",
+      "cerca e riproduci il pezzo {query} su Yandex Music"
+    ],
+    "pt": [
+      "põe a faixa {query} no Yandex Music",
+      "quero ouvir a canção {query} no Yandex Music",
+      "procura e toca a música {query} no Yandex Music"
+    ]
+  },
+  "yandex_music.my_wave": {
+    "ru": [
+      "запусти персональную станцию Моя волна в Яндекс Музыке",
+      "поставь мою персональную волну в Яндекс Музыке",
+      "хочу послушать Мою волну в Яндекс Музыке"
+    ],
+    "en": [
+      "start my personalized My Wave station in Yandex Music",
+      "put on My Wave radio in Yandex Music",
+      "I want to listen to My Wave in Yandex Music"
+    ],
+    "de": [
+      "starte meinen persönlichen Sender My Wave in Yandex Music",
+      "schalte das Radio My Wave ein in Yandex Music",
+      "ich möchte My Wave hören in Yandex Music"
+    ],
+    "fr": [
+      "démarre ma station personnalisée My Wave sur Yandex Music",
+      "mets la radio My Wave sur Yandex Music",
+      "je veux écouter My Wave sur Yandex Music"
+    ],
+    "es": [
+      "inicia mi emisora personalizada My Wave en Yandex Music",
+      "pon la radio My Wave en Yandex Music",
+      "quiero escuchar My Wave en Yandex Music"
+    ],
+    "it": [
+      "avvia la mia stazione personalizzata My Wave su Yandex Music",
+      "metti la radio My Wave su Yandex Music",
+      "voglio ascoltare My Wave su Yandex Music"
+    ],
+    "pt": [
+      "inicia a minha estação personalizada My Wave no Yandex Music",
+      "põe a rádio My Wave no Yandex Music",
+      "quero ouvir My Wave no Yandex Music"
+    ]
+  },
+  "yandex_music.my_tracks": {
+    "ru": [
+      "поставь мою коллекцию любимых песен в Яндекс Музыке",
+      "воспроизведи треки которым я поставил лайк в Яндекс Музыке",
+      "хочу послушать мои понравившиеся песни в Яндекс Музыке"
+    ],
+    "en": [
+      "put on my favorite songs collection in Yandex Music",
+      "play the tracks I have liked in Yandex Music",
+      "I want to hear my liked songs in Yandex Music"
+    ],
+    "de": [
+      "lege meine Sammlung von Lieblingsliedern auf in Yandex Music",
+      "spiele die Titel denen ich ein Like gegeben habe in Yandex Music",
+      "ich möchte meine mit Gefällt mir markierten Songs hören in Yandex Music"
+    ],
+    "fr": [
+      "mets ma collection de chansons favorites sur Yandex Music",
+      "joue les titres que j’ai aimés sur Yandex Music",
+      "je veux écouter mes morceaux favoris sur Yandex Music"
+    ],
+    "es": [
+      "pon mi colección de canciones favoritas en Yandex Music",
+      "reproduce los temas que he marcado con me gusta en Yandex Music",
+      "quiero escuchar mis canciones favoritas en Yandex Music"
+    ],
+    "it": [
+      "metti la mia raccolta di canzoni preferite su Yandex Music",
+      "riproduci i brani a cui ho messo mi piace su Yandex Music",
+      "voglio ascoltare le mie canzoni preferite su Yandex Music"
+    ],
+    "pt": [
+      "põe a minha coleção de músicas favoritas no Yandex Music",
+      "toca as faixas a que dei gosto no Yandex Music",
+      "quero ouvir as minhas canções favoritas no Yandex Music"
+    ]
+  },
+  "yandex_music.playlist": {
+    "ru": [
+      "поставь список песен {playlist} в Яндекс Музыке",
+      "хочу послушать плейлист {playlist} в Яндекс Музыке",
+      "запусти мой плейлист {playlist} в Яндекс Музыке"
+    ],
+    "en": [
+      "put on the playlist {playlist} in Yandex Music",
+      "I want to hear the playlist {playlist} in Yandex Music",
+      "start playing my playlist {playlist} in Yandex Music"
+    ],
+    "de": [
+      "lege die Playlist {playlist} auf in Yandex Music",
+      "ich möchte die Playlist {playlist} hören in Yandex Music",
+      "starte meine Wiedergabeliste {playlist} in Yandex Music"
+    ],
+    "fr": [
+      "mets la liste de lecture {playlist} sur Yandex Music",
+      "je veux écouter la playlist {playlist} sur Yandex Music",
+      "démarre ma playlist {playlist} sur Yandex Music"
+    ],
+    "es": [
+      "pon la playlist {playlist} en Yandex Music",
+      "quiero escuchar la lista {playlist} en Yandex Music",
+      "inicia mi lista de reproducción {playlist} en Yandex Music"
+    ],
+    "it": [
+      "metti la lista di riproduzione {playlist} su Yandex Music",
+      "voglio ascoltare la playlist {playlist} su Yandex Music",
+      "avvia la mia playlist {playlist} su Yandex Music"
+    ],
+    "pt": [
+      "põe a lista de reprodução {playlist} no Yandex Music",
+      "quero ouvir a playlist {playlist} no Yandex Music",
+      "inicia a minha playlist {playlist} no Yandex Music"
+    ]
+  },
+  "yandex_music.play_playlist": {
+    "ru": [
+      "поставь список песен {playlist} в Яндекс Музыке",
+      "хочу послушать плейлист {playlist} в Яндекс Музыке",
+      "запусти мой плейлист {playlist} в Яндекс Музыке"
+    ],
+    "en": [
+      "put on the playlist {playlist} in Yandex Music",
+      "I want to hear the playlist {playlist} in Yandex Music",
+      "start playing my playlist {playlist} in Yandex Music"
+    ],
+    "de": [
+      "lege die Playlist {playlist} auf in Yandex Music",
+      "ich möchte die Playlist {playlist} hören in Yandex Music",
+      "starte meine Wiedergabeliste {playlist} in Yandex Music"
+    ],
+    "fr": [
+      "mets la liste de lecture {playlist} sur Yandex Music",
+      "je veux écouter la playlist {playlist} sur Yandex Music",
+      "démarre ma playlist {playlist} sur Yandex Music"
+    ],
+    "es": [
+      "pon la playlist {playlist} en Yandex Music",
+      "quiero escuchar la lista {playlist} en Yandex Music",
+      "inicia mi lista de reproducción {playlist} en Yandex Music"
+    ],
+    "it": [
+      "metti la lista di riproduzione {playlist} su Yandex Music",
+      "voglio ascoltare la playlist {playlist} su Yandex Music",
+      "avvia la mia playlist {playlist} su Yandex Music"
+    ],
+    "pt": [
+      "põe a lista de reprodução {playlist} no Yandex Music",
+      "quero ouvir a playlist {playlist} no Yandex Music",
+      "inicia a minha playlist {playlist} no Yandex Music"
+    ]
+  },
+  "yandex_music.playlist_by_name": {
+    "ru": [
+      "поставь список песен {playlist} в Яндекс Музыке",
+      "хочу послушать плейлист {playlist} в Яндекс Музыке",
+      "запусти мой плейлист {playlist} в Яндекс Музыке"
+    ],
+    "en": [
+      "put on the playlist {playlist} in Yandex Music",
+      "I want to hear the playlist {playlist} in Yandex Music",
+      "start playing my playlist {playlist} in Yandex Music"
+    ],
+    "de": [
+      "lege die Playlist {playlist} auf in Yandex Music",
+      "ich möchte die Playlist {playlist} hören in Yandex Music",
+      "starte meine Wiedergabeliste {playlist} in Yandex Music"
+    ],
+    "fr": [
+      "mets la liste de lecture {playlist} sur Yandex Music",
+      "je veux écouter la playlist {playlist} sur Yandex Music",
+      "démarre ma playlist {playlist} sur Yandex Music"
+    ],
+    "es": [
+      "pon la playlist {playlist} en Yandex Music",
+      "quiero escuchar la lista {playlist} en Yandex Music",
+      "inicia mi lista de reproducción {playlist} en Yandex Music"
+    ],
+    "it": [
+      "metti la lista di riproduzione {playlist} su Yandex Music",
+      "voglio ascoltare la playlist {playlist} su Yandex Music",
+      "avvia la mia playlist {playlist} su Yandex Music"
+    ],
+    "pt": [
+      "põe a lista de reprodução {playlist} no Yandex Music",
+      "quero ouvir a playlist {playlist} no Yandex Music",
+      "inicia a minha playlist {playlist} no Yandex Music"
+    ]
+  },
+  "yandex_music.start_playlist": {
+    "ru": [
+      "поставь список песен {playlist} в Яндекс Музыке",
+      "хочу послушать плейлист {playlist} в Яндекс Музыке",
+      "запусти мой плейлист {playlist} в Яндекс Музыке"
+    ],
+    "en": [
+      "put on the playlist {playlist} in Yandex Music",
+      "I want to hear the playlist {playlist} in Yandex Music",
+      "start playing my playlist {playlist} in Yandex Music"
+    ],
+    "de": [
+      "lege die Playlist {playlist} auf in Yandex Music",
+      "ich möchte die Playlist {playlist} hören in Yandex Music",
+      "starte meine Wiedergabeliste {playlist} in Yandex Music"
+    ],
+    "fr": [
+      "mets la liste de lecture {playlist} sur Yandex Music",
+      "je veux écouter la playlist {playlist} sur Yandex Music",
+      "démarre ma playlist {playlist} sur Yandex Music"
+    ],
+    "es": [
+      "pon la playlist {playlist} en Yandex Music",
+      "quiero escuchar la lista {playlist} en Yandex Music",
+      "inicia mi lista de reproducción {playlist} en Yandex Music"
+    ],
+    "it": [
+      "metti la lista di riproduzione {playlist} su Yandex Music",
+      "voglio ascoltare la playlist {playlist} su Yandex Music",
+      "avvia la mia playlist {playlist} su Yandex Music"
+    ],
+    "pt": [
+      "põe a lista de reprodução {playlist} no Yandex Music",
+      "quero ouvir a playlist {playlist} no Yandex Music",
+      "inicia a minha playlist {playlist} no Yandex Music"
+    ]
+  },
+  "yandex_music.like": {
+    "ru": [
+      "поставь лайк этой песне в Яндекс Музыке",
+      "сохрани текущий трек в любимые в Яндекс Музыке",
+      "мне нравится эта композиция в Яндекс Музыке"
+    ],
+    "en": [
+      "like this song in Yandex Music",
+      "save the current track to my favorites in Yandex Music",
+      "I like this music track in Yandex Music"
+    ],
+    "de": [
+      "gib diesem Lied ein Like in Yandex Music",
+      "speichere den aktuellen Titel als Favoriten in Yandex Music",
+      "dieses Musikstück gefällt mir in Yandex Music"
+    ],
+    "fr": [
+      "mets un j’aime à cette chanson sur Yandex Music",
+      "enregistre le titre actuel dans mes favoris sur Yandex Music",
+      "j’aime ce morceau sur Yandex Music"
+    ],
+    "es": [
+      "dale me gusta a esta canción en Yandex Music",
+      "guarda el tema actual en mis favoritos en Yandex Music",
+      "me gusta esta pista en Yandex Music"
+    ],
+    "it": [
+      "metti mi piace a questa canzone su Yandex Music",
+      "salva il brano attuale tra i preferiti su Yandex Music",
+      "questa traccia mi piace su Yandex Music"
+    ],
+    "pt": [
+      "dá gosto a esta canção no Yandex Music",
+      "guarda a faixa atual nos meus favoritos no Yandex Music",
+      "gosto desta música no Yandex Music"
+    ]
+  },
+  "yandex_music.unlike": {
+    "ru": [
+      "сними лайк с этой песни в Яндекс Музыке",
+      "удали текущий трек из любимых в Яндекс Музыке",
+      "больше не отмечай эту композицию как понравившуюся в Яндекс Музыке"
+    ],
+    "en": [
+      "remove my like from this song in Yandex Music",
+      "take the current track out of my favorites in Yandex Music",
+      "unmark this song as liked in Yandex Music"
+    ],
+    "de": [
+      "entferne mein Like von diesem Lied in Yandex Music",
+      "nimm den aktuellen Titel aus meinen Favoriten in Yandex Music",
+      "hebe die Gefällt-mir-Markierung dieses Songs auf in Yandex Music"
+    ],
+    "fr": [
+      "retire mon j’aime de cette chanson sur Yandex Music",
+      "enlève le titre actuel de mes favoris sur Yandex Music",
+      "ne marque plus ce morceau comme aimé sur Yandex Music"
+    ],
+    "es": [
+      "quita mi me gusta de esta canción en Yandex Music",
+      "saca el tema actual de mis favoritos en Yandex Music",
+      "desmarca esta canción de las que me gustan en Yandex Music"
+    ],
+    "it": [
+      "togli il mio mi piace da questa canzone su Yandex Music",
+      "rimuovi il brano attuale dai preferiti su Yandex Music",
+      "togli questa traccia dai brani che mi piacciono su Yandex Music"
+    ],
+    "pt": [
+      "retira o meu gosto desta canção no Yandex Music",
+      "tira a faixa atual dos meus favoritos no Yandex Music",
+      "desmarca esta música das que gosto no Yandex Music"
+    ]
+  },
+  "yandex_music.dislike": {
+    "ru": [
+      "поставь дизлайк текущему треку в Яндекс Музыке",
+      "эта песня мне не нравится пропусти её в Яндекс Музыке",
+      "исключи эту композицию из рекомендаций в Яндекс Музыке"
+    ],
+    "en": [
+      "dislike the current track in Yandex Music",
+      "I dislike this song skip it in Yandex Music",
+      "exclude this song from recommendations in Yandex Music"
+    ],
+    "de": [
+      "markiere den aktuellen Titel mit Gefällt mir nicht in Yandex Music",
+      "dieses Lied gefällt mir nicht überspringe es in Yandex Music",
+      "schließe dieses Lied aus meinen Empfehlungen aus in Yandex Music"
+    ],
+    "fr": [
+      "mets un je n’aime pas au titre actuel sur Yandex Music",
+      "je n’aime pas cette chanson passe-la sur Yandex Music",
+      "exclus ce morceau de mes recommandations sur Yandex Music"
+    ],
+    "es": [
+      "marca no me gusta en la canción actual en Yandex Music",
+      "no me gusta esta canción sáltala en Yandex Music",
+      "excluye este tema de las recomendaciones en Yandex Music"
+    ],
+    "it": [
+      "metti non mi piace al brano attuale su Yandex Music",
+      "non mi piace questa canzone saltala su Yandex Music",
+      "escludi questo brano dai suggerimenti su Yandex Music"
+    ],
+    "pt": [
+      "marca não gosto na faixa atual no Yandex Music",
+      "não gosto desta música salta-a no Yandex Music",
+      "exclui esta canção das recomendações no Yandex Music"
+    ]
+  },
+  "yandex_music.shuffle_on": {
+    "ru": [
+      "перемешай порядок музыки в Яндекс Музыке",
+      "проигрывай песни вперемешку в Яндекс Музыке",
+      "пусть треки идут в случайном порядке в Яндекс Музыке"
+    ],
+    "en": [
+      "shuffle the music order in Yandex Music",
+      "play the songs randomly in Yandex Music",
+      "let the tracks play in a random order in Yandex Music"
+    ],
+    "de": [
+      "mische die Musikreihenfolge in Yandex Music",
+      "spiele die Lieder durcheinander in Yandex Music",
+      "lass die Titel in zufälliger Reihenfolge laufen in Yandex Music"
+    ],
+    "fr": [
+      "mélange l’ordre des morceaux sur Yandex Music",
+      "joue les chansons au hasard sur Yandex Music",
+      "fais passer les titres dans un ordre aléatoire sur Yandex Music"
+    ],
+    "es": [
+      "mezcla el orden de la música en Yandex Music",
+      "reproduce las canciones al azar en Yandex Music",
+      "haz que los temas suenen en orden aleatorio en Yandex Music"
+    ],
+    "it": [
+      "mescola l’ordine della musica su Yandex Music",
+      "riproduci le canzoni a caso su Yandex Music",
+      "fai andare i brani in ordine casuale su Yandex Music"
+    ],
+    "pt": [
+      "baralha a ordem da música no Yandex Music",
+      "toca as canções ao acaso no Yandex Music",
+      "faz as faixas tocarem por ordem aleatória no Yandex Music"
+    ]
+  },
+  "yandex_music.shuffle_off": {
+    "ru": [
+      "верни обычный порядок музыки в Яндекс Музыке",
+      "проигрывай песни по порядку в Яндекс Музыке",
+      "отмени перемешивание треков в Яндекс Музыке"
+    ],
+    "en": [
+      "restore the normal music order in Yandex Music",
+      "play the songs in order in Yandex Music",
+      "disable track shuffling in Yandex Music"
+    ],
+    "de": [
+      "stelle die normale Musikreihenfolge wieder her in Yandex Music",
+      "spiele die Lieder der Reihe nach in Yandex Music",
+      "deaktiviere das Mischen der Titel in Yandex Music"
+    ],
+    "fr": [
+      "rétablis l’ordre normal des morceaux sur Yandex Music",
+      "joue les chansons dans l’ordre sur Yandex Music",
+      "désactive le mélange des titres sur Yandex Music"
+    ],
+    "es": [
+      "restaura el orden normal de la música en Yandex Music",
+      "reproduce las canciones en orden en Yandex Music",
+      "desactiva la mezcla de pistas en Yandex Music"
+    ],
+    "it": [
+      "ripristina l’ordine normale della musica su Yandex Music",
+      "riproduci le canzoni in ordine su Yandex Music",
+      "disattiva il mescolamento dei brani su Yandex Music"
+    ],
+    "pt": [
+      "repõe a ordem normal da música no Yandex Music",
+      "toca as canções por ordem no Yandex Music",
+      "desativa a mistura das faixas no Yandex Music"
+    ]
+  },
+  "yandex_music.repeat_on": {
+    "ru": [
+      "зацикли текущую песню в Яндекс Музыке",
+      "повторяй только этот трек в Яндекс Музыке",
+      "поставь эту композицию на повтор в Яндекс Музыке"
+    ],
+    "en": [
+      "loop the current song in Yandex Music",
+      "repeat only this track in Yandex Music",
+      "put this song on repeat in Yandex Music"
+    ],
+    "de": [
+      "spiele das aktuelle Lied in Dauerschleife in Yandex Music",
+      "wiederhole nur diesen Titel in Yandex Music",
+      "stelle für dieses Lied die Wiederholung ein in Yandex Music"
+    ],
+    "fr": [
+      "joue la chanson actuelle en boucle sur Yandex Music",
+      "répète uniquement ce titre sur Yandex Music",
+      "mets ce morceau en répétition sur Yandex Music"
+    ],
+    "es": [
+      "reproduce la canción actual en bucle en Yandex Music",
+      "repite solo esta pista en Yandex Music",
+      "pon este tema en repetición en Yandex Music"
+    ],
+    "it": [
+      "riproduci la canzone attuale in loop su Yandex Music",
+      "ripeti soltanto questo brano su Yandex Music",
+      "metti questa traccia in ripetizione su Yandex Music"
+    ],
+    "pt": [
+      "toca a canção atual em ciclo no Yandex Music",
+      "repete apenas esta faixa no Yandex Music",
+      "põe esta música em repetição no Yandex Music"
+    ]
+  },
+  "yandex_music.repeat_track": {
+    "ru": [
+      "зацикли текущую песню в Яндекс Музыке",
+      "повторяй только этот трек в Яндекс Музыке",
+      "поставь эту композицию на повтор в Яндекс Музыке"
+    ],
+    "en": [
+      "loop the current song in Yandex Music",
+      "repeat only this track in Yandex Music",
+      "put this song on repeat in Yandex Music"
+    ],
+    "de": [
+      "spiele das aktuelle Lied in Dauerschleife in Yandex Music",
+      "wiederhole nur diesen Titel in Yandex Music",
+      "stelle für dieses Lied die Wiederholung ein in Yandex Music"
+    ],
+    "fr": [
+      "joue la chanson actuelle en boucle sur Yandex Music",
+      "répète uniquement ce titre sur Yandex Music",
+      "mets ce morceau en répétition sur Yandex Music"
+    ],
+    "es": [
+      "reproduce la canción actual en bucle en Yandex Music",
+      "repite solo esta pista en Yandex Music",
+      "pon este tema en repetición en Yandex Music"
+    ],
+    "it": [
+      "riproduci la canzone attuale in loop su Yandex Music",
+      "ripeti soltanto questo brano su Yandex Music",
+      "metti questa traccia in ripetizione su Yandex Music"
+    ],
+    "pt": [
+      "toca a canção atual em ciclo no Yandex Music",
+      "repete apenas esta faixa no Yandex Music",
+      "põe esta música em repetição no Yandex Music"
+    ]
+  },
+  "yandex_music.repeat_playlist": {
+    "ru": [
+      "зацикли весь плейлист в Яндекс Музыке",
+      "повторяй список песен целиком в Яндекс Музыке",
+      "после конца плейлиста начинай его сначала в Яндекс Музыке"
+    ],
+    "en": [
+      "loop the whole playlist in Yandex Music",
+      "repeat the complete song list in Yandex Music",
+      "start the playlist again when it ends in Yandex Music"
+    ],
+    "de": [
+      "spiele die ganze Playlist in Dauerschleife in Yandex Music",
+      "wiederhole die vollständige Wiedergabeliste in Yandex Music",
+      "beginne die Playlist nach ihrem Ende erneut in Yandex Music"
+    ],
+    "fr": [
+      "joue toute la playlist en boucle sur Yandex Music",
+      "répète la liste de lecture complète sur Yandex Music",
+      "recommence la playlist quand elle se termine sur Yandex Music"
+    ],
+    "es": [
+      "reproduce toda la lista en bucle en Yandex Music",
+      "repite la lista completa de canciones en Yandex Music",
+      "vuelve a empezar la playlist cuando termine en Yandex Music"
+    ],
+    "it": [
+      "riproduci tutta la playlist in loop su Yandex Music",
+      "ripeti l’intera lista di brani su Yandex Music",
+      "ricomincia la playlist quando finisce su Yandex Music"
+    ],
+    "pt": [
+      "toca toda a playlist em ciclo no Yandex Music",
+      "repete a lista completa de músicas no Yandex Music",
+      "recomeça a playlist quando terminar no Yandex Music"
+    ]
+  },
+  "yandex_music.repeat_off": {
+    "ru": [
+      "отмени зацикливание музыки в Яндекс Музыке",
+      "не повторяй песни автоматически в Яндекс Музыке",
+      "убери повтор воспроизведения в Яндекс Музыке"
+    ],
+    "en": [
+      "disable music looping in Yandex Music",
+      "do not repeat songs automatically in Yandex Music",
+      "remove playback repeat in Yandex Music"
+    ],
+    "de": [
+      "deaktiviere die Musikschleife in Yandex Music",
+      "wiederhole die Lieder nicht automatisch in Yandex Music",
+      "beende die Wiedergabewiederholung in Yandex Music"
+    ],
+    "fr": [
+      "désactive la lecture musicale en boucle sur Yandex Music",
+      "ne répète pas les chansons automatiquement sur Yandex Music",
+      "retire la répétition de lecture sur Yandex Music"
+    ],
+    "es": [
+      "desactiva el bucle de música en Yandex Music",
+      "no repitas canciones automáticamente en Yandex Music",
+      "quita la repetición de reproducción en Yandex Music"
+    ],
+    "it": [
+      "disattiva il loop della musica su Yandex Music",
+      "non ripetere automaticamente le canzoni su Yandex Music",
+      "togli la ripetizione della riproduzione su Yandex Music"
+    ],
+    "pt": [
+      "desativa o ciclo de música no Yandex Music",
+      "não repitas as canções automaticamente no Yandex Music",
+      "retira a repetição da reprodução no Yandex Music"
+    ]
+  },
+  "yandex_music.set_volume": {
+    "ru": [
+      "сделай громкость музыки {volume} процентов в Яндекс Музыке",
+      "громкость плеера {volume} процентов в Яндекс Музыке",
+      "выставь музыку на {volume} процентов громкости в Яндекс Музыке"
+    ],
+    "en": [
+      "make the music volume {volume} percent in Yandex Music",
+      "set the player loudness to {volume} percent in Yandex Music",
+      "adjust music to {volume} percent volume in Yandex Music"
+    ],
+    "de": [
+      "passe die Musiklautstärke auf {volume} Prozent an in Yandex Music",
+      "setze den Playerpegel auf {volume} Prozent in Yandex Music",
+      "regle die Musik auf {volume} Prozent Lautstärke in Yandex Music"
+    ],
+    "fr": [
+      "mets le volume musical à {volume} pour cent sur Yandex Music",
+      "règle le niveau du lecteur à {volume} pour cent sur Yandex Music",
+      "ajuste la musique à {volume} pour cent de volume sur Yandex Music"
+    ],
+    "es": [
+      "pon el volumen musical al {volume} por ciento en Yandex Music",
+      "ajusta el nivel del reproductor al {volume} por ciento en Yandex Music",
+      "deja la música a un volumen del {volume} por ciento en Yandex Music"
+    ],
+    "it": [
+      "porta il volume musicale al {volume} per cento su Yandex Music",
+      "imposta il livello del lettore al {volume} per cento su Yandex Music",
+      "regola la musica al {volume} per cento del volume su Yandex Music"
+    ],
+    "pt": [
+      "põe o volume musical em {volume} por cento no Yandex Music",
+      "ajusta o nível do leitor para {volume} por cento no Yandex Music",
+      "deixa a música a {volume} por cento do volume no Yandex Music"
+    ]
+  },
+  "yandex_music.volume_up": {
+    "ru": [
+      "сделай музыку погромче в Яндекс Музыке",
+      "увеличь громкость музыкального плеера в Яндекс Музыке",
+      "подними уровень звука музыки в Яндекс Музыке"
+    ],
+    "en": [
+      "make the music louder in Yandex Music",
+      "increase the music player volume in Yandex Music",
+      "raise the music sound level in Yandex Music"
+    ],
+    "de": [
+      "mach die Musik lauter in Yandex Music",
+      "erhöhe die Lautstärke des Musikplayers in Yandex Music",
+      "hebe den Musikpegel an in Yandex Music"
+    ],
+    "fr": [
+      "mets la musique plus fort sur Yandex Music",
+      "augmente le volume du lecteur musical sur Yandex Music",
+      "monte le niveau sonore de la musique sur Yandex Music"
+    ],
+    "es": [
+      "pon la música más alta en Yandex Music",
+      "aumenta el volumen del reproductor musical en Yandex Music",
+      "sube el nivel de sonido de la música en Yandex Music"
+    ],
+    "it": [
+      "alza la musica su Yandex Music",
+      "aumenta il volume del lettore musicale su Yandex Music",
+      "alza il livello sonoro della musica su Yandex Music"
+    ],
+    "pt": [
+      "põe a música mais alta no Yandex Music",
+      "aumenta o volume do leitor de música no Yandex Music",
+      "sobe o nível sonoro da música no Yandex Music"
+    ]
+  },
+  "yandex_music.volume_down": {
+    "ru": [
+      "сделай музыку потише в Яндекс Музыке",
+      "уменьши громкость музыкального плеера в Яндекс Музыке",
+      "снизь уровень звука музыки в Яндекс Музыке"
+    ],
+    "en": [
+      "make the music quieter in Yandex Music",
+      "decrease the music player volume in Yandex Music",
+      "lower the music sound level in Yandex Music"
+    ],
+    "de": [
+      "mach die Musik leiser in Yandex Music",
+      "verringere die Lautstärke des Musikplayers in Yandex Music",
+      "senke den Musikpegel in Yandex Music"
+    ],
+    "fr": [
+      "mets la musique moins fort sur Yandex Music",
+      "diminue le volume du lecteur musical sur Yandex Music",
+      "baisse le niveau sonore de la musique sur Yandex Music"
+    ],
+    "es": [
+      "pon la música más baja en Yandex Music",
+      "reduce el volumen del reproductor musical en Yandex Music",
+      "baja el nivel de sonido de la música en Yandex Music"
+    ],
+    "it": [
+      "abbassa la musica su Yandex Music",
+      "riduci il volume del lettore musicale su Yandex Music",
+      "abbassa il livello sonoro della musica su Yandex Music"
+    ],
+    "pt": [
+      "põe a música mais baixa no Yandex Music",
+      "reduz o volume do leitor de música no Yandex Music",
+      "baixa o nível sonoro da música no Yandex Music"
+    ]
+  },
+  "yandex_music.api_status": {
+    "ru": [
+      "доступен ли API Яндекс Музыки",
+      "проверь авторизацию музыкального API",
+      "есть ли соединение с API музыкального сервиса"
+    ],
+    "en": [
+      "is the Yandex Music API available",
+      "check music API authorization",
+      "is the music service API connected"
+    ],
+    "de": [
+      "ist die Yandex-Music-API verfügbar",
+      "prüfe die Autorisierung der Musik-API",
+      "besteht eine Verbindung zur API des Musikdienstes"
+    ],
+    "fr": [
+      "l’API Yandex Music est-elle disponible",
+      "vérifie l’autorisation de l’API musicale",
+      "l’API du service musical est-elle connectée"
+    ],
+    "es": [
+      "está disponible la API de Yandex Music",
+      "comprueba la autorización de la API musical",
+      "hay conexión con la API del servicio musical"
+    ],
+    "it": [
+      "l’API di Yandex Music è disponibile",
+      "verifica l’autorizzazione dell’API musicale",
+      "l’API del servizio musicale è connessa"
+    ],
+    "pt": [
+      "a API do Yandex Music está disponível",
+      "verifica a autorização da API musical",
+      "existe ligação à API do serviço musical"
+    ]
+  },
+  "yandex_music.background_status": {
+    "ru": [
+      "покажи состояние фонового плеера в Яндекс Музыке",
+      "музыкальный плеер сейчас работает в Яндекс Музыке",
+      "расскажи о состоянии воспроизведения музыки в Яндекс Музыке"
+    ],
+    "en": [
+      "show the background player state in Yandex Music",
+      "is the music player running in Yandex Music",
+      "tell me the music playback status in Yandex Music"
+    ],
+    "de": [
+      "zeige den Zustand des Hintergrundplayers in Yandex Music",
+      "läuft der Musikplayer gerade in Yandex Music",
+      "wie ist der Status der Musikwiedergabe in Yandex Music"
+    ],
+    "fr": [
+      "affiche l’état du lecteur en arrière-plan sur Yandex Music",
+      "le lecteur de musique fonctionne-t-il sur Yandex Music",
+      "donne-moi l’état de la lecture musicale sur Yandex Music"
+    ],
+    "es": [
+      "muestra el estado del reproductor en segundo plano en Yandex Music",
+      "está funcionando el reproductor de música en Yandex Music",
+      "dime el estado de la reproducción musical en Yandex Music"
+    ],
+    "it": [
+      "mostra lo stato del lettore in sottofondo su Yandex Music",
+      "il lettore musicale è in funzione su Yandex Music",
+      "qual è lo stato della riproduzione musicale su Yandex Music"
+    ],
+    "pt": [
+      "mostra o estado do leitor em segundo plano no Yandex Music",
+      "o leitor de música está a funcionar no Yandex Music",
+      "diz-me o estado da reprodução musical no Yandex Music"
+    ]
+  },
+  "yandex_music.queue_status": {
+    "ru": [
+      "какие песни стоят в очереди в Яндекс Музыке",
+      "покажи следующие треки в очереди в Яндекс Музыке",
+      "что будет играть после текущей песни в Яндекс Музыке"
+    ],
+    "en": [
+      "which songs are queued in Yandex Music",
+      "show the upcoming tracks in the queue in Yandex Music",
+      "what will play after the current song in Yandex Music"
+    ],
+    "de": [
+      "welche Lieder stehen in der Warteschlange in Yandex Music",
+      "zeige die nächsten Titel der Warteschlange in Yandex Music",
+      "was läuft nach dem aktuellen Lied in Yandex Music"
+    ],
+    "fr": [
+      "quelles chansons sont dans la file d’attente sur Yandex Music",
+      "montre les prochains titres de la file sur Yandex Music",
+      "qu’est-ce qui passera après la chanson actuelle sur Yandex Music"
+    ],
+    "es": [
+      "qué canciones hay en la cola en Yandex Music",
+      "muestra las próximas pistas de la cola en Yandex Music",
+      "qué sonará después de la canción actual en Yandex Music"
+    ],
+    "it": [
+      "quali canzoni sono in coda su Yandex Music",
+      "mostra i prossimi brani della coda su Yandex Music",
+      "cosa verrà riprodotto dopo la canzone attuale su Yandex Music"
+    ],
+    "pt": [
+      "que músicas estão na fila no Yandex Music",
+      "mostra as próximas faixas da fila no Yandex Music",
+      "o que vai tocar depois da música atual no Yandex Music"
+    ]
+  },
+  "yandex_music.queue_clear": {
+    "ru": [
+      "удали все ожидающие треки из очереди в Яндекс Музыке",
+      "сбрось очередь воспроизведения в Яндекс Музыке",
+      "убери запланированные песни из очереди в Яндекс Музыке"
+    ],
+    "en": [
+      "remove all waiting tracks from the queue in Yandex Music",
+      "reset the playback queue in Yandex Music",
+      "discard the queued songs in Yandex Music"
+    ],
+    "de": [
+      "entferne alle wartenden Titel aus der Warteschlange in Yandex Music",
+      "setze die Wiedergabewarteschlange zurück in Yandex Music",
+      "verwirf die vorgemerkten Lieder in Yandex Music"
+    ],
+    "fr": [
+      "retire tous les titres en attente de la file sur Yandex Music",
+      "réinitialise la file de lecture sur Yandex Music",
+      "supprime les chansons mises en attente sur Yandex Music"
+    ],
+    "es": [
+      "elimina todas las pistas pendientes de la cola en Yandex Music",
+      "reinicia la cola de reproducción en Yandex Music",
+      "descarta las canciones en espera en Yandex Music"
+    ],
+    "it": [
+      "rimuovi tutti i brani in attesa dalla coda su Yandex Music",
+      "azzera la coda di riproduzione su Yandex Music",
+      "elimina le canzoni accodate su Yandex Music"
+    ],
+    "pt": [
+      "remove todas as faixas pendentes da fila no Yandex Music",
+      "repõe a fila de reprodução no Yandex Music",
+      "descarta as músicas em espera no Yandex Music"
+    ]
+  }
+}
