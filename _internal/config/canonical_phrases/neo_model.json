@@ -1,0 +1,38 @@
+{
+ "neo_model.status": [
+  "Покажи состояние модели команд",
+  "Show the command model status",
+  "Zeige den Status des Befehlsmodells",
+  "Montre l’état du modèle de commandes",
+  "Muestra el estado del modelo de comandos",
+  "Mostra lo stato del modello dei comandi",
+  "Mostra o estado do modelo de comandos"
+ ],
+ "neo_model.train": [
+  "Дообучи модель команд",
+  "Retrain the command model",
+  "Trainiere das Befehlsmodell nach",
+  "Réentraîne le modèle de commandes",
+  "Reentrena el modelo de comandos",
+  "Riaddestra il modello dei comandi",
+  "Retreina o modelo de comandos"
+ ],
+ "neo_model.versions": [
+  "Покажи версии модели команд",
+  "Show the command model versions",
+  "Zeige die Versionen des Befehlsmodells",
+  "Montre les versions du modèle de commandes",
+  "Muestra las versiones del modelo de comandos",
+  "Mostra le versioni del modello dei comandi",
+  "Mostra as versões do modelo de comandos"
+ ],
+ "neo_model.rollback": [
+  "Верни прежнюю модель команд",
+  "Roll back the command model",
+  "Setze das Befehlsmodell zurück",
+  "Reviens au modèle de commandes précédent",
+  "Vuelve al modelo de comandos anterior",
+  "Torna al modello dei comandi precedente",
+  "Volta ao modelo de comandos anterior"
+ ]
+}
