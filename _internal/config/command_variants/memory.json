@@ -1,0 +1,146 @@
+{
+ "memory.remember": {
+  "ru": [
+   "запомни что {key} — {value}",
+   "запомни что {key} это {value}",
+   "запомни {key} — {value}",
+   "запомни, что {key} — {value}",
+   "запомни, что {key} - {value}",
+   "запомни что {key} - {value}",
+   "запомни, что {key} это {value}"
+  ],
+  "en": [
+   "remember that {key} is {value}",
+   "remember, that {key} is {value}"
+  ],
+  "de": [
+   "merke dir dass {key} ist {value}",
+   "merke dir, dass {key} ist {value}",
+   "merk dir, dass {key} {value} ist"
+  ],
+  "fr": [
+   "retiens que {key} est {value}",
+   "retiens, que {key} est {value}"
+  ],
+  "es": [
+   "recuerda que {key} es {value}",
+   "recuerda, que {key} es {value}"
+  ],
+  "it": [
+   "ricorda che {key} è {value}",
+   "ricorda, che {key} è {value}"
+  ],
+  "pt": [
+   "memoriza que {key} é {value}",
+   "memoriza, que {key} é {value}"
+  ]
+ },
+ "memory.list": {
+  "ru": [
+   "что ты обо мне запомнил",
+   "что ты обо мне знаешь",
+   "что ты помнишь обо мне",
+   "покажи мою память"
+  ],
+  "en": [
+   "what do you remember about me",
+   "what do you know about me",
+   "show my memory"
+  ],
+  "de": [
+   "was weißt du über mich",
+   "was hast du dir über mich gemerkt"
+  ],
+  "fr": [
+   "que sais-tu de moi",
+   "qu'as-tu retenu sur moi"
+  ],
+  "es": [
+   "qué recuerdas de mí",
+   "qué sabes de mí"
+  ],
+  "it": [
+   "cosa ricordi di me",
+   "cosa sai di me"
+  ],
+  "pt": [
+   "o que lembras de mim",
+   "o que sabes sobre mim"
+  ]
+ },
+ "memory.forget": {
+  "ru": [
+   "забудь {key}",
+   "забудь предпочтение {key}"
+  ],
+  "en": [
+   "forget {key}"
+  ],
+  "de": [
+   "vergiss {key}"
+  ],
+  "fr": [
+   "oublie {key}"
+  ],
+  "es": [
+   "olvida {key}"
+  ],
+  "it": [
+   "dimentica {key}"
+  ],
+  "pt": [
+   "esquece {key}"
+  ]
+ },
+ "memory.forget_last": {
+  "ru": [
+   "забудь это",
+   "забудь это правило"
+  ],
+  "en": [
+   "forget that",
+   "forget this"
+  ],
+  "de": [
+   "vergiss das"
+  ],
+  "fr": [
+   "oublie ça"
+  ],
+  "es": [
+   "olvida eso"
+  ],
+  "it": [
+   "dimentica questo"
+  ],
+  "pt": [
+   "esquece isso"
+  ]
+ },
+ "memory.clear": {
+  "ru": [
+   "очисти память",
+   "удали всю память",
+   "забудь всё обо мне"
+  ],
+  "en": [
+   "clear your memory",
+   "forget everything about me"
+  ],
+  "de": [
+   "lösche dein gedächtnis"
+  ],
+  "fr": [
+   "oublie tout sur moi"
+  ],
+  "es": [
+   "olvida todo sobre mí"
+  ],
+  "it": [
+   "dimentica tutto di me"
+  ],
+  "pt": [
+   "esquece tudo sobre mim"
+  ]
+ }
+}
