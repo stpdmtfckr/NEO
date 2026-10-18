@@ -1,0 +1,1366 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "category": "help",
+      "family": "help",
+      "phrases": {
+        "ru": [
+          "что ты умеешь",
+          "расскажи о своих возможностях",
+          "какие у тебя функции",
+          "покажи возможности ассистента"
+        ],
+        "en": [
+          "what can you do",
+          "tell me about your capabilities",
+          "what are your features",
+          "show assistant capabilities"
+        ],
+        "de": [
+          "was kannst du",
+          "erkläre deine Fähigkeiten",
+          "welche Funktionen hast du",
+          "zeige deine Möglichkeiten"
+        ],
+        "fr": [
+          "que peux-tu faire",
+          "présente tes capacités",
+          "quelles sont tes fonctions",
+          "montre tes possibilités"
+        ],
+        "es": [
+          "qué puedes hacer",
+          "cuéntame tus capacidades",
+          "qué funciones tienes",
+          "muestra tus posibilidades"
+        ],
+        "it": [
+          "cosa sai fare",
+          "descrivi le tue capacità",
+          "quali funzioni hai",
+          "mostra le tue possibilità"
+        ],
+        "pt": [
+          "o que podes fazer",
+          "descreve as tuas capacidades",
+          "que funções tens",
+          "mostra as tuas possibilidades"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Я могу управлять музыкой, открывать приложения и файлы, работать с заметками и чек-листами, ставить таймеры и бросать кубик. Для сетевых сервисов нужны подключение и настроенный аккаунт. Например: «таймер 15 минут» или «покажи активные приложения».",
+          "Начать можно с музыки, таймера, приложения, файла или заметки. Назови задачу обычной фразой, например «покажи таймеры». Если нужного параметра не хватает, я задам уточняющий вопрос."
+        ],
+        "en": [
+          "I can control music, open applications and files, manage notes and checklists, set timers and roll a die. Online services need a connection and a configured account. Try “timer for 15 minutes” or “show running applications”.",
+          "We can start with music, a timer, an application, a file or a note. Describe the task, for example “show timers”. I will ask a specific question when a required detail is missing."
+        ],
+        "de": [
+          "Ich kann Musik steuern, Anwendungen und Dateien öffnen, Notizen und Checklisten verwalten, Timer stellen und würfeln. Onlinedienste brauchen eine Verbindung und ein eingerichtetes Konto. Zum Beispiel: „Timer für 15 Minuten“ oder „zeige laufende Anwendungen“.",
+          "Wir können mit Musik, einem Timer, einer Anwendung, einer Datei oder einer Notiz anfangen. Nenne die Aufgabe, etwa „zeige Timer“. Fehlende notwendige Angaben frage ich gezielt nach."
+        ],
+        "fr": [
+          "Je peux contrôler la musique, ouvrir des applications et fichiers, gérer des notes et listes de tâches, régler des minuteurs et lancer un dé. Les services en ligne demandent une connexion et un compte configuré. Essaie « minuteur de 15 minutes » ou « montre les applications en cours ».",
+          "On peut commencer par la musique, un minuteur, une application, un fichier ou une note. Décris la tâche, par exemple « montre les minuteurs ». Je demanderai les précisions nécessaires."
+        ],
+        "es": [
+          "Puedo controlar música, abrir aplicaciones y archivos, gestionar notas y listas de tareas, poner temporizadores y tirar un dado. Los servicios en línea necesitan conexión y una cuenta configurada. Prueba «temporizador de 15 minutos» o «muestra las aplicaciones en ejecución».",
+          "Podemos empezar por música, un temporizador, una aplicación, un archivo o una nota. Describe la tarea, por ejemplo «muestra los temporizadores». Preguntaré por los datos necesarios que falten."
+        ],
+        "it": [
+          "Posso controllare la musica, aprire applicazioni e file, gestire note e liste di attività, impostare timer e tirare un dado. I servizi online richiedono una connessione e un account configurato. Prova «timer di 15 minuti» o «mostra le applicazioni in esecuzione».",
+          "Possiamo iniziare da musica, timer, applicazioni, file o note. Descrivi l’attività, per esempio «mostra i timer». Chiederò i dettagli necessari che mancano."
+        ],
+        "pt": [
+          "Posso controlar música, abrir aplicações e ficheiros, gerir notas e listas de tarefas, definir temporizadores e lançar um dado. Os serviços online precisam de ligação e de uma conta configurada. Experimenta «temporizador de 15 minutos» ou «mostra as aplicações em execução».",
+          "Podemos começar por música, um temporizador, uma aplicação, um ficheiro ou uma nota. Descreve a tarefa, por exemplo «mostra os temporizadores». Perguntarei pelos dados necessários em falta."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_music",
+      "family": "help_music",
+      "phrases": {
+        "ru": [
+          "как управлять музыкой",
+          "какие есть команды музыки",
+          "примеры музыкальных команд",
+          "помоги с командами музыки"
+        ],
+        "en": [
+          "how do I control music",
+          "what music commands are available",
+          "music command examples",
+          "help with music commands"
+        ],
+        "de": [
+          "wie steuere ich Musik",
+          "welche Musikbefehle gibt es",
+          "Beispiele für Musikbefehle",
+          "Hilfe zu Musikbefehlen"
+        ],
+        "fr": [
+          "comment contrôler la musique",
+          "quelles commandes musicales existent",
+          "exemples de commandes musicales",
+          "aide pour les commandes musicales"
+        ],
+        "es": [
+          "cómo controlo la música",
+          "qué comandos de música hay",
+          "ejemplos de comandos de música",
+          "ayuda con comandos de música"
+        ],
+        "it": [
+          "come controllo la musica",
+          "quali comandi musicali ci sono",
+          "esempi di comandi musicali",
+          "aiuto con i comandi musicali"
+        ],
+        "pt": [
+          "como controlo a música",
+          "que comandos de música existem",
+          "exemplos de comandos de música",
+          "ajuda com comandos de música"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Скажи «пауза», «продолжи музыку», «следующий трек» или «покажи очередь музыки». Источник можно назвать явно: «найди песню Imagine в Spotify». Поиск песни не должен запускать её воспроизведение.",
+          "Для паузы или переключения достаточно короткой команды. Для поиска назови трек и сервис. «Найди песню …» ищет, «включи песню …» запускает воспроизведение, а «добавь … в очередь» меняет очередь."
+        ],
+        "en": [
+          "Say “pause the music”, “resume the music”, “next track” or “show the music queue”. Name the source explicitly when needed: “find the song Imagine on Spotify”. Finding a song does not start playback.",
+          "Use a short command to pause or skip. For a search, name the track and service. “Find the song …” searches, “play the song …” starts playback, and “add … to the queue” changes the queue."
+        ],
+        "de": [
+          "Sage „pausiere die Musik“, „setze die Musik fort“, „nächster Titel“ oder „zeige die Musikwarteschlange“. Nenne bei Bedarf die Quelle: „finde das Lied Imagine auf Spotify“. Die Suche startet keine Wiedergabe.",
+          "Zum Pausieren oder Wechseln genügt ein kurzer Befehl. Nenne für die Suche Titel und Dienst. „Finde das Lied …“ sucht, „spiele das Lied …“ startet die Wiedergabe."
+        ],
+        "fr": [
+          "Dis « mets la musique en pause », « reprends la musique », « morceau suivant » ou « montre la file musicale ». Précise la source : « trouve la chanson Imagine sur Spotify ». La recherche ne lance pas la lecture.",
+          "Une commande courte suffit pour mettre en pause ou changer de titre. Pour chercher, nomme le titre et le service. « Trouve la chanson… » cherche, tandis que « joue la chanson… » lance la lecture."
+        ],
+        "es": [
+          "Di «pausa la música», «reanuda la música», «siguiente pista» o «muestra la cola de música». Puedes indicar la fuente: «busca la canción Imagine en Spotify». La búsqueda no inicia la reproducción.",
+          "Una orden corta basta para pausar o cambiar de pista. Para buscar, indica el título y el servicio. «Busca la canción…» busca, mientras que «reproduce la canción…» inicia la reproducción."
+        ],
+        "it": [
+          "Di' «metti in pausa la musica», «riprendi la musica», «brano successivo» o «mostra la coda musicale». Puoi indicare la fonte: «trova la canzone Imagine su Spotify». La ricerca non avvia la riproduzione.",
+          "Basta un comando breve per mettere in pausa o cambiare brano. Per cercare, indica titolo e servizio. «Trova la canzone…» cerca, mentre «riproduci la canzone…» avvia la riproduzione."
+        ],
+        "pt": [
+          "Diz «pausa a música», «retoma a música», «próxima faixa» ou «mostra a fila de música». Podes indicar a fonte: «procura a música Imagine no Spotify». A pesquisa não inicia a reprodução.",
+          "Basta um comando curto para pausar ou mudar de faixa. Para pesquisar, indica o título e o serviço. «Procura a música…» pesquisa, enquanto «reproduz a música…» inicia a reprodução."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_files",
+      "family": "help_files",
+      "phrases": {
+        "ru": [
+          "как давать команды для файлов",
+          "помоги с файловыми командами",
+          "примеры команд для папок",
+          "как указать нужный файл"
+        ],
+        "en": [
+          "how do I give file commands",
+          "help with file commands",
+          "folder command examples",
+          "how do I specify a file"
+        ],
+        "de": [
+          "wie gebe ich Dateibefehle",
+          "Hilfe zu Dateibefehlen",
+          "Beispiele für Ordnerbefehle",
+          "wie gebe ich eine Datei an"
+        ],
+        "fr": [
+          "comment donner une commande de fichier",
+          "aide pour les commandes de fichiers",
+          "exemples pour les dossiers",
+          "comment préciser un fichier"
+        ],
+        "es": [
+          "cómo doy órdenes de archivos",
+          "ayuda con comandos de archivos",
+          "ejemplos para carpetas",
+          "cómo indico un archivo"
+        ],
+        "it": [
+          "come do comandi per i file",
+          "aiuto con i comandi dei file",
+          "esempi per le cartelle",
+          "come indico un file"
+        ],
+        "pt": [
+          "como dou comandos de ficheiros",
+          "ajuda com comandos de ficheiros",
+          "exemplos para pastas",
+          "como indico um ficheiro"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Назови действие и объект: «открой файл …», «скопируй файл … в …» или «переименуй файл … в …». Для изменения файла надёжнее дать полный путь. Если данных не хватает, я спрошу конкретное имя или папку назначения.",
+          "Для копирования нужны исходный файл и папка назначения. Для переименования — файл и новое имя. Можно назвать только действие: недостающие параметры я запрошу по очереди."
+        ],
+        "en": [
+          "Name the action and target: “open file …”, “copy file … to …” or “rename file … to …”. Use a full path when modifying a file. Missing details should lead to a question about the name or destination.",
+          "Copying needs a source file and destination folder. Renaming needs a file and a new name. You can start with the action and supply missing details when asked."
+        ],
+        "de": [
+          "Nenne Aktion und Ziel: „öffne die Datei …“, „kopiere die Datei … nach …“ oder „benenne die Datei … in … um“. Gib für Änderungen am besten den vollständigen Pfad an. Fehlende Angaben frage ich gezielt nach.",
+          "Zum Kopieren brauche ich die Quelldatei und den Zielordner, zum Umbenennen die Datei und den neuen Namen. Du kannst mit der Aktion anfangen und fehlende Angaben auf Nachfrage nennen."
+        ],
+        "fr": [
+          "Indique l’action et la cible : « ouvre le fichier … », « copie le fichier … vers … » ou « renomme le fichier … en … ». Pour une modification, donne de préférence le chemin complet. Je demanderai les précisions manquantes.",
+          "Pour copier, il faut un fichier source et un dossier de destination. Pour renommer, un fichier et un nouveau nom. Tu peux commencer par l’action et donner les précisions quand je les demande."
+        ],
+        "es": [
+          "Indica acción y objeto: «abre el archivo …», «copia el archivo … a …» o «renombra el archivo … como …». Para modificar un archivo es mejor dar su ruta completa. Preguntaré por los datos que falten.",
+          "Para copiar hacen falta un archivo de origen y una carpeta de destino. Para renombrar, un archivo y un nombre nuevo. Puedes empezar por la acción y responder a las preguntas."
+        ],
+        "it": [
+          "Indica azione e oggetto: «apri il file …», «copia il file … in …» o «rinomina il file … in …». Per modificare un file è meglio dare il percorso completo. Chiederò i dettagli mancanti.",
+          "Per copiare servono il file di origine e la cartella di destinazione. Per rinominare servono il file e il nuovo nome. Puoi iniziare dall’azione e rispondere alle domande sui dettagli."
+        ],
+        "pt": [
+          "Indica a ação e o objeto: «abre o ficheiro …», «copia o ficheiro … para …» ou «renomeia o ficheiro … para …». Para modificar um ficheiro é melhor dar o caminho completo. Perguntarei pelos dados em falta.",
+          "Para copiar são necessários o ficheiro de origem e a pasta de destino. Para renomear são necessários o ficheiro e o novo nome. Podes começar pela ação e responder às perguntas."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_timers",
+      "family": "help_timers",
+      "phrases": {
+        "ru": [
+          "как поставить таймер",
+          "какие команды таймера есть",
+          "покажи примеры таймеров",
+          "нужно ли говорить поставь таймер"
+        ],
+        "en": [
+          "how do I set a timer",
+          "what timer commands are available",
+          "show timer examples",
+          "do I have to say set a timer"
+        ],
+        "de": [
+          "wie stelle ich einen Timer",
+          "welche Timerbefehle gibt es",
+          "zeige Timerbeispiele",
+          "wie formuliere ich einen Timer"
+        ],
+        "fr": [
+          "comment régler un minuteur",
+          "quelles commandes de minuteur existent",
+          "montre des exemples de minuteurs",
+          "comment formuler un minuteur"
+        ],
+        "es": [
+          "cómo pongo un temporizador",
+          "qué comandos de temporizador hay",
+          "muestra ejemplos de temporizadores",
+          "cómo formulo un temporizador"
+        ],
+        "it": [
+          "come imposto un timer",
+          "quali comandi per i timer ci sono",
+          "mostra esempi di timer",
+          "come formulo un timer"
+        ],
+        "pt": [
+          "como defino um temporizador",
+          "que comandos de temporizador existem",
+          "mostra exemplos de temporizadores",
+          "como formulo um temporizador"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Достаточно сказать «таймер 15 минут». Можно начать со слова «таймер» и ответить на вопрос о длительности. «Покажи таймеры» выводит список, а не создаёт новый таймер.",
+          "Слово «поставь» необязательно: «таймер 15 минут» уже задаёт длительность. Если скажешь просто «таймер», я спрошу время. Проверить список можно отдельной командой «покажи таймеры»."
+        ],
+        "en": [
+          "“Timer for 15 minutes” is enough. You can also say “timer” and answer the duration question. “Show timers” lists timers rather than creating one.",
+          "You do not have to say “set”: “timer for 15 minutes” gives the duration. With just “timer”, I will ask how long. Use “show timers” to check the list."
+        ],
+        "de": [
+          "„Timer für 15 Minuten“ reicht aus. Du kannst auch „Timer“ sagen und die Frage nach der Dauer beantworten. „Zeige Timer“ zeigt die Liste und erstellt keinen neuen Timer.",
+          "„Stelle“ ist nicht nötig: „Timer für 15 Minuten“ enthält die Dauer. Bei „Timer“ frage ich nach der Zeit. Mit „zeige Timer“ siehst du die Liste."
+        ],
+        "fr": [
+          "« Minuteur de 15 minutes » suffit. Tu peux aussi dire « minuteur » puis répondre à la question sur la durée. « Montre les minuteurs » affiche la liste sans en créer un.",
+          "Le verbe « régler » est facultatif : « minuteur de 15 minutes » indique la durée. Avec « minuteur » seul, je demanderai le temps. « Montre les minuteurs » affiche la liste."
+        ],
+        "es": [
+          "Basta con «temporizador de 15 minutos». También puedes decir «temporizador» y responder a la pregunta sobre la duración. «Muestra los temporizadores» enseña la lista sin crear uno.",
+          "No hace falta decir «pon»: «temporizador de 15 minutos» indica la duración. Con solo «temporizador» preguntaré el tiempo. Usa «muestra los temporizadores» para consultar la lista."
+        ],
+        "it": [
+          "Basta dire «timer di 15 minuti». Puoi anche dire «timer» e rispondere alla domanda sulla durata. «Mostra i timer» visualizza la lista senza crearne uno.",
+          "Non serve dire «imposta»: «timer di 15 minuti» indica la durata. Con il solo «timer» chiederò il tempo. Usa «mostra i timer» per consultare la lista."
+        ],
+        "pt": [
+          "Basta dizer «temporizador de 15 minutos». Também podes dizer «temporizador» e responder à pergunta sobre a duração. «Mostra os temporizadores» apresenta a lista sem criar outro.",
+          "Não é preciso dizer «define»: «temporizador de 15 minutos» indica a duração. Com apenas «temporizador» perguntarei o tempo. Usa «mostra os temporizadores» para consultar a lista."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_correction",
+      "family": "help_correction",
+      "phrases": {
+        "ru": [
+          "как тебя исправить",
+          "как исправить предыдущую команду",
+          "что сказать если ты не так понял",
+          "как изменить мой ответ"
+        ],
+        "en": [
+          "how do I correct you",
+          "how do I correct the last request",
+          "what if you misunderstood",
+          "how do I change my answer"
+        ],
+        "de": [
+          "wie korrigiere ich dich",
+          "wie korrigiere ich den letzten Auftrag",
+          "was wenn du mich falsch verstehst",
+          "wie ändere ich meine Antwort"
+        ],
+        "fr": [
+          "comment te corriger",
+          "comment corriger ma dernière demande",
+          "que faire si tu as mal compris",
+          "comment modifier ma réponse"
+        ],
+        "es": [
+          "cómo te corrijo",
+          "cómo corrijo mi última solicitud",
+          "qué hago si entendiste mal",
+          "cómo cambio mi respuesta"
+        ],
+        "it": [
+          "come ti correggo",
+          "come correggo l’ultima richiesta",
+          "cosa faccio se hai capito male",
+          "come cambio la mia risposta"
+        ],
+        "pt": [
+          "como te corrijo",
+          "como corrijo o último pedido",
+          "o que faço se percebeste mal",
+          "como altero a minha resposta"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Начни с «нет, я имел в виду…» и назови исправление. Например, после таймера: «нет, я имел в виду 20 минут». Если операция уже выполнена и безопасно изменить её нельзя, я не буду молча повторять или отменять её.",
+          "Лучше назвать исправление явно: «нет, я имел в виду…». Для текущего вопроса укажи правильный параметр. Простое «да» подтверждает только ожидающее подтверждение, а не любое прежнее действие."
+        ],
+        "en": [
+          "Start with “no, I meant…” and give the correction. After setting a timer, for example: “no, I meant 20 minutes”. Completed operations are not silently repeated or undone when a safe correction is unavailable.",
+          "Give the correction explicitly: “no, I meant…”. For a pending question, supply the correct detail. A simple “yes” applies only to a pending confirmation, not any previous action."
+        ],
+        "de": [
+          "Beginne mit „nein, ich meinte …“ und nenne die Korrektur. Nach einem Timer etwa: „nein, ich meinte 20 Minuten“. Bereits ausgeführte Aktionen werden nicht stillschweigend wiederholt oder rückgängig gemacht.",
+          "Nenne die Korrektur ausdrücklich: „nein, ich meinte …“. Bei einer offenen Frage gib die richtige Angabe. Ein einfaches „ja“ gilt nur für eine ausstehende Bestätigung."
+        ],
+        "fr": [
+          "Commence par « non, je voulais dire… » puis précise la correction. Après un minuteur : « non, je voulais dire 20 minutes ». Une opération terminée ne sera pas répétée ou annulée silencieusement.",
+          "Précise la correction : « non, je voulais dire… ». Pour une question en attente, donne la bonne valeur. Un simple « oui » ne vaut que pour une confirmation en attente."
+        ],
+        "es": [
+          "Empieza con «no, quería decir…» e indica la corrección. Tras un temporizador: «no, quería decir 20 minutos». Las operaciones terminadas no se repiten ni se deshacen en silencio.",
+          "Indica la corrección: «no, quería decir…». Para una pregunta pendiente, da el dato correcto. Un simple «sí» solo sirve para una confirmación pendiente."
+        ],
+        "it": [
+          "Inizia con «no, intendevo…» e indica la correzione. Dopo un timer: «no, intendevo 20 minuti». Le operazioni completate non vengono ripetute o annullate di nascosto.",
+          "Indica esplicitamente la correzione: «no, intendevo…». Per una domanda in attesa, dai il dato corretto. Un semplice «sì» vale solo per una conferma in attesa."
+        ],
+        "pt": [
+          "Começa com «não, queria dizer…» e indica a correção. Depois de um temporizador: «não, queria dizer 20 minutos». As operações concluídas não são repetidas ou desfeitas silenciosamente.",
+          "Indica a correção de forma explícita: «não, queria dizer…». Para uma pergunta pendente, dá o dado correto. Um simples «sim» só vale para uma confirmação pendente."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_shelf",
+      "family": "help_shelf",
+      "phrases": {
+        "ru": [
+          "как пользоваться книжной полкой",
+          "что можно делать с заметками",
+          "помоги с чек-листами",
+          "объясни команды полки"
+        ],
+        "en": [
+          "how do I use the shelf",
+          "what can I do with notes",
+          "help with checklists",
+          "explain shelf commands"
+        ],
+        "de": [
+          "wie benutze ich das Regal",
+          "was kann ich mit Notizen tun",
+          "Hilfe zu Checklisten",
+          "erkläre die Regalbefehle"
+        ],
+        "fr": [
+          "comment utiliser l’étagère",
+          "que puis-je faire avec les notes",
+          "aide avec les listes de tâches",
+          "explique les commandes de l’étagère"
+        ],
+        "es": [
+          "cómo uso la estantería",
+          "qué puedo hacer con las notas",
+          "ayuda con listas de tareas",
+          "explica los comandos de la estantería"
+        ],
+        "it": [
+          "come uso lo scaffale",
+          "cosa posso fare con le note",
+          "aiuto con le liste di attività",
+          "spiega i comandi dello scaffale"
+        ],
+        "pt": [
+          "como uso a estante",
+          "o que posso fazer com as notas",
+          "ajuda com listas de tarefas",
+          "explica os comandos da estante"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Указывай тип и название: «создай заметку», «прочитай заметку Покупки» или команду для чек-листа. Пункт «убрать с полки» удаляет ссылку, а удаление файла — отдельное действие с подтверждением.",
+          "Полка хранит заметки, чек-листы и закреплённые объекты. Указывай название нужной заметки, чтобы не изменить другую. Для файла открытие, удаление и снятие с полки — разные операции."
+        ],
+        "en": [
+          "Give the type and title: “create a note”, “read the note Shopping” or a checklist command. Removing an item from the shelf removes its reference. Deleting the actual file is a separate confirmed action.",
+          "The shelf holds notes, checklists and pinned items. Name the note you mean so another one is not changed. Opening a file, deleting it and removing its shelf reference are different operations."
+        ],
+        "de": [
+          "Nenne Typ und Titel, etwa „erstelle eine Notiz“ oder „lies die Notiz Einkauf“. Vom Regal entfernen löscht nur den Verweis. Das Löschen der eigentlichen Datei ist eine separate Aktion mit Bestätigung.",
+          "Das Regal enthält Notizen, Checklisten und angeheftete Einträge. Nenne die gewünschte Notiz. Eine Datei öffnen, löschen oder ihren Verweis vom Regal entfernen sind verschiedene Aktionen."
+        ],
+        "fr": [
+          "Indique le type et le titre, par exemple « crée une note » ou « lis la note Courses ». Retirer un élément de l’étagère supprime sa référence. Supprimer le fichier est une action distincte à confirmer.",
+          "L’étagère contient des notes, des listes de tâches et des éléments épinglés. Nomme la note voulue. Ouvrir un fichier, le supprimer et retirer sa référence de l’étagère sont des opérations différentes."
+        ],
+        "es": [
+          "Indica tipo y título, por ejemplo «crea una nota» o «lee la nota Compras». Quitar un elemento de la estantería elimina la referencia. Borrar el archivo es una acción distinta con confirmación.",
+          "La estantería contiene notas, listas de tareas y elementos fijados. Indica la nota concreta. Abrir un archivo, borrarlo y quitar su referencia de la estantería son operaciones distintas."
+        ],
+        "it": [
+          "Indica tipo e titolo, per esempio «crea una nota» o «leggi la nota Spesa». Rimuovere un elemento dallo scaffale elimina il riferimento. Eliminare il file è un’azione separata con conferma.",
+          "Lo scaffale contiene note, liste di attività ed elementi fissati. Indica la nota precisa. Aprire un file, eliminarlo e rimuoverne il riferimento dallo scaffale sono operazioni diverse."
+        ],
+        "pt": [
+          "Indica o tipo e o título, por exemplo «cria uma nota» ou «lê a nota Compras». Retirar um elemento da estante elimina a referência. Apagar o ficheiro é uma ação separada com confirmação.",
+          "A estante contém notas, listas de tarefas e elementos fixados. Indica a nota pretendida. Abrir um ficheiro, apagá-lo e retirar a referência da estante são operações diferentes."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_cancel",
+      "family": "help_cancel",
+      "phrases": {
+        "ru": [
+          "как отменить уточнение",
+          "как выйти из вопроса",
+          "как прекратить текущий диалог",
+          "как отказаться от подтверждения"
+        ],
+        "en": [
+          "how do I cancel a clarification",
+          "how do I leave a question",
+          "how do I stop this dialogue",
+          "how do I decline confirmation"
+        ],
+        "de": [
+          "wie breche ich eine Rückfrage ab",
+          "wie verlasse ich eine Frage",
+          "wie beende ich diesen Dialog",
+          "wie lehne ich die Bestätigung ab"
+        ],
+        "fr": [
+          "comment annuler une clarification",
+          "comment quitter une question",
+          "comment arrêter ce dialogue",
+          "comment refuser la confirmation"
+        ],
+        "es": [
+          "cómo cancelo una aclaración",
+          "cómo salgo de una pregunta",
+          "cómo termino este diálogo",
+          "cómo rechazo la confirmación"
+        ],
+        "it": [
+          "come annullo un chiarimento",
+          "come esco da una domanda",
+          "come interrompo il dialogo",
+          "come rifiuto la conferma"
+        ],
+        "pt": [
+          "como cancelo um esclarecimento",
+          "como saio de uma pergunta",
+          "como termino este diálogo",
+          "como recuso a confirmação"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Скажи «отмена», когда я жду параметр или подтверждение. Это прекращает ожидающую команду, но не отменяет уже выполненные действия. Откат изменения файла — отдельная команда.",
+          "Отменить ожидающий запрос можно словом «отмена». Уже выполненная операция от этого не исчезает. Для отмены изменений нужен предусмотренный для этой операции обратный шаг."
+        ],
+        "en": [
+          "Say “cancel” while I am waiting for a parameter or confirmation. This stops the pending request, not actions already completed. Undoing a file change is a separate command.",
+          "Use “cancel” to abandon a pending request. This does not erase an action that has already completed. Reversing changes requires an undo operation that is actually supported."
+        ],
+        "de": [
+          "Sage „abbrechen“, wenn ich auf eine Angabe oder Bestätigung warte. Das beendet die ausstehende Anfrage, macht aber keine abgeschlossenen Aktionen rückgängig.",
+          "Mit „abbrechen“ verwirfst du eine ausstehende Anfrage. Eine abgeschlossene Aktion verschwindet dadurch nicht. Änderungen brauchen eine tatsächlich unterstützte Rückgängig-Aktion."
+        ],
+        "fr": [
+          "Dis « annuler » quand j’attends un paramètre ou une confirmation. Cela abandonne la demande en attente, mais n’annule pas les actions déjà terminées.",
+          "« Annuler » abandonne une demande en attente. Une action déjà terminée ne disparaît pas pour autant. Revenir sur une modification nécessite une opération inverse prise en charge."
+        ],
+        "es": [
+          "Di «cancelar» cuando espere un dato o una confirmación. Se cancela la solicitud pendiente, no las acciones ya terminadas.",
+          "«Cancelar» abandona una solicitud pendiente. No hace desaparecer una acción ya completada. Revertir cambios necesita una operación de deshacer compatible."
+        ],
+        "it": [
+          "Di' «annulla» mentre aspetto un parametro o una conferma. Si interrompe la richiesta in attesa, non si annullano le azioni già completate.",
+          "«Annulla» abbandona una richiesta in attesa. Non cancella un’azione già completata. Per invertire le modifiche serve un’operazione di annullamento supportata."
+        ],
+        "pt": [
+          "Diz «cancelar» enquanto espero um parâmetro ou confirmação. Isso cancela o pedido pendente, não as ações já concluídas.",
+          "«Cancelar» abandona um pedido pendente. Não faz desaparecer uma ação concluída. Reverter alterações exige uma operação inversa suportada."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_results",
+      "family": "help_results",
+      "phrases": {
+        "ru": [
+          "почему ты не пишешь выполнено",
+          "что значит результат неизвестен",
+          "что означает услышал выполняю",
+          "зачем два сообщения на команду"
+        ],
+        "en": [
+          "why do you not say done",
+          "what does unknown result mean",
+          "what does heard and working mean",
+          "why are there two command messages"
+        ],
+        "de": [
+          "warum sagst du nicht erledigt",
+          "was bedeutet unbekanntes Ergebnis",
+          "was bedeutet gehört und in Arbeit",
+          "warum gibt es zwei Befehlsmeldungen"
+        ],
+        "fr": [
+          "pourquoi ne dis-tu pas terminé",
+          "que signifie résultat inconnu",
+          "que signifie entendu et en cours",
+          "pourquoi deux messages par commande"
+        ],
+        "es": [
+          "por qué no dices hecho",
+          "qué significa resultado desconocido",
+          "qué significa oído y en proceso",
+          "por qué hay dos mensajes por comando"
+        ],
+        "it": [
+          "perché non dici fatto",
+          "cosa significa risultato sconosciuto",
+          "cosa significa ricevuto e in corso",
+          "perché ci sono due messaggi per comando"
+        ],
+        "pt": [
+          "por que não dizes concluído",
+          "o que significa resultado desconhecido",
+          "o que significa recebido e em curso",
+          "por que há duas mensagens por comando"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "«Услышал» подтверждает получение команды, а не её выполнение. Затем я сообщаю результат. Если подтверждение от приложения или сервиса не получено, правильнее сказать об этом, чем обещать, что действие выполнено.",
+          "Я разделяю получение команды и её результат. Поэтому при задержке сначала видно, что запрос принят. Сообщение о завершении должно опираться на ответ инструмента, а не только на отсутствие ошибки."
+        ],
+        "en": [
+          "“Heard” acknowledges the request, not its completion. The next message reports the result. Without confirmation from the application or service, I should explain the uncertainty rather than claim success.",
+          "I separate receipt of a command from its result, so a delay still shows that the request was received. Completion should be based on tool evidence, not just the absence of an error."
+        ],
+        "de": [
+          "„Gehört“ bestätigt den Empfang, nicht die Ausführung. Danach folgt das Ergebnis. Ohne Bestätigung der Anwendung oder des Dienstes sollte ich die Unsicherheit benennen statt Erfolg zu behaupten.",
+          "Ich trenne den Empfang eines Befehls von seinem Ergebnis. So bleibt bei einer Verzögerung sichtbar, dass der Auftrag angekommen ist. Ein Abschluss braucht eine Rückmeldung des Werkzeugs."
+        ],
+        "fr": [
+          "« Entendu » confirme la réception, pas l’exécution. Le message suivant donne le résultat. Sans confirmation de l’application ou du service, je dois signaler l’incertitude plutôt que prétendre avoir réussi.",
+          "Je sépare la réception de la commande de son résultat. Même en cas de délai, tu vois que la demande est reçue. La fin doit être confirmée par l’outil, pas seulement par l’absence d’erreur."
+        ],
+        "es": [
+          "«Recibido» confirma la solicitud, no su ejecución. El siguiente mensaje informa del resultado. Sin confirmación de la aplicación o del servicio debo indicar la incertidumbre, no afirmar que se completó.",
+          "Separo la recepción de la orden de su resultado. Así ves que llegó aunque haya una demora. La finalización debe basarse en la respuesta de la herramienta, no solo en la ausencia de errores."
+        ],
+        "it": [
+          "«Ricevuto» conferma la richiesta, non il completamento. Il messaggio successivo riporta il risultato. Senza conferma dell’applicazione o del servizio devo spiegare l’incertezza, non dichiarare un successo.",
+          "Separo la ricezione del comando dal risultato. Anche con un ritardo puoi vedere che la richiesta è arrivata. Il completamento deve basarsi sulla risposta dello strumento."
+        ],
+        "pt": [
+          "«Recebido» confirma o pedido, não a conclusão. A mensagem seguinte apresenta o resultado. Sem confirmação da aplicação ou do serviço devo explicar a incerteza, não declarar sucesso.",
+          "Separo a receção do comando do resultado. Assim vês que o pedido chegou mesmo com atraso. A conclusão deve basear-se na resposta da ferramenta, não apenas na ausência de erros."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "help_random",
+      "family": "help_random",
+      "phrases": {
+        "ru": [
+          "как бросить кубик",
+          "как подкинуть монетку",
+          "какие случайные команды есть",
+          "помоги выбрать орёл или решка"
+        ],
+        "en": [
+          "how do I roll a die",
+          "how do I toss a coin",
+          "what random commands are available",
+          "help with heads or tails"
+        ],
+        "de": [
+          "wie würfle ich",
+          "wie werfe ich eine Münze",
+          "welche Zufallsbefehle gibt es",
+          "Hilfe zu Kopf oder Zahl"
+        ],
+        "fr": [
+          "comment lancer un dé",
+          "comment lancer une pièce",
+          "quelles commandes aléatoires existent",
+          "aide pour pile ou face"
+        ],
+        "es": [
+          "cómo tiro un dado",
+          "cómo lanzo una moneda",
+          "qué comandos aleatorios hay",
+          "ayuda con cara o cruz"
+        ],
+        "it": [
+          "come tiro un dado",
+          "come lancio una moneta",
+          "quali comandi casuali ci sono",
+          "aiuto con testa o croce"
+        ],
+        "pt": [
+          "como lanço um dado",
+          "como lanço uma moeda",
+          "que comandos aleatórios existem",
+          "ajuda com cara ou coroa"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Скажи «брось кубик» — результат будет от 1 до 6. «Подкинь монетку» выбирает орла или решку. Сейчас я объясняю команды, а не выполняю бросок.",
+          "Для кубика используй «кинь кубик», для монеты — «подбрось монету». Кубик даёт число от одного до шести, монета — одну из двух сторон. Команда выполняется локально."
+        ],
+        "en": [
+          "Say “roll a die” for a result from 1 to 6, or “flip a coin” for heads or tails. This message explains the commands; it does not perform a toss.",
+          "Use “throw a die” or “toss a coin”. The die gives a number from one to six, and the coin gives one of two sides. These commands run locally."
+        ],
+        "de": [
+          "Sage „wirf einen Würfel“ für eine Zahl von 1 bis 6 oder „wirf eine Münze“ für Kopf oder Zahl. Hier erkläre ich nur die Befehle, ohne einen Wurf auszuführen.",
+          "Nutze „würfle“ oder „wirf eine Münze“. Der Würfel liefert eine Zahl von eins bis sechs, die Münze eine von zwei Seiten. Diese Befehle laufen lokal."
+        ],
+        "fr": [
+          "Dis « lance un dé » pour un résultat de 1 à 6, ou « lance une pièce » pour pile ou face. Ici, j’explique les commandes sans effectuer de lancer.",
+          "Utilise « jette un dé » ou « lance une pièce ». Le dé donne un nombre de un à six, la pièce une de ses deux faces. Ces commandes fonctionnent localement."
+        ],
+        "es": [
+          "Di «tira un dado» para un resultado de 1 a 6 o «lanza una moneda» para cara o cruz. Ahora explico los comandos sin realizar un lanzamiento.",
+          "Usa «lanza un dado» o «tira una moneda». El dado da un número del uno al seis y la moneda una de sus dos caras. Los comandos se ejecutan localmente."
+        ],
+        "it": [
+          "Di' «tira un dado» per un risultato da 1 a 6 oppure «lancia una moneta» per testa o croce. Qui spiego i comandi senza effettuare un lancio.",
+          "Usa «lancia un dado» o «tira una moneta». Il dado dà un numero da uno a sei, la moneta uno dei due lati. I comandi funzionano localmente."
+        ],
+        "pt": [
+          "Diz «lança um dado» para um resultado de 1 a 6, ou «lança uma moeda» para cara ou coroa. Aqui explico os comandos sem efetuar um lançamento.",
+          "Usa «atira um dado» ou «lança uma moeda». O dado dá um número de um a seis e a moeda uma das duas faces. Os comandos funcionam localmente."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "return_chat",
+      "family": "hello",
+      "phrases": {
+        "ru": [
+          "снова на связи",
+          "рад снова тебя слышать",
+          "давно не общались"
+        ],
+        "en": [
+          "back with you again",
+          "nice to talk again",
+          "it has been a while"
+        ],
+        "de": [
+          "wieder bei dir",
+          "schön wieder mit dir zu reden",
+          "wir haben lange nicht gesprochen"
+        ],
+        "fr": [
+          "de retour avec toi",
+          "content de reparler avec toi",
+          "ça fait longtemps"
+        ],
+        "es": [
+          "de vuelta contigo",
+          "qué bien volver a hablar",
+          "hace tiempo que no hablamos"
+        ],
+        "it": [
+          "di nuovo qui con te",
+          "bello parlare di nuovo",
+          "è da un po’ che non parliamo"
+        ],
+        "pt": [
+          "de volta contigo",
+          "é bom voltar a conversar",
+          "já não falamos há algum tempo"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Снова на связи. Какую задачу разберём первой?"
+        ],
+        "en": [
+          "Good to have you back. What shall we work on first?"
+        ],
+        "de": [
+          "Schön, dass du wieder da bist. Womit fangen wir an?"
+        ],
+        "fr": [
+          "Content de te retrouver. Par quoi commençons-nous ?"
+        ],
+        "es": [
+          "Qué bien tenerte de vuelta. ¿Por dónde empezamos?"
+        ],
+        "it": [
+          "Bentornato. Da cosa cominciamo?"
+        ],
+        "pt": [
+          "Que bom ter-te de volta. Por onde começamos?"
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "ready_chat",
+      "family": "presence",
+      "phrases": {
+        "ru": [
+          "можно к тебе обратиться",
+          "готов меня выслушать",
+          "ты сейчас доступен"
+        ],
+        "en": [
+          "may I ask you something",
+          "ready to listen to me",
+          "are you available now"
+        ],
+        "de": [
+          "kann ich dich etwas fragen",
+          "bist du bereit zuzuhören",
+          "bist du gerade verfügbar"
+        ],
+        "fr": [
+          "je peux te demander quelque chose",
+          "prêt à m’écouter",
+          "tu es disponible maintenant"
+        ],
+        "es": [
+          "puedo preguntarte algo",
+          "listo para escucharme",
+          "estás disponible ahora"
+        ],
+        "it": [
+          "posso chiederti qualcosa",
+          "pronto ad ascoltarmi",
+          "sei disponibile adesso"
+        ],
+        "pt": [
+          "posso perguntar-te uma coisa",
+          "pronto para me ouvir",
+          "estás disponível agora"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Да, я здесь. Расскажи, что нужно."
+        ],
+        "en": [
+          "Yes, I am here. Tell me what you need."
+        ],
+        "de": [
+          "Ja, ich bin da. Sag mir, was du brauchst."
+        ],
+        "fr": [
+          "Oui, je suis là. Dis-moi ce qu’il te faut."
+        ],
+        "es": [
+          "Sí, estoy aquí. Dime qué necesitas."
+        ],
+        "it": [
+          "Sì, sono qui. Dimmi cosa ti serve."
+        ],
+        "pt": [
+          "Sim, estou aqui. Diz-me do que precisas."
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "well_chat",
+      "family": "well",
+      "phrases": {
+        "ru": [
+          "как настроение сегодня",
+          "как проходит твой день",
+          "как поживаешь сегодня"
+        ],
+        "en": [
+          "how is your day going",
+          "how are things with you today",
+          "how are you doing today"
+        ],
+        "de": [
+          "wie läuft dein Tag",
+          "wie läuft es heute bei dir",
+          "wie geht es dir heute"
+        ],
+        "fr": [
+          "comment se passe ta journée",
+          "comment vas-tu aujourd’hui",
+          "tout va bien pour toi"
+        ],
+        "es": [
+          "cómo va tu día",
+          "cómo te va hoy",
+          "qué tal estás hoy"
+        ],
+        "it": [
+          "come procede la giornata",
+          "come stai oggi",
+          "come va oggi"
+        ],
+        "pt": [
+          "como está a correr o teu dia",
+          "como estás hoje",
+          "como vai o teu dia"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Я готов к разговору и задачам. А как проходит твой день?"
+        ],
+        "en": [
+          "I am ready to chat and help with tasks. How is your day going?"
+        ],
+        "de": [
+          "Ich bin bereit zum Reden und Helfen. Wie läuft dein Tag?"
+        ],
+        "fr": [
+          "Je suis prêt à discuter et à aider. Comment se passe ta journée ?"
+        ],
+        "es": [
+          "Estoy listo para conversar y ayudar. ¿Cómo va tu día?"
+        ],
+        "it": [
+          "Sono pronto a parlare e dare una mano. Come va la tua giornata?"
+        ],
+        "pt": [
+          "Estou pronto para conversar e ajudar. Como está a correr o teu dia?"
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "thanks_chat",
+      "family": "thanks",
+      "phrases": {
+        "ru": [
+          "спасибо за помощь с этим",
+          "вот теперь всё понятно",
+          "это было очень кстати"
+        ],
+        "en": [
+          "thanks for helping with that",
+          "that makes sense now",
+          "that was just what I needed"
+        ],
+        "de": [
+          "danke für deine Hilfe dabei",
+          "jetzt ist alles klar",
+          "das kam genau richtig"
+        ],
+        "fr": [
+          "merci pour ton aide là-dessus",
+          "maintenant tout est clair",
+          "ça tombe très bien"
+        ],
+        "es": [
+          "gracias por ayudarme con eso",
+          "ahora todo está claro",
+          "eso llegó justo a tiempo"
+        ],
+        "it": [
+          "grazie per avermi aiutato",
+          "adesso è tutto chiaro",
+          "era proprio quello che serviva"
+        ],
+        "pt": [
+          "obrigado pela ajuda com isto",
+          "agora está tudo claro",
+          "isso veio mesmo a calhar"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Пожалуйста. Хорошо, что разобрались."
+        ],
+        "en": [
+          "You are welcome. I am glad that is clearer."
+        ],
+        "de": [
+          "Gern. Schön, dass es jetzt klarer ist."
+        ],
+        "fr": [
+          "Avec plaisir. Tant mieux si c’est plus clair."
+        ],
+        "es": [
+          "De nada. Me alegra que esté más claro."
+        ],
+        "it": [
+          "Prego. Bene, ora è più chiaro."
+        ],
+        "pt": [
+          "De nada. Ainda bem que ficou mais claro."
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "repair_chat",
+      "family": "repair",
+      "phrases": {
+        "ru": [
+          "мы друг друга не поняли",
+          "ты понял меня не так",
+          "давай уточним мою просьбу"
+        ],
+        "en": [
+          "we misunderstood each other",
+          "you got my request wrong",
+          "let us clarify my request"
+        ],
+        "de": [
+          "wir haben uns missverstanden",
+          "du hast meine Bitte falsch verstanden",
+          "lass uns meine Bitte klären"
+        ],
+        "fr": [
+          "on s’est mal compris",
+          "tu as mal compris ma demande",
+          "clarifions ma demande"
+        ],
+        "es": [
+          "nos hemos entendido mal",
+          "entendiste mal mi petición",
+          "aclaremos mi petición"
+        ],
+        "it": [
+          "ci siamo capiti male",
+          "hai frainteso la mia richiesta",
+          "chiariamo la mia richiesta"
+        ],
+        "pt": [
+          "entendemo-nos mal",
+          "percebeste mal o meu pedido",
+          "vamos esclarecer o meu pedido"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Давай уточним: я выбрал не то действие, не тот объект или не тот параметр?"
+        ],
+        "en": [
+          "Let us clarify: was it the wrong action, the wrong object, or the wrong parameter?"
+        ],
+        "de": [
+          "Klären wir es: War die Aktion, das Objekt oder ein Parameter falsch?"
+        ],
+        "fr": [
+          "Précisons : est-ce l’action, l’objet ou un paramètre qui ne convenait pas ?"
+        ],
+        "es": [
+          "Aclaremos: ¿elegí mal la acción, el objeto o un parámetro?"
+        ],
+        "it": [
+          "Chiariamo: ho sbagliato l’azione, l’oggetto o un parametro?"
+        ],
+        "pt": [
+          "Vamos esclarecer: escolhi mal a ação, o objeto ou um parâmetro?"
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "clarity_chat",
+      "family": "clarity",
+      "phrases": {
+        "ru": [
+          "объясни это другими словами",
+          "я запутался в объяснении",
+          "можно объяснить понятнее"
+        ],
+        "en": [
+          "explain it in other words",
+          "I got lost in the explanation",
+          "could you explain more clearly"
+        ],
+        "de": [
+          "erkläre es mit anderen Worten",
+          "ich habe den Faden verloren",
+          "kannst du es klarer erklären"
+        ],
+        "fr": [
+          "explique avec d’autres mots",
+          "je me suis perdu dans l’explication",
+          "peux-tu expliquer plus clairement"
+        ],
+        "es": [
+          "explícalo con otras palabras",
+          "me perdí en la explicación",
+          "puedes explicarlo más claro"
+        ],
+        "it": [
+          "spiegalo con altre parole",
+          "mi sono perso nella spiegazione",
+          "puoi spiegarlo più chiaramente"
+        ],
+        "pt": [
+          "explica por outras palavras",
+          "perdi-me na explicação",
+          "podes explicar com mais clareza"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Какую часть объяснить: саму команду, нужный параметр или полученный результат?"
+        ],
+        "en": [
+          "Which part should I explain: the command, a required parameter, or the result?"
+        ],
+        "de": [
+          "Was soll ich erklären: den Befehl, einen benötigten Parameter oder das Ergebnis?"
+        ],
+        "fr": [
+          "Quelle partie dois-je expliquer : la commande, un paramètre nécessaire ou le résultat ?"
+        ],
+        "es": [
+          "¿Qué parte explico: la orden, un parámetro necesario o el resultado?"
+        ],
+        "it": [
+          "Quale parte devo spiegare: il comando, un parametro necessario o il risultato?"
+        ],
+        "pt": [
+          "Que parte devo explicar: o comando, um parâmetro necessário ou o resultado?"
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "casual_chat",
+      "family": "friend",
+      "phrases": {
+        "ru": [
+          "хочется немного поболтать",
+          "давай просто пообщаемся",
+          "можем немного поговорить"
+        ],
+        "en": [
+          "I feel like chatting a little",
+          "let us just have a chat",
+          "can we talk for a bit"
+        ],
+        "de": [
+          "ich möchte ein wenig plaudern",
+          "lass uns einfach reden",
+          "können wir kurz reden"
+        ],
+        "fr": [
+          "j’ai envie de bavarder un peu",
+          "discutons simplement",
+          "on peut parler un moment"
+        ],
+        "es": [
+          "me apetece charlar un poco",
+          "hablemos sin más",
+          "podemos hablar un rato"
+        ],
+        "it": [
+          "ho voglia di chiacchierare un po’",
+          "facciamo due chiacchiere",
+          "possiamo parlare un momento"
+        ],
+        "pt": [
+          "apetece-me conversar um pouco",
+          "vamos só conversar",
+          "podemos falar um bocado"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Давай поговорим. О чём сейчас хочется рассказать?"
+        ],
+        "en": [
+          "Let us talk. What is on your mind?"
+        ],
+        "de": [
+          "Reden wir ein wenig. Was beschäftigt dich gerade?"
+        ],
+        "fr": [
+          "Discutons un peu. De quoi as-tu envie de parler ?"
+        ],
+        "es": [
+          "Hablemos un poco. ¿Qué tienes en mente?"
+        ],
+        "it": [
+          "Parliamo un po’. Di cosa ti va di parlare?"
+        ],
+        "pt": [
+          "Vamos conversar um pouco. De que te apetece falar?"
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "bored_chat",
+      "family": "bored",
+      "phrases": {
+        "ru": [
+          "нужно чем-нибудь отвлечься",
+          "не знаю чем себя занять",
+          "предложи что-нибудь нескучное"
+        ],
+        "en": [
+          "I need a little distraction",
+          "I do not know what to do for fun",
+          "suggest something entertaining"
+        ],
+        "de": [
+          "ich brauche etwas Ablenkung",
+          "ich weiß nicht womit ich mich beschäftigen soll",
+          "schlag etwas Unterhaltsames vor"
+        ],
+        "fr": [
+          "j’ai besoin de me distraire",
+          "je ne sais pas comment m’occuper",
+          "propose quelque chose d’amusant"
+        ],
+        "es": [
+          "necesito distraerme un poco",
+          "no sé cómo entretenerme",
+          "propón algo entretenido"
+        ],
+        "it": [
+          "ho bisogno di distrarmi un po’",
+          "non so come passare il tempo",
+          "proponi qualcosa di divertente"
+        ],
+        "pt": [
+          "preciso de me distrair um pouco",
+          "não sei como me entreter",
+          "sugere algo divertido"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Можно начать с короткой шутки или небольшой задачи. Что тебе сейчас ближе?"
+        ],
+        "en": [
+          "We could start with a short joke or a small task. Which sounds better?"
+        ],
+        "de": [
+          "Wir könnten mit einem kurzen Witz oder einer kleinen Aufgabe anfangen. Was passt dir besser?"
+        ],
+        "fr": [
+          "On peut commencer par une petite blague ou une tâche simple. Qu’est-ce qui te tente ?"
+        ],
+        "es": [
+          "Podemos empezar con un chiste corto o una tarea sencilla. ¿Qué te apetece más?"
+        ],
+        "it": [
+          "Possiamo cominciare con una battuta o un piccolo compito. Cosa preferisci?"
+        ],
+        "pt": [
+          "Podemos começar com uma piada curta ou uma pequena tarefa. O que preferes?"
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "motivate_chat",
+      "family": "motivate",
+      "phrases": {
+        "ru": [
+          "пожелай мне продуктивного дня",
+          "скажи что-нибудь ободряющее",
+          "мне немного не хватает уверенности"
+        ],
+        "en": [
+          "wish me a productive day",
+          "say something encouraging",
+          "I could use some confidence"
+        ],
+        "de": [
+          "wünsch mir einen produktiven Tag",
+          "sag etwas Ermutigendes",
+          "ich könnte etwas Selbstvertrauen gebrauchen"
+        ],
+        "fr": [
+          "souhaite-moi une journée productive",
+          "dis quelque chose d’encourageant",
+          "j’aurais besoin d’un peu de confiance"
+        ],
+        "es": [
+          "deséame un día productivo",
+          "di algo alentador",
+          "me vendría bien algo de confianza"
+        ],
+        "it": [
+          "augurami una giornata produttiva",
+          "di qualcosa di incoraggiante",
+          "mi servirebbe un po’ di fiducia"
+        ],
+        "pt": [
+          "deseja-me um dia produtivo",
+          "diz algo encorajador",
+          "precisava de um pouco de confiança"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Не обязательно решать всё сразу. Начни с одного понятного шага — и оцени результат."
+        ],
+        "en": [
+          "You do not need to solve everything at once. Start with one clear step, then see how it goes."
+        ],
+        "de": [
+          "Du musst nicht alles auf einmal lösen. Beginne mit einem klaren Schritt und sieh dir das Ergebnis an."
+        ],
+        "fr": [
+          "Tu n’as pas besoin de tout résoudre d’un coup. Commence par une étape claire et observe le résultat."
+        ],
+        "es": [
+          "No hace falta resolverlo todo de golpe. Empieza por un paso claro y observa el resultado."
+        ],
+        "it": [
+          "Non serve risolvere tutto insieme. Comincia da un passo chiaro e valuta il risultato."
+        ],
+        "pt": [
+          "Não precisas de resolver tudo de uma vez. Começa com um passo claro e avalia o resultado."
+        ]
+      },
+      "replace_responses": false
+    },
+    {
+      "category": "joke_chat",
+      "family": "joke",
+      "phrases": {
+        "ru": [
+          "хочу услышать короткую шутку",
+          "развесели меня шуткой",
+          "расскажи что-нибудь забавное"
+        ],
+        "en": [
+          "I would like a short joke",
+          "cheer me up with a joke",
+          "tell me something amusing"
+        ],
+        "de": [
+          "ich möchte einen kurzen Witz hören",
+          "muntere mich mit einem Witz auf",
+          "erzähl etwas Lustiges"
+        ],
+        "fr": [
+          "j’aimerais une petite blague",
+          "fais-moi rire avec une blague",
+          "raconte quelque chose d’amusant"
+        ],
+        "es": [
+          "quiero oír un chiste corto",
+          "alégrame con un chiste",
+          "cuenta algo gracioso"
+        ],
+        "it": [
+          "vorrei una barzelletta breve",
+          "tirami su con una battuta",
+          "racconta qualcosa di buffo"
+        ],
+        "pt": [
+          "queria ouvir uma piada curta",
+          "anima-me com uma piada",
+          "conta algo engraçado"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "У меня был план на день, но он оказался вложенным списком. Теперь разбираемся, кто здесь главный пункт."
+        ],
+        "en": [
+          "My daily plan turned out to be a nested list. Now we are arguing about which item is in charge."
+        ],
+        "de": [
+          "Mein Tagesplan war eine verschachtelte Liste. Jetzt streiten die Punkte darüber, wer das Sagen hat."
+        ],
+        "fr": [
+          "Mon programme du jour était une liste imbriquée. Les points se disputent maintenant pour savoir qui commande."
+        ],
+        "es": [
+          "Mi plan del día era una lista anidada. Ahora los puntos discuten sobre quién manda."
+        ],
+        "it": [
+          "Il mio programma era un elenco annidato. Ora le voci litigano per decidere chi comanda."
+        ],
+        "pt": [
+          "O meu plano do dia era uma lista aninhada. Agora os pontos discutem para decidir quem manda."
+        ]
+      },
+      "replace_responses": false
+    }
+  ]
+}
