@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "languages": [
+    "ru",
+    "en",
+    "de",
+    "fr",
+    "es",
+    "it",
+    "pt"
+  ],
+  "groups": [
+    {
+      "intent": "chance.roll_die",
+      "tool": "chance",
+      "action": "roll_die",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "брось кубик",
+          "кинь кубик",
+          "брось игральный кубик",
+          "подбрось кубик",
+          "сделай бросок кубика"
+        ],
+        "en": [
+          "roll a die",
+          "roll the dice",
+          "roll a dice",
+          "throw a die",
+          "give me a dice roll"
+        ],
+        "de": [
+          "würfle",
+          "wirf einen würfel",
+          "würfle einmal",
+          "lass den würfel rollen",
+          "würfel bitte"
+        ],
+        "fr": [
+          "lance un dé",
+          "jette un dé",
+          "fais un lancer de dé",
+          "lance le dé",
+          "peux-tu lancer un dé"
+        ],
+        "es": [
+          "tira un dado",
+          "lanza un dado",
+          "haz una tirada de dado",
+          "tira el dado",
+          "puedes lanzar un dado"
+        ],
+        "it": [
+          "tira un dado",
+          "lancia un dado",
+          "fai un lancio di dado",
+          "tira il dado",
+          "puoi lanciare un dado"
+        ],
+        "pt": [
+          "lança um dado",
+          "joga um dado",
+          "rola um dado",
+          "atira um dado",
+          "podes lançar um dado"
+        ]
+      }
+    },
+    {
+      "intent": "chance.flip_coin",
+      "tool": "chance",
+      "action": "flip_coin",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "подкинь монетку",
+          "брось монетку",
+          "подбрось монету",
+          "подкинь монету",
+          "кинь монетку"
+        ],
+        "en": [
+          "flip a coin",
+          "toss a coin",
+          "flip the coin",
+          "give me a coin toss",
+          "toss the coin"
+        ],
+        "de": [
+          "wirf eine münze",
+          "wirf die münze",
+          "mache einen münzwurf",
+          "münze werfen",
+          "kannst du eine münze werfen"
+        ],
+        "fr": [
+          "lance une pièce",
+          "jette une pièce",
+          "tire à pile ou face",
+          "fais un pile ou face",
+          "peux-tu lancer une pièce"
+        ],
+        "es": [
+          "lanza una moneda",
+          "tira una moneda",
+          "echa una moneda al aire",
+          "lanza la moneda",
+          "puedes tirar una moneda"
+        ],
+        "it": [
+          "lancia una moneta",
+          "tira una moneta",
+          "fai testa o croce",
+          "lancia la moneta",
+          "puoi lanciare una moneta"
+        ],
+        "pt": [
+          "lança uma moeda",
+          "atira uma moeda ao ar",
+          "joga uma moeda",
+          "lança a moeda",
+          "podes lançar uma moeda"
+        ]
+      }
+    },
+    {
+      "intent": "yandex_music.pause",
+      "tool": "yandex_music",
+      "action": "pause",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "пауза яндекс музыка",
+          "пауза яндекс мьюзик",
+          "пауза яндекс музик",
+          "яндекс музыку на паузу",
+          "давай пока приостановим яндекс музыку",
+          "сделай паузу в яндекс музыке"
+        ],
+        "en": [
+          "pause yandex music",
+          "put yandex music on pause",
+          "let us pause yandex music",
+          "take a break from yandex music",
+          "pause Yandex Music"
+        ],
+        "de": [
+          "pausiere yandex music",
+          "halte yandex music an",
+          "mach eine pause bei yandex music",
+          "setze yandex music auf pause",
+          "pausiere Yandex Music"
+        ],
+        "fr": [
+          "mets yandex music en pause",
+          "fais une pause dans yandex music",
+          "mettons yandex music en pause",
+          "arrête temporairement yandex music",
+          "mets Yandex Music en pause"
+        ],
+        "es": [
+          "pausa yandex music",
+          "pon yandex music en pausa",
+          "hagamos una pausa en yandex music",
+          "detén temporalmente yandex music",
+          "pausa Yandex Music"
+        ],
+        "it": [
+          "metti yandex music in pausa",
+          "facciamo una pausa da yandex music",
+          "sospendi yandex music",
+          "pausa yandex music",
+          "metti Yandex Music in pausa"
+        ],
+        "pt": [
+          "põe yandex music em pausa",
+          "pausa yandex music",
+          "vamos fazer uma pausa no yandex music",
+          "coloca yandex music em pausa",
+          "pausa o Yandex Music"
+        ]
+      }
+    },
+    {
+      "intent": "yandex_music.play",
+      "tool": "yandex_music",
+      "action": "play",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "продолжи яндекс музыку",
+          "верни воспроизведение в яндекс музыке",
+          "сними яндекс музыку с паузы",
+          "пусть яндекс музыка играет дальше",
+          "продолжи яндекс музик",
+          "воспроизведение яндекс музыка"
+        ],
+        "en": [
+          "resume yandex music",
+          "continue yandex music",
+          "unpause yandex music",
+          "let yandex music play again",
+          "resume Yandex Music"
+        ],
+        "de": [
+          "setze yandex music fort",
+          "spiele yandex music weiter",
+          "beende die pause bei yandex music",
+          "lass yandex music weiterspielen",
+          "setze Yandex Music fort"
+        ],
+        "fr": [
+          "reprends yandex music",
+          "continue la lecture dans yandex music",
+          "relance la lecture dans yandex music",
+          "fais repartir yandex music",
+          "reprends Yandex Music"
+        ],
+        "es": [
+          "reanuda yandex music",
+          "continúa yandex music",
+          "quita la pausa en yandex music",
+          "deja que yandex music siga sonando",
+          "reanuda Yandex Music"
+        ],
+        "it": [
+          "riprendi yandex music",
+          "continua la riproduzione in yandex music",
+          "togli la pausa da yandex music",
+          "fai ripartire yandex music",
+          "riprendi Yandex Music"
+        ],
+        "pt": [
+          "retoma yandex music",
+          "continua a reprodução no yandex music",
+          "tira yandex music da pausa",
+          "deixa o yandex music tocar novamente",
+          "retoma o Yandex Music"
+        ]
+      }
+    },
+    {
+      "intent": "yandex_music.next",
+      "tool": "yandex_music",
+      "action": "next",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "в яндекс музыке давай следующую песню",
+          "пропусти эту песню в яндекс музыке",
+          "включи что-нибудь другое в яндекс музыке",
+          "следующая песня в яндекс музыке",
+          "дальше яндекс музыка",
+          "следующий трек яндекс музик"
+        ],
+        "en": [
+          "skip this song in yandex music",
+          "play the next song in yandex music",
+          "another song in yandex music please",
+          "next song in yandex music",
+          "next track in Yandex Music"
+        ],
+        "de": [
+          "überspringe dieses lied in yandex music",
+          "spiele das nächste lied in yandex music",
+          "ein anderes lied in yandex music bitte",
+          "nächster titel in yandex music",
+          "nächster Titel in Yandex Music"
+        ],
+        "fr": [
+          "passe cette chanson dans yandex music",
+          "mets la chanson suivante dans yandex music",
+          "une autre chanson dans yandex music",
+          "titre suivant dans yandex music",
+          "titre suivant sur Yandex Music"
+        ],
+        "es": [
+          "salta esta canción en yandex music",
+          "pon la siguiente canción en yandex music",
+          "otra canción en yandex music por favor",
+          "siguiente canción en yandex music",
+          "siguiente canción en Yandex Music"
+        ],
+        "it": [
+          "salta questa canzone in yandex music",
+          "metti la prossima canzone in yandex music",
+          "un’altra canzone in yandex music",
+          "brano successivo in yandex music",
+          "brano successivo su Yandex Music"
+        ],
+        "pt": [
+          "salta esta música no yandex music",
+          "põe a próxima música no yandex music",
+          "outra música no yandex music por favor",
+          "próxima faixa no yandex music",
+          "próxima música no Yandex Music"
+        ]
+      }
+    },
+    {
+      "intent": "yandex_music.previous",
+      "tool": "yandex_music",
+      "action": "previous",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "верни прошлую песню в яндекс музыке",
+          "предыдущая песня в яндекс музыке",
+          "назад в яндекс музыке",
+          "включи предыдущий трек в яндекс музыке",
+          "назад яндекс музыка",
+          "предыдущий трек яндекс музик"
+        ],
+        "en": [
+          "go back one song in yandex music",
+          "previous song in yandex music",
+          "play the previous track in yandex music",
+          "back in yandex music",
+          "previous track in Yandex Music"
+        ],
+        "de": [
+          "gehe in yandex music ein lied zurück",
+          "vorheriges lied in yandex music",
+          "spiele den vorherigen titel in yandex music",
+          "zurück in yandex music",
+          "vorheriger Titel in Yandex Music"
+        ],
+        "fr": [
+          "reviens à la chanson précédente dans yandex music",
+          "chanson précédente dans yandex music",
+          "mets le titre précédent dans yandex music",
+          "retour dans yandex music",
+          "titre précédent sur Yandex Music"
+        ],
+        "es": [
+          "vuelve a la canción anterior en yandex music",
+          "canción anterior en yandex music",
+          "pon la pista anterior en yandex music",
+          "atrás en yandex music",
+          "canción anterior en Yandex Music"
+        ],
+        "it": [
+          "torna alla canzone precedente in yandex music",
+          "canzone precedente in yandex music",
+          "metti il brano precedente in yandex music",
+          "indietro in yandex music",
+          "brano precedente su Yandex Music"
+        ],
+        "pt": [
+          "volta à música anterior no yandex music",
+          "música anterior no yandex music",
+          "põe a faixa anterior no yandex music",
+          "volta atrás no yandex music",
+          "música anterior no Yandex Music"
+        ]
+      }
+    },
+    {
+      "intent": "spotify.pause",
+      "tool": "spotify",
+      "action": "pause",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "пауза спотифай",
+          "пауза спотифай",
+          "пауза спотифай",
+          "спотифай на паузу",
+          "давай пока приостановим спотифай",
+          "сделай паузу в спотифай"
+        ],
+        "en": [
+          "pause spotify",
+          "put spotify on pause",
+          "let us pause spotify",
+          "take a break from spotify"
+        ],
+        "de": [
+          "pausiere spotify",
+          "halte spotify an",
+          "mach eine pause bei spotify",
+          "setze spotify auf pause"
+        ],
+        "fr": [
+          "mets spotify en pause",
+          "fais une pause dans spotify",
+          "mettons spotify en pause",
+          "arrête temporairement spotify"
+        ],
+        "es": [
+          "pausa spotify",
+          "pon spotify en pausa",
+          "hagamos una pausa en spotify",
+          "detén temporalmente spotify"
+        ],
+        "it": [
+          "metti spotify in pausa",
+          "facciamo una pausa da spotify",
+          "sospendi spotify",
+          "pausa spotify"
+        ],
+        "pt": [
+          "põe spotify em pausa",
+          "pausa spotify",
+          "vamos fazer uma pausa no spotify",
+          "coloca spotify em pausa"
+        ]
+      }
+    },
+    {
+      "intent": "spotify.play",
+      "tool": "spotify",
+      "action": "play",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "продолжи спотифай",
+          "верни воспроизведение в спотифай",
+          "сними спотифай с паузы",
+          "пусть спотифай играет дальше"
+        ],
+        "en": [
+          "resume spotify",
+          "continue spotify",
+          "unpause spotify",
+          "let spotify play again"
+        ],
+        "de": [
+          "setze spotify fort",
+          "spiele spotify weiter",
+          "beende die pause bei spotify",
+          "lass spotify weiterspielen"
+        ],
+        "fr": [
+          "reprends spotify",
+          "continue la lecture dans spotify",
+          "relance la lecture dans spotify",
+          "fais repartir spotify"
+        ],
+        "es": [
+          "reanuda spotify",
+          "continúa spotify",
+          "quita la pausa en spotify",
+          "deja que spotify siga sonando"
+        ],
+        "it": [
+          "riprendi spotify",
+          "continua la riproduzione in spotify",
+          "togli la pausa da spotify",
+          "fai ripartire spotify"
+        ],
+        "pt": [
+          "retoma spotify",
+          "continua a reprodução no spotify",
+          "tira spotify da pausa",
+          "deixa o spotify tocar novamente"
+        ]
+      }
+    },
+    {
+      "intent": "spotify.next",
+      "tool": "spotify",
+      "action": "next",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "в спотифай давай следующую песню",
+          "пропусти эту песню в спотифай",
+          "включи что-нибудь другое в спотифай",
+          "следующая песня в спотифай"
+        ],
+        "en": [
+          "skip this song in spotify",
+          "play the next song in spotify",
+          "another song in spotify please",
+          "next song in spotify"
+        ],
+        "de": [
+          "überspringe dieses lied in spotify",
+          "spiele das nächste lied in spotify",
+          "ein anderes lied in spotify bitte",
+          "nächster titel in spotify"
+        ],
+        "fr": [
+          "passe cette chanson dans spotify",
+          "mets la chanson suivante dans spotify",
+          "une autre chanson dans spotify",
+          "titre suivant dans spotify"
+        ],
+        "es": [
+          "salta esta canción en spotify",
+          "pon la siguiente canción en spotify",
+          "otra canción en spotify por favor",
+          "siguiente canción en spotify"
+        ],
+        "it": [
+          "salta questa canzone in spotify",
+          "metti la prossima canzone in spotify",
+          "un’altra canzone in spotify",
+          "brano successivo in spotify"
+        ],
+        "pt": [
+          "salta esta música no spotify",
+          "põe a próxima música no spotify",
+          "outra música no spotify por favor",
+          "próxima faixa no spotify"
+        ]
+      }
+    },
+    {
+      "intent": "spotify.previous",
+      "tool": "spotify",
+      "action": "previous",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "верни прошлую песню в спотифай",
+          "предыдущая песня в спотифай",
+          "назад в спотифай",
+          "включи предыдущий трек в спотифай"
+        ],
+        "en": [
+          "go back one song in spotify",
+          "previous song in spotify",
+          "play the previous track in spotify",
+          "back in spotify"
+        ],
+        "de": [
+          "gehe in spotify ein lied zurück",
+          "vorheriges lied in spotify",
+          "spiele den vorherigen titel in spotify",
+          "zurück in spotify"
+        ],
+        "fr": [
+          "reviens à la chanson précédente dans spotify",
+          "chanson précédente dans spotify",
+          "mets le titre précédent dans spotify",
+          "retour dans spotify"
+        ],
+        "es": [
+          "vuelve a la canción anterior en spotify",
+          "canción anterior en spotify",
+          "pon la pista anterior en spotify",
+          "atrás en spotify"
+        ],
+        "it": [
+          "torna alla canzone precedente in spotify",
+          "canzone precedente in spotify",
+          "metti il brano precedente in spotify",
+          "indietro in spotify"
+        ],
+        "pt": [
+          "volta à música anterior no spotify",
+          "música anterior no spotify",
+          "põe a faixa anterior no spotify",
+          "volta atrás no spotify"
+        ]
+      }
+    },
+    {
+      "intent": "yandex_music.stop",
+      "tool": "yandex_music",
+      "action": "stop",
+      "risk": "registry",
+      "phrases": {
+        "ru": [
+          "стоп яндекс музыка",
+          "останови яндекс музыку",
+          "выключи музыку в яндекс музыке"
+        ],
+        "en": [
+          "stop Yandex Music"
+        ],
+        "de": [
+          "stoppe Yandex Music"
+        ],
+        "fr": [
+          "arrête Yandex Music"
+        ],
+        "es": [
+          "detén Yandex Music"
+        ],
+        "it": [
+          "ferma Yandex Music"
+        ],
+        "pt": [
+          "para o Yandex Music"
+        ]
+      }
+    }
+  ]
+}
