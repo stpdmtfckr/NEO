@@ -1,0 +1,47 @@
+{
+ "knowledge.ask": [
+  "Найди в моих файлах {query}",
+  "Search my files for {query}",
+  "Suche in meinen Dateien nach {query}",
+  "Cherche dans mes fichiers {query}",
+  "Busca en mis archivos {query}",
+  "Cerca nei miei file {query}",
+  "Procura nos meus ficheiros {query}"
+ ],
+ "knowledge.add_folder": [
+  "Разреши искать в папке {folder}",
+  "Allow searching the folder {folder}",
+  "Erlaube die Suche im Ordner {folder}",
+  "Autorise la recherche dans le dossier {folder}",
+  "Permite buscar en la carpeta {folder}",
+  "Consenti la ricerca nella cartella {folder}",
+  "Permite procurar na pasta {folder}"
+ ],
+ "knowledge.remove_folder": [
+  "Исключи папку {folder} из поиска",
+  "Stop searching the folder {folder}",
+  "Durchsuche den Ordner {folder} nicht mehr",
+  "Retire le dossier {folder} de la recherche",
+  "Deja de buscar en la carpeta {folder}",
+  "Togli la cartella {folder} dalla ricerca",
+  "Deixa de procurar na pasta {folder}"
+ ],
+ "knowledge.folders": [
+  "В каких папках ты ищешь",
+  "Which folders do you search",
+  "In welchen Ordnern suchst du",
+  "Dans quels dossiers cherches-tu",
+  "En qué carpetas buscas",
+  "In quali cartelle cerchi",
+  "Em que pastas procuras"
+ ],
+ "knowledge.reindex": [
+  "Обнови индекс моих файлов",
+  "Update the index of my files",
+  "Aktualisiere den Index meiner Dateien",
+  "Mets à jour l’index de mes fichiers",
+  "Actualiza el índice de mis archivos",
+  "Aggiorna l’indice dei miei file",
+  "Atualiza o índice dos meus ficheiros"
+ ]
+}
