@@ -1,0 +1,31 @@
+{
+ "neo_model.train": {
+  "ru": [
+   "обучи модель команд",
+   "дообучи модель на моих исправлениях",
+   "переобучи модель команд"
+  ],
+  "en": [
+   "train the command model",
+   "retrain the model on my corrections"
+  ]
+ },
+ "neo_model.rollback": {
+  "ru": [
+   "откати модель команд",
+   "верни предыдущую версию модели"
+  ],
+  "en": [
+   "restore the previous command model"
+  ]
+ },
+ "neo_model.status": {
+  "ru": [
+   "как работает модель команд",
+   "статус модели команд"
+  ],
+  "en": [
+   "command model status"
+  ]
+ }
+}
