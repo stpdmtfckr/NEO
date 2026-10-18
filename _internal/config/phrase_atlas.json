@@ -1,0 +1,605 @@
+{
+  "version": 2,
+  "description": "Combinatorial natural-language phrase atlas for deterministic intent scaffolding. It expands action/object grammar at runtime, preserves payloads, and applies explicit domain locks instead of storing millions of literal sentences.",
+  "polite_prefixes": [
+    "",
+    "пожалуйста",
+    "джарвис",
+    "джарвис пожалуйста",
+    "пожалуйста джарвис",
+    "можешь",
+    "можешь пожалуйста",
+    "можешь мне",
+    "можешь мне пожалуйста",
+    "не мог бы",
+    "не мог бы пожалуйста",
+    "не могла бы",
+    "не могла бы пожалуйста",
+    "будь добр",
+    "будь добра",
+    "будь добр пожалуйста",
+    "будь добра пожалуйста",
+    "давай",
+    "ну давай",
+    "ну-ка",
+    "прошу",
+    "прошу тебя",
+    "сделай пожалуйста",
+    "мне пожалуйста",
+    "пожалуйста можешь",
+    "хочу чтобы ты",
+    "я хочу чтобы ты",
+    "мне нужно чтобы ты",
+    "мне надо чтобы ты",
+    "нужно чтобы ты",
+    "надо чтобы ты",
+    "а можешь",
+    "и можешь",
+    "тогда можешь",
+    "теперь можешь",
+    "please",
+    "jarvis please",
+    "could you",
+    "can you",
+    "теперь",
+    "а теперь",
+    "затем",
+    "после этого",
+    "потом",
+    "дальше",
+    "и теперь"
+  ],
+  "polite_suffixes": [
+    "",
+    "пожалуйста",
+    "если можно",
+    "если не сложно",
+    "если не трудно",
+    "будь добр",
+    "будь добра",
+    "для меня",
+    "мне",
+    "плиз",
+    "please",
+    "сейчас",
+    "прямо сейчас",
+    "когда сможешь",
+    "окей"
+  ],
+  "actions": {
+    "открой": [
+      "открой",
+      "открывай",
+      "открыть",
+      "покажи",
+      "выведи",
+      "зайди в",
+      "перейди в",
+      "open",
+      "show",
+      "bring up"
+    ],
+    "закрой": [
+      "закрой",
+      "закрывай",
+      "закрыть",
+      "убери",
+      "спрячь",
+      "close",
+      "hide"
+    ],
+    "запусти": [
+      "запусти",
+      "запускай",
+      "запустить",
+      "стартани",
+      "вруби",
+      "run",
+      "launch",
+      "start"
+    ],
+    "найди": [
+      "найди",
+      "отыщи",
+      "поищи",
+      "разыщи",
+      "найти",
+      "search",
+      "find",
+      "look for"
+    ],
+    "создай": [
+      "создай",
+      "сделай",
+      "добавь новый",
+      "создать",
+      "make",
+      "create",
+      "new"
+    ],
+    "перемести": [
+      "перемести",
+      "перенеси",
+      "передвинь",
+      "перетащи",
+      "поставь",
+      "расположи",
+      "move",
+      "send",
+      "place",
+      "drag"
+    ],
+    "покажи": [
+      "покажи",
+      "отобрази",
+      "выведи",
+      "разверни",
+      "show",
+      "display"
+    ],
+    "включи": [
+      "включи",
+      "запусти",
+      "поставь",
+      "вруби",
+      "воспроизведи",
+      "сыграй",
+      "play",
+      "start"
+    ],
+    "пауза": [
+      "пауза",
+      "поставь на паузу",
+      "приостанови",
+      "останови временно",
+      "pause",
+      "hold"
+    ],
+    "продолжи": [
+      "продолжи",
+      "возобнови",
+      "сними с паузы",
+      "продолжай",
+      "resume",
+      "continue",
+      "play again"
+    ],
+    "перемешай": [
+      "перемешай",
+      "включи перемешивание",
+      "включи шаффл",
+      "шаффл",
+      "shuffle",
+      "randomize"
+    ],
+    "удали": [
+      "удали",
+      "удалить",
+      "убери",
+      "сотри",
+      "ликвидируй",
+      "delete",
+      "remove"
+    ],
+    "скопируй": [
+      "скопируй",
+      "копируй",
+      "сделай копию",
+      "копию",
+      "copy",
+      "duplicate"
+    ],
+    "переименуй": [
+      "переименуй",
+      "переименовать",
+      "смени имя",
+      "измени имя",
+      "rename"
+    ],
+    "запиши": [
+      "запиши",
+      "записать",
+      "сохрани текст",
+      "впиши",
+      "внеси",
+      "write",
+      "record"
+    ],
+    "напиши": [
+      "напиши",
+      "напечатай",
+      "введи",
+      "набери",
+      "впиши",
+      "type",
+      "write",
+      "enter"
+    ],
+    "отправь": [
+      "отправь",
+      "пошли",
+      "пришли",
+      "отошли",
+      "send",
+      "post"
+    ],
+    "подключись": [
+      "подключись",
+      "зайди",
+      "присоединись",
+      "вступи",
+      "connect",
+      "join"
+    ],
+    "отключись": [
+      "отключись",
+      "выйди",
+      "покинь",
+      "отсоединись",
+      "disconnect",
+      "leave"
+    ],
+    "сохрани": [
+      "сохрани",
+      "сбереги",
+      "зафиксируй",
+      "save"
+    ],
+    "прочитай": [
+      "прочитай",
+      "прочти",
+      "покажи содержимое",
+      "read"
+    ],
+    "проверь": [
+      "проверь",
+      "проверяй",
+      "посмотри",
+      "проведи проверку",
+      "check",
+      "verify"
+    ],
+    "переведи": [
+      "переведи",
+      "перевести",
+      "как переводится",
+      "что означает",
+      "что значит",
+      "translate"
+    ],
+    "следующий": [
+      "следующий",
+      "дальше",
+      "пропусти",
+      "скип",
+      "next",
+      "skip"
+    ],
+    "предыдущий": [
+      "предыдущий",
+      "назад",
+      "верни предыдущий",
+      "previous",
+      "prev"
+    ]
+  },
+  "objects": {
+    "folder": [
+      "папка",
+      "папку",
+      "папке",
+      "папочку",
+      "директория",
+      "директорию",
+      "каталог",
+      "каталогом",
+      "folder",
+      "directory"
+    ],
+    "file": [
+      "файл",
+      "файлик",
+      "документ",
+      "док",
+      "file",
+      "document"
+    ],
+    "application": [
+      "приложение",
+      "программу",
+      "программа",
+      "апп",
+      "app",
+      "application",
+      "program"
+    ],
+    "window": [
+      "окно",
+      "окошко",
+      "window"
+    ],
+    "overlay": [
+      "панель",
+      "панельку",
+      "оверлей",
+      "виджет",
+      "overlay",
+      "panel",
+      "widget"
+    ],
+    "notes": [
+      "заметки",
+      "заметку",
+      "панель заметок",
+      "окно заметок",
+      "notes",
+      "note"
+    ],
+    "checklist": [
+      "чеклист",
+      "чек-лист",
+      "список задач",
+      "задачи",
+      "checklist",
+      "task list"
+    ],
+    "browser": [
+      "браузер",
+      "веб-браузер",
+      "browser",
+      "web browser"
+    ],
+    "tab": [
+      "вкладка",
+      "вкладку",
+      "таб",
+      "tab"
+    ],
+    "yandex_music": [
+      "яндекс музыка",
+      "яндекс музыке",
+      "яндекс музыкe",
+      "yandex music",
+      "яндекс"
+    ],
+    "discord": [
+      "дискорд",
+      "дискорде",
+      "discord",
+      "музыкальный бот",
+      "бот в дискорде"
+    ],
+    "youtube": [
+      "ютуб",
+      "ютьюб",
+      "youtube",
+      "видео",
+      "ролик"
+    ],
+    "monitor": [
+      "экран",
+      "монитор",
+      "дисплей",
+      "screen",
+      "monitor",
+      "display"
+    ],
+    "process": [
+      "процесс",
+      "процессы",
+      "процессу",
+      "задачу процесса",
+      "process"
+    ],
+    "settings": [
+      "настройки",
+      "параметры",
+      "опции",
+      "settings",
+      "preferences",
+      "options"
+    ],
+    "game": [
+      "игра",
+      "игру",
+      "игры",
+      "игровое приложение",
+      "game"
+    ],
+    "audio": [
+      "звук",
+      "аудио",
+      "громкость",
+      "volume",
+      "audio",
+      "sound"
+    ],
+    "microphone": [
+      "микрофон",
+      "микрофона",
+      "устройство ввода",
+      "input device",
+      "microphone",
+      "mic"
+    ],
+    "clipboard": [
+      "буфер",
+      "буфер обмена",
+      "clipboard"
+    ],
+    "archive": [
+      "архив",
+      "zip",
+      "rar",
+      "архивный файл",
+      "archive"
+    ],
+    "screenshot": [
+      "скриншот",
+      "снимок экрана",
+      "скрин",
+      "screenshot",
+      "screen capture"
+    ],
+    "translation": [
+      "перевод",
+      "текст для перевода",
+      "translation",
+      "translate"
+    ]
+  },
+  "pronouns": [
+    "это",
+    "эту",
+    "этот",
+    "эти",
+    "их",
+    "его",
+    "ее",
+    "её",
+    "ему",
+    "ей",
+    "ними",
+    "им",
+    "туда",
+    "там",
+    "в него",
+    "в неё",
+    "на него",
+    "на неё",
+    "в них",
+    "на них",
+    "с ним",
+    "с ней",
+    "с ними",
+    "предыдущее",
+    "предыдущий",
+    "последнее",
+    "последний",
+    "то же",
+    "тот же",
+    "эту же",
+    "их же"
+  ],
+  "templates": [
+    "{action} {object} {target}",
+    "{action} мне {object} {target}",
+    "{action} пожалуйста {object} {target}",
+    "{action} {object} пожалуйста {target}",
+    "{object} {target} {action}",
+    "{target} {object} {action}",
+    "можешь {action} {object} {target}",
+    "можешь мне {action} {object} {target}",
+    "пожалуйста {action} {object} {target}",
+    "мне нужно {action} {object} {target}",
+    "мне надо {action} {object} {target}",
+    "хочу чтобы ты {action} {object} {target}",
+    "я хочу чтобы ты {action} {object} {target}",
+    "давай {action} {object} {target}",
+    "давай ты {action} {object} {target}",
+    "{action} {target} как {object}",
+    "{action} {object} с названием {target}",
+    "{action} {object} под названием {target}",
+    "{action} {object} который называется {target}",
+    "{action} {object} с именем {target}",
+    "{action} тот {object} {target}",
+    "{action} этот {object}",
+    "{action} его",
+    "{action} её",
+    "{action} их",
+    "{action} это",
+    "{action} туда",
+    "теперь {action} {object} {target}",
+    "потом {action} {object} {target}",
+    "а теперь {action} {object} {target}",
+    "и {action} {object} {target}",
+    "{action} {object} {target} для меня",
+    "{action} {object} {target} пожалуйста",
+    "could you {action} {object} {target}",
+    "please {action} {object} {target}",
+    "{action} the {object} {target}",
+    "{object} {target} please {action}"
+  ],
+  "domain_locks": {
+    "folder": [
+      "application",
+      "media",
+      "discord",
+      "yandex_music"
+    ],
+    "file": [
+      "application",
+      "media"
+    ],
+    "overlay": [
+      "application",
+      "filesystem"
+    ],
+    "notes": [
+      "application",
+      "filesystem"
+    ],
+    "checklist": [
+      "application",
+      "filesystem"
+    ],
+    "window": [
+      "application"
+    ],
+    "discord": [
+      "yandex_music",
+      "media"
+    ],
+    "yandex_music": [
+      "discord",
+      "media"
+    ],
+    "youtube": [
+      "discord",
+      "yandex_music"
+    ],
+    "process": [
+      "filesystem",
+      "media",
+      "discord",
+      "yandex_music"
+    ],
+    "settings": [
+      "filesystem",
+      "media",
+      "discord",
+      "yandex_music"
+    ],
+    "game": [
+      "filesystem"
+    ],
+    "microphone": [
+      "filesystem",
+      "media",
+      "discord",
+      "yandex_music"
+    ],
+    "clipboard": [
+      "application",
+      "media",
+      "discord",
+      "yandex_music"
+    ],
+    "archive": [
+      "application",
+      "media"
+    ],
+    "screenshot": [
+      "application",
+      "media",
+      "discord",
+      "yandex_music"
+    ],
+    "translation": [
+      "application",
+      "media",
+      "discord",
+      "yandex_music"
+    ]
+  }
+}
