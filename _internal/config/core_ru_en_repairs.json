@@ -1,0 +1,677 @@
+{
+  "audio.route_app_device": {
+    "ru": [
+      "направь звук {target} на {device_name}",
+      "переключи вывод звука {target} на {device_name}",
+      "воспроизводи звук {target} через {device_name}"
+    ]
+  },
+  "audio.restore_ducking": {
+    "ru": [
+      "верни прежнюю громкость после приглушения",
+      "отмени временное уменьшение громкости",
+      "восстанови обычный уровень звука после приглушения"
+    ],
+    "en": [
+      "restore the normal volume after ducking",
+      "undo the temporary volume reduction",
+      "return system sound to its level before ducking"
+    ]
+  },
+  "audio.set_input_mute": {
+    "en": [
+      "switch off microphone sound",
+      "mute my microphone",
+      "disable microphone audio"
+    ]
+  },
+  "audio.set_volume": {
+    "ru": [
+      "сделай громкость {value} процентов",
+      "задай уровень звука {value} процентов",
+      "измени громкость компьютера на {value} процентов"
+    ]
+  },
+  "audio.set_input_volume": {
+    "ru": [
+      "сделай громкость микрофона {value} процентов",
+      "задай для микрофона уровень {value} процентов",
+      "измени уровень микрофона на {value} процентов"
+    ]
+  },
+  "autoclicker.start": {
+    "ru": [
+      "включи автокликер",
+      "начни автоматические щелчки",
+      "запустить автокликер"
+    ]
+  },
+  "autoclicker.toggle": {
+    "ru": [
+      "переключи состояние автокликера",
+      "смени режим включения автокликера",
+      "инвертируй включение автокликера"
+    ],
+    "en": [
+      "toggle whether the autoclicker is running",
+      "switch the autoclicker between on and off",
+      "change the on/off state of the autoclicker"
+    ]
+  },
+  "browser.search": {
+    "en": [
+      "look up {query} in the browser",
+      "search the web for {query} in the browser",
+      "find {query} using the browser"
+    ]
+  },
+  "browser.close_tab": {
+    "ru": [
+      "закрой активную вкладку",
+      "убери текущую вкладку",
+      "закрыть текущую вкладку"
+    ]
+  },
+  "browser.new_tab": {
+    "ru": [
+      "создай новую вкладку",
+      "добавь ещё вкладку",
+      "открой ещё одну вкладку"
+    ],
+    "en": [
+      "create a new browser tab",
+      "add another browser tab",
+      "open another tab"
+    ]
+  },
+  "browser_advanced.close_others": {
+    "ru": [
+      "закрой все вкладки кроме текущей",
+      "оставь открытой только эту вкладку",
+      "убери остальные вкладки"
+    ],
+    "en": [
+      "close every tab except this one",
+      "keep only the current tab open",
+      "dismiss the other browser tabs"
+    ]
+  },
+  "browser_advanced.pin_current": {
+    "ru": [
+      "зафиксируй активную вкладку",
+      "закрепить эту вкладку",
+      "сделай текущую вкладку закреплённой"
+    ],
+    "en": [
+      "keep the current tab pinned",
+      "pin this browser tab",
+      "make the active tab a pinned tab"
+    ]
+  },
+  "browser_advanced.group_by_topic": {
+    "en": [
+      "organize tabs about {topic} into a group",
+      "put tabs about {topic} in one group",
+      "gather the tabs about {topic} together"
+    ]
+  },
+  "clipboard.set": {
+    "en": [
+      "put {text} on the clipboard",
+      "place the text {text} in the clipboard",
+      "copy this text to the clipboard: {text}"
+    ]
+  },
+  "clipboard.clear": {
+    "en": [
+      "empty the clipboard",
+      "remove the clipboard contents",
+      "erase all text from the clipboard"
+    ]
+  },
+  "clipboard.paste_history": {
+    "ru": [
+      "вставь элемент номер {index} из истории буфера",
+      "вставить сохранённую запись буфера {index}",
+      "вставь из буфера предыдущую запись номер {index}"
+    ],
+    "en": [
+      "insert item {index} from clipboard history",
+      "paste the saved clipboard entry {index}",
+      "paste entry number {index} from the clipboard history"
+    ]
+  },
+  "clipboard.copy_history": {
+    "ru": [
+      "помести в буфер запись {index} из его истории",
+      "повторно скопируй запись {index} из истории буфера",
+      "верни в буфер элемент истории {index}"
+    ],
+    "en": [
+      "copy entry {index} from clipboard history again",
+      "put clipboard history item {index} back on the clipboard",
+      "restore saved clipboard entry {index} to the clipboard"
+    ]
+  },
+  "clipboard.copy_page_url": {
+    "ru": [
+      "помести адрес текущей страницы в буфер",
+      "скопируй ссылку на эту страницу",
+      "запиши в буфер URL открытой страницы"
+    ],
+    "en": [
+      "put the current page URL on the clipboard",
+      "copy the link to this page",
+      "copy this browser page address to the clipboard"
+    ]
+  },
+  "developer.generate_python_app": {
+    "en": [
+      "make a Python application from description {description}",
+      "generate a Python application described as {description}",
+      "create a new Python application based on {description}"
+    ]
+  },
+  "filesystem.create_folder": {
+    "ru": [
+      "сделай папку {destination}",
+      "добавь новую папку {destination}",
+      "создать папку {destination}"
+    ]
+  },
+  "filesystem.copy": {
+    "en": [
+      "duplicate file {source} at {destination}",
+      "save a copy of file {source} to {destination}",
+      "make a copy of file {source} in {destination}"
+    ]
+  },
+  "filesystem.create_text_file": {
+    "ru": [
+      "сделай текстовый файл {name}: {text}",
+      "создай документ {name} с текстом: {text}",
+      "запиши новый текстовый файл {name}: {text}"
+    ]
+  },
+  "filesystem.create_file": {
+    "ru": [
+      "сделай новый файл {name}",
+      "добавь новый файл {name}",
+      "создать файл {name}"
+    ]
+  },
+  "filesystem.exists": {
+    "ru": [
+      "есть ли файл {source}",
+      "убедись, что файл {source} существует",
+      "проверь наличие файла {source}"
+    ],
+    "en": [
+      "does file {source} exist",
+      "is file {source} present",
+      "check for the existence of file {source}"
+    ]
+  },
+  "input_control.click": {
+    "ru": [
+      "щёлкни по координатам {x} {y}",
+      "кликни мышью в точке {x} {y}",
+      "выполни щелчок по точке {x} {y}"
+    ]
+  },
+  "input_control.click_control": {
+    "en": [
+      "press the button {name}",
+      "click on the control named {name}",
+      "activate button {name}"
+    ]
+  },
+  "memory.forget": {
+    "en": [
+      "remove the saved memory {key}",
+      "erase memory entry {key}",
+      "delete the fact stored as {key}"
+    ]
+  },
+  "system.lock": {
+    "ru": [
+      "включи блокировку компьютера",
+      "заблокировать сеанс Windows",
+      "закрой доступ к текущему сеансу Windows"
+    ]
+  },
+  "system.hibernate": {
+    "en": [
+      "put the computer into hibernation",
+      "send this computer into hibernation",
+      "activate hibernation mode on the computer"
+    ]
+  },
+  "text_edit.select_previous_paragraph": {
+    "en": [
+      "highlight the previous paragraph",
+      "select the paragraph before this one",
+      "mark the preceding paragraph as selected"
+    ]
+  },
+  "application.list": {
+    "ru": [
+      "какие процессы приложений запущены",
+      "перечисли процессы моих приложений",
+      "выведи список процессов приложений"
+    ],
+    "en": [
+      "which application processes are running",
+      "list my application processes",
+      "give me the list of application processes"
+    ]
+  },
+  "application.list_active": {
+    "ru": [
+      "какие приложения сейчас открыты",
+      "перечисли открытые программы",
+      "выведи список активных приложений"
+    ],
+    "en": [
+      "which applications are currently open",
+      "list the programs I have open",
+      "let me see my active applications"
+    ]
+  },
+  "application.info": {
+    "ru": [
+      "что известно о приложении {name}",
+      "выведи сведения о программе {name}",
+      "какие данные есть о приложении {name}"
+    ],
+    "en": [
+      "what information is available about application {name}",
+      "give me details about program {name}",
+      "tell me about the application {name}"
+    ]
+  },
+  "audio.list_sessions": {
+    "ru": [
+      "какие приложения сейчас выводят звук",
+      "перечисли звуковые сеансы приложений",
+      "какие аудиосессии доступны"
+    ],
+    "en": [
+      "which applications have audio sessions",
+      "list the application sound sessions",
+      "what audio sessions are available"
+    ]
+  },
+  "audio.list_devices": {
+    "ru": [
+      "какие звуковые устройства доступны",
+      "перечисли устройства воспроизведения и записи",
+      "какие аудиоустройства видит компьютер"
+    ],
+    "en": [
+      "which sound devices are available",
+      "list the recording and playback devices",
+      "what audio devices can the computer see"
+    ]
+  },
+  "audio.get_input_volume": {
+    "ru": [
+      "какая сейчас громкость микрофона",
+      "какой уровень выставлен у микрофона",
+      "сообщи текущий уровень микрофона"
+    ],
+    "en": [
+      "what is the microphone volume",
+      "how high is the microphone level set",
+      "tell me the current microphone level"
+    ]
+  },
+  "autoclicker.status": {
+    "ru": [
+      "работает ли сейчас автокликер",
+      "какое состояние у автокликера",
+      "сообщи текущий статус автокликера"
+    ],
+    "en": [
+      "is the autoclicker running right now",
+      "what state is the autoclicker in",
+      "tell me the current autoclicker status"
+    ]
+  },
+  "browser.list_browsers": {
+    "ru": [
+      "какие браузеры установлены",
+      "перечисли браузеры на компьютере",
+      "какие браузеры доступны для запуска"
+    ],
+    "en": [
+      "which browsers are installed",
+      "list the browsers on this computer",
+      "what browsers are available to launch"
+    ]
+  },
+  "browser_advanced.context": {
+    "ru": [
+      "какая страница сейчас открыта в браузере",
+      "что открыто в текущей вкладке",
+      "сообщи сведения о текущей странице браузера"
+    ],
+    "en": [
+      "which page is currently open in the browser",
+      "what is open in the current browser tab",
+      "give me details of the current browser page"
+    ]
+  },
+  "clipboard.current": {
+    "ru": [
+      "что сейчас в буфере обмена",
+      "какой текст скопирован",
+      "выведи текущую запись буфера"
+    ],
+    "en": [
+      "what is on the clipboard right now",
+      "what text have I copied",
+      "display the current clipboard entry"
+    ]
+  },
+  "clipboard.list": {
+    "ru": [
+      "что было скопировано раньше",
+      "перечисли записи истории буфера",
+      "какие записи сохранились в буфере"
+    ],
+    "en": [
+      "what did I copy earlier",
+      "list the entries in clipboard history",
+      "which clipboard entries have been saved"
+    ]
+  },
+  "diagnostics.latency": {
+    "ru": [
+      "сколько времени занимает обработка команд",
+      "какие задержки измерены у команд",
+      "выведи измерения скорости отклика"
+    ],
+    "en": [
+      "how long does command processing take",
+      "what command delays have been measured",
+      "give me the response latency measurements"
+    ]
+  },
+  "diagnostics.plugins": {
+    "ru": [
+      "какие плагины подключены к ассистенту",
+      "перечисли модули ассистента",
+      "выведи список доступных плагинов"
+    ],
+    "en": [
+      "which assistant plugins are connected",
+      "list the assistant modules",
+      "give me the available plugin list"
+    ]
+  },
+  "diagnostics.objects": {
+    "ru": [
+      "какие объекты видны на рабочем столе",
+      "перечисли распознанные объекты рабочего стола",
+      "выведи сведения об объектах рабочего стола"
+    ],
+    "en": [
+      "which desktop objects are visible",
+      "list the recognized desktop objects",
+      "give me details of the desktop objects"
+    ]
+  },
+  "filesystem.list": {
+    "ru": [
+      "что находится в папке {source}",
+      "перечисли файлы в папке {source}",
+      "выведи список содержимого папки {source}"
+    ],
+    "en": [
+      "what is in folder {source}",
+      "list the files inside folder {source}",
+      "give me the contents of directory {source}"
+    ]
+  },
+  "filesystem.info": {
+    "ru": [
+      "какие свойства у файла {source}",
+      "выведи сведения о файле {source}",
+      "сообщи параметры файла {source}"
+    ],
+    "en": [
+      "what are the properties of file {source}",
+      "give me details of file {source}",
+      "tell me the attributes of file {source}"
+    ]
+  },
+  "filesystem.list_drives": {
+    "ru": [
+      "какие диски есть на компьютере",
+      "перечисли доступные диски",
+      "выведи список накопителей"
+    ],
+    "en": [
+      "which drives are on this computer",
+      "list the available drives",
+      "give me a list of storage drives"
+    ]
+  },
+  "filesystem.disk_usage": {
+    "ru": [
+      "сколько места свободно на диске {source}",
+      "сообщи остаток места на диске {source}",
+      "какой объём доступен на диске {source}"
+    ],
+    "en": [
+      "how much free space is on drive {source}",
+      "tell me the remaining space on drive {source}",
+      "what capacity is available on drive {source}"
+    ]
+  },
+  "filesystem.tree": {
+    "ru": [
+      "как устроена папка {source}",
+      "выведи структуру каталога {source}",
+      "перечисли дерево подпапок {source}"
+    ],
+    "en": [
+      "what is the directory structure of {source}",
+      "display the folder hierarchy of {source}",
+      "list the subfolder tree under {source}"
+    ]
+  },
+  "game.status": {
+    "ru": [
+      "запущена ли сейчас какая-нибудь игра",
+      "какая игра сейчас обнаружена",
+      "сообщи текущий статус игры"
+    ],
+    "en": [
+      "is any game running right now",
+      "which game is currently detected",
+      "tell me the current game status"
+    ]
+  },
+  "game.state": {
+    "ru": [
+      "что известно о текущей игре",
+      "выведи состояние запущенной игры",
+      "какие данные доступны о текущей игре"
+    ],
+    "en": [
+      "what is known about the current game",
+      "report the state of the running game",
+      "what data is available about the current game"
+    ]
+  },
+  "game.session_info": {
+    "ru": [
+      "что известно о моей игровой сессии",
+      "выведи подробности игровой сессии",
+      "какие сведения есть о сеансе игры"
+    ],
+    "en": [
+      "what is known about my gaming session",
+      "give me details of the gaming session",
+      "what information is available about the game session"
+    ]
+  },
+  "game.show_session": {
+    "ru": [
+      "какая игровая сессия сейчас идёт",
+      "выведи текущий сеанс игры",
+      "покажи сведения о текущем игровом сеансе"
+    ],
+    "en": [
+      "which gaming session is active",
+      "display the current gaming session",
+      "let me see the active game session"
+    ]
+  },
+  "hardware.status": {
+    "ru": [
+      "в каком состоянии оборудование компьютера",
+      "выведи показатели оборудования",
+      "сообщи состояние комплектующих"
+    ],
+    "en": [
+      "what condition is the computer hardware in",
+      "give me the hardware readings",
+      "report the state of the computer components"
+    ]
+  },
+  "history.recent": {
+    "ru": [
+      "какие действия ассистент выполнял недавно",
+      "перечисли недавние команды ассистента",
+      "выведи журнал действий ассистента"
+    ],
+    "en": [
+      "what actions has the assistant performed recently",
+      "list the recent assistant commands",
+      "display the assistant action log"
+    ]
+  },
+  "input_control.list_controls": {
+    "ru": [
+      "какие элементы доступны в текущем окне",
+      "перечисли кнопки и поля окна",
+      "выведи список элементов управления окна"
+    ],
+    "en": [
+      "which controls are available in the current window",
+      "list the buttons and fields in the window",
+      "give me the window control list"
+    ]
+  },
+  "jarvis.status": {
+    "ru": [
+      "как работает сам ассистент",
+      "в каком состоянии NEO",
+      "сообщи состояние ассистента"
+    ],
+    "en": [
+      "how is the assistant itself running",
+      "what state is NEO in",
+      "report the assistant state"
+    ]
+  },
+  "memory.list": {
+    "ru": [
+      "что ты запомнил обо мне",
+      "перечисли сохранённые факты",
+      "какие сведения записаны в памяти"
+    ],
+    "en": [
+      "what have you remembered about me",
+      "list the facts saved in memory",
+      "which memories have been stored"
+    ]
+  },
+  "network.info": {
+    "ru": [
+      "что известно о подключении к сети",
+      "выведи параметры сети",
+      "какие сетевые подключения доступны"
+    ],
+    "en": [
+      "what is known about the network connection",
+      "give me the network details",
+      "which network connections are available"
+    ]
+  },
+  "scenario.list": {
+    "ru": [
+      "какие сценарии у меня сохранены",
+      "перечисли доступные сценарии",
+      "выведи список моих сценариев"
+    ],
+    "en": [
+      "which scenarios have I saved",
+      "list the available scenarios",
+      "give me my scenario list"
+    ]
+  },
+  "system.status": {
+    "ru": [
+      "как сейчас работает система",
+      "выведи показатели системы",
+      "сообщи состояние компьютера"
+    ],
+    "en": [
+      "how is the system running right now",
+      "give me the system readings",
+      "report the computer status"
+    ]
+  },
+  "system.top_processes": {
+    "ru": [
+      "какие процессы сильнее всего нагружают компьютер",
+      "перечисли самые тяжёлые процессы",
+      "что больше всего расходует ресурсы компьютера"
+    ],
+    "en": [
+      "which processes are using the most resources",
+      "list the heaviest processes",
+      "what is consuming the most computer resources"
+    ]
+  },
+  "system.list_power_plans": {
+    "ru": [
+      "какие схемы питания доступны",
+      "перечисли планы электропитания",
+      "выведи список режимов питания"
+    ],
+    "en": [
+      "which power plans are available",
+      "list the power schemes",
+      "give me the list of power plans"
+    ]
+  },
+  "system.get_power_plan": {
+    "ru": [
+      "какая схема питания сейчас выбрана",
+      "какой план электропитания действует",
+      "сообщи активную схему питания"
+    ],
+    "en": [
+      "which power plan is selected",
+      "what power scheme is in use",
+      "tell me the active power plan"
+    ]
+  },
+  "system.get_mouse_sensitivity": {
+    "ru": [
+      "какая чувствительность мыши установлена",
+      "какой уровень чувствительности у мыши",
+      "сообщи текущую чувствительность мыши"
+    ],
+    "en": [
+      "what mouse sensitivity is set",
+      "how high is the mouse sensitivity",
+      "tell me the current mouse sensitivity"
+    ]
+  }
+}
