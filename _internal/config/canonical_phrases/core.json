@@ -1,0 +1,1298 @@
+{
+  "application.open": [
+    "открой приложение {name}",
+    "open application {name}",
+    "öffne das Programm {name}",
+    "ouvre l'application {name}",
+    "abre la aplicación {name}",
+    "apri l'applicazione {name}",
+    "abre a aplicação {name}"
+  ],
+  "application.close": [
+    "закрой приложение {name}",
+    "close application {name}",
+    "schließe das Programm {name}",
+    "ferme l'application {name}",
+    "cierra la aplicación {name}",
+    "chiudi l'applicazione {name}",
+    "fecha a aplicação {name}"
+  ],
+  "application.kill": [
+    "принудительно заверши приложение {name}",
+    "force quit application {name}",
+    "beende das Programm {name} zwangsweise",
+    "force la fermeture de l'application {name}",
+    "fuerza el cierre de la aplicación {name}",
+    "forza la chiusura dell'applicazione {name}",
+    "força o encerramento da aplicação {name}"
+  ],
+  "application.list": [
+    "покажи процессы приложений",
+    "show application processes",
+    "zeige die Programmprozesse",
+    "montre les processus des applications",
+    "muestra los procesos de las aplicaciones",
+    "mostra i processi delle applicazioni",
+    "mostra os processos das aplicações"
+  ],
+  "application.list_active": [
+    "покажи открытые приложения",
+    "show open applications",
+    "zeige die geöffneten Programme",
+    "montre les applications ouvertes",
+    "muestra las aplicaciones abiertas",
+    "mostra le applicazioni aperte",
+    "mostra as aplicações abertas"
+  ],
+  "application.find": [
+    "найди приложение {name}",
+    "find application {name}",
+    "finde das Programm {name}",
+    "trouve l'application {name}",
+    "busca la aplicación {name}",
+    "trova l'applicazione {name}",
+    "encontra a aplicação {name}"
+  ],
+  "application.info": [
+    "покажи информацию о приложении {name}",
+    "show information about application {name}",
+    "zeige Informationen zum Programm {name}",
+    "montre les informations sur l'application {name}",
+    "muestra información de la aplicación {name}",
+    "mostra le informazioni sull'applicazione {name}",
+    "mostra informações sobre a aplicação {name}"
+  ],
+  "audio.set_volume": [
+    "установи громкость на {value} процентов",
+    "set the volume to {value} percent",
+    "stelle die Lautstärke auf {value} Prozent",
+    "règle le volume à {value} pour cent",
+    "ajusta el volumen al {value} por ciento",
+    "imposta il volume al {value} per cento",
+    "define o volume para {value} por cento"
+  ],
+  "audio.change_volume": [
+    "увеличь громкость на {value} процентов",
+    "increase the volume by {value} percent",
+    "erhöhe die Lautstärke um {value} Prozent",
+    "augmente le volume de {value} pour cent",
+    "aumenta el volumen un {value} por ciento",
+    "aumenta il volume del {value} per cento",
+    "aumenta o volume em {value} por cento"
+  ],
+  "audio.change_target_volume": [
+    "сделай {target} тише",
+    "make {target} quieter",
+    "mach {target} leiser",
+    "baisse le volume de {target}",
+    "baja el volumen de {target}",
+    "abbassa il volume di {target}",
+    "baixa o volume de {target}"
+  ],
+  "audio.mute": [
+    "выключи звук компьютера",
+    "mute the computer",
+    "schalte den Computerton stumm",
+    "coupe le son de l'ordinateur",
+    "silencia el ordenador",
+    "disattiva l'audio del computer",
+    "silencia o computador"
+  ],
+  "audio.list_sessions": [
+    "покажи аудиосессии приложений",
+    "show application audio sessions",
+    "zeige die Audiositzungen der Programme",
+    "montre les sessions audio des applications",
+    "muestra las sesiones de audio de las aplicaciones",
+    "mostra le sessioni audio delle applicazioni",
+    "mostra as sessões de áudio das aplicações"
+  ],
+  "audio.list_devices": [
+    "покажи звуковые устройства",
+    "show audio devices",
+    "zeige die Audiogeräte",
+    "montre les périphériques audio",
+    "muestra los dispositivos de audio",
+    "mostra i dispositivi audio",
+    "mostra os dispositivos de áudio"
+  ],
+  "audio.set_default": [
+    "выбери устройство вывода {device_name}",
+    "select output device {device_name}",
+    "wähle das Ausgabegerät {device_name}",
+    "sélectionne le périphérique de sortie {device_name}",
+    "selecciona el dispositivo de salida {device_name}",
+    "seleziona il dispositivo di uscita {device_name}",
+    "seleciona o dispositivo de saída {device_name}"
+  ],
+  "audio.set_input_mute": [
+    "выключи микрофон",
+    "mute the microphone",
+    "schalte das Mikrofon stumm",
+    "coupe le microphone",
+    "silencia el micrófono",
+    "disattiva il microfono",
+    "silencia o microfone"
+  ],
+  "audio.get_input_volume": [
+    "покажи громкость микрофона",
+    "show microphone volume",
+    "zeige die Mikrofonlautstärke",
+    "montre le volume du microphone",
+    "muestra el volumen del micrófono",
+    "mostra il volume del microfono",
+    "mostra o volume do microfone"
+  ],
+  "audio.set_input_volume": [
+    "установи громкость микрофона на {value} процентов",
+    "set microphone volume to {value} percent",
+    "stelle die Mikrofonlautstärke auf {value} Prozent",
+    "règle le volume du microphone à {value} pour cent",
+    "ajusta el volumen del micrófono al {value} por ciento",
+    "imposta il volume del microfono al {value} per cento",
+    "define o volume do microfone para {value} por cento"
+  ],
+  "audio.route_app_device": [
+    "выведи звук {target} на {device_name}",
+    "send {target} audio to {device_name}",
+    "leite den Ton von {target} an {device_name}",
+    "envoie le son de {target} vers {device_name}",
+    "envía el audio de {target} a {device_name}",
+    "invia l'audio di {target} a {device_name}",
+    "envia o áudio de {target} para {device_name}"
+  ],
+  "audio.mute_target": [
+    "выключи звук приложения {target}",
+    "mute application {target}",
+    "schalte das Programm {target} stumm",
+    "coupe le son de l'application {target}",
+    "silencia la aplicación {target}",
+    "disattiva l'audio dell'applicazione {target}",
+    "silencia a aplicação {target}"
+  ],
+  "audio.mute_except": [
+    "выключи звук всех приложений кроме {target}",
+    "mute all applications except {target}",
+    "schalte alle Programme außer {target} stumm",
+    "coupe le son de toutes les applications sauf {target}",
+    "silencia todas las aplicaciones excepto {target}",
+    "disattiva l'audio di tutte le applicazioni tranne {target}",
+    "silencia todas as aplicações exceto {target}"
+  ],
+  "audio.duck_system": [
+    "приглуши звук компьютера",
+    "lower the computer audio temporarily",
+    "senke den Computerton vorübergehend",
+    "atténue temporairement le son de l'ordinateur",
+    "atenúa temporalmente el audio del ordenador",
+    "abbassa temporaneamente l'audio del computer",
+    "reduz temporariamente o áudio do computador"
+  ],
+  "audio.restore_ducking": [
+    "восстанови звук после приглушения",
+    "restore the audio after ducking",
+    "stelle den Ton nach der Absenkung wieder her",
+    "rétablis le son après l'atténuation",
+    "restaura el audio después de atenuarlo",
+    "ripristina l'audio dopo l'attenuazione",
+    "restaura o áudio após a redução"
+  ],
+  "autoclicker.start": [
+    "запусти автокликер",
+    "start the autoclicker",
+    "starte den Autoklicker",
+    "démarre le clic automatique",
+    "inicia el autoclic",
+    "avvia il clic automatico",
+    "inicia o clique automático"
+  ],
+  "autoclicker.stop": [
+    "останови автокликер",
+    "stop the autoclicker",
+    "stoppe den Autoklicker",
+    "arrête le clic automatique",
+    "detén el autoclic",
+    "ferma il clic automatico",
+    "para o clique automático"
+  ],
+  "autoclicker.toggle": [
+    "переключи автокликер",
+    "toggle the autoclicker",
+    "schalte den Autoklicker um",
+    "bascule le clic automatique",
+    "alterna el autoclic",
+    "attiva o disattiva il clic automatico",
+    "alterna o clique automático"
+  ],
+  "autoclicker.configure": [
+    "настрой автокликер",
+    "configure the autoclicker",
+    "konfiguriere den Autoklicker",
+    "configure le clic automatique",
+    "configura el autoclic",
+    "configura il clic automatico",
+    "configura o clique automático"
+  ],
+  "autoclicker.set_rate": [
+    "установи частоту автокликера {value}",
+    "set autoclicker rate to {value}",
+    "stelle die Klickrate auf {value}",
+    "règle la fréquence des clics sur {value}",
+    "ajusta la frecuencia del autoclic a {value}",
+    "imposta la frequenza del clic automatico a {value}",
+    "define a frequência do clique automático para {value}"
+  ],
+  "autoclicker.set_button": [
+    "выбери кнопку автокликера {button}",
+    "select autoclicker button {button}",
+    "wähle die Autoklicker-Taste {button}",
+    "choisis le bouton du clic automatique {button}",
+    "elige el botón del autoclic {button}",
+    "scegli il pulsante del clic automatico {button}",
+    "escolhe o botão do clique automático {button}"
+  ],
+  "autoclicker.status": [
+    "покажи статус автокликера",
+    "show autoclicker status",
+    "zeige den Status des Autoklickers",
+    "montre l'état du clic automatique",
+    "muestra el estado del autoclic",
+    "mostra lo stato del clic automatico",
+    "mostra o estado do clique automático"
+  ],
+  "automation.cancel": [
+    "отмени текущую задачу",
+    "cancel the current task",
+    "brich die aktuelle Aufgabe ab",
+    "annule la tâche en cours",
+    "cancela la tarea actual",
+    "annulla l'attività corrente",
+    "cancela a tarefa atual"
+  ],
+  "automation.queue": [
+    "выполни задачи по очереди",
+    "run the tasks in sequence",
+    "führe die Aufgaben nacheinander aus",
+    "exécute les tâches dans l'ordre",
+    "ejecuta las tareas en orden",
+    "esegui le attività in sequenza",
+    "executa as tarefas por ordem"
+  ],
+  "automation.parallel": [
+    "выполни задачи параллельно",
+    "run the tasks in parallel",
+    "führe die Aufgaben parallel aus",
+    "exécute les tâches en parallèle",
+    "ejecuta las tareas en paralelo",
+    "esegui le attività in parallelo",
+    "executa as tarefas em paralelo"
+  ],
+  "browser.open_url": [
+    "открой сайт {url}",
+    "open website {url}",
+    "öffne die Website {url}",
+    "ouvre le site {url}",
+    "abre el sitio {url}",
+    "apri il sito {url}",
+    "abre o site {url}"
+  ],
+  "browser.open": [
+    "открой браузер {name}",
+    "open browser {name}",
+    "öffne den Browser {name}",
+    "ouvre le navigateur {name}",
+    "abre el navegador {name}",
+    "apri il browser {name}",
+    "abre o navegador {name}"
+  ],
+  "browser.search": [
+    "найди в браузере {query}",
+    "search in the browser for {query}",
+    "suche im Browser nach {query}",
+    "cherche dans le navigateur {query}",
+    "busca en el navegador {query}",
+    "cerca nel browser {query}",
+    "pesquisa no navegador {query}"
+  ],
+  "browser.search_first": [
+    "открой первый результат поиска {query}",
+    "open the first search result for {query}",
+    "öffne das erste Suchergebnis für {query}",
+    "ouvre le premier résultat pour {query}",
+    "abre el primer resultado de {query}",
+    "apri il primo risultato per {query}",
+    "abre o primeiro resultado de {query}"
+  ],
+  "browser.activate_tab": [
+    "переключись на вкладку {index}",
+    "switch to tab {index}",
+    "wechsle zu Tab {index}",
+    "passe à l'onglet {index}",
+    "cambia a la pestaña {index}",
+    "passa alla scheda {index}",
+    "muda para o separador {index}"
+  ],
+  "browser.activate_tab_title": [
+    "открой вкладку с названием {title}",
+    "switch to the tab named {title}",
+    "wechsle zum Tab mit dem Titel {title}",
+    "passe à l'onglet intitulé {title}",
+    "cambia a la pestaña titulada {title}",
+    "passa alla scheda intitolata {title}",
+    "muda para o separador com o título {title}"
+  ],
+  "browser.close_tab": [
+    "закрой текущую вкладку",
+    "close the current tab",
+    "schließe den aktuellen Tab",
+    "ferme l'onglet actuel",
+    "cierra la pestaña actual",
+    "chiudi la scheda corrente",
+    "fecha o separador atual"
+  ],
+  "browser.new_tab": [
+    "открой новую вкладку",
+    "open a new tab",
+    "öffne einen neuen Tab",
+    "ouvre un nouvel onglet",
+    "abre una nueva pestaña",
+    "apri una nuova scheda",
+    "abre um novo separador"
+  ],
+  "browser.list_browsers": [
+    "покажи установленные браузеры",
+    "show installed browsers",
+    "zeige die installierten Browser",
+    "montre les navigateurs installés",
+    "muestra los navegadores instalados",
+    "mostra i browser installati",
+    "mostra os navegadores instalados"
+  ],
+  "browser.clear_history": [
+    "очисти историю браузера",
+    "clear browser history",
+    "lösche den Browserverlauf",
+    "efface l'historique du navigateur",
+    "borra el historial del navegador",
+    "cancella la cronologia del browser",
+    "apaga o histórico do navegador"
+  ],
+  "browser.full_cleanup": [
+    "очисти данные браузера",
+    "clear browser data",
+    "lösche die Browserdaten",
+    "efface les données du navigateur",
+    "borra los datos del navegador",
+    "cancella i dati del browser",
+    "apaga os dados do navegador"
+  ],
+  "browser_advanced.context": [
+    "покажи текущую страницу браузера",
+    "show the current browser page",
+    "zeige die aktuelle Browserseite",
+    "montre la page actuelle du navigateur",
+    "muestra la página actual del navegador",
+    "mostra la pagina corrente del browser",
+    "mostra a página atual do navegador"
+  ],
+  "browser_advanced.activate_by_topic": [
+    "переключись на вкладку про {topic}",
+    "switch to the tab about {topic}",
+    "wechsle zum Tab über {topic}",
+    "passe à l'onglet sur {topic}",
+    "cambia a la pestaña sobre {topic}",
+    "passa alla scheda su {topic}",
+    "muda para o separador sobre {topic}"
+  ],
+  "browser_advanced.close_others": [
+    "закрой остальные вкладки",
+    "close the other tabs",
+    "schließe die anderen Tabs",
+    "ferme les autres onglets",
+    "cierra las demás pestañas",
+    "chiudi le altre schede",
+    "fecha os outros separadores"
+  ],
+  "browser_advanced.restore_closed": [
+    "восстанови закрытую вкладку",
+    "restore the closed tab",
+    "stelle den geschlossenen Tab wieder her",
+    "rouvre l'onglet fermé",
+    "restaura la pestaña cerrada",
+    "ripristina la scheda chiusa",
+    "restaura o separador fechado"
+  ],
+  "browser_advanced.pin_current": [
+    "закрепи текущую вкладку",
+    "pin the current tab",
+    "hefte den aktuellen Tab an",
+    "épingle l'onglet actuel",
+    "fija la pestaña actual",
+    "fissa la scheda corrente",
+    "fixa o separador atual"
+  ],
+  "browser_advanced.move_to_new_window": [
+    "перенеси вкладку в новое окно",
+    "move the tab to a new window",
+    "verschiebe den Tab in ein neues Fenster",
+    "déplace l'onglet dans une nouvelle fenêtre",
+    "mueve la pestaña a una ventana nueva",
+    "sposta la scheda in una nuova finestra",
+    "move o separador para uma nova janela"
+  ],
+  "browser_advanced.group_by_topic": [
+    "сгруппируй вкладки по теме {topic}",
+    "group tabs about {topic}",
+    "gruppiere Tabs zum Thema {topic}",
+    "regroupe les onglets sur {topic}",
+    "agrupa las pestañas sobre {topic}",
+    "raggruppa le schede su {topic}",
+    "agrupa os separadores sobre {topic}"
+  ],
+  "clipboard.current": [
+    "покажи содержимое буфера обмена",
+    "show clipboard contents",
+    "zeige den Inhalt der Zwischenablage",
+    "montre le contenu du presse-papiers",
+    "muestra el contenido del portapapeles",
+    "mostra il contenuto degli appunti",
+    "mostra o conteúdo da área de transferência"
+  ],
+  "clipboard.list": [
+    "покажи историю буфера обмена",
+    "show clipboard history",
+    "zeige den Verlauf der Zwischenablage",
+    "montre l'historique du presse-papiers",
+    "muestra el historial del portapapeles",
+    "mostra la cronologia degli appunti",
+    "mostra o histórico da área de transferência"
+  ],
+  "clipboard.set": [
+    "скопируй в буфер обмена {text}",
+    "copy to clipboard {text}",
+    "kopiere in die Zwischenablage {text}",
+    "copie dans le presse-papiers {text}",
+    "copia al portapapeles {text}",
+    "copia negli appunti {text}",
+    "copia para a área de transferência {text}"
+  ],
+  "clipboard.clear": [
+    "очисти буфер обмена",
+    "clear the clipboard",
+    "leere die Zwischenablage",
+    "vide le presse-papiers",
+    "vacía el portapapeles",
+    "svuota gli appunti",
+    "limpa a área de transferência"
+  ],
+  "clipboard.paste_history": [
+    "вставь запись {index} из истории буфера",
+    "paste clipboard history item {index}",
+    "füge Eintrag {index} aus dem Zwischenablageverlauf ein",
+    "colle l'entrée {index} de l'historique du presse-papiers",
+    "pega la entrada {index} del historial del portapapeles",
+    "incolla la voce {index} della cronologia degli appunti",
+    "cola o item {index} do histórico da área de transferência"
+  ],
+  "clipboard.copy_history": [
+    "скопируй запись {index} из истории буфера",
+    "copy clipboard history item {index}",
+    "kopiere Eintrag {index} aus dem Zwischenablageverlauf",
+    "copie l'entrée {index} de l'historique du presse-papiers",
+    "copia la entrada {index} del historial del portapapeles",
+    "copia la voce {index} della cronologia degli appunti",
+    "copia o item {index} do histórico da área de transferência"
+  ],
+  "clipboard.copy_page_url": [
+    "скопируй адрес текущей страницы",
+    "copy the current page address",
+    "kopiere die Adresse der aktuellen Seite",
+    "copie l'adresse de la page actuelle",
+    "copia la dirección de la página actual",
+    "copia l'indirizzo della pagina corrente",
+    "copia o endereço da página atual"
+  ],
+  "developer.generate_python_app": [
+    "создай приложение Python по описанию {description}",
+    "create a Python application from description {description}",
+    "erstelle eine Python-Anwendung nach der Beschreibung {description}",
+    "crée une application Python selon la description {description}",
+    "crea una aplicación Python según la descripción {description}",
+    "crea un'applicazione Python dalla descrizione {description}",
+    "cria uma aplicação Python a partir da descrição {description}"
+  ],
+  "developer.run_python_file": [
+    "запусти файл Python {path}",
+    "run Python file {path}",
+    "führe die Python-Datei {path} aus",
+    "exécute le fichier Python {path}",
+    "ejecuta el archivo Python {path}",
+    "esegui il file Python {path}",
+    "executa o ficheiro Python {path}"
+  ],
+  "diagnostics.self_test": [
+    "проверь работу ассистента",
+    "run the assistant self-test",
+    "prüfe die Funktionen des Assistenten",
+    "teste le fonctionnement de l'assistant",
+    "comprueba el funcionamiento del asistente",
+    "verifica il funzionamento dell'assistente",
+    "verifica o funcionamento do assistente"
+  ],
+  "diagnostics.latency": [
+    "покажи задержки команд",
+    "show command latency",
+    "zeige die Befehlslatenz",
+    "montre la latence des commandes",
+    "muestra la latencia de los comandos",
+    "mostra la latenza dei comandi",
+    "mostra a latência dos comandos"
+  ],
+  "diagnostics.plugins": [
+    "покажи плагины ассистента",
+    "show assistant plugins",
+    "zeige die Assistenten-Plugins",
+    "montre les extensions de l'assistant",
+    "muestra los complementos del asistente",
+    "mostra le estensioni dell'assistente",
+    "mostra os suplementos do assistente"
+  ],
+  "diagnostics.objects": [
+    "покажи объекты рабочего стола",
+    "show desktop objects",
+    "zeige die Desktopobjekte",
+    "montre les objets du bureau",
+    "muestra los objetos del escritorio",
+    "mostra gli oggetti del desktop",
+    "mostra os objetos do ambiente de trabalho"
+  ],
+  "filesystem.open": [
+    "открой файл {source}",
+    "open file {source}",
+    "öffne die Datei {source}",
+    "ouvre le fichier {source}",
+    "abre el archivo {source}",
+    "apri il file {source}",
+    "abre o ficheiro {source}"
+  ],
+  "filesystem.list": [
+    "покажи содержимое папки {source}",
+    "list the contents of folder {source}",
+    "zeige den Inhalt des Ordners {source}",
+    "montre le contenu du dossier {source}",
+    "muestra el contenido de la carpeta {source}",
+    "mostra il contenuto della cartella {source}",
+    "mostra o conteúdo da pasta {source}"
+  ],
+  "filesystem.find": [
+    "найди файл {name}",
+    "find file {name}",
+    "finde die Datei {name}",
+    "trouve le fichier {name}",
+    "busca el archivo {name}",
+    "trova il file {name}",
+    "encontra o ficheiro {name}"
+  ],
+  "filesystem.create_folder": [
+    "создай папку {destination}",
+    "create folder {destination}",
+    "erstelle den Ordner {destination}",
+    "crée le dossier {destination}",
+    "crea la carpeta {destination}",
+    "crea la cartella {destination}",
+    "cria a pasta {destination}"
+  ],
+  "filesystem.copy": [
+    "скопируй файл {source} в {destination}",
+    "copy file {source} to {destination}",
+    "kopiere die Datei {source} nach {destination}",
+    "copie le fichier {source} vers {destination}",
+    "copia el archivo {source} a {destination}",
+    "copia il file {source} in {destination}",
+    "copia o ficheiro {source} para {destination}"
+  ],
+  "filesystem.move": [
+    "перемести файл {source} в {destination}",
+    "move file {source} to {destination}",
+    "verschiebe die Datei {source} nach {destination}",
+    "déplace le fichier {source} vers {destination}",
+    "mueve el archivo {source} a {destination}",
+    "sposta il file {source} in {destination}",
+    "move o ficheiro {source} para {destination}"
+  ],
+  "filesystem.rename": [
+    "переименуй файл {source} в {new_name}",
+    "rename file {source} to {new_name}",
+    "benenne die Datei {source} in {new_name} um",
+    "renomme le fichier {source} en {new_name}",
+    "renombra el archivo {source} como {new_name}",
+    "rinomina il file {source} in {new_name}",
+    "muda o nome do ficheiro {source} para {new_name}"
+  ],
+  "filesystem.delete": [
+    "удали файл {source} в корзину",
+    "move file {source} to the recycle bin",
+    "verschiebe die Datei {source} in den Papierkorb",
+    "place le fichier {source} dans la corbeille",
+    "mueve el archivo {source} a la papelera",
+    "sposta il file {source} nel cestino",
+    "move o ficheiro {source} para a reciclagem"
+  ],
+  "filesystem.delete_permanent": [
+    "удали файл {source} безвозвратно",
+    "permanently delete file {source}",
+    "lösche die Datei {source} endgültig",
+    "supprime définitivement le fichier {source}",
+    "elimina definitivamente el archivo {source}",
+    "elimina definitivamente il file {source}",
+    "apaga permanentemente o ficheiro {source}"
+  ],
+  "filesystem.read_text": [
+    "прочитай файл {source}",
+    "read file {source}",
+    "lies die Datei {source}",
+    "lis le fichier {source}",
+    "lee el archivo {source}",
+    "leggi il file {source}",
+    "lê o ficheiro {source}"
+  ],
+  "filesystem.write_text": [
+    "запиши в файл {source}: {text}",
+    "write to file {source}: {text}",
+    "schreibe in die Datei {source}: {text}",
+    "écris dans le fichier {source}: {text}",
+    "escribe en el archivo {source}: {text}",
+    "scrivi nel file {source}: {text}",
+    "escreve no ficheiro {source}: {text}"
+  ],
+  "filesystem.replace_text": [
+    "замени в файле {source} текст {old_text} на {new_text}",
+    "replace {old_text} with {new_text} in file {source}",
+    "ersetze in der Datei {source} den Text {old_text} durch {new_text}",
+    "remplace {old_text} par {new_text} dans le fichier {source}",
+    "sustituye {old_text} por {new_text} en el archivo {source}",
+    "sostituisci {old_text} con {new_text} nel file {source}",
+    "substitui {old_text} por {new_text} no ficheiro {source}"
+  ],
+  "filesystem.create_text_file": [
+    "создай текстовый файл {name}: {text}",
+    "create text file {name}: {text}",
+    "erstelle die Textdatei {name}: {text}",
+    "crée le fichier texte {name}: {text}",
+    "crea el archivo de texto {name}: {text}",
+    "crea il file di testo {name}: {text}",
+    "cria o ficheiro de texto {name}: {text}"
+  ],
+  "filesystem.create_file": [
+    "создай файл {name}",
+    "create file {name}",
+    "erstelle die Datei {name}",
+    "crée le fichier {name}",
+    "crea el archivo {name}",
+    "crea il file {name}",
+    "cria o ficheiro {name}"
+  ],
+  "filesystem.append_text": [
+    "добавь в конец файла {source}: {text}",
+    "append to file {source}: {text}",
+    "hänge an die Datei {source} an: {text}",
+    "ajoute à la fin du fichier {source}: {text}",
+    "añade al final del archivo {source}: {text}",
+    "aggiungi alla fine del file {source}: {text}",
+    "acrescenta ao fim do ficheiro {source}: {text}"
+  ],
+  "filesystem.insert_text": [
+    "вставь текст {text} в файл {source}",
+    "insert text {text} into file {source}",
+    "füge den Text {text} in die Datei {source} ein",
+    "insère le texte {text} dans le fichier {source}",
+    "inserta el texto {text} en el archivo {source}",
+    "inserisci il testo {text} nel file {source}",
+    "insere o texto {text} no ficheiro {source}"
+  ],
+  "filesystem.search_text": [
+    "найди текст {query} в файле {source}",
+    "find text {query} in file {source}",
+    "suche den Text {query} in der Datei {source}",
+    "cherche le texte {query} dans le fichier {source}",
+    "busca el texto {query} en el archivo {source}",
+    "cerca il testo {query} nel file {source}",
+    "procura o texto {query} no ficheiro {source}"
+  ],
+  "filesystem.exists": [
+    "проверь существует ли файл {source}",
+    "check whether file {source} exists",
+    "prüfe ob die Datei {source} existiert",
+    "vérifie si le fichier {source} existe",
+    "comprueba si existe el archivo {source}",
+    "controlla se il file {source} esiste",
+    "verifica se o ficheiro {source} existe"
+  ],
+  "filesystem.info": [
+    "покажи свойства файла {source}",
+    "show properties of file {source}",
+    "zeige die Eigenschaften der Datei {source}",
+    "montre les propriétés du fichier {source}",
+    "muestra las propiedades del archivo {source}",
+    "mostra le proprietà del file {source}",
+    "mostra as propriedades do ficheiro {source}"
+  ],
+  "filesystem.zip": [
+    "упакуй {source} в архив {destination}",
+    "compress {source} into archive {destination}",
+    "packe {source} in das Archiv {destination}",
+    "compresse {source} dans l'archive {destination}",
+    "comprime {source} en el archivo {destination}",
+    "comprimi {source} nell'archivio {destination}",
+    "comprime {source} no arquivo {destination}"
+  ],
+  "filesystem.unzip": [
+    "распакуй архив {source} в {destination}",
+    "extract archive {source} to {destination}",
+    "entpacke das Archiv {source} nach {destination}",
+    "extrais l'archive {source} vers {destination}",
+    "extrae el archivo {source} en {destination}",
+    "estrai l'archivio {source} in {destination}",
+    "extrai o arquivo {source} para {destination}"
+  ],
+  "filesystem.list_drives": [
+    "покажи диски компьютера",
+    "show computer drives",
+    "zeige die Laufwerke des Computers",
+    "montre les disques de l'ordinateur",
+    "muestra las unidades del ordenador",
+    "mostra le unità del computer",
+    "mostra as unidades do computador"
+  ],
+  "filesystem.disk_usage": [
+    "покажи свободное место на диске {source}",
+    "show free space on drive {source}",
+    "zeige den freien Speicher auf Laufwerk {source}",
+    "montre l'espace libre sur le disque {source}",
+    "muestra el espacio libre en la unidad {source}",
+    "mostra lo spazio libero sull'unità {source}",
+    "mostra o espaço livre na unidade {source}"
+  ],
+  "filesystem.tree": [
+    "покажи дерево папки {source}",
+    "show the directory tree of {source}",
+    "zeige den Verzeichnisbaum von {source}",
+    "montre l'arborescence de {source}",
+    "muestra el árbol de carpetas de {source}",
+    "mostra l'albero delle cartelle di {source}",
+    "mostra a árvore de pastas de {source}"
+  ],
+  "filesystem.hash": [
+    "вычисли контрольную сумму файла {source}",
+    "calculate the checksum of file {source}",
+    "berechne die Prüfsumme der Datei {source}",
+    "calcule la somme de contrôle du fichier {source}",
+    "calcula la suma de comprobación del archivo {source}",
+    "calcola la somma di controllo del file {source}",
+    "calcula a soma de verificação do ficheiro {source}"
+  ],
+  "filesystem.undo_last_change": [
+    "отмени последнее изменение файла",
+    "undo the last file change",
+    "mache die letzte Dateiänderung rückgängig",
+    "annule la dernière modification du fichier",
+    "deshaz el último cambio del archivo",
+    "annulla l'ultima modifica del file",
+    "desfaz a última alteração do ficheiro"
+  ],
+  "filesystem.reveal": [
+    "покажи файл {source} в проводнике",
+    "reveal file {source} in Explorer",
+    "zeige die Datei {source} im Explorer",
+    "montre le fichier {source} dans l'explorateur",
+    "muestra el archivo {source} en el explorador",
+    "mostra il file {source} in Esplora file",
+    "mostra o ficheiro {source} no explorador"
+  ],
+  "game.status": [
+    "покажи статус игры",
+    "show game status",
+    "zeige den Spielstatus",
+    "montre l'état du jeu",
+    "muestra el estado del juego",
+    "mostra lo stato del gioco",
+    "mostra o estado do jogo"
+  ],
+  "game.state": [
+    "покажи состояние текущей игры",
+    "show the current game state",
+    "zeige den Zustand des aktuellen Spiels",
+    "montre l'état de la partie actuelle",
+    "muestra el estado de la partida actual",
+    "mostra lo stato della partita corrente",
+    "mostra o estado da partida atual"
+  ],
+  "game.session_info": [
+    "покажи сведения об игровой сессии",
+    "show game session information",
+    "zeige Informationen zur Spielsitzung",
+    "montre les informations de la session de jeu",
+    "muestra información de la sesión de juego",
+    "mostra le informazioni della sessione di gioco",
+    "mostra informações da sessão de jogo"
+  ],
+  "game.show_session": [
+    "покажи текущую игровую сессию",
+    "show the current game session",
+    "zeige die aktuelle Spielsitzung",
+    "montre la session de jeu actuelle",
+    "muestra la sesión de juego actual",
+    "mostra la sessione di gioco corrente",
+    "mostra a sessão de jogo atual"
+  ],
+  "game_locations.find": [
+    "где хранятся сохранения игры {name}",
+    "where are saves for {name}",
+    "wo sind die Spielstände von {name}",
+    "où sont les sauvegardes de {name}",
+    "dónde están las partidas de {name}",
+    "dove sono i salvataggi di {name}",
+    "onde estão os jogos guardados de {name}"
+  ],
+  "game_locations.open": [
+    "открой папку установки игры {name}",
+    "open installation folder for {name}",
+    "öffne den Installationsordner von {name}",
+    "ouvre le dossier d'installation de {name}",
+    "abre la carpeta de instalación de {name}",
+    "apri la cartella di installazione di {name}",
+    "abre a pasta de instalação de {name}"
+  ],
+  "hardware.status": [
+    "покажи состояние оборудования",
+    "show hardware status",
+    "zeige den Hardwarestatus",
+    "montre l'état du matériel",
+    "muestra el estado del hardware",
+    "mostra lo stato dell'hardware",
+    "mostra o estado do hardware"
+  ],
+  "history.recent": [
+    "покажи историю действий ассистента",
+    "show assistant action history",
+    "zeige den Aktionsverlauf des Assistenten",
+    "montre l'historique des actions de l'assistant",
+    "muestra el historial de acciones del asistente",
+    "mostra la cronologia delle azioni dell'assistente",
+    "mostra o histórico de ações do assistente"
+  ],
+  "history.undo": [
+    "отмени последнее действие",
+    "undo the last action",
+    "mache die letzte Aktion rückgängig",
+    "annule la dernière action",
+    "deshaz la última acción",
+    "annulla l'ultima azione",
+    "desfaz a última ação"
+  ],
+  "input_control.type_text": [
+    "напечатай текст {text}",
+    "type the text {text}",
+    "tippe den Text {text}",
+    "saisis le texte {text}",
+    "escribe el texto {text}",
+    "digita il testo {text}",
+    "escreve o texto {text}"
+  ],
+  "input_control.hotkey": [
+    "нажми сочетание клавиш {keys}",
+    "press keyboard shortcut {keys}",
+    "drücke die Tastenkombination {keys}",
+    "appuie sur le raccourci clavier {keys}",
+    "pulsa el atajo de teclado {keys}",
+    "premi la combinazione di tasti {keys}",
+    "prime o atalho de teclado {keys}"
+  ],
+  "input_control.click": [
+    "нажми в точке {x} {y}",
+    "click at coordinates {x} {y}",
+    "klicke auf die Koordinaten {x} {y}",
+    "clique aux coordonnées {x} {y}",
+    "haz clic en las coordenadas {x} {y}",
+    "fai clic alle coordinate {x} {y}",
+    "clica nas coordenadas {x} {y}"
+  ],
+  "input_control.click_control": [
+    "нажми кнопку {name}",
+    "click the button {name}",
+    "klicke auf die Schaltfläche {name}",
+    "clique sur le bouton {name}",
+    "pulsa el botón {name}",
+    "premi il pulsante {name}",
+    "clica no botão {name}"
+  ],
+  "input_control.focus_control": [
+    "перейди к полю {name}",
+    "focus the field {name}",
+    "wechsle zum Feld {name}",
+    "place le curseur dans le champ {name}",
+    "selecciona el campo {name}",
+    "seleziona il campo {name}",
+    "seleciona o campo {name}"
+  ],
+  "input_control.set_control_text": [
+    "заполни поле {name} текстом {text}",
+    "fill field {name} with {text}",
+    "fülle das Feld {name} mit {text}",
+    "remplis le champ {name} avec {text}",
+    "rellena el campo {name} con {text}",
+    "compila il campo {name} con {text}",
+    "preenche o campo {name} com {text}"
+  ],
+  "input_control.list_controls": [
+    "покажи доступные элементы окна",
+    "show the available window controls",
+    "zeige die verfügbaren Fensterelemente",
+    "montre les éléments disponibles de la fenêtre",
+    "muestra los controles disponibles de la ventana",
+    "mostra i controlli disponibili della finestra",
+    "mostra os controlos disponíveis da janela"
+  ],
+  "jarvis.status": [
+    "покажи статус ассистента",
+    "show assistant status",
+    "zeige den Status des Assistenten",
+    "montre l'état de l'assistant",
+    "muestra el estado del asistente",
+    "mostra lo stato dell'assistente",
+    "mostra o estado do assistente"
+  ],
+  "jarvis.shutdown": [
+    "заверши работу ассистента",
+    "shut down the assistant",
+    "beende den Assistenten",
+    "arrête l'assistant",
+    "cierra el asistente",
+    "chiudi l'assistente",
+    "encerra o assistente"
+  ],
+  "memory.remember": [
+    "запомни {key}: {value}",
+    "remember {key}: {value}",
+    "merke dir {key}: {value}",
+    "retiens {key}: {value}",
+    "recuerda {key}: {value}",
+    "ricorda {key}: {value}",
+    "memoriza {key}: {value}"
+  ],
+  "memory.forget": [
+    "забудь сохранённую запись {key}",
+    "forget saved memory {key}",
+    "vergiss den gespeicherten Eintrag {key}",
+    "oublie l'information enregistrée {key}",
+    "olvida el dato guardado {key}",
+    "dimentica il dato salvato {key}",
+    "esquece o dado guardado {key}"
+  ],
+  "memory.list": [
+    "покажи сохранённые сведения",
+    "show saved memories",
+    "zeige die gespeicherten Informationen",
+    "montre les informations enregistrées",
+    "muestra los datos guardados",
+    "mostra le informazioni salvate",
+    "mostra os dados guardados"
+  ],
+  "network.ping": [
+    "проверь доступность {host}",
+    "check connectivity to {host}",
+    "prüfe die Erreichbarkeit von {host}",
+    "vérifie la connexion à {host}",
+    "comprueba la conexión con {host}",
+    "verifica la connessione a {host}",
+    "verifica a ligação a {host}"
+  ],
+  "network.info": [
+    "покажи сведения о сети",
+    "show network information",
+    "zeige die Netzwerkinformationen",
+    "montre les informations réseau",
+    "muestra la información de red",
+    "mostra le informazioni di rete",
+    "mostra as informações de rede"
+  ],
+  "network.flush_dns": [
+    "очисти кэш DNS",
+    "flush the DNS cache",
+    "leere den DNS-Cache",
+    "vide le cache DNS",
+    "vacía la caché DNS",
+    "svuota la cache DNS",
+    "limpa a cache DNS"
+  ],
+  "scenario.list": [
+    "покажи мои сценарии",
+    "show my scenarios",
+    "zeige meine Szenarien",
+    "montre mes scénarios",
+    "muestra mis escenarios",
+    "mostra i miei scenari",
+    "mostra os meus cenários"
+  ],
+  "scenario.run": [
+    "запусти сценарий {name}",
+    "run scenario {name}",
+    "starte das Szenario {name}",
+    "lance le scénario {name}",
+    "ejecuta el escenario {name}",
+    "avvia lo scenario {name}",
+    "executa o cenário {name}"
+  ],
+  "search.files": [
+    "найди файл {query}",
+    "find file {query}",
+    "finde die Datei {query}",
+    "trouve le fichier {query}",
+    "busca el archivo {query}",
+    "trova il file {query}",
+    "encontra o ficheiro {query}"
+  ],
+  "search.content": [
+    "найди файл по содержимому {query}",
+    "find a file containing {query}",
+    "finde eine Datei mit dem Inhalt {query}",
+    "trouve un fichier contenant {query}",
+    "busca un archivo que contenga {query}",
+    "trova un file che contenga {query}",
+    "encontra um ficheiro que contenha {query}"
+  ],
+  "system.status": [
+    "покажи состояние системы",
+    "show system status",
+    "zeige den Systemstatus",
+    "montre l'état du système",
+    "muestra el estado del sistema",
+    "mostra lo stato del sistema",
+    "mostra o estado do sistema"
+  ],
+  "system.top_processes": [
+    "покажи самые ресурсоёмкие процессы",
+    "show the most resource-intensive processes",
+    "zeige die ressourcenintensivsten Prozesse",
+    "montre les processus les plus gourmands",
+    "muestra los procesos que más recursos consumen",
+    "mostra i processi che consumano più risorse",
+    "mostra os processos que consomem mais recursos"
+  ],
+  "system.terminate_process": [
+    "заверши процесс {name}",
+    "terminate process {name}",
+    "beende den Prozess {name}",
+    "termine le processus {name}",
+    "finaliza el proceso {name}",
+    "termina il processo {name}",
+    "termina o processo {name}"
+  ],
+  "system.open_settings": [
+    "открой настройки Windows",
+    "open Windows settings",
+    "öffne die Windows-Einstellungen",
+    "ouvre les paramètres Windows",
+    "abre la configuración de Windows",
+    "apri le impostazioni di Windows",
+    "abre as definições do Windows"
+  ],
+  "system.lock": [
+    "заблокируй компьютер",
+    "lock the computer",
+    "sperre den Computer",
+    "verrouille l'ordinateur",
+    "bloquea el ordenador",
+    "blocca il computer",
+    "bloqueia o computador"
+  ],
+  "system.shutdown": [
+    "выключи компьютер",
+    "shut down the computer",
+    "fahre den Computer herunter",
+    "éteins l'ordinateur",
+    "apaga el ordenador",
+    "spegni il computer",
+    "desliga o computador"
+  ],
+  "system.restart": [
+    "перезагрузи компьютер",
+    "restart the computer",
+    "starte den Computer neu",
+    "redémarre l'ordinateur",
+    "reinicia el ordenador",
+    "riavvia il computer",
+    "reinicia o computador"
+  ],
+  "system.cancel_shutdown": [
+    "отмени выключение компьютера",
+    "cancel computer shutdown",
+    "brich das Herunterfahren ab",
+    "annule l'arrêt de l'ordinateur",
+    "cancela el apagado del ordenador",
+    "annulla lo spegnimento del computer",
+    "cancela o encerramento do computador"
+  ],
+  "system.sleep": [
+    "переведи компьютер в спящий режим",
+    "put the computer to sleep",
+    "versetze den Computer in den Energiesparmodus",
+    "mets l'ordinateur en veille",
+    "pon el ordenador en suspensión",
+    "metti il computer in sospensione",
+    "coloca o computador em suspensão"
+  ],
+  "system.hibernate": [
+    "переведи компьютер в гибернацию",
+    "hibernate the computer",
+    "versetze den Computer in den Ruhezustand",
+    "mets l'ordinateur en veille prolongée",
+    "hiberna el ordenador",
+    "metti il computer in ibernazione",
+    "coloca o computador em hibernação"
+  ],
+  "system.set_bluetooth": [
+    "включи Bluetooth",
+    "turn on Bluetooth",
+    "schalte Bluetooth ein",
+    "active le Bluetooth",
+    "activa Bluetooth",
+    "attiva il Bluetooth",
+    "ativa o Bluetooth"
+  ],
+  "system.set_wifi": [
+    "включи Wi-Fi",
+    "turn on Wi-Fi",
+    "schalte WLAN ein",
+    "active le Wi-Fi",
+    "activa el Wi-Fi",
+    "attiva il Wi-Fi",
+    "ativa o Wi-Fi"
+  ],
+  "system.set_brightness": [
+    "установи яркость экрана {value} процентов",
+    "set screen brightness to {value} percent",
+    "stelle die Bildschirmhelligkeit auf {value} Prozent",
+    "règle la luminosité de l'écran à {value} pour cent",
+    "ajusta el brillo de la pantalla al {value} por ciento",
+    "imposta la luminosità dello schermo al {value} per cento",
+    "define o brilho do ecrã para {value} por cento"
+  ],
+  "system.open_task_manager": [
+    "открой диспетчер задач",
+    "open Task Manager",
+    "öffne den Task-Manager",
+    "ouvre le gestionnaire des tâches",
+    "abre el administrador de tareas",
+    "apri Gestione attività",
+    "abre o Gestor de Tarefas"
+  ],
+  "system.list_power_plans": [
+    "покажи схемы электропитания",
+    "show power plans",
+    "zeige die Energiesparpläne",
+    "montre les modes d'alimentation",
+    "muestra los planes de energía",
+    "mostra i piani di alimentazione",
+    "mostra os planos de energia"
+  ],
+  "system.get_power_plan": [
+    "покажи текущую схему электропитания",
+    "show the current power plan",
+    "zeige den aktuellen Energiesparplan",
+    "montre le mode d'alimentation actuel",
+    "muestra el plan de energía actual",
+    "mostra il piano di alimentazione corrente",
+    "mostra o plano de energia atual"
+  ],
+  "system.set_power_plan": [
+    "выбери схему электропитания {name}",
+    "select power plan {name}",
+    "wähle den Energiesparplan {name}",
+    "choisis le mode d'alimentation {name}",
+    "elige el plan de energía {name}",
+    "scegli il piano di alimentazione {name}",
+    "escolhe o plano de energia {name}"
+  ],
+  "system.turn_off_displays": [
+    "выключи мониторы",
+    "turn off the displays",
+    "schalte die Bildschirme aus",
+    "éteins les écrans",
+    "apaga los monitores",
+    "spegni i monitor",
+    "desliga os monitores"
+  ],
+  "system.get_mouse_sensitivity": [
+    "покажи чувствительность мыши",
+    "show mouse sensitivity",
+    "zeige die Mausempfindlichkeit",
+    "montre la sensibilité de la souris",
+    "muestra la sensibilidad del ratón",
+    "mostra la sensibilità del mouse",
+    "mostra a sensibilidade do rato"
+  ],
+  "system.set_mouse_sensitivity": [
+    "установи чувствительность мыши {value}",
+    "set mouse sensitivity to {value}",
+    "stelle die Mausempfindlichkeit auf {value}",
+    "règle la sensibilité de la souris sur {value}",
+    "ajusta la sensibilidad del ratón a {value}",
+    "imposta la sensibilità del mouse a {value}",
+    "define a sensibilidade do rato para {value}"
+  ],
+  "system.change_mouse_sensitivity": [
+    "увеличь чувствительность мыши на {value}",
+    "increase mouse sensitivity by {value}",
+    "erhöhe die Mausempfindlichkeit um {value}",
+    "augmente la sensibilité de la souris de {value}",
+    "aumenta la sensibilidad del ratón en {value}",
+    "aumenta la sensibilità del mouse di {value}",
+    "aumenta a sensibilidade do rato em {value}"
+  ],
+  "text_edit.dictate": [
+    "напечатай под диктовку {text}",
+    "type this dictation {text}",
+    "schreibe dieses Diktat {text}",
+    "saisis cette dictée {text}",
+    "escribe este dictado {text}",
+    "scrivi questo dettato {text}",
+    "escreve este ditado {text}"
+  ],
+  "text_edit.select_previous_paragraph": [
+    "выдели предыдущий абзац",
+    "select the previous paragraph",
+    "markiere den vorherigen Absatz",
+    "sélectionne le paragraphe précédent",
+    "selecciona el párrafo anterior",
+    "seleziona il paragrafo precedente",
+    "seleciona o parágrafo anterior"
+  ],
+  "text_edit.fix_selection": [
+    "исправь выделенный текст",
+    "correct the selected text",
+    "korrigiere den markierten Text",
+    "corrige le texte sélectionné",
+    "corrige el texto seleccionado",
+    "correggi il testo selezionato",
+    "corrige o texto selecionado"
+  ],
+  "text_edit.replace_last_sentence": [
+    "замени последнее предложение на {text}",
+    "replace the last sentence with {text}",
+    "ersetze den letzten Satz durch {text}",
+    "remplace la dernière phrase par {text}",
+    "sustituye la última frase por {text}",
+    "sostituisci l'ultima frase con {text}",
+    "substitui a última frase por {text}"
+  ],
+  "game_locations.query": [
+    "где хранятся сохранения игры {name}",
+    "where are saves for {name}",
+    "wo sind die Spielstände von {name}",
+    "où sont les sauvegardes de {name}",
+    "dónde están las partidas de {name}",
+    "dove sono i salvataggi di {name}",
+    "onde estão os jogos guardados de {name}"
+  ]
+}
