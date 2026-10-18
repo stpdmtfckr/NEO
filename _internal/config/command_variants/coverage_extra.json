@@ -1,0 +1,83 @@
+{
+  "application.list_active": {
+    "ru": ["что у меня сейчас запущено из приложений"],
+    "en": ["which programs are running on my computer"],
+    "de": ["welche Programme laufen gerade auf meinem Computer"],
+    "fr": ["quelles applications sont en cours d’exécution"],
+    "es": ["qué aplicaciones tengo en ejecución ahora"],
+    "it": ["quali applicazioni sono attualmente in esecuzione"],
+    "pt": ["quais aplicações estão em execução neste momento"]
+  },
+  "briefing.summary": {
+    "ru": ["ознакомь меня с сегодняшней сводкой"],
+    "en": ["bring me up to date with my daily overview"],
+    "de": ["informiere mich anhand meiner heutigen Tagesübersicht"],
+    "fr": ["présente-moi la synthèse de ma journée"],
+    "es": ["ponme al día con el resumen de mi jornada"],
+    "it": ["aggiornami con il riepilogo di oggi"],
+    "pt": ["apresenta-me a síntese do meu dia"]
+  },
+  "discord.music_youtube_url": {
+    "ru": ["дай послушать в Discord музыку с YouTube по адресу {query}"],
+    "en": ["let me listen in Discord to the music at YouTube URL {query}"],
+    "de": ["gib die Musik unter der YouTube-Adresse {query} in Discord wieder"],
+    "fr": ["fais entendre dans Discord la musique à l’adresse YouTube {query}"],
+    "es": ["haz sonar en Discord la música de la dirección de YouTube {query}"],
+    "it": ["fammi ascoltare su Discord la musica all’indirizzo YouTube {query}"],
+    "pt": ["reproduz no Discord a música no endereço do YouTube {query}"]
+  },
+  "music.repeat_on": {
+    "ru": ["пусть эта песня играет по кругу"],
+    "en": ["keep playing this same song over and over"],
+    "de": ["lass dasselbe Lied immer wieder laufen"],
+    "fr": ["fais passer cette même chanson en boucle"],
+    "es": ["haz que esta misma canción suene una y otra vez"],
+    "it": ["fai suonare sempre la stessa canzone"],
+    "pt": ["faz esta mesma canção tocar vezes sem conta"]
+  },
+  "system.status": {
+    "ru": ["в каком состоянии сейчас мой компьютер"],
+    "en": ["what is the current condition of my computer"],
+    "de": ["wie ist der aktuelle Zustand meines Computers"],
+    "fr": ["quel est l’état actuel de mon ordinateur"],
+    "es": ["en qué estado se encuentra mi ordenador ahora"],
+    "it": ["in che stato si trova adesso il mio computer"],
+    "pt": ["em que estado está o meu computador agora"]
+  },
+  "system.top_processes": {
+    "ru": ["какие процессы создают самую большую нагрузку"],
+    "en": ["which processes are putting the greatest load on my computer"],
+    "de": ["welche Prozesse belasten meinen Computer am stärksten"],
+    "fr": ["quels processus sollicitent le plus mon ordinateur"],
+    "es": ["qué procesos generan la mayor carga en mi ordenador"],
+    "it": ["quali processi mettono maggiormente sotto carico il computer"],
+    "pt": ["quais processos causam a maior carga no meu computador"]
+  },
+  "music.repeat_track": {
+    "ru": ["пусть эта песня играет по кругу"],
+    "en": ["keep playing this same song over and over"],
+    "de": ["lass dasselbe Lied immer wieder laufen"],
+    "fr": ["fais passer cette même chanson en boucle"],
+    "es": ["haz que esta misma canción suene una y otra vez"],
+    "it": ["fai suonare sempre la stessa canzone"],
+    "pt": ["faz esta mesma canção tocar vezes sem conta"]
+  },
+  "music.repeat_playlist": {
+    "ru": ["пусть все песни плейлиста играют по кругу"],
+    "en": ["keep cycling through all the songs in this playlist"],
+    "de": ["lass alle Lieder dieser Playlist immer wieder durchlaufen"],
+    "fr": ["fais passer tous les morceaux de cette playlist en boucle"],
+    "es": ["haz que suenen todas las canciones de esta lista una y otra vez"],
+    "it": ["fai ricominciare ogni volta l’intera playlist"],
+    "pt": ["faz todas as músicas desta playlist tocar em ciclo"]
+  },
+  "music.repeat_off": {
+    "ru": ["отключи режим повторного воспроизведения песен"],
+    "en": ["switch song repetition off"],
+    "de": ["schalte den Wiederholungsmodus für Lieder ab"],
+    "fr": ["arrête le mode de répétition des chansons"],
+    "es": ["apaga el modo de repetición de canciones"],
+    "it": ["spegni la modalità di ripetizione dei brani"],
+    "pt": ["desliga o modo de repetição das canções"]
+  }
+}
