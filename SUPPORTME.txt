@@ -1,0 +1,78 @@
+============================================================================
+SUPPORT MY PROJECTS
+Free software. Optional support. A heartfelt thank-you.
+============================================================================
+
+Hi! Thanks for using my software and taking an interest in my work.
+
+I create desktop applications and tools, including NEO and my Qt Widgets
+projects. This page is a way to support the person behind those projects -
+not a store or a paywall.
+
+My projects are free to use. Financial support is completely optional and
+does not unlock features or change your access to public releases.
+
+WHAT YOUR SUPPORT HELPS WITH
+----------------------------
+
+Even small applications take time to build and maintain. Your contribution
+helps me dedicate more time to:
+
+- Development: adding useful features and exploring new ideas.
+- Maintenance: fixing bugs, improving reliability, and testing changes.
+- User experience: refining interfaces, accessibility, and everyday
+  workflows.
+- Documentation: improving setup instructions, examples, and release notes.
+
+There is no minimum expectation. Choose an amount that feels comfortable for
+you - or simply keep enjoying the software.
+
+SUPPORT ON BOOSTY
+-----------------
+
+My creator page brings together updates and support for my projects:
+
+https://boosty.to/wowawidjet
+
+Choose a support option available on the page and review its amount and
+payment terms before confirming. All support levels serve the same purpose:
+helping me continue development. A higher contribution does not provide
+additional software features.
+
+SUPPORT WITH BITCOIN (BTC)
+--------------------------
+
+To support my work with Bitcoin, use either of these addresses. You do not
+need to send to both.
+
+Bitcoin wallet - Bech32
+bc1q5yr9tf8js8p2ggymknhpxmrg5eplq5ule0pm8l
+
+Bitcoin wallet - P2SH
+3MFYqxDZqcN2P1yVpmzt15uyy561AWXsBL
+
+Please double-check the complete wallet address before confirming a
+transfer. These addresses are provided for Bitcoin (BTC) support. Never
+share your private keys, recovery phrase, or other sensitive account
+information.
+
+SUPPORT WITHOUT SPENDING MONEY
+------------------------------
+
+Thoughtful feedback is valuable, too. You can help by reporting a
+reproducible bug, suggesting an improvement, improving documentation,
+sharing a project with someone who might find it useful, or starring its
+GitHub repository.
+
+See FEEDBACK.txt for contact details and a ready-to-use bug report template.
+
+A NOTE ON EXPECTATIONS
+----------------------
+
+Support is a voluntary contribution, not a purchase of custom development,
+priority technical support, or a guaranteed release date. Feedback and
+feature requests are welcome from everyone, whether or not they contribute
+financially.
+
+Thank you for helping me keep building useful software. Every kind of
+support matters.

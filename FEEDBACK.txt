@@ -1,0 +1,132 @@
+============================================================================
+FEEDBACK & BUG REPORTS
+Help make the next version better.
+============================================================================
+
+Found a bug, have an idea, or noticed something confusing? I would love to
+hear from you. Feedback is welcome for NEO, my Qt Widgets projects, and my
+other desktop applications.
+
+You do not need to donate or subscribe to report a problem or suggest an
+improvement.
+
+WHERE TO SEND FEEDBACK
+----------------------
+
+Email: wowawidjet@gmail.com
+
+Mention the project name and a brief description in the subject so I can
+tell which application your message concerns.
+
+Suggested subject format:
+
+[Project name] Bug: short description
+[Project name] Idea: short description
+
+GitHub Issues (when enabled): If this repository has an Issues tab, you can
+report a bug or suggest a feature there instead. Search existing issues
+first; when a matching report already exists, add any useful new details to
+that discussion.
+
+Please keep unrelated problems in separate reports so they are easier to
+investigate and track.
+
+WHAT TO INCLUDE IN A BUG REPORT
+-------------------------------
+
+- Project and version: the application name and version, release tag, or
+  commit you are using.
+- Affected area: the widget, screen, feature, command, or integration
+  involved.
+- Windows version: your Windows version and build, if known. For another
+  supported system, specify its name and version.
+- Installation method: for example, installer, portable archive, or running
+  from source.
+- Steps to reproduce: a short, numbered sequence starting from opening the
+  application.
+- Expected result: what you thought should happen.
+- Actual result: what happened instead, including the exact error message
+  when available.
+- Frequency and context: whether it happens every time or occasionally, and
+  any relevant recent changes.
+- Attachments: a screenshot, a short recording, or the relevant part of a
+  log, when available.
+
+You do not need to know every technical detail. Share what you can; a clear
+description is a useful starting point.
+
+BUG REPORT TEMPLATE
+-------------------
+
+Copy this into an email or a GitHub issue and fill in the relevant fields:
+
+Project:
+App version / release tag / commit:
+Windows version and build:
+Installation method:
+Affected widget / screen / feature:
+
+Summary:
+
+Steps to reproduce:
+1.
+2.
+3.
+
+Expected result:
+
+Actual result:
+
+Exact error message, if any:
+
+How often does it happen?
+
+Relevant settings or recent changes:
+
+Screenshots / recording / relevant log excerpt:
+
+Workaround, if you found one:
+
+FEATURE REQUESTS
+----------------
+
+Describe the problem you are trying to solve, not just the feature you would
+like to see. An example of how you would use it helps explain why the change
+matters.
+
+Project:
+Feature or improvement:
+
+What problem would this solve?
+
+How would you use it?
+
+Suggested behavior:
+
+Current workaround, if any:
+
+Interface feedback, confusing instructions, wording mistakes, and
+accessibility suggestions are welcome as well.
+
+KEEP PRIVATE INFORMATION PRIVATE
+--------------------------------
+
+Before sending screenshots, recordings, or logs, remove passwords, API keys,
+access tokens, private messages, personal file paths, and other information
+you do not want to share. Send only the relevant excerpt rather than a
+complete configuration or account export.
+
+If you discover a security issue or accidentally exposed credentials, email
+me instead of posting the sensitive details in a public issue. Never include
+passwords, tokens, or recovery phrases in a report.
+
+WHAT TO EXPECT
+--------------
+
+Detailed reports help me understand and reproduce problems, but I cannot
+promise an immediate reply, a specific fix date, or implementation of every
+suggestion. When useful, include a safe way for me to contact you with
+follow-up questions.
+
+Thank you for taking the time to help improve my projects. Your feedback
+makes a difference.
