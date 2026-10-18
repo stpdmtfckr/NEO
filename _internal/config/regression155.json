@@ -1,0 +1,2207 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "пусть музыка играет дальше",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай продолжим слушать музыку",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "можно снова включить музыку",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "let the music keep playing",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "let us keep listening to music",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "resume the music please",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "lass die Musik weiterlaufen",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "spielen wir die Musik weiter",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "bitte die Musik fortsetzen",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "laisse la musique continuer",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "reprenons la musique",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "remets la musique en lecture",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "que siga sonando la música",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "sigamos escuchando música",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "reanuda la música por favor",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "lascia continuare la musica",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "continuiamo ad ascoltare musica",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "riprendi la musica per favore",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "deixa a música continuar",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "vamos continuar a ouvir música",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "retoma a música por favor",
+    "expected_tool": "music",
+    "expected_action": "play",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай пока без музыки",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "приостанови музыку ненадолго",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пока поставь музыку на паузу",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "pause the music for a moment",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "let us pause the music",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "put the music on hold",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "halte die Musik kurz an",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "machen wir eine Musikpause",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "pausiere die Musik einen Moment",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets la musique en pause un instant",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "faisons une pause musicale",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "suspends la musique pour le moment",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la música en pausa un momento",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "hagamos una pausa en la música",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pausa la música por ahora",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "metti la musica in pausa un momento",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "facciamo una pausa musicale",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "sospendi la musica per ora",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "pausa a música por um momento",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "vamos fazer uma pausa na música",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "põe a música em pausa por agora",
+    "expected_tool": "music",
+    "expected_action": "pause",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай послушаем следующую песню",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "перейди к следующей композиции",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "эта песня надоела переключи",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "let us hear the next song",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "move on to the following track",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "skip this song please",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "hören wir das nächste Lied",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "gehe zum nächsten Musikstück",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "überspring dieses Lied bitte",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "écoutons la chanson suivante",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "passe au morceau suivant",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "saute cette chanson s'il te plaît",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "escuchemos la siguiente canción",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pasa al siguiente tema",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "salta esta canción por favor",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "ascoltiamo la prossima canzone",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "passa al brano successivo",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "salta questa canzone per favore",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "vamos ouvir a próxima música",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "passa à faixa seguinte",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "salta esta música por favor",
+    "expected_tool": "music",
+    "expected_action": "next",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "верни песню которая была перед этой",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "хочу послушать предыдущий трек",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "переключи на прошлую композицию",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "go back to the song before this one",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "I want to hear the previous track",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "switch to the preceding song",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "geh zum Lied davor zurück",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "ich möchte den vorigen Titel hören",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "wechsle zum vorherigen Musikstück",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "reviens à la chanson précédente",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "je veux réécouter le morceau précédent",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "remets le titre d'avant",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "vuelve a la canción anterior",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "quiero escuchar el tema anterior",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la canción de antes",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "torna alla canzone precedente",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "voglio ascoltare il brano precedente",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "rimetti il pezzo di prima",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "volta à música anterior",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "quero ouvir a faixa anterior",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "põe a música de antes",
+    "expected_tool": "music",
+    "expected_action": "previous",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "запусти мою персональную волну",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "хочу послушать мою волну",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай включим мою волну",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "start my personal wave",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "I want to listen to My Wave",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "let us turn on My Wave",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "starte meine persönliche Welle",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "ich möchte Meine Welle hören",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "schalte Meine Welle ein",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "lance ma vague personnelle",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "je veux écouter Ma Vague",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mettons Ma Vague",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "inicia mi ola personal",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "quiero escuchar Mi Ola",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pongamos Mi Ola",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "avvia la mia onda personale",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "voglio ascoltare La Mia Onda",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "mettiamo La Mia Onda",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "inicia a minha onda pessoal",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "quero ouvir A Minha Onda",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "vamos ligar A Minha Onda",
+    "expected_tool": "music",
+    "expected_action": "my_wave",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "напомни что сейчас играет",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "скажи название текущей песни",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что за композиция играет сейчас",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "remind me what is playing",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "tell me the current song title",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "which track is playing now",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "erinnere mich was gerade läuft",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "sag mir den aktuellen Songtitel",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "welches Musikstück läuft gerade",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "rappelle-moi ce qui joue",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "donne-moi le titre de la chanson actuelle",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "quel morceau passe en ce moment",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "recuérdame qué está sonando",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "dime el título de la canción actual",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué tema suena ahora",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "ricordami cosa sta suonando",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "dimmi il titolo della canzone attuale",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "quale brano sta suonando ora",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "lembra-me o que está a tocar",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "diz o título da música atual",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "que faixa está a tocar agora",
+    "expected_tool": "music",
+    "expected_action": "status",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что будет играть после этой песни",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи ближайшие песни в очереди",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "какие треки стоят дальше",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "what will play after this song",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "show the upcoming songs in the queue",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "which tracks are queued next",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "was läuft nach diesem Lied",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige die nächsten Lieder in der Warteschlange",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "welche Titel stehen als Nächstes an",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "que jouera-t-on après cette chanson",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "montre les prochaines chansons en attente",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "quels titres sont prévus ensuite",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué sonará después de esta canción",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra las próximas canciones de la cola",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué temas están en espera",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "che cosa suonerà dopo questa canzone",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra le prossime canzoni in coda",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "quali brani sono in attesa",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "o que vai tocar depois desta música",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostra as próximas músicas na fila",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "que faixas estão a seguir",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "сделай музыку немного громче",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "прибавь громкости музыке",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "музыку чуть погромче",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "make the music a little louder",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "raise the music volume a bit",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "turn the music up slightly",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "mach die Musik etwas lauter",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "erhöhe die Musiklautstärke etwas",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "dreh die Musik ein wenig auf",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "monte un peu le son de la musique",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "augmente légèrement le volume musical",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets la musique un peu plus fort",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "sube un poco el volumen de la música",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la música un poco más alta",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "aumenta ligeramente el volumen musical",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "alza un poco il volume della musica",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "metti la musica un po più alta",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "aumenta leggermente il volume musicale",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "aumenta um pouco o volume da música",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "põe a música um pouco mais alta",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "sobe ligeiramente o volume musical",
+    "expected_tool": "music",
+    "expected_action": "volume_up",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "сделай музыку немного тише",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "убавь громкости музыке",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "музыку чуть потише",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "make the music a little quieter",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "lower the music volume a bit",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "turn the music down slightly",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "mach die Musik etwas leiser",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "senke die Musiklautstärke etwas",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "dreh die Musik ein wenig herunter",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "baisse un peu le son de la musique",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "réduis légèrement le volume musical",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets la musique un peu moins fort",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "baja un poco el volumen de la música",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la música un poco más baja",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "reduce ligeramente el volumen musical",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "abbassa un poco il volume della musica",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "metti la musica un po più bassa",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "riduci leggermente il volume musicale",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "reduz um pouco o volume da música",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "põe a música um pouco mais baixa",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "baixa ligeiramente o volume musical",
+    "expected_tool": "music",
+    "expected_action": "volume_down",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай песни вперемешку",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи случайный порядок музыки",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пусть треки идут вразброс",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "play the songs in random order",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "turn on shuffled music playback",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "mix up the song order",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele die Lieder in zufälliger Reihenfolge",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "schalte die Zufallswiedergabe der Musik ein",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "mische die Liedreihenfolge",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "joue les chansons dans un ordre aléatoire",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "active la lecture musicale aléatoire",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mélange l'ordre des chansons",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "reproduce las canciones en orden aleatorio",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "activa la reproducción musical aleatoria",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "mezcla el orden de las canciones",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "riproduci le canzoni in ordine casuale",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "attiva la riproduzione musicale casuale",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "mescola l'ordine delle canzoni",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "toca as músicas por ordem aleatória",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "ativa a reprodução musical aleatória",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "baralha a ordem das músicas",
+    "expected_tool": "music",
+    "expected_action": "shuffle_on",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай песни по порядку",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "выключи случайный порядок музыки",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "перестань перемешивать песни",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "play the songs in order",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "turn off shuffled music playback",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "stop shuffling the songs",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele die Lieder der Reihe nach",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "schalte die Zufallswiedergabe der Musik aus",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "mische die Lieder nicht mehr",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "joue les chansons dans l'ordre",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "désactive la lecture musicale aléatoire",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "arrête de mélanger les chansons",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "reproduce las canciones en orden",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "desactiva la reproducción musical aleatoria",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "deja de mezclar las canciones",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "riproduci le canzoni in ordine",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "disattiva la riproduzione musicale casuale",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "smetti di mescolare le canzoni",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "toca as músicas por ordem",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "desativa a reprodução musical aleatória",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "deixa de baralhar as músicas",
+    "expected_tool": "music",
+    "expected_action": "shuffle_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "повторяй именно эту песню",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пусть текущий трек играет по кругу",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "зацикли эту композицию",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "keep repeating this song",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "loop the current track",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "play this song on repeat",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "wiederhole genau dieses Lied",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele den aktuellen Titel in Dauerschleife",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "lass dieses Lied sich wiederholen",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "répète cette chanson en boucle",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau actuel en boucle",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "rejoue toujours cette chanson",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "repite esta canción en bucle",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema actual en repetición",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "sigue repitiendo esta canción",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "ripeti questa canzone in continuazione",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "metti il brano attuale in loop",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "continua a ripetere questa canzone",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "repete esta música em ciclo",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "põe a faixa atual em repetição",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "continua a repetir esta música",
+    "expected_tool": "music",
+    "expected_action": "repeat_track",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "хватит повторять эту песню",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "убери повтор музыки",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "отключи зацикливание трека",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "stop repeating this song",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "turn off music repeat",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "disable the track loop",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "hör auf dieses Lied zu wiederholen",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "schalte die Musikwiederholung aus",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "beende die Titelschleife",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "arrête de répéter cette chanson",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "désactive la répétition musicale",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "enlève la boucle du morceau",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "deja de repetir esta canción",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "desactiva la repetición musical",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "quita el bucle del tema",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "smetti di ripetere questa canzone",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "disattiva la ripetizione musicale",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "togli il loop del brano",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "deixa de repetir esta música",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "desativa a repetição musical",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "tira a faixa do ciclo",
+    "expected_tool": "music",
+    "expected_action": "repeat_off",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "какой сегодня день",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "напомни какое сегодня число",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "какая дата на сегодня",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "what day is it today",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "remind me of today's date",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "tell me the current date",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "welcher Tag ist heute",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "erinnere mich an das heutige Datum",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "sag mir das aktuelle Datum",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "quel jour sommes-nous aujourd'hui",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "rappelle-moi la date d'aujourd'hui",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "donne-moi la date actuelle",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué día es hoy",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "recuérdame la fecha de hoy",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "dime la fecha actual",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "che giorno è oggi",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "ricordami la data di oggi",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "dimmi la data attuale",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "que dia é hoje",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "lembra-me a data de hoje",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "diz-me a data atual",
+    "expected_tool": "date_info",
+    "expected_action": "date_info",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "какие приложения сейчас работают",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи все запущенные приложения",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что у меня сейчас открыто",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "which applications are running now",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "show all running applications",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "en",
+    "phrase": "what apps do I have open",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "welche Anwendungen laufen gerade",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige alle laufenden Anwendungen",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "de",
+    "phrase": "welche Apps habe ich geöffnet",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "quelles applications sont en cours",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "montre toutes les applications ouvertes",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "fr",
+    "phrase": "quelles applis ai-je ouvertes",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué aplicaciones están ejecutándose",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra todas las aplicaciones abiertas",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué apps tengo abiertas",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "quali applicazioni sono in esecuzione",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra tutte le applicazioni aperte",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "it",
+    "phrase": "quali app ho aperte",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "que aplicações estão em execução",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostra todas as aplicações abertas",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  },
+  {
+    "locale": "pt",
+    "phrase": "que apps tenho abertas",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "natural155"
+  }
+]
