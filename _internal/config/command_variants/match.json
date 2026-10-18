@@ -1,0 +1,297 @@
+{
+ "match.accept": {
+  "ru": [
+   "прими матч",
+   "принять матч",
+   "прими игру",
+   "прими катку",
+   "прими каточку",
+   "прими бой",
+   "прими поиск",
+   "нажми принять",
+   "нажми принять матч",
+   "нажми кнопку принять",
+   "нажми принять в игре",
+   "подтверди матч",
+   "подтверди игру",
+   "прими найденный матч",
+   "прими найденную игру",
+   "матч принять",
+   "принимай матч",
+   "принимай игру",
+   "прими матч в доте",
+   "прими матч в кс",
+   "прими игру в доте",
+   "прими игру в кс",
+   "нажми готов",
+   "нажми готов в игре",
+   "я готов прими матч"
+  ],
+  "en": [
+   "accept the match",
+   "accept match",
+   "accept the game",
+   "accept game",
+   "accept the queue",
+   "accept queue",
+   "press accept",
+   "click accept",
+   "hit accept",
+   "press the accept button",
+   "confirm the match",
+   "accept the found match",
+   "accept the ready check",
+   "accept ready check",
+   "press ready",
+   "click ready",
+   "i am ready accept the match"
+  ],
+  "de": [
+   "nimm das match an",
+   "match annehmen",
+   "spiel annehmen",
+   "nimm das spiel an",
+   "drück annehmen",
+   "klick auf annehmen",
+   "bestätige das match",
+   "ready check annehmen",
+   "drück bereit"
+  ],
+  "fr": [
+   "accepte le match",
+   "accepter le match",
+   "accepte la partie",
+   "accepter la partie",
+   "appuie sur accepter",
+   "clique sur accepter",
+   "confirme le match",
+   "accepte la file",
+   "appuie sur prêt"
+  ],
+  "es": [
+   "acepta la partida",
+   "aceptar la partida",
+   "acepta el match",
+   "aceptar partida",
+   "pulsa aceptar",
+   "haz clic en aceptar",
+   "confirma la partida",
+   "acepta la cola",
+   "pulsa listo"
+  ],
+  "it": [
+   "accetta la partita",
+   "accettare la partita",
+   "accetta il match",
+   "accetta la coda",
+   "premi accetta",
+   "clicca accetta",
+   "conferma la partita",
+   "premi pronto"
+  ],
+  "pt": [
+   "aceita a partida",
+   "aceitar a partida",
+   "aceita o match",
+   "aceitar partida",
+   "carrega em aceitar",
+   "clica em aceitar",
+   "confirma a partida",
+   "aceita a fila",
+   "carrega em pronto"
+  ]
+ },
+ "match.arm": {
+  "ru": [
+   "прими матч когда найдётся",
+   "прими матч когда найдется",
+   "прими игру когда найдётся",
+   "прими игру когда найдется",
+   "прими матч когда он найдётся",
+   "прими матч когда он найдется",
+   "прими матч как найдётся",
+   "прими матч как найдется",
+   "прими матч автоматически",
+   "прими игру автоматически",
+   "принимай матч автоматически",
+   "принимай матчи автоматически",
+   "автопринятие матча",
+   "автопринятие",
+   "включи автопринятие",
+   "включи автопринятие матча",
+   "включи автоматическое принятие матча",
+   "режим автопринятия",
+   "автоматически прими матч",
+   "нажми принять когда найдётся игра",
+   "нажми принять когда найдется игра",
+   "нажми принять когда матч найдётся",
+   "нажми принять когда матч найдется",
+   "когда найдётся матч прими его",
+   "когда найдется матч прими его",
+   "прими катку когда найдётся",
+   "прими катку когда найдется"
+  ],
+  "en": [
+   "accept the match when it is found",
+   "accept the match when it's found",
+   "accept the match when found",
+   "accept the game when it is found",
+   "accept the match automatically",
+   "auto accept",
+   "auto accept the match",
+   "auto-accept the match",
+   "turn on auto accept",
+   "enable auto accept",
+   "enable match auto-accept",
+   "auto accept mode",
+   "press accept when the match is found",
+   "press accept when the game is found",
+   "when the match is found accept it",
+   "accept the next match"
+  ],
+  "de": [
+   "nimm das match an wenn es gefunden wird",
+   "nimm das match automatisch an",
+   "automatisch annehmen",
+   "automatisches annehmen einschalten",
+   "auto accept einschalten",
+   "nimm das nächste match an",
+   "drück annehmen wenn das match gefunden wird"
+  ],
+  "fr": [
+   "accepte le match quand il sera trouvé",
+   "accepte le match quand il est trouvé",
+   "accepte le match automatiquement",
+   "acceptation automatique",
+   "active l’acceptation automatique",
+   "accepte le prochain match",
+   "appuie sur accepter quand le match est trouvé"
+  ],
+  "es": [
+   "acepta la partida cuando se encuentre",
+   "acepta la partida cuando la encuentre",
+   "acepta la partida automáticamente",
+   "aceptación automática",
+   "activa la aceptación automática",
+   "acepta la próxima partida",
+   "pulsa aceptar cuando se encuentre la partida"
+  ],
+  "it": [
+   "accetta la partita quando viene trovata",
+   "accetta la partita quando la trovi",
+   "accetta la partita automaticamente",
+   "accettazione automatica",
+   "attiva l’accettazione automatica",
+   "accetta la prossima partita",
+   "premi accetta quando trovi la partita"
+  ],
+  "pt": [
+   "aceita a partida quando for encontrada",
+   "aceita a partida quando a encontrares",
+   "aceita a partida automaticamente",
+   "aceitação automática",
+   "ativa a aceitação automática",
+   "aceita a próxima partida",
+   "carrega em aceitar quando a partida for encontrada"
+  ]
+ },
+ "match.disarm": {
+  "ru": [
+   "выключи автопринятие матча",
+   "выключи автопринятие",
+   "отключи автопринятие",
+   "отключи автопринятие матча",
+   "отмени автопринятие",
+   "отмени автопринятие матча",
+   "стоп автопринятие",
+   "хватит принимать матчи",
+   "выключи автоматическое принятие матча",
+   "выключи режим автопринятия",
+   "убери автопринятие"
+  ],
+  "en": [
+   "turn off match auto-accept",
+   "turn off auto accept",
+   "disable auto accept",
+   "stop auto accept",
+   "cancel auto accept",
+   "stop accepting matches"
+  ],
+  "de": [
+   "schalte das automatische annehmen aus",
+   "automatisches annehmen aus",
+   "auto accept ausschalten",
+   "automatisches annehmen abbrechen",
+   "automatisches annehmen deaktivieren"
+  ],
+  "fr": [
+   "désactive l’acceptation automatique",
+   "arrête l’acceptation automatique",
+   "annule l’acceptation automatique",
+   "coupe l’acceptation automatique"
+  ],
+  "es": [
+   "desactiva la aceptación automática",
+   "quita la aceptación automática",
+   "cancela la aceptación automática",
+   "apaga la aceptación automática"
+  ],
+  "it": [
+   "disattiva l’accettazione automatica",
+   "annulla l’accettazione automatica",
+   "spegni l’accettazione automatica"
+  ],
+  "pt": [
+   "desativa a aceitação automática",
+   "cancela a aceitação automática",
+   "desliga a aceitação automática"
+  ]
+ },
+ "match.status": {
+  "ru": [
+   "статус автопринятия матча",
+   "статус автопринятия",
+   "включено ли автопринятие",
+   "автопринятие включено",
+   "нашёлся ли матч",
+   "нашелся ли матч",
+   "нашлась ли игра",
+   "матч найден",
+   "матч уже нашёлся",
+   "матч уже нашелся"
+  ],
+  "en": [
+   "match auto-accept status",
+   "auto accept status",
+   "is auto accept on",
+   "was a match found",
+   "has the match been found",
+   "is the match found"
+  ],
+  "de": [
+   "status des automatischen annehmens",
+   "ist automatisches annehmen an",
+   "wurde ein match gefunden"
+  ],
+  "fr": [
+   "état de l’acceptation automatique",
+   "l’acceptation automatique est active",
+   "un match a été trouvé"
+  ],
+  "es": [
+   "estado de la aceptación automática",
+   "está activa la aceptación automática",
+   "se encontró partida"
+  ],
+  "it": [
+   "stato dell’accettazione automatica",
+   "l’accettazione automatica è attiva",
+   "è stata trovata una partita"
+  ],
+  "pt": [
+   "estado da aceitação automática",
+   "a aceitação automática está ativa",
+   "foi encontrada uma partida"
+  ]
+ }
+}
