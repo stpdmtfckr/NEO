@@ -1,0 +1,1032 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "category": "activity153",
+      "family": "activity153",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "что делаешь",
+          "чем занят",
+          "чем занимаешься",
+          "что ты делаешь",
+          "что делашеь",
+          "ну что делаешь",
+          "чем ты сейчас занят"
+        ],
+        "en": [
+          "what are you doing",
+          "what are you up to",
+          "what are you working on"
+        ],
+        "de": [
+          "was machst du",
+          "was tust du gerade",
+          "womit beschäftigst du dich"
+        ],
+        "fr": [
+          "que fais-tu",
+          "tu fais quoi",
+          "à quoi t’occupes-tu"
+        ],
+        "es": [
+          "qué haces",
+          "qué estás haciendo",
+          "en qué andas"
+        ],
+        "it": [
+          "che fai",
+          "cosa stai facendo",
+          "di cosa ti occupi"
+        ],
+        "pt": [
+          "o que estás a fazer",
+          "o que você está fazendo",
+          "em que estás ocupado"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Сейчас отвечаю тебе. Можем обсудить планы, включить музыку или разобраться с задачей. Что выбираешь?",
+          "На связи и готов помочь. Можно начать с одного небольшого дела — какое у тебя на уме?"
+        ],
+        "en": [
+          "Right now I’m answering you. We can discuss plans, play music or work through a task. What would you prefer?",
+          "I’m here and ready to help. What is one thing you would like to get done?"
+        ],
+        "de": [
+          "Gerade antworte ich dir. Wir können Pläne besprechen, Musik hören oder eine Aufgabe angehen. Was möchtest du?",
+          "Ich bin bereit. Welche kleine Aufgabe möchtest du zuerst erledigen?"
+        ],
+        "fr": [
+          "Pour le moment, je te réponds. On peut parler de tes projets, écouter de la musique ou avancer sur une tâche. Que préfères-tu?",
+          "Je suis là. Quelle petite chose veux-tu faire en premier ?"
+        ],
+        "es": [
+          "Ahora mismo te estoy respondiendo. Podemos hablar de planes, escuchar música o resolver una tarea. ¿Qué prefieres?",
+          "Estoy aquí para ayudarte. ¿Qué te gustaría hacer primero?"
+        ],
+        "it": [
+          "In questo momento ti sto rispondendo. Possiamo parlare dei tuoi programmi, ascoltare musica o affrontare un compito. Cosa preferisci?",
+          "Sono qui. Quale piccola cosa vuoi fare per prima?"
+        ],
+        "pt": [
+          "Agora estou a responder-te. Podemos conversar sobre planos, ouvir música ou tratar de uma tarefa. O que preferes?",
+          "Estou aqui para ajudar. Qual é a primeira coisa que gostarias de fazer?"
+        ]
+      }
+    },
+    {
+      "category": "plans153",
+      "family": "plans153",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "чем сегодня займемся",
+          "что сегодня будем делать",
+          "какие планы на сегодня",
+          "чем займемся",
+          "давай придумаем чем заняться"
+        ],
+        "en": [
+          "what shall we do today",
+          "what should we do today",
+          "what are our plans today",
+          "what shall we do"
+        ],
+        "de": [
+          "was machen wir heute",
+          "was wollen wir heute machen",
+          "was haben wir heute vor"
+        ],
+        "fr": [
+          "qu’est-ce qu’on fait aujourd’hui",
+          "que fait-on aujourd’hui",
+          "on fait quoi aujourd’hui"
+        ],
+        "es": [
+          "qué hacemos hoy",
+          "qué vamos a hacer hoy",
+          "qué planes tenemos hoy"
+        ],
+        "it": [
+          "cosa facciamo oggi",
+          "che programmi abbiamo oggi",
+          "cosa potremmo fare oggi"
+        ],
+        "pt": [
+          "o que vamos fazer hoje",
+          "quais são os planos para hoje",
+          "o que fazemos hoje"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Предлагаю выбрать направление: работа, отдых или что-нибудь новое. Можем составить короткий план, подобрать музыку или просто поговорить. С чего начнём?",
+          "Давай без перегрузки: одно важное дело и время на отдых. Хочешь обсудить работу или придумать, как отвлечься? Я пока ничего не запускаю."
+        ],
+        "en": [
+          "Let’s pick a direction: work, a break or something new. We could make a short plan, choose music or just chat. Where shall we start?",
+          "How about one important task and a proper break? Would you rather talk about work or relaxing? I haven’t started any action."
+        ],
+        "de": [
+          "Wählen wir eine Richtung: Arbeit, Erholung oder etwas Neues. Wir können einen kurzen Plan machen, Musik wählen oder reden. Womit beginnen wir?",
+          "Eine wichtige Aufgabe und eine gute Pause wären ein Anfang. Eher Arbeit oder Erholung? Ich starte noch keine Aktion."
+        ],
+        "fr": [
+          "Choisissons une direction : travail, détente ou découverte. On peut faire un petit plan, choisir de la musique ou discuter. Par quoi commencer ?",
+          "Une tâche importante et une vraie pause, ce serait un bon début. Travail ou détente ? Je ne lance aucune action pour l’instant."
+        ],
+        "es": [
+          "Elijamos una dirección: trabajo, descanso o algo nuevo. Podemos hacer un plan breve, elegir música o charlar. ¿Por dónde empezamos?",
+          "Una tarea importante y un buen descanso serían un comienzo. ¿Trabajo o relajación? No he iniciado ninguna acción."
+        ],
+        "it": [
+          "Scegliamo una direzione: lavoro, riposo o qualcosa di nuovo. Possiamo fare un piano breve, scegliere musica o parlare. Da dove iniziamo?",
+          "Un compito importante e una vera pausa sono un buon inizio. Preferisci lavoro o riposo? Non ho avviato alcuna azione."
+        ],
+        "pt": [
+          "Vamos escolher: trabalho, descanso ou algo novo. Podemos fazer um plano curto, escolher música ou conversar. Por onde começamos?",
+          "Uma tarefa importante e uma boa pausa seriam um começo. Trabalho ou descanso? Ainda não iniciei nenhuma ação."
+        ]
+      }
+    },
+    {
+      "category": "company153",
+      "family": "company153",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "давай просто поболтаем",
+          "хочу с тобой поговорить",
+          "поговори со мной",
+          "о чем поговорим",
+          "есть минутка поговорить"
+        ],
+        "en": [
+          "let’s just chat",
+          "i want to talk to you",
+          "what could we talk about",
+          "have you got a moment"
+        ],
+        "de": [
+          "lass uns einfach plaudern",
+          "ich möchte mit dir reden",
+          "worüber reden wir"
+        ],
+        "fr": [
+          "j’ai envie de te parler",
+          "de quoi peut-on parler"
+        ],
+        "es": [
+          "charlemos un rato",
+          "quiero hablar contigo",
+          "de qué podemos hablar"
+        ],
+        "it": [
+          "voglio parlare con te",
+          "di cosa possiamo parlare"
+        ],
+        "pt": [
+          "quero falar contigo",
+          "sobre o que podemos conversar"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Конечно. Как проходит день — больше хочется рассказать о чём-то хорошем или отвлечься от дел?",
+          "Давай. Можем поговорить о музыке, играх или планах. Какую тему выберем?"
+        ],
+        "en": [
+          "Of course. How is your day going? Would you like to share something good or take your mind off work?",
+          "Sure. We can talk about music, games or plans. Which sounds interesting?"
+        ],
+        "de": [
+          "Gern. Wie läuft dein Tag? Möchtest du etwas Schönes erzählen oder dich von der Arbeit ablenken?",
+          "Klar. Musik, Spiele oder Pläne — welches Thema interessiert dich?"
+        ],
+        "fr": [
+          "Bien sûr. Comment se passe ta journée ? Tu veux raconter quelque chose de bien ou te changer les idées ?",
+          "On peut parler de musique, de jeux ou de projets. Quel sujet te tente ?"
+        ],
+        "es": [
+          "Claro. ¿Cómo va tu día? ¿Quieres contar algo bueno o distraerte del trabajo?",
+          "Podemos hablar de música, juegos o planes. ¿Qué tema te apetece?"
+        ],
+        "it": [
+          "Certo. Come sta andando la giornata? Vuoi raccontare qualcosa di bello o distrarti dal lavoro?",
+          "Possiamo parlare di musica, giochi o progetti. Quale argomento preferisci?"
+        ],
+        "pt": [
+          "Claro. Como está a correr o dia? Queres contar algo bom ou distrair-te do trabalho?",
+          "Podemos falar de música, jogos ou planos. Que tema preferes?"
+        ]
+      }
+    },
+    {
+      "category": "howday153",
+      "family": "howday153",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "как прошел твой день",
+          "как твой день",
+          "какое у тебя настроение"
+        ],
+        "en": [
+          "how was your day",
+          "how is your day",
+          "what mood are you in"
+        ],
+        "de": [
+          "wie war dein tag",
+          "wie ist deine stimmung"
+        ],
+        "fr": [
+          "comment s’est passée ta journée",
+          "comment va ta journée",
+          "de quelle humeur es-tu"
+        ],
+        "es": [
+          "cómo estuvo tu día",
+          "de qué humor estás"
+        ],
+        "it": [
+          "come è andata la tua giornata",
+          "come va la giornata",
+          "di che umore sei"
+        ],
+        "pt": [
+          "como foi o teu dia",
+          "como está o seu dia",
+          "como está o teu humor"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "У меня нет дня и настроения как у человека, но я готов поддержать разговор. А у тебя сегодня что запомнилось?",
+          "Я здесь и готов помочь. Лучше расскажи о своём дне: он спокойный или насыщенный?"
+        ],
+        "en": [
+          "I don’t have a day or a mood like a person does, but I’m ready to talk. What stood out in your day?",
+          "I’m here and ready to help. Has your day been calm or busy?"
+        ],
+        "de": [
+          "Ich habe keinen Tag und keine Stimmung wie ein Mensch, aber ich unterhalte mich gern mit dir. Was war heute für dich wichtig?",
+          "Ich bin bereit zu helfen. War dein Tag eher ruhig oder voll?"
+        ],
+        "fr": [
+          "Je n’ai pas de journée ni d’humeur comme une personne, mais je peux discuter avec toi. Qu’est-ce qui t’a marqué aujourd’hui ?",
+          "Je suis là pour t’aider. Ta journée est plutôt calme ou chargée ?"
+        ],
+        "es": [
+          "No tengo un día ni un estado de ánimo como una persona, pero podemos conversar. ¿Qué destacarías de tu día?",
+          "Estoy aquí para ayudarte. ¿Tu día ha sido tranquilo o ajetreado?"
+        ],
+        "it": [
+          "Non ho una giornata o un umore come una persona, ma possiamo parlare. Cosa ti è rimasto impresso oggi?",
+          "Sono qui per aiutarti. La tua giornata è stata tranquilla o intensa?"
+        ],
+        "pt": [
+          "Não tenho um dia nem um humor como uma pessoa, mas podemos conversar. O que mais marcou o teu dia?",
+          "Estou aqui para ajudar. O teu dia tem sido calmo ou cheio?"
+        ]
+      }
+    },
+    {
+      "category": "shorthelp153",
+      "family": "shorthelp153",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "можно говорить короче",
+          "ты понимаешь короткие команды",
+          "как сказать покороче",
+          "можно без слова покажи"
+        ],
+        "en": [
+          "can i use shorter commands",
+          "do you understand short commands",
+          "can i leave out show"
+        ],
+        "de": [
+          "kann ich kürzere befehle verwenden",
+          "verstehst du kurze befehle"
+        ],
+        "fr": [
+          "puis-je utiliser des commandes courtes",
+          "comprends-tu les commandes courtes"
+        ],
+        "es": [
+          "puedo usar órdenes cortas",
+          "entiendes órdenes cortas"
+        ],
+        "it": [
+          "posso usare comandi brevi",
+          "capisci i comandi brevi"
+        ],
+        "pt": [
+          "posso usar comandos curtos",
+          "entendes comandos curtos"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Да. Например: «очередь дискорд», «таймеры», «вкладки браузера» или «непрочитанная почта». Если данных для действия не хватает, уточню их, а не выберу наугад.",
+          "Можно без длинной формулировки: «очередь дискорд» или «мои таймеры». Непонятную цель уточню; короткая фраза сама по себе не разрешает опасное действие."
+        ],
+        "en": [
+          "Yes. Try “Discord queue”, “my timers”, “browser tabs” or “unread mail”. If an action needs more details, I’ll ask rather than guess.",
+          "You can leave out extra wording: “Discord queue” or “my timers” is enough. I will ask about an unclear target, not treat a fragment as permission for a risky action."
+        ],
+        "de": [
+          "Ja. Zum Beispiel „Discord Warteschlange“, „meine Timer“, „offene Tabs“ oder „ungelesene Post“. Fehlende Angaben frage ich nach.",
+          "Zusätzliche Wörter sind nicht immer nötig: „Discord Warteschlange“ oder „meine Timer“ reicht. Bei einem unklaren Ziel frage ich nach; ein Fragment erlaubt keine riskante Aktion."
+        ],
+        "fr": [
+          "Oui. Par exemple « file Discord », « mes minuteurs », « onglets ouverts » ou « courrier non lu ». Je demanderai les précisions manquantes.",
+          "Les mots en plus ne sont pas toujours nécessaires : « file Discord » ou « mes minuteurs » suffit. Je demanderai quelle cible tu veux plutôt que lancer une action risquée sur un fragment."
+        ],
+        "es": [
+          "Sí. Por ejemplo: «cola de Discord», «mis temporizadores», «pestañas abiertas» o «correo sin leer». Preguntaré por los datos que falten.",
+          "Puedes abreviar: «cola de Discord» o «mis temporizadores» es suficiente. Si el objetivo no está claro, preguntaré; una frase incompleta no autoriza una acción arriesgada."
+        ],
+        "it": [
+          "Sì. Prova “coda Discord”, “i miei timer”, “schede aperte” o “posta non letta”. Chiederò i dettagli mancanti invece di indovinare.",
+          "Puoi abbreviare: “coda Discord” o “i miei timer” basta. Se l’obiettivo non è chiaro, chiederò; un frammento non autorizza un’azione rischiosa."
+        ],
+        "pt": [
+          "Sim. Experimenta “fila do Discord”, “meus temporizadores”, “abas abertas” ou “correio não lido”. Perguntarei pelos dados que faltarem.",
+          "Podes abreviar: “fila do Discord” ou “meus temporizadores” basta. Se o alvo não estiver claro, perguntarei; um fragmento não autoriza uma ação arriscada."
+        ]
+      }
+    }
+  ],
+  "followups": {
+    "ru": {
+      "работой": {
+        "topic": "work",
+        "answer": "Тогда выберем одну задачу и первый небольшой шаг. Что нужно закончить? Пока я ничего не меняю и не запускаю.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "работа": {
+        "topic": "work",
+        "answer": "Тогда выберем одну задачу и первый небольшой шаг. Что нужно закончить? Пока я ничего не меняю и не запускаю.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "давай поработаем": {
+        "topic": "work",
+        "answer": "Тогда выберем одну задачу и первый небольшой шаг. Что нужно закончить? Пока я ничего не меняю и не запускаю.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "отдыхом": {
+        "topic": "rest",
+        "answer": "Можно сделать небольшую паузу, послушать музыку или просто поболтать. Музыку сам не включаю: скажи, что поставить, когда определишься.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "отдых": {
+        "topic": "rest",
+        "answer": "Можно сделать небольшую паузу, послушать музыку или просто поболтать. Музыку сам не включаю: скажи, что поставить, когда определишься.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "давай отдохнем": {
+        "topic": "rest",
+        "answer": "Можно сделать небольшую паузу, послушать музыку или просто поболтать. Музыку сам не включаю: скажи, что поставить, когда определишься.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "хочу отдохнуть": {
+        "topic": "rest",
+        "answer": "Можно сделать небольшую паузу, послушать музыку или просто поболтать. Музыку сам не включаю: скажи, что поставить, когда определишься.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "пока не знаю": {
+        "topic": "undecided",
+        "answer": "Давай начнём с простого: хочется что-то закончить или переключиться и отдохнуть? От этого и выберем следующий шаг.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "не определился": {
+        "topic": "undecided",
+        "answer": "Давай начнём с простого: хочется что-то закончить или переключиться и отдохнуть? От этого и выберем следующий шаг.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "что посоветуешь": {
+        "topic": "undecided",
+        "answer": "Давай начнём с простого: хочется что-то закончить или переключиться и отдохнуть? От этого и выберем следующий шаг.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "а что еще": {
+        "topic": "undecided",
+        "answer": "Давай начнём с простого: хочется что-то закончить или переключиться и отдохнуть? От этого и выберем следующий шаг.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "а что ещё": {
+        "topic": "undecided",
+        "answer": "Давай начнём с простого: хочется что-то закончить или переключиться и отдохнуть? От этого и выберем следующий шаг.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      }
+    },
+    "en": {
+      "work": {
+        "topic": "work",
+        "answer": "Let’s choose one task and a small first step. What needs finishing? I’m not changing or launching anything yet.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "let’s work": {
+        "topic": "work",
+        "answer": "Let’s choose one task and a small first step. What needs finishing? I’m not changing or launching anything yet.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "rest": {
+        "topic": "rest",
+        "answer": "We could take a short break, listen to music or just chat. I won’t start music on my own; tell me what to play when you decide.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "a break": {
+        "topic": "rest",
+        "answer": "We could take a short break, listen to music or just chat. I won’t start music on my own; tell me what to play when you decide.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "relaxing": {
+        "topic": "rest",
+        "answer": "We could take a short break, listen to music or just chat. I won’t start music on my own; tell me what to play when you decide.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "not sure yet": {
+        "topic": "undecided",
+        "answer": "Let’s start simply: do you want to finish something or switch off and rest? That will help us choose a next step.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "what do you suggest": {
+        "topic": "undecided",
+        "answer": "Let’s start simply: do you want to finish something or switch off and rest? That will help us choose a next step.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "what else": {
+        "topic": "undecided",
+        "answer": "Let’s start simply: do you want to finish something or switch off and rest? That will help us choose a next step.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      }
+    },
+    "de": {
+      "arbeit": {
+        "topic": "work",
+        "answer": "Wählen wir eine Aufgabe und einen kleinen ersten Schritt. Was muss fertig werden? Ich ändere oder starte noch nichts.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "arbeiten": {
+        "topic": "work",
+        "answer": "Wählen wir eine Aufgabe und einen kleinen ersten Schritt. Was muss fertig werden? Ich ändere oder starte noch nichts.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "erholung": {
+        "topic": "rest",
+        "answer": "Eine kurze Pause, Musik oder ein Gespräch wären möglich. Ich starte Musik nicht von selbst; sag mir, was du hören möchtest.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "eine pause": {
+        "topic": "rest",
+        "answer": "Eine kurze Pause, Musik oder ein Gespräch wären möglich. Ich starte Musik nicht von selbst; sag mir, was du hören möchtest.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "weiß noch nicht": {
+        "topic": "undecided",
+        "answer": "Fangen wir einfach an: Möchtest du etwas erledigen oder abschalten? Danach wählen wir den nächsten Schritt.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "was schlägst du vor": {
+        "topic": "undecided",
+        "answer": "Fangen wir einfach an: Möchtest du etwas erledigen oder abschalten? Danach wählen wir den nächsten Schritt.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      }
+    },
+    "fr": {
+      "travail": {
+        "topic": "work",
+        "answer": "Choisissons une tâche et un petit premier pas. Que faut-il terminer ? Je ne modifie ni ne lance rien pour l’instant.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "travailler": {
+        "topic": "work",
+        "answer": "Choisissons une tâche et un petit premier pas. Que faut-il terminer ? Je ne modifie ni ne lance rien pour l’instant.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "détente": {
+        "topic": "rest",
+        "answer": "On peut faire une pause, écouter de la musique ou discuter. Je ne lance pas de musique tout seul ; dis-moi quoi mettre quand tu auras choisi.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "une pause": {
+        "topic": "rest",
+        "answer": "On peut faire une pause, écouter de la musique ou discuter. Je ne lance pas de musique tout seul ; dis-moi quoi mettre quand tu auras choisi.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "je ne sais pas encore": {
+        "topic": "undecided",
+        "answer": "Commençons simplement : tu veux terminer quelque chose ou te détendre ? Cela nous aidera à choisir la suite.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "que proposes-tu": {
+        "topic": "undecided",
+        "answer": "Commençons simplement : tu veux terminer quelque chose ou te détendre ? Cela nous aidera à choisir la suite.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      }
+    },
+    "es": {
+      "trabajo": {
+        "topic": "work",
+        "answer": "Elijamos una tarea y un primer paso pequeño. ¿Qué hay que terminar? Todavía no cambio ni inicio nada.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "trabajar": {
+        "topic": "work",
+        "answer": "Elijamos una tarea y un primer paso pequeño. ¿Qué hay que terminar? Todavía no cambio ni inicio nada.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "descanso": {
+        "topic": "rest",
+        "answer": "Podemos hacer una pausa, escuchar música o charlar. No iniciaré música por mi cuenta; dime qué poner cuando decidas.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "descansar": {
+        "topic": "rest",
+        "answer": "Podemos hacer una pausa, escuchar música o charlar. No iniciaré música por mi cuenta; dime qué poner cuando decidas.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "aún no lo sé": {
+        "topic": "undecided",
+        "answer": "Empecemos por algo sencillo: ¿quieres terminar algo o desconectar? Así elegimos el siguiente paso.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "qué propones": {
+        "topic": "undecided",
+        "answer": "Empecemos por algo sencillo: ¿quieres terminar algo o desconectar? Así elegimos el siguiente paso.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      }
+    },
+    "it": {
+      "lavoro": {
+        "topic": "work",
+        "answer": "Scegliamo un compito e un primo passo piccolo. Cosa devi finire? Non cambio né avvio nulla per ora.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "lavorare": {
+        "topic": "work",
+        "answer": "Scegliamo un compito e un primo passo piccolo. Cosa devi finire? Non cambio né avvio nulla per ora.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "riposo": {
+        "topic": "rest",
+        "answer": "Possiamo fare una pausa, ascoltare musica o chiacchierare. Non avvio musica da solo; dimmi cosa mettere quando hai deciso.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "una pausa": {
+        "topic": "rest",
+        "answer": "Possiamo fare una pausa, ascoltare musica o chiacchierare. Non avvio musica da solo; dimmi cosa mettere quando hai deciso.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "non so ancora": {
+        "topic": "undecided",
+        "answer": "Iniziamo da una cosa semplice: vuoi finire qualcosa o staccare? Questo ci aiuterà a scegliere il prossimo passo.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "cosa suggerisci": {
+        "topic": "undecided",
+        "answer": "Iniziamo da una cosa semplice: vuoi finire qualcosa o staccare? Questo ci aiuterà a scegliere il prossimo passo.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      }
+    },
+    "pt": {
+      "trabalho": {
+        "topic": "work",
+        "answer": "Vamos escolher uma tarefa e um pequeno primeiro passo. O que precisa de ficar pronto? Ainda não altero nem inicio nada.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "trabalhar": {
+        "topic": "work",
+        "answer": "Vamos escolher uma tarefa e um pequeno primeiro passo. O que precisa de ficar pronto? Ainda não altero nem inicio nada.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "descanso": {
+        "topic": "rest",
+        "answer": "Podemos fazer uma pausa, ouvir música ou conversar. Não inicio música sozinho; diz-me o que pôr quando decidires.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "descansar": {
+        "topic": "rest",
+        "answer": "Podemos fazer uma pausa, ouvir música ou conversar. Não inicio música sozinho; diz-me o que pôr quando decidires.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "ainda não sei": {
+        "topic": "undecided",
+        "answer": "Vamos começar pelo básico: queres terminar algo ou desligar e descansar? Assim escolhemos o próximo passo.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      },
+      "o que sugeres": {
+        "topic": "undecided",
+        "answer": "Vamos começar pelo básico: queres terminar algo ou desligar e descansar? Assim escolhemos o próximo passo.",
+        "requires": [
+          "activity153",
+          "plans153",
+          "company153",
+          "work",
+          "rest",
+          "undecided",
+          "conversation156"
+        ]
+      }
+    }
+  }
+}
