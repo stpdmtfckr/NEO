@@ -1,0 +1,105 @@
+{
+ "knowledge.ask": {
+  "ru": [
+   "что в моих документах про {query}",
+   "что в моих файлах про {query}",
+   "что написано в моих заметках про {query}",
+   "поищи в моих документах {query}",
+   "найди в моих документах {query}",
+   "что я писал про {query}"
+  ],
+  "en": [
+   "what do my documents say about {query}",
+   "what did I write about {query}",
+   "search my documents for {query}"
+  ],
+  "de": [
+   "was steht in meinen Dokumenten über {query}",
+   "was habe ich über {query} geschrieben"
+  ],
+  "fr": [
+   "que disent mes documents sur {query}",
+   "qu'ai-je écrit sur {query}"
+  ],
+  "es": [
+   "qué dicen mis documentos sobre {query}",
+   "qué escribí sobre {query}"
+  ],
+  "it": [
+   "cosa dicono i miei documenti su {query}",
+   "cosa ho scritto su {query}"
+  ],
+  "pt": [
+   "o que dizem os meus documentos sobre {query}",
+   "o que escrevi sobre {query}"
+  ]
+ },
+ "knowledge.add_folder": {
+  "ru": [
+   "ищи в папке {folder}",
+   "добавь папку {folder} в поиск",
+   "можешь искать в папке {folder}"
+  ],
+  "en": [
+   "add the folder {folder} to search"
+  ],
+  "de": [
+   "füge den Ordner {folder} zur Suche hinzu"
+  ],
+  "fr": [
+   "ajoute le dossier {folder} à la recherche"
+  ],
+  "es": [
+   "añade la carpeta {folder} a la búsqueda"
+  ],
+  "it": [
+   "aggiungi la cartella {folder} alla ricerca"
+  ],
+  "pt": [
+   "adiciona a pasta {folder} à pesquisa"
+  ]
+ },
+ "knowledge.remove_folder": {
+  "ru": [
+   "убери папку {folder} из поиска"
+  ],
+  "en": [
+   "remove the folder {folder} from search"
+  ],
+  "de": [
+   "entferne den Ordner {folder} aus der Suche"
+  ],
+  "fr": [],
+  "es": [
+   "quita la carpeta {folder} de la búsqueda"
+  ],
+  "it": [],
+  "pt": [
+   "tira a pasta {folder} da pesquisa"
+  ]
+ },
+ "knowledge.folders": {
+  "ru": [
+   "где ты ищешь мои файлы",
+   "какие папки ты индексируешь"
+  ],
+  "en": [
+   "which folders are indexed"
+  ],
+  "de": [
+   "welche Ordner sind indiziert"
+  ],
+  "fr": [
+   "quels dossiers sont indexés"
+  ],
+  "es": [
+   "qué carpetas están indexadas"
+  ],
+  "it": [
+   "quali cartelle sono indicizzate"
+  ],
+  "pt": [
+   "que pastas estão indexadas"
+  ]
+ }
+}
