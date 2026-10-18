@@ -1,0 +1,11 @@
+{
+  "scenario.run": {
+    "ru": [],
+    "en": [],
+    "de": [],
+    "fr": ["exécute le scénario {name}", "exécuter le scénario {name}"],
+    "es": [],
+    "it": ["esegui lo scenario {name}", "eseguire lo scenario {name}"],
+    "pt": []
+  }
+}
