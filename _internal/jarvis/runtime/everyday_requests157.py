@@ -1,0 +1,71 @@
+"""Native exact everyday requests; they never become general web questions."""
+from jarvis.runtime.natural_commands import LANGUAGES, norm, strip_request_shell, negated_action
+FORMS = {
+ 'memory_available': ('сколько свободной памяти|сколько свободно памяти|сколько осталось оперативной памяти|свободная оперативная память|сколько доступно оперативной памяти',
+          'how much memory is free|how much ram is available|available ram|free ram',
+          'wie viel arbeitsspeicher ist frei|wie viel ram ist verfügbar|freier arbeitsspeicher',
+          'combien de mémoire est disponible|combien de ram disponible|mémoire vive disponible',
+          'cuánta memoria queda libre|cuánta ram está disponible|memoria ram disponible',
+          'quanta memoria è libera|quanta ram è disponibile|memoria ram disponibile',
+          'quanta memória está livre|quanta ram está disponível|memória ram disponível'),
+ 'date': ('какая сегодня дата|какое сегодня число|какой сегодня день|дата сегодня|сегодняшняя дата',
+          "what is today's date|what date is it today|what day is it today|today's date|tell me the current date|tell now me the current date",
+          'welches datum ist heute|welcher tag ist heute|heutiges datum',
+          "quelle est la date aujourd'hui|quel jour sommes-nous|date du jour",
+          'qué fecha es hoy|qué día es hoy|fecha de hoy',
+          'che data è oggi|che giorno è oggi|data di oggi',
+          'qual é a data de hoje|que dia é hoje|data de hoje'),
+ 'time': ('сколько времени|который час|сколько сейчас времени|время сейчас',
+          'what time is it|what is the time|current time',
+          'wie spät ist es|wie viel uhr ist es|aktuelle uhrzeit',
+          'quelle heure est-il|quelle heure est il|heure actuelle',
+          'qué hora es|hora actual',
+          'che ore sono|che ora è|ora attuale',
+          'que horas são|qual é a hora|hora atual'),
+ 'desktop': ('открой рабочий стол|открой сейчас рабочий стол','open desktop|open now desktop|open the desktop folder','öffne den desktop|öffne bitte desktop|öffne jetzt desktop|öffne den desktopordner','ouvre bureau|ouvre maintenant bureau|ouvre le bureau|ouvre le dossier du bureau','abre escritorio|abre ahora escritorio|abre el escritorio','apri il desktop|apri adesso desktop|apri la cartella desktop','abra área de trabalho|abra agora área de trabalho|abre o ambiente de trabalho|abre a pasta do ambiente de trabalho'),
+ 'settings': ('открой настройки|настройки системы|открой системные настройки',
+          'open settings|system settings|open system settings',
+          'öffne die einstellungen|systemeinstellungen|öffne die systemeinstellungen',
+          'ouvre les paramètres|paramètres système|ouvre les paramètres système',
+          'abre los ajustes|ajustes del sistema|abre los ajustes del sistema',
+          'apri le impostazioni|impostazioni di sistema|apri le impostazioni di sistema',
+          'abre as definições|definições do sistema|abre as definições do sistema'),
+ 'tabs': ('вкладки|вкладки браузера|покажи открытые вкладки',
+          'tabs|browser tabs|show open tabs',
+          'tabs|browser tabs|zeige offene tabs',
+          'onglets|onglets du navigateur|montre les onglets ouverts',
+          'pestañas|pestañas del navegador|muestra las pestañas abiertas',
+          'schede|schede del browser|mostra le schede aperte',
+          'separadores|abas do navegador|mostra as abas abertas'),
+ 'louder': ('громче|погромче|сделай громче|прибавь общий звук',
+          'louder|turn it up|increase the system volume',
+          'lauter|mach es lauter|erhöhe die systemlautstärke',
+          'plus fort|augmente le volume général',
+          'más alto|sube el volumen general',
+          'più forte|alza il volume generale',
+          'mais alto|aumenta o volume geral'),
+ 'quieter': ('тише|потише|сделай тише|убавь общий звук',
+          'quieter|lower the system volume',
+          'leiser|senke die systemlautstärke',
+          'moins fort|baisse le volume général',
+          'más bajo|baja el volumen general',
+          'più piano|abbassa il volume generale',
+          'mais baixo|baixa o volume geral'),
+}
+TARGETS = {
+ 'memory_available': ('system_monitor',{'action':'memory'}),
+ 'date': ('date_info',{'action':'date_info','text':'today'}),
+ 'time': ('date_info',{'action':'date_info','text':'current_time'}),
+ 'settings': ('system',{'action':'open_settings'}),
+ 'desktop': ('desktop',{'action':'open','query':'Desktop','hint':'folder'}),
+ 'tabs': ('browser_advanced',{'action':'context'}),
+ 'louder': ('audio',{'action':'change_volume','value':10}),
+ 'quieter': ('audio',{'action':'change_volume','value':-10}),
+}
+def everyday_request157(text, code):
+    if code not in LANGUAGES or negated_action(text,code): return None
+    value=norm(strip_request_shell(text,code));i=LANGUAGES.index(code)
+    for key,rows in FORMS.items():
+        if value in {norm(x) for x in rows[i].split('|')}:
+            tool,args=TARGETS[key];return tool,dict(args)
+    return None
