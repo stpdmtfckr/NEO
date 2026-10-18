@@ -1,0 +1,137 @@
+{
+ "browser_nav.back": [
+  "Вернись на предыдущую страницу",
+  "Go back to the previous page",
+  "Geh zur vorherigen Seite zurück",
+  "Reviens à la page précédente",
+  "Vuelve a la página anterior",
+  "Torna alla pagina precedente",
+  "Volta à página anterior"
+ ],
+ "browser_nav.forward": [
+  "Перейди на следующую страницу вперёд",
+  "Go forward to the next page",
+  "Geh eine Seite vorwärts",
+  "Avance à la page suivante",
+  "Avanza a la página siguiente",
+  "Vai avanti alla pagina successiva",
+  "Avança para a página seguinte"
+ ],
+ "browser_nav.reload": [
+  "Обнови страницу",
+  "Reload the page",
+  "Lade die Seite neu",
+  "Actualise la page",
+  "Recarga la página",
+  "Ricarica la pagina",
+  "Atualiza a página"
+ ],
+ "browser_nav.stop": [
+  "Останови загрузку страницы",
+  "Stop loading the page",
+  "Stoppe das Laden der Seite",
+  "Arrête le chargement de la page",
+  "Detén la carga de la página",
+  "Interrompi il caricamento della pagina",
+  "Para o carregamento da página"
+ ],
+ "browser_nav.next_tab": [
+  "Переключись на следующую вкладку",
+  "Switch to the next tab",
+  "Wechsle zum nächsten Tab",
+  "Passe à l’onglet suivant",
+  "Cambia a la pestaña siguiente",
+  "Passa alla scheda successiva",
+  "Muda para o separador seguinte"
+ ],
+ "browser_nav.previous_tab": [
+  "Переключись на предыдущую вкладку",
+  "Switch to the previous tab",
+  "Wechsle zum vorherigen Tab",
+  "Passe à l’onglet précédent",
+  "Cambia a la pestaña anterior",
+  "Passa alla scheda precedente",
+  "Muda para o separador anterior"
+ ],
+ "browser_nav.find": [
+  "Найди на странице {text}",
+  "Find on the page {text}",
+  "Finde auf der Seite {text}",
+  "Cherche dans la page {text}",
+  "Busca en la página {text}",
+  "Cerca nella pagina {text}",
+  "Procura na página {text}"
+ ],
+ "browser_nav.find_next": [
+  "Перейди к следующему совпадению",
+  "Go to the next match",
+  "Geh zum nächsten Treffer",
+  "Va à l’occurrence suivante",
+  "Ve a la siguiente coincidencia",
+  "Vai all’occorrenza successiva",
+  "Vai para a ocorrência seguinte"
+ ],
+ "browser_nav.zoom_in": [
+  "Увеличь масштаб страницы",
+  "Zoom in the page",
+  "Vergrößere die Seite",
+  "Agrandis la page",
+  "Amplía la página",
+  "Ingrandisci la pagina",
+  "Aumenta o zoom da página"
+ ],
+ "browser_nav.zoom_out": [
+  "Уменьши масштаб страницы",
+  "Zoom out the page",
+  "Verkleinere die Seite",
+  "Réduis la page",
+  "Reduce la página",
+  "Riduci la pagina",
+  "Diminui o zoom da página"
+ ],
+ "browser_nav.zoom_reset": [
+  "Верни обычный масштаб страницы",
+  "Reset the page zoom",
+  "Setze den Seitenzoom zurück",
+  "Rétablis le zoom de la page",
+  "Restablece el zoom de la página",
+  "Ripristina lo zoom della pagina",
+  "Repõe o zoom da página"
+ ],
+ "browser_nav.address": [
+  "Перейди в адресную строку",
+  "Go to the address bar",
+  "Geh in die Adressleiste",
+  "Va dans la barre d’adresse",
+  "Ve a la barra de direcciones",
+  "Vai alla barra degli indirizzi",
+  "Vai para a barra de endereço"
+ ],
+ "browser_nav.open_url": [
+  "Открой в браузере адрес {text}",
+  "Open the address {text} in the browser",
+  "Öffne im Browser die Adresse {text}",
+  "Ouvre dans le navigateur l’adresse {text}",
+  "Abre en el navegador la dirección {text}",
+  "Apri nel browser l’indirizzo {text}",
+  "Abre no navegador o endereço {text}"
+ ],
+ "browser_nav.next_field": [
+  "Перейди к следующему полю",
+  "Go to the next field",
+  "Geh zum nächsten Feld",
+  "Va au champ suivant",
+  "Ve al campo siguiente",
+  "Vai al campo successivo",
+  "Vai para o campo seguinte"
+ ],
+ "browser_nav.previous_field": [
+  "Перейди к предыдущему полю",
+  "Go to the previous field",
+  "Geh zum vorherigen Feld",
+  "Va au champ précédent",
+  "Ve al campo anterior",
+  "Vai al campo precedente",
+  "Vai para o campo anterior"
+ ]
+}
