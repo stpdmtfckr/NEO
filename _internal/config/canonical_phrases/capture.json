@@ -1,0 +1,65 @@
+{
+ "capture.clip": [
+  "Сделай клип",
+  "Make a clip",
+  "Mach einen Clip",
+  "Fais un clip",
+  "Haz un clip",
+  "Fai una clip",
+  "Faz um clip"
+ ],
+ "capture.record_start": [
+  "Начни запись",
+  "Start recording",
+  "Starte die Aufnahme",
+  "Lance l’enregistrement",
+  "Inicia la grabación",
+  "Avvia la registrazione",
+  "Inicia a gravação"
+ ],
+ "capture.record_stop": [
+  "Останови запись",
+  "Stop recording",
+  "Stoppe die Aufnahme",
+  "Arrête l’enregistrement",
+  "Detén la grabación",
+  "Ferma la registrazione",
+  "Para a gravação"
+ ],
+ "capture.replay_on": [
+  "Включи мгновенный повтор",
+  "Turn on instant replay",
+  "Schalte Instant Replay ein",
+  "Active la relecture instantanée",
+  "Activa la repetición instantánea",
+  "Attiva il replay istantaneo",
+  "Liga a repetição instantânea"
+ ],
+ "capture.replay_off": [
+  "Выключи мгновенный повтор",
+  "Turn off instant replay",
+  "Schalte Instant Replay aus",
+  "Désactive la relecture instantanée",
+  "Desactiva la repetición instantánea",
+  "Disattiva il replay istantaneo",
+  "Desliga a repetição instantânea"
+ ],
+ "capture.replay_toggle": [
+  "Переключи мгновенный повтор",
+  "Toggle instant replay",
+  "Instant Replay umschalten",
+  "Bascule la relecture instantanée",
+  "Alterna la repetición instantánea",
+  "Alterna il replay istantaneo",
+  "Alterna a repetição instantânea"
+ ],
+ "capture.replay_status": [
+  "Включён ли мгновенный повтор?",
+  "Is instant replay on?",
+  "Ist Instant Replay an?",
+  "La relecture instantanée est-elle activée ?",
+  "¿Está activada la repetición instantánea?",
+  "Il replay istantaneo è attivo?",
+  "A repetição instantânea está ligada?"
+ ]
+}
