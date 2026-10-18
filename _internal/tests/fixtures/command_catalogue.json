@@ -1,0 +1,4280 @@
+{
+  "method": "static AST only; no project imports or execution; schema helper constructors reconstructed, not evaluated",
+  "scope": "all ToolDefinition calls in nine builtin registrar/domain modules, plus the desktop registrar",
+  "tool_count": 62,
+  "enumerated_action_count": 598,
+  "tools": [
+    {
+      "tool": "activity",
+      "plugin_owner": "desktop.services",
+      "source": "jarvis/tools/desktop_features.py",
+      "actions": [
+        "list",
+        "search",
+        "pause",
+        "resume",
+        "clear",
+        "export"
+      ],
+      "description": "activity",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "list",
+              "search",
+              "pause",
+              "resume",
+              "clear",
+              "export"
+            ]
+          },
+          "query": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "since": {
+            "type": "string"
+          },
+          "until": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string",
+            "enum": [
+              "today",
+              "yesterday",
+              "recent",
+              "all"
+            ]
+          },
+          "scope": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "risk_resolver": "lambda a: Risk.HIGH if a['action'] == 'clear' else Risk.SAFE",
+      "reachability": "declared registry contract; Windows end-to-end validation required"
+    },
+    {
+      "tool": "application",
+      "plugin_owner": "core.applications",
+      "source": "jarvis/tools/implementations.py",
+      "registration_line": 2956,
+      "handler": "application",
+      "handler_line": 2439,
+      "handler_end_line": 2953,
+      "risk_resolver": "application_risk",
+      "actions": [
+        "open",
+        "close",
+        "kill",
+        "list",
+        "list_active",
+        "find",
+        "info"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "open",
+              "close",
+              "kill",
+              "list",
+              "list_active",
+              "find",
+              "info"
+            ],
+            "description": "Операция"
+          },
+          "name": {
+            "type": "string",
+            "description": "Название приложения/игры, exe или точный путь к exe"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "app",
+              "game"
+            ],
+            "description": "Тип запускаемой цели"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Умный запуск приложений и игр, управление ими и список реальных пользовательских UI-окон (включая игры и окна Проводника); никогда не подменяет приложение похожей папкой или файлом.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "apps",
+      "plugin_owner": "core.unclassified",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1217,
+      "handler": "apps",
+      "handler_line": 1209,
+      "handler_end_line": 1215,
+      "risk_resolver": "lambda args: Risk.SAFE",
+      "actions": [
+        "folder",
+        "create_folder",
+        "settings",
+        "steam",
+        "discord",
+        "telegram",
+        "browser",
+        "chain"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "folder",
+              "create_folder",
+              "settings",
+              "steam",
+              "discord",
+              "telegram",
+              "browser",
+              "chain"
+            ],
+            "description": "Apps action"
+          },
+          "folder": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "page": {
+            "type": "string"
+          },
+          "query": {
+            "type": "string"
+          },
+          "username": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "key": {
+            "type": "string"
+          },
+          "steps": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Everyday programs through their own mechanisms: File Explorer folders, a new folder, Windows Settings pages, Steam pages and store search, Discord, Telegram settings or a chat by @username (a message is typed, never sent), browser history/downloads/bookmarks/private window/reopen tab; and a verified chain download → unpack → open.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "assistant_model",
+      "plugin_owner": "neo.assistant_model",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1335,
+      "handler": "assistant_model",
+      "handler_line": 1332,
+      "handler_end_line": 1333,
+      "risk_resolver": "lambda args: Risk.MEDIUM if str(args.get('action', '')) in {'train', 'rollback', 'install'} else Risk.SAFE",
+      "actions": [
+        "status",
+        "install",
+        "train",
+        "stop",
+        "rollback"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "install",
+              "train",
+              "stop",
+              "rollback"
+            ],
+            "description": "Assistant model action"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "The small NEO assistant model (Qwen2.5 via Ollama): show its status and fine-tuning progress, install it, fine-tune it locally on NEO's commands (background, paused while the user works; used only if better), stop fine-tuning, roll back to the previous version.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "audio",
+      "plugin_owner": "integrations.media",
+      "source": "jarvis/tools/domains/audio.py",
+      "registration_line": 555,
+      "handler": "audio",
+      "handler_line": 242,
+      "handler_end_line": 552,
+      "risk_resolver": "audio_risk",
+      "actions": [
+        "set_volume",
+        "change_volume",
+        "change_target_volume",
+        "mute",
+        "list_sessions",
+        "list_devices",
+        "set_default",
+        "set_input_mute",
+        "get_input_volume",
+        "set_input_volume",
+        "route_app_device",
+        "mute_target",
+        "mute_except",
+        "duck_system",
+        "restore_ducking"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "set_volume",
+              "change_volume",
+              "change_target_volume",
+              "mute",
+              "list_sessions",
+              "list_devices",
+              "set_default",
+              "set_input_mute",
+              "get_input_volume",
+              "set_input_volume",
+              "route_app_device",
+              "mute_target",
+              "mute_except",
+              "duck_system",
+              "restore_ducking"
+            ],
+            "description": "Операция"
+          },
+          "value": {
+            "type": "number",
+            "description": "Процент или изменение в процентах"
+          },
+          "muted": {
+            "type": "boolean"
+          },
+          "device_name": {
+            "type": "string"
+          },
+          "device_id": {
+            "type": "string",
+            "description": "Стабильный Windows endpoint ID для точного выбора микрофона или устройства вывода"
+          },
+          "device_type": {
+            "type": "string",
+            "enum": [
+              "input",
+              "output"
+            ],
+            "description": "Тип аудиоустройства"
+          },
+          "target": {
+            "type": "string",
+            "description": "Необязательная цель: browser/YouTube/VK/Яндекс Музыка или имя приложения. Для браузера меняется громкость только соответствующего browser.exe/chrome.exe и т.п."
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Управление общей и per-app громкостью Windows, mute, микрофоном, устройствами, default endpoint и capability-aware маршрутизацией приложения через штатный Volume mixer.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "autoclicker",
+      "plugin_owner": "desktop.input",
+      "source": "jarvis/tools/domains/system_interaction.py",
+      "registration_line": 560,
+      "handler": "autoclicker",
+      "handler_line": 543,
+      "handler_end_line": 558,
+      "risk_resolver": "lambda args: Risk.MEDIUM if str(args.get('action', '')) not in {'status'} else Risk.SAFE",
+      "actions": [
+        "start",
+        "stop",
+        "toggle",
+        "configure",
+        "set_rate",
+        "set_button",
+        "status"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "start",
+              "stop",
+              "toggle",
+              "configure",
+              "set_rate",
+              "set_button",
+              "status"
+            ],
+            "description": "Операция"
+          },
+          "cps": {
+            "type": "number",
+            "minimum": 0.5,
+            "maximum": 100.0,
+            "description": "Кликов в секунду"
+          },
+          "button": {
+            "type": "string",
+            "enum": [
+              "left",
+              "right",
+              "middle"
+            ],
+            "description": "Кнопка мыши"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Автокликер Windows: включить/выключить, изменить скорость кликов и выбрать левую, правую или среднюю кнопку мыши.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "automation",
+      "plugin_owner": "automation.local",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 161,
+      "handler": "automation",
+      "handler_line": 82,
+      "handler_end_line": 159,
+      "risk_resolver": "lambda args: Risk.SAFE if args.get('action') == 'cancel' else Risk.MEDIUM",
+      "actions": [
+        "cancel",
+        "queue",
+        "parallel"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "cancel",
+              "queue",
+              "parallel"
+            ],
+            "description": "Операция"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "calls": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tool": {
+                  "type": "string"
+                },
+                "arguments": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "tool",
+                "arguments"
+              ]
+            }
+          },
+          "stop_on_error": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Управление длинными операциями: немедленная отмена, очередь команд и безопасные параллельные действия.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "briefing",
+      "plugin_owner": "productivity.briefing",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1078,
+      "handler": "briefing",
+      "handler_line": 902,
+      "handler_end_line": 1076,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "summary",
+        "startup_summary"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "summary",
+              "startup_summary"
+            ],
+            "description": "Briefing action"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Configurable multilingual daily briefing from local and enabled integration status.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "browser",
+      "plugin_owner": "integrations.browser",
+      "source": "jarvis/tools/domains/browser_media.py",
+      "registration_line": 175,
+      "handler": "browser",
+      "handler_line": 98,
+      "handler_end_line": 172,
+      "risk_resolver": "lambda args: Risk.CRITICAL if str(args.get('action', '')).casefold() == 'full_cleanup' else Risk.HIGH if str(args.get('action', '')).casefold() == 'clear_history' else Risk.SAFE",
+      "actions": [
+        "open_url",
+        "open",
+        "search",
+        "search_first",
+        "activate_tab",
+        "activate_tab_title",
+        "close_tab",
+        "new_tab",
+        "list_browsers",
+        "clear_history",
+        "full_cleanup"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "open_url",
+              "open",
+              "search",
+              "search_first",
+              "activate_tab",
+              "activate_tab_title",
+              "close_tab",
+              "new_tab",
+              "list_browsers",
+              "clear_history",
+              "full_cleanup"
+            ],
+            "description": "Операция"
+          },
+          "value": {
+            "type": "string",
+            "description": "URL или поисковая фраза"
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "description": "Номер вкладки слева направо, начиная с 1"
+          },
+          "browser": {
+            "type": "string",
+            "description": "Необязательный браузер: Mozilla/Firefox, Chrome, Opera и т.п."
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Открытие URL/поиска и управление вкладками. Для уже открытых вкладок без явно названного браузера используется активное/доступное окно браузера; настройка preferred_browser применяется только при запуске нового браузера/URL.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "browser_advanced",
+      "plugin_owner": "web.search",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 928,
+      "handler": "browser_advanced",
+      "handler_line": 882,
+      "handler_end_line": 926,
+      "risk_resolver": "lambda args: Risk.MEDIUM if args.get('action') in {'close_others', 'move_to_new_window'} else Risk.SAFE",
+      "actions": [
+        "context",
+        "activate_by_topic",
+        "close_others",
+        "restore_closed",
+        "pin_current",
+        "move_to_new_window",
+        "group_by_topic"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "context",
+              "activate_by_topic",
+              "close_others",
+              "restore_closed",
+              "pin_current",
+              "move_to_new_window",
+              "group_by_topic"
+            ],
+            "description": "Операция"
+          },
+          "query": {
+            "type": "string"
+          },
+          "browser": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Контекст вкладок и расширенные операции: вкладка по теме, закрыть остальные, закрепить, восстановить закрытую, перенести в новое окно. Ненадёжные UI действия завершаются безопасной ошибкой.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "browser_nav",
+      "plugin_owner": "computer.control",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1177,
+      "handler": "browser_nav",
+      "handler_line": 1174,
+      "handler_end_line": 1175,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "back",
+        "forward",
+        "reload",
+        "stop",
+        "next_tab",
+        "previous_tab",
+        "find",
+        "find_next",
+        "zoom_in",
+        "zoom_out",
+        "zoom_reset",
+        "address",
+        "open_url",
+        "next_field",
+        "previous_field"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "back",
+              "forward",
+              "reload",
+              "stop",
+              "next_tab",
+              "previous_tab",
+              "find",
+              "find_next",
+              "zoom_in",
+              "zoom_out",
+              "zoom_reset",
+              "address",
+              "open_url",
+              "next_field",
+              "previous_field"
+            ],
+            "description": "Browser navigation action"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Browser page navigation: back, forward, reload, stop loading, next/previous tab, find on page, next match, zoom, address bar, open an address, next/previous form field.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "capture",
+      "plugin_owner": "capture.nvidia",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1345,
+      "handler": "capture",
+      "handler_line": 1091,
+      "handler_end_line": 1097,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "clip",
+        "record_start",
+        "record_stop",
+        "replay_on",
+        "replay_off",
+        "replay_toggle",
+        "replay_status"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "clip",
+              "record_start",
+              "record_stop",
+              "replay_on",
+              "replay_off",
+              "replay_toggle",
+              "replay_status"
+            ],
+            "description": "Capture action"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "NVIDIA overlay capture: save an Instant Replay clip (last minutes), start or stop a recording, report where the video was saved; turn NVIDIA Instant Replay on or off, toggle it, or report whether it is on.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "chance",
+      "plugin_owner": "utility.chance",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 552,
+      "handler": "chance",
+      "handler_line": 535,
+      "handler_end_line": 550,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "roll_die",
+        "flip_coin"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "roll_die",
+              "flip_coin"
+            ],
+            "description": "Random action"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Roll one six-sided die or toss a virtual coin, locally.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "clipboard",
+      "plugin_owner": "clipboard.editing",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 277,
+      "handler": "clipboard",
+      "handler_line": 244,
+      "handler_end_line": 275,
+      "risk_resolver": "lambda args: Risk.MEDIUM if args.get('action') in {'set', 'clear', 'paste_history'} else Risk.SAFE",
+      "actions": [
+        "current",
+        "list",
+        "set",
+        "clear",
+        "paste_history",
+        "copy_history",
+        "copy_page_url"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "current",
+              "list",
+              "set",
+              "clear",
+              "paste_history",
+              "copy_history",
+              "copy_page_url"
+            ],
+            "description": "Операция"
+          },
+          "text": {
+            "type": "string"
+          },
+          "offset": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 49
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "История буфера обмена: текущий текст, предыдущие элементы, вставка N-го предыдущего элемента, очистка и копирование URL страницы.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "copy",
+      "plugin_owner": "computer.control",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1193,
+      "handler": "copy",
+      "handler_line": 1190,
+      "handler_end_line": 1191,
+      "risk_resolver": "lambda args: Risk.HIGH if str(args.get('action', '')) == 'paste_file' else Risk.MEDIUM if str(args.get('action', '')).startswith('paste') else Risk.SAFE",
+      "actions": [
+        "reply",
+        "previous_reply",
+        "selection",
+        "page",
+        "file_text",
+        "file",
+        "folder",
+        "url",
+        "link",
+        "screenshot",
+        "window_screenshot",
+        "last_screenshot",
+        "paste",
+        "paste_window",
+        "paste_field",
+        "paste_line",
+        "paste_end",
+        "paste_file",
+        "paste_folder",
+        "what",
+        "paste_reply"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "reply",
+              "previous_reply",
+              "selection",
+              "page",
+              "file_text",
+              "file",
+              "folder",
+              "url",
+              "link",
+              "screenshot",
+              "window_screenshot",
+              "last_screenshot",
+              "paste",
+              "paste_window",
+              "paste_field",
+              "paste_line",
+              "paste_end",
+              "paste_file",
+              "paste_folder",
+              "what",
+              "paste_reply"
+            ],
+            "description": "Copy/paste action"
+          },
+          "name": {
+            "type": "string"
+          },
+          "index": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Copy and paste: NEO's last answer, the selection, all page text, a file's text, files/folders, the page address, the N-th link, screenshots; paste into the active window, a named window/field, a line, the end, a text file or a folder; tell what is on the clipboard.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "date_info",
+      "plugin_owner": "productivity.date",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 561,
+      "handler": "date_info",
+      "handler_line": 558,
+      "handler_end_line": 559,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "date_info"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "date_info"
+            ],
+            "description": "Date query"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Offline date arithmetic, weekday and public-holiday questions.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "desktop",
+      "plugin_owner": "core.applications",
+      "source": "jarvis/tools/implementations.py",
+      "registration_line": 3082,
+      "handler": "desktop",
+      "handler_line": 2973,
+      "handler_end_line": 3079,
+      "risk_resolver": "lambda args: Risk.MEDIUM if args.get('action') == 'close_folder' else Risk.SAFE",
+      "actions": [
+        "resolve",
+        "open",
+        "close_folder"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "resolve",
+              "open",
+              "close_folder"
+            ],
+            "description": "Операция"
+          },
+          "query": {
+            "type": "string",
+            "description": "Обычное название цели"
+          },
+          "hint": {
+            "type": "string",
+            "enum": [
+              "auto",
+              "app",
+              "game",
+              "folder",
+              "file",
+              "web"
+            ],
+            "description": "Предполагаемый тип цели"
+          }
+        },
+        "required": [
+          "action",
+          "query"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Найти или открыть цель по человеческому названию без точного пути: приложение, ярлык, пользовательскую папку/файл или известный сайт. Особенно полезно для слов 'папка Important', 'Яндекс Музыка', 'страница ВКонтакте'.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "desktop_features",
+      "plugin_owner": "desktop.services",
+      "source": "jarvis/tools/desktop_features.py",
+      "actions": [
+        "settings"
+      ],
+      "description": "desktop_features",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "settings"
+            ]
+          },
+          "section": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "risk_resolver": "lambda a: Risk.SAFE",
+      "reachability": "declared registry contract; Windows end-to-end validation required"
+    },
+    {
+      "tool": "developer",
+      "plugin_owner": "developer.tools",
+      "source": "jarvis/tools/domains/support.py",
+      "registration_line": 161,
+      "handler": "developer",
+      "handler_line": 145,
+      "handler_end_line": 158,
+      "risk_resolver": "developer_risk",
+      "actions": [
+        "generate_python_app",
+        "run_python_file"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "generate_python_app",
+              "run_python_file"
+            ],
+            "description": "Операция"
+          },
+          "output_dir": {
+            "type": "string"
+          },
+          "project_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "file_path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Создание небольшого Python-приложения в указанной папке или запуск конкретного Python-файла. Всегда требует подтверждения.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "diagnostics",
+      "plugin_owner": "system.hardware",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 1101,
+      "handler": "diagnostics",
+      "handler_line": 1085,
+      "handler_end_line": 1099,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "self_test",
+        "latency",
+        "plugins",
+        "objects"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "self_test",
+              "latency",
+              "plugins",
+              "objects"
+            ],
+            "description": "Операция"
+          },
+          "quick": {
+            "type": "boolean"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 300
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Self-Test без движения мыши, latency profiler, список plugins и текущая модель объектов рабочего стола.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "discord",
+      "plugin_owner": "integrations.discord",
+      "source": "jarvis/tools/domains/browser_media.py",
+      "registration_line": 715,
+      "handler": "discord_tool",
+      "handler_line": 516,
+      "handler_end_line": 712,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "send_message",
+        "user_account_automation_unavailable",
+        "music_bot_play",
+        "music_youtube_url",
+        "music_my_tracks",
+        "music_my_wave",
+        "music_playlist",
+        "music_queue_next",
+        "music_queue_add",
+        "music_queue_status",
+        "music_queue_clear",
+        "music_shuffle_on",
+        "music_shuffle_off",
+        "music_repeat_track",
+        "music_repeat_playlist",
+        "music_repeat_off",
+        "music_like",
+        "music_dislike",
+        "music_skip",
+        "music_previous",
+        "music_set_volume",
+        "music_volume_up",
+        "music_volume_down",
+        "music_pause",
+        "music_resume",
+        "music_stop",
+        "bot_join_voice",
+        "bot_leave_voice",
+        "list_channels",
+        "connect_channel",
+        "attach_text_channel",
+        "detach_text_channel",
+        "text_channel_status",
+        "background_status"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "send_message",
+              "user_account_automation_unavailable",
+              "music_bot_play",
+              "music_youtube_url",
+              "music_my_tracks",
+              "music_my_wave",
+              "music_playlist",
+              "music_queue_next",
+              "music_queue_add",
+              "music_queue_status",
+              "music_queue_clear",
+              "music_shuffle_on",
+              "music_shuffle_off",
+              "music_repeat_track",
+              "music_repeat_playlist",
+              "music_repeat_off",
+              "music_like",
+              "music_dislike",
+              "music_skip",
+              "music_previous",
+              "music_set_volume",
+              "music_volume_up",
+              "music_volume_down",
+              "music_pause",
+              "music_resume",
+              "music_stop",
+              "bot_join_voice",
+              "bot_leave_voice",
+              "list_channels",
+              "connect_channel",
+              "attach_text_channel",
+              "detach_text_channel",
+              "text_channel_status",
+              "background_status"
+            ],
+            "description": "Операция официального Discord Bot"
+          },
+          "server": {
+            "type": "string",
+            "description": "Название сервера; можно оставить пустым для настроенного сервера по умолчанию"
+          },
+          "channel": {
+            "type": "string",
+            "description": "Название текстового или голосового канала"
+          },
+          "text": {
+            "type": "string",
+            "description": "Текст сообщения, который пользователь явно попросил отправить"
+          },
+          "query": {
+            "type": "string",
+            "description": "Песня/запрос для NEO Bot или очереди Discord"
+          },
+          "playlist": {
+            "type": "string",
+            "description": "Название плейлиста Яндекс Музыки для воспроизведения через Discord"
+          },
+          "requester": {
+            "type": "string",
+            "description": "Необязательный идентификатор пользователя, добавившего элемент в общую очередь"
+          },
+          "next_up": {
+            "type": "boolean",
+            "description": "Добавить трек следующим в общей очереди Discord"
+          },
+          "play_now": {
+            "type": "boolean",
+            "description": "Начать воспроизведение сразу; используется для прямой YouTube-ссылки"
+          },
+          "volume": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Громкость Discord Music"
+          },
+          "step": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50,
+            "description": "Шаг громкости Discord Music"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Discord: ТОЛЬКО официальный фоновый NEO Bot/API без foreground, мыши и клавиатуры: сообщения, voice music, очередь, pause/resume/skip/stop. Desktop Quick Switcher/UI Automation и user-token/self-bot отключены.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "downloads",
+      "plugin_owner": "desktop.services",
+      "source": "jarvis/tools/desktop_features.py",
+      "actions": [
+        "list",
+        "status"
+      ],
+      "description": "downloads",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "list",
+              "status"
+            ]
+          },
+          "limit": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "risk_resolver": "lambda a: Risk.SAFE",
+      "reachability": "declared registry contract; Windows end-to-end validation required"
+    },
+    {
+      "tool": "email",
+      "plugin_owner": "email.local",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 608,
+      "handler": "email",
+      "handler_line": 439,
+      "handler_end_line": 606,
+      "risk_resolver": "lambda args: Risk.MEDIUM if args.get('action') in {'send', 'reply', 'mark_read'} else Risk.SAFE",
+      "actions": [
+        "providers",
+        "folders",
+        "open_inbox",
+        "status",
+        "unread",
+        "unread_list",
+        "unread_today",
+        "unread_today_list",
+        "unread_recent24h",
+        "unread_recent24h_list",
+        "recent24h",
+        "recent24h_list",
+        "today",
+        "today_list",
+        "total",
+        "latest",
+        "search",
+        "read",
+        "mark_read",
+        "draft",
+        "send",
+        "reply"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "providers",
+              "folders",
+              "open_inbox",
+              "status",
+              "unread",
+              "unread_list",
+              "unread_today",
+              "unread_today_list",
+              "unread_recent24h",
+              "unread_recent24h_list",
+              "recent24h",
+              "recent24h_list",
+              "today",
+              "today_list",
+              "total",
+              "latest",
+              "search",
+              "read",
+              "mark_read",
+              "draft",
+              "send",
+              "reply"
+            ],
+            "description": "Операция"
+          },
+          "provider": {
+            "type": "string",
+            "enum": [
+              "auto",
+              "gmail",
+              "mailru"
+            ],
+            "description": "Почтовый сервис"
+          },
+          "folder": {
+            "type": "string",
+            "description": "Необязательная конкретная папка/ярлык"
+          },
+          "detail": {
+            "type": "string",
+            "enum": [
+              "count_only",
+              "sender",
+              "sender_subject",
+              "sender_preview",
+              "sender_subject_preview"
+            ],
+            "description": "Необязательное явное переопределение формата"
+          },
+          "sender": {
+            "type": "string"
+          },
+          "query": {
+            "type": "string"
+          },
+          "message_id": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 25
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Полная почтовая интеграция Gmail и Mail.ru. Generic read-only запросы агрегируют все включённые почтовые сервисы; явное Gmail/Mail.ru ограничивает запрос одним сервисом. Поддерживает выбранные папки/labels, сегодня, 24 часа, всё время, непрочитанные, поиск, чтение, отправку и ответы.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "filesystem",
+      "plugin_owner": "core.files",
+      "source": "jarvis/tools/implementations.py",
+      "registration_line": 1495,
+      "handler": "filesystem",
+      "handler_line": 911,
+      "handler_end_line": 1492,
+      "risk_resolver": "filesystem_risk",
+      "actions": [
+        "open",
+        "list",
+        "find",
+        "create_folder",
+        "copy",
+        "move",
+        "rename",
+        "delete",
+        "delete_permanent",
+        "read_text",
+        "write_text",
+        "replace_text",
+        "create_text_file",
+        "create_file",
+        "append_text",
+        "insert_text",
+        "search_text",
+        "exists",
+        "info",
+        "zip",
+        "unzip",
+        "list_drives",
+        "disk_usage",
+        "tree",
+        "hash",
+        "undo_last_change",
+        "reveal"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "open",
+              "list",
+              "find",
+              "create_folder",
+              "copy",
+              "move",
+              "rename",
+              "delete",
+              "delete_permanent",
+              "read_text",
+              "write_text",
+              "replace_text",
+              "create_text_file",
+              "create_file",
+              "append_text",
+              "insert_text",
+              "search_text",
+              "exists",
+              "info",
+              "zip",
+              "unzip",
+              "list_drives",
+              "disk_usage",
+              "tree",
+              "hash",
+              "undo_last_change",
+              "reveal"
+            ],
+            "description": "Операция"
+          },
+          "source": {
+            "type": "string",
+            "description": "Исходный путь или папка"
+          },
+          "destination": {
+            "type": "string",
+            "description": "Путь назначения"
+          },
+          "new_name": {
+            "type": "string"
+          },
+          "folder": {
+            "type": "string",
+            "description": "Папка по пути или обычному названию"
+          },
+          "name": {
+            "type": "string",
+            "description": "Имя создаваемого файла"
+          },
+          "query": {
+            "type": "string",
+            "description": "Имя или маска поиска"
+          },
+          "recursive": {
+            "type": "boolean",
+            "default": true
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500
+          },
+          "content": {
+            "type": "string"
+          },
+          "old_text": {
+            "type": "string",
+            "description": "Точный фрагмент, который нужно заменить"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "append": {
+            "type": "boolean",
+            "default": false
+          },
+          "encoding": {
+            "type": "string",
+            "default": "utf-8"
+          },
+          "max_chars": {
+            "type": "integer"
+          },
+          "line": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "before_text": {
+            "type": "string"
+          },
+          "after_text": {
+            "type": "string"
+          },
+          "case_sensitive": {
+            "type": "boolean",
+            "default": false
+          },
+          "depth": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 8,
+            "description": "Глубина дерева папки"
+          },
+          "algorithm": {
+            "type": "string",
+            "enum": [
+              "sha256",
+              "sha1",
+              "md5"
+            ],
+            "description": "Алгоритм хеша файла"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Полное голосовое управление пользовательскими файлами, папками, архивами и дисками Windows: открыть/найти/прочитать/создать/изменить/скопировать/переместить/переименовать/отправить в Корзину, дерево папки, хеш, ZIP, поиск текста и сведения о дисках. Диск является источником истины: после изменения результат перечитывается и проверяется; системные пути и безвозвратное удаление защищены.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "game",
+      "plugin_owner": "gaming.runtime",
+      "source": "jarvis/tools/implementations.py",
+      "registration_line": 3426,
+      "handler": "game",
+      "handler_line": 3355,
+      "handler_end_line": 3423,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "status",
+        "state",
+        "session_info",
+        "show_session"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "state",
+              "session_info",
+              "show_session"
+            ],
+            "description": "Операция"
+          },
+          "game_id": {
+            "type": "string",
+            "description": "ID игры; обычно определяется автоматически"
+          },
+          "game_name": {
+            "type": "string",
+            "description": "Отображаемое имя игры"
+          },
+          "panel_name": {
+            "type": "string",
+            "description": "Имя панели сессии"
+          },
+          "monitor": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16,
+            "description": "Монитор для панели сессии"
+          },
+          "position": {
+            "type": "string",
+            "enum": [
+              "top_left",
+              "top_center",
+              "top_right",
+              "center_left",
+              "center",
+              "center_right",
+              "bottom_left",
+              "bottom_center",
+              "bottom_right"
+            ],
+            "description": "Позиция overlay"
+          },
+          "offset_x": {
+            "type": "integer",
+            "minimum": -5000,
+            "maximum": 5000
+          },
+          "offset_y": {
+            "type": "integer",
+            "minimum": -5000,
+            "maximum": 5000
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Универсальный игровой трекер NEO: определить запущенную игру и показать текущую сессию. Не читает память процесса и не получает скрытые игровые данные.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "game_locations",
+      "plugin_owner": "desktop.services",
+      "source": "jarvis/tools/desktop_features.py",
+      "actions": [
+        "find",
+        "query",
+        "open"
+      ],
+      "description": "game_locations",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "find",
+              "query",
+              "open"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "risk_resolver": "lambda a: Risk.MEDIUM if a['action'] == 'open' else Risk.SAFE",
+      "reachability": "declared registry contract; Windows end-to-end validation required"
+    },
+    {
+      "tool": "google_calendar",
+      "plugin_owner": "integrations.google_calendar",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 820,
+      "handler": "google_calendar",
+      "handler_line": 759,
+      "handler_end_line": 818,
+      "risk_resolver": "lambda args: Risk.MEDIUM if str(args.get('action', '')).casefold() in {'add', 'update', 'delete'} else Risk.SAFE",
+      "actions": [
+        "status",
+        "today",
+        "tomorrow",
+        "upcoming",
+        "list",
+        "all",
+        "next",
+        "add",
+        "update",
+        "delete"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "today",
+              "tomorrow",
+              "upcoming",
+              "list",
+              "all",
+              "next",
+              "add",
+              "update",
+              "delete"
+            ],
+            "description": "Calendar action"
+          },
+          "title": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "time": {
+            "type": "string"
+          },
+          "duration_minutes": {
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 1440
+          },
+          "description": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "query": {
+            "type": "string"
+          },
+          "event_id": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 31
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Official Google Calendar: list schedule, show next event and add/update/delete events.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "hardware",
+      "plugin_owner": "system.hardware",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 208,
+      "handler": "hardware",
+      "handler_line": 170,
+      "handler_end_line": 206,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "status"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status"
+            ],
+            "description": "Операция"
+          },
+          "target": {
+            "type": "string",
+            "enum": [
+              "all",
+              "cpu",
+              "gpu",
+              "ram"
+            ],
+            "description": "Цель"
+          },
+          "samples": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Локальный мониторинг CPU/GPU/RAM/VRAM: текущие и усреднённые нагрузка, частоты, температура и потребление при наличии источника.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "history",
+      "plugin_owner": "history.local",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 694,
+      "handler": "history",
+      "handler_line": 679,
+      "handler_end_line": 692,
+      "risk_resolver": "lambda args: Risk.MEDIUM if args.get('action') == 'undo' else Risk.SAFE",
+      "actions": [
+        "recent",
+        "undo"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "recent",
+              "undo"
+            ],
+            "description": "Операция"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "История действий NEO и Undo. Для новых окон/вкладок использует reversible stack, для файлов — существующие backup/undo.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "input_control",
+      "plugin_owner": "core.applications",
+      "source": "jarvis/tools/domains/system_interaction.py",
+      "registration_line": 1173,
+      "handler": "input_control",
+      "handler_line": 1045,
+      "handler_end_line": 1170,
+      "risk_resolver": "input_risk",
+      "actions": [
+        "type_text",
+        "hotkey",
+        "click",
+        "click_control",
+        "focus_control",
+        "set_control_text",
+        "list_controls"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "type_text",
+              "hotkey",
+              "click",
+              "click_control",
+              "focus_control",
+              "set_control_text",
+              "list_controls"
+            ],
+            "description": "Операция"
+          },
+          "text": {
+            "type": "string"
+          },
+          "interval": {
+            "type": "number"
+          },
+          "keys": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "x": {
+            "type": "integer"
+          },
+          "y": {
+            "type": "integer"
+          },
+          "button": {
+            "type": "string",
+            "enum": [
+              "left",
+              "right",
+              "middle"
+            ],
+            "description": "Кнопка мыши"
+          },
+          "name": {
+            "type": "string",
+            "description": "Имя/подпись элемента в активном окне, например Сохранить, Поиск, Отправить"
+          },
+          "control_type": {
+            "type": "string",
+            "description": "Необязательная роль: Button/кнопка, Edit/поле, CheckBox, MenuItem, TabItem, ComboBox и т.п."
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Универсальное управление активным Windows-приложением без мыши: найти и нажать доступный элемент по имени/роли через UI Automation, выбрать поле, ввести в него текст, перечислить элементы, а также отправить горячую клавишу или точный клик.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "jarvis",
+      "plugin_owner": "core.unclassified",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 644,
+      "handler": "jarvis_control",
+      "handler_line": 629,
+      "handler_end_line": 642,
+      "risk_resolver": "lambda args: Risk.CRITICAL if str(args.get('action', '')).casefold() == 'shutdown' else Risk.SAFE",
+      "actions": [
+        "status",
+        "shutdown"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "shutdown"
+            ],
+            "description": "Операция"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Управление самим процессом NEO: состояние и полное завершение ассистента.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "knowledge",
+      "plugin_owner": "knowledge.local",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1281,
+      "handler": "knowledge",
+      "handler_line": 1278,
+      "handler_end_line": 1279,
+      "risk_resolver": "lambda args: Risk.MEDIUM if str(args.get('action', '')) in {'add_folder', 'remove_folder'} else Risk.SAFE",
+      "actions": [
+        "ask",
+        "add_folder",
+        "remove_folder",
+        "folders",
+        "reindex",
+        "ask_file",
+        "compare",
+        "show_source",
+        "open_source",
+        "reveal_source"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "ask",
+              "add_folder",
+              "remove_folder",
+              "folders",
+              "reindex",
+              "ask_file",
+              "compare",
+              "show_source",
+              "open_source",
+              "reveal_source"
+            ],
+            "description": "Knowledge action"
+          },
+          "query": {
+            "type": "string"
+          },
+          "folder": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "file_a": {
+            "type": "string"
+          },
+          "file_b": {
+            "type": "string"
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Search the user's own files in the folders they explicitly allowed and answer with file and page/section citations; add or remove an allowed folder; list folders; update the index.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "match",
+      "plugin_owner": "gaming.match_ready",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1113,
+      "handler": "match",
+      "handler_line": 1102,
+      "handler_end_line": 1111,
+      "risk_resolver": "lambda args: Risk.SAFE",
+      "actions": [
+        "accept",
+        "arm",
+        "disarm",
+        "status"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "accept",
+              "arm",
+              "disarm",
+              "status"
+            ],
+            "description": "Match action"
+          },
+          "minutes": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 240
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Found game match: accept it now (clicks the game's Accept button or uses the League client API), accept automatically when the next match is found, turn auto-accept off, or report status.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "media",
+      "plugin_owner": "integrations.media",
+      "source": "jarvis/tools/domains/browser_media.py",
+      "registration_line": 860,
+      "handler": "media",
+      "handler_line": 780,
+      "handler_end_line": 856,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "status",
+        "play_search",
+        "play_pause",
+        "play",
+        "pause",
+        "stop",
+        "seek_forward",
+        "seek_backward",
+        "seek_to",
+        "fullscreen",
+        "theater",
+        "next",
+        "previous"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "play_search",
+              "play_pause",
+              "play",
+              "pause",
+              "stop",
+              "seek_forward",
+              "seek_backward",
+              "seek_to",
+              "fullscreen",
+              "theater",
+              "next",
+              "previous"
+            ],
+            "description": "Операция YouTube; next/previous — другое видео, а не перемотка"
+          },
+          "query": {
+            "type": "string",
+            "description": "Название видео или YouTube URL для play_search"
+          },
+          "title": {
+            "type": "string",
+            "description": "Название видео для поиска"
+          },
+          "author": {
+            "type": "string",
+            "description": "Необязательный автор/канал для поиска"
+          },
+          "local_audio": {
+            "type": "boolean",
+            "description": "Явный запрос аудио по прямой ссылке YouTube в управляемом локальном плеере. Обычное видео остаётся в браузере."
+          },
+          "queue": {
+            "type": "boolean",
+            "description": "Добавить в локальную аудиоочередь; требует local_audio=true."
+          },
+          "next_up": {
+            "type": "boolean",
+            "description": "Добавить следующим в локальную аудиоочередь; требует local_audio=true и queue=true."
+          },
+          "seconds": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 86400,
+            "description": "Секунды для относительной перемотки или служебное значение"
+          },
+          "position_seconds": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 86400,
+            "description": "Абсолютная позиция видео в секундах"
+          },
+          "target": {
+            "type": "string",
+            "description": "Только video/YouTube."
+          },
+          "browser": {
+            "type": "string",
+            "description": "Необязательный ЯВНО названный браузер. Если не указан — использовать активный/уже открытый браузер."
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "YouTube/browser media only. YouTube Data API выполняет поиск; транспорт воспроизведения использует фоновые проверяемые Play/Pause/Seek через Windows media session; полноэкранный и театральный режим выполняются только через UI Automation точной YouTube-вкладки. Слепые координаты и глобальные клавиши не используются. Музыка и Discord изолированы.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "memory",
+      "plugin_owner": "memory.local",
+      "source": "jarvis/tools/domains/support.py",
+      "registration_line": 112,
+      "handler": "memory",
+      "handler_line": 85,
+      "handler_end_line": 109,
+      "risk_resolver": "memory_risk",
+      "actions": [
+        "remember",
+        "note",
+        "forget",
+        "forget_last",
+        "list",
+        "clear",
+        "enable",
+        "disable"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "remember",
+              "note",
+              "forget",
+              "forget_last",
+              "list",
+              "clear",
+              "enable",
+              "disable"
+            ],
+            "description": "Операция"
+          },
+          "key": {
+            "type": "string",
+            "description": "Короткое название факта"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Локальная долговременная память пользователя: запомнить, забыть или показать сохранённые факты.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "mini_browser",
+      "plugin_owner": "desktop.services",
+      "source": "jarvis/tools/desktop_features.py",
+      "actions": [
+        "open",
+        "close",
+        "pin",
+        "zoom"
+      ],
+      "description": "mini_browser",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "open",
+              "close",
+              "pin",
+              "zoom"
+            ]
+          },
+          "url": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "zoom": {
+            "type": "number"
+          },
+          "pinned": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "risk_resolver": "lambda a: Risk.MEDIUM if a['action'] == 'open' else Risk.SAFE",
+      "reachability": "declared registry contract; Windows end-to-end validation required"
+    },
+    {
+      "tool": "music",
+      "plugin_owner": "integrations.media",
+      "source": "jarvis/tools/domains/browser_media.py",
+      "registration_line": 504,
+      "handler": "music_tool",
+      "handler_line": 470,
+      "handler_end_line": 502,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "status",
+        "background_status",
+        "play",
+        "pause",
+        "stop",
+        "next",
+        "previous",
+        "play_track",
+        "play_song",
+        "play_music",
+        "search_track",
+        "find_track",
+        "find_song",
+        "start_track",
+        "playlist",
+        "my_wave",
+        "my_tracks",
+        "like",
+        "unlike",
+        "dislike",
+        "shuffle_on",
+        "shuffle_off",
+        "repeat_on",
+        "repeat_track",
+        "repeat_playlist",
+        "repeat_off",
+        "set_volume",
+        "volume_up",
+        "volume_down",
+        "queue_status",
+        "queue_clear",
+        "queue_add",
+        "queue_next",
+        "seek"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "background_status",
+              "play",
+              "pause",
+              "stop",
+              "next",
+              "previous",
+              "play_track",
+              "play_song",
+              "play_music",
+              "search_track",
+              "find_track",
+              "find_song",
+              "start_track",
+              "playlist",
+              "my_wave",
+              "my_tracks",
+              "like",
+              "unlike",
+              "dislike",
+              "shuffle_on",
+              "shuffle_off",
+              "repeat_on",
+              "repeat_track",
+              "repeat_playlist",
+              "repeat_off",
+              "set_volume",
+              "volume_up",
+              "volume_down",
+              "queue_status",
+              "queue_clear",
+              "queue_add",
+              "queue_next",
+              "seek"
+            ],
+            "description": "Операция активного музыкального сервиса"
+          },
+          "query": {
+            "type": "string"
+          },
+          "artist": {
+            "type": "string"
+          },
+          "playlist": {
+            "type": "string"
+          },
+          "volume": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "step": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          },
+          "position_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "seconds": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Единый музыкальный tool. Всегда маршрутизирует команду только в один активный провайдер: Яндекс Музыка или Spotify, выбранный в Настройки → Медиа.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "neo_model",
+      "plugin_owner": "neo.command_model",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1320,
+      "handler": "neo_model",
+      "handler_line": 1317,
+      "handler_end_line": 1318,
+      "risk_resolver": "lambda args: Risk.MEDIUM if str(args.get('action', '')) in {'train', 'rollback'} else Risk.SAFE",
+      "actions": [
+        "status",
+        "train",
+        "versions",
+        "rollback"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "train",
+              "versions",
+              "rollback"
+            ],
+            "description": "Model action"
+          },
+          "version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "The NEO command model: show its status and quality, retrain it locally on confirmed corrections (runs in the background; used only if not worse), list versions, roll back to the previous version.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "network",
+      "plugin_owner": "system.desktop",
+      "source": "jarvis/tools/domains/support.py",
+      "registration_line": 62,
+      "handler": "network",
+      "handler_line": 38,
+      "handler_end_line": 59,
+      "risk_resolver": "network_risk",
+      "actions": [
+        "ping",
+        "info",
+        "flush_dns"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "ping",
+              "info",
+              "flush_dns"
+            ],
+            "description": "Операция"
+          },
+          "host": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Диагностика сети: ping, адреса и очистка DNS-кэша.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "obs_control",
+      "plugin_owner": "integrations.obs",
+      "source": "jarvis/tools/obs_tool184.py",
+      "registration_line": 36,
+      "handler": "run",
+      "handler_line": 29,
+      "handler_end_line": 35,
+      "risk_resolver": "lambda args: Risk.HIGH if args.get('action') == 'stream_start' else Risk.SAFE",
+      "actions": [
+        "connect",
+        "reconnect",
+        "disconnect",
+        "status",
+        "record_start",
+        "record_stop",
+        "record_pause",
+        "record_resume",
+        "replay_start",
+        "replay_stop",
+        "replay_save",
+        "stream_start",
+        "stream_stop",
+        "scenes_list",
+        "scene_switch",
+        "input_mute",
+        "input_unmute",
+        "input_volume",
+        "source_show",
+        "source_hide"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "connect",
+              "reconnect",
+              "disconnect",
+              "status",
+              "record_start",
+              "record_stop",
+              "record_pause",
+              "record_resume",
+              "replay_start",
+              "replay_stop",
+              "replay_save",
+              "stream_start",
+              "stream_stop",
+              "scenes_list",
+              "scene_switch",
+              "input_mute",
+              "input_unmute",
+              "input_volume",
+              "source_show",
+              "source_hide"
+            ]
+          },
+          "scene": {
+            "type": "string",
+            "maxLength": 512
+          },
+          "input": {
+            "type": "string",
+            "maxLength": 512
+          },
+          "source": {
+            "type": "string",
+            "maxLength": 512
+          },
+          "volume": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Explicit OBS Studio controls. Requires naming OBS. Live stream always requires confirmation. Platform titles, chat and moderation are separate integrations.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "office",
+      "plugin_owner": "core.unclassified",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1260,
+      "handler": "office",
+      "handler_line": 1256,
+      "handler_end_line": 1258,
+      "risk_resolver": "lambda args: Risk.MEDIUM if office178.risk(args, config) == 'medium' else Risk.SAFE",
+      "actions": [
+        "create",
+        "read",
+        "summarize",
+        "append",
+        "heading",
+        "replace",
+        "set_cell",
+        "get_cell",
+        "column_stat",
+        "add_row",
+        "add_sheet",
+        "add_slide",
+        "save",
+        "export",
+        "undo",
+        "open",
+        "chart",
+        "copy_formula"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "create",
+              "read",
+              "summarize",
+              "append",
+              "heading",
+              "replace",
+              "set_cell",
+              "get_cell",
+              "column_stat",
+              "add_row",
+              "add_sheet",
+              "add_slide",
+              "save",
+              "export",
+              "undo",
+              "open",
+              "chart",
+              "copy_formula"
+            ],
+            "description": "Office action"
+          },
+          "source_range": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "sheet": {
+            "type": "string"
+          },
+          "range": {
+            "type": "string"
+          },
+          "chart": {
+            "type": "string",
+            "enum": [
+              "bar",
+              "line"
+            ]
+          },
+          "fingerprint": {
+            "type": "string"
+          },
+          "destination": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "cell": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "column": {
+            "type": "string"
+          },
+          "stat": {
+            "type": "string"
+          },
+          "values": {
+            "type": "string"
+          },
+          "find": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string"
+          },
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Word, Excel and PowerPoint documents: create a document, spreadsheet or presentation (also from a topic), read or summarize one, add text/headings/rows/sheets/slides, write or read a cell, sum/average a column, replace text, save, export to PDF or CSV, undo NEO's last change. Works on open Office documents and on files.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "overlay",
+      "plugin_owner": "ui.panels",
+      "source": "jarvis/tools/implementations.py",
+      "registration_line": 3143,
+      "handler": "overlay",
+      "handler_line": 3123,
+      "handler_end_line": 3140,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "show",
+        "hide",
+        "close",
+        "delete",
+        "rename",
+        "list",
+        "hide_all",
+        "delete_all",
+        "set_text",
+        "append_text",
+        "remove_text",
+        "clear_text",
+        "move",
+        "checklist_create",
+        "checklist_add",
+        "checklist_check",
+        "checklist_uncheck",
+        "checklist_remove",
+        "checklist_clear",
+        "checklist_complete_all",
+        "checklist_uncheck_all",
+        "style"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "show",
+              "hide",
+              "close",
+              "delete",
+              "rename",
+              "list",
+              "hide_all",
+              "delete_all",
+              "set_text",
+              "append_text",
+              "remove_text",
+              "clear_text",
+              "move",
+              "checklist_create",
+              "checklist_add",
+              "checklist_check",
+              "checklist_uncheck",
+              "checklist_remove",
+              "checklist_clear",
+              "checklist_complete_all",
+              "checklist_uncheck_all",
+              "style"
+            ],
+            "description": "Операция"
+          },
+          "name": {
+            "type": "string",
+            "description": "Имя/алиас панели, например 'Музыка', 'Заметки', 'Чек-лист'"
+          },
+          "new_name": {
+            "type": "string",
+            "description": "Новое имя окна для операции rename"
+          },
+          "title": {
+            "type": "string",
+            "description": "Заголовок, показываемый в окне"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "text",
+              "checklist",
+              "music"
+            ],
+            "description": "Тип содержимого"
+          },
+          "text": {
+            "type": "string",
+            "description": "Текст информационного окна"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Пункты нового чек-листа"
+          },
+          "item": {
+            "type": "string",
+            "description": "Один пункт для добавления/отметки/удаления"
+          },
+          "monitor": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16,
+            "description": "Номер монитора, начиная с 1"
+          },
+          "position": {
+            "type": "string",
+            "enum": [
+              "top_left",
+              "top_center",
+              "top_right",
+              "center_left",
+              "center",
+              "center_right",
+              "bottom_left",
+              "bottom_center",
+              "bottom_right"
+            ],
+            "description": "Позиция на выбранном мониторе"
+          },
+          "offset_x": {
+            "type": "integer",
+            "minimum": -5000,
+            "maximum": 5000
+          },
+          "offset_y": {
+            "type": "integer",
+            "minimum": -5000,
+            "maximum": 5000
+          },
+          "font_size": {
+            "type": "integer",
+            "minimum": 8,
+            "maximum": 96,
+            "description": "Размер шрифта конкретной панели"
+          },
+          "font_family": {
+            "type": "string",
+            "description": "Семейство шрифта конкретной панели"
+          },
+          "theme_preset": {
+            "type": "string",
+            "description": "Название общего визуального пресета панели"
+          },
+          "text_color": {
+            "type": "string",
+            "description": "Цвет текста панели #RRGGBB"
+          },
+          "background_color": {
+            "type": "string",
+            "description": "Цвет фона панели #RRGGBB"
+          },
+          "border_color": {
+            "type": "string",
+            "description": "Цвет рамки панели #RRGGBB"
+          },
+          "background_opacity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Прозрачность/непрозрачность фона панели в процентах"
+          },
+          "control_color": {
+            "type": "string",
+            "description": "Цвет иконок кнопок музыкальной панели"
+          },
+          "control_background_color": {
+            "type": "string",
+            "description": "Цвет фона кнопок музыкальной панели"
+          },
+          "control_border_color": {
+            "type": "string",
+            "description": "Цвет рамки кнопок музыкальной панели"
+          },
+          "control_background_opacity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "control_border_opacity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 160,
+            "maximum": 1600
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1400
+          },
+          "purpose": {
+            "type": "string",
+            "description": "Семантическая роль окна: game_session/checklist/notes/music/etc"
+          },
+          "game_id": {
+            "type": "string"
+          },
+          "game_name": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "binding": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "Live binding окна к источнику состояния"
+          },
+          "live_state": {
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Управление панелями/оверлеями NEO: показать, скрыть, закрыть, переместить, заметки, чек-листы и музыкальная панель. Слова «панель», «оверлей» и «окно» допустимы как синонимы для этих дополнительных панелей.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "plugins",
+      "plugin_owner": "plugins.manager",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1297,
+      "handler": "plugins",
+      "handler_line": 1294,
+      "handler_end_line": 1295,
+      "risk_resolver": "lambda args: Risk.HIGH if str(args.get('action', '')) == 'remove' else Risk.SAFE",
+      "actions": [
+        "list",
+        "describe",
+        "enable",
+        "approve",
+        "disable",
+        "remove",
+        "reload"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "list",
+              "describe",
+              "enable",
+              "approve",
+              "disable",
+              "remove",
+              "reload"
+            ],
+            "description": "Plugin action"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "User plugins: list them, describe one (purpose and permissions), enable (shows permissions first), approve after that, disable, remove, reload the plugin list.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "powershell",
+      "plugin_owner": "developer.tools",
+      "source": "jarvis/tools/domains/support.py",
+      "registration_line": 195,
+      "handler": "powershell",
+      "handler_line": 180,
+      "handler_end_line": 192,
+      "risk_resolver": "lambda _: Risk.CRITICAL",
+      "actions": [],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "script": {
+            "type": "string",
+            "description": "Полный PowerShell-скрипт"
+          },
+          "timeout_seconds": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 300
+          }
+        },
+        "required": [
+          "script"
+        ],
+        "additionalProperties": false
+      },
+      "description": "КРИТИЧЕСКИЙ режим: выполнить произвольный PowerShell только когда нет специального инструмента и пользователь явно попросил. По умолчанию выключен.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "scenario",
+      "plugin_owner": "automation.local",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 672,
+      "handler": "scenario",
+      "handler_line": 653,
+      "handler_end_line": 670,
+      "risk_resolver": "lambda args: scenario_risk(config, args)",
+      "actions": [
+        "list",
+        "run",
+        "retry"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "list",
+              "run",
+              "retry"
+            ],
+            "description": "Операция"
+          },
+          "name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "fingerprint": {
+            "type": "string"
+          },
+          "run_id": {
+            "type": "string"
+          },
+          "step_index": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "inputs": {
+            "type": "object",
+            "description": "NEO 188: значения именованных параметров этого запуска"
+          },
+          "inputs_fingerprint": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Пользовательские сценарии из Настройки → Сценарии: кодовая фраза запускает набор шагов открытия/ожидания/команд.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "screen",
+      "plugin_owner": "system.desktop",
+      "source": "jarvis/tools/domains/system_interaction.py",
+      "registration_line": 903,
+      "handler": "screen",
+      "handler_line": 737,
+      "handler_end_line": 900,
+      "risk_resolver": "lambda args: Risk.MEDIUM if args.get('action') == 'click_visual' else Risk.SAFE",
+      "actions": [
+        "capture",
+        "capture_window",
+        "analyze",
+        "analyze_window",
+        "translate",
+        "click_visual"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "capture",
+              "capture_window",
+              "analyze",
+              "analyze_window",
+              "translate",
+              "click_visual"
+            ],
+            "description": "Операция"
+          },
+          "instruction": {
+            "type": "string",
+            "description": "Что именно найти или объяснить"
+          },
+          "target_language": {
+            "type": "string",
+            "description": "Язык перевода; по умолчанию язык интерфейса"
+          },
+          "monitor": {
+            "type": "string",
+            "description": "all, primary или номер монитора 1/2/3"
+          },
+          "title": {
+            "type": "string",
+            "description": "Необязательное название окна"
+          },
+          "destination": {
+            "type": "string",
+            "description": "Папка или полный путь для сохранения"
+          },
+          "clipboard": {
+            "type": "boolean",
+            "description": "Скопировать изображение в Windows clipboard"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Скриншот монитора/окна, clipboard, помощь по экрану/игре и ограниченный visual fallback: vision может нажать только высокоуверенный элемент внутри заранее известного активного приложения.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "search",
+      "plugin_owner": "web.search",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 234,
+      "handler": "search_tool",
+      "handler_line": 215,
+      "handler_end_line": 232,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "files",
+        "content"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "files",
+              "content"
+            ],
+            "description": "Режим"
+          },
+          "query": {
+            "type": "string"
+          },
+          "root": {
+            "type": "string",
+            "description": "Папка поиска: полный путь или системное имя, например Downloads; без поля поиск по локальным папкам."
+          },
+          "literal": {
+            "type": "boolean",
+            "description": "Имя в кавычках: слова вроде Yesterday являются частью имени, а не фильтром даты."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "action",
+          "query"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Локальный поиск файлов и папок по имени/времени и поиск текста внутри документов. Возвращает полные пути; не открывает файлы.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "shelf",
+      "plugin_owner": "desktop.services",
+      "source": "jarvis/tools/desktop_features.py",
+      "actions": [
+        "show",
+        "hide",
+        "toggle",
+        "list",
+        "read",
+        "get",
+        "create",
+        "update",
+        "check",
+        "delete",
+        "import_file",
+        "pin",
+        "copy"
+      ],
+      "description": "shelf",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "show",
+              "hide",
+              "toggle",
+              "list",
+              "read",
+              "get",
+              "create",
+              "update",
+              "check",
+              "delete",
+              "import_file",
+              "pin",
+              "copy"
+            ]
+          },
+          "kind": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array"
+          },
+          "path": {
+            "type": "string"
+          },
+          "managed": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "version": {
+            "type": "integer"
+          },
+          "pinned": {
+            "type": "boolean"
+          },
+          "ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "shelf": {
+            "type": "string"
+          },
+          "scope_shelf": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer"
+          },
+          "index": {
+            "type": "integer"
+          },
+          "checked": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "risk_resolver": "lambda a: Risk.MEDIUM if a['action'] in {'delete', 'import_file', 'copy'} else Risk.SAFE",
+      "reachability": "declared registry contract; Windows end-to-end validation required"
+    },
+    {
+      "tool": "spotify",
+      "plugin_owner": "integrations.media",
+      "source": "jarvis/tools/domains/browser_media.py",
+      "registration_line": 465,
+      "handler": "spotify_tool",
+      "handler_line": 452,
+      "handler_end_line": 453,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "status",
+        "background_status",
+        "queue_status",
+        "play",
+        "pause",
+        "stop",
+        "next",
+        "previous",
+        "play_track",
+        "play_song",
+        "play_music",
+        "search_track",
+        "find_track",
+        "find_song",
+        "start_track",
+        "playlist",
+        "shuffle_on",
+        "shuffle_off",
+        "repeat_on",
+        "repeat_track",
+        "repeat_playlist",
+        "repeat_off",
+        "set_volume",
+        "volume_up",
+        "volume_down",
+        "queue_add",
+        "queue_next",
+        "like",
+        "unlike",
+        "seek",
+        "open",
+        "connect",
+        "authorize"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "background_status",
+              "queue_status",
+              "play",
+              "pause",
+              "stop",
+              "next",
+              "previous",
+              "play_track",
+              "play_song",
+              "play_music",
+              "search_track",
+              "find_track",
+              "find_song",
+              "start_track",
+              "playlist",
+              "shuffle_on",
+              "shuffle_off",
+              "repeat_on",
+              "repeat_track",
+              "repeat_playlist",
+              "repeat_off",
+              "set_volume",
+              "volume_up",
+              "volume_down",
+              "queue_add",
+              "queue_next",
+              "like",
+              "unlike",
+              "seek",
+              "open",
+              "connect",
+              "authorize"
+            ],
+            "description": "Операция музыкального провайдера"
+          },
+          "query": {
+            "type": "string",
+            "description": "Название трека / поисковая фраза"
+          },
+          "playlist": {
+            "type": "string",
+            "description": "Название плейлиста"
+          },
+          "volume": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "step": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          },
+          "position_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "seconds": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Spotify через официальный Web API/Spotify Connect. Использовать только когда Spotify явно назван или выбран активным музыкальным провайдером.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "system",
+      "plugin_owner": "system.desktop",
+      "source": "jarvis/tools/domains/system_interaction.py",
+      "registration_line": 493,
+      "handler": "system",
+      "handler_line": 183,
+      "handler_end_line": 490,
+      "risk_resolver": "system_risk",
+      "actions": [
+        "status",
+        "top_processes",
+        "terminate_process",
+        "open_settings",
+        "lock",
+        "shutdown",
+        "restart",
+        "cancel_shutdown",
+        "sleep",
+        "hibernate",
+        "set_bluetooth",
+        "set_wifi",
+        "set_brightness",
+        "open_task_manager",
+        "list_power_plans",
+        "get_power_plan",
+        "set_power_plan",
+        "turn_off_displays",
+        "get_mouse_sensitivity",
+        "set_mouse_sensitivity",
+        "change_mouse_sensitivity"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "top_processes",
+              "terminate_process",
+              "open_settings",
+              "lock",
+              "shutdown",
+              "restart",
+              "cancel_shutdown",
+              "sleep",
+              "hibernate",
+              "set_bluetooth",
+              "set_wifi",
+              "set_brightness",
+              "open_task_manager",
+              "list_power_plans",
+              "get_power_plan",
+              "set_power_plan",
+              "turn_off_displays",
+              "get_mouse_sensitivity",
+              "set_mouse_sensitivity",
+              "change_mouse_sensitivity"
+            ],
+            "description": "Операция"
+          },
+          "page": {
+            "type": "string",
+            "description": "Раздел: home, display, sound, bluetooth, network, wifi, vpn, apps, startup, power, storage, updates, privacy, microphone, camera, gaming, accessibility"
+          },
+          "sort_by": {
+            "type": "string",
+            "enum": [
+              "memory",
+              "cpu"
+            ],
+            "description": "Сортировка процессов"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          },
+          "pid": {
+            "type": "integer"
+          },
+          "process_name": {
+            "type": "string"
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Включить или выключить Bluetooth/Wi-Fi"
+          },
+          "value": {
+            "type": "number",
+            "minimum": -100,
+            "maximum": 100,
+            "description": "Числовое значение: яркость 0–100, чувствительность мыши 1–20 или относительное изменение"
+          },
+          "delay_seconds": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 86400
+          },
+          "message": {
+            "type": "string"
+          },
+          "power_plan": {
+            "type": "string",
+            "description": "Имя/GUID/alias плана питания, например Balanced или Высокая производительность"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Системные действия Windows: состояние, процессы, Bluetooth/Wi-Fi, яркость, планы питания, параметры, дисплеи, блокировка, сон, гибернация, выключение и перезапуск.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "system_monitor",
+      "plugin_owner": "system.telemetry",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 751,
+      "handler": "monitor",
+      "handler_line": 722,
+      "handler_end_line": 749,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "summary",
+        "cpu",
+        "gpu",
+        "memory",
+        "disks",
+        "network",
+        "battery"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "summary",
+              "cpu",
+              "gpu",
+              "memory",
+              "disks",
+              "network",
+              "battery"
+            ],
+            "description": "Telemetry category"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Read-only PC telemetry: CPU, GPU, RAM, disks, current network traffic/link speed and available power/temperature sensors. Collection runs without visible console windows.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "telegram_messages",
+      "plugin_owner": "integrations.telegram_messages",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 891,
+      "handler": "telegram_messages",
+      "handler_line": 833,
+      "handler_end_line": 889,
+      "risk_resolver": "lambda args: Risk.MEDIUM if str(args.get('action', '')).casefold() in {'reply', 'send'} else Risk.SAFE",
+      "actions": [
+        "status",
+        "count",
+        "recent",
+        "latest",
+        "from_sender",
+        "diagnostic",
+        "reply",
+        "send"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "count",
+              "recent",
+              "latest",
+              "from_sender",
+              "diagnostic",
+              "reply",
+              "send"
+            ],
+            "description": "Telegram messages action"
+          },
+          "sender": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "target_kind": {
+            "type": "string",
+            "enum": [
+              "person",
+              "group"
+            ],
+            "description": "Recipient type"
+          },
+          "text": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          },
+          "recent24h": {
+            "type": "boolean"
+          },
+          "reply_to_message_id": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Personal Telegram messages received through official Connected Business Bot / Secretary Mode: counts, recent/latest messages and contextual replies.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "text_edit",
+      "plugin_owner": "clipboard.editing",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 977,
+      "handler": "text_edit",
+      "handler_line": 935,
+      "handler_end_line": 975,
+      "risk_resolver": "lambda _: Risk.MEDIUM",
+      "actions": [
+        "dictate",
+        "select_previous_paragraph",
+        "fix_selection",
+        "replace_last_sentence"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "dictate",
+              "select_previous_paragraph",
+              "fix_selection",
+              "replace_last_sentence"
+            ],
+            "description": "Операция"
+          },
+          "text": {
+            "type": "string"
+          },
+          "instruction": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Голосовое редактирование текста в текущем приложении: диктовка, выделение предыдущего абзаца, исправление выделения/последнего фрагмента.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "timer",
+      "plugin_owner": "productivity.timer",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 711,
+      "handler": "timer_tool",
+      "handler_line": 569,
+      "handler_end_line": 709,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "timer",
+        "reminder",
+        "alarm",
+        "list",
+        "cancel",
+        "cancel_all",
+        "reschedule"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "timer",
+              "reminder",
+              "alarm",
+              "list",
+              "cancel",
+              "cancel_all",
+              "reschedule"
+            ],
+            "description": "Timer action"
+          },
+          "text": {
+            "type": "string"
+          },
+          "seconds": {
+            "type": "number",
+            "minimum": 1
+          },
+          "label": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Persistent local timers, reminders and alarms. Warns in chat 15/10/5 minutes before due when applicable, and sends system notifications at 1 minute and due time.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "transfer",
+      "plugin_owner": "transfer.local",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 1078,
+      "handler": "transfer",
+      "handler_line": 984,
+      "handler_end_line": 1076,
+      "risk_resolver": "lambda _: Risk.MEDIUM",
+      "actions": [
+        "clipboard_to_discord",
+        "page_url_to_discord",
+        "last_screenshot_to_discord",
+        "selected_explorer_file_to_discord",
+        "attach_file_discord"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "clipboard_to_discord",
+              "page_url_to_discord",
+              "last_screenshot_to_discord",
+              "selected_explorer_file_to_discord",
+              "attach_file_discord"
+            ],
+            "description": "Операция"
+          },
+          "server": {
+            "type": "string"
+          },
+          "channel": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Связывает приложения: clipboard/URL текущей страницы/последний скриншот/выбранный файл Проводника → Discord, а также безопасное прикрепление конкретного файла.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "translate",
+      "plugin_owner": "integrations.translation",
+      "source": "jarvis/integrations/local_translation.py",
+      "registration_line": 441,
+      "handler": "handler",
+      "handler_line": 417,
+      "handler_end_line": 439,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "target_language": {
+            "type": "string"
+          },
+          "source_language": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Explicit machine translation: the local translation model (TranslateGemma via Ollama) when installed, otherwise SearchAPI.io Google AI Mode. No ChatGPT.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "ui",
+      "plugin_owner": "computer.control",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1160,
+      "handler": "ui",
+      "handler_line": 1131,
+      "handler_end_line": 1158,
+      "risk_resolver": "lambda args: Risk.SAFE if str(args.get('action', '')) in {'hints', 'hints_off', 'read', 'find'} or str(args.get('action', '')).startswith('scroll_') else Risk.MEDIUM",
+      "actions": [
+        "type",
+        "press",
+        "hints",
+        "hints_off",
+        "click_number",
+        "double_click_number",
+        "right_click_number",
+        "click_link",
+        "click_button",
+        "click_item",
+        "click_tab",
+        "scroll_down",
+        "scroll_up",
+        "scroll_down_more",
+        "scroll_up_more",
+        "scroll_left",
+        "scroll_right",
+        "scroll_top",
+        "scroll_bottom",
+        "read",
+        "again",
+        "find",
+        "click_name",
+        "focus_field"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "type",
+              "press",
+              "hints",
+              "hints_off",
+              "click_number",
+              "double_click_number",
+              "right_click_number",
+              "click_link",
+              "click_button",
+              "click_item",
+              "click_tab",
+              "scroll_down",
+              "scroll_up",
+              "scroll_down_more",
+              "scroll_up_more",
+              "scroll_left",
+              "scroll_right",
+              "scroll_top",
+              "scroll_bottom",
+              "read",
+              "again",
+              "find",
+              "click_name",
+              "focus_field"
+            ],
+            "description": "UI action"
+          },
+          "text": {
+            "type": "string"
+          },
+          "key": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "index": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "window": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Control the active window like the user would: type dictated text, press a key or shortcut, number the clickable elements and click one by number, click the N-th link/button/item/tab, scroll, read the window text.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "weather",
+      "plugin_owner": "integrations.weather",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 523,
+      "handler": "weather",
+      "handler_line": 512,
+      "handler_end_line": 521,
+      "risk_resolver": "lambda _args: Risk.SAFE",
+      "actions": [
+        "summary",
+        "current",
+        "temperature",
+        "forecast",
+        "rain",
+        "precipitation",
+        "humidity",
+        "wind",
+        "sunrise",
+        "sunset"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "summary",
+              "current",
+              "temperature",
+              "forecast",
+              "rain",
+              "precipitation",
+              "humidity",
+              "wind",
+              "sunrise",
+              "sunset"
+            ],
+            "description": "Weather query"
+          },
+          "period": {
+            "type": "string",
+            "description": "Natural period such as tonight, tomorrow morning or the original utterance"
+          },
+          "city": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "OpenWeather current conditions and 5-day forecast. Use for temperature, rain, wind, humidity, sunrise/sunset and daypart forecasts.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "window",
+      "plugin_owner": "core.applications",
+      "source": "jarvis/tools/implementations.py",
+      "registration_line": 3895,
+      "handler": "window",
+      "handler_line": 3703,
+      "handler_end_line": 3892,
+      "risk_resolver": "window_risk",
+      "actions": [
+        "active",
+        "list",
+        "focus",
+        "minimize",
+        "maximize",
+        "restore",
+        "close",
+        "move_resize",
+        "move_to_monitor"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "active",
+              "list",
+              "focus",
+              "minimize",
+              "maximize",
+              "restore",
+              "close",
+              "move_resize",
+              "move_to_monitor"
+            ],
+            "description": "Операция"
+          },
+          "title": {
+            "type": "string",
+            "description": "Обычное название или часть заголовка окна, например Mozilla, Chrome, Яндекс Музыка"
+          },
+          "x": {
+            "type": "integer"
+          },
+          "y": {
+            "type": "integer"
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 100
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 100
+          },
+          "monitor": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16,
+            "description": "Номер экрана/монитора назначения, начиная с 1"
+          },
+          "source_monitor": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16,
+            "description": "Если указан — искать окно только на этом исходном мониторе"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "",
+              "browser",
+              "folder",
+              "any"
+            ],
+            "description": "Тип окна для надёжного поиска; browser=любой браузер, folder=Проводник"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Управление окнами Windows: найти окно по обычному названию, фокус/свернуть/развернуть/закрыть, изменить размер и перенести на конкретный монитор.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "window_advanced",
+      "plugin_owner": "windows.advanced",
+      "source": "jarvis/tools/extended.py",
+      "registration_line": 832,
+      "handler": "window_advanced",
+      "handler_line": 790,
+      "handler_end_line": 830,
+      "risk_resolver": "lambda args: Risk.MEDIUM if args.get('action') in {'move_instance', 'close_with_content', 'keep_only_content'} else Risk.SAFE",
+      "actions": [
+        "list_instances",
+        "focus_instance",
+        "move_instance",
+        "close_with_content",
+        "keep_only_content"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "list_instances",
+              "focus_instance",
+              "move_instance",
+              "close_with_content",
+              "keep_only_content"
+            ],
+            "description": "Операция"
+          },
+          "query": {
+            "type": "string"
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          },
+          "monitor": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16
+          },
+          "content": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Модель нескольких окон одного приложения: список экземпляров, фокус/перенос N-го окна, закрытие окна по содержимому и оставить только окно с нужной вкладкой/контентом.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "winsettings",
+      "plugin_owner": "core.unclassified",
+      "source": "jarvis/tools/integrations.py",
+      "registration_line": 1238,
+      "handler": "winsettings",
+      "handler_line": 1233,
+      "handler_end_line": 1236,
+      "risk_resolver": "lambda args: Risk.MEDIUM if winsettings178.risk(args) == 'medium' else Risk.SAFE",
+      "actions": [
+        "open",
+        "toggle",
+        "power_mode",
+        "screen_timeout",
+        "sleep_timeout",
+        "about",
+        "storage_info",
+        "activation_status",
+        "check_updates",
+        "clear_clipboard_history",
+        "wallpaper"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "open",
+              "toggle",
+              "power_mode",
+              "screen_timeout",
+              "sleep_timeout",
+              "about",
+              "storage_info",
+              "activation_status",
+              "check_updates",
+              "clear_clipboard_history",
+              "wallpaper"
+            ],
+            "description": "Settings action"
+          },
+          "page": {
+            "type": "string"
+          },
+          "what": {
+            "type": "string"
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "mode": {
+            "type": "string"
+          },
+          "minutes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 600
+          },
+          "refused": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Windows Settings: open any page (system, display, sound, notifications, focus, power, storage, nearby sharing, multitasking, activation, troubleshoot, recovery, projecting, remote desktop, clipboard, components, about, Bluetooth, network, personalization, apps, accounts, time & language, gaming, accessibility, privacy, Windows Update); switch dark mode, night light, do not disturb, game mode, clipboard history and more; power mode and timeouts; PC info and disks.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    },
+    {
+      "tool": "yandex_music",
+      "plugin_owner": "integrations.yandex_music",
+      "source": "jarvis/tools/domains/browser_media.py",
+      "registration_line": 365,
+      "handler": "yandex_music_tool",
+      "handler_line": 193,
+      "handler_end_line": 362,
+      "risk_resolver": "lambda _: Risk.SAFE",
+      "actions": [
+        "status",
+        "play",
+        "pause",
+        "stop",
+        "next",
+        "previous",
+        "play_track",
+        "play_song",
+        "play_music",
+        "search_track",
+        "find_track",
+        "find_song",
+        "start_track",
+        "my_wave",
+        "my_tracks",
+        "playlist",
+        "play_playlist",
+        "playlist_by_name",
+        "start_playlist",
+        "like",
+        "unlike",
+        "dislike",
+        "shuffle_on",
+        "shuffle_off",
+        "repeat_on",
+        "repeat_track",
+        "repeat_playlist",
+        "repeat_off",
+        "set_volume",
+        "volume_up",
+        "volume_down",
+        "api_status",
+        "background_status",
+        "queue_status",
+        "queue_clear"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "status",
+              "play",
+              "pause",
+              "stop",
+              "next",
+              "previous",
+              "play_track",
+              "play_song",
+              "play_music",
+              "search_track",
+              "find_track",
+              "find_song",
+              "start_track",
+              "my_wave",
+              "my_tracks",
+              "playlist",
+              "play_playlist",
+              "playlist_by_name",
+              "start_playlist",
+              "like",
+              "unlike",
+              "dislike",
+              "shuffle_on",
+              "shuffle_off",
+              "repeat_on",
+              "repeat_track",
+              "repeat_playlist",
+              "repeat_off",
+              "set_volume",
+              "volume_up",
+              "volume_down",
+              "api_status",
+              "background_status",
+              "queue_status",
+              "queue_clear"
+            ],
+            "description": "Фоновая операция Яндекс Музыки"
+          },
+          "query": {
+            "type": "string",
+            "description": "Название песни/трек для play_track"
+          },
+          "artist": {
+            "type": "string",
+            "description": "Исполнитель, если пользователь его назвал"
+          },
+          "playlist": {
+            "type": "string",
+            "description": "Название пользовательского плейлиста Яндекс Музыки"
+          },
+          "volume": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Громкость скрытого плеера NEO в процентах"
+          },
+          "step": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50,
+            "description": "Шаг изменения громкости"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Яндекс Музыка: ТОЛЬКО фоновый API + собственный NEO player. Desktop UI, pyautogui, GSMTC и UI fallback для Яндекс Музыки отключены.",
+      "reachability": "builtin registration reachable; action routing/end-to-end execution not verified"
+    }
+  ]
+}

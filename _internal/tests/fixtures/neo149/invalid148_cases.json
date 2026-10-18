@@ -1,0 +1,800 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "покажи доступные каналы Discord",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, покажи доступные каналы Discord",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи доступные каналы Discord, пожалуйста",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи сейчас доступные каналы Discord",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи статус подключённого текстового канала Discord",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, покажи статус подключённого текстового канала Discord",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи статус подключённого текстового канала Discord, пожалуйста",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи сейчас статус подключённого текстового канала Discord",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи фоновый статус Discord-бота",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, покажи фоновый статус Discord-бота",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи фоновый статус Discord-бота, пожалуйста",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи сейчас фоновый статус Discord-бота",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "ru",
+    "phrase": "поставь сейчас трек следующим в музыкальной очереди",
+    "expected_tool": "music",
+    "expected_action": "queue_next",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди трек в Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "search_track",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, найди трек в Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "search_track",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди трек в Spotify, пожалуйста",
+    "expected_tool": "spotify",
+    "expected_action": "search_track",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди песню в Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_song",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, найди песню в Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_song",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди песню в Spotify, пожалуйста",
+    "expected_tool": "spotify",
+    "expected_action": "find_song",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди трек в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "search_track",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, найди трек в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "search_track",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди трек в Яндекс Музыке, пожалуйста",
+    "expected_tool": "yandex_music",
+    "expected_action": "search_track",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди песню в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_song",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, найди песню в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_song",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди песню в Яндекс Музыке, пожалуйста",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_song",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "phrase": "show the Discord queue",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "please show the Discord queue",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show the Discord queue, please",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show now the Discord queue",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show available Discord channels",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "please show available Discord channels",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show available Discord channels, please",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show now available Discord channels",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show the attached Discord text-channel status",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "please show the attached Discord text-channel status",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show the attached Discord text-channel status, please",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show now the attached Discord text-channel status",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show Discord bot background status",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "please show Discord bot background status",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show Discord bot background status, please",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "en",
+    "phrase": "show now Discord bot background status",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige die Warteschlange von Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "bitte zeige die Warteschlange von Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige bitte die Warteschlange von Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige jetzt die Warteschlange von Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige verfügbare Discord-Kanäle",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "bitte zeige verfügbare Discord-Kanäle",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige bitte verfügbare Discord-Kanäle",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige jetzt verfügbare Discord-Kanäle",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige den Status des verknüpften Discord-Textkanals",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "bitte zeige den Status des verknüpften Discord-Textkanals",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige bitte den Status des verknüpften Discord-Textkanals",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige jetzt den Status des verknüpften Discord-Textkanals",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige den Hintergrundstatus des Discord-Bots",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "bitte zeige den Hintergrundstatus des Discord-Bots",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige bitte den Hintergrundstatus des Discord-Bots",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige jetzt den Hintergrundstatus des Discord-Bots",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "passe à un onglet du navigateur par titre",
+    "expected_tool": "browser",
+    "expected_action": "activate_tab_title",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "passe à un onglet du navigateur par titre, s’il te plaît",
+    "expected_tool": "browser",
+    "expected_action": "activate_tab_title",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche la file d’attente de Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "s’il te plaît, affiche la file d’attente de Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche la file d’attente de Discord, s’il te plaît",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche maintenant la file d’attente de Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche les salons Discord disponibles",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche les salons Discord disponibles, s’il te plaît",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche maintenant les salons Discord disponibles",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche l’état du salon textuel Discord associé",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "s’il te plaît, affiche l’état du salon textuel Discord associé",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche l’état du salon textuel Discord associé, s’il te plaît",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche maintenant l’état du salon textuel Discord associé",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche l’état en arrière-plan du bot Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "s’il te plaît, affiche l’état en arrière-plan du bot Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche l’état en arrière-plan du bot Discord, s’il te plaît",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche maintenant l’état en arrière-plan du bot Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra la cola de Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "por favor, muestra la cola de Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra la cola de Discord, por favor",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra ahora la cola de Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra los canales de Discord disponibles",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "por favor, muestra los canales de Discord disponibles",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra los canales de Discord disponibles, por favor",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra ahora los canales de Discord disponibles",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra el estado del canal de texto de Discord vinculado",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "por favor, muestra el estado del canal de texto de Discord vinculado",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra el estado del canal de texto de Discord vinculado, por favor",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra ahora el estado del canal de texto de Discord vinculado",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra el estado en segundo plano del bot de Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "por favor, muestra el estado en segundo plano del bot de Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra el estado en segundo plano del bot de Discord, por favor",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra ahora el estado en segundo plano del bot de Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra i canali Discord disponibili",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "per favore, mostra i canali Discord disponibili",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra i canali Discord disponibili, per favore",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra adesso i canali Discord disponibili",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra lo stato in background del bot Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "per favore, mostra lo stato in background del bot Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra lo stato in background del bot Discord, per favore",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra adesso lo stato in background del bot Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre a fila do Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "por favor, mostre a fila do Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre a fila do Discord, por favor",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre agora a fila do Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre os canais do Discord disponíveis",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "por favor, mostre os canais do Discord disponíveis",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre os canais do Discord disponíveis, por favor",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre agora os canais do Discord disponíveis",
+    "expected_tool": "discord",
+    "expected_action": "list_channels",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre o status do canal de texto do Discord vinculado",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "por favor, mostre o status do canal de texto do Discord vinculado",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre o status do canal de texto do Discord vinculado, por favor",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre agora o status do canal de texto do Discord vinculado",
+    "expected_tool": "discord",
+    "expected_action": "text_channel_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre o status em segundo plano do bot do Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "por favor, mostre o status em segundo plano do bot do Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre o status em segundo plano do bot do Discord, por favor",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre agora o status em segundo plano do bot do Discord",
+    "expected_tool": "discord",
+    "expected_action": "background_status",
+    "expected_kind": ""
+  }
+]

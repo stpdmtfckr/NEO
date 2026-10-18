@@ -1,0 +1,578 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "включи плейлист {playlist} в Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи плейлист {playlist} в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи плейлист {playlist} в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи плейлист {playlist} в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist_by_name",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи плейлист {playlist} в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "start_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "search for the track {query} on Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "search for the track {query} on Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "search for the track {query} on Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "play the playlist {playlist} on Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "search for the track {query} on Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "search for the track {query} on Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "search for the track {query} on Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "play the playlist {playlist} on Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "play the playlist {playlist} on Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "play the playlist {playlist} on Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist_by_name",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "play the playlist {playlist} on Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "start_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "suche nach dem Lied {query} auf Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "suche nach dem Lied {query} auf Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "suche nach dem Lied {query} auf Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele die Playlist {playlist} bei Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "suche nach dem Lied {query} auf Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "suche nach dem Lied {query} auf Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "suche nach dem Lied {query} auf Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele die Playlist {playlist} bei Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele die Playlist {playlist} bei Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele die Playlist {playlist} bei Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist_by_name",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele die Playlist {playlist} bei Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "start_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau {query} dans Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_bot_play",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau {query} sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau {query} sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "play_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "trouve le morceau {query} sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "trouve le morceau {query} sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "trouve le morceau {query} sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau {query} sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "start_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "lance la playlist {playlist} sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau {query} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau {query} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "trouve le morceau {query} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "trouve le morceau {query} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "trouve le morceau {query} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "mets le morceau {query} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "start_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "lance la playlist {playlist} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "lance la playlist {playlist} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "lance la playlist {playlist} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist_by_name",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "lance la playlist {playlist} sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "start_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema {query} en Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_bot_play",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema {query} en Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema {query} en Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "play_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "busca el tema {query} en Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "busca el tema {query} en Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "busca el tema {query} en Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema {query} en Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "start_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la lista de reproducción {playlist} en Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema {query} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema {query} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "busca el tema {query} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "search_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "busca el tema {query} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "busca el tema {query} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "find_song",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon el tema {query} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "start_track",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la lista de reproducción {playlist} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la lista de reproducción {playlist} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la lista de reproducción {playlist} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist_by_name",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "pon la lista de reproducción {playlist} en Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "start_playlist",
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "it",
+    "phrase": "metti il brano {query} su Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_bot_play",
+    "expected_args": {
+      "query": "NEO QA"
+    }
+  }
+]

@@ -1,0 +1,105 @@
+{
+ "measured_on": "NEO 171, Linux offscreen Qt, 4 cores, 300 frames per state",
+ "states": {
+  "alert": {
+   "mean_ms": 1.446,
+   "p95_ms": 1.813
+  },
+  "browsing": {
+   "mean_ms": 1.666,
+   "p95_ms": 2.061
+  },
+  "coding": {
+   "mean_ms": 1.67,
+   "p95_ms": 2.071
+  },
+  "confused": {
+   "mean_ms": 1.693,
+   "p95_ms": 1.956
+  },
+  "curious": {
+   "mean_ms": 1.449,
+   "p95_ms": 1.838
+  },
+  "dancing": {
+   "mean_ms": 1.657,
+   "p95_ms": 2.101
+  },
+  "error": {
+   "mean_ms": 1.789,
+   "p95_ms": 2.08
+  },
+  "excited": {
+   "mean_ms": 1.741,
+   "p95_ms": 2.093
+  },
+  "happy": {
+   "mean_ms": 1.507,
+   "p95_ms": 1.818
+  },
+  "idle": {
+   "mean_ms": 1.582,
+   "p95_ms": 1.969
+  },
+  "listening": {
+   "mean_ms": 2.276,
+   "p95_ms": 2.881
+  },
+  "looking": {
+   "mean_ms": 1.751,
+   "p95_ms": 2.103
+  },
+  "playful": {
+   "mean_ms": 1.601,
+   "p95_ms": 2.026
+  },
+  "reading": {
+   "mean_ms": 1.63,
+   "p95_ms": 2.064
+  },
+  "sad": {
+   "mean_ms": 1.456,
+   "p95_ms": 1.94
+  },
+  "scanning": {
+   "mean_ms": 1.677,
+   "p95_ms": 2.008
+  },
+  "searching": {
+   "mean_ms": 1.519,
+   "p95_ms": 1.934
+  },
+  "sleeping": {
+   "mean_ms": 1.923,
+   "p95_ms": 2.257
+  },
+  "speaking": {
+   "mean_ms": 1.618,
+   "p95_ms": 2.121
+  },
+  "stretching": {
+   "mean_ms": 1.713,
+   "p95_ms": 2.165
+  },
+  "success": {
+   "mean_ms": 1.686,
+   "p95_ms": 2.19
+  },
+  "thinking": {
+   "mean_ms": 1.959,
+   "p95_ms": 2.449
+  },
+  "typing": {
+   "mean_ms": 1.676,
+   "p95_ms": 2.098
+  },
+  "waving": {
+   "mean_ms": 1.565,
+   "p95_ms": 1.858
+  },
+  "working": {
+   "mean_ms": 2.03,
+   "p95_ms": 2.538
+  }
+ }
+}
