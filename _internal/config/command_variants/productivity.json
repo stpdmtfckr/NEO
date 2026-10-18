@@ -1,0 +1,2629 @@
+{
+  "briefing.summary": {
+    "ru": [
+      "Что важного в сводке за день",
+      "Дай краткий обзор сегодняшнего дня",
+      "Собери для меня дневную сводку"
+    ],
+    "en": [
+      "Summarize my day",
+      "What does my daily briefing say",
+      "Read out today's briefing"
+    ],
+    "de": [
+      "Fasse meinen Tag zusammen",
+      "Was steht in meiner Tagesübersicht",
+      "Lies mir den Tagesüberblick vor"
+    ],
+    "fr": [
+      "Résume ma journée",
+      "Que contient mon bilan du jour",
+      "Fais le point sur ma journée"
+    ],
+    "es": [
+      "Resume mi jornada",
+      "Qué dice mi informe del día",
+      "Haz un balance de mi día"
+    ],
+    "it": [
+      "Riassumi la mia giornata",
+      "Che cosa contiene il mio resoconto del giorno",
+      "Fammi un bilancio della giornata"
+    ],
+    "pt": [
+      "Resume o meu dia",
+      "O que diz o meu relatório diário",
+      "Faz um balanço do meu dia"
+    ]
+  },
+  "briefing.startup_summary": {
+    "ru": [
+      "Что в сводке при запуске",
+      "Прочитай обзор на старте",
+      "Дай начальную сводку"
+    ],
+    "en": [
+      "Read the briefing prepared at startup",
+      "What's in my initial briefing",
+      "Give me the launch summary"
+    ],
+    "de": [
+      "Lies die beim Start erstellte Übersicht vor",
+      "Was steht in der Startzusammenfassung",
+      "Gib mir den anfänglichen Überblick"
+    ],
+    "fr": [
+      "Lis le bilan préparé au lancement",
+      "Que dit mon résumé initial",
+      "Donne-moi l’aperçu de démarrage"
+    ],
+    "es": [
+      "Lee el informe preparado al arrancar",
+      "Qué dice mi resumen inicial",
+      "Dame el informe de arranque"
+    ],
+    "it": [
+      "Leggi il resoconto preparato all’avvio",
+      "Che cosa dice il riepilogo di avvio",
+      "Dammi la panoramica iniziale"
+    ],
+    "pt": [
+      "Lê o relatório preparado no arranque",
+      "O que diz o meu resumo inicial",
+      "Dá-me a visão geral do arranque"
+    ]
+  },
+  "date_info.date_info": {
+    "ru": [
+      "Назови сегодняшнюю дату и день недели",
+      "Какое сейчас число и день недели",
+      "Скажи дату на сегодня"
+    ],
+    "en": [
+      "Tell me today's date and weekday",
+      "What is today's full date",
+      "Give me the current date"
+    ],
+    "de": [
+      "Nenne mir das heutige Datum und den Wochentag",
+      "Welches Datum haben wir heute",
+      "Sag mir das aktuelle Datum"
+    ],
+    "fr": [
+      "Donne-moi la date et le jour de la semaine",
+      "Quelle est la date d’aujourd’hui",
+      "Dis-moi la date du jour"
+    ],
+    "es": [
+      "Dime la fecha y el día de la semana",
+      "Cuál es la fecha de hoy",
+      "Dame la fecha actual"
+    ],
+    "it": [
+      "Dimmi la data e il giorno della settimana",
+      "Qual è la data di oggi",
+      "Dammi la data attuale"
+    ],
+    "pt": [
+      "Diz-me a data e o dia da semana",
+      "Qual é a data de hoje",
+      "Dá-me a data atual"
+    ]
+  },
+  "timer.timer": {
+    "ru": [
+      "Запусти обратный отсчёт на {seconds} секунд",
+      "Засеки {seconds} секунд",
+      "Установи таймер длительностью {seconds} секунд"
+    ],
+    "en": [
+      "Start a {seconds} second countdown",
+      "Count down {seconds} seconds",
+      "Create a timer lasting {seconds} seconds"
+    ],
+    "de": [
+      "Starte einen Countdown von {seconds} Sekunden",
+      "Zähle {seconds} Sekunden herunter",
+      "Richte einen Timer für {seconds} Sekunden ein"
+    ],
+    "fr": [
+      "Démarre un compte à rebours de {seconds} secondes",
+      "Compte {seconds} secondes à rebours",
+      "Crée un minuteur d’une durée de {seconds} secondes"
+    ],
+    "es": [
+      "Inicia una cuenta atrás de {seconds} segundos",
+      "Cuenta {seconds} segundos hacia atrás",
+      "Crea un temporizador que dure {seconds} segundos"
+    ],
+    "it": [
+      "Avvia un conto alla rovescia di {seconds} secondi",
+      "Conta {seconds} secondi alla rovescia",
+      "Crea un timer della durata di {seconds} secondi"
+    ],
+    "pt": [
+      "Inicia uma contagem decrescente de {seconds} segundos",
+      "Conta {seconds} segundos para trás",
+      "Cria um temporizador com a duração de {seconds} segundos"
+    ]
+  },
+  "timer.reminder": {
+    "ru": [
+      "Через {seconds} секунд напомни о следующем: {label}",
+      "Поставь напоминание через {seconds} секунд: {label}",
+      "Уведоми меня через {seconds} секунд: {label}"
+    ],
+    "en": [
+      "In {seconds} seconds remind me about {label}",
+      "Set a reminder for {seconds} seconds from now: {label}",
+      "Notify me after {seconds} seconds: {label}"
+    ],
+    "de": [
+      "In {seconds} Sekunden brauche ich eine Erinnerung an {label}",
+      "Richte eine Erinnerung in {seconds} Sekunden ein: {label}",
+      "Benachrichtige mich nach {seconds} Sekunden: {label}"
+    ],
+    "fr": [
+      "Dans {seconds} secondes, rappelle-moi ceci : {label}",
+      "Programme un rappel dans {seconds} secondes : {label}",
+      "Préviens-moi après {seconds} secondes : {label}"
+    ],
+    "es": [
+      "Dentro de {seconds} segundos recuérdame esto: {label}",
+      "Programa un recordatorio para dentro de {seconds} segundos: {label}",
+      "Avísame después de {seconds} segundos: {label}"
+    ],
+    "it": [
+      "Tra {seconds} secondi ricordami questo: {label}",
+      "Imposta un promemoria tra {seconds} secondi: {label}",
+      "Avvisami dopo {seconds} secondi: {label}"
+    ],
+    "pt": [
+      "Daqui a {seconds} segundos lembra-me disto: {label}",
+      "Programa um lembrete para daqui a {seconds} segundos: {label}",
+      "Avisa-me após {seconds} segundos: {label}"
+    ]
+  },
+  "timer.alarm": {
+    "ru": [
+      "Разбуди меня в {text}",
+      "Установи время будильника: {text}",
+      "Создай будильник на {text}"
+    ],
+    "en": [
+      "Wake me at {text}",
+      "Schedule an alarm at {text}",
+      "Create an alarm for {text}"
+    ],
+    "de": [
+      "Wecke mich um {text}",
+      "Plane einen Weckruf für {text}",
+      "Richte einen Wecker für {text} ein"
+    ],
+    "fr": [
+      "Réveille-moi à {text}",
+      "Règle une alarme pour {text}",
+      "Crée un réveil à {text}"
+    ],
+    "es": [
+      "Despiértame a las {text}",
+      "Programa un despertador para las {text}",
+      "Crea una alarma para las {text}"
+    ],
+    "it": [
+      "Svegliami alle {text}",
+      "Programma un allarme per le {text}",
+      "Crea una sveglia per le {text}"
+    ],
+    "pt": [
+      "Acorda-me às {text}",
+      "Programa um despertador para as {text}",
+      "Cria um alarme para as {text}"
+    ]
+  },
+  "timer.list": {
+    "ru": [
+      "Какие таймеры и напоминания сейчас активны",
+      "Перечисли установленные напоминания и таймеры",
+      "Что у меня запланировано в таймерах и напоминаниях"
+    ],
+    "en": [
+      "Which timers and reminders are active",
+      "List the timers and reminders I have set",
+      "What is scheduled in my timers and reminders"
+    ],
+    "de": [
+      "Welche Timer und Erinnerungen sind aktiv",
+      "Liste meine eingerichteten Timer und Erinnerungen auf",
+      "Was ist bei meinen Timern und Erinnerungen geplant"
+    ],
+    "fr": [
+      "Quels minuteurs et rappels sont actifs",
+      "Énumère mes minuteurs et rappels programmés",
+      "Qu’ai-je prévu dans mes minuteurs et rappels"
+    ],
+    "es": [
+      "Qué temporizadores y recordatorios están activos",
+      "Enumera los temporizadores y recordatorios que he programado",
+      "Qué tengo programado en temporizadores y recordatorios"
+    ],
+    "it": [
+      "Quali timer e promemoria sono attivi",
+      "Elenca i timer e i promemoria che ho impostato",
+      "Che cosa ho programmato nei timer e nei promemoria"
+    ],
+    "pt": [
+      "Que temporizadores e lembretes estão ativos",
+      "Lista os temporizadores e lembretes que programei",
+      "O que tenho programado nos temporizadores e lembretes"
+    ]
+  },
+  "timer.cancel": {
+    "ru": [
+      "Удали таймер {id}",
+      "Останови таймер с номером {id}",
+      "Выключи отсчёт таймера {id}"
+    ],
+    "en": [
+      "Remove timer {id}",
+      "Stop the timer with ID {id}",
+      "Turn off the countdown for timer {id}"
+    ],
+    "de": [
+      "Entferne den Timer {id}",
+      "Stoppe den Timer mit der Kennung {id}",
+      "Schalte den Countdown des Timers {id} aus"
+    ],
+    "fr": [
+      "Supprime le minuteur {id}",
+      "Arrête le minuteur identifié par {id}",
+      "Coupe le compte à rebours du minuteur {id}"
+    ],
+    "es": [
+      "Elimina el temporizador {id}",
+      "Detén el temporizador con ID {id}",
+      "Apaga la cuenta atrás del temporizador {id}"
+    ],
+    "it": [
+      "Elimina il timer {id}",
+      "Ferma il timer con ID {id}",
+      "Disattiva il conto alla rovescia del timer {id}"
+    ],
+    "pt": [
+      "Remove o temporizador {id}",
+      "Para o temporizador com ID {id}",
+      "Desliga a contagem decrescente do temporizador {id}"
+    ]
+  },
+  "system_monitor.summary": {
+    "ru": [
+      "Какие ресурсы компьютера сейчас используются",
+      "Дай общую сводку загрузки системы",
+      "Проверь использование ресурсов ПК"
+    ],
+    "en": [
+      "How busy is my computer overall",
+      "Give me an overview of system resource use",
+      "Check my PC's resource consumption"
+    ],
+    "de": [
+      "Wie stark ist mein Computer insgesamt ausgelastet",
+      "Gib mir einen Überblick über die Systemressourcen",
+      "Prüfe den Ressourcenverbrauch meines PCs"
+    ],
+    "fr": [
+      "Quelle est la charge globale de mon ordinateur",
+      "Donne-moi un aperçu des ressources système utilisées",
+      "Vérifie la consommation des ressources du PC"
+    ],
+    "es": [
+      "Qué carga total tiene el ordenador",
+      "Dame un resumen del consumo de recursos del sistema",
+      "Comprueba el consumo de recursos de mi PC"
+    ],
+    "it": [
+      "Quanto è occupato il computer nel complesso",
+      "Dammi una panoramica delle risorse di sistema utilizzate",
+      "Controlla il consumo di risorse del PC"
+    ],
+    "pt": [
+      "Qual é a carga global do computador",
+      "Dá-me um resumo do consumo de recursos do sistema",
+      "Verifica o consumo de recursos do PC"
+    ]
+  },
+  "system_monitor.cpu": {
+    "ru": [
+      "На сколько процентов занят процессор",
+      "Проверь использование CPU",
+      "Покажи текущую нагрузку на ЦП"
+    ],
+    "en": [
+      "What percentage of the CPU is busy",
+      "Check processor utilization",
+      "Show the current load on the CPU"
+    ],
+    "de": [
+      "Zu wie viel Prozent ist die CPU ausgelastet",
+      "Prüfe die Prozessornutzung",
+      "Zeige die momentane Last auf der CPU"
+    ],
+    "fr": [
+      "À quel pourcentage le processeur est-il occupé",
+      "Vérifie la charge du CPU",
+      "Montre la consommation actuelle du processeur"
+    ],
+    "es": [
+      "Qué porcentaje de CPU se está usando",
+      "Comprueba la carga del procesador",
+      "Enséñame la utilización actual de la CPU"
+    ],
+    "it": [
+      "Quale percentuale della CPU è occupata",
+      "Controlla il carico del processore",
+      "Mostra l’utilizzo attuale della CPU"
+    ],
+    "pt": [
+      "Que percentagem da CPU está ocupada",
+      "Verifica a carga do processador",
+      "Mostra a utilização atual da CPU"
+    ]
+  },
+  "system_monitor.gpu": {
+    "ru": [
+      "Насколько загружен графический процессор",
+      "Проверь использование GPU",
+      "Какая сейчас загрузка видеокарты"
+    ],
+    "en": [
+      "How busy is the graphics processor",
+      "Check GPU utilization",
+      "What is the current load on my graphics card"
+    ],
+    "de": [
+      "Wie stark ist der Grafikprozessor beschäftigt",
+      "Prüfe die GPU-Nutzung",
+      "Wie hoch ist die aktuelle Last der Grafikkarte"
+    ],
+    "fr": [
+      "Quelle est la charge du processeur graphique",
+      "Vérifie l’utilisation du GPU",
+      "À quel point ma carte graphique est-elle occupée"
+    ],
+    "es": [
+      "Qué carga tiene el procesador gráfico",
+      "Comprueba la utilización de la GPU",
+      "Cuál es la carga actual de mi tarjeta gráfica"
+    ],
+    "it": [
+      "Quanto è occupato il processore grafico",
+      "Controlla l’utilizzo della GPU",
+      "Qual è il carico attuale della scheda grafica"
+    ],
+    "pt": [
+      "Qual é a carga do processador gráfico",
+      "Verifica a utilização da GPU",
+      "Qual é a carga atual da placa gráfica"
+    ]
+  },
+  "system_monitor.memory": {
+    "ru": [
+      "Покажи использование ОЗУ",
+      "Проверь загрузку оперативной памяти",
+      "Какой объём RAM сейчас используется"
+    ],
+    "en": [
+      "Show RAM consumption",
+      "Check memory utilization",
+      "What amount of RAM is currently occupied"
+    ],
+    "de": [
+      "Zeige den RAM-Verbrauch",
+      "Prüfe die Arbeitsspeicherauslastung",
+      "Welche Menge RAM wird gerade verwendet"
+    ],
+    "fr": [
+      "Affiche la consommation de RAM",
+      "Vérifie l’utilisation de la mémoire vive",
+      "Combien de RAM est occupée actuellement"
+    ],
+    "es": [
+      "Muestra el consumo de RAM",
+      "Comprueba la utilización de la memoria",
+      "Qué cantidad de RAM está ocupada ahora"
+    ],
+    "it": [
+      "Mostra il consumo di RAM",
+      "Controlla l’utilizzo della memoria",
+      "Quale quantità di RAM è occupata adesso"
+    ],
+    "pt": [
+      "Mostra o consumo de RAM",
+      "Verifica a utilização da memória",
+      "Que quantidade de RAM está ocupada agora"
+    ]
+  },
+  "system_monitor.disks": {
+    "ru": [
+      "Проверь оставшееся место на накопителях",
+      "Покажи свободный объём каждого диска",
+      "Насколько заполнены диски компьютера"
+    ],
+    "en": [
+      "Check the space left on my drives",
+      "Show the free capacity of each disk",
+      "How full are my computer's drives"
+    ],
+    "de": [
+      "Prüfe den verbleibenden Platz auf meinen Laufwerken",
+      "Zeige den freien Speicherplatz jeder Festplatte",
+      "Wie voll sind die Laufwerke meines Computers"
+    ],
+    "fr": [
+      "Vérifie l’espace restant sur mes disques",
+      "Affiche la capacité libre de chaque disque",
+      "À quel point les disques sont-ils remplis"
+    ],
+    "es": [
+      "Comprueba el espacio restante en mis unidades",
+      "Muestra la capacidad libre de cada disco",
+      "Cuánto se han llenado los discos del ordenador"
+    ],
+    "it": [
+      "Controlla lo spazio rimasto sulle unità",
+      "Mostra la capacità libera di ogni disco",
+      "Quanto sono pieni i dischi del computer"
+    ],
+    "pt": [
+      "Verifica o espaço restante nas unidades",
+      "Mostra a capacidade livre de cada disco",
+      "Quão cheios estão os discos do computador"
+    ]
+  },
+  "system_monitor.network": {
+    "ru": [
+      "Проверь сетевые интерфейсы компьютера",
+      "Какие сетевые подключения сейчас активны",
+      "Дай сводку состояния сети на ПК"
+    ],
+    "en": [
+      "Check my computer's network interfaces",
+      "Which network connections are currently active",
+      "Give me a summary of this PC's network status"
+    ],
+    "de": [
+      "Prüfe die Netzwerkschnittstellen meines Computers",
+      "Welche Netzwerkverbindungen sind gerade aktiv",
+      "Gib mir eine Übersicht zum Netzwerkstatus des PCs"
+    ],
+    "fr": [
+      "Vérifie les interfaces réseau de mon ordinateur",
+      "Quelles connexions réseau sont actives",
+      "Donne-moi un bilan de l’état du réseau du PC"
+    ],
+    "es": [
+      "Comprueba las interfaces de red del ordenador",
+      "Qué conexiones de red están activas",
+      "Dame un resumen del estado de red del PC"
+    ],
+    "it": [
+      "Controlla le interfacce di rete del computer",
+      "Quali connessioni di rete sono attive",
+      "Dammi un riepilogo dello stato della rete del PC"
+    ],
+    "pt": [
+      "Verifica as interfaces de rede do computador",
+      "Que ligações de rede estão ativas",
+      "Dá-me um resumo do estado da rede do PC"
+    ]
+  },
+  "weather.summary": {
+    "ru": [
+      "Дай общий обзор погоды в городе {city}",
+      "Какая погодная обстановка в городе {city}",
+      "Расскажи погодную сводку для города {city}"
+    ],
+    "en": [
+      "Give me a weather overview for {city}",
+      "What's the weather situation in {city}",
+      "Read the weather report for {city}"
+    ],
+    "de": [
+      "Gib mir einen Wetterüberblick für {city}",
+      "Wie sieht die Wetterlage in {city} aus",
+      "Lies den Wetterbericht für {city} vor"
+    ],
+    "fr": [
+      "Donne-moi un aperçu météo pour {city}",
+      "Quelle est la situation météo à {city}",
+      "Lis le bulletin météo de {city}"
+    ],
+    "es": [
+      "Dame un resumen del tiempo en {city}",
+      "Cuál es la situación meteorológica en {city}",
+      "Lee el informe del tiempo para {city}"
+    ],
+    "it": [
+      "Dammi un quadro del tempo a {city}",
+      "Qual è la situazione meteorologica a {city}",
+      "Leggi il bollettino meteo di {city}"
+    ],
+    "pt": [
+      "Dá-me um resumo do tempo em {city}",
+      "Qual é a situação meteorológica em {city}",
+      "Lê o boletim meteorológico de {city}"
+    ]
+  },
+  "weather.current": {
+    "ru": [
+      "Что сейчас с погодой в городе {city}",
+      "Покажи текущую погоду для города {city}",
+      "Какие погодные условия в эту минуту в городе {city}"
+    ],
+    "en": [
+      "What's the weather right now in {city}",
+      "Show current weather conditions for {city}",
+      "How is the weather in {city} at this moment"
+    ],
+    "de": [
+      "Wie ist das Wetter gerade in {city}",
+      "Zeige die aktuellen Wetterbedingungen für {city}",
+      "Welches Wetter herrscht in diesem Moment in {city}"
+    ],
+    "fr": [
+      "Quel temps fait-il en ce moment à {city}",
+      "Affiche les conditions météo actuelles de {city}",
+      "Comment est le temps à {city} maintenant"
+    ],
+    "es": [
+      "Qué tiempo hace ahora mismo en {city}",
+      "Muestra las condiciones meteorológicas actuales de {city}",
+      "Cómo está el tiempo en este momento en {city}"
+    ],
+    "it": [
+      "Che tempo fa adesso a {city}",
+      "Mostra le condizioni meteo attuali di {city}",
+      "Com’è il tempo in questo momento a {city}"
+    ],
+    "pt": [
+      "Como está o tempo agora em {city}",
+      "Mostra as condições meteorológicas atuais de {city}",
+      "Que tempo faz neste momento em {city}"
+    ]
+  },
+  "weather.temperature": {
+    "ru": [
+      "Какая температура воздуха в городе {city}",
+      "Покажи температуру для города {city}",
+      "Узнай, сколько градусов сейчас в городе {city}"
+    ],
+    "en": [
+      "What is the air temperature in {city}",
+      "Show the temperature for {city}",
+      "How many degrees is it now in {city}"
+    ],
+    "de": [
+      "Wie hoch ist die Lufttemperatur in {city}",
+      "Zeige die Temperatur für {city}",
+      "Wie viel Grad sind es gerade in {city}"
+    ],
+    "fr": [
+      "Quelle est la température de l’air à {city}",
+      "Affiche la température à {city}",
+      "Combien de degrés fait-il maintenant à {city}"
+    ],
+    "es": [
+      "Cuál es la temperatura del aire en {city}",
+      "Muestra la temperatura de {city}",
+      "Cuántos grados hace ahora en {city}"
+    ],
+    "it": [
+      "Qual è la temperatura dell’aria a {city}",
+      "Mostra la temperatura di {city}",
+      "Quanti gradi ci sono adesso a {city}"
+    ],
+    "pt": [
+      "Qual é a temperatura do ar em {city}",
+      "Mostra a temperatura de {city}",
+      "Quantos graus estão agora em {city}"
+    ]
+  },
+  "weather.forecast": {
+    "ru": [
+      "Какой прогноз для города {city}",
+      "Какая погода ожидается в городе {city}",
+      "Узнай прогноз погоды по городу {city}"
+    ],
+    "en": [
+      "What's the forecast for {city}",
+      "What weather is expected in {city}",
+      "Get the weather outlook for {city}"
+    ],
+    "de": [
+      "Wie lautet die Vorhersage für {city}",
+      "Welches Wetter wird in {city} erwartet",
+      "Rufe die Wetteraussichten für {city} ab"
+    ],
+    "fr": [
+      "Quelles sont les prévisions pour {city}",
+      "Quel temps est attendu à {city}",
+      "Consulte les prévisions météo de {city}"
+    ],
+    "es": [
+      "Cuál es el pronóstico para {city}",
+      "Qué tiempo se espera en {city}",
+      "Consulta la previsión meteorológica de {city}"
+    ],
+    "it": [
+      "Quali sono le previsioni per {city}",
+      "Che tempo è previsto a {city}",
+      "Consulta le prospettive meteo per {city}"
+    ],
+    "pt": [
+      "Qual é a previsão para {city}",
+      "Que tempo se espera em {city}",
+      "Consulta as previsões meteorológicas de {city}"
+    ]
+  },
+  "weather.rain": {
+    "ru": [
+      "Ожидается ли дождь в городе {city}",
+      "Проверь прогноз дождя для города {city}",
+      "Есть ли вероятность дождя в городе {city}"
+    ],
+    "en": [
+      "Is rain expected in {city}",
+      "Check the rain forecast for {city}",
+      "Is there a chance of rain in {city}"
+    ],
+    "de": [
+      "Ist Regen in {city} zu erwarten",
+      "Prüfe die Regenvorhersage für {city}",
+      "Gibt es eine Regenwahrscheinlichkeit für {city}"
+    ],
+    "fr": [
+      "De la pluie est-elle attendue à {city}",
+      "Vérifie les prévisions de pluie pour {city}",
+      "Y a-t-il un risque de pluie à {city}"
+    ],
+    "es": [
+      "Se espera lluvia en {city}",
+      "Comprueba el pronóstico de lluvia para {city}",
+      "Hay probabilidad de lluvia en {city}"
+    ],
+    "it": [
+      "È prevista pioggia a {city}",
+      "Controlla le previsioni di pioggia per {city}",
+      "C’è probabilità di pioggia a {city}"
+    ],
+    "pt": [
+      "Espera-se chuva em {city}",
+      "Verifica a previsão de chuva para {city}",
+      "Há probabilidade de chuva em {city}"
+    ]
+  },
+  "weather.precipitation": {
+    "ru": [
+      "Расскажи об ожидаемых осадках в городе {city}",
+      "Проверь прогноз осадков для города {city}",
+      "Покажи сведения об осадках в городе {city}"
+    ],
+    "en": [
+      "Tell me about expected precipitation in {city}",
+      "Check the precipitation forecast for {city}",
+      "Show precipitation information for {city}"
+    ],
+    "de": [
+      "Informiere mich über erwartete Niederschläge in {city}",
+      "Prüfe die Niederschlagsvorhersage für {city}",
+      "Zeige die Niederschlagsdaten für {city}"
+    ],
+    "fr": [
+      "Parle-moi des précipitations attendues à {city}",
+      "Vérifie les prévisions de précipitations pour {city}",
+      "Affiche les données de précipitations pour {city}"
+    ],
+    "es": [
+      "Háblame de las precipitaciones previstas en {city}",
+      "Comprueba el pronóstico de precipitaciones para {city}",
+      "Muestra los datos de precipitaciones de {city}"
+    ],
+    "it": [
+      "Parlami delle precipitazioni previste a {city}",
+      "Controlla le previsioni delle precipitazioni per {city}",
+      "Mostra i dati sulle precipitazioni a {city}"
+    ],
+    "pt": [
+      "Fala-me da precipitação prevista em {city}",
+      "Verifica as previsões de precipitação para {city}",
+      "Mostra os dados de precipitação de {city}"
+    ]
+  },
+  "weather.humidity": {
+    "ru": [
+      "Покажи уровень влажности для города {city}",
+      "Насколько влажный воздух в городе {city}",
+      "Узнай процент влажности в городе {city}"
+    ],
+    "en": [
+      "Show the humidity level for {city}",
+      "How humid is the air in {city}",
+      "Find the humidity percentage in {city}"
+    ],
+    "de": [
+      "Zeige den Feuchtigkeitswert für {city}",
+      "Wie feucht ist die Luft in {city}",
+      "Ermittle die Luftfeuchtigkeit in Prozent für {city}"
+    ],
+    "fr": [
+      "Affiche le niveau d’humidité de {city}",
+      "L’air est-il humide à {city}",
+      "Trouve le pourcentage d’humidité à {city}"
+    ],
+    "es": [
+      "Muestra el nivel de humedad de {city}",
+      "Qué tan húmedo está el aire en {city}",
+      "Averigua el porcentaje de humedad en {city}"
+    ],
+    "it": [
+      "Mostra il livello di umidità di {city}",
+      "Quanto è umida l’aria a {city}",
+      "Trova la percentuale di umidità a {city}"
+    ],
+    "pt": [
+      "Mostra o nível de humidade de {city}",
+      "Quão húmido está o ar em {city}",
+      "Descobre a percentagem de humidade em {city}"
+    ]
+  },
+  "weather.wind": {
+    "ru": [
+      "Покажи скорость и направление ветра в городе {city}",
+      "Насколько сильный ветер в городе {city}",
+      "Узнай параметры ветра для города {city}"
+    ],
+    "en": [
+      "Show wind speed and direction in {city}",
+      "How strong is the wind in {city}",
+      "Get wind conditions for {city}"
+    ],
+    "de": [
+      "Zeige Windgeschwindigkeit und Windrichtung in {city}",
+      "Wie stark weht der Wind in {city}",
+      "Rufe die Winddaten für {city} ab"
+    ],
+    "fr": [
+      "Affiche la vitesse et la direction du vent à {city}",
+      "Quelle est la force du vent à {city}",
+      "Consulte les conditions de vent à {city}"
+    ],
+    "es": [
+      "Muestra la velocidad y dirección del viento en {city}",
+      "Qué fuerza tiene el viento en {city}",
+      "Consulta las condiciones del viento para {city}"
+    ],
+    "it": [
+      "Mostra velocità e direzione del vento a {city}",
+      "Quanto è forte il vento a {city}",
+      "Consulta i dati del vento per {city}"
+    ],
+    "pt": [
+      "Mostra a velocidade e a direção do vento em {city}",
+      "Qual é a força do vento em {city}",
+      "Consulta as condições de vento para {city}"
+    ]
+  },
+  "weather.sunrise": {
+    "ru": [
+      "Когда встаёт солнце в городе {city}",
+      "Узнай время рассвета для города {city}",
+      "Покажи время восхода в городе {city}"
+    ],
+    "en": [
+      "When does the sun come up in {city}",
+      "Find sunrise time for {city}",
+      "Show when sunrise happens in {city}"
+    ],
+    "de": [
+      "Wann beginnt der Sonnenaufgang in {city}",
+      "Ermittle die Sonnenaufgangszeit für {city}",
+      "Zeige, wann die Sonne in {city} aufgeht"
+    ],
+    "fr": [
+      "Quand le soleil se lève-t-il à {city}",
+      "Trouve l’heure du lever du soleil à {city}",
+      "Affiche l’horaire du lever du soleil pour {city}"
+    ],
+    "es": [
+      "Cuándo amanece en {city}",
+      "Averigua la hora del amanecer en {city}",
+      "Muestra el horario de salida del sol en {city}"
+    ],
+    "it": [
+      "Quando sorge il sole a {city}",
+      "Trova l’orario dell’alba per {city}",
+      "Mostra l’ora del sorgere del sole a {city}"
+    ],
+    "pt": [
+      "Quando nasce o sol em {city}",
+      "Descobre a hora do nascer do sol em {city}",
+      "Mostra o horário do nascer do sol para {city}"
+    ]
+  },
+  "weather.sunset": {
+    "ru": [
+      "Когда садится солнце в городе {city}",
+      "Узнай время захода солнца для города {city}",
+      "Покажи время заката в городе {city}"
+    ],
+    "en": [
+      "When does the sun go down in {city}",
+      "Find sunset time for {city}",
+      "Show when sunset happens in {city}"
+    ],
+    "de": [
+      "Wann beginnt der Sonnenuntergang in {city}",
+      "Ermittle die Sonnenuntergangszeit für {city}",
+      "Zeige, wann die Sonne in {city} untergeht"
+    ],
+    "fr": [
+      "Quand le soleil se couche-t-il à {city}",
+      "Trouve l’heure du coucher du soleil à {city}",
+      "Affiche l’horaire du coucher du soleil pour {city}"
+    ],
+    "es": [
+      "Cuándo anochece en {city}",
+      "Averigua la hora de la puesta del sol en {city}",
+      "Muestra el horario del atardecer en {city}"
+    ],
+    "it": [
+      "Quando tramonta il sole a {city}",
+      "Trova l’orario del tramonto per {city}",
+      "Mostra l’ora in cui il sole tramonta a {city}"
+    ],
+    "pt": [
+      "Quando se põe o sol em {city}",
+      "Descobre a hora do pôr do sol em {city}",
+      "Mostra o horário do pôr do sol para {city}"
+    ]
+  },
+  "google_calendar.status": {
+    "ru": [
+      "Работает ли связь с календарём Google",
+      "Проверь состояние интеграции Google Calendar",
+      "Доступен ли мой календарь Google"
+    ],
+    "en": [
+      "Is my Google Calendar connected",
+      "Check the Google Calendar integration status",
+      "Can you access my Google Calendar"
+    ],
+    "de": [
+      "Ist mein Google Kalender verbunden",
+      "Prüfe den Status der Google-Kalender-Anbindung",
+      "Ist mein Google Kalender erreichbar"
+    ],
+    "fr": [
+      "Mon agenda Google est-il connecté",
+      "Vérifie l’état de l’intégration Google Agenda",
+      "Mon agenda Google est-il accessible"
+    ],
+    "es": [
+      "Está conectado mi calendario de Google",
+      "Comprueba el estado de la integración con Google Calendar",
+      "Tienes acceso a mi calendario de Google"
+    ],
+    "it": [
+      "Il mio calendario Google è collegato",
+      "Verifica lo stato dell’integrazione Google Calendar",
+      "Il mio calendario Google è accessibile"
+    ],
+    "pt": [
+      "O meu calendário Google está ligado",
+      "Verifica o estado da integração Google Calendar",
+      "Consegues aceder ao meu calendário Google"
+    ]
+  },
+  "google_calendar.today": {
+    "ru": [
+      "Что запланировано в календаре на сегодня",
+      "Покажи сегодняшние встречи из календаря",
+      "Перечисли события календаря за сегодня"
+    ],
+    "en": [
+      "What's scheduled in my calendar for today",
+      "Show today's calendar appointments",
+      "List today's calendar events"
+    ],
+    "de": [
+      "Was ist heute in meinem Kalender geplant",
+      "Zeige die heutigen Kalendereinträge",
+      "Liste die Termine für heute auf"
+    ],
+    "fr": [
+      "Qu’ai-je de prévu dans mon agenda aujourd’hui",
+      "Montre les rendez-vous du calendrier pour aujourd’hui",
+      "Énumère les événements du calendrier d’aujourd’hui"
+    ],
+    "es": [
+      "Qué tengo programado en el calendario para hoy",
+      "Muestra las citas del calendario de hoy",
+      "Enumera los eventos del calendario de hoy"
+    ],
+    "it": [
+      "Che cosa è previsto nel calendario per oggi",
+      "Mostra gli appuntamenti in calendario di oggi",
+      "Elenca gli eventi del calendario di oggi"
+    ],
+    "pt": [
+      "O que está marcado no calendário para hoje",
+      "Mostra os compromissos de hoje no calendário",
+      "Lista os eventos do calendário de hoje"
+    ]
+  },
+  "google_calendar.tomorrow": {
+    "ru": [
+      "Что запланировано в календаре на завтра",
+      "Покажи завтрашние встречи из календаря",
+      "Перечисли события календаря за завтра"
+    ],
+    "en": [
+      "What's scheduled in my calendar for tomorrow",
+      "Show tomorrow's calendar appointments",
+      "List tomorrow's calendar events"
+    ],
+    "de": [
+      "Was ist morgen in meinem Kalender geplant",
+      "Zeige die morgigen Kalendereinträge",
+      "Liste die Termine für morgen auf"
+    ],
+    "fr": [
+      "Qu’ai-je de prévu dans mon agenda demain",
+      "Montre les rendez-vous du calendrier pour demain",
+      "Énumère les événements du calendrier de demain"
+    ],
+    "es": [
+      "Qué tengo programado en el calendario para mañana",
+      "Muestra las citas del calendario de mañana",
+      "Enumera los eventos del calendario de mañana"
+    ],
+    "it": [
+      "Che cosa è previsto nel calendario per domani",
+      "Mostra gli appuntamenti in calendario di domani",
+      "Elenca gli eventi del calendario di domani"
+    ],
+    "pt": [
+      "O que está marcado no calendário para amanhã",
+      "Mostra os compromissos de amanhã no calendário",
+      "Lista os eventos do calendário de amanhã"
+    ]
+  },
+  "google_calendar.upcoming": {
+    "ru": [
+      "Какие ближайшие встречи запланированы в календаре",
+      "Перечисли будущие события моего календаря",
+      "Что предстоит по календарю"
+    ],
+    "en": [
+      "What appointments are coming up in my calendar",
+      "List my future calendar events",
+      "What's coming up on my schedule"
+    ],
+    "de": [
+      "Welche Kalendertermine stehen bald an",
+      "Liste meine zukünftigen Kalendereinträge auf",
+      "Was steht demnächst im Kalender an"
+    ],
+    "fr": [
+      "Quels rendez-vous arrivent dans mon agenda",
+      "Énumère les événements à venir de mon calendrier",
+      "Qu’est-ce qui est prévu prochainement dans mon agenda"
+    ],
+    "es": [
+      "Qué citas se acercan en mi calendario",
+      "Enumera mis futuros eventos del calendario",
+      "Qué viene próximamente en mi agenda"
+    ],
+    "it": [
+      "Quali appuntamenti si avvicinano nel calendario",
+      "Elenca i miei eventi futuri in calendario",
+      "Che cosa è previsto prossimamente nella mia agenda"
+    ],
+    "pt": [
+      "Que compromissos se aproximam no calendário",
+      "Lista os meus eventos futuros no calendário",
+      "O que está previsto em breve na minha agenda"
+    ]
+  },
+  "google_calendar.list": {
+    "ru": [
+      "Что у меня в календаре на {date}",
+      "Какие встречи назначены в календаре на {date}",
+      "Дай список событий календаря за {date}"
+    ],
+    "en": [
+      "What's on my calendar for {date}",
+      "What appointments are scheduled for {date}",
+      "Give me the calendar agenda for {date}"
+    ],
+    "de": [
+      "Was steht für {date} in meinem Kalender",
+      "Welche Termine sind für {date} geplant",
+      "Gib mir die Kalenderübersicht für {date}"
+    ],
+    "fr": [
+      "Qu’y a-t-il dans mon agenda pour {date}",
+      "Quels rendez-vous sont prévus pour {date}",
+      "Donne-moi le programme du calendrier pour {date}"
+    ],
+    "es": [
+      "Qué hay en mi calendario para {date}",
+      "Qué citas están programadas para {date}",
+      "Dame la agenda del calendario para {date}"
+    ],
+    "it": [
+      "Che cosa c’è nel calendario per {date}",
+      "Quali appuntamenti sono fissati per {date}",
+      "Dammi il programma del calendario per {date}"
+    ],
+    "pt": [
+      "O que há no meu calendário para {date}",
+      "Que compromissos estão marcados para {date}",
+      "Dá-me a agenda do calendário para {date}"
+    ]
+  },
+  "google_calendar.all": {
+    "ru": [
+      "Перечисли весь мой календарь",
+      "Дай полный список календарных событий",
+      "Какие события вообще есть в календаре"
+    ],
+    "en": [
+      "List my entire calendar",
+      "Give me the complete list of calendar events",
+      "What events are in my calendar altogether"
+    ],
+    "de": [
+      "Liste meinen gesamten Kalender auf",
+      "Gib mir die vollständige Liste der Kalendertermine",
+      "Welche Einträge gibt es insgesamt in meinem Kalender"
+    ],
+    "fr": [
+      "Énumère tout mon calendrier",
+      "Donne-moi la liste complète des événements de mon agenda",
+      "Quels événements contient mon calendrier au total"
+    ],
+    "es": [
+      "Enumera todo mi calendario",
+      "Dame la lista completa de eventos del calendario",
+      "Qué eventos contiene mi calendario en total"
+    ],
+    "it": [
+      "Elenca tutto il mio calendario",
+      "Dammi l’elenco completo degli eventi in calendario",
+      "Quali eventi contiene il mio calendario nel complesso"
+    ],
+    "pt": [
+      "Lista todo o meu calendário",
+      "Dá-me a lista completa dos eventos do calendário",
+      "Que eventos existem no meu calendário ao todo"
+    ]
+  },
+  "google_calendar.next": {
+    "ru": [
+      "Что у меня дальше по календарю",
+      "Назови ближайший календарный приём или встречу",
+      "Покажи следующий пункт моего календаря"
+    ],
+    "en": [
+      "What's next on my calendar",
+      "Tell me my nearest calendar appointment",
+      "Show the next item on my calendar"
+    ],
+    "de": [
+      "Was kommt als Nächstes in meinem Kalender",
+      "Nenne meinen unmittelbar nächsten Kalendertermin",
+      "Zeige den nächsten Eintrag meines Kalenders"
+    ],
+    "fr": [
+      "Quelle est la prochaine chose dans mon agenda",
+      "Indique mon rendez-vous le plus proche",
+      "Affiche la prochaine entrée de mon calendrier"
+    ],
+    "es": [
+      "Qué viene después en mi calendario",
+      "Dime cuál es mi cita más próxima",
+      "Muestra la siguiente entrada de mi calendario"
+    ],
+    "it": [
+      "Che cosa viene dopo nel mio calendario",
+      "Dimmi il mio appuntamento più vicino",
+      "Mostra la prossima voce del mio calendario"
+    ],
+    "pt": [
+      "O que vem a seguir no meu calendário",
+      "Diz-me qual é o meu compromisso mais próximo",
+      "Mostra a próxima entrada do meu calendário"
+    ]
+  },
+  "google_calendar.add": {
+    "ru": [
+      "Создай событие {title} в календаре на {date} в {time}",
+      "Запланируй в календаре {title} на {date} в {time}",
+      "Запиши в мой календарь {title}, дата {date}, время {time}"
+    ],
+    "en": [
+      "Create a calendar event called {title} on {date} at {time}",
+      "Schedule {title} in my calendar for {date} at {time}",
+      "Put {title} on my calendar for {date} at {time}"
+    ],
+    "de": [
+      "Erstelle einen Kalendertermin namens {title} am {date} um {time}",
+      "Plane {title} im Kalender für {date} um {time}",
+      "Füge meinem Kalender {title} am {date} um {time} hinzu"
+    ],
+    "fr": [
+      "Crée un événement intitulé {title} dans l’agenda le {date} à {time}",
+      "Planifie {title} dans mon calendrier le {date} à {time}",
+      "Inscris {title} dans mon agenda pour le {date} à {time}"
+    ],
+    "es": [
+      "Crea un evento llamado {title} en el calendario el {date} a las {time}",
+      "Programa {title} en mi calendario para el {date} a las {time}",
+      "Apunta {title} en mi agenda para el {date} a las {time}"
+    ],
+    "it": [
+      "Crea un evento chiamato {title} nel calendario il {date} alle {time}",
+      "Programma {title} nel mio calendario per il {date} alle {time}",
+      "Segna {title} nella mia agenda per il {date} alle {time}"
+    ],
+    "pt": [
+      "Cria um evento chamado {title} no calendário no dia {date} às {time}",
+      "Programa {title} no meu calendário para {date} às {time}",
+      "Marca {title} na minha agenda para {date} às {time}"
+    ]
+  },
+  "google_calendar.update": {
+    "ru": [
+      "Измени название события {event_id} на {title}",
+      "Для события календаря {event_id} задай название {title}",
+      "Обнови заголовок календарного события {event_id}: {title}"
+    ],
+    "en": [
+      "Change the title of calendar event {event_id} to {title}",
+      "Set the name of calendar event {event_id} to {title}",
+      "Update calendar event {event_id} with the title {title}"
+    ],
+    "de": [
+      "Ändere den Titel des Kalendertermins {event_id} zu {title}",
+      "Setze den Namen des Kalendereintrags {event_id} auf {title}",
+      "Aktualisiere den Titel von Kalendertermin {event_id}: {title}"
+    ],
+    "fr": [
+      "Change le titre de l’événement {event_id} en {title}",
+      "Donne le nom {title} à l’événement {event_id} du calendrier",
+      "Mets à jour le titre de l’événement {event_id} : {title}"
+    ],
+    "es": [
+      "Cambia el título del evento {event_id} a {title}",
+      "Pon el nombre {title} al evento {event_id} del calendario",
+      "Actualiza el título del evento {event_id}: {title}"
+    ],
+    "it": [
+      "Cambia il titolo dell’evento {event_id} in {title}",
+      "Assegna il nome {title} all’evento {event_id} del calendario",
+      "Aggiorna il titolo dell’evento {event_id}: {title}"
+    ],
+    "pt": [
+      "Altera o título do evento {event_id} para {title}",
+      "Define o nome {title} para o evento {event_id} do calendário",
+      "Atualiza o título do evento {event_id}: {title}"
+    ]
+  },
+  "google_calendar.delete": {
+    "ru": [
+      "Отмени календарное событие {event_id}",
+      "Убери из расписания событие {event_id}",
+      "Сотри запись {event_id} из календаря"
+    ],
+    "en": [
+      "Cancel calendar event {event_id}",
+      "Remove event {event_id} from my schedule",
+      "Erase the calendar entry {event_id}"
+    ],
+    "de": [
+      "Sage den Kalendertermin {event_id} ab",
+      "Entferne den Termin {event_id} aus meinem Zeitplan",
+      "Streiche den Kalendereintrag {event_id}"
+    ],
+    "fr": [
+      "Annule l’événement {event_id} du calendrier",
+      "Retire l’événement {event_id} de mon planning",
+      "Efface l’entrée {event_id} de mon agenda"
+    ],
+    "es": [
+      "Cancela el evento {event_id} del calendario",
+      "Quita el evento {event_id} de mi agenda",
+      "Borra la entrada {event_id} del calendario"
+    ],
+    "it": [
+      "Annulla l’evento {event_id} del calendario",
+      "Rimuovi l’evento {event_id} dalla mia agenda",
+      "Cancella la voce {event_id} dal calendario"
+    ],
+    "pt": [
+      "Cancela o evento {event_id} do calendário",
+      "Retira o evento {event_id} da minha agenda",
+      "Apaga a entrada {event_id} do calendário"
+    ]
+  },
+  "telegram_messages.status": {
+    "ru": [
+      "Работает ли доступ к сообщениям Telegram",
+      "Каково состояние подключения Telegram для сообщений",
+      "Доступна ли переписка в Telegram"
+    ],
+    "en": [
+      "Is access to Telegram messages working",
+      "What's the connection status for Telegram messaging",
+      "Are my Telegram messages accessible"
+    ],
+    "de": [
+      "Funktioniert der Zugriff auf Telegram-Nachrichten",
+      "Wie ist der Verbindungsstatus für Telegram-Nachrichten",
+      "Sind meine Telegram-Chats erreichbar"
+    ],
+    "fr": [
+      "L’accès aux messages Telegram fonctionne-t-il",
+      "Quel est l’état de connexion de la messagerie Telegram",
+      "Mes messages Telegram sont-ils accessibles"
+    ],
+    "es": [
+      "Funciona el acceso a los mensajes de Telegram",
+      "Cuál es el estado de conexión de la mensajería de Telegram",
+      "Están accesibles mis mensajes de Telegram"
+    ],
+    "it": [
+      "Funziona l’accesso ai messaggi Telegram",
+      "Qual è lo stato della connessione ai messaggi Telegram",
+      "I miei messaggi Telegram sono accessibili"
+    ],
+    "pt": [
+      "O acesso às mensagens do Telegram funciona",
+      "Qual é o estado da ligação às mensagens do Telegram",
+      "As minhas mensagens do Telegram estão acessíveis"
+    ]
+  },
+  "telegram_messages.count": {
+    "ru": [
+      "Посчитай непрочитанные сообщения Telegram",
+      "Сколько сообщений в Telegram ещё не прочитано",
+      "Назови количество непрочитанных в Telegram"
+    ],
+    "en": [
+      "Count my unread Telegram messages",
+      "How many Telegram messages haven't I read",
+      "Tell me the number of unread messages in Telegram"
+    ],
+    "de": [
+      "Zähle meine ungelesenen Telegram-Nachrichten",
+      "Wie viele Telegram-Nachrichten habe ich noch nicht gelesen",
+      "Nenne die Anzahl ungelesener Nachrichten in Telegram"
+    ],
+    "fr": [
+      "Compte mes messages Telegram non lus",
+      "Combien de messages Telegram n’ai-je pas encore lus",
+      "Indique le nombre de messages non lus sur Telegram"
+    ],
+    "es": [
+      "Cuenta mis mensajes sin leer de Telegram",
+      "Cuántos mensajes de Telegram no he leído todavía",
+      "Dime el número de mensajes no leídos en Telegram"
+    ],
+    "it": [
+      "Conta i miei messaggi Telegram non letti",
+      "Quanti messaggi Telegram non ho ancora letto",
+      "Dimmi il numero di messaggi non letti su Telegram"
+    ],
+    "pt": [
+      "Conta as minhas mensagens por ler no Telegram",
+      "Quantas mensagens do Telegram ainda não li",
+      "Diz-me o número de mensagens não lidas no Telegram"
+    ]
+  },
+  "telegram_messages.recent": {
+    "ru": [
+      "Какие сообщения недавно пришли в Telegram",
+      "Дай список последних сообщений Telegram",
+      "Прочитай недавнюю переписку в Telegram"
+    ],
+    "en": [
+      "What messages came in recently on Telegram",
+      "Give me a list of the most recent Telegram messages",
+      "Read recent Telegram conversations"
+    ],
+    "de": [
+      "Welche Nachrichten sind kürzlich auf Telegram eingegangen",
+      "Gib mir eine Liste der jüngsten Telegram-Nachrichten",
+      "Lies die kürzlichen Telegram-Chats vor"
+    ],
+    "fr": [
+      "Quels messages sont arrivés récemment sur Telegram",
+      "Donne-moi la liste des messages Telegram les plus récents",
+      "Lis les conversations Telegram récentes"
+    ],
+    "es": [
+      "Qué mensajes han llegado recientemente a Telegram",
+      "Dame una lista de los mensajes más recientes de Telegram",
+      "Lee las conversaciones recientes de Telegram"
+    ],
+    "it": [
+      "Quali messaggi sono arrivati di recente su Telegram",
+      "Dammi un elenco degli ultimi messaggi Telegram",
+      "Leggi le conversazioni recenti di Telegram"
+    ],
+    "pt": [
+      "Que mensagens chegaram recentemente ao Telegram",
+      "Dá-me uma lista das mensagens mais recentes do Telegram",
+      "Lê as conversas recentes do Telegram"
+    ]
+  },
+  "telegram_messages.latest": {
+    "ru": [
+      "Какое сообщение пришло последним в Telegram",
+      "Покажи самое свежее сообщение Telegram",
+      "Что написано в последнем сообщении Telegram"
+    ],
+    "en": [
+      "What was the last message received on Telegram",
+      "Show the newest Telegram message",
+      "What does my latest Telegram message say"
+    ],
+    "de": [
+      "Welche Nachricht kam zuletzt auf Telegram an",
+      "Zeige die allerneueste Telegram-Nachricht",
+      "Was steht in meiner letzten Telegram-Nachricht"
+    ],
+    "fr": [
+      "Quel message est arrivé en dernier sur Telegram",
+      "Affiche le tout dernier message Telegram",
+      "Que dit mon dernier message Telegram"
+    ],
+    "es": [
+      "Qué mensaje llegó el último a Telegram",
+      "Muestra el mensaje más nuevo de Telegram",
+      "Qué dice mi último mensaje de Telegram"
+    ],
+    "it": [
+      "Qual è l’ultimo messaggio arrivato su Telegram",
+      "Mostra il messaggio Telegram più nuovo",
+      "Che cosa dice il mio ultimo messaggio Telegram"
+    ],
+    "pt": [
+      "Qual foi a última mensagem recebida no Telegram",
+      "Mostra a mensagem mais nova do Telegram",
+      "O que diz a minha última mensagem do Telegram"
+    ]
+  },
+  "telegram_messages.from_sender": {
+    "ru": [
+      "Что пишет {sender} в Telegram",
+      "Найди переписку с {sender} в Telegram",
+      "Прочитай сообщения Telegram от {sender}"
+    ],
+    "en": [
+      "What has {sender} sent me on Telegram",
+      "Find Telegram messages from {sender}",
+      "Read messages from {sender} in Telegram"
+    ],
+    "de": [
+      "Was schreibt {sender} mir auf Telegram",
+      "Suche Telegram-Nachrichten von {sender}",
+      "Lies Nachrichten von {sender} auf Telegram vor"
+    ],
+    "fr": [
+      "Que m’a écrit {sender} sur Telegram",
+      "Trouve les messages Telegram de {sender}",
+      "Lis les messages de {sender} sur Telegram"
+    ],
+    "es": [
+      "Qué me ha escrito {sender} en Telegram",
+      "Busca los mensajes de Telegram de {sender}",
+      "Lee los mensajes de {sender} en Telegram"
+    ],
+    "it": [
+      "Che cosa mi ha scritto {sender} su Telegram",
+      "Trova i messaggi Telegram di {sender}",
+      "Leggi i messaggi di {sender} su Telegram"
+    ],
+    "pt": [
+      "O que me escreveu {sender} no Telegram",
+      "Procura as mensagens do Telegram de {sender}",
+      "Lê as mensagens de {sender} no Telegram"
+    ]
+  },
+  "telegram_messages.diagnostic": {
+    "ru": [
+      "Проведи проверку неполадок сообщений Telegram",
+      "Выясни состояние модуля сообщений Telegram",
+      "Проверь причины ошибок доступа к Telegram"
+    ],
+    "en": [
+      "Troubleshoot Telegram messaging",
+      "Diagnose the Telegram message integration",
+      "Check for problems accessing Telegram messages"
+    ],
+    "de": [
+      "Untersuche Probleme mit Telegram-Nachrichten",
+      "Diagnostiziere die Telegram-Nachrichten-Anbindung",
+      "Prüfe den Nachrichtenzugriff auf Telegram auf Fehler"
+    ],
+    "fr": [
+      "Recherche les problèmes de messagerie Telegram",
+      "Diagnostique l’intégration des messages Telegram",
+      "Vérifie les erreurs d’accès aux messages Telegram"
+    ],
+    "es": [
+      "Busca fallos en la mensajería de Telegram",
+      "Diagnostica la integración de mensajes de Telegram",
+      "Comprueba los problemas de acceso a los mensajes de Telegram"
+    ],
+    "it": [
+      "Cerca problemi nella messaggistica Telegram",
+      "Diagnostica l’integrazione dei messaggi Telegram",
+      "Controlla gli errori di accesso ai messaggi Telegram"
+    ],
+    "pt": [
+      "Procura falhas nas mensagens do Telegram",
+      "Diagnostica a integração de mensagens do Telegram",
+      "Verifica problemas de acesso às mensagens do Telegram"
+    ]
+  },
+  "telegram_messages.reply": {
+    "ru": [
+      "Отправь ответ на сообщение Telegram {reply_to_message_id}: {text}",
+      "В ответ на сообщение {reply_to_message_id} в Telegram напиши: {text}",
+      "Напиши ответ в Telegram на сообщение {reply_to_message_id}: {text}"
+    ],
+    "en": [
+      "Send a reply to Telegram message {reply_to_message_id}: {text}",
+      "Respond to message {reply_to_message_id} on Telegram with {text}",
+      "Write back to Telegram message {reply_to_message_id}: {text}"
+    ],
+    "de": [
+      "Sende eine Antwort auf Telegram-Nachricht {reply_to_message_id}: {text}",
+      "Beantworte die Nachricht {reply_to_message_id} auf Telegram mit {text}",
+      "Schreibe als Antwort auf Telegram-Nachricht {reply_to_message_id}: {text}"
+    ],
+    "fr": [
+      "Envoie une réponse au message Telegram {reply_to_message_id} : {text}",
+      "Réponds à ce message {reply_to_message_id} sur Telegram avec {text}",
+      "Écris en réponse au message Telegram {reply_to_message_id} : {text}"
+    ],
+    "es": [
+      "Envía una respuesta al mensaje de Telegram {reply_to_message_id}: {text}",
+      "Contesta al mensaje {reply_to_message_id} en Telegram con {text}",
+      "Escribe como respuesta al mensaje de Telegram {reply_to_message_id}: {text}"
+    ],
+    "it": [
+      "Invia una risposta al messaggio Telegram {reply_to_message_id}: {text}",
+      "Rispondi al messaggio {reply_to_message_id} su Telegram con {text}",
+      "Scrivi in risposta al messaggio Telegram {reply_to_message_id}: {text}"
+    ],
+    "pt": [
+      "Envia uma resposta à mensagem do Telegram {reply_to_message_id}: {text}",
+      "Responde à mensagem {reply_to_message_id} no Telegram com {text}",
+      "Escreve em resposta à mensagem do Telegram {reply_to_message_id}: {text}"
+    ]
+  },
+  "telegram_messages.send": {
+    "ru": [
+      "Напиши в Telegram для {target}: {text}",
+      "Передай {target} через Telegram сообщение: {text}",
+      "Отправь сообщение Telegram адресату {target}: {text}"
+    ],
+    "en": [
+      "Message {target} on Telegram with {text}",
+      "Deliver this Telegram message to {target}: {text}",
+      "Write to {target} in Telegram: {text}"
+    ],
+    "de": [
+      "Schreibe {target} auf Telegram: {text}",
+      "Übermittle {target} diese Telegram-Nachricht: {text}",
+      "Sende an {target} per Telegram: {text}"
+    ],
+    "fr": [
+      "Écris à {target} sur Telegram : {text}",
+      "Transmets ce message Telegram à {target} : {text}",
+      "Fais parvenir à {target} sur Telegram : {text}"
+    ],
+    "es": [
+      "Escribe a {target} por Telegram: {text}",
+      "Transmite este mensaje de Telegram a {target}: {text}",
+      "Manda a {target} por Telegram: {text}"
+    ],
+    "it": [
+      "Scrivi a {target} su Telegram: {text}",
+      "Trasmetti questo messaggio Telegram a {target}: {text}",
+      "Manda a {target} su Telegram: {text}"
+    ],
+    "pt": [
+      "Escreve a {target} no Telegram: {text}",
+      "Transmite esta mensagem do Telegram a {target}: {text}",
+      "Manda a {target} pelo Telegram: {text}"
+    ]
+  },
+  "email.unread": {
+    "ru": [
+      "Каково количество непрочитанных писем",
+      "Назови число непрочитанных писем",
+      "Сколько насчитывается непрочитанных писем"
+    ],
+    "en": [
+      "Give me the number of unread email messages",
+      "Count unread email messages",
+      "What's the total for unread email messages"
+    ],
+    "de": [
+      "Nenne die Anzahl ungelesener E-Mails",
+      "Wie hoch ist die Zahl ungelesener E-Mails",
+      "Ermittle die Anzahl ungelesener E-Mails"
+    ],
+    "fr": [
+      "Donne-moi le nombre de messages électroniques non lus",
+      "Quel est le nombre de messages électroniques non lus",
+      "Calcule le nombre de messages électroniques non lus"
+    ],
+    "es": [
+      "Dame la cantidad de mensajes de correo sin leer",
+      "Cuenta mensajes de correo sin leer",
+      "Cuál es el número de mensajes de correo sin leer"
+    ],
+    "it": [
+      "Dammi il numero di messaggi di posta non letti",
+      "Calcola il numero di messaggi di posta non letti",
+      "Quanti sono i messaggi di posta non letti"
+    ],
+    "pt": [
+      "Dá-me a quantidade de mensagens de correio por ler",
+      "Conta mensagens de correio por ler",
+      "Qual é o número de mensagens de correio por ler"
+    ]
+  },
+  "email.unread_list": {
+    "ru": [
+      "Выведи список непрочитанных писем",
+      "Перечисли письма, которые я ещё не прочитал",
+      "Дай перечень непрочитанных писем"
+    ],
+    "en": [
+      "List unread email messages",
+      "Let me see unread email messages",
+      "Display the list of unread email messages"
+    ],
+    "de": [
+      "Liste die ungelesenen E-Mails auf",
+      "Lass mich die ungelesenen E-Mails sehen",
+      "Zeige eine Liste ungelesener E-Mails"
+    ],
+    "fr": [
+      "Énumère les messages électroniques non lus",
+      "Fais voir les messages électroniques non lus",
+      "Présente la liste des messages électroniques non lus"
+    ],
+    "es": [
+      "Enumera los mensajes de correo sin leer",
+      "Enséñame los mensajes de correo sin leer",
+      "Dame la lista de mensajes de correo sin leer"
+    ],
+    "it": [
+      "Elenca messaggi di posta non letti",
+      "Fammi vedere messaggi di posta non letti",
+      "Presenta l’elenco di messaggi di posta non letti"
+    ],
+    "pt": [
+      "Lista as mensagens de correio por ler",
+      "Deixa-me ver as mensagens de correio por ler",
+      "Apresenta a lista de mensagens de correio por ler"
+    ]
+  },
+  "email.unread_today": {
+    "ru": [
+      "Каково количество непрочитанных писем, полученных сегодня",
+      "Назови число непрочитанных писем, полученных сегодня",
+      "Сколько насчитывается непрочитанных писем, полученных сегодня"
+    ],
+    "en": [
+      "Give me the number of unread emails received today",
+      "Count unread emails received today",
+      "What's the total for unread emails received today"
+    ],
+    "de": [
+      "Nenne die Anzahl heute eingegangener ungelesener E-Mails",
+      "Wie hoch ist die Zahl heute eingegangener ungelesener E-Mails",
+      "Ermittle die Anzahl heute eingegangener ungelesener E-Mails"
+    ],
+    "fr": [
+      "Donne-moi le nombre de e-mails reçus aujourd’hui et encore non lus",
+      "Quel est le nombre de e-mails reçus aujourd’hui et encore non lus",
+      "Calcule le nombre de e-mails reçus aujourd’hui et encore non lus"
+    ],
+    "es": [
+      "Dame la cantidad de correos recibidos hoy que siguen sin leer",
+      "Cuenta correos recibidos hoy que siguen sin leer",
+      "Cuál es el número de correos recibidos hoy que siguen sin leer"
+    ],
+    "it": [
+      "Dammi il numero di e-mail ricevute oggi e ancora non lette",
+      "Calcola il numero di e-mail ricevute oggi e ancora non lette",
+      "Quante sono le e-mail ricevute oggi e ancora non lette"
+    ],
+    "pt": [
+      "Dá-me a quantidade de e-mails recebidos hoje e ainda por ler",
+      "Conta e-mails recebidos hoje e ainda por ler",
+      "Qual é o número de e-mails recebidos hoje e ainda por ler"
+    ]
+  },
+  "email.unread_today_list": {
+    "ru": [
+      "Выведи список непрочитанных писем, полученных сегодня",
+      "Перечисли непрочитанные письма, полученные сегодня",
+      "Дай перечень непрочитанных писем, полученных сегодня"
+    ],
+    "en": [
+      "List unread emails received today",
+      "Let me see unread emails received today",
+      "Display the list of unread emails received today"
+    ],
+    "de": [
+      "Liste die heute eingegangenen ungelesenen E-Mails auf",
+      "Lass mich die heute eingegangenen ungelesenen E-Mails sehen",
+      "Zeige eine Liste heute eingegangener ungelesener E-Mails"
+    ],
+    "fr": [
+      "Énumère les e-mails reçus aujourd’hui et encore non lus",
+      "Fais voir les e-mails reçus aujourd’hui et encore non lus",
+      "Présente la liste des e-mails reçus aujourd’hui et encore non lus"
+    ],
+    "es": [
+      "Enumera los correos recibidos hoy que siguen sin leer",
+      "Enséñame los correos recibidos hoy que siguen sin leer",
+      "Dame la lista de correos recibidos hoy que siguen sin leer"
+    ],
+    "it": [
+      "Elenca e-mail ricevute oggi e ancora non lette",
+      "Fammi vedere e-mail ricevute oggi e ancora non lette",
+      "Presenta l’elenco di e-mail ricevute oggi e ancora non lette"
+    ],
+    "pt": [
+      "Lista os e-mails recebidos hoje e ainda por ler",
+      "Deixa-me ver os e-mails recebidos hoje e ainda por ler",
+      "Apresenta a lista de e-mails recebidos hoje e ainda por ler"
+    ]
+  },
+  "email.unread_recent24h": {
+    "ru": [
+      "Каково количество непрочитанных писем, полученных за 24 часа",
+      "Назови число непрочитанных писем, полученных за 24 часа",
+      "Сколько насчитывается непрочитанных писем, полученных за 24 часа"
+    ],
+    "en": [
+      "Give me the number of unread emails received during the past 24 hours",
+      "Count unread emails received during the past 24 hours",
+      "What's the total for unread emails received during the past 24 hours"
+    ],
+    "de": [
+      "Nenne die Anzahl in den letzten 24 Stunden empfangener ungelesener E-Mails",
+      "Wie hoch ist die Zahl in den letzten 24 Stunden empfangener ungelesener E-Mails",
+      "Ermittle die Anzahl in den letzten 24 Stunden empfangener ungelesener E-Mails"
+    ],
+    "fr": [
+      "Donne-moi le nombre de e-mails reçus depuis 24 heures et non lus",
+      "Quel est le nombre de e-mails reçus depuis 24 heures et non lus",
+      "Calcule le nombre de e-mails reçus depuis 24 heures et non lus"
+    ],
+    "es": [
+      "Dame la cantidad de correos recibidos en las últimas 24 horas que siguen sin leer",
+      "Cuenta correos recibidos en las últimas 24 horas que siguen sin leer",
+      "Cuál es el número de correos recibidos en las últimas 24 horas que siguen sin leer"
+    ],
+    "it": [
+      "Dammi il numero di e-mail ricevute nelle ultime 24 ore e ancora non lette",
+      "Calcola il numero di e-mail ricevute nelle ultime 24 ore e ancora non lette",
+      "Quante sono le e-mail ricevute nelle ultime 24 ore e ancora non lette"
+    ],
+    "pt": [
+      "Dá-me a quantidade de e-mails recebidos nas últimas 24 horas e ainda por ler",
+      "Conta e-mails recebidos nas últimas 24 horas e ainda por ler",
+      "Qual é o número de e-mails recebidos nas últimas 24 horas e ainda por ler"
+    ]
+  },
+  "email.unread_recent24h_list": {
+    "ru": [
+      "Выведи список непрочитанных писем, полученных за 24 часа",
+      "Перечисли непрочитанные письма, полученные за 24 часа",
+      "Дай перечень непрочитанных писем, полученных за 24 часа"
+    ],
+    "en": [
+      "List unread emails received during the past 24 hours",
+      "Let me see unread emails received during the past 24 hours",
+      "Display the list of unread emails received during the past 24 hours"
+    ],
+    "de": [
+      "Liste die in den letzten 24 Stunden empfangenen ungelesenen E-Mails auf",
+      "Lass mich die in den letzten 24 Stunden empfangenen ungelesenen E-Mails sehen",
+      "Zeige eine Liste in den letzten 24 Stunden empfangener ungelesener E-Mails"
+    ],
+    "fr": [
+      "Énumère les e-mails reçus depuis 24 heures et non lus",
+      "Fais voir les e-mails reçus depuis 24 heures et non lus",
+      "Présente la liste des e-mails reçus depuis 24 heures et non lus"
+    ],
+    "es": [
+      "Enumera los correos recibidos en las últimas 24 horas que siguen sin leer",
+      "Enséñame los correos recibidos en las últimas 24 horas que siguen sin leer",
+      "Dame la lista de correos recibidos en las últimas 24 horas que siguen sin leer"
+    ],
+    "it": [
+      "Elenca e-mail ricevute nelle ultime 24 ore e ancora non lette",
+      "Fammi vedere e-mail ricevute nelle ultime 24 ore e ancora non lette",
+      "Presenta l’elenco di e-mail ricevute nelle ultime 24 ore e ancora non lette"
+    ],
+    "pt": [
+      "Lista os e-mails recebidos nas últimas 24 horas e ainda por ler",
+      "Deixa-me ver os e-mails recebidos nas últimas 24 horas e ainda por ler",
+      "Apresenta a lista de e-mails recebidos nas últimas 24 horas e ainda por ler"
+    ]
+  },
+  "email.recent24h": {
+    "ru": [
+      "Каково количество писем, пришедших за последние 24 часа",
+      "Назови число писем, пришедших за последние 24 часа",
+      "Сколько насчитывается писем, пришедших за последние 24 часа"
+    ],
+    "en": [
+      "Give me the number of emails received during the past 24 hours",
+      "Count emails received during the past 24 hours",
+      "What's the total for emails received during the past 24 hours"
+    ],
+    "de": [
+      "Nenne die Anzahl in den letzten 24 Stunden empfangener E-Mails",
+      "Wie hoch ist die Zahl in den letzten 24 Stunden empfangener E-Mails",
+      "Ermittle die Anzahl in den letzten 24 Stunden empfangener E-Mails"
+    ],
+    "fr": [
+      "Donne-moi le nombre de e-mails reçus au cours des dernières 24 heures",
+      "Quel est le nombre de e-mails reçus au cours des dernières 24 heures",
+      "Calcule le nombre de e-mails reçus au cours des dernières 24 heures"
+    ],
+    "es": [
+      "Dame la cantidad de correos recibidos en las últimas 24 horas",
+      "Cuenta correos recibidos en las últimas 24 horas",
+      "Cuál es el número de correos recibidos en las últimas 24 horas"
+    ],
+    "it": [
+      "Dammi il numero di e-mail ricevute nelle ultime 24 ore",
+      "Calcola il numero di e-mail ricevute nelle ultime 24 ore",
+      "Quante sono le e-mail ricevute nelle ultime 24 ore"
+    ],
+    "pt": [
+      "Dá-me a quantidade de e-mails recebidos nas últimas 24 horas",
+      "Conta e-mails recebidos nas últimas 24 horas",
+      "Qual é o número de e-mails recebidos nas últimas 24 horas"
+    ]
+  },
+  "email.recent24h_list": {
+    "ru": [
+      "Выведи список писем, пришедших за последние 24 часа",
+      "Перечисли письма, пришедшие за последние 24 часа",
+      "Дай перечень писем, пришедших за последние 24 часа"
+    ],
+    "en": [
+      "List emails received during the past 24 hours",
+      "Let me see emails received during the past 24 hours",
+      "Display the list of emails received during the past 24 hours"
+    ],
+    "de": [
+      "Liste die in den letzten 24 Stunden empfangenen E-Mails auf",
+      "Lass mich die in den letzten 24 Stunden empfangenen E-Mails sehen",
+      "Zeige eine Liste in den letzten 24 Stunden empfangener E-Mails"
+    ],
+    "fr": [
+      "Énumère les e-mails reçus au cours des dernières 24 heures",
+      "Fais voir les e-mails reçus au cours des dernières 24 heures",
+      "Présente la liste des e-mails reçus au cours des dernières 24 heures"
+    ],
+    "es": [
+      "Enumera los correos recibidos en las últimas 24 horas",
+      "Enséñame los correos recibidos en las últimas 24 horas",
+      "Dame la lista de correos recibidos en las últimas 24 horas"
+    ],
+    "it": [
+      "Elenca e-mail ricevute nelle ultime 24 ore",
+      "Fammi vedere e-mail ricevute nelle ultime 24 ore",
+      "Presenta l’elenco di e-mail ricevute nelle ultime 24 ore"
+    ],
+    "pt": [
+      "Lista os e-mails recebidos nas últimas 24 horas",
+      "Deixa-me ver os e-mails recebidos nas últimas 24 horas",
+      "Apresenta a lista de e-mails recebidos nas últimas 24 horas"
+    ]
+  },
+  "email.today": {
+    "ru": [
+      "Каково количество писем, пришедших за сегодняшний день",
+      "Назови число писем, пришедших за сегодняшний день",
+      "Сколько насчитывается писем, пришедших за сегодняшний день"
+    ],
+    "en": [
+      "Give me the number of email messages received today",
+      "Count email messages received today",
+      "What's the total for email messages received today"
+    ],
+    "de": [
+      "Nenne die Anzahl am heutigen Tag empfangener E-Mails",
+      "Wie hoch ist die Zahl am heutigen Tag empfangener E-Mails",
+      "Ermittle die Anzahl am heutigen Tag empfangener E-Mails"
+    ],
+    "fr": [
+      "Donne-moi le nombre de messages électroniques reçus aujourd’hui",
+      "Quel est le nombre de messages électroniques reçus aujourd’hui",
+      "Calcule le nombre de messages électroniques reçus aujourd’hui"
+    ],
+    "es": [
+      "Dame la cantidad de mensajes de correo recibidos hoy",
+      "Cuenta mensajes de correo recibidos hoy",
+      "Cuál es el número de mensajes de correo recibidos hoy"
+    ],
+    "it": [
+      "Dammi il numero di messaggi di posta ricevuti oggi",
+      "Calcola il numero di messaggi di posta ricevuti oggi",
+      "Quanti sono i messaggi di posta ricevuti oggi"
+    ],
+    "pt": [
+      "Dá-me a quantidade de mensagens de correio recebidas hoje",
+      "Conta mensagens de correio recebidas hoje",
+      "Qual é o número de mensagens de correio recebidas hoje"
+    ]
+  },
+  "email.today_list": {
+    "ru": [
+      "Выведи список писем, пришедших за сегодняшний день",
+      "Перечисли письма, пришедшие за сегодняшний день",
+      "Дай перечень писем, пришедших за сегодняшний день"
+    ],
+    "en": [
+      "List email messages received today",
+      "Let me see email messages received today",
+      "Display the list of email messages received today"
+    ],
+    "de": [
+      "Liste die am heutigen Tag empfangenen E-Mails auf",
+      "Lass mich die am heutigen Tag empfangenen E-Mails sehen",
+      "Zeige eine Liste am heutigen Tag empfangener E-Mails"
+    ],
+    "fr": [
+      "Énumère les messages électroniques reçus aujourd’hui",
+      "Fais voir les messages électroniques reçus aujourd’hui",
+      "Présente la liste des messages électroniques reçus aujourd’hui"
+    ],
+    "es": [
+      "Enumera los mensajes de correo recibidos hoy",
+      "Enséñame los mensajes de correo recibidos hoy",
+      "Dame la lista de mensajes de correo recibidos hoy"
+    ],
+    "it": [
+      "Elenca messaggi di posta ricevuti oggi",
+      "Fammi vedere messaggi di posta ricevuti oggi",
+      "Presenta l’elenco di messaggi di posta ricevuti oggi"
+    ],
+    "pt": [
+      "Lista as mensagens de correio recebidas hoje",
+      "Deixa-me ver as mensagens de correio recebidas hoje",
+      "Apresenta a lista de mensagens de correio recebidas hoje"
+    ]
+  },
+  "email.total": {
+    "ru": [
+      "Каково количество всех писем в моём почтовом ящике",
+      "Назови число всех писем в моём почтовом ящике",
+      "Сколько насчитывается всех писем в моём почтовом ящике"
+    ],
+    "en": [
+      "Give me the number of all emails in my mailbox",
+      "Count all emails in my mailbox",
+      "What's the total for all emails in my mailbox"
+    ],
+    "de": [
+      "Nenne die Anzahl aller E-Mails in meinem Postfach",
+      "Wie hoch ist die Zahl aller E-Mails in meinem Postfach",
+      "Ermittle die Anzahl aller E-Mails in meinem Postfach"
+    ],
+    "fr": [
+      "Donne-moi le nombre de tous les e-mails de ma boîte",
+      "Quel est le nombre de tous les e-mails de ma boîte",
+      "Calcule le nombre de tous les e-mails de ma boîte"
+    ],
+    "es": [
+      "Dame la cantidad de todos los correos de mi buzón",
+      "Cuenta todos los correos de mi buzón",
+      "Cuál es el número de todos los correos de mi buzón"
+    ],
+    "it": [
+      "Dammi il numero complessivo di e-mail nella mia casella",
+      "Calcola quante e-mail contiene la mia casella",
+      "Conta tutti i messaggi della mia casella di posta"
+    ],
+    "pt": [
+      "Dá-me a quantidade de todos os e-mails da minha caixa",
+      "Conta todos os e-mails da minha caixa",
+      "Qual é o número de todos os e-mails da minha caixa"
+    ]
+  },
+  "email.providers": {
+    "ru": [
+      "Перечисли подключённые почтовые провайдеры",
+      "Покажи список подключений к почтовым сервисам",
+      "С какими почтовыми службами ты работаешь"
+    ],
+    "en": [
+      "List the connected email providers",
+      "Show my email service connections",
+      "Which mail providers can you access"
+    ],
+    "de": [
+      "Liste die verbundenen E-Mail-Anbieter auf",
+      "Zeige meine Verbindungen zu Maildiensten",
+      "Auf welche Mailanbieter kannst du zugreifen"
+    ],
+    "fr": [
+      "Énumère les fournisseurs de messagerie connectés",
+      "Montre mes connexions aux services de courrier",
+      "À quels fournisseurs de messagerie as-tu accès"
+    ],
+    "es": [
+      "Enumera los proveedores de correo conectados",
+      "Muestra mis conexiones a servicios de correo",
+      "A qué proveedores de correo puedes acceder"
+    ],
+    "it": [
+      "Elenca i fornitori di posta collegati",
+      "Mostra le connessioni ai servizi di posta",
+      "A quali fornitori di posta puoi accedere"
+    ],
+    "pt": [
+      "Lista os fornecedores de correio ligados",
+      "Mostra as ligações aos serviços de correio",
+      "A que fornecedores de correio consegues aceder"
+    ]
+  },
+  "email.folders": {
+    "ru": [
+      "Какие папки есть в моей почте",
+      "Перечисли папки почтового ящика",
+      "Дай список папок электронной почты"
+    ],
+    "en": [
+      "What folders are in my mailbox",
+      "List the folders in my email account",
+      "Give me my mail folder list"
+    ],
+    "de": [
+      "Welche Ordner gibt es in meinem Postfach",
+      "Liste die Ordner meines E-Mail-Kontos auf",
+      "Gib mir die Liste meiner Mailordner"
+    ],
+    "fr": [
+      "Quels dossiers contient ma boîte mail",
+      "Énumère les dossiers de mon compte de messagerie",
+      "Donne-moi la liste de mes dossiers de courrier"
+    ],
+    "es": [
+      "Qué carpetas hay en mi buzón",
+      "Enumera las carpetas de mi cuenta de correo",
+      "Dame la lista de carpetas del correo"
+    ],
+    "it": [
+      "Quali cartelle contiene la mia casella di posta",
+      "Elenca le cartelle del mio account e-mail",
+      "Dammi l’elenco delle cartelle della posta"
+    ],
+    "pt": [
+      "Que pastas existem na minha caixa de correio",
+      "Lista as pastas da minha conta de e-mail",
+      "Dá-me a lista de pastas do correio"
+    ]
+  },
+  "email.open_inbox": {
+    "ru": [
+      "Перейди в почтовый ящик",
+      "Открой папку входящих в почте",
+      "Покажи веб-страницу входящей почты"
+    ],
+    "en": [
+      "Go to my email inbox",
+      "Open the incoming mail folder",
+      "Bring up my inbox page"
+    ],
+    "de": [
+      "Wechsle zu meinem E-Mail-Posteingang",
+      "Öffne den Ordner für eingehende E-Mails",
+      "Rufe die Webseite meines Posteingangs auf"
+    ],
+    "fr": [
+      "Va dans ma boîte de réception mail",
+      "Ouvre le dossier des courriers entrants",
+      "Affiche la page web de ma boîte de réception"
+    ],
+    "es": [
+      "Ve a mi bandeja de entrada del correo",
+      "Abre la carpeta de correo entrante",
+      "Muestra la página web de mi bandeja de entrada"
+    ],
+    "it": [
+      "Vai alla mia casella di posta in arrivo",
+      "Apri la cartella dei messaggi in entrata",
+      "Mostra la pagina web della posta in arrivo"
+    ],
+    "pt": [
+      "Vai para a minha caixa de entrada do correio",
+      "Abre a pasta de correio recebido",
+      "Mostra a página da minha caixa de entrada"
+    ]
+  },
+  "email.status": {
+    "ru": [
+      "Работает ли подключение к почте",
+      "Какое состояние у почтовой интеграции",
+      "Есть ли доступ к моему почтовому ящику"
+    ],
+    "en": [
+      "Is my email connection working",
+      "What's the status of my email integration",
+      "Can you access my mailbox"
+    ],
+    "de": [
+      "Funktioniert meine E-Mail-Verbindung",
+      "Wie ist der Status meiner Mailanbindung",
+      "Ist mein Postfach erreichbar"
+    ],
+    "fr": [
+      "La connexion à ma boîte mail fonctionne-t-elle",
+      "Quel est l’état de mon intégration mail",
+      "As-tu accès à ma boîte mail"
+    ],
+    "es": [
+      "Funciona la conexión a mi correo",
+      "Cuál es el estado de la integración del correo",
+      "Tienes acceso a mi buzón"
+    ],
+    "it": [
+      "Funziona la connessione alla mia posta",
+      "Qual è lo stato dell’integrazione e-mail",
+      "Hai accesso alla mia casella di posta"
+    ],
+    "pt": [
+      "A ligação ao meu correio funciona",
+      "Qual é o estado da integração do correio",
+      "Tens acesso à minha caixa de correio"
+    ]
+  },
+  "email.latest": {
+    "ru": [
+      "Какое письмо пришло последним",
+      "Покажи самое новое письмо",
+      "Что написано в последнем полученном письме"
+    ],
+    "en": [
+      "What was the last email I received",
+      "Show my newest email",
+      "What does my most recent email say"
+    ],
+    "de": [
+      "Welche E-Mail habe ich zuletzt erhalten",
+      "Zeige meine allerneueste E-Mail",
+      "Was steht in meiner zuletzt eingegangenen E-Mail"
+    ],
+    "fr": [
+      "Quel est le dernier e-mail que j’ai reçu",
+      "Affiche mon e-mail le plus récent",
+      "Que dit mon dernier courrier reçu"
+    ],
+    "es": [
+      "Cuál fue el último correo que recibí",
+      "Muestra mi correo más reciente",
+      "Qué dice el último mensaje de correo recibido"
+    ],
+    "it": [
+      "Qual è l’ultima e-mail che ho ricevuto",
+      "Mostra la mia e-mail più recente",
+      "Che cosa dice l’ultimo messaggio di posta ricevuto"
+    ],
+    "pt": [
+      "Qual foi o último e-mail que recebi",
+      "Mostra o meu e-mail mais recente",
+      "O que diz a última mensagem de correio recebida"
+    ]
+  },
+  "email.search": {
+    "ru": [
+      "Поищи в моей почте {query}",
+      "Выполни поиск писем: {query}",
+      "Какие письма соответствуют запросу {query}"
+    ],
+    "en": [
+      "Search my mailbox for {query}",
+      "Look through my email for {query}",
+      "Which emails match the query {query}"
+    ],
+    "de": [
+      "Durchsuche mein Postfach nach {query}",
+      "Suche in meiner E-Mail nach {query}",
+      "Welche E-Mails passen zur Anfrage {query}"
+    ],
+    "fr": [
+      "Recherche dans ma boîte mail : {query}",
+      "Fouille mes e-mails pour trouver {query}",
+      "Quels courriers correspondent à la recherche {query}"
+    ],
+    "es": [
+      "Busca en mi buzón {query}",
+      "Revisa mi correo para encontrar {query}",
+      "Qué correos corresponden a la búsqueda {query}"
+    ],
+    "it": [
+      "Cerca nella mia casella di posta {query}",
+      "Esamina le mie e-mail cercando {query}",
+      "Quali messaggi corrispondono alla ricerca {query}"
+    ],
+    "pt": [
+      "Pesquisa na minha caixa de correio {query}",
+      "Procura no meu e-mail por {query}",
+      "Que mensagens correspondem à pesquisa {query}"
+    ]
+  },
+  "email.read": {
+    "ru": [
+      "Открой содержимое письма {message_id}",
+      "Что написано в письме {message_id}",
+      "Покажи текст письма {message_id}"
+    ],
+    "en": [
+      "Open the contents of email {message_id}",
+      "What does email {message_id} say",
+      "Show the text of email {message_id}"
+    ],
+    "de": [
+      "Öffne den Inhalt der E-Mail {message_id}",
+      "Was steht in der E-Mail {message_id}",
+      "Zeige den Text der E-Mail {message_id}"
+    ],
+    "fr": [
+      "Ouvre le contenu de l’e-mail {message_id}",
+      "Que dit l’e-mail {message_id}",
+      "Affiche le texte de l’e-mail {message_id}"
+    ],
+    "es": [
+      "Abre el contenido del correo {message_id}",
+      "Qué dice el correo {message_id}",
+      "Muestra el texto del correo {message_id}"
+    ],
+    "it": [
+      "Apri il contenuto dell’e-mail {message_id}",
+      "Che cosa dice l’e-mail {message_id}",
+      "Mostra il testo dell’e-mail {message_id}"
+    ],
+    "pt": [
+      "Abre o conteúdo do e-mail {message_id}",
+      "O que diz o e-mail {message_id}",
+      "Mostra o texto do e-mail {message_id}"
+    ]
+  },
+  "email.mark_read": {
+    "ru": [
+      "Пометь письмо {message_id} как прочитанное",
+      "Сними отметку непрочитанного с письма {message_id}",
+      "Измени статус письма {message_id} на прочитанное"
+    ],
+    "en": [
+      "Set email {message_id} to read",
+      "Remove the unread flag from email {message_id}",
+      "Change email {message_id} to read status"
+    ],
+    "de": [
+      "Setze die E-Mail {message_id} auf gelesen",
+      "Entferne die Ungelesen-Markierung der E-Mail {message_id}",
+      "Ändere den Status der E-Mail {message_id} auf gelesen"
+    ],
+    "fr": [
+      "Définis l’e-mail {message_id} comme lu",
+      "Retire le marquage non lu de l’e-mail {message_id}",
+      "Change le statut de l’e-mail {message_id} en lu"
+    ],
+    "es": [
+      "Pon el correo {message_id} como leído",
+      "Quita la marca de no leído del correo {message_id}",
+      "Cambia el estado del correo {message_id} a leído"
+    ],
+    "it": [
+      "Imposta l’e-mail {message_id} come letta",
+      "Togli il contrassegno non letto dall’e-mail {message_id}",
+      "Cambia lo stato dell’e-mail {message_id} in letta"
+    ],
+    "pt": [
+      "Define o e-mail {message_id} como lido",
+      "Retira a marca de não lido do e-mail {message_id}",
+      "Altera o estado do e-mail {message_id} para lido"
+    ]
+  },
+  "email.draft": {
+    "ru": [
+      "Подготовь черновик для {to}, тема {subject}, текст: {body}",
+      "Сохрани как черновик письмо для {to} с темой {subject}: {body}",
+      "Напиши без отправки письмо для {to} с темой {subject}: {body}"
+    ],
+    "en": [
+      "Prepare an email draft for {to}, subject {subject}, body: {body}",
+      "Save a draft addressed to {to} with subject {subject}: {body}",
+      "Compose without sending an email to {to} with subject {subject}: {body}"
+    ],
+    "de": [
+      "Bereite einen Mailentwurf für {to} vor, Betreff {subject}, Text: {body}",
+      "Speichere einen Entwurf an {to} mit dem Betreff {subject}: {body}",
+      "Verfasse ohne Versand eine E-Mail an {to} mit dem Betreff {subject}: {body}"
+    ],
+    "fr": [
+      "Prépare un brouillon pour {to}, objet {subject}, texte : {body}",
+      "Enregistre un brouillon adressé à {to} avec l’objet {subject} : {body}",
+      "Rédige sans l’envoyer un e-mail à {to} avec l’objet {subject} : {body}"
+    ],
+    "es": [
+      "Prepara un borrador para {to}, asunto {subject}, texto: {body}",
+      "Guarda un borrador dirigido a {to} con el asunto {subject}: {body}",
+      "Redacta sin enviar un correo a {to} con el asunto {subject}: {body}"
+    ],
+    "it": [
+      "Prepara una bozza per {to}, oggetto {subject}, testo: {body}",
+      "Salva una bozza indirizzata a {to} con oggetto {subject}: {body}",
+      "Scrivi senza inviare un’e-mail a {to} con oggetto {subject}: {body}"
+    ],
+    "pt": [
+      "Prepara um rascunho para {to}, assunto {subject}, texto: {body}",
+      "Guarda um rascunho dirigido a {to} com o assunto {subject}: {body}",
+      "Escreve sem enviar um e-mail para {to} com o assunto {subject}: {body}"
+    ]
+  },
+  "email.send": {
+    "ru": [
+      "Пошли электронное письмо для {to}, тема {subject}, текст: {body}",
+      "Отправь по электронной почте адресату {to} с темой {subject}: {body}",
+      "Вышли письмо получателю {to} с заголовком {subject}: {body}"
+    ],
+    "en": [
+      "Deliver an email to {to}, subject {subject}, body: {body}",
+      "Mail {to} with the subject {subject}: {body}",
+      "Send this email to {to}, titled {subject}: {body}"
+    ],
+    "de": [
+      "Verschicke eine E-Mail an {to}, Betreff {subject}, Text: {body}",
+      "Maile an {to} mit dem Betreff {subject}: {body}",
+      "Versende diese Nachricht an {to} unter dem Betreff {subject}: {body}"
+    ],
+    "fr": [
+      "Expédie un e-mail à {to}, objet {subject}, texte : {body}",
+      "Envoie par courriel à {to} avec l’objet {subject} : {body}",
+      "Fais parvenir cet e-mail à {to}, intitulé {subject} : {body}"
+    ],
+    "es": [
+      "Manda un correo a {to}, asunto {subject}, texto: {body}",
+      "Envía por correo electrónico a {to} con el asunto {subject}: {body}",
+      "Haz llegar este correo a {to}, titulado {subject}: {body}"
+    ],
+    "it": [
+      "Spedisci un’e-mail a {to}, oggetto {subject}, testo: {body}",
+      "Manda per posta elettronica a {to} con oggetto {subject}: {body}",
+      "Recapita questa e-mail a {to}, intitolata {subject}: {body}"
+    ],
+    "pt": [
+      "Manda um e-mail para {to}, assunto {subject}, texto: {body}",
+      "Envia por correio eletrónico para {to} com o assunto {subject}: {body}",
+      "Faz chegar este e-mail a {to}, com o título {subject}: {body}"
+    ]
+  },
+  "email.reply": {
+    "ru": [
+      "Отправь ответ на письмо {message_id}: {body}",
+      "В ответ на письмо {message_id} напиши: {body}",
+      "Напиши ответное письмо к сообщению {message_id}: {body}"
+    ],
+    "en": [
+      "Send a reply to email {message_id}: {body}",
+      "Respond to email {message_id} with {body}",
+      "Write back to email {message_id}: {body}"
+    ],
+    "de": [
+      "Sende eine Antwort auf die E-Mail {message_id}: {body}",
+      "Beantworte die E-Mail {message_id} mit {body}",
+      "Schreibe auf die E-Mail {message_id} zurück: {body}"
+    ],
+    "fr": [
+      "Envoie une réponse à l’e-mail {message_id} : {body}",
+      "Réponds au courriel {message_id} avec {body}",
+      "Écris en réponse à l’e-mail {message_id} : {body}"
+    ],
+    "es": [
+      "Envía una respuesta al correo {message_id}: {body}",
+      "Contesta al correo {message_id} con {body}",
+      "Escribe como respuesta al correo {message_id}: {body}"
+    ],
+    "it": [
+      "Invia una risposta all’e-mail {message_id}: {body}",
+      "Rispondi al messaggio e-mail {message_id} con {body}",
+      "Scrivi in risposta all’e-mail {message_id}: {body}"
+    ],
+    "pt": [
+      "Envia uma resposta ao e-mail {message_id}: {body}",
+      "Responde à mensagem de correio {message_id} com {body}",
+      "Escreve em resposta ao e-mail {message_id}: {body}"
+    ]
+  },
+  "screen.capture": {
+    "ru": [
+      "Сохрани скриншот всего экрана",
+      "Сфотографируй экран",
+      "Захвати изображение экрана"
+    ],
+    "en": [
+      "Save a screenshot of the whole screen",
+      "Capture my screen",
+      "Grab an image of the screen"
+    ],
+    "de": [
+      "Speichere ein Bildschirmfoto des ganzen Bildschirms",
+      "Erfasse meinen Bildschirm",
+      "Nimm ein Bild des Bildschirms auf"
+    ],
+    "fr": [
+      "Enregistre une capture de tout l’écran",
+      "Capture mon écran",
+      "Prends une image de l’écran"
+    ],
+    "es": [
+      "Guarda una captura de toda la pantalla",
+      "Captura mi pantalla",
+      "Toma una imagen de la pantalla"
+    ],
+    "it": [
+      "Salva una cattura dell’intero schermo",
+      "Cattura il mio schermo",
+      "Scatta un’immagine dello schermo"
+    ],
+    "pt": [
+      "Guarda uma captura de todo o ecrã",
+      "Captura o meu ecrã",
+      "Tira uma imagem do ecrã"
+    ]
+  },
+  "screen.capture_window": {
+    "ru": [
+      "Сохрани скриншот текущего окна",
+      "Сфотографируй окно на переднем плане",
+      "Захвати изображение активного окна"
+    ],
+    "en": [
+      "Save a screenshot of the current window",
+      "Capture the foreground window",
+      "Grab an image of the active window"
+    ],
+    "de": [
+      "Speichere ein Bildschirmfoto des aktuellen Fensters",
+      "Erfasse das Fenster im Vordergrund",
+      "Nimm ein Bild des aktiven Fensters auf"
+    ],
+    "fr": [
+      "Enregistre une capture de la fenêtre actuelle",
+      "Capture la fenêtre au premier plan",
+      "Prends une image de la fenêtre active"
+    ],
+    "es": [
+      "Guarda una captura de la ventana actual",
+      "Captura la ventana en primer plano",
+      "Toma una imagen de la ventana activa"
+    ],
+    "it": [
+      "Salva una cattura della finestra corrente",
+      "Cattura la finestra in primo piano",
+      "Scatta un’immagine della finestra attiva"
+    ],
+    "pt": [
+      "Guarda uma captura da janela atual",
+      "Captura a janela em primeiro plano",
+      "Tira uma imagem da janela ativa"
+    ]
+  },
+  "screen.analyze": {
+    "ru": [
+      "Посмотри на экран и разберись: {instruction}",
+      "Изучи изображение на экране: {instruction}",
+      "Объясни содержимое экрана: {instruction}"
+    ],
+    "en": [
+      "Look at my screen and examine this: {instruction}",
+      "Inspect the image on my screen: {instruction}",
+      "Explain what's on the screen: {instruction}"
+    ],
+    "de": [
+      "Sieh dir meinen Bildschirm an und prüfe Folgendes: {instruction}",
+      "Untersuche das Bild auf meinem Bildschirm: {instruction}",
+      "Erkläre den Bildschirminhalt: {instruction}"
+    ],
+    "fr": [
+      "Regarde mon écran et examine ceci : {instruction}",
+      "Étudie l’image affichée sur mon écran : {instruction}",
+      "Explique le contenu de l’écran : {instruction}"
+    ],
+    "es": [
+      "Mira mi pantalla y examina esto: {instruction}",
+      "Estudia la imagen de mi pantalla: {instruction}",
+      "Explica lo que aparece en la pantalla: {instruction}"
+    ],
+    "it": [
+      "Guarda il mio schermo ed esamina questo: {instruction}",
+      "Studia l’immagine sul mio schermo: {instruction}",
+      "Spiega il contenuto dello schermo: {instruction}"
+    ],
+    "pt": [
+      "Olha para o meu ecrã e examina isto: {instruction}",
+      "Estuda a imagem no meu ecrã: {instruction}",
+      "Explica o conteúdo do ecrã: {instruction}"
+    ]
+  },
+  "screen.analyze_window": {
+    "ru": [
+      "Посмотри на текущее окно и разберись: {instruction}",
+      "Изучи изображение в активном окне: {instruction}",
+      "Объясни содержимое окна на переднем плане: {instruction}"
+    ],
+    "en": [
+      "Look at the current window and examine this: {instruction}",
+      "Inspect the image in the active window: {instruction}",
+      "Explain the foreground window's contents: {instruction}"
+    ],
+    "de": [
+      "Sieh dir das aktuelle Fenster an und prüfe Folgendes: {instruction}",
+      "Untersuche das Bild im aktiven Fenster: {instruction}",
+      "Erkläre den Inhalt des Vordergrundfensters: {instruction}"
+    ],
+    "fr": [
+      "Regarde la fenêtre actuelle et examine ceci : {instruction}",
+      "Étudie l’image de la fenêtre active : {instruction}",
+      "Explique le contenu de la fenêtre au premier plan : {instruction}"
+    ],
+    "es": [
+      "Mira la ventana actual y examina esto: {instruction}",
+      "Estudia la imagen de la ventana activa: {instruction}",
+      "Explica el contenido de la ventana en primer plano: {instruction}"
+    ],
+    "it": [
+      "Guarda la finestra corrente ed esamina questo: {instruction}",
+      "Studia l’immagine nella finestra attiva: {instruction}",
+      "Spiega il contenuto della finestra in primo piano: {instruction}"
+    ],
+    "pt": [
+      "Olha para a janela atual e examina isto: {instruction}",
+      "Estuda a imagem da janela ativa: {instruction}",
+      "Explica o conteúdo da janela em primeiro plano: {instruction}"
+    ]
+  },
+  "screen.translate": {
+    "ru": [
+      "Что написано на экране, переведи на {target_language}",
+      "Дай перевод экранного текста на {target_language}",
+      "Прочитай надписи на экране и переведи на {target_language}"
+    ],
+    "en": [
+      "What does the screen say, translated into {target_language}",
+      "Give me the onscreen text in {target_language}",
+      "Read the writing on the screen and translate it into {target_language}"
+    ],
+    "de": [
+      "Was steht auf dem Bildschirm, übersetzt auf {target_language}",
+      "Gib mir den Bildschirmtext auf {target_language}",
+      "Lies die Beschriftung auf dem Bildschirm und übersetze sie auf {target_language}"
+    ],
+    "fr": [
+      "Que dit l’écran une fois traduit en {target_language}",
+      "Donne-moi le texte affiché à l’écran en {target_language}",
+      "Lis les inscriptions à l’écran et traduis-les en {target_language}"
+    ],
+    "es": [
+      "Qué dice la pantalla traducido al {target_language}",
+      "Dame el texto de la pantalla en {target_language}",
+      "Lee lo escrito en la pantalla y tradúcelo al {target_language}"
+    ],
+    "it": [
+      "Che cosa dice lo schermo tradotto in {target_language}",
+      "Dammi il testo dello schermo in {target_language}",
+      "Leggi le scritte sullo schermo e traducile in {target_language}"
+    ],
+    "pt": [
+      "O que diz o ecrã traduzido para {target_language}",
+      "Dá-me o texto do ecrã em {target_language}",
+      "Lê o que está escrito no ecrã e traduz para {target_language}"
+    ]
+  },
+  "screen.click_visual": {
+    "ru": [
+      "Найди в активном окне и нажми: {instruction}",
+      "Кликни в текущем окне по элементу: {instruction}",
+      "Выбери щелчком элемент на переднем плане: {instruction}"
+    ],
+    "en": [
+      "Find and click in the active window: {instruction}",
+      "Click this item in the current window: {instruction}",
+      "Select by clicking in the foreground window: {instruction}"
+    ],
+    "de": [
+      "Finde und klicke im aktiven Fenster: {instruction}",
+      "Klicke dieses Element im aktuellen Fenster an: {instruction}",
+      "Wähle per Klick im Vordergrundfenster: {instruction}"
+    ],
+    "fr": [
+      "Trouve et clique dans la fenêtre active : {instruction}",
+      "Clique sur cet élément de la fenêtre actuelle : {instruction}",
+      "Sélectionne par un clic dans la fenêtre au premier plan : {instruction}"
+    ],
+    "es": [
+      "Busca y pulsa en la ventana activa: {instruction}",
+      "Haz clic en este elemento de la ventana actual: {instruction}",
+      "Selecciona con un clic en la ventana en primer plano: {instruction}"
+    ],
+    "it": [
+      "Trova e clicca nella finestra attiva: {instruction}",
+      "Fai clic su questo elemento della finestra corrente: {instruction}",
+      "Seleziona con un clic nella finestra in primo piano: {instruction}"
+    ],
+    "pt": [
+      "Encontra e clica na janela ativa: {instruction}",
+      "Clica neste elemento da janela atual: {instruction}",
+      "Seleciona com um clique na janela em primeiro plano: {instruction}"
+    ]
+  },
+  "translate.translate": {
+    "ru": [
+      "Как сказать на {target_language}: {text}",
+      "Дай перевод на {target_language}: {text}",
+      "Переведи следующий текст на {target_language}: {text}"
+    ],
+    "en": [
+      "How do you say this in {target_language}: {text}",
+      "Give me a translation into {target_language}: {text}",
+      "Translate the following text to {target_language}: {text}"
+    ],
+    "de": [
+      "Wie sagt man auf {target_language}: {text}",
+      "Gib mir eine Übersetzung auf {target_language}: {text}",
+      "Übertrage den folgenden Text auf {target_language}: {text}"
+    ],
+    "fr": [
+      "Comment dit-on en {target_language} : {text}",
+      "Donne-moi une traduction en {target_language} : {text}",
+      "Traduis le texte suivant en {target_language} : {text}"
+    ],
+    "es": [
+      "Cómo se dice en {target_language}: {text}",
+      "Dame una traducción al {target_language}: {text}",
+      "Traduce el siguiente texto al {target_language}: {text}"
+    ],
+    "it": [
+      "Come si dice in {target_language}: {text}",
+      "Dammi una traduzione in {target_language}: {text}",
+      "Traduci il seguente testo in {target_language}: {text}"
+    ],
+    "pt": [
+      "Como se diz em {target_language}: {text}",
+      "Dá-me uma tradução para {target_language}: {text}",
+      "Traduz o seguinte texto para {target_language}: {text}"
+    ]
+  }
+}
