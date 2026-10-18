@@ -1,0 +1,1411 @@
+[
+  {
+    "locale": "ru",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_ru_game0",
+    "phrase": "запусти игру",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_ru_game0",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_ru_game1",
+    "phrase": "запсутти игру",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_ru_game1",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_en_game0",
+    "phrase": "launch a game",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_en_game0",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_en_game1",
+    "phrase": "launhc a game",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_en_game1",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_de_game0",
+    "phrase": "starte ein Spiel",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_de_game0",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_de_game1",
+    "phrase": "staret ein Spiel",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_de_game1",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_fr_game0",
+    "phrase": "lance un jeu",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_fr_game0",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_fr_game1",
+    "phrase": "lanec un jeu",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_fr_game1",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_es_game0",
+    "phrase": "inicia un juego",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_es_game0",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_es_game1",
+    "phrase": "inicai un juego",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_es_game1",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_it_game0",
+    "phrase": "avvia un gioco",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_it_game0",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_it_game1",
+    "phrase": "aviva un gioco",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_it_game1",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_pt_game0",
+    "phrase": "inicia um jogo",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_pt_game0",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_pt_game1",
+    "phrase": "incia um jogo",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "routing160_pt_game1",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "game"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "открйо папку",
+    "expected_tool": "desktop",
+    "expected_action": "open",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "hint": "folder"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "откр папку",
+    "expected_tool": "desktop",
+    "expected_action": "open",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "hint": "folder"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "открой игру",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "game"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "запусти приложение",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди папки игры",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_kind": "clarification",
+    "expected_args": {
+      "kind": "all"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "открйо приложение Notepad",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_args": {
+      "name": "Notepad"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "en",
+    "phrase": "opne application Notepad",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_args": {
+      "name": "Notepad"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "de",
+    "phrase": "öffn Anwendung Notepad",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_args": {
+      "name": "Notepad"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "fr",
+    "phrase": "ouvr l'application Notepad",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_args": {
+      "name": "Notepad"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "es",
+    "phrase": "inicai aplicación Notepad",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_args": {
+      "name": "Notepad"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "it",
+    "phrase": "apir applicazione Notepad",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_args": {
+      "name": "Notepad"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "pt",
+    "phrase": "iniciee aplicativo Notepad",
+    "expected_tool": "application",
+    "expected_action": "open",
+    "expected_args": {
+      "name": "Notepad"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "вклюич музыку",
+    "expected_tool": "music",
+    "expected_action": "play_music",
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "прочитйа файл C:\\NEO\\Открйо.txt",
+    "expected_tool": "filesystem",
+    "expected_action": "read_text",
+    "expected_args": {
+      "source": "C:\\NEO\\Открйо.txt"
+    },
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_ru",
+    "phrase": "включи плейлист",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_ru",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_ru",
+    "phrase": "громкость плеера",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_ru",
+    "phrase": "35",
+    "keep_context": true,
+    "expected_args": {
+      "volume": 35
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_ru",
+    "phrase": "найди в истории активности",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_ru",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "query": "NEO QA",
+      "scope": "desktop"
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_ru",
+    "phrase": "найди сохранения игры",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_ru",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "saves"
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_ru",
+    "phrase": "открой папку установки игры",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_ru",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "install"
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_ru",
+    "phrase": "установи масштаб мини-браузера",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_ru",
+    "phrase": "150",
+    "keep_context": true,
+    "expected_args": {
+      "zoom": 150
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_en",
+    "phrase": "play the playlist",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_en",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_en",
+    "phrase": "make the music volume",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_en",
+    "phrase": "35",
+    "keep_context": true,
+    "expected_args": {
+      "volume": 35
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_en",
+    "phrase": "show activity entries about",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_en",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "query": "NEO QA",
+      "scope": "desktop"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_en",
+    "phrase": "find the saves for",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_en",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "saves"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_en",
+    "phrase": "open installation folder for",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_en",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "install"
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_en",
+    "phrase": "adjust mini browser magnification to",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_en",
+    "phrase": "150",
+    "keep_context": true,
+    "expected_args": {
+      "zoom": 150
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_de",
+    "phrase": "spiele die Playlist",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_de",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_de",
+    "phrase": "setze den Playerpegel auf",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_de",
+    "phrase": "35",
+    "keep_context": true,
+    "expected_args": {
+      "volume": 35
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_de",
+    "phrase": "zeige Aktivitätseinträge zu",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_de",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "query": "NEO QA",
+      "scope": "desktop"
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_de",
+    "phrase": "finde die Spielstände von",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_de",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "saves"
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_de",
+    "phrase": "zeige den Installationsordner von",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_de",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "install"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_fr",
+    "phrase": "lance la playlist",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_fr",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_fr",
+    "phrase": "mets le volume musical à",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_fr",
+    "phrase": "35",
+    "keep_context": true,
+    "expected_args": {
+      "volume": 35
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_fr",
+    "phrase": "montre les activités concernant",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_fr",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "query": "NEO QA",
+      "scope": "desktop"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_fr",
+    "phrase": "trouve les sauvegardes de",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_fr",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "saves"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_fr",
+    "phrase": "ouvre le dossier d'installation de",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_fr",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "install"
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_fr",
+    "phrase": "règle le zoom du mini-navigateur à",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_fr",
+    "phrase": "150",
+    "keep_context": true,
+    "expected_args": {
+      "zoom": 150
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_es",
+    "phrase": "pon la playlist",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_es",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_es",
+    "phrase": "pon el volumen musical al",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_es",
+    "phrase": "35",
+    "keep_context": true,
+    "expected_args": {
+      "volume": 35
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_es",
+    "phrase": "enseña las actividades relacionadas con",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_es",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "query": "NEO QA",
+      "scope": "desktop"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_es",
+    "phrase": "dónde están las partidas de",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_es",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "saves"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_es",
+    "phrase": "abre la carpeta de instalación de",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_es",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "install"
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_es",
+    "phrase": "pon el zoom del mini navegador al",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_es",
+    "phrase": "150",
+    "keep_context": true,
+    "expected_args": {
+      "zoom": 150
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_it",
+    "phrase": "riproduci la playlist",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_it",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_it",
+    "phrase": "porta il volume musicale al",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_it",
+    "phrase": "35",
+    "keep_context": true,
+    "expected_args": {
+      "volume": 35
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_it",
+    "phrase": "mostra le attività relative a",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_activity.search_it",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "query": "NEO QA",
+      "scope": "desktop"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_it",
+    "phrase": "trova i salvataggi di",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_it",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "saves"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_it",
+    "phrase": "apri la cartella di installazione di",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_it",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "install"
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_it",
+    "phrase": "regola l’ingrandimento del mini browser al",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_it",
+    "phrase": "150",
+    "keep_context": true,
+    "expected_args": {
+      "zoom": 150
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_pt",
+    "phrase": "toca a playlist",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "music",
+    "expected_action": "playlist",
+    "source": "routing160",
+    "scenario_id": "gaps160_music.playlist_pt",
+    "phrase": "NEO QA",
+    "keep_context": true,
+    "expected_args": {
+      "playlist": "NEO QA"
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_pt",
+    "phrase": "põe o volume musical em",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "music",
+    "expected_action": "set_volume",
+    "source": "routing160",
+    "scenario_id": "gaps160_discord.music_set_volume_pt",
+    "phrase": "35",
+    "keep_context": true,
+    "expected_args": {
+      "volume": 35
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_pt",
+    "phrase": "onde ficam as gravações de",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.find_pt",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "saves"
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_pt",
+    "phrase": "abre a pasta de instalação de",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "game_locations",
+    "expected_action": "open",
+    "source": "routing160",
+    "scenario_id": "gaps160_game_locations.open_pt",
+    "phrase": "Darktide",
+    "keep_context": true,
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "install"
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_pt",
+    "phrase": "use zoom de",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_mini_browser.zoom_pt",
+    "phrase": "150",
+    "keep_context": true,
+    "expected_args": {
+      "zoom": 150
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_extra_de_mini_browser",
+    "phrase": "stelle den Zoom des Mini-Browsers ein",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "mini_browser",
+    "expected_action": "zoom",
+    "source": "routing160",
+    "scenario_id": "gaps160_extra_de_mini_browser",
+    "phrase": "150",
+    "keep_context": true,
+    "expected_args": {
+      "zoom": 150
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_extra_pt_activity",
+    "phrase": "procura no histórico de atividade",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "activity",
+    "expected_action": "search",
+    "source": "routing160",
+    "scenario_id": "gaps160_extra_pt_activity",
+    "phrase": "Firefox",
+    "keep_context": true,
+    "expected_args": {
+      "query": "Firefox",
+      "scope": "desktop"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "Покажешь процессор?",
+    "expected_tool": "system_monitor",
+    "expected_action": "cpu",
+    "expected_args": {},
+    "source": "routing160"
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажешь процессор",
+    "expected_tool": "system_monitor",
+    "expected_action": "cpu",
+    "expected_args": {},
+    "source": "routing160"
+  }
+]
