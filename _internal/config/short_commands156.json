@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "scope": "Exact locale-owned compact requests; no bare generic action or inferred payload",
+  "languages": {
+    "ru": {
+      "состояние компьютера": [
+        "system_monitor",
+        "summary"
+      ],
+      "текущий план питания": [
+        "system",
+        "get_power_plan"
+      ],
+      "чувствительность мыши": [
+        "system",
+        "get_mouse_sensitivity"
+      ],
+      "состояние комплектующих": [
+        "hardware",
+        "status"
+      ],
+      "задержки ассистента": [
+        "diagnostics",
+        "latency"
+      ],
+      "статус интеграций": [
+        "diagnostics",
+        "plugins"
+      ],
+      "сведения о сети": [
+        "network",
+        "info"
+      ],
+      "список дисков": [
+        "filesystem",
+        "list_drives"
+      ],
+      "свободное место на диске": [
+        "filesystem",
+        "disk_usage"
+      ],
+      "события календаря на сегодня": [
+        "google_calendar",
+        "today"
+      ],
+      "события календаря на завтра": [
+        "google_calendar",
+        "tomorrow"
+      ],
+      "ближайшие события календаря": [
+        "google_calendar",
+        "upcoming"
+      ],
+      "количество сообщений телеграм": [
+        "telegram_messages",
+        "count"
+      ],
+      "недавние сообщения телеграм": [
+        "telegram_messages",
+        "recent"
+      ],
+      "диагностика сообщений телеграм": [
+        "telegram_messages",
+        "diagnostic"
+      ],
+      "температура воздуха на улице": [
+        "weather",
+        "temperature"
+      ],
+      "ветер на улице": [
+        "weather",
+        "wind"
+      ],
+      "очередь музыки": [
+        "music",
+        "queue_status"
+      ]
+    },
+    "en": {
+      "computer status": [
+        "system_monitor",
+        "summary"
+      ],
+      "current power plan": [
+        "system",
+        "get_power_plan"
+      ],
+      "mouse sensitivity": [
+        "system",
+        "get_mouse_sensitivity"
+      ],
+      "hardware health": [
+        "hardware",
+        "status"
+      ],
+      "assistant response latency": [
+        "diagnostics",
+        "latency"
+      ],
+      "integration status": [
+        "diagnostics",
+        "plugins"
+      ],
+      "network details": [
+        "network",
+        "info"
+      ],
+      "available drives": [
+        "filesystem",
+        "list_drives"
+      ],
+      "free disk space": [
+        "filesystem",
+        "disk_usage"
+      ],
+      "calendar events today": [
+        "google_calendar",
+        "today"
+      ],
+      "calendar events tomorrow": [
+        "google_calendar",
+        "tomorrow"
+      ],
+      "upcoming calendar events": [
+        "google_calendar",
+        "upcoming"
+      ],
+      "Telegram message count": [
+        "telegram_messages",
+        "count"
+      ],
+      "recent Telegram messages": [
+        "telegram_messages",
+        "recent"
+      ],
+      "Telegram message diagnostics": [
+        "telegram_messages",
+        "diagnostic"
+      ],
+      "outside air temperature": [
+        "weather",
+        "temperature"
+      ],
+      "wind conditions outside": [
+        "weather",
+        "wind"
+      ],
+      "music queue": [
+        "music",
+        "queue_status"
+      ]
+    },
+    "de": {
+      "Computerstatus": [
+        "system_monitor",
+        "summary"
+      ],
+      "aktueller Energiesparplan": [
+        "system",
+        "get_power_plan"
+      ],
+      "Mausempfindlichkeit": [
+        "system",
+        "get_mouse_sensitivity"
+      ],
+      "Hardwarezustand": [
+        "hardware",
+        "status"
+      ],
+      "Antwortlatenz des Assistenten": [
+        "diagnostics",
+        "latency"
+      ],
+      "Integrationsstatus": [
+        "diagnostics",
+        "plugins"
+      ],
+      "Netzwerkdetails": [
+        "network",
+        "info"
+      ],
+      "verfügbare Laufwerke": [
+        "filesystem",
+        "list_drives"
+      ],
+      "freier Speicherplatz": [
+        "filesystem",
+        "disk_usage"
+      ],
+      "Kalendertermine heute": [
+        "google_calendar",
+        "today"
+      ],
+      "Kalendertermine morgen": [
+        "google_calendar",
+        "tomorrow"
+      ],
+      "anstehende Kalendertermine": [
+        "google_calendar",
+        "upcoming"
+      ],
+      "Anzahl der Telegram-Nachrichten": [
+        "telegram_messages",
+        "count"
+      ],
+      "neueste Telegram-Nachrichten": [
+        "telegram_messages",
+        "recent"
+      ],
+      "Diagnose der Telegram-Nachrichten": [
+        "telegram_messages",
+        "diagnostic"
+      ],
+      "Außentemperatur": [
+        "weather",
+        "temperature"
+      ],
+      "Windbedingungen draußen": [
+        "weather",
+        "wind"
+      ],
+      "Musikwarteschlange": [
+        "music",
+        "queue_status"
+      ]
+    },
+    "fr": {
+      "état de l’ordinateur": [
+        "system_monitor",
+        "summary"
+      ],
+      "mode d’alimentation actuel": [
+        "system",
+        "get_power_plan"
+      ],
+      "sensibilité de la souris": [
+        "system",
+        "get_mouse_sensitivity"
+      ],
+      "état du matériel": [
+        "hardware",
+        "status"
+      ],
+      "latence de l’assistant": [
+        "diagnostics",
+        "latency"
+      ],
+      "état des intégrations": [
+        "diagnostics",
+        "plugins"
+      ],
+      "détails du réseau": [
+        "network",
+        "info"
+      ],
+      "lecteurs disponibles": [
+        "filesystem",
+        "list_drives"
+      ],
+      "espace disque libre": [
+        "filesystem",
+        "disk_usage"
+      ],
+      "événements du calendrier aujourd’hui": [
+        "google_calendar",
+        "today"
+      ],
+      "événements du calendrier demain": [
+        "google_calendar",
+        "tomorrow"
+      ],
+      "prochains événements du calendrier": [
+        "google_calendar",
+        "upcoming"
+      ],
+      "nombre de messages Telegram": [
+        "telegram_messages",
+        "count"
+      ],
+      "messages Telegram récents": [
+        "telegram_messages",
+        "recent"
+      ],
+      "diagnostic des messages Telegram": [
+        "telegram_messages",
+        "diagnostic"
+      ],
+      "température de l’air dehors": [
+        "weather",
+        "temperature"
+      ],
+      "conditions de vent dehors": [
+        "weather",
+        "wind"
+      ],
+      "file musicale": [
+        "music",
+        "queue_status"
+      ]
+    },
+    "es": {
+      "estado del ordenador": [
+        "system_monitor",
+        "summary"
+      ],
+      "plan de energía actual": [
+        "system",
+        "get_power_plan"
+      ],
+      "sensibilidad del ratón": [
+        "system",
+        "get_mouse_sensitivity"
+      ],
+      "estado del hardware": [
+        "hardware",
+        "status"
+      ],
+      "latencia del asistente": [
+        "diagnostics",
+        "latency"
+      ],
+      "estado de las integraciones": [
+        "diagnostics",
+        "plugins"
+      ],
+      "detalles de la red": [
+        "network",
+        "info"
+      ],
+      "unidades disponibles": [
+        "filesystem",
+        "list_drives"
+      ],
+      "espacio libre en disco": [
+        "filesystem",
+        "disk_usage"
+      ],
+      "eventos del calendario de hoy": [
+        "google_calendar",
+        "today"
+      ],
+      "eventos del calendario de mañana": [
+        "google_calendar",
+        "tomorrow"
+      ],
+      "próximos eventos del calendario": [
+        "google_calendar",
+        "upcoming"
+      ],
+      "cantidad de mensajes de Telegram": [
+        "telegram_messages",
+        "count"
+      ],
+      "mensajes recientes de Telegram": [
+        "telegram_messages",
+        "recent"
+      ],
+      "diagnóstico de mensajes de Telegram": [
+        "telegram_messages",
+        "diagnostic"
+      ],
+      "temperatura del aire exterior": [
+        "weather",
+        "temperature"
+      ],
+      "viento en el exterior": [
+        "weather",
+        "wind"
+      ],
+      "cola de música": [
+        "music",
+        "queue_status"
+      ]
+    },
+    "it": {
+      "stato del computer": [
+        "system_monitor",
+        "summary"
+      ],
+      "piano energetico attuale": [
+        "system",
+        "get_power_plan"
+      ],
+      "sensibilità del mouse": [
+        "system",
+        "get_mouse_sensitivity"
+      ],
+      "stato dell’hardware": [
+        "hardware",
+        "status"
+      ],
+      "latenza dell’assistente": [
+        "diagnostics",
+        "latency"
+      ],
+      "stato delle integrazioni": [
+        "diagnostics",
+        "plugins"
+      ],
+      "dettagli della rete": [
+        "network",
+        "info"
+      ],
+      "unità disponibili": [
+        "filesystem",
+        "list_drives"
+      ],
+      "spazio libero su disco": [
+        "filesystem",
+        "disk_usage"
+      ],
+      "eventi del calendario di oggi": [
+        "google_calendar",
+        "today"
+      ],
+      "eventi del calendario di domani": [
+        "google_calendar",
+        "tomorrow"
+      ],
+      "prossimi eventi del calendario": [
+        "google_calendar",
+        "upcoming"
+      ],
+      "numero di messaggi Telegram": [
+        "telegram_messages",
+        "count"
+      ],
+      "messaggi Telegram recenti": [
+        "telegram_messages",
+        "recent"
+      ],
+      "diagnostica dei messaggi Telegram": [
+        "telegram_messages",
+        "diagnostic"
+      ],
+      "temperatura dell’aria esterna": [
+        "weather",
+        "temperature"
+      ],
+      "vento all’esterno": [
+        "weather",
+        "wind"
+      ],
+      "coda musicale": [
+        "music",
+        "queue_status"
+      ]
+    },
+    "pt": {
+      "estado do computador": [
+        "system_monitor",
+        "summary"
+      ],
+      "plano de energia atual": [
+        "system",
+        "get_power_plan"
+      ],
+      "sensibilidade do mouse": [
+        "system",
+        "get_mouse_sensitivity"
+      ],
+      "estado do hardware": [
+        "hardware",
+        "status"
+      ],
+      "latência do assistente": [
+        "diagnostics",
+        "latency"
+      ],
+      "estado das integrações": [
+        "diagnostics",
+        "plugins"
+      ],
+      "detalhes da rede": [
+        "network",
+        "info"
+      ],
+      "unidades disponíveis": [
+        "filesystem",
+        "list_drives"
+      ],
+      "espaço livre em disco": [
+        "filesystem",
+        "disk_usage"
+      ],
+      "eventos do calendário de hoje": [
+        "google_calendar",
+        "today"
+      ],
+      "eventos do calendário de amanhã": [
+        "google_calendar",
+        "tomorrow"
+      ],
+      "próximos eventos do calendário": [
+        "google_calendar",
+        "upcoming"
+      ],
+      "quantidade de mensagens do Telegram": [
+        "telegram_messages",
+        "count"
+      ],
+      "mensagens recentes do Telegram": [
+        "telegram_messages",
+        "recent"
+      ],
+      "diagnóstico das mensagens do Telegram": [
+        "telegram_messages",
+        "diagnostic"
+      ],
+      "temperatura do ar exterior": [
+        "weather",
+        "temperature"
+      ],
+      "vento no exterior": [
+        "weather",
+        "wind"
+      ],
+      "fila de música": [
+        "music",
+        "queue_status"
+      ]
+    }
+  }
+}
