@@ -1,0 +1,15 @@
+{
+  "payload_scope": "archive-payload-v1",
+  "payload_sha256": "4054869084bfe68870727d011a00ace28a3c08ea09902a90b02146f533388107",
+  "revision": "188-20261016",
+  "schema": 1,
+  "subset_files": {
+    "app.py": "596f453ab71f718315d21f35e22e85135fbed90b63d1d43f485e057212d7b257",
+    "jarvis/runtime/build_identity.py": "b1aa93af7f183c8d4a1480f2a5bacfaac261c3c67fada8630b4c874087fb4725",
+    "jarvis/runtime/windows_hotkeys.py": "83c2e71e421617bc7c3d3e552cb1c7ca8391b7f2274f32036fe6275f1e82e67f",
+    "jarvis/ui/main_window.py": "ebb77a92e454f405cbe25fec1d5908e968c3259f7b0dae9a4128eb65605c2980",
+    "jarvis/voice.py": "ef32385bf0ab14291076dfe2624308aaa09cd57c027523aa0c7fe20d48b60021",
+    "jarvis/wake_matcher.py": "b035a125176839e962b08c265f85b11fb45cb93d2645ed1c98f1ca5079c0933a"
+  },
+  "subset_scope": "startup-critical-v1"
+}
