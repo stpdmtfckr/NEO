@@ -1,0 +1,7 @@
+{
+  "product": "NEO",
+  "version": "4.0.20.166",
+  "distribution": "developer-source",
+  "installed": false,
+  "note": "Developer archive metadata. The consumer installer stores its real ownership receipt in AppData."
+}
