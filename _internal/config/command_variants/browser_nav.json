@@ -1,0 +1,564 @@
+{
+ "browser_nav.back": {
+  "ru": [
+   "вернись назад",
+   "вернись",
+   "назад на страницу",
+   "предыдущая страница",
+   "на предыдущую страницу",
+   "верни предыдущую страницу",
+   "вернись на прошлую страницу",
+   "открой предыдущую страницу",
+   "шаг назад",
+   "страницу назад",
+   "перейди назад",
+   "иди назад",
+   "предыдущую страницу"
+  ],
+  "en": [
+   "go back",
+   "previous page",
+   "back to the previous page",
+   "go to the previous page",
+   "page back",
+   "navigate back",
+   "return to the previous page",
+   "the previous page"
+  ],
+  "de": [
+   "geh zurück",
+   "vorherige seite",
+   "eine seite zurück",
+   "zur vorherigen seite",
+   "vorherige Seite",
+   "die vorherige Seite"
+  ],
+  "fr": [
+   "retour",
+   "reviens en arrière",
+   "page précédente",
+   "retourne à la page précédente",
+   "en arrière",
+   "la page précédente"
+  ],
+  "es": [
+   "vuelve atrás",
+   "página anterior",
+   "ve a la página anterior",
+   "regresa a la página anterior",
+   "la página anterior"
+  ],
+  "it": [
+   "torna indietro",
+   "pagina precedente",
+   "vai alla pagina precedente",
+   "la pagina precedente"
+  ],
+  "pt": [
+   "voltar",
+   "volta atrás",
+   "página anterior",
+   "vai para a página anterior",
+   "regressa à página anterior",
+   "a página anterior"
+  ]
+ },
+ "browser_nav.forward": {
+  "ru": [
+   "вперёд",
+   "вперед",
+   "страницу вперёд",
+   "страницу вперед",
+   "следующая страница",
+   "на следующую страницу",
+   "перейди вперёд",
+   "перейди вперед",
+   "шаг вперёд"
+  ],
+  "en": [
+   "forward",
+   "go forward",
+   "next page",
+   "page forward",
+   "navigate forward"
+  ],
+  "de": [
+   "vorwärts",
+   "geh vorwärts",
+   "nächste seite",
+   "eine seite vor"
+  ],
+  "fr": [
+   "avance",
+   "page suivante",
+   "va à la page suivante",
+   "en avant"
+  ],
+  "es": [
+   "adelante",
+   "ve adelante",
+   "página siguiente",
+   "avanza una página"
+  ],
+  "it": [
+   "vai avanti",
+   "pagina successiva"
+  ],
+  "pt": [
+   "avançar",
+   "avança",
+   "página seguinte",
+   "vai para a página seguinte"
+  ]
+ },
+ "browser_nav.reload": {
+  "ru": [
+   "обнови",
+   "обнови страницу",
+   "перезагрузи страницу",
+   "обнови вкладку",
+   "перезагрузи вкладку",
+   "освежи страницу",
+   "обновить страницу",
+   "перезагрузи сайт",
+   "обнови сайт"
+  ],
+  "en": [
+   "reload",
+   "refresh",
+   "refresh the page",
+   "reload the page",
+   "refresh this page",
+   "reload this tab"
+  ],
+  "de": [
+   "neu laden",
+   "aktualisiere die seite",
+   "seite neu laden",
+   "lade neu"
+  ],
+  "fr": [
+   "actualise",
+   "recharge la page",
+   "rafraîchis la page",
+   "actualiser la page"
+  ],
+  "es": [
+   "recarga",
+   "actualiza la página",
+   "refresca la página",
+   "recargar la página"
+  ],
+  "it": [
+   "ricarica",
+   "aggiorna la pagina",
+   "ricarica la pagina"
+  ],
+  "pt": [
+   "recarrega",
+   "atualiza",
+   "recarrega a página",
+   "atualizar a página"
+  ]
+ },
+ "browser_nav.stop": {
+  "ru": [
+   "останови загрузку",
+   "прекрати загрузку",
+   "стоп загрузка",
+   "хватит грузить страницу",
+   "останови загрузку сайта"
+  ],
+  "en": [
+   "stop loading",
+   "stop the page",
+   "cancel loading"
+  ],
+  "de": [
+   "laden stoppen",
+   "hör auf zu laden"
+  ],
+  "fr": [
+   "arrête le chargement",
+   "stoppe le chargement"
+  ],
+  "es": [
+   "detén la carga",
+   "para la carga"
+  ],
+  "it": [
+   "ferma il caricamento",
+   "stop caricamento"
+  ],
+  "pt": [
+   "para o carregamento",
+   "cancela o carregamento"
+  ]
+ },
+ "browser_nav.next_tab": {
+  "ru": [
+   "следующая вкладка",
+   "на следующую вкладку",
+   "следующую вкладку",
+   "перейди на следующую вкладку",
+   "вкладка вперёд",
+   "вкладку вправо",
+   "открой следующую вкладку"
+  ],
+  "en": [
+   "next tab",
+   "go to the next tab",
+   "tab right"
+  ],
+  "de": [
+   "nächster tab",
+   "zum nächsten tab"
+  ],
+  "fr": [
+   "onglet suivant",
+   "va à l’onglet suivant"
+  ],
+  "es": [
+   "pestaña siguiente",
+   "siguiente pestaña",
+   "ve a la siguiente pestaña"
+  ],
+  "it": [
+   "scheda successiva",
+   "vai alla scheda successiva"
+  ],
+  "pt": [
+   "separador seguinte",
+   "próximo separador",
+   "próxima aba"
+  ]
+ },
+ "browser_nav.previous_tab": {
+  "ru": [
+   "предыдущая вкладка",
+   "на предыдущую вкладку",
+   "предыдущую вкладку",
+   "перейди на предыдущую вкладку",
+   "вкладка назад",
+   "вкладку влево",
+   "прошлая вкладка"
+  ],
+  "en": [
+   "previous tab",
+   "go to the previous tab",
+   "tab left"
+  ],
+  "de": [
+   "vorheriger tab",
+   "zum vorherigen tab"
+  ],
+  "fr": [
+   "onglet précédent",
+   "va à l’onglet précédent"
+  ],
+  "es": [
+   "pestaña anterior",
+   "ve a la pestaña anterior"
+  ],
+  "it": [
+   "scheda precedente",
+   "vai alla scheda precedente"
+  ],
+  "pt": [
+   "separador anterior",
+   "aba anterior"
+  ]
+ },
+ "browser_nav.find": {
+  "ru": [
+   "поищи на странице {text}",
+   "найди на этой странице {text}",
+   "где на странице {text}",
+   "поиск по странице {text}",
+   "найди в тексте страницы {text}",
+   "найди на сайте текст {text}"
+  ],
+  "en": [
+   "find {text} on the page",
+   "search the page for {text}",
+   "find on this page {text}",
+   "look for {text} on the page"
+  ],
+  "de": [
+   "suche auf der seite {text}",
+   "finde {text} auf der seite"
+  ],
+  "fr": [
+   "trouve dans la page {text}",
+   "recherche sur la page {text}"
+  ],
+  "es": [
+   "encuentra en la página {text}",
+   "busca {text} en la página"
+  ],
+  "it": [
+   "trova nella pagina {text}",
+   "cerca {text} nella pagina"
+  ],
+  "pt": [
+   "encontra na página {text}",
+   "procura {text} na página"
+  ]
+ },
+ "browser_nav.find_next": {
+  "ru": [
+   "следующее совпадение",
+   "дальше по поиску",
+   "найди дальше",
+   "ищи дальше",
+   "следующий результат на странице"
+  ],
+  "en": [
+   "next match",
+   "find next",
+   "next result on the page"
+  ],
+  "de": [
+   "nächster treffer",
+   "weitersuchen"
+  ],
+  "fr": [
+   "occurrence suivante",
+   "suivant dans la page"
+  ],
+  "es": [
+   "siguiente coincidencia",
+   "busca la siguiente"
+  ],
+  "it": [
+   "occorrenza successiva",
+   "trova successivo"
+  ],
+  "pt": [
+   "ocorrência seguinte",
+   "procura a seguinte"
+  ]
+ },
+ "browser_nav.zoom_in": {
+  "ru": [
+   "увеличь масштаб",
+   "приблизь страницу",
+   "сделай крупнее",
+   "увеличь страницу",
+   "крупнее",
+   "увеличь шрифт на странице"
+  ],
+  "en": [
+   "zoom in",
+   "make it bigger",
+   "bigger text"
+  ],
+  "de": [
+   "vergrößern",
+   "zoom rein"
+  ],
+  "fr": [
+   "zoom avant",
+   "agrandis"
+  ],
+  "es": [
+   "acerca la página",
+   "aumenta el zoom"
+  ],
+  "it": [
+   "aumenta lo zoom",
+   "ingrandisci"
+  ],
+  "pt": [
+   "aumenta o zoom",
+   "aproxima a página"
+  ]
+ },
+ "browser_nav.zoom_out": {
+  "ru": [
+   "уменьши масштаб",
+   "отдали страницу",
+   "сделай мельче",
+   "уменьши страницу",
+   "мельче"
+  ],
+  "en": [
+   "zoom out",
+   "make it smaller",
+   "smaller text"
+  ],
+  "de": [
+   "verkleinern",
+   "zoom raus"
+  ],
+  "fr": [
+   "zoom arrière",
+   "réduis"
+  ],
+  "es": [
+   "aleja la página",
+   "reduce el zoom"
+  ],
+  "it": [
+   "riduci lo zoom",
+   "rimpicciolisci"
+  ],
+  "pt": [
+   "diminui o zoom",
+   "afasta a página"
+  ]
+ },
+ "browser_nav.zoom_reset": {
+  "ru": [
+   "масштаб сто процентов",
+   "сбрось масштаб",
+   "обычный масштаб",
+   "верни масштаб"
+  ],
+  "en": [
+   "reset zoom",
+   "normal zoom",
+   "zoom to 100 percent"
+  ],
+  "de": [
+   "zoom zurücksetzen",
+   "normale größe"
+  ],
+  "fr": [
+   "zoom normal",
+   "réinitialise le zoom"
+  ],
+  "es": [
+   "zoom normal",
+   "restablece el zoom"
+  ],
+  "it": [
+   "zoom normale",
+   "ripristina lo zoom"
+  ],
+  "pt": [
+   "zoom normal",
+   "repõe o zoom"
+  ]
+ },
+ "browser_nav.address": {
+  "ru": [
+   "адресная строка",
+   "в адресную строку",
+   "выдели адресную строку",
+   "перейди к адресной строке",
+   "фокус на адресную строку"
+  ],
+  "en": [
+   "address bar",
+   "focus the address bar",
+   "select the address bar"
+  ],
+  "de": [
+   "adressleiste",
+   "zur adressleiste"
+  ],
+  "fr": [
+   "barre d’adresse",
+   "sélectionne la barre d’adresse"
+  ],
+  "es": [
+   "barra de direcciones",
+   "selecciona la barra de direcciones"
+  ],
+  "it": [
+   "barra degli indirizzi",
+   "seleziona la barra degli indirizzi"
+  ],
+  "pt": [
+   "barra de endereço",
+   "seleciona a barra de endereço"
+  ]
+ },
+ "browser_nav.open_url": {
+  "ru": [
+   "введи адрес {text}",
+   "перейди по адресу {text}",
+   "открой адрес {text}",
+   "зайди на адрес {text}"
+  ],
+  "en": [
+   "go to the address {text}",
+   "enter the address {text}",
+   "open the url {text}"
+  ],
+  "de": [
+   "geh zur adresse {text}",
+   "gib die adresse {text} ein"
+  ],
+  "fr": [
+   "va à l’adresse {text}",
+   "saisis l’adresse {text}"
+  ],
+  "es": [
+   "ve a la dirección {text}",
+   "escribe la dirección {text}"
+  ],
+  "it": [
+   "vai all’indirizzo {text}",
+   "digita l’indirizzo {text}"
+  ],
+  "pt": [
+   "vai para o endereço {text}",
+   "escreve o endereço {text}"
+  ]
+ },
+ "browser_nav.next_field": {
+  "ru": [
+   "следующее поле",
+   "к следующему полю",
+   "перейди в следующее поле",
+   "дальше по форме"
+  ],
+  "en": [
+   "next field",
+   "move to the next field"
+  ],
+  "de": [
+   "nächstes feld"
+  ],
+  "fr": [
+   "champ suivant"
+  ],
+  "es": [
+   "campo siguiente"
+  ],
+  "it": [
+   "campo successivo"
+  ],
+  "pt": [
+   "campo seguinte"
+  ]
+ },
+ "browser_nav.previous_field": {
+  "ru": [
+   "предыдущее поле",
+   "к предыдущему полю",
+   "вернись в предыдущее поле"
+  ],
+  "en": [
+   "previous field",
+   "move to the previous field"
+  ],
+  "de": [
+   "vorheriges feld"
+  ],
+  "fr": [
+   "champ précédent"
+  ],
+  "es": [
+   "campo anterior"
+  ],
+  "it": [
+   "campo precedente"
+  ],
+  "pt": [
+   "campo anterior"
+  ]
+ }
+}
