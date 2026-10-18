@@ -1,0 +1,170 @@
+{
+ "ui.find": {
+  "ru": [
+   "найди на экране кнопку {name}",
+   "где кнопка {name}",
+   "покажи где кнопка {name}"
+  ],
+  "en": [
+   "where is the button {name}",
+   "find {name} on the screen"
+  ],
+  "de": [
+   "wo ist die Schaltfläche {name}"
+  ],
+  "fr": [
+   "où est le bouton {name}"
+  ],
+  "es": [
+   "dónde está el botón {name}"
+  ],
+  "it": [
+   "dov'è il pulsante {name}"
+  ],
+  "pt": [
+   "onde está o botão {name}"
+  ]
+ },
+ "ui.focus_field": {
+  "ru": [
+   "выбери поле номер {index}",
+   "перейди в {index} поле",
+   "поставь курсор в {index} поле"
+  ],
+  "en": [
+   "select the {index} field",
+   "go to the {index} field"
+  ],
+  "de": [
+   "wähle das {index} Feld"
+  ],
+  "fr": [
+   "va au champ {index}"
+  ],
+  "es": [
+   "ve al {index} campo"
+  ],
+  "it": [
+   "vai al {index} campo"
+  ],
+  "pt": [
+   "vai para o {index} campo"
+  ]
+ },
+ "copy.paste_reply": {
+  "ru": [
+   "вставь мой последний ответ в это поле",
+   "вставь свой последний ответ сюда",
+   "вставь твой ответ в это поле",
+   "вставь свой ответ в поле"
+  ],
+  "en": [
+   "paste your answer here",
+   "put your last answer into this field"
+  ],
+  "de": [
+   "füge deine Antwort hier ein"
+  ],
+  "fr": [
+   "colle ta réponse ici"
+  ],
+  "es": [
+   "pega tu respuesta aquí"
+  ],
+  "it": [
+   "incolla la tua risposta qui"
+  ],
+  "pt": [
+   "cola a tua resposta aqui"
+  ]
+ },
+ "window.list": {
+  "ru": [
+   "что сейчас открыто",
+   "какие окна открыты",
+   "что у меня открыто"
+  ],
+  "en": [
+   "what is open now",
+   "which windows are open"
+  ],
+  "de": [
+   "was ist gerade offen",
+   "welche Fenster sind offen"
+  ],
+  "fr": [
+   "qu'est-ce qui est ouvert",
+   "quelles fenêtres sont ouvertes"
+  ],
+  "es": [
+   "qué está abierto ahora",
+   "qué ventanas están abiertas"
+  ],
+  "it": [
+   "cosa è aperto adesso",
+   "quali finestre sono aperte"
+  ],
+  "pt": [
+   "o que está aberto agora",
+   "que janelas estão abertas"
+  ]
+ },
+ "ui.read": {
+  "ru": [
+   "что написано в этом окне",
+   "прочитай это окно",
+   "что написано в окне"
+  ],
+  "en": [
+   "what does this window say",
+   "read this window"
+  ],
+  "de": [
+   "was steht in diesem Fenster"
+  ],
+  "fr": [
+   "qu'est-ce qui est écrit dans cette fenêtre"
+  ],
+  "es": [
+   "qué pone en esta ventana"
+  ],
+  "it": [
+   "cosa c'è scritto in questa finestra"
+  ],
+  "pt": [
+   "o que diz esta janela"
+  ]
+ },
+ "screen.analyze": {
+  "ru": [
+   "объясни эту ошибку",
+   "что это за ошибка",
+   "почему здесь ошибка",
+   "что означает эта ошибка на экране"
+  ],
+  "en": [
+   "explain this error",
+   "what is this error"
+  ],
+  "de": [
+   "erkläre diesen Fehler",
+   "was ist das für ein Fehler"
+  ],
+  "fr": [
+   "explique cette erreur",
+   "quelle est cette erreur"
+  ],
+  "es": [
+   "explica este error",
+   "qué es este error"
+  ],
+  "it": [
+   "spiega questo errore",
+   "che errore è questo"
+  ],
+  "pt": [
+   "explica este erro",
+   "que erro é este"
+  ]
+ }
+}
