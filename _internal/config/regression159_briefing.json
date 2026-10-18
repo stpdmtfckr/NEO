@@ -1,0 +1,112 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "сводка дня",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи сводку дня",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста покажи мне сводку дня",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "ru",
+    "phrase": "можешь показать мне сводку дня",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "ru",
+    "phrase": "дай сводку на сегодня",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "en",
+    "phrase": "show me the daily briefing",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige mir die Tagesübersicht",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "fr",
+    "phrase": "montre moi le résumé du jour",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "es",
+    "phrase": "muéstrame el resumen del día",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "it",
+    "phrase": "mostrami il riepilogo del giorno",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostra o resumo do dia",
+    "expected_tool": "briefing",
+    "expected_action": "summary",
+    "expected_args": {
+      "action": "summary"
+    },
+    "source": "briefing159_native_requests"
+  }
+]
