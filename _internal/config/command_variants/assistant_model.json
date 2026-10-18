@@ -1,0 +1,187 @@
+{
+ "assistant_model.status": {
+  "ru": [
+   "состояние модели ассистента",
+   "как дела у модели ассистента",
+   "статус дообучения модели ассистента",
+   "как идёт дообучение модели ассистента",
+   "как идет дообучение модели ассистента",
+   "покажи статус модели ассистента",
+   "какая модель ассистента установлена",
+   "проверь модель ассистента"
+  ],
+  "en": [
+   "assistant model status",
+   "how is the assistant model",
+   "fine-tuning status",
+   "how is the assistant model fine-tuning going",
+   "check the assistant model",
+   "which assistant model is installed"
+  ],
+  "de": [
+   "Status des Assistenzmodells",
+   "wie läuft das Nachtraining des Assistenzmodells",
+   "prüfe das Assistenzmodell"
+  ],
+  "fr": [
+   "état du modèle d’assistant",
+   "où en est l’affinage du modèle d’assistant",
+   "vérifie le modèle d’assistant"
+  ],
+  "es": [
+   "estado del modelo del asistente",
+   "cómo va el ajuste del modelo del asistente",
+   "comprueba el modelo del asistente"
+  ],
+  "it": [
+   "stato del modello assistente",
+   "come va l’affinamento del modello assistente",
+   "controlla il modello assistente"
+  ],
+  "pt": [
+   "estado do modelo do assistente",
+   "como vai a afinação do modelo do assistente",
+   "verifica o modelo do assistente"
+  ]
+ },
+ "assistant_model.install": {
+  "ru": [
+   "установи модель ассистента",
+   "скачай модель ассистента",
+   "переустанови модель ассистента",
+   "обнови модель ассистента",
+   "поставь модель ассистента"
+  ],
+  "en": [
+   "install the assistant model",
+   "download the assistant model",
+   "reinstall the assistant model",
+   "update the assistant model"
+  ],
+  "de": [
+   "installiere das Assistenzmodell",
+   "lade das Assistenzmodell herunter"
+  ],
+  "fr": [
+   "installe le modèle d’assistant",
+   "télécharge le modèle d’assistant"
+  ],
+  "es": [
+   "instala el modelo del asistente",
+   "descarga el modelo del asistente"
+  ],
+  "it": [
+   "installa il modello assistente",
+   "scarica il modello assistente"
+  ],
+  "pt": [
+   "instala o modelo do assistente",
+   "transfere o modelo do assistente"
+  ]
+ },
+ "assistant_model.train": {
+  "ru": [
+   "дообучи модель ассистента",
+   "обучи модель ассистента",
+   "дообучи модель ассистента на командах",
+   "запусти дообучение модели ассистента",
+   "начни дообучение модели ассистента",
+   "дообучи языковую модель",
+   "дообучи квен"
+  ],
+  "en": [
+   "fine-tune the assistant model",
+   "train the assistant model",
+   "start fine-tuning the assistant model",
+   "fine-tune the language model"
+  ],
+  "de": [
+   "trainiere das Assistenzmodell nach",
+   "starte das Nachtraining des Assistenzmodells"
+  ],
+  "fr": [
+   "affine le modèle d’assistant",
+   "lance l’affinage du modèle d’assistant"
+  ],
+  "es": [
+   "ajusta el modelo del asistente",
+   "entrena el modelo del asistente",
+   "inicia el ajuste del modelo del asistente"
+  ],
+  "it": [
+   "affina il modello assistente",
+   "avvia l’affinamento del modello assistente"
+  ],
+  "pt": [
+   "afina o modelo do assistente",
+   "inicia a afinação do modelo do assistente",
+   "treina o modelo do assistente"
+  ]
+ },
+ "assistant_model.stop": {
+  "ru": [
+   "останови дообучение модели ассистента",
+   "прекрати дообучение модели ассистента",
+   "останови дообучение ассистента",
+   "хватит дообучать модель ассистента"
+  ],
+  "en": [
+   "stop fine-tuning the assistant model",
+   "stop the assistant model fine-tuning",
+   "stop the fine-tuning"
+  ],
+  "de": [
+   "stoppe das Nachtraining des Assistenzmodells",
+   "beende das Nachtraining"
+  ],
+  "fr": [
+   "arrête l’affinage du modèle d’assistant",
+   "arrête l’affinage"
+  ],
+  "es": [
+   "detén el ajuste del modelo del asistente",
+   "detén el ajuste"
+  ],
+  "it": [
+   "ferma l’affinamento del modello assistente",
+   "ferma l’affinamento"
+  ],
+  "pt": [
+   "para a afinação do modelo do assistente",
+   "para a afinação"
+  ]
+ },
+ "assistant_model.rollback": {
+  "ru": [
+   "откати модель ассистента",
+   "верни прежнюю модель ассистента",
+   "верни предыдущую модель ассистента",
+   "откати дообучение модели ассистента"
+  ],
+  "en": [
+   "roll back the assistant model",
+   "go back to the previous assistant model",
+   "undo the assistant model fine-tuning"
+  ],
+  "de": [
+   "setze das Assistenzmodell zurück",
+   "nimm das vorherige Assistenzmodell"
+  ],
+  "fr": [
+   "reviens à la version précédente du modèle d’assistant",
+   "annule l’affinage du modèle d’assistant"
+  ],
+  "es": [
+   "revierte el modelo del asistente",
+   "vuelve al modelo del asistente anterior"
+  ],
+  "it": [
+   "ripristina la versione precedente del modello assistente",
+   "torna al modello assistente precedente"
+  ],
+  "pt": [
+   "reverte o modelo do assistente",
+   "volta ao modelo do assistente anterior"
+  ]
+ }
+}
