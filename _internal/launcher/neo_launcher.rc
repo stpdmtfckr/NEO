@@ -1,0 +1,28 @@
+1 ICON "../assets/neo_jarvis.ico"
+1 VERSIONINFO
+FILEVERSION 4,0,20,145
+PRODUCTVERSION 4,0,20,145
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "NEO Project\0"
+            VALUE "FileDescription", "NEO desktop assistant launcher\0"
+            VALUE "FileVersion", "4.0.20.145\0"
+            VALUE "InternalName", "NEO\0"
+            VALUE "OriginalFilename", "NEO.exe\0"
+            VALUE "ProductName", "NEO\0"
+            VALUE "ProductVersion", "4.0.20.145\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

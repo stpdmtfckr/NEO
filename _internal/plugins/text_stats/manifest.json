@@ -1,0 +1,22 @@
+{
+ "name": "text_stats",
+ "version": "1.0.0",
+ "description": "Counts words, characters and sentences in the text on the clipboard.",
+ "entry": "plugin.py",
+ "tools": [{"name": "text_stats", "description": "Word, character and sentence count of clipboard text or given text"}],
+ "permissions": ["clipboard.read"],
+ "timeout_seconds": 5,
+ "settings": {},
+ "tests": "tests",
+ "phrases": {
+  "text_stats.count": [
+   "Посчитай слова в буфере обмена",
+   "Count the words on the clipboard",
+   "Zähle die Wörter in der Zwischenablage",
+   "Compte les mots du presse-papiers",
+   "Cuenta las palabras del portapapeles",
+   "Conta le parole negli appunti",
+   "Conta as palavras da área de transferência"
+  ]
+ }
+}

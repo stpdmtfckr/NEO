@@ -1,0 +1,13 @@
+{
+  "compiler": "MinGW-w64 gcc",
+  "binary": {
+    "architecture": "x86_64",
+    "subsystem": "Windows GUI",
+    "bytes": 171520,
+    "sha256": "c0ca0ed572ea5e4f282a6c2c7994044d2c086004860fb739f0392b1003f9a6fa"
+  },
+  "sources": {
+    "neo_host.c": "576b5a2c7f2feecd04feb75a938c7e2bc844f6bb87bbb347ae7f1a9612237e29",
+    "neo_host.rc": "b49edb08df4500e37dc34a6e9072858ee4b559e4486bcbd637418ac04c88af17"
+  }
+}

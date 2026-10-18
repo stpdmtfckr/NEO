@@ -1,0 +1,38 @@
+{
+  "compiler": "Zig 0.16.0",
+  "command": [
+    "cc",
+    "-target",
+    "x86_64-windows-gnu",
+    "-municode",
+    "-Wl,--subsystem,windows",
+    "-Os",
+    "-s",
+    "-Wall",
+    "-Wextra",
+    "neo_launcher.c",
+    "neo_launcher.res",
+    "-lshell32",
+    "-luser32",
+    "-o",
+    "../../NEO.exe"
+  ],
+  "resource_command": [
+    "rc",
+    "/fo",
+    "neo_launcher.res",
+    "neo_launcher.rc"
+  ],
+  "binary": {
+    "architecture": "x86_64",
+    "subsystem": "Windows GUI",
+    "bytes": 177152,
+    "sha256": "a0175ddc5c0554e9a816e694c94b3a9f6d6e7e6412ad080559f0299751d8402d"
+  },
+  "sources": {
+    "neo_launcher.c": "d0278df08d1edbcf5d3672b4d2c96666414e7a1773b90ea445a09225420212e4",
+    "neo_launcher.rc": "e5f8eb708a402b67876ce992ed84eba056eb62c0d8262baa2b9b94e924a6c6e9"
+  },
+  "windows_execution_tested": false,
+  "code_signed": false
+}

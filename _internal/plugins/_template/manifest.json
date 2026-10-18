@@ -1,0 +1,14 @@
+{
+ "name": "my_plugin",
+ "version": "0.1.0",
+ "description": "Describe in one sentence what the plugin does.",
+ "entry": "plugin.py",
+ "tools": [{"name": "my_plugin", "description": "What the tool does"}],
+ "permissions": [],
+ "timeout_seconds": 10,
+ "settings": {},
+ "tests": "tests",
+ "phrases": {
+  "my_plugin.echo": ["Повтори плагином {text}", "Echo with the plugin {text}", "Wiederhole mit dem Plugin {text}", "Répète avec le plugin {text}", "Repite con el plugin {text}", "Ripeti con il plugin {text}", "Repete com o plugin {text}"]
+ }
+}
