@@ -1,0 +1,38 @@
+{
+ "match.accept": [
+  "Прими матч",
+  "Accept the match",
+  "Nimm das Match an",
+  "Accepte le match",
+  "Acepta la partida",
+  "Accetta la partita",
+  "Aceita a partida"
+ ],
+ "match.arm": [
+  "Прими матч, когда найдётся",
+  "Accept the match when it is found",
+  "Nimm das Match an, wenn es gefunden wird",
+  "Accepte le match quand il sera trouvé",
+  "Acepta la partida cuando se encuentre",
+  "Accetta la partita quando viene trovata",
+  "Aceita a partida quando for encontrada"
+ ],
+ "match.disarm": [
+  "Выключи автопринятие матча",
+  "Turn off match auto-accept",
+  "Schalte das automatische Annehmen aus",
+  "Désactive l’acceptation automatique",
+  "Desactiva la aceptación automática",
+  "Disattiva l’accettazione automatica",
+  "Desativa a aceitação automática"
+ ],
+ "match.status": [
+  "Статус автопринятия матча",
+  "Match auto-accept status",
+  "Status des automatischen Annehmens",
+  "État de l’acceptation automatique",
+  "Estado de la aceptación automática",
+  "Stato dell’accettazione automatica",
+  "Estado da aceitação automática"
+ ]
+}
