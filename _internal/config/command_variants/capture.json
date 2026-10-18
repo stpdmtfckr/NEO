@@ -1,0 +1,631 @@
+{
+ "capture.clip": {
+  "ru": [
+   "клип",
+   "клипни",
+   "клипани",
+   "клипани это",
+   "клип это",
+   "заклипь",
+   "сохрани клип",
+   "запиши клип",
+   "создай клип",
+   "нарежь клип",
+   "сохрани последние пять минут",
+   "сохрани последние 5 минут",
+   "запиши последние пять минут",
+   "сохрани последние минуты",
+   "сохрани повтор",
+   "сохрани мгновенный повтор",
+   "сохрани момент",
+   "сохрани этот момент",
+   "сохрани хайлайт",
+   "сделай хайлайт",
+   "клип nvidia",
+   "клип нвидиа",
+   "сделай клип через nvidia",
+   "сделай клип в nvidia",
+   "сохрани клип nvidia",
+   "сделай клип через geforce",
+   "сохрани повтор nvidia",
+   "сделай клип последних пяти минут"
+  ],
+  "en": [
+   "clip",
+   "clip it",
+   "clip that",
+   "clip this",
+   "save a clip",
+   "save clip",
+   "save the clip",
+   "create a clip",
+   "clip the last minutes",
+   "save the last five minutes",
+   "save the last 5 minutes",
+   "save replay",
+   "save the replay",
+   "save instant replay",
+   "save that moment",
+   "save this moment",
+   "save a highlight",
+   "clip with nvidia",
+   "nvidia clip",
+   "make an nvidia clip",
+   "save an nvidia clip"
+  ],
+  "de": [
+   "clip",
+   "clip speichern",
+   "speichere einen clip",
+   "speichere den clip",
+   "erstelle einen clip",
+   "speichere die letzten fünf minuten",
+   "speichere die letzten 5 minuten",
+   "replay speichern",
+   "speichere das replay",
+   "instant replay speichern",
+   "speichere den moment",
+   "speichere diesen moment",
+   "speichere ein highlight",
+   "nvidia clip",
+   "mach einen clip mit nvidia"
+  ],
+  "fr": [
+   "clip",
+   "sauvegarde un clip",
+   "sauvegarde le clip",
+   "crée un clip",
+   "enregistre un clip",
+   "sauvegarde les cinq dernières minutes",
+   "sauvegarde les 5 dernières minutes",
+   "sauvegarde le replay",
+   "sauvegarde la relecture instantanée",
+   "sauvegarde ce moment",
+   "garde ce moment",
+   "clip nvidia",
+   "fais un clip avec nvidia"
+  ],
+  "es": [
+   "clip",
+   "guarda un clip",
+   "guarda el clip",
+   "crea un clip",
+   "graba un clip",
+   "guarda los últimos cinco minutos",
+   "guarda los últimos 5 minutos",
+   "guarda la repetición",
+   "guarda la repetición instantánea",
+   "guarda este momento",
+   "clip de nvidia",
+   "haz un clip con nvidia"
+  ],
+  "it": [
+   "clip",
+   "salva una clip",
+   "salva la clip",
+   "crea una clip",
+   "registra una clip",
+   "salva gli ultimi cinque minuti",
+   "salva gli ultimi 5 minuti",
+   "salva il replay",
+   "salva il replay istantaneo",
+   "salva questo momento",
+   "clip nvidia",
+   "fai una clip con nvidia"
+  ],
+  "pt": [
+   "clip",
+   "guarda um clip",
+   "guarda o clip",
+   "salva o clip",
+   "cria um clip",
+   "grava um clip",
+   "guarda os últimos cinco minutos",
+   "guarda os últimos 5 minutos",
+   "guarda o replay",
+   "guarda a repetição instantânea",
+   "guarda este momento",
+   "clip nvidia",
+   "faz um clip com a nvidia"
+  ]
+ },
+ "capture.record_start": {
+  "ru": [
+   "запись",
+   "начать запись",
+   "включи запись",
+   "запусти запись",
+   "записывай",
+   "начни записывать",
+   "записывай экран",
+   "начни запись экрана",
+   "запиши экран",
+   "начни запись видео",
+   "начни запись игры",
+   "записывай игру",
+   "включи запись экрана",
+   "запусти запись экрана",
+   "старт запись",
+   "начни запись nvidia",
+   "начни запись через nvidia",
+   "начни запись через geforce",
+   "включи запись nvidia",
+   "начни запись через nvidia geforce",
+   "запись экрана"
+  ],
+  "en": [
+   "record",
+   "recording",
+   "start a recording",
+   "begin recording",
+   "record the screen",
+   "record my screen",
+   "start screen recording",
+   "start recording the screen",
+   "record gameplay",
+   "record the game",
+   "start video recording",
+   "start nvidia recording",
+   "start recording with nvidia",
+   "record with nvidia",
+   "turn on recording",
+   "recording on",
+   "screen recording"
+  ],
+  "de": [
+   "aufnahme",
+   "aufnahme starten",
+   "starte eine aufnahme",
+   "beginne die aufnahme",
+   "nimm auf",
+   "nimm den bildschirm auf",
+   "bildschirmaufnahme starten",
+   "starte die bildschirmaufnahme",
+   "nimm das spiel auf",
+   "starte die nvidia aufnahme",
+   "aufnahme mit nvidia starten",
+   "aufnahme an",
+   "bildschirmaufnahme"
+  ],
+  "fr": [
+   "enregistrement",
+   "commence l’enregistrement",
+   "démarre l’enregistrement",
+   "enregistre l’écran",
+   "lance l’enregistrement de l’écran",
+   "enregistre le jeu",
+   "lance l’enregistrement nvidia",
+   "enregistre avec nvidia",
+   "commence à enregistrer",
+   "enregistrement de l’écran"
+  ],
+  "es": [
+   "graba",
+   "grabar",
+   "grabación",
+   "empieza a grabar",
+   "comienza la grabación",
+   "empieza la grabación",
+   "graba la pantalla",
+   "inicia la grabación de pantalla",
+   "graba el juego",
+   "inicia la grabación de nvidia",
+   "graba con nvidia",
+   "grabación de pantalla"
+  ],
+  "it": [
+   "registra",
+   "registrazione",
+   "inizia la registrazione",
+   "inizia a registrare",
+   "registra lo schermo",
+   "avvia la registrazione dello schermo",
+   "registra il gioco",
+   "avvia la registrazione nvidia",
+   "registra con nvidia",
+   "registrazione dello schermo"
+  ],
+  "pt": [
+   "grava",
+   "gravar",
+   "gravação",
+   "começa a gravar",
+   "começa a gravação",
+   "grava o ecrã",
+   "grava a tela",
+   "inicia a gravação do ecrã",
+   "grava o jogo",
+   "inicia a gravação nvidia",
+   "grava com a nvidia",
+   "gravação do ecrã"
+  ]
+ },
+ "capture.record_stop": {
+  "ru": [
+   "стоп запись",
+   "запись стоп",
+   "закончи запись",
+   "заверши запись",
+   "выключи запись",
+   "прекрати запись",
+   "хватит записывать",
+   "перестань записывать",
+   "останови запись экрана",
+   "стоп запись экрана",
+   "останови запись видео",
+   "остановить запись",
+   "закончить запись",
+   "выключи запись экрана",
+   "останови запись nvidia",
+   "стоп запись nvidia",
+   "сохрани запись",
+   "конец записи"
+  ],
+  "en": [
+   "stop the recording",
+   "end recording",
+   "end the recording",
+   "finish recording",
+   "finish the recording",
+   "stop screen recording",
+   "stop recording the screen",
+   "stop nvidia recording",
+   "recording off",
+   "turn off recording",
+   "save the recording"
+  ],
+  "de": [
+   "aufnahme stoppen",
+   "aufnahme beenden",
+   "beende die aufnahme",
+   "stopp aufnahme",
+   "aufnahme aus",
+   "bildschirmaufnahme stoppen",
+   "stoppe die bildschirmaufnahme",
+   "hör auf aufzunehmen",
+   "nvidia aufnahme stoppen",
+   "aufnahme speichern"
+  ],
+  "fr": [
+   "stop enregistrement",
+   "termine l’enregistrement",
+   "fin de l’enregistrement",
+   "arrête d’enregistrer",
+   "arrête l’enregistrement de l’écran",
+   "arrête l’enregistrement nvidia",
+   "coupe l’enregistrement",
+   "sauvegarde l’enregistrement"
+  ],
+  "es": [
+   "para la grabación",
+   "deja de grabar",
+   "termina la grabación",
+   "finaliza la grabación",
+   "stop grabación",
+   "detén la grabación de pantalla",
+   "detén la grabación de nvidia",
+   "corta la grabación",
+   "guarda la grabación"
+  ],
+  "it": [
+   "stop registrazione",
+   "termina la registrazione",
+   "smetti di registrare",
+   "interrompi la registrazione",
+   "ferma la registrazione dello schermo",
+   "ferma la registrazione nvidia",
+   "salva la registrazione"
+  ],
+  "pt": [
+   "pára a gravação",
+   "stop gravação",
+   "termina a gravação",
+   "deixa de gravar",
+   "para de gravar",
+   "interrompe a gravação",
+   "para a gravação do ecrã",
+   "para a gravação nvidia",
+   "guarda a gravação"
+  ]
+ },
+ "screen.capture_window": {
+  "ru": [
+   "скриншот окна",
+   "скриншот активного окна",
+   "скриншот приложения",
+   "скриншот активного приложения",
+   "скрин окна",
+   "скрин приложения",
+   "скрин активного окна",
+   "сделай скрин окна",
+   "сделай скриншот окна",
+   "сделай скриншот приложения",
+   "сделай скрин приложения",
+   "заскринь окно",
+   "заскринь приложение",
+   "сфоткай окно",
+   "снимок окна",
+   "снимок приложения"
+  ],
+  "en": [
+   "screenshot the window",
+   "screenshot the active window",
+   "screenshot this window",
+   "screenshot the app",
+   "screenshot the active app",
+   "take a screenshot of the app",
+   "window screenshot",
+   "app screenshot",
+   "capture the active window",
+   "capture this window"
+  ],
+  "de": [
+   "screenshot vom fenster",
+   "screenshot des fensters",
+   "screenshot der app",
+   "fensterscreenshot",
+   "mach einen screenshot vom fenster",
+   "mach einen screenshot der app",
+   "nimm das aktive fenster auf"
+  ],
+  "fr": [
+   "capture de la fenêtre",
+   "capture de l’application",
+   "capture d’écran de la fenêtre",
+   "capture d’écran de l’application",
+   "fais une capture de la fenêtre",
+   "fais une capture de l’application"
+  ],
+  "es": [
+   "captura de la ventana",
+   "captura de la aplicación",
+   "captura de pantalla de la ventana",
+   "captura de pantalla de la aplicación",
+   "haz una captura de la ventana",
+   "haz una captura de la aplicación"
+  ],
+  "it": [
+   "screenshot della finestra",
+   "screenshot dell’app",
+   "screenshot dell’applicazione",
+   "cattura la finestra",
+   "cattura la finestra attiva",
+   "fai uno screenshot della finestra",
+   "fai uno screenshot dell’app"
+  ],
+  "pt": [
+   "captura da janela",
+   "captura da aplicação",
+   "captura de ecrã da janela",
+   "captura de ecrã da aplicação",
+   "faz uma captura da janela",
+   "screenshot da janela"
+  ]
+ },
+ "capture.replay_on": {
+  "ru": [
+   "включи мгновенный повтор",
+   "включить мгновенный повтор",
+   "включи мгновенный повтор nvidia",
+   "включи instant replay",
+   "включи шедоуплей",
+   "включи shadowplay",
+   "активируй мгновенный повтор",
+   "запусти мгновенный повтор",
+   "включи повтор nvidia",
+   "включи повтор в nvidia",
+   "включи запись мгновенного повтора",
+   "включи мгновенный повтор в нвидиа"
+  ],
+  "en": [
+   "turn on instant replay",
+   "enable instant replay",
+   "switch on instant replay",
+   "start instant replay",
+   "turn instant replay on",
+   "enable nvidia instant replay",
+   "turn on shadowplay",
+   "enable shadowplay",
+   "turn on nvidia replay"
+  ],
+  "de": [
+   "schalte instant replay ein",
+   "instant replay einschalten",
+   "aktiviere instant replay",
+   "instant replay aktivieren",
+   "nvidia instant replay einschalten",
+   "schalte shadowplay ein"
+  ],
+  "fr": [
+   "active la relecture instantanée",
+   "activer la relecture instantanée",
+   "allume la relecture instantanée",
+   "active instant replay",
+   "active la relecture instantanée nvidia",
+   "active shadowplay"
+  ],
+  "es": [
+   "activa la repetición instantánea",
+   "activar la repetición instantánea",
+   "enciende la repetición instantánea",
+   "activa instant replay",
+   "activa la repetición instantánea de nvidia",
+   "activa shadowplay"
+  ],
+  "it": [
+   "attiva il replay istantaneo",
+   "attivare il replay istantaneo",
+   "accendi il replay istantaneo",
+   "attiva instant replay",
+   "attiva il replay istantaneo nvidia",
+   "attiva shadowplay"
+  ],
+  "pt": [
+   "liga a repetição instantânea",
+   "ligar a repetição instantânea",
+   "ativa a repetição instantânea",
+   "ativa o instant replay",
+   "liga a repetição instantânea da nvidia",
+   "ativa o shadowplay"
+  ]
+ },
+ "capture.replay_off": {
+  "ru": [
+   "выключи мгновенный повтор",
+   "выключить мгновенный повтор",
+   "отключи мгновенный повтор",
+   "выключи мгновенный повтор nvidia",
+   "выключи instant replay",
+   "выключи шедоуплей",
+   "выключи shadowplay",
+   "останови мгновенный повтор",
+   "выключи повтор nvidia",
+   "выключи повтор в nvidia",
+   "отключи мгновенный повтор в нвидиа"
+  ],
+  "en": [
+   "turn off instant replay",
+   "disable instant replay",
+   "switch off instant replay",
+   "stop instant replay",
+   "turn instant replay off",
+   "disable nvidia instant replay",
+   "turn off shadowplay",
+   "disable shadowplay",
+   "turn off nvidia replay"
+  ],
+  "de": [
+   "schalte instant replay aus",
+   "instant replay ausschalten",
+   "deaktiviere instant replay",
+   "instant replay deaktivieren",
+   "nvidia instant replay ausschalten",
+   "schalte shadowplay aus"
+  ],
+  "fr": [
+   "désactive la relecture instantanée",
+   "désactiver la relecture instantanée",
+   "éteins la relecture instantanée",
+   "désactive instant replay",
+   "désactive la relecture instantanée nvidia",
+   "désactive shadowplay"
+  ],
+  "es": [
+   "desactiva la repetición instantánea",
+   "desactivar la repetición instantánea",
+   "apaga la repetición instantánea",
+   "desactiva instant replay",
+   "desactiva la repetición instantánea de nvidia",
+   "desactiva shadowplay"
+  ],
+  "it": [
+   "disattiva il replay istantaneo",
+   "disattivare il replay istantaneo",
+   "spegni il replay istantaneo",
+   "disattiva instant replay",
+   "disattiva il replay istantaneo nvidia",
+   "disattiva shadowplay"
+  ],
+  "pt": [
+   "desliga a repetição instantânea",
+   "desligar a repetição instantânea",
+   "desativa a repetição instantânea",
+   "desativa o instant replay",
+   "desliga a repetição instantânea da nvidia",
+   "desativa o shadowplay"
+  ]
+ },
+ "capture.replay_toggle": {
+  "ru": [
+   "переключи мгновенный повтор",
+   "переключить мгновенный повтор",
+   "нажми переключение мгновенного повтора",
+   "переключи instant replay",
+   "переключи shadowplay"
+  ],
+  "en": [
+   "toggle instant replay",
+   "toggle nvidia instant replay",
+   "toggle shadowplay",
+   "switch instant replay"
+  ],
+  "de": [
+   "instant replay umschalten",
+   "schalte instant replay um",
+   "nvidia instant replay umschalten"
+  ],
+  "fr": [
+   "bascule la relecture instantanée",
+   "basculer la relecture instantanée",
+   "bascule instant replay"
+  ],
+  "es": [
+   "alterna la repetición instantánea",
+   "alternar la repetición instantánea",
+   "alterna instant replay"
+  ],
+  "it": [
+   "alterna il replay istantaneo",
+   "alternare il replay istantaneo",
+   "alterna instant replay"
+  ],
+  "pt": [
+   "alterna a repetição instantânea",
+   "alternar a repetição instantânea",
+   "alterna o instant replay"
+  ]
+ },
+ "capture.replay_status": {
+  "ru": [
+   "включён ли мгновенный повтор",
+   "включен ли мгновенный повтор",
+   "мгновенный повтор включён",
+   "мгновенный повтор включен",
+   "работает ли мгновенный повтор",
+   "проверь мгновенный повтор",
+   "состояние мгновенного повтора",
+   "мгновенный повтор работает",
+   "включён ли instant replay",
+   "работает ли shadowplay"
+  ],
+  "en": [
+   "is instant replay on",
+   "is instant replay enabled",
+   "is instant replay running",
+   "check instant replay",
+   "instant replay status",
+   "is shadowplay on"
+  ],
+  "de": [
+   "ist instant replay an",
+   "ist instant replay aktiviert",
+   "läuft instant replay",
+   "prüfe instant replay",
+   "instant replay status"
+  ],
+  "fr": [
+   "la relecture instantanée est-elle activée",
+   "est-ce que la relecture instantanée est activée",
+   "vérifie la relecture instantanée",
+   "état de la relecture instantanée"
+  ],
+  "es": [
+   "está activada la repetición instantánea",
+   "la repetición instantánea está activada",
+   "comprueba la repetición instantánea",
+   "estado de la repetición instantánea"
+  ],
+  "it": [
+   "il replay istantaneo è attivo",
+   "è attivo il replay istantaneo",
+   "controlla il replay istantaneo",
+   "stato del replay istantaneo"
+  ],
+  "pt": [
+   "a repetição instantânea está ligada",
+   "está ligada a repetição instantânea",
+   "verifica a repetição instantânea",
+   "estado da repetição instantânea"
+  ]
+ }
+}
