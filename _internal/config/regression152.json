@@ -1,0 +1,123 @@
+[
+  {
+    "locale": "de",
+    "phrase": "zeige die Anzahl ungelesener E-Mails der letzten 24 Stunden",
+    "expected_tool": "email",
+    "expected_action": "unread_recent24h",
+    "expected_args": {},
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "de",
+    "phrase": "bitte zeige die Anzahl ungelesener E-Mails der letzten 24 Stunden",
+    "expected_tool": "email",
+    "expected_action": "unread_recent24h",
+    "expected_args": {},
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige die E-Mail-Anzahl der letzten 24 Stunden",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "expected_args": {},
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "de",
+    "phrase": "bitte zeige die E-Mail-Anzahl der letzten 24 Stunden",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "expected_args": {},
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "en",
+    "phrase": "show information about the selected application",
+    "expected_tool": "application",
+    "expected_action": "info",
+    "expected_args": {},
+    "expected_kind": "clarification",
+    "source": "regression152"
+  },
+  {
+    "locale": "ru",
+    "phrase": "поставь песню NEO QA следующей в очереди в Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_next",
+    "expected_args": {
+      "query": "NEO QA"
+    },
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи мои любимые треки в Яндекс Музыке",
+    "expected_tool": "yandex_music",
+    "expected_action": "my_tracks",
+    "expected_args": {},
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "ru",
+    "phrase": "установи размер текста панели NEO QA 14",
+    "expected_tool": "overlay",
+    "expected_action": "style",
+    "expected_args": {
+      "name": "NEO QA",
+      "font_size": 14
+    },
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "de",
+    "phrase": "suche und spiele den Song NEO QA in Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    },
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "fr",
+    "phrase": "cherche et lance le titre NEO QA sur Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    },
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "de",
+    "phrase": "suche und spiele den Song NEO QA in Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    },
+    "expected_kind": "",
+    "source": "regression152"
+  },
+  {
+    "locale": "fr",
+    "phrase": "cherche et lance le titre NEO QA sur Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "play_track",
+    "expected_args": {
+      "query": "NEO QA"
+    },
+    "expected_kind": "",
+    "source": "regression152"
+  }
+]
