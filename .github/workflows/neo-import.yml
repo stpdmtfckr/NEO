@@ -1,0 +1,58 @@
+name: Import NEO files individually
+on:
+  push:
+    branches:
+      - neo-import-staging-20261018
+    paths:
+      - .github/workflows/neo-import.yml
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Import original NEO files as individual commits
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/neo-staging
+          cp .neo-import/import-part-*.txt /tmp/neo-staging/
+          git fetch origin main
+          git switch -C neo-import-output origin/main
+          python3 - <<'PY'
+          from pathlib import Path
+          import base64, io, hashlib, tarfile, subprocess
+          parts = sorted(Path('/tmp/neo-staging').glob('import-part-*.txt'))
+          assert len(parts) == 13, f'Expected 13 parts, got {len(parts)}'
+          data = base64.b64decode(''.join(p.read_text() for p in parts), validate=True)
+          digest = hashlib.sha256(data).hexdigest()
+          expected = '2aa76655aa29df8e2502192933e2ace7e328ce3196adb0001daf59e6b5e04949'
+          assert digest == expected, f'Bundle checksum mismatch: {digest}'
+          count = 0
+          skipped = 0
+          with tarfile.open(fileobj=io.BytesIO(data), mode='r:gz') as archive:
+              entries = sorted((m for m in archive if m.isfile()), key=lambda m: m.name)
+              assert len(entries) == 1013, len(entries)
+              for item in entries:
+                  name = item.name
+                  path = Path(name)
+                  assert not path.is_absolute() and '..' not in path.parts and '.git' not in path.parts
+                  content = archive.extractfile(item).read()
+                  path.parent.mkdir(parents=True, exist_ok=True)
+                  if path.is_file() and path.read_bytes() == content:
+                      skipped += 1
+                      continue
+                  path.write_bytes(content)
+                  subprocess.run(['git', 'add', '--', name], check=True)
+                  subprocess.run(['git', '-c', 'user.name=neo-import[bot]',
+                                  '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com',
+                                  'commit', '-q', '-m', 'Add ' + name], check=True)
+                  count += 1
+          print(f'NEO import: created {count} file commits, skipped {skipped} unchanged files')
+          PY
+          git push origin HEAD:main
