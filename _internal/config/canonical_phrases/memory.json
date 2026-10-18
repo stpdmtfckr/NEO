@@ -1,0 +1,47 @@
+{
+ "memory.note": [
+  "Запиши в память {value}",
+  "Save a note {value}",
+  "Speichere die Notiz {value}",
+  "Enregistre la note {value}",
+  "Guarda la nota {value}",
+  "Salva la nota {value}",
+  "Guarda a nota {value}"
+ ],
+ "memory.forget_last": [
+  "Забудь это предпочтение",
+  "Forget that preference",
+  "Vergiss diese Vorliebe",
+  "Oublie cette préférence",
+  "Olvida esa preferencia",
+  "Dimentica questa preferenza",
+  "Esquece essa preferência"
+ ],
+ "memory.clear": [
+  "Очисти сохранённую память",
+  "Clear saved memory",
+  "Lösche die gespeicherten Erinnerungen",
+  "Efface la mémoire enregistrée",
+  "Borra la memoria guardada",
+  "Cancella la memoria salvata",
+  "Apaga a memória guardada"
+ ],
+ "memory.enable": [
+  "Включи память",
+  "Turn memory on",
+  "Schalte die Erinnerung ein",
+  "Active la mémoire",
+  "Activa la memoria",
+  "Attiva la memoria",
+  "Ativa a memória"
+ ],
+ "memory.disable": [
+  "Отключи память",
+  "Turn memory off",
+  "Schalte die Erinnerung aus",
+  "Désactive la mémoire",
+  "Desactiva la memoria",
+  "Disattiva la memoria",
+  "Desativa a memória"
+ ]
+}
