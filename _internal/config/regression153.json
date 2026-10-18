@@ -1,0 +1,1976 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "очередь дискорда",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "очередь в дискорде",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "дискорд очередь песен",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "очеред дискорда",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "очередь discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "очередь музыки",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "музыкальная очередь",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "очередь треков",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "таймеры",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "мои таймеры",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "напоминания",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "мои напоминания",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "активные приложения",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "открытые приложения",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "запущенные программы",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "вкладки браузера",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "открытые вкладки",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "содержимое буфера",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что в буфере",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "история буфера",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "история буфера обмена",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "мои панели",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "список окон заметок",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "панели заметок",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "непрочитанная почта",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "непрочитанные письма",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "почта за сутки",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "письма за сутки",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "состояние компьютера",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "нагрузка компьютера",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "queue discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "queue in discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "discord song queue",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "music queue",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "song queue",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "timers",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "my timers",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "my reminders",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "active applications",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "running applications",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "running programs",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "browser tabs",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "open tabs",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "clipboard contents",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what is in the clipboard",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "clipboard history",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "my panels",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "note panels",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "unread mail",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "unread emails",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "mail from the last 24 hours",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "emails from the last 24 hours",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "computer status",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "en",
+    "phrase": "system load",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "warteschlange in discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "discord titelliste",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "musikwarteschlange",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "titelwarteschlange",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "timerliste",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "meine timer",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "meine erinnerungen",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "aktive anwendungen",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "laufende programme",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "browser-tabs",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "offene tabs",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "inhalt der zwischenablage",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "was ist in der zwischenablage",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "verlauf der zwischenablage",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "meine panels",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "notizfenster",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "ungelesene post",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "ungelesene e-mails",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "post der letzten 24 stunden",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "e-mails der letzten 24 stunden",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "computerstatus",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "de",
+    "phrase": "systemauslastung",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "file d’attente de discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "file d’attente dans discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "file musicale",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "file des chansons",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mes minuteurs",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mes rappels",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "applications actives",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "programmes ouverts",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "onglets du navigateur",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "onglets ouverts",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "contenu du presse-papiers",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "historique du presse-papiers",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mes panneaux",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "panneaux de notes",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "courrier non lu",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "e-mails non lus",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "courrier des dernières 24 heures",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "état du système",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "charge du système",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "cola de discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "cola en discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "cola musical",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "cola de canciones",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "mis temporizadores",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "mis recordatorios",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "aplicaciones activas",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "programas abiertos",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "pestañas del navegador",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "pestañas abiertas",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "contenido del portapapeles",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "historial del portapapeles",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "mis paneles",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "paneles de notas",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "correo sin leer",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "correos no leídos",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "correo de las últimas 24 horas",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "estado del sistema",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "es",
+    "phrase": "carga del sistema",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "coda di discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "coda su discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "coda musicale",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "coda delle canzoni",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "i miei timer",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "i miei promemoria",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "applicazioni attive",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "programmi aperti",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "schede del browser",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "schede aperte",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "contenuto degli appunti",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "cronologia degli appunti",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "i miei pannelli",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "pannelli delle note",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "posta non letta",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "email non lette",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "posta delle ultime 24 ore",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "stato del sistema",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "it",
+    "phrase": "carico del sistema",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "fila do discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "fila no discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "fila de músicas",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "fila musical",
+    "expected_tool": "music",
+    "expected_action": "queue_status",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "meus temporizadores",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "meus lembretes",
+    "expected_tool": "timer",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "aplicações ativas",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "programas abertos",
+    "expected_tool": "application",
+    "expected_action": "list_active",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "abas do navegador",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "abas abertas",
+    "expected_tool": "browser_advanced",
+    "expected_action": "context",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "conteúdo da área de transferência",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "histórico da área de transferência",
+    "expected_tool": "clipboard",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "meus painéis",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "painéis de notas",
+    "expected_tool": "overlay",
+    "expected_action": "list",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "correio não lido",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "emails não lidos",
+    "expected_tool": "email",
+    "expected_action": "unread",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "correio das últimas 24 horas",
+    "expected_tool": "email",
+    "expected_action": "recent24h",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "estado do sistema",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "carga do sistema",
+    "expected_tool": "system_monitor",
+    "expected_action": "summary",
+    "source": "short153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что делаешь",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "чем занят",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "чем занимаешься",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что ты делаешь",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что делашеь",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "ну что делаешь",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "чем ты сейчас занят",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what are you doing",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what are you up to",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what are you working on",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "de",
+    "phrase": "was machst du",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "de",
+    "phrase": "was tust du gerade",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "de",
+    "phrase": "womit beschäftigst du dich",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "que fais-tu",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "tu fais quoi",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "à quoi t’occupes-tu",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué haces",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué estás haciendo",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "es",
+    "phrase": "en qué andas",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "it",
+    "phrase": "che fai",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "it",
+    "phrase": "cosa stai facendo",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "it",
+    "phrase": "di cosa ti occupi",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "o que estás a fazer",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "o que você está fazendo",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "em que estás ocupado",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "activity153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "чем сегодня займемся",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "что сегодня будем делать",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "какие планы на сегодня",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "чем займемся",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай придумаем чем заняться",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what shall we do today",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what should we do today",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what are our plans today",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what shall we do",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "de",
+    "phrase": "was machen wir heute",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "de",
+    "phrase": "was wollen wir heute machen",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "de",
+    "phrase": "was haben wir heute vor",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "qu’est-ce qu’on fait aujourd’hui",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "que fait-on aujourd’hui",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "on fait quoi aujourd’hui",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué hacemos hoy",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué vamos a hacer hoy",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué planes tenemos hoy",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "it",
+    "phrase": "cosa facciamo oggi",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "it",
+    "phrase": "che programmi abbiamo oggi",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "it",
+    "phrase": "cosa potremmo fare oggi",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "o que vamos fazer hoje",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "quais são os planos para hoje",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "o que fazemos hoje",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "plans153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "давай просто поболтаем",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "хочу с тобой поговорить",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "поговори со мной",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "о чем поговорим",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "есть минутка поговорить",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "en",
+    "phrase": "let’s just chat",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "en",
+    "phrase": "i want to talk to you",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what could we talk about",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "en",
+    "phrase": "have you got a moment",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "de",
+    "phrase": "lass uns einfach plaudern",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "de",
+    "phrase": "ich möchte mit dir reden",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "de",
+    "phrase": "worüber reden wir",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "j’ai envie de te parler",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "de quoi peut-on parler",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "es",
+    "phrase": "charlemos un rato",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "es",
+    "phrase": "quiero hablar contigo",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "es",
+    "phrase": "de qué podemos hablar",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "it",
+    "phrase": "voglio parlare con te",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "it",
+    "phrase": "di cosa possiamo parlare",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "quero falar contigo",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "sobre o que podemos conversar",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "company153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "как прошел твой день",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "как твой день",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "какое у тебя настроение",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "en",
+    "phrase": "how was your day",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "en",
+    "phrase": "how is your day",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "en",
+    "phrase": "what mood are you in",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "de",
+    "phrase": "wie war dein tag",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "de",
+    "phrase": "wie ist deine stimmung",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "comment s’est passée ta journée",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "comment va ta journée",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "de quelle humeur es-tu",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "es",
+    "phrase": "cómo estuvo tu día",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "es",
+    "phrase": "de qué humor estás",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "it",
+    "phrase": "come è andata la tua giornata",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "it",
+    "phrase": "come va la giornata",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "it",
+    "phrase": "di che umore sei",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "como foi o teu dia",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "como está o seu dia",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "como está o teu humor",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "howday153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "можно говорить короче",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "ты понимаешь короткие команды",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "как сказать покороче",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "можно без слова покажи",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "en",
+    "phrase": "can i use shorter commands",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "en",
+    "phrase": "do you understand short commands",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "en",
+    "phrase": "can i leave out show",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "de",
+    "phrase": "kann ich kürzere befehle verwenden",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "de",
+    "phrase": "verstehst du kurze befehle",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "puis-je utiliser des commandes courtes",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "fr",
+    "phrase": "comprends-tu les commandes courtes",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "es",
+    "phrase": "puedo usar órdenes cortas",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "es",
+    "phrase": "entiendes órdenes cortas",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "it",
+    "phrase": "posso usare comandi brevi",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "it",
+    "phrase": "capisci i comandi brevi",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "posso usar comandos curtos",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "pt",
+    "phrase": "entendes comandos curtos",
+    "expected_kind": "no_action",
+    "source": "social153",
+    "category": "shorthelp153"
+  },
+  {
+    "locale": "ru",
+    "phrase": "чем сегодня займемся",
+    "source": "context153",
+    "scenario_id": "ru-plans153",
+    "keep_context": false,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "ru",
+    "phrase": "работой",
+    "source": "context153",
+    "scenario_id": "ru-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "ru",
+    "phrase": "отдыхом",
+    "source": "context153",
+    "scenario_id": "ru-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "en",
+    "phrase": "what shall we do today",
+    "source": "context153",
+    "scenario_id": "en-plans153",
+    "keep_context": false,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "en",
+    "phrase": "work",
+    "source": "context153",
+    "scenario_id": "en-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "en",
+    "phrase": "rest",
+    "source": "context153",
+    "scenario_id": "en-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "de",
+    "phrase": "was machen wir heute",
+    "source": "context153",
+    "scenario_id": "de-plans153",
+    "keep_context": false,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "de",
+    "phrase": "arbeit",
+    "source": "context153",
+    "scenario_id": "de-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "de",
+    "phrase": "erholung",
+    "source": "context153",
+    "scenario_id": "de-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "fr",
+    "phrase": "qu’est-ce qu’on fait aujourd’hui",
+    "source": "context153",
+    "scenario_id": "fr-plans153",
+    "keep_context": false,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "fr",
+    "phrase": "travail",
+    "source": "context153",
+    "scenario_id": "fr-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "fr",
+    "phrase": "détente",
+    "source": "context153",
+    "scenario_id": "fr-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "es",
+    "phrase": "qué hacemos hoy",
+    "source": "context153",
+    "scenario_id": "es-plans153",
+    "keep_context": false,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "es",
+    "phrase": "trabajo",
+    "source": "context153",
+    "scenario_id": "es-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "es",
+    "phrase": "descanso",
+    "source": "context153",
+    "scenario_id": "es-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "it",
+    "phrase": "cosa facciamo oggi",
+    "source": "context153",
+    "scenario_id": "it-plans153",
+    "keep_context": false,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "it",
+    "phrase": "lavoro",
+    "source": "context153",
+    "scenario_id": "it-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "it",
+    "phrase": "riposo",
+    "source": "context153",
+    "scenario_id": "it-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "pt",
+    "phrase": "o que vamos fazer hoje",
+    "source": "context153",
+    "scenario_id": "pt-plans153",
+    "keep_context": false,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "pt",
+    "phrase": "trabalho",
+    "source": "context153",
+    "scenario_id": "pt-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  },
+  {
+    "locale": "pt",
+    "phrase": "descanso",
+    "source": "context153",
+    "scenario_id": "pt-plans153",
+    "keep_context": true,
+    "expected_kind": "no_action"
+  }
+]
