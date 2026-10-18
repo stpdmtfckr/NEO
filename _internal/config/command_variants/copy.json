@@ -1,0 +1,633 @@
+{
+ "copy.reply": {
+  "ru": [
+   "скопируй текст который ты написал",
+   "скопируй что ты написал",
+   "скопируй то что ты написал",
+   "скопируй свой ответ",
+   "скопируй твой ответ",
+   "скопируй последний ответ",
+   "скопируй свой текст",
+   "скопируй твой текст",
+   "скопируй что ты ответил",
+   "скопируй ответ",
+   "скопируй это сообщение",
+   "скопируй своё сообщение",
+   "скопируй то что ты сказал",
+   "запомни в буфер свой ответ",
+   "скопируй свой последний текст"
+  ],
+  "en": [
+   "copy what you wrote",
+   "copy your answer",
+   "copy your reply",
+   "copy the last answer",
+   "copy your last reply",
+   "copy that answer",
+   "copy what you said",
+   "copy your message"
+  ],
+  "de": [
+   "kopiere was du geschrieben hast",
+   "kopiere deine antwort",
+   "kopiere die letzte antwort"
+  ],
+  "fr": [
+   "copie ce que tu as écrit",
+   "copie ta réponse",
+   "copie la dernière réponse"
+  ],
+  "es": [
+   "copia lo que escribiste",
+   "copia tu respuesta",
+   "copia la última respuesta"
+  ],
+  "it": [
+   "copia quello che hai scritto",
+   "copia la tua risposta",
+   "copia l’ultima risposta"
+  ],
+  "pt": [
+   "copia o que escreveste",
+   "copia a tua resposta",
+   "copia a última resposta"
+  ]
+ },
+ "copy.previous_reply": {
+  "ru": [
+   "скопируй предыдущий ответ",
+   "скопируй предыдущий текст",
+   "скопируй прошлый ответ",
+   "скопируй позапрошлый ответ"
+  ],
+  "en": [
+   "copy the previous answer",
+   "copy the answer before that"
+  ],
+  "de": [
+   "kopiere die vorherige antwort"
+  ],
+  "fr": [
+   "copie la réponse précédente"
+  ],
+  "es": [
+   "copia la respuesta anterior"
+  ],
+  "it": [
+   "copia la risposta precedente"
+  ],
+  "pt": [
+   "copia a resposta anterior"
+  ]
+ },
+ "copy.selection": {
+  "ru": [
+   "скопируй выделенное",
+   "скопируй выделение",
+   "скопируй этот текст",
+   "скопируй выделенный фрагмент",
+   "скопируй то что выделено",
+   "копируй выделенное",
+   "скопируй отмеченный текст"
+  ],
+  "en": [
+   "copy this",
+   "copy the selection",
+   "copy this text",
+   "copy what is selected",
+   "copy the highlighted text"
+  ],
+  "de": [
+   "kopiere das",
+   "kopiere die auswahl",
+   "kopiere diesen text"
+  ],
+  "fr": [
+   "copie ça",
+   "copie la sélection",
+   "copie ce texte"
+  ],
+  "es": [
+   "copia esto",
+   "copia la selección",
+   "copia este texto"
+  ],
+  "it": [
+   "copia questo",
+   "copia la selezione",
+   "copia questo testo"
+  ],
+  "pt": [
+   "copia isto",
+   "copia a seleção",
+   "copia este texto"
+  ]
+ },
+ "copy.page": {
+  "ru": [
+   "скопируй текст со страницы",
+   "скопируй текст с этой страницы",
+   "скопируй всю страницу",
+   "скопируй весь текст",
+   "скопируй текст окна",
+   "скопируй весь текст из окна",
+   "скопируй содержимое страницы",
+   "скопируй всё со страницы",
+   "скопируй весь текст страницы"
+  ],
+  "en": [
+   "copy the page text",
+   "copy all text on this page",
+   "copy the whole page",
+   "copy all the text in the window",
+   "copy all the text on the page"
+  ],
+  "de": [
+   "kopiere den text der seite",
+   "kopiere die ganze seite",
+   "kopiere den ganzen Text"
+  ],
+  "fr": [
+   "copie le texte de la page",
+   "copie toute la page"
+  ],
+  "es": [
+   "copia el texto de la página",
+   "copia toda la página"
+  ],
+  "it": [
+   "copia il testo della pagina",
+   "copia tutta la pagina"
+  ],
+  "pt": [
+   "copia o texto da página",
+   "copia a página toda"
+  ]
+ },
+ "copy.file_text": {
+  "ru": [
+   "скопируй текст файла {name}",
+   "скопируй содержимое файла {name}",
+   "скопируй весь текст из файла {name}",
+   "скопируй текст из файлика {name}",
+   "скопируй текст в файле {name}"
+  ],
+  "en": [
+   "copy the contents of the file {name}",
+   "copy all text from the file {name}"
+  ],
+  "de": [
+   "kopiere den inhalt der datei {name}"
+  ],
+  "fr": [
+   "copie le contenu du fichier {name}"
+  ],
+  "es": [
+   "copia el contenido del archivo {name}"
+  ],
+  "it": [
+   "copia il contenuto del file {name}"
+  ],
+  "pt": [
+   "copia o conteúdo do ficheiro {name}"
+  ]
+ },
+ "copy.file": {
+  "ru": [
+   "скопируй эти файлы",
+   "скопируй выделенный файл",
+   "скопируй выделенные файлы",
+   "скопируй сам файл {name}"
+  ],
+  "en": [
+   "copy this file",
+   "copy these files",
+   "copy the selected files"
+  ],
+  "de": [
+   "kopiere diese dateien"
+  ],
+  "fr": [
+   "copie ces fichiers"
+  ],
+  "es": [
+   "copia este archivo",
+   "copia estos archivos"
+  ],
+  "it": [
+   "copia questo file",
+   "copia questi file"
+  ],
+  "pt": [
+   "copia este ficheiro",
+   "copia estes ficheiros"
+  ]
+ },
+ "copy.folder": {
+  "ru": [
+   "скопируй выделенную папку",
+   "скопируй папки"
+  ],
+  "en": [
+   "copy this folder",
+   "copy the selected folder"
+  ],
+  "de": [],
+  "fr": [],
+  "es": [
+   "copia esta carpeta"
+  ],
+  "it": [
+   "copia questa cartella"
+  ],
+  "pt": [
+   "copia esta pasta"
+  ]
+ },
+ "copy.url": {
+  "ru": [
+   "скопируй адрес страницы",
+   "скопируй ссылку на страницу",
+   "скопируй url",
+   "скопируй адрес сайта"
+  ],
+  "en": [
+   "copy the page address",
+   "copy the page link",
+   "copy the url"
+  ],
+  "de": [
+   "kopiere die seitenadresse",
+   "kopiere den link der seite",
+   "kopiere die Adresse der Seite"
+  ],
+  "fr": [
+   "copie l’adresse de la page",
+   "copie le lien de la page"
+  ],
+  "es": [
+   "copia la dirección de la página",
+   "copia el enlace de la página"
+  ],
+  "it": [
+   "copia l’indirizzo della pagina",
+   "copia il link della pagina"
+  ],
+  "pt": [
+   "copia o endereço da página",
+   "copia o link da página"
+  ]
+ },
+ "copy.link": {
+  "ru": [
+   "скопируй {index} ссылку",
+   "скопируй адрес {index} ссылки",
+   "скопируй ссылку номер {index}"
+  ],
+  "en": [
+   "copy the {index} link",
+   "copy link number {index}"
+  ],
+  "de": [
+   "kopiere den {index} link"
+  ],
+  "fr": [
+   "copie le {index} lien"
+  ],
+  "es": [
+   "copia el {index} enlace"
+  ],
+  "it": [
+   "copia il {index} link"
+  ],
+  "pt": [
+   "copia o {index} link"
+  ]
+ },
+ "copy.screenshot": {
+  "ru": [
+   "скопируй скриншот",
+   "скопируй снимок экрана",
+   "скопируй экран",
+   "сделай скриншот в буфер",
+   "скриншот в буфер обмена",
+   "скопируй картинку экрана"
+  ],
+  "en": [
+   "copy a screenshot",
+   "copy the screen",
+   "screenshot to the clipboard"
+  ],
+  "de": [
+   "kopiere einen screenshot",
+   "screenshot in die zwischenablage"
+  ],
+  "fr": [
+   "copie une capture d’écran",
+   "capture dans le presse-papiers"
+  ],
+  "es": [
+   "copia una captura de pantalla",
+   "captura al portapapeles"
+  ],
+  "it": [
+   "copia uno screenshot",
+   "screenshot negli appunti"
+  ],
+  "pt": [
+   "copia uma captura de ecrã",
+   "captura para a área de transferência"
+  ]
+ },
+ "copy.window_screenshot": {
+  "ru": [
+   "скопируй скриншот окна",
+   "скопируй снимок окна",
+   "скопируй картинку окна"
+  ],
+  "en": [
+   "copy a screenshot of the window",
+   "copy the window image"
+  ],
+  "de": [
+   "kopiere einen screenshot des fensters"
+  ],
+  "fr": [
+   "copie une capture de la fenêtre"
+  ],
+  "es": [
+   "copia una captura de la ventana"
+  ],
+  "it": [
+   "copia uno screenshot della finestra"
+  ],
+  "pt": [
+   "copia uma captura da janela"
+  ]
+ },
+ "copy.last_screenshot": {
+  "ru": [
+   "скопируй последний снимок",
+   "скопируй прошлый скриншот",
+   "скопируй сохранённый скриншот"
+  ],
+  "en": [
+   "copy the latest screenshot"
+  ],
+  "de": [
+   "kopiere das letzte bildschirmfoto"
+  ],
+  "fr": [
+   "copie la dernière capture d’écran"
+  ],
+  "es": [
+   "copia la última captura de pantalla"
+  ],
+  "it": [
+   "copia l’ultima schermata"
+  ],
+  "pt": [
+   "copia a última captura de ecrã"
+  ]
+ },
+ "copy.paste": {
+  "ru": [
+   "вставь",
+   "вставь сюда",
+   "вставь это",
+   "вставь скопированное",
+   "вставь текст",
+   "вставь из буфера",
+   "вставляй",
+   "вставь то что скопировал"
+  ],
+  "en": [
+   "paste",
+   "paste it",
+   "paste here",
+   "paste that",
+   "paste the copied text"
+  ],
+  "de": [
+   "einfügen",
+   "füge es ein",
+   "füge hier ein",
+   "füge ein"
+  ],
+  "fr": [
+   "colle",
+   "colle ici",
+   "colle ça"
+  ],
+  "es": [
+   "pega",
+   "pega aquí",
+   "pégalo"
+  ],
+  "it": [
+   "incolla",
+   "incolla qui"
+  ],
+  "pt": [
+   "cola",
+   "cola aqui"
+  ]
+ },
+ "copy.paste_window": {
+  "ru": [
+   "вставь в {name}",
+   "вставь это в {name}",
+   "вставь туда в {name}",
+   "вставь в программу {name}"
+  ],
+  "en": [
+   "paste into {name}",
+   "paste it into {name}"
+  ],
+  "de": [
+   "füge in {name} ein"
+  ],
+  "fr": [
+   "colle dans {name}"
+  ],
+  "es": [
+   "pega en {name}"
+  ],
+  "it": [
+   "incolla in {name}"
+  ],
+  "pt": [
+   "cola em {name}"
+  ]
+ },
+ "copy.paste_field": {
+  "ru": [
+   "вставь это в поле {name}",
+   "вставь в {name} поле",
+   "вставь текст в поле {name}",
+   "вставь во {name} поле",
+   "вставь это во {name} поле",
+   "теперь вставь во {name} поле",
+   "теперь вставь это во {name} поле"
+  ],
+  "en": [
+   "paste it into the field {name}",
+   "paste into the {name} field",
+   "paste into the {name} input",
+   "now paste into the {name} field"
+  ],
+  "de": [
+   "füge es in das feld {name} ein",
+   "füge in das {name} feld ein"
+  ],
+  "fr": [
+   "colle-le dans le champ {name}",
+   "colle dans le {name} champ"
+  ],
+  "es": [
+   "pégalo en el campo {name}",
+   "pega en el {name} campo"
+  ],
+  "it": [
+   "incollalo nel campo {name}",
+   "incolla nel {name} campo"
+  ],
+  "pt": [
+   "cola-o no campo {name}",
+   "cola no {name} campo"
+  ]
+ },
+ "copy.paste_line": {
+  "ru": [
+   "вставь в {index} строку",
+   "вставь это в {index} строку",
+   "вставь на {index} строку",
+   "вставь в строку номер {index}"
+  ],
+  "en": [
+   "paste into the {index} line",
+   "paste on line {index}"
+  ],
+  "de": [
+   "füge in die {index} zeile ein"
+  ],
+  "fr": [
+   "colle à la {index} ligne"
+  ],
+  "es": [
+   "pega en la {index} línea"
+  ],
+  "it": [
+   "incolla nella {index} riga"
+  ],
+  "pt": [
+   "cola na {index} linha"
+  ]
+ },
+ "copy.paste_end": {
+  "ru": [
+   "вставь в конец",
+   "вставь в самый конец",
+   "вставь в конец документа",
+   "допиши в конец"
+  ],
+  "en": [
+   "paste at the end",
+   "paste at the end of the document"
+  ],
+  "de": [
+   "füge am ende ein"
+  ],
+  "fr": [
+   "colle à la fin"
+  ],
+  "es": [
+   "pega al final"
+  ],
+  "it": [
+   "incolla alla fine"
+  ],
+  "pt": [
+   "cola no fim"
+  ]
+ },
+ "copy.paste_file": {
+  "ru": [
+   "вставь в файл {name}",
+   "допиши в файл {name}",
+   "добавь скопированный текст в файл {name}"
+  ],
+  "en": [
+   "paste into the file {name}",
+   "append to the file {name}"
+  ],
+  "de": [
+   "füge in die datei {name} ein"
+  ],
+  "fr": [
+   "colle dans le fichier {name}"
+  ],
+  "es": [
+   "pega en el archivo {name}"
+  ],
+  "it": [
+   "incolla nel file {name}"
+  ],
+  "pt": [
+   "cola no ficheiro {name}"
+  ]
+ },
+ "copy.paste_folder": {
+  "ru": [
+   "вставь в папку {name}",
+   "вставь файлы в папку {name}",
+   "сохрани скопированное в папку {name}"
+  ],
+  "en": [
+   "paste into the folder {name}",
+   "save the clipboard to the folder {name}"
+  ],
+  "de": [
+   "füge in den ordner {name} ein"
+  ],
+  "fr": [
+   "colle dans le dossier {name}"
+  ],
+  "es": [
+   "pega en la carpeta {name}"
+  ],
+  "it": [
+   "incolla nella cartella {name}"
+  ],
+  "pt": [
+   "cola na pasta {name}"
+  ]
+ },
+ "copy.what": {
+  "ru": [
+   "что я скопировал",
+   "что сейчас скопировано",
+   "что лежит в буфере обмена"
+  ],
+  "en": [
+   "what did I copy",
+   "what is on the clipboard",
+   "what is copied now"
+  ],
+  "de": [
+   "was habe ich kopiert"
+  ],
+  "fr": [
+   "qu’est-ce que j’ai copié"
+  ],
+  "es": [
+   "qué he copiado"
+  ],
+  "it": [
+   "cosa ho copiato"
+  ],
+  "pt": [
+   "o que copiei"
+  ]
+ }
+}
