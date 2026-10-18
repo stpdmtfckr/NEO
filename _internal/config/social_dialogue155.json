@@ -1,0 +1,747 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "category": "voice155",
+      "family": "voice155",
+      "phrases": {
+        "ru": [
+          "ты можешь понять меня с ошибками",
+          "если я оговорюсь ты поймешь",
+          "как лучше говорить с тобой"
+        ],
+        "en": [
+          "can you understand speech mistakes",
+          "what if I misspeak",
+          "how should I speak to you"
+        ],
+        "de": [
+          "kannst du Versprecher verstehen",
+          "was wenn ich mich verspreche",
+          "wie soll ich mit dir sprechen"
+        ],
+        "fr": [
+          "comprends-tu les erreurs de parole",
+          "et si je me trompe en parlant",
+          "comment dois-je te parler"
+        ],
+        "es": [
+          "puedes entender errores al hablar",
+          "y si me equivoco al hablar",
+          "cómo debo hablarte"
+        ],
+        "it": [
+          "capisci gli errori nel parlato",
+          "e se sbaglio a parlare",
+          "come devo parlarti"
+        ],
+        "pt": [
+          "consegues entender erros de fala",
+          "e se eu me enganar a falar",
+          "como devo falar contigo"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Говори естественно. Можно сказать имя и команду одной фразой. Если смысл неоднозначен, лучше уточнить.",
+          "Я исправляю знакомые ошибки команд, сохраняя названия и текст. Иногда понадобится повторить запрос."
+        ],
+        "en": [
+          "Speak naturally. You can say my name and the command together. Ambiguous requests may need clarification.",
+          "I repair familiar command errors while preserving names and text. Sometimes you may need to repeat a request."
+        ],
+        "de": [
+          "Sprich natürlich. Du kannst meinen Namen und den Befehl zusammen sagen. Mehrdeutige Wünsche müssen wir klären.",
+          "Ich korrigiere bekannte Befehlsfehler und bewahre Namen und Texte. Manchmal musst du eine Anfrage wiederholen."
+        ],
+        "fr": [
+          "Parle naturellement. Tu peux dire mon nom et la commande dans la même phrase. Une demande ambiguë peut nécessiter une précision.",
+          "Je corrige des erreurs connues de commandes en préservant les noms et le texte. Il faut parfois répéter."
+        ],
+        "es": [
+          "Habla con naturalidad. Puedes decir mi nombre y la orden seguidos. Una petición ambigua puede necesitar aclaración.",
+          "Corrijo errores conocidos de órdenes y conservo nombres y textos. A veces habrá que repetir la petición."
+        ],
+        "it": [
+          "Parla naturalmente. Puoi dire il mio nome e il comando insieme. Le richieste ambigue possono richiedere chiarimenti.",
+          "Correggo errori noti nei comandi conservando nomi e testi. A volte occorre ripetere la richiesta."
+        ],
+        "pt": [
+          "Fala naturalmente. Podes dizer o meu nome e o comando de seguida. Pedidos ambíguos podem precisar de esclarecimento.",
+          "Corrijo erros conhecidos de comandos e preservo nomes e textos. Por vezes será preciso repetir o pedido."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "taskstart155",
+      "family": "taskstart155",
+      "phrases": {
+        "ru": [
+          "помоги мне начать работу",
+          "не знаю с какой задачи начать",
+          "давай разберемся с делами"
+        ],
+        "en": [
+          "help me get started with work",
+          "I do not know which task to start",
+          "let us sort out my tasks"
+        ],
+        "de": [
+          "hilf mir mit der Arbeit anzufangen",
+          "ich weiß nicht mit welcher Aufgabe ich anfangen soll",
+          "lass uns meine Aufgaben ordnen"
+        ],
+        "fr": [
+          "aide-moi à commencer mon travail",
+          "je ne sais pas par quelle tâche commencer",
+          "organisons mes tâches"
+        ],
+        "es": [
+          "ayúdame a empezar a trabajar",
+          "no sé por qué tarea empezar",
+          "organicemos mis tareas"
+        ],
+        "it": [
+          "aiutami a iniziare a lavorare",
+          "non so da quale compito iniziare",
+          "organizziamo i miei compiti"
+        ],
+        "pt": [
+          "ajuda-me a começar a trabalhar",
+          "não sei por que tarefa começar",
+          "vamos organizar as minhas tarefas"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Выберем одну задачу. Что сейчас важнее всего или у чего ближайший срок?",
+          "Начнём с небольшого шага. Сначала важное или самое срочное?"
+        ],
+        "en": [
+          "Let us choose one task. What matters most or has the nearest deadline?",
+          "Let us start with a small step. The most important task or the most urgent one?"
+        ],
+        "de": [
+          "Wählen wir eine Aufgabe. Was ist besonders wichtig oder bald fällig?",
+          "Beginnen wir mit einem kleinen Schritt. Das Wichtigste oder das Dringendste?"
+        ],
+        "fr": [
+          "Choisissons une tâche. Laquelle est la plus importante ou la plus urgente ?",
+          "Commençons par une petite étape. La tâche importante ou la plus urgente ?"
+        ],
+        "es": [
+          "Elijamos una tarea. ¿Cuál importa más o tiene el plazo más cercano?",
+          "Empecemos por un paso pequeño. ¿Lo más importante o lo más urgente?"
+        ],
+        "it": [
+          "Scegliamo un compito. Quale è più importante o ha la scadenza più vicina?",
+          "Iniziamo con un piccolo passo. La cosa più importante o la più urgente?"
+        ],
+        "pt": [
+          "Escolhamos uma tarefa. Qual é mais importante ou tem o prazo mais próximo?",
+          "Comecemos por um passo pequeno. O mais importante ou o mais urgente?"
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "stuck155",
+      "family": "stuck155",
+      "phrases": {
+        "ru": [
+          "я застрял на задаче",
+          "не понимаю как подступиться к задаче",
+          "задача кажется слишком сложной"
+        ],
+        "en": [
+          "I am stuck on a task",
+          "I do not know how to approach this task",
+          "this task feels too complicated"
+        ],
+        "de": [
+          "ich stecke bei einer Aufgabe fest",
+          "ich weiß nicht wie ich die Aufgabe angehen soll",
+          "die Aufgabe wirkt zu kompliziert"
+        ],
+        "fr": [
+          "je bloque sur une tâche",
+          "je ne sais pas comment aborder cette tâche",
+          "cette tâche semble trop compliquée"
+        ],
+        "es": [
+          "estoy atascado con una tarea",
+          "no sé cómo abordar esta tarea",
+          "esta tarea parece demasiado complicada"
+        ],
+        "it": [
+          "sono bloccato su un compito",
+          "non so come affrontare questo compito",
+          "questo compito sembra troppo complicato"
+        ],
+        "pt": [
+          "estou bloqueado numa tarefa",
+          "não sei como abordar esta tarefa",
+          "esta tarefa parece demasiado complicada"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Опиши нужный результат и место, где остановился. Начнём с одного понятного шага.",
+          "Можем разобрать задачу на примере или упростить её первый шаг. Что удобнее?"
+        ],
+        "en": [
+          "Describe the result you need and where you got stuck. We can start with one clear step.",
+          "We can use an example or simplify the first step. Which would help?"
+        ],
+        "de": [
+          "Beschreibe das Ziel und wo du feststeckst. Wir beginnen mit einem klaren Schritt.",
+          "Wir können ein Beispiel nehmen oder den ersten Schritt vereinfachen. Was hilft dir?"
+        ],
+        "fr": [
+          "Décris le résultat voulu et le point de blocage. Commençons par une étape claire.",
+          "On peut prendre un exemple ou simplifier la première étape. Que préfères-tu ?"
+        ],
+        "es": [
+          "Describe el resultado y dónde te bloqueaste. Empecemos por un paso claro.",
+          "Podemos usar un ejemplo o simplificar el primer paso. ¿Qué te ayuda más?"
+        ],
+        "it": [
+          "Descrivi il risultato e il punto in cui ti sei bloccato. Partiamo da un passo chiaro.",
+          "Possiamo usare un esempio o semplificare il primo passo. Cosa preferisci?"
+        ],
+        "pt": [
+          "Descreve o resultado e o ponto onde bloqueaste. Comecemos por um passo claro.",
+          "Podemos usar um exemplo ou simplificar o primeiro passo. O que ajuda mais?"
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "focus155",
+      "family": "focus155",
+      "phrases": {
+        "ru": [
+          "мне трудно сосредоточиться",
+          "помоги настроиться на работу",
+          "постоянно отвлекаюсь от задачи"
+        ],
+        "en": [
+          "I am having trouble focusing",
+          "help me get into work mode",
+          "I keep getting distracted from my task"
+        ],
+        "de": [
+          "ich kann mich schwer konzentrieren",
+          "hilf mir in Arbeitsstimmung zu kommen",
+          "ich werde ständig von meiner Aufgabe abgelenkt"
+        ],
+        "fr": [
+          "j’ai du mal à me concentrer",
+          "aide-moi à me mettre au travail",
+          "je me laisse distraire de ma tâche"
+        ],
+        "es": [
+          "me cuesta concentrarme",
+          "ayúdame a ponerme a trabajar",
+          "me distraigo constantemente de mi tarea"
+        ],
+        "it": [
+          "faccio fatica a concentrarmi",
+          "aiutami a mettermi al lavoro",
+          "mi distraggo continuamente dal compito"
+        ],
+        "pt": [
+          "tenho dificuldade em concentrar-me",
+          "ajuda-me a entrar no ritmo de trabalho",
+          "distraio-me constantemente da tarefa"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Можно выбрать короткий отрезок работы или убрать отвлекающие факторы. Что попробуем?",
+          "Давай выделим одну задачу на небольшой промежуток. Таймер можно включить отдельной командой."
+        ],
+        "en": [
+          "We can choose a short work interval or reduce distractions. Which shall we try?",
+          "Pick one task for a short interval. You can start a timer with a separate command."
+        ],
+        "de": [
+          "Wir können kurz arbeiten oder Ablenkungen verringern. Was möchtest du versuchen?",
+          "Wähle eine Aufgabe für einen kurzen Zeitraum. Einen Timer kannst du separat starten."
+        ],
+        "fr": [
+          "On peut choisir une courte période de travail ou réduire les distractions. Que préfères-tu ?",
+          "Choisis une tâche pour une courte période. Tu peux lancer un minuteur avec une commande séparée."
+        ],
+        "es": [
+          "Podemos elegir un intervalo corto o reducir distracciones. ¿Qué probamos?",
+          "Elige una tarea para un rato. Puedes iniciar un temporizador con otra orden."
+        ],
+        "it": [
+          "Possiamo scegliere un intervallo breve o ridurre le distrazioni. Cosa proviamo?",
+          "Scegli un compito per un breve periodo. Puoi avviare un timer con un comando separato."
+        ],
+        "pt": [
+          "Podemos escolher um intervalo curto ou reduzir distrações. O que vamos tentar?",
+          "Escolhe uma tarefa por um breve período. Podes iniciar um temporizador com outro comando."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "local155",
+      "family": "local155",
+      "phrases": {
+        "ru": [
+          "ты работаешь без облачной нейросети",
+          "нужен ли тебе платный ключ",
+          "ты отправляешь мою речь в облако"
+        ],
+        "en": [
+          "do you work without a cloud language model",
+          "do you need a paid AI key",
+          "do you send my speech to the cloud"
+        ],
+        "de": [
+          "arbeitest du ohne Cloud-Sprachmodell",
+          "brauchst du einen bezahlten KI-Schlüssel",
+          "sendest du meine Sprache in die Cloud"
+        ],
+        "fr": [
+          "fonctionnes-tu sans modèle de langage cloud",
+          "as-tu besoin d’une clé IA payante",
+          "envoies-tu ma voix dans le cloud"
+        ],
+        "es": [
+          "funcionas sin un modelo de lenguaje en la nube",
+          "necesitas una clave de IA de pago",
+          "envías mi voz a la nube"
+        ],
+        "it": [
+          "funzioni senza un modello linguistico cloud",
+          "ti serve una chiave IA a pagamento",
+          "invii la mia voce al cloud"
+        ],
+        "pt": [
+          "funcionas sem um modelo de linguagem na nuvem",
+          "precisas de uma chave de IA paga",
+          "envias a minha voz para a nuvem"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Речь распознаётся локально, команды и эти ответы обрабатываются локальным атласом. Музыкальные сервисы и веб-поиск используют сеть.",
+          "Для этой речевой логики платный облачный ключ не нужен. Подключённым сервисам могут требоваться свои аккаунты."
+        ],
+        "en": [
+          "Speech recognition, command routing and these replies use local processing. Music services and web search use the network.",
+          "This speech logic needs no paid cloud AI key. Connected services may require their own accounts."
+        ],
+        "de": [
+          "Spracherkennung, Befehle und diese Antworten werden lokal verarbeitet. Musikdienste und Websuche nutzen das Netz.",
+          "Diese Sprachlogik braucht keinen bezahlten Cloud-KI-Schlüssel. Verbundene Dienste können eigene Konten benötigen."
+        ],
+        "fr": [
+          "La reconnaissance vocale, les commandes et ces réponses sont traitées localement. Les services musicaux et la recherche web utilisent le réseau.",
+          "Cette logique vocale ne nécessite pas de clé IA cloud payante. Les services connectés peuvent demander un compte."
+        ],
+        "es": [
+          "La voz, las órdenes y estas respuestas se procesan localmente. Los servicios musicales y la búsqueda web usan la red.",
+          "Esta lógica de voz no necesita una clave de IA de pago. Los servicios conectados pueden requerir sus propias cuentas."
+        ],
+        "it": [
+          "Voce, comandi e queste risposte vengono elaborati localmente. I servizi musicali e la ricerca web usano la rete.",
+          "Questa logica vocale non richiede una chiave IA cloud a pagamento. I servizi collegati possono richiedere propri account."
+        ],
+        "pt": [
+          "Voz, comandos e estas respostas são processados localmente. Os serviços musicais e a pesquisa web usam a rede.",
+          "Esta lógica de voz não precisa de uma chave de IA paga. Os serviços ligados podem exigir as suas próprias contas."
+        ]
+      },
+      "replace_responses": true
+    },
+    {
+      "category": "check155",
+      "family": "check155",
+      "phrases": {
+        "ru": [
+          "как проверить правильно ли ты меня понял",
+          "ты можешь ошибиться в команде",
+          "что делать если ты неправильно услышал"
+        ],
+        "en": [
+          "how can I check that you understood me",
+          "can you misunderstand a command",
+          "what should I do if you misheard me"
+        ],
+        "de": [
+          "wie prüfe ich ob du mich verstanden hast",
+          "kannst du einen Befehl missverstehen",
+          "was soll ich tun wenn du mich falsch gehört hast"
+        ],
+        "fr": [
+          "comment vérifier que tu m’as compris",
+          "peux-tu mal comprendre une commande",
+          "que faire si tu m’as mal entendu"
+        ],
+        "es": [
+          "cómo compruebo que me entendiste",
+          "puedes entender mal una orden",
+          "qué hago si me oíste mal"
+        ],
+        "it": [
+          "come verifico che mi hai capito",
+          "puoi fraintendere un comando",
+          "cosa faccio se mi hai sentito male"
+        ],
+        "pt": [
+          "como verifico que me entendeste",
+          "podes entender mal um comando",
+          "o que faço se me ouviste mal"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Проверь показанный запрос и результат действия. Если имя или смысл неверны, отмени запрос и произнеси его точнее.",
+          "Да, ошибки возможны. Для диагностики полезны точная фраза, расшифровка и время сбоя."
+        ],
+        "en": [
+          "Check the displayed request and action result. If a name or meaning is wrong, cancel and restate it.",
+          "Errors are possible. For diagnosis, record the exact phrase, transcript and time of the problem."
+        ],
+        "de": [
+          "Prüfe die angezeigte Anfrage und das Ergebnis. Bei falschem Namen oder Sinn brich ab und formuliere neu.",
+          "Fehler sind möglich. Für die Diagnose helfen der genaue Satz, die Transkription und die Uhrzeit."
+        ],
+        "fr": [
+          "Vérifie la demande affichée et le résultat. Si le nom ou le sens est incorrect, annule et reformule.",
+          "Des erreurs sont possibles. Note la phrase exacte, la transcription et l’heure du problème."
+        ],
+        "es": [
+          "Comprueba la petición mostrada y el resultado. Si el nombre o el sentido es incorrecto, cancela y reformula.",
+          "Puede haber errores. Para diagnosticarlos, anota la frase, la transcripción y la hora."
+        ],
+        "it": [
+          "Controlla la richiesta mostrata e il risultato. Se il nome o il senso è errato, annulla e riformula.",
+          "Gli errori sono possibili. Per la diagnosi annota frase esatta, trascrizione e orario."
+        ],
+        "pt": [
+          "Verifica o pedido apresentado e o resultado. Se o nome ou sentido estiver errado, cancela e reformula.",
+          "Podem ocorrer erros. Para diagnóstico, regista a frase exata, a transcrição e a hora."
+        ]
+      },
+      "replace_responses": true
+    }
+  ],
+  "followups": {
+    "ru": {
+      "сначала важное": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Назови задачу и ближайший срок. Затем выберем первое конкретное действие."
+      },
+      "самое срочное": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Назови задачу и ближайший срок. Затем выберем первое конкретное действие."
+      },
+      "нужен пример": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Например, «разобрать файлы» можно начать с выбора одной папки. Какой результат нужен в твоей задаче?"
+      },
+      "попроще": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Например, «разобрать файлы» можно начать с выбора одной папки. Какой результат нужен в твоей задаче?"
+      },
+      "на пять минут": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Выбери один небольшой шаг и отложи остальные дела. Если нужен таймер, скажи «поставь таймер на пять минут»."
+      },
+      "без отвлечений": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Выбери один небольшой шаг и отложи остальные дела. Если нужен таймер, скажи «поставь таймер на пять минут»."
+      }
+    },
+    "en": {
+      "the important task": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Name the task and its deadline. Then we can choose the first concrete step."
+      },
+      "the most urgent one": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Name the task and its deadline. Then we can choose the first concrete step."
+      },
+      "an example would help": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "For example, organizing files can begin with choosing one folder. What result does your task need?"
+      },
+      "for five minutes": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Choose one small step and set other tasks aside. To start timing, say “set a timer for five minutes”."
+      },
+      "without distractions": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Choose one small step and set other tasks aside. To start timing, say “set a timer for five minutes”."
+      },
+      "a simpler first step": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "For example, organizing files can begin with choosing one folder. What result does your task need?"
+      }
+    },
+    "de": {
+      "das Wichtigste": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Nenne die Aufgabe und ihre Frist. Dann wählen wir den ersten konkreten Schritt."
+      },
+      "das Dringendste": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Nenne die Aufgabe und ihre Frist. Dann wählen wir den ersten konkreten Schritt."
+      },
+      "ein Beispiel würde helfen": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Dateien zu ordnen kann etwa mit der Auswahl eines Ordners beginnen. Welches Ergebnis brauchst du?"
+      },
+      "einfacher bitte": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Dateien zu ordnen kann etwa mit der Auswahl eines Ordners beginnen. Welches Ergebnis brauchst du?"
+      },
+      "für fünf Minuten": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Wähle einen kleinen Schritt und lege anderes beiseite. Für einen Timer sage „Timer auf fünf Minuten stellen“."
+      },
+      "ohne Ablenkungen": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Wähle einen kleinen Schritt und lege anderes beiseite. Für einen Timer sage „Timer auf fünf Minuten stellen“."
+      }
+    },
+    "fr": {
+      "la plus importante": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Nomme la tâche et son échéance. Nous choisirons ensuite la première étape concrète."
+      },
+      "la plus urgente": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Nomme la tâche et son échéance. Nous choisirons ensuite la première étape concrète."
+      },
+      "un exemple aiderait": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Par exemple, ranger des fichiers peut commencer par choisir un dossier. Quel résultat te faut-il ?"
+      },
+      "plus simplement": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Par exemple, ranger des fichiers peut commencer par choisir un dossier. Quel résultat te faut-il ?"
+      },
+      "pendant cinq minutes": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Choisis une petite étape et laisse le reste de côté. Pour chronométrer, demande un minuteur de cinq minutes."
+      },
+      "sans distractions": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Choisis une petite étape et laisse le reste de côté. Pour chronométrer, demande un minuteur de cinq minutes."
+      }
+    },
+    "es": {
+      "la más importante": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Dime la tarea y su plazo. Después elegimos el primer paso concreto."
+      },
+      "la más urgente": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Dime la tarea y su plazo. Después elegimos el primer paso concreto."
+      },
+      "un ejemplo ayudaría": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Por ejemplo, ordenar archivos puede empezar por elegir una carpeta. ¿Qué resultado necesitas?"
+      },
+      "más sencillo": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Por ejemplo, ordenar archivos puede empezar por elegir una carpeta. ¿Qué resultado necesitas?"
+      },
+      "durante cinco minutos": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Elige un paso pequeño y deja lo demás aparte. Para medir el tiempo, pide un temporizador de cinco minutos."
+      },
+      "sin distracciones": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Elige un paso pequeño y deja lo demás aparte. Para medir el tiempo, pide un temporizador de cinco minutos."
+      }
+    },
+    "it": {
+      "la più importante": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Dimmi il compito e la scadenza. Poi scegliamo il primo passo concreto."
+      },
+      "la più urgente": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Dimmi il compito e la scadenza. Poi scegliamo il primo passo concreto."
+      },
+      "un esempio aiuterebbe": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Per esempio, ordinare file può iniziare scegliendo una cartella. Quale risultato ti serve?"
+      },
+      "più semplice": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Per esempio, ordinare file può iniziare scegliendo una cartella. Quale risultato ti serve?"
+      },
+      "per cinque minuti": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Scegli un piccolo passo e lascia da parte il resto. Per misurare il tempo, chiedi un timer di cinque minuti."
+      },
+      "senza distrazioni": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Scegli un piccolo passo e lascia da parte il resto. Per misurare il tempo, chiedi un timer di cinque minuti."
+      }
+    },
+    "pt": {
+      "o mais importante": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Diz a tarefa e o prazo. Depois escolhemos o primeiro passo concreto."
+      },
+      "o mais urgente": {
+        "topic": "taskstart155",
+        "requires": [
+          "taskstart155"
+        ],
+        "answer": "Diz a tarefa e o prazo. Depois escolhemos o primeiro passo concreto."
+      },
+      "um exemplo ajudava": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Por exemplo, organizar ficheiros pode começar por escolher uma pasta. De que resultado precisas?"
+      },
+      "mais simples": {
+        "topic": "stuck155",
+        "requires": [
+          "stuck155"
+        ],
+        "answer": "Por exemplo, organizar ficheiros pode começar por escolher uma pasta. De que resultado precisas?"
+      },
+      "durante cinco minutos": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Escolhe um passo pequeno e deixa o resto de lado. Para contar o tempo, pede um temporizador de cinco minutos."
+      },
+      "sem distrações": {
+        "topic": "focus155",
+        "requires": [
+          "focus155"
+        ],
+        "answer": "Escolhe um passo pequeno e deixa o resto de lado. Para contar o tempo, pede um temporizador de cinco minutos."
+      }
+    }
+  }
+}
