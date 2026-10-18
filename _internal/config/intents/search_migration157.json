@@ -1,0 +1,69 @@
+{
+  "version": 157,
+  "classification": "catalogue-only correction; not runtime bug count",
+  "moves": [
+    {
+      "phrase": "s’il te plaît, recherche une piste sur le service musical actif",
+      "from": "music.play_track",
+      "to": "music.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, trouve une piste sur le service musical actif",
+      "from": "music.play_track",
+      "to": "music.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, trouve une chanson sur le service musical actif",
+      "from": "music.play_track",
+      "to": "music.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, recherche une piste dans Spotify",
+      "from": "spotify.play_track",
+      "to": "spotify.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, trouve une piste dans Spotify",
+      "from": "spotify.play_track",
+      "to": "spotify.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, trouve une chanson dans Spotify",
+      "from": "spotify.play_track",
+      "to": "spotify.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, recherche une piste dans Yandex Music",
+      "from": "yandex_music.play_track",
+      "to": "yandex_music.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, trouve une piste dans Yandex Music",
+      "from": "yandex_music.play_track",
+      "to": "yandex_music.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    },
+    {
+      "phrase": "s’il te plaît, trouve une chanson dans Yandex Music",
+      "from": "yandex_music.play_track",
+      "to": "yandex_music.search_track",
+      "reason": "pure song search without playback request",
+      "version": 157
+    }
+  ]
+}
