@@ -1,0 +1,65 @@
+{
+ "plugins.list": [
+  "Покажи список плагинов",
+  "Show the plugins",
+  "Zeige die Plugins",
+  "Montre les plugins",
+  "Muestra los plugins",
+  "Mostra i plugin",
+  "Mostra os plugins"
+ ],
+ "plugins.describe": [
+  "Расскажи о плагине {name}",
+  "Tell me about the plugin {name}",
+  "Erzähl mir vom Plugin {name}",
+  "Parle-moi du plugin {name}",
+  "Háblame del plugin {name}",
+  "Parlami del plugin {name}",
+  "Fala-me do plugin {name}"
+ ],
+ "plugins.enable": [
+  "Включи плагин {name}",
+  "Enable the plugin {name}",
+  "Aktiviere das Plugin {name}",
+  "Active le plugin {name}",
+  "Activa el plugin {name}",
+  "Attiva il plugin {name}",
+  "Ativa o plugin {name}"
+ ],
+ "plugins.approve": [
+  "Подтверждаю плагин {name}",
+  "Approve the plugin {name}",
+  "Plugin {name} bestätigen",
+  "Confirme le plugin {name}",
+  "Confirmo el plugin {name}",
+  "Confermo il plugin {name}",
+  "Confirmo o plugin {name}"
+ ],
+ "plugins.disable": [
+  "Выключи плагин {name}",
+  "Disable the plugin {name}",
+  "Deaktiviere das Plugin {name}",
+  "Désactive le plugin {name}",
+  "Desactiva el plugin {name}",
+  "Disattiva il plugin {name}",
+  "Desativa o plugin {name}"
+ ],
+ "plugins.remove": [
+  "Удали плагин {name}",
+  "Remove the plugin {name}",
+  "Entferne das Plugin {name}",
+  "Supprime le plugin {name}",
+  "Elimina el plugin {name}",
+  "Rimuovi il plugin {name}",
+  "Remove o plugin {name}"
+ ],
+ "plugins.reload": [
+  "Обнови список плагинов",
+  "Reload the plugins",
+  "Lade die Plugins neu",
+  "Recharge les plugins",
+  "Recarga los plugins",
+  "Ricarica i plugin",
+  "Recarrega os plugins"
+ ]
+}
