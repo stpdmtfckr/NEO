@@ -1,0 +1,20 @@
+{
+  "chance.roll_die": [
+    "брось кубик",
+    "roll a die",
+    "würfle",
+    "lance un dé",
+    "tira un dado",
+    "tira un dado",
+    "lança um dado"
+  ],
+  "chance.flip_coin": [
+    "подкинь монетку",
+    "flip a coin",
+    "wirf eine münze",
+    "lance une pièce",
+    "lanza una moneda",
+    "lancia una moneta",
+    "lança uma moeda"
+  ]
+}
