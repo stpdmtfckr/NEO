@@ -1,0 +1,142 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "сколько свободной памяти",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "ru",
+    "phrase": "сколько осталось оперативной памяти",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "en",
+    "phrase": "how much ram is available",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "en",
+    "phrase": "how much memory is free",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "de",
+    "phrase": "wie viel arbeitsspeicher ist frei",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "de",
+    "phrase": "wie viel ram ist verfügbar",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "fr",
+    "phrase": "combien de mémoire est disponible",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "fr",
+    "phrase": "mémoire vive disponible",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "es",
+    "phrase": "cuánta memoria queda libre",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "es",
+    "phrase": "cuánta ram está disponible",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "it",
+    "phrase": "quanta memoria è libera",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "it",
+    "phrase": "quanta ram è disponibile",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "pt",
+    "phrase": "quanta memória está livre",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  },
+  {
+    "locale": "pt",
+    "phrase": "quanta ram está disponível",
+    "expected_tool": "system_monitor",
+    "expected_action": "memory",
+    "expected_args": {
+      "action": "memory"
+    },
+    "source": "search158_local_boundary"
+  }
+]
