@@ -1,0 +1,218 @@
+{
+ "ui.type": [
+  "Напечатай {text}",
+  "Type {text}",
+  "Tippe {text}",
+  "Tape {text}",
+  "Teclea {text}",
+  "Scrivi qui {text}",
+  "Digita {text}"
+ ],
+ "ui.press": [
+  "Нажми клавишу {key}",
+  "Press the key {key}",
+  "Drücke die Taste {key}",
+  "Appuie sur la touche {key}",
+  "Pulsa la tecla {key}",
+  "Premi il tasto {key}",
+  "Prime a tecla {key}"
+ ],
+ "ui.hints": [
+  "Покажи номера элементов на экране",
+  "Show numbers on the screen elements",
+  "Zeige Nummern an den Bildschirmelementen",
+  "Affiche les numéros des éléments à l'écran",
+  "Muestra números en los elementos de la pantalla",
+  "Mostra i numeri sugli elementi dello schermo",
+  "Mostra números nos elementos do ecrã"
+ ],
+ "ui.hints_off": [
+  "Убери номера с экрана",
+  "Hide the numbers on the screen",
+  "Blende die Nummern aus",
+  "Masque les numéros à l'écran",
+  "Oculta los números de la pantalla",
+  "Nascondi i numeri sullo schermo",
+  "Esconde os números do ecrã"
+ ],
+ "ui.click_number": [
+  "Нажми на номер {number}",
+  "Click number {number}",
+  "Klicke auf Nummer {number}",
+  "Clique sur le numéro {number}",
+  "Haz clic en el número {number}",
+  "Clicca il numero {number}",
+  "Clica no número {number}"
+ ],
+ "ui.double_click_number": [
+  "Дважды нажми на номер {number}",
+  "Double click number {number}",
+  "Doppelklicke auf Nummer {number}",
+  "Double-clique sur le numéro {number}",
+  "Haz doble clic en el número {number}",
+  "Fai doppio clic sul numero {number}",
+  "Clica duas vezes no número {number}"
+ ],
+ "ui.right_click_number": [
+  "Нажми правой кнопкой на номер {number}",
+  "Right click number {number}",
+  "Rechtsklicke auf Nummer {number}",
+  "Clic droit sur le numéro {number}",
+  "Haz clic derecho en el número {number}",
+  "Clic destro sul numero {number}",
+  "Clica com o botão direito no número {number}"
+ ],
+ "ui.click_link": [
+  "Открой {index} ссылку",
+  "Open link {index}",
+  "Öffne Link {index}",
+  "Ouvre le lien {index}",
+  "Abre el enlace {index}",
+  "Apri il link {index}",
+  "Abre o link {index}"
+ ],
+ "ui.click_button": [
+  "Нажми {index} кнопку",
+  "Click button {index}",
+  "Klicke Schaltfläche {index}",
+  "Clique sur le bouton numéro {index}",
+  "Pulsa el botón número {index}",
+  "Premi il pulsante numero {index}",
+  "Clica no botão número {index}"
+ ],
+ "ui.click_item": [
+  "Выбери {index} пункт",
+  "Select item {index}",
+  "Wähle Eintrag {index}",
+  "Choisis l'élément {index}",
+  "Elige el elemento {index}",
+  "Seleziona l'elemento {index}",
+  "Escolhe o item {index}"
+ ],
+ "ui.click_tab": [
+  "Открой {index} вкладку в окне",
+  "Open window tab {index}",
+  "Öffne Fensterregister {index}",
+  "Ouvre l'onglet de fenêtre {index}",
+  "Abre la pestaña de ventana {index}",
+  "Apri la scheda della finestra {index}",
+  "Abre o separador da janela {index}"
+ ],
+ "ui.scroll_down": [
+  "Прокрути вниз",
+  "Scroll down",
+  "Scrolle nach unten",
+  "Défile vers le bas",
+  "Desplázate hacia abajo",
+  "Scorri verso il basso",
+  "Desloca para baixo"
+ ],
+ "ui.scroll_up": [
+  "Прокрути вверх",
+  "Scroll up",
+  "Scrolle nach oben",
+  "Défile vers le haut",
+  "Desplázate hacia arriba",
+  "Scorri verso l'alto",
+  "Desloca para cima"
+ ],
+ "ui.scroll_down_more": [
+  "Прокрути сильно вниз",
+  "Scroll down a lot",
+  "Scrolle weit nach unten",
+  "Défile beaucoup vers le bas",
+  "Desplázate mucho hacia abajo",
+  "Scorri molto verso il basso",
+  "Desloca muito para baixo"
+ ],
+ "ui.scroll_up_more": [
+  "Прокрути сильно вверх",
+  "Scroll up a lot",
+  "Scrolle weit nach oben",
+  "Défile beaucoup vers le haut",
+  "Desplázate mucho hacia arriba",
+  "Scorri molto verso l'alto",
+  "Desloca muito para cima"
+ ],
+ "ui.scroll_left": [
+  "Прокрути влево",
+  "Scroll left",
+  "Scrolle nach links",
+  "Défile vers la gauche",
+  "Desplázate a la izquierda",
+  "Scorri a sinistra",
+  "Desloca para a esquerda"
+ ],
+ "ui.scroll_right": [
+  "Прокрути вправо",
+  "Scroll right",
+  "Scrolle nach rechts",
+  "Défile vers la droite",
+  "Desplázate a la derecha",
+  "Scorri a destra",
+  "Desloca para a direita"
+ ],
+ "ui.scroll_top": [
+  "Прокрути в самое начало",
+  "Scroll to the top",
+  "Scrolle ganz nach oben",
+  "Défile tout en haut",
+  "Desplázate al principio",
+  "Scorri fino all'inizio",
+  "Desloca até ao início"
+ ],
+ "ui.scroll_bottom": [
+  "Прокрути в самый конец",
+  "Scroll to the bottom",
+  "Scrolle ganz nach unten",
+  "Défile tout en bas",
+  "Desplázate al final",
+  "Scorri fino alla fine",
+  "Desloca até ao fim"
+ ],
+ "ui.read": [
+  "Прочитай текст в окне",
+  "Read the text in the window",
+  "Lies den Text im Fenster",
+  "Lis le texte de la fenêtre",
+  "Lee el texto de la ventana",
+  "Leggi il testo nella finestra",
+  "Lê o texto da janela"
+ ],
+ "ui.again": [
+  "Нажми ещё раз",
+  "Do it again",
+  "Mach das nochmal",
+  "Refais-le",
+  "Hazlo otra vez",
+  "Fallo di nuovo",
+  "Faz isso outra vez"
+ ],
+ "ui.find": [
+  "Найди кнопку {name}",
+  "Find the button {name}",
+  "Finde die Schaltfläche {name}",
+  "Trouve le bouton {name}",
+  "Busca el botón {name}",
+  "Trova il pulsante {name}",
+  "Encontra o botão {name}"
+ ],
+ "ui.click_name": [
+  "Нажми на элемент {name}",
+  "Click the element {name}",
+  "Klicke auf das Element {name}",
+  "Clique sur l’élément {name}",
+  "Haz clic en el elemento {name}",
+  "Clicca l’elemento {name}",
+  "Clica no elemento {name}"
+ ],
+ "ui.focus_field": [
+  "Выбери {index} поле",
+  "Select field {index}",
+  "Wähle Feld {index}",
+  "Sélectionne le champ {index}",
+  "Selecciona el campo número {index}",
+  "Seleziona il campo numero {index}",
+  "Seleciona o campo número {index}"
+ ]
+}
