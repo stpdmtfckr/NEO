@@ -1,0 +1,295 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "очередь дискорд",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "очеред дискорд",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "история песен дискорд",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_status",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "добавь сейчас таймер",
+    "expected_tool": "timer",
+    "expected_action": "timer",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "добавь будильник",
+    "expected_tool": "timer",
+    "expected_action": "alarm",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "добавь черновик письма",
+    "expected_tool": "email",
+    "expected_action": "draft",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "отметь письмо как прочитанное",
+    "expected_tool": "email",
+    "expected_action": "mark_read",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "текущий буфер обмена",
+    "expected_tool": "clipboard",
+    "expected_action": "current",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "установи буфер обмена",
+    "expected_tool": "clipboard",
+    "expected_action": "set",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "создай новую папку",
+    "expected_tool": "filesystem",
+    "expected_action": "create_folder",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "создай новый текстовый файл",
+    "expected_tool": "filesystem",
+    "expected_action": "create_text_file",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "создай сейчас чек-лист",
+    "expected_tool": "overlay",
+    "expected_action": "checklist_create",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "отметь пункт 2 в чек-листе панели NEO QA",
+    "expected_tool": "overlay",
+    "expected_action": "checklist_check",
+    "expected_kind": "",
+    "expected_args": {
+      "name": "NEO QA",
+      "item": "2"
+    },
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи сейчас музыку",
+    "expected_tool": "music",
+    "expected_action": "play_music",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи плейлист в Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_playlist",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "подключи Discord-бота к голосовому каналу",
+    "expected_tool": "discord",
+    "expected_action": "bot_join_voice",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "отключи Discord-бота от голосового канала",
+    "expected_tool": "discord",
+    "expected_action": "bot_leave_voice",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "проверь доступность автоматизации пользовательского аккаунта Discord",
+    "expected_tool": "discord",
+    "expected_action": "user_account_automation_unavailable",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "отправь содержимое буфера обмена в Discord",
+    "expected_tool": "transfer",
+    "expected_action": "clipboard_to_discord",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "отправь выбранный файл Проводника в Discord",
+    "expected_tool": "transfer",
+    "expected_action": "selected_explorer_file_to_discord",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "перезагрузи компьютер, пожалуйста",
+    "expected_tool": "system",
+    "expected_action": "restart",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "пожалуйста, перезагрузи компьютер",
+    "expected_tool": "system",
+    "expected_action": "restart",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "en",
+    "phrase": "open the specified URL in the browser",
+    "expected_tool": "browser",
+    "expected_action": "open_url",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "de",
+    "phrase": "spiele das Lied Imagine auf Spotify",
+    "expected_tool": "spotify",
+    "expected_action": "play_track",
+    "expected_kind": "",
+    "expected_args": {
+      "query": "Imagine"
+    },
+    "source": "regression150"
+  },
+  {
+    "locale": "fr",
+    "phrase": "lis une playlist par son nom dans Yandex Music",
+    "expected_tool": "yandex_music",
+    "expected_action": "playlist",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "pt",
+    "phrase": "inicie Minha Onda no Discord, por favor",
+    "expected_tool": "discord",
+    "expected_action": "music_my_wave",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "pt",
+    "phrase": "limpe a fila do Discord, por favor",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_clear",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "pt",
+    "phrase": "pare a reprodução no Discord, por favor",
+    "expected_tool": "discord",
+    "expected_action": "music_stop",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "pt",
+    "phrase": "por favor, coloque uma faixa como próxima na fila do Discord",
+    "expected_tool": "discord",
+    "expected_action": "music_queue_next",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostre o uso de CPU GPU RAM e disco por processo",
+    "expected_tool": "system",
+    "expected_action": "top_processes",
+    "expected_kind": "",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "включи песню",
+    "expected_tool": "music",
+    "expected_action": "play_track",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  },
+  {
+    "locale": "ru",
+    "phrase": "подключись к каналу Discord",
+    "expected_tool": "discord",
+    "expected_action": "connect_channel",
+    "expected_kind": "clarification",
+    "expected_args": {},
+    "source": "regression150"
+  }
+]
