@@ -1,0 +1,5330 @@
+{
+  "application.open": {
+    "ru": [
+      "открыть приложение {name}",
+      "покажи приложение {name}",
+      "показать приложение {name}"
+    ],
+    "en": [
+      "bring up application {name}",
+      "display application {name}",
+      "open up application {name}"
+    ],
+    "de": [
+      "das Programm {name} öffnen",
+      "zeige das Programm {name}",
+      "das Programm {name} zeigen"
+    ],
+    "fr": [
+      "ouvrir l'application {name}",
+      "affiche l'application {name}",
+      "afficher l'application {name}"
+    ],
+    "es": [
+      "abrir la aplicación {name}",
+      "muestra la aplicación {name}",
+      "mostrar la aplicación {name}"
+    ],
+    "it": [
+      "aprire l'applicazione {name}",
+      "visualizza l'applicazione {name}",
+      "visualizzare l'applicazione {name}"
+    ],
+    "pt": [
+      "abrir a aplicação {name}",
+      "mostra a aplicação {name}",
+      "mostrar a aplicação {name}"
+    ]
+  },
+  "application.close": {
+    "ru": [
+      "закрыть приложение {name}",
+      "заверши приложение {name}",
+      "завершить приложение {name}"
+    ],
+    "en": [
+      "shut application {name}",
+      "dismiss application {name}",
+      "close down application {name}"
+    ],
+    "de": [
+      "das Programm {name} schließen",
+      "beende das Programm {name}",
+      "das Programm {name} beenden"
+    ],
+    "fr": [
+      "fermer l'application {name}",
+      "referme l'application {name}",
+      "refermer l'application {name}"
+    ],
+    "es": [
+      "Termina la aplicación {name}",
+      "Cierra el programa llamado {name}",
+      "Sal de la aplicación {name}"
+    ],
+    "it": [
+      "chiudere l'applicazione {name}",
+      "termina l'applicazione {name}",
+      "terminare l'applicazione {name}"
+    ],
+    "pt": [
+      "fechar a aplicação {name}",
+      "encerra a aplicação {name}",
+      "encerrar a aplicação {name}"
+    ]
+  },
+  "application.kill": {
+    "de": [
+      "das Programm {name} zwangsweise beenden",
+      "stoppe das Programm {name} zwangsweise",
+      "das Programm {name} zwangsweise stoppen"
+    ],
+    "fr": [
+      "forcer la fermeture de l'application {name}",
+      "impose la fermeture de l'application {name}",
+      "imposer la fermeture de l'application {name}"
+    ],
+    "es": [
+      "forzar el cierre de la aplicación {name}",
+      "impón el cierre de la aplicación {name}",
+      "imponer el cierre de la aplicación {name}"
+    ],
+    "it": [
+      "forzare la chiusura dell'applicazione {name}",
+      "imponi la chiusura dell'applicazione {name}",
+      "imporre la chiusura dell'applicazione {name}"
+    ],
+    "pt": [
+      "forçar o encerramento da aplicação {name}",
+      "impõe o encerramento da aplicação {name}",
+      "impor o encerramento da aplicação {name}"
+    ],
+    "ru": [
+      "заверши приложение {name} принудительно",
+      "принудительно закрыть приложение {name}",
+      "останови приложение {name} принудительно"
+    ],
+    "en": [
+      "force close application {name}",
+      "terminate application {name} forcibly",
+      "kill application {name}"
+    ]
+  },
+  "application.list": {
+    "ru": [
+      "какие процессы приложений запущены",
+      "перечисли процессы моих приложений",
+      "выведи список процессов приложений"
+    ],
+    "en": [
+      "which application processes are running",
+      "list my application processes",
+      "give me the list of application processes"
+    ],
+    "de": [
+      "die Programmprozesse zeigen",
+      "blende die Programmprozesse ein",
+      "die Programmprozesse einblenden"
+    ],
+    "fr": [
+      "montrer les processus des applications",
+      "affiche les processus des applications",
+      "afficher les processus des applications"
+    ],
+    "es": [
+      "mostrar los procesos de las aplicaciones",
+      "visualiza los procesos de las aplicaciones",
+      "visualizar los procesos de las aplicaciones"
+    ],
+    "it": [
+      "mostrare i processi delle applicazioni",
+      "visualizza i processi delle applicazioni",
+      "visualizzare i processi delle applicazioni"
+    ],
+    "pt": [
+      "mostrar os processos das aplicações",
+      "exibe os processos das aplicações",
+      "exibir os processos das aplicações"
+    ]
+  },
+  "application.list_active": {
+    "ru": [
+      "какие приложения сейчас открыты",
+      "перечисли открытые программы",
+      "выведи список активных приложений"
+    ],
+    "en": [
+      "which applications are currently open",
+      "list the programs I have open",
+      "let me see my active applications"
+    ],
+    "de": [
+      "die geöffneten Programme zeigen",
+      "blende die geöffneten Programme ein",
+      "die geöffneten Programme einblenden"
+    ],
+    "fr": [
+      "montrer les applications ouvertes",
+      "affiche les applications ouvertes",
+      "afficher les applications ouvertes"
+    ],
+    "es": [
+      "mostrar las aplicaciones abiertas",
+      "visualiza las aplicaciones abiertas",
+      "visualizar las aplicaciones abiertas"
+    ],
+    "it": [
+      "mostrare le applicazioni aperte",
+      "visualizza le applicazioni aperte",
+      "visualizzare le applicazioni aperte"
+    ],
+    "pt": [
+      "mostrar as aplicações abertas",
+      "exibe as aplicações abertas",
+      "exibir as aplicações abertas"
+    ]
+  },
+  "application.find": {
+    "ru": [
+      "найти приложение {name}",
+      "отыщи приложение {name}",
+      "отыскать приложение {name}"
+    ],
+    "en": [
+      "locate application {name}",
+      "search for application {name}",
+      "look for application {name}"
+    ],
+    "de": [
+      "das Programm {name} finden",
+      "suche das Programm {name}",
+      "das Programm {name} suchen"
+    ],
+    "fr": [
+      "trouver l'application {name}",
+      "cherche l'application {name}",
+      "chercher l'application {name}"
+    ],
+    "es": [
+      "buscar la aplicación {name}",
+      "localiza la aplicación {name}",
+      "localizar la aplicación {name}"
+    ],
+    "it": [
+      "trovare l'applicazione {name}",
+      "cerca l'applicazione {name}",
+      "cercare l'applicazione {name}"
+    ],
+    "pt": [
+      "encontrar a aplicação {name}",
+      "localiza a aplicação {name}",
+      "localizar a aplicação {name}"
+    ]
+  },
+  "application.info": {
+    "ru": [
+      "что известно о приложении {name}",
+      "выведи сведения о программе {name}",
+      "какие данные есть о приложении {name}"
+    ],
+    "en": [
+      "what information is available about application {name}",
+      "give me details about program {name}",
+      "tell me about the application {name}"
+    ],
+    "de": [
+      "Informationen zum Programm {name} zeigen",
+      "blende Informationen zum Programm {name} ein",
+      "Informationen zum Programm {name} einblenden"
+    ],
+    "fr": [
+      "montrer les informations sur l'application {name}",
+      "affiche les informations sur l'application {name}",
+      "afficher les informations sur l'application {name}"
+    ],
+    "es": [
+      "mostrar información de la aplicación {name}",
+      "visualiza información de la aplicación {name}",
+      "visualizar información de la aplicación {name}"
+    ],
+    "it": [
+      "mostrare le informazioni sull'applicazione {name}",
+      "visualizza le informazioni sull'applicazione {name}",
+      "visualizzare le informazioni sull'applicazione {name}"
+    ],
+    "pt": [
+      "mostrar informações sobre a aplicação {name}",
+      "exibe informações sobre a aplicação {name}",
+      "exibir informações sobre a aplicação {name}"
+    ]
+  },
+  "audio.set_volume": {
+    "ru": [
+      "сделай громкость {value} процентов",
+      "задай уровень звука {value} процентов",
+      "измени громкость компьютера на {value} процентов"
+    ],
+    "en": [
+      "adjust the volume to {value} percent",
+      "change the volume to {value} percent",
+      "configure the volume to {value} percent"
+    ],
+    "de": [
+      "die Lautstärke auf {value} Prozent stellen",
+      "setze die Lautstärke auf {value} Prozent",
+      "die Lautstärke auf {value} Prozent setzen"
+    ],
+    "fr": [
+      "régler le volume à {value} pour cent",
+      "ajuste le volume à {value} pour cent",
+      "ajuster le volume à {value} pour cent"
+    ],
+    "es": [
+      "ajustar el volumen al {value} por ciento",
+      "establece el volumen al {value} por ciento",
+      "establecer el volumen al {value} por ciento"
+    ],
+    "it": [
+      "impostare il volume al {value} per cento",
+      "regola il volume al {value} per cento",
+      "regolare il volume al {value} per cento"
+    ],
+    "pt": [
+      "definir o volume para {value} por cento",
+      "estabelece o volume para {value} por cento",
+      "estabelecer o volume para {value} por cento"
+    ]
+  },
+  "audio.change_volume": {
+    "ru": [
+      "увеличить громкость на {value} процентов",
+      "повысь громкость на {value} процентов",
+      "повысить громкость на {value} процентов"
+    ],
+    "en": [
+      "raise the volume by {value} percent",
+      "turn up the volume by {value} percent",
+      "boost the volume by {value} percent"
+    ],
+    "de": [
+      "die Lautstärke um {value} Prozent erhöhen",
+      "steigere die Lautstärke um {value} Prozent",
+      "die Lautstärke um {value} Prozent steigern"
+    ],
+    "fr": [
+      "augmenter le volume de {value} pour cent",
+      "rehausse le volume de {value} pour cent",
+      "rehausser le volume de {value} pour cent"
+    ],
+    "es": [
+      "aumentar el volumen un {value} por ciento",
+      "incrementa el volumen un {value} por ciento",
+      "incrementar el volumen un {value} por ciento"
+    ],
+    "it": [
+      "aumentare il volume del {value} per cento",
+      "incrementa il volume del {value} per cento",
+      "incrementare il volume del {value} per cento"
+    ],
+    "pt": [
+      "aumentar o volume em {value} por cento",
+      "incrementa o volume em {value} por cento",
+      "incrementar o volume em {value} por cento"
+    ]
+  },
+  "audio.change_target_volume": {
+    "ru": [
+      "уменьши громкость {target}",
+      "приглуши звук {target}",
+      "сделать {target} тише"
+    ],
+    "de": [
+      "verringere die Lautstärke von {target}",
+      "dämpfe den Ton von {target}",
+      "mache den Ton von {target} leiser"
+    ],
+    "fr": [
+      "baisser le volume de {target}",
+      "réduis le volume de {target}",
+      "réduire le volume de {target}"
+    ],
+    "es": [
+      "bajar el volumen de {target}",
+      "reduce el volumen de {target}",
+      "reducir el volumen de {target}"
+    ],
+    "it": [
+      "abbassare il volume di {target}",
+      "riduci il volume di {target}",
+      "ridurre il volume di {target}"
+    ],
+    "pt": [
+      "baixar o volume de {target}",
+      "reduz o volume de {target}",
+      "reduzir o volume de {target}"
+    ],
+    "en": [
+      "lower the volume of {target}",
+      "turn down the sound of {target}",
+      "reduce the audio volume for {target}"
+    ]
+  },
+  "audio.mute": {
+    "ru": [
+      "выключить звук компьютера",
+      "отключи звук компьютера",
+      "отключить звук компьютера"
+    ],
+    "en": [
+      "silence the computer",
+      "turn off sound on the computer",
+      "disable sound on the computer"
+    ],
+    "de": [
+      "den Computerton stummschalten",
+      "stelle den Computerton stumm",
+      "den Computerton stummstellen"
+    ],
+    "fr": [
+      "couper le son de l'ordinateur",
+      "désactive le son de l'ordinateur",
+      "désactiver le son de l'ordinateur"
+    ],
+    "es": [
+      "Quita el sonido del ordenador",
+      "Deja el ordenador sin sonido",
+      "Pon en silencio el audio del ordenador"
+    ],
+    "it": [
+      "disattivare l'audio del computer",
+      "disabilita l'audio del computer",
+      "disabilitare l'audio del computer"
+    ],
+    "pt": [
+      "Desliga o som do computador",
+      "Deixa o computador sem som",
+      "Põe o áudio do computador em silêncio"
+    ]
+  },
+  "audio.list_sessions": {
+    "ru": [
+      "какие приложения сейчас выводят звук",
+      "перечисли звуковые сеансы приложений",
+      "какие аудиосессии доступны"
+    ],
+    "en": [
+      "which applications have audio sessions",
+      "list the application sound sessions",
+      "what audio sessions are available"
+    ],
+    "de": [
+      "die Audiositzungen der Programme zeigen",
+      "blende die Audiositzungen der Programme ein",
+      "die Audiositzungen der Programme einblenden"
+    ],
+    "fr": [
+      "montrer les sessions audio des applications",
+      "affiche les sessions audio des applications",
+      "afficher les sessions audio des applications"
+    ],
+    "es": [
+      "mostrar las sesiones de audio de las aplicaciones",
+      "visualiza las sesiones de audio de las aplicaciones",
+      "visualizar las sesiones de audio de las aplicaciones"
+    ],
+    "it": [
+      "mostrare le sessioni audio delle applicazioni",
+      "visualizza le sessioni audio delle applicazioni",
+      "visualizzare le sessioni audio delle applicazioni"
+    ],
+    "pt": [
+      "mostrar as sessões de áudio das aplicações",
+      "exibe as sessões de áudio das aplicações",
+      "exibir as sessões de áudio das aplicações"
+    ]
+  },
+  "audio.list_devices": {
+    "ru": [
+      "какие звуковые устройства доступны",
+      "перечисли устройства воспроизведения и записи",
+      "какие аудиоустройства видит компьютер"
+    ],
+    "en": [
+      "which sound devices are available",
+      "list the recording and playback devices",
+      "what audio devices can the computer see"
+    ],
+    "de": [
+      "die Audiogeräte zeigen",
+      "blende die Audiogeräte ein",
+      "die Audiogeräte einblenden"
+    ],
+    "fr": [
+      "montrer les périphériques audio",
+      "affiche les périphériques audio",
+      "afficher les périphériques audio"
+    ],
+    "es": [
+      "mostrar los dispositivos de audio",
+      "visualiza los dispositivos de audio",
+      "visualizar los dispositivos de audio"
+    ],
+    "it": [
+      "mostrare i dispositivi audio",
+      "visualizza i dispositivi audio",
+      "visualizzare i dispositivi audio"
+    ],
+    "pt": [
+      "mostrar os dispositivos de áudio",
+      "exibe os dispositivos de áudio",
+      "exibir os dispositivos de áudio"
+    ]
+  },
+  "audio.set_default": {
+    "ru": [
+      "выбрать устройство вывода {device_name}",
+      "укажи устройство вывода {device_name}",
+      "указать устройство вывода {device_name}"
+    ],
+    "en": [
+      "choose output device {device_name}",
+      "use output device {device_name}",
+      "switch to output device {device_name}"
+    ],
+    "de": [
+      "das Ausgabegerät {device_name} wählen",
+      "selektiere das Ausgabegerät {device_name}",
+      "das Ausgabegerät {device_name} selektieren"
+    ],
+    "fr": [
+      "sélectionner le périphérique de sortie {device_name}",
+      "choisis le périphérique de sortie {device_name}",
+      "choisir le périphérique de sortie {device_name}"
+    ],
+    "es": [
+      "seleccionar el dispositivo de salida {device_name}",
+      "elige el dispositivo de salida {device_name}",
+      "elegir el dispositivo de salida {device_name}"
+    ],
+    "it": [
+      "Scegli {device_name} come uscita audio predefinita",
+      "Usa il dispositivo {device_name} per l’uscita audio",
+      "Imposta {device_name} come dispositivo audio di uscita"
+    ],
+    "pt": [
+      "selecionar o dispositivo de saída {device_name}",
+      "escolhe o dispositivo de saída {device_name}",
+      "escolher o dispositivo de saída {device_name}"
+    ]
+  },
+  "audio.set_input_mute": {
+    "ru": [
+      "выключить микрофон",
+      "отключи микрофон",
+      "отключить микрофон"
+    ],
+    "en": [
+      "switch off microphone sound",
+      "mute my microphone",
+      "disable microphone audio"
+    ],
+    "de": [
+      "das Mikrofon stummschalten",
+      "stelle das Mikrofon stumm",
+      "das Mikrofon stummstellen"
+    ],
+    "fr": [
+      "couper le microphone",
+      "désactive le microphone",
+      "désactiver le microphone"
+    ],
+    "es": [
+      "Quita el sonido del micrófono",
+      "Deja el micrófono en silencio",
+      "Desactiva la entrada de audio del micrófono"
+    ],
+    "it": [
+      "disattivare il microfono",
+      "disabilita il microfono",
+      "disabilitare il microfono"
+    ],
+    "pt": [
+      "Desliga o som do microfone",
+      "Põe o microfone em silêncio",
+      "Desativa a entrada de áudio do microfone"
+    ]
+  },
+  "audio.get_input_volume": {
+    "ru": [
+      "какая сейчас громкость микрофона",
+      "какой уровень выставлен у микрофона",
+      "сообщи текущий уровень микрофона"
+    ],
+    "en": [
+      "what is the microphone volume",
+      "how high is the microphone level set",
+      "tell me the current microphone level"
+    ],
+    "de": [
+      "die Mikrofonlautstärke zeigen",
+      "blende die Mikrofonlautstärke ein",
+      "die Mikrofonlautstärke einblenden"
+    ],
+    "fr": [
+      "montrer le volume du microphone",
+      "affiche le volume du microphone",
+      "afficher le volume du microphone"
+    ],
+    "es": [
+      "mostrar el volumen del micrófono",
+      "visualiza el volumen del micrófono",
+      "visualizar el volumen del micrófono"
+    ],
+    "it": [
+      "mostrare il volume del microfono",
+      "visualizza il volume del microfono",
+      "visualizzare il volume del microfono"
+    ],
+    "pt": [
+      "mostrar o volume do microfone",
+      "exibe o volume do microfone",
+      "exibir o volume do microfone"
+    ]
+  },
+  "audio.set_input_volume": {
+    "ru": [
+      "сделай громкость микрофона {value} процентов",
+      "задай для микрофона уровень {value} процентов",
+      "измени уровень микрофона на {value} процентов"
+    ],
+    "en": [
+      "adjust microphone volume to {value} percent",
+      "change microphone volume to {value} percent",
+      "configure microphone volume to {value} percent"
+    ],
+    "de": [
+      "die Mikrofonlautstärke auf {value} Prozent stellen",
+      "setze die Mikrofonlautstärke auf {value} Prozent",
+      "die Mikrofonlautstärke auf {value} Prozent setzen"
+    ],
+    "fr": [
+      "régler le volume du microphone à {value} pour cent",
+      "ajuste le volume du microphone à {value} pour cent",
+      "ajuster le volume du microphone à {value} pour cent"
+    ],
+    "es": [
+      "ajustar el volumen del micrófono al {value} por ciento",
+      "establece el volumen del micrófono al {value} por ciento",
+      "establecer el volumen del micrófono al {value} por ciento"
+    ],
+    "it": [
+      "impostare il volume del microfono al {value} per cento",
+      "regola il volume del microfono al {value} per cento",
+      "regolare il volume del microfono al {value} per cento"
+    ],
+    "pt": [
+      "definir o volume do microfone para {value} por cento",
+      "estabelece o volume do microfone para {value} por cento",
+      "estabelecer o volume do microfone para {value} por cento"
+    ]
+  },
+  "audio.route_app_device": {
+    "ru": [
+      "направь звук {target} на {device_name}",
+      "переключи вывод звука {target} на {device_name}",
+      "воспроизводи звук {target} через {device_name}"
+    ],
+    "en": [
+      "route {target} audio to {device_name}",
+      "direct {target} audio to {device_name}",
+      "redirect {target} audio to {device_name}"
+    ],
+    "de": [
+      "den Ton von {target} an {device_name} leiten",
+      "übertrage den Ton von {target} an {device_name}",
+      "den Ton von {target} an {device_name} übertragen"
+    ],
+    "fr": [
+      "envoyer le son de {target} vers {device_name}",
+      "achemine le son de {target} vers {device_name}",
+      "acheminer le son de {target} vers {device_name}"
+    ],
+    "es": [
+      "enviar el audio de {target} a {device_name}",
+      "dirige el audio de {target} a {device_name}",
+      "dirigir el audio de {target} a {device_name}"
+    ],
+    "it": [
+      "inviare l'audio di {target} a {device_name}",
+      "indirizza l'audio di {target} a {device_name}",
+      "indirizzare l'audio di {target} a {device_name}"
+    ],
+    "pt": [
+      "enviar o áudio de {target} para {device_name}",
+      "encaminha o áudio de {target} para {device_name}",
+      "encaminhar o áudio de {target} para {device_name}"
+    ]
+  },
+  "audio.mute_target": {
+    "ru": [
+      "выключить звук приложения {target}",
+      "отключи звук приложения {target}",
+      "отключить звук приложения {target}"
+    ],
+    "en": [
+      "silence application {target}",
+      "turn off sound on application {target}",
+      "disable sound on application {target}"
+    ],
+    "de": [
+      "das Programm {target} stummschalten",
+      "stelle das Programm {target} stumm",
+      "das Programm {target} stummstellen"
+    ],
+    "fr": [
+      "couper le son de l'application {target}",
+      "désactive le son de l'application {target}",
+      "désactiver le son de l'application {target}"
+    ],
+    "es": [
+      "silenciar la aplicación {target}",
+      "quita el sonido de la aplicación {target}",
+      "quitar el sonido de la aplicación {target}"
+    ],
+    "it": [
+      "disattivare l'audio dell'applicazione {target}",
+      "disabilita l'audio dell'applicazione {target}",
+      "disabilitare l'audio dell'applicazione {target}"
+    ],
+    "pt": [
+      "Desliga o som da aplicação {target}",
+      "Põe a aplicação {target} em silêncio",
+      "Deixa a aplicação {target} sem áudio"
+    ]
+  },
+  "audio.mute_except": {
+    "ru": [
+      "выключить звук всех приложений кроме {target}",
+      "отключи звук всех приложений кроме {target}",
+      "отключить звук всех приложений кроме {target}"
+    ],
+    "en": [
+      "silence all applications except {target}",
+      "turn off sound on all applications except {target}",
+      "disable sound on all applications except {target}"
+    ],
+    "de": [
+      "alle Programme außer {target} stummschalten",
+      "stelle alle Programme außer {target} stumm",
+      "alle Programme außer {target} stummstellen"
+    ],
+    "fr": [
+      "couper le son de toutes les applications sauf {target}",
+      "désactive le son de toutes les applications sauf {target}",
+      "désactiver le son de toutes les applications sauf {target}"
+    ],
+    "es": [
+      "silenciar todas las aplicaciones excepto {target}",
+      "quita el sonido de todas las aplicaciones excepto {target}",
+      "quitar el sonido de todas las aplicaciones excepto {target}"
+    ],
+    "it": [
+      "disattivare l'audio di tutte le applicazioni tranne {target}",
+      "disabilita l'audio di tutte le applicazioni tranne {target}",
+      "disabilitare l'audio di tutte le applicazioni tranne {target}"
+    ],
+    "pt": [
+      "silenciar todas as aplicações exceto {target}",
+      "desliga o som de todas as aplicações exceto {target}",
+      "desligar o som de todas as aplicações exceto {target}"
+    ]
+  },
+  "audio.duck_system": {
+    "ru": [
+      "временно убавь звук компьютера",
+      "временно уменьшить громкость компьютера",
+      "приглушить звук компьютера"
+    ],
+    "en": [
+      "reduce the computer audio temporarily",
+      "decrease the computer audio temporarily",
+      "turn down the computer audio temporarily"
+    ],
+    "de": [
+      "den Computerton vorübergehend senken",
+      "reduziere den Computerton vorübergehend",
+      "den Computerton vorübergehend reduzieren"
+    ],
+    "fr": [
+      "atténuer temporairement le son de l'ordinateur",
+      "réduis temporairement le son de l'ordinateur",
+      "réduire temporairement le son de l'ordinateur"
+    ],
+    "es": [
+      "atenuar temporalmente el audio del ordenador",
+      "reduce temporalmente el audio del ordenador",
+      "reducir temporalmente el audio del ordenador"
+    ],
+    "it": [
+      "abbassare temporaneamente l'audio del computer",
+      "riduci temporaneamente l'audio del computer",
+      "ridurre temporaneamente l'audio del computer"
+    ],
+    "pt": [
+      "reduzir temporariamente o áudio do computador",
+      "diminui temporariamente o áudio do computador",
+      "diminuir temporariamente o áudio do computador"
+    ]
+  },
+  "audio.restore_ducking": {
+    "ru": [
+      "верни прежнюю громкость после приглушения",
+      "отмени временное уменьшение громкости",
+      "восстанови обычный уровень звука после приглушения"
+    ],
+    "en": [
+      "restore the normal volume after ducking",
+      "undo the temporary volume reduction",
+      "return system sound to its level before ducking"
+    ],
+    "de": [
+      "Stelle die vorherige Lautstärke wieder her",
+      "Hebe die vorübergehende Tonabsenkung auf",
+      "Setze die Lautstärke nach der Absenkung zurück"
+    ],
+    "fr": [
+      "rétablir le son après l'atténuation",
+      "restaure le son après l'atténuation",
+      "restaurer le son après l'atténuation"
+    ],
+    "es": [
+      "restaurar el audio después de atenuarlo",
+      "recupera el audio después de atenuarlo",
+      "recuperar el audio después de atenuarlo"
+    ],
+    "it": [
+      "ripristinare l'audio dopo l'attenuazione",
+      "ristabilisci l'audio dopo l'attenuazione",
+      "ristabilire l'audio dopo l'attenuazione"
+    ],
+    "pt": [
+      "restaurar o áudio após a redução",
+      "repõe o áudio após a redução",
+      "repor o áudio após a redução"
+    ]
+  },
+  "autoclicker.start": {
+    "ru": [
+      "включи автокликер",
+      "начни автоматические щелчки",
+      "запустить автокликер"
+    ],
+    "en": [
+      "launch the autoclicker",
+      "activate the autoclicker",
+      "run the autoclicker"
+    ],
+    "de": [
+      "den Autoklicker starten",
+      "aktiviere den Autoklicker",
+      "den Autoklicker aktivieren"
+    ],
+    "fr": [
+      "démarrer le clic automatique",
+      "lance le clic automatique",
+      "lancer le clic automatique"
+    ],
+    "es": [
+      "iniciar el autoclic",
+      "arranca el autoclic",
+      "arrancar el autoclic"
+    ],
+    "it": [
+      "avviare il clic automatico",
+      "lancia il clic automatico",
+      "lanciare il clic automatico"
+    ],
+    "pt": [
+      "iniciar o clique automático",
+      "arranca o clique automático",
+      "arrancar o clique automático"
+    ]
+  },
+  "autoclicker.stop": {
+    "ru": [
+      "остановить автокликер",
+      "выключи автокликер",
+      "выключить автокликер"
+    ],
+    "en": [
+      "halt the autoclicker",
+      "deactivate the autoclicker",
+      "turn off the autoclicker"
+    ],
+    "de": [
+      "den Autoklicker stoppen",
+      "beende den Autoklicker",
+      "den Autoklicker beenden"
+    ],
+    "fr": [
+      "arrêter le clic automatique",
+      "stoppe le clic automatique",
+      "stopper le clic automatique"
+    ],
+    "es": [
+      "detener el autoclic",
+      "para el autoclic",
+      "parar el autoclic"
+    ],
+    "it": [
+      "fermare il clic automatico",
+      "arresta il clic automatico",
+      "arrestare il clic automatico"
+    ],
+    "pt": [
+      "parar o clique automático",
+      "interrompe o clique automático",
+      "interromper o clique automático"
+    ]
+  },
+  "autoclicker.toggle": {
+    "ru": [
+      "переключи состояние автокликера",
+      "смени режим включения автокликера",
+      "инвертируй включение автокликера"
+    ],
+    "en": [
+      "toggle whether the autoclicker is running",
+      "switch the autoclicker between on and off",
+      "change the on/off state of the autoclicker"
+    ],
+    "de": [
+      "den Autoklicker umschalten",
+      "wechsle den Zustand des Autoklickers",
+      "den Zustand des Autoklickers wechseln"
+    ],
+    "fr": [
+      "basculer le clic automatique",
+      "inverse le clic automatique",
+      "inverser le clic automatique"
+    ],
+    "es": [
+      "alternar el autoclic",
+      "invierte el autoclic",
+      "invertir el autoclic"
+    ],
+    "it": [
+      "Cambia lo stato del clic automatico",
+      "Inverti l’attivazione del clic automatico",
+      "Passa da attivo a disattivo o viceversa per il clic automatico"
+    ],
+    "pt": [
+      "alternar o clique automático",
+      "inverte o clique automático",
+      "inverter o clique automático"
+    ]
+  },
+  "autoclicker.configure": {
+    "ru": [
+      "настроить автокликер",
+      "сконфигурируй автокликер",
+      "сконфигурировать автокликер"
+    ],
+    "en": [
+      "adjust the autoclicker",
+      "set up the autoclicker",
+      "configure settings for the autoclicker"
+    ],
+    "de": [
+      "den Autoklicker konfigurieren",
+      "justiere den Autoklicker",
+      "den Autoklicker justieren"
+    ],
+    "fr": [
+      "configurer le clic automatique",
+      "paramètre le clic automatique",
+      "paramétrer le clic automatique"
+    ],
+    "es": [
+      "configurar el autoclic",
+      "ajusta el autoclic",
+      "ajustar el autoclic"
+    ],
+    "it": [
+      "configurare il clic automatico",
+      "imposta il clic automatico",
+      "impostare il clic automatico"
+    ],
+    "pt": [
+      "configurar o clique automático",
+      "ajusta o clique automático",
+      "ajustar o clique automático"
+    ]
+  },
+  "autoclicker.set_rate": {
+    "ru": [
+      "установить частоту автокликера {value}",
+      "задай частоту автокликера {value}",
+      "задать частоту автокликера {value}"
+    ],
+    "en": [
+      "adjust autoclicker rate to {value}",
+      "change autoclicker rate to {value}",
+      "configure autoclicker rate to {value}"
+    ],
+    "de": [
+      "die Klickrate auf {value} stellen",
+      "setze die Klickrate auf {value}",
+      "die Klickrate auf {value} setzen"
+    ],
+    "fr": [
+      "régler la fréquence des clics sur {value}",
+      "ajuste la fréquence des clics sur {value}",
+      "ajuster la fréquence des clics sur {value}"
+    ],
+    "es": [
+      "ajustar la frecuencia del autoclic a {value}",
+      "establece la frecuencia del autoclic a {value}",
+      "establecer la frecuencia del autoclic a {value}"
+    ],
+    "it": [
+      "impostare la frequenza del clic automatico a {value}",
+      "regola la frequenza del clic automatico a {value}",
+      "regolare la frequenza del clic automatico a {value}"
+    ],
+    "pt": [
+      "definir a frequência do clique automático para {value}",
+      "estabelece a frequência do clique automático para {value}",
+      "estabelecer a frequência do clique automático para {value}"
+    ]
+  },
+  "autoclicker.set_button": {
+    "ru": [
+      "выбрать кнопку автокликера {button}",
+      "укажи кнопку автокликера {button}",
+      "указать кнопку автокликера {button}"
+    ],
+    "en": [
+      "choose autoclicker button {button}",
+      "use autoclicker button {button}",
+      "switch to autoclicker button {button}"
+    ],
+    "de": [
+      "die Autoklicker-Taste {button} wählen",
+      "selektiere die Autoklicker-Taste {button}",
+      "die Autoklicker-Taste {button} selektieren"
+    ],
+    "fr": [
+      "choisir le bouton du clic automatique {button}",
+      "sélectionne le bouton du clic automatique {button}",
+      "sélectionner le bouton du clic automatique {button}"
+    ],
+    "es": [
+      "elegir el botón del autoclic {button}",
+      "selecciona el botón del autoclic {button}",
+      "seleccionar el botón del autoclic {button}"
+    ],
+    "it": [
+      "scegliere il pulsante del clic automatico {button}",
+      "seleziona il pulsante del clic automatico {button}",
+      "selezionare il pulsante del clic automatico {button}"
+    ],
+    "pt": [
+      "escolher o botão do clique automático {button}",
+      "seleciona o botão do clique automático {button}",
+      "selecionar o botão do clique automático {button}"
+    ]
+  },
+  "autoclicker.status": {
+    "ru": [
+      "работает ли сейчас автокликер",
+      "какое состояние у автокликера",
+      "сообщи текущий статус автокликера"
+    ],
+    "en": [
+      "is the autoclicker running right now",
+      "what state is the autoclicker in",
+      "tell me the current autoclicker status"
+    ],
+    "de": [
+      "den Status des Autoklickers zeigen",
+      "blende den Status des Autoklickers ein",
+      "den Status des Autoklickers einblenden"
+    ],
+    "fr": [
+      "montrer l'état du clic automatique",
+      "affiche l'état du clic automatique",
+      "afficher l'état du clic automatique"
+    ],
+    "es": [
+      "mostrar el estado del autoclic",
+      "visualiza el estado del autoclic",
+      "visualizar el estado del autoclic"
+    ],
+    "it": [
+      "mostrare lo stato del clic automatico",
+      "visualizza lo stato del clic automatico",
+      "visualizzare lo stato del clic automatico"
+    ],
+    "pt": [
+      "mostrar o estado do clique automático",
+      "exibe o estado do clique automático",
+      "exibir o estado do clique automático"
+    ]
+  },
+  "automation.cancel": {
+    "ru": [
+      "отменить текущую задачу",
+      "аннулируй текущую задачу",
+      "аннулировать текущую задачу"
+    ],
+    "en": [
+      "abort the current task",
+      "call off the current task",
+      "stop the current task"
+    ],
+    "de": [
+      "die aktuelle Aufgabe abbrechen",
+      "stoppe die aktuelle Aufgabe",
+      "die aktuelle Aufgabe stoppen"
+    ],
+    "fr": [
+      "annuler la tâche en cours",
+      "révoque la tâche en cours",
+      "révoquer la tâche en cours"
+    ],
+    "es": [
+      "cancelar la tarea actual",
+      "anula la tarea actual",
+      "anular la tarea actual"
+    ],
+    "it": [
+      "annullare l'attività corrente",
+      "revoca l'attività corrente",
+      "revocare l'attività corrente"
+    ],
+    "pt": [
+      "cancelar a tarefa atual",
+      "anula a tarefa atual",
+      "anular a tarefa atual"
+    ]
+  },
+  "automation.queue": {
+    "ru": [
+      "выполнить задачи по очереди",
+      "запусти задачи по очереди",
+      "запустить задачи по очереди"
+    ],
+    "en": [
+      "execute the tasks in sequence",
+      "start the tasks in sequence",
+      "launch the tasks in sequence"
+    ],
+    "de": [
+      "die Aufgaben nacheinander ausführen",
+      "starte die Aufgaben nacheinander",
+      "die Aufgaben nacheinander starten"
+    ],
+    "fr": [
+      "exécuter les tâches dans l'ordre",
+      "lance les tâches dans l'ordre",
+      "lancer les tâches dans l'ordre"
+    ],
+    "es": [
+      "ejecutar las tareas en orden",
+      "inicia las tareas en orden",
+      "iniciar las tareas en orden"
+    ],
+    "it": [
+      "eseguire le attività in sequenza",
+      "avvia le attività in sequenza",
+      "avviare le attività in sequenza"
+    ],
+    "pt": [
+      "executar as tarefas por ordem",
+      "inicia as tarefas por ordem",
+      "iniciar as tarefas por ordem"
+    ]
+  },
+  "automation.parallel": {
+    "ru": [
+      "выполнить задачи параллельно",
+      "запусти задачи параллельно",
+      "запустить задачи параллельно"
+    ],
+    "en": [
+      "execute the tasks in parallel",
+      "start the tasks in parallel",
+      "launch the tasks in parallel"
+    ],
+    "de": [
+      "die Aufgaben parallel ausführen",
+      "starte die Aufgaben parallel",
+      "die Aufgaben parallel starten"
+    ],
+    "fr": [
+      "exécuter les tâches en parallèle",
+      "lance les tâches en parallèle",
+      "lancer les tâches en parallèle"
+    ],
+    "es": [
+      "ejecutar las tareas en paralelo",
+      "inicia las tareas en paralelo",
+      "iniciar las tareas en paralelo"
+    ],
+    "it": [
+      "eseguire le attività in parallelo",
+      "avvia le attività in parallelo",
+      "avviare le attività in parallelo"
+    ],
+    "pt": [
+      "executar as tarefas em paralelo",
+      "inicia as tarefas em paralelo",
+      "iniciar as tarefas em paralelo"
+    ]
+  },
+  "browser.open_url": {
+    "ru": [
+      "открыть сайт {url}",
+      "покажи сайт {url}",
+      "показать сайт {url}"
+    ],
+    "en": [
+      "bring up website {url}",
+      "display website {url}",
+      "open up website {url}"
+    ],
+    "de": [
+      "die Website {url} öffnen",
+      "zeige die Website {url}",
+      "die Website {url} zeigen"
+    ],
+    "fr": [
+      "ouvrir le site {url}",
+      "affiche le site {url}",
+      "afficher le site {url}"
+    ],
+    "es": [
+      "abrir el sitio {url}",
+      "muestra el sitio {url}",
+      "mostrar el sitio {url}"
+    ],
+    "it": [
+      "aprire il sito {url}",
+      "visualizza il sito {url}",
+      "visualizzare il sito {url}"
+    ],
+    "pt": [
+      "abrir o site {url}",
+      "mostra o site {url}",
+      "mostrar o site {url}"
+    ]
+  },
+  "browser.open": {
+    "ru": [
+      "открыть браузер {name}",
+      "покажи браузер {name}",
+      "показать браузер {name}"
+    ],
+    "en": [
+      "bring up browser {name}",
+      "display browser {name}",
+      "open up browser {name}"
+    ],
+    "de": [
+      "den Browser {name} öffnen",
+      "zeige den Browser {name}",
+      "den Browser {name} zeigen"
+    ],
+    "fr": [
+      "ouvrir le navigateur {name}",
+      "affiche le navigateur {name}",
+      "afficher le navigateur {name}"
+    ],
+    "es": [
+      "abrir el navegador {name}",
+      "muestra el navegador {name}",
+      "mostrar el navegador {name}"
+    ],
+    "it": [
+      "aprire il browser {name}",
+      "visualizza il browser {name}",
+      "visualizzare il browser {name}"
+    ],
+    "pt": [
+      "abrir o navegador {name}",
+      "mostra o navegador {name}",
+      "mostrar o navegador {name}"
+    ]
+  },
+  "browser.search": {
+    "ru": [
+      "найти в браузере {query}",
+      "отыщи в браузере {query}",
+      "отыскать в браузере {query}"
+    ],
+    "en": [
+      "look up {query} in the browser",
+      "search the web for {query} in the browser",
+      "find {query} using the browser"
+    ],
+    "de": [
+      "Suche im Internet nach {query}",
+      "Finde im Browser Ergebnisse zu {query}",
+      "Führe eine Websuche nach {query} durch"
+    ],
+    "fr": [
+      "chercher dans le navigateur {query}",
+      "recherche dans le navigateur {query}",
+      "rechercher dans le navigateur {query}"
+    ],
+    "es": [
+      "buscar en el navegador {query}",
+      "localiza en el navegador {query}",
+      "localizar en el navegador {query}"
+    ],
+    "it": [
+      "cercare nel browser {query}",
+      "ricerca nel browser {query}",
+      "ricercare nel browser {query}"
+    ],
+    "pt": [
+      "pesquisar no navegador {query}",
+      "procura no navegador {query}",
+      "procurar no navegador {query}"
+    ]
+  },
+  "browser.search_first": {
+    "ru": [
+      "открыть первый результат поиска {query}",
+      "покажи первый результат поиска {query}",
+      "показать первый результат поиска {query}"
+    ],
+    "en": [
+      "bring up the first search result for {query}",
+      "display the first search result for {query}",
+      "open up the first search result for {query}"
+    ],
+    "de": [
+      "das erste Suchergebnis für {query} öffnen",
+      "zeige das erste Suchergebnis für {query}",
+      "das erste Suchergebnis für {query} zeigen"
+    ],
+    "fr": [
+      "ouvrir le premier résultat pour {query}",
+      "affiche le premier résultat pour {query}",
+      "afficher le premier résultat pour {query}"
+    ],
+    "es": [
+      "abrir el primer resultado de {query}",
+      "muestra el primer resultado de {query}",
+      "mostrar el primer resultado de {query}"
+    ],
+    "it": [
+      "aprire il primo risultato per {query}",
+      "visualizza il primo risultato per {query}",
+      "visualizzare il primo risultato per {query}"
+    ],
+    "pt": [
+      "abrir o primeiro resultado de {query}",
+      "mostra o primeiro resultado de {query}",
+      "mostrar o primeiro resultado de {query}"
+    ]
+  },
+  "browser.activate_tab": {
+    "ru": [
+      "переключиться на вкладку {index}",
+      "перейди на вкладку {index}",
+      "перейти на вкладку {index}"
+    ],
+    "en": [
+      "move to tab {index}",
+      "change to tab {index}",
+      "switch over to tab {index}"
+    ],
+    "de": [
+      "zu Tab {index} wechseln",
+      "springe zu Tab {index}",
+      "zu Tab {index} springen"
+    ],
+    "fr": [
+      "passer à l'onglet {index}",
+      "va à l'onglet {index}",
+      "aller à l'onglet {index}"
+    ],
+    "es": [
+      "Ve a la pestaña {index}",
+      "Activa la pestaña número {index}",
+      "Abre la pestaña existente {index}"
+    ],
+    "it": [
+      "passare alla scheda {index}",
+      "vai alla scheda {index}",
+      "andare alla scheda {index}"
+    ],
+    "pt": [
+      "Passa para o separador {index}",
+      "Ativa o separador número {index}",
+      "Abre o separador existente {index}"
+    ]
+  },
+  "browser.activate_tab_title": {
+    "ru": [
+      "открыть вкладку с названием {title}",
+      "покажи вкладку с названием {title}",
+      "показать вкладку с названием {title}"
+    ],
+    "en": [
+      "move to the tab named {title}",
+      "change to the tab named {title}",
+      "switch over to the tab named {title}"
+    ],
+    "de": [
+      "zum Tab mit dem Titel {title} wechseln",
+      "springe zum Tab mit dem Titel {title}",
+      "zum Tab mit dem Titel {title} springen"
+    ],
+    "fr": [
+      "passer à l'onglet intitulé {title}",
+      "va à l'onglet intitulé {title}",
+      "aller à l'onglet intitulé {title}"
+    ],
+    "es": [
+      "Ve a la pestaña cuyo título es {title}",
+      "Activa la pestaña llamada {title}",
+      "Abre la pestaña existente con título {title}"
+    ],
+    "it": [
+      "passare alla scheda intitolata {title}",
+      "vai alla scheda intitolata {title}",
+      "andare alla scheda intitolata {title}"
+    ],
+    "pt": [
+      "Passa para o separador intitulado {title}",
+      "Ativa o separador chamado {title}",
+      "Abre o separador existente com o título {title}"
+    ]
+  },
+  "browser.close_tab": {
+    "ru": [
+      "закрой активную вкладку",
+      "убери текущую вкладку",
+      "закрыть текущую вкладку"
+    ],
+    "en": [
+      "shut the current tab",
+      "dismiss the current tab",
+      "close down the current tab"
+    ],
+    "de": [
+      "Schließe diesen Browsertab",
+      "Mach den gerade aktiven Tab zu",
+      "Beende die aktuell geöffnete Registerkarte"
+    ],
+    "fr": [
+      "fermer l'onglet actuel",
+      "referme l'onglet actuel",
+      "refermer l'onglet actuel"
+    ],
+    "es": [
+      "Cierra la pestaña que estoy usando",
+      "Cierra esta pestaña del navegador",
+      "Quita la pestaña actual del navegador"
+    ],
+    "it": [
+      "Chiudi la scheda che sto usando",
+      "Chiudi questa scheda del browser",
+      "Rimuovi la scheda corrente dal browser"
+    ],
+    "pt": [
+      "fechar o separador atual",
+      "encerra o separador atual",
+      "encerrar o separador atual"
+    ]
+  },
+  "browser.new_tab": {
+    "ru": [
+      "создай новую вкладку",
+      "добавь ещё вкладку",
+      "открой ещё одну вкладку"
+    ],
+    "en": [
+      "create a new browser tab",
+      "add another browser tab",
+      "open another tab"
+    ],
+    "de": [
+      "Erstelle eine neue Registerkarte",
+      "Mach einen weiteren Browsertab auf",
+      "Füge einen neuen Tab hinzu"
+    ],
+    "fr": [
+      "Crée un nouvel onglet",
+      "Ajoute un onglet au navigateur",
+      "Ouvre un onglet supplémentaire"
+    ],
+    "es": [
+      "Crea una pestaña nueva",
+      "Añade una pestaña al navegador",
+      "Abre una pestaña adicional"
+    ],
+    "it": [
+      "Crea una nuova scheda",
+      "Aggiungi una scheda al browser",
+      "Apri una scheda aggiuntiva"
+    ],
+    "pt": [
+      "Cria um novo separador",
+      "Adiciona um separador ao navegador",
+      "Abre um separador adicional"
+    ]
+  },
+  "browser.list_browsers": {
+    "ru": [
+      "какие браузеры установлены",
+      "перечисли браузеры на компьютере",
+      "какие браузеры доступны для запуска"
+    ],
+    "en": [
+      "which browsers are installed",
+      "list the browsers on this computer",
+      "what browsers are available to launch"
+    ],
+    "de": [
+      "die installierten Browser zeigen",
+      "blende die installierten Browser ein",
+      "die installierten Browser einblenden"
+    ],
+    "fr": [
+      "montrer les navigateurs installés",
+      "affiche les navigateurs installés",
+      "afficher les navigateurs installés"
+    ],
+    "es": [
+      "mostrar los navegadores instalados",
+      "visualiza los navegadores instalados",
+      "visualizar los navegadores instalados"
+    ],
+    "it": [
+      "mostrare i browser installati",
+      "visualizza i browser installati",
+      "visualizzare i browser installati"
+    ],
+    "pt": [
+      "mostrar os navegadores instalados",
+      "exibe os navegadores instalados",
+      "exibir os navegadores instalados"
+    ]
+  },
+  "browser.clear_history": {
+    "ru": [
+      "очистить историю браузера",
+      "сотри историю браузера",
+      "стереть историю браузера"
+    ],
+    "en": [
+      "erase browser history",
+      "delete browser history",
+      "wipe browser history"
+    ],
+    "de": [
+      "den Browserverlauf löschen",
+      "entferne den Browserverlauf",
+      "den Browserverlauf entfernen"
+    ],
+    "fr": [
+      "effacer l'historique du navigateur",
+      "supprime l'historique du navigateur",
+      "supprimer l'historique du navigateur"
+    ],
+    "es": [
+      "borrar el historial del navegador",
+      "elimina el historial del navegador",
+      "eliminar el historial del navegador"
+    ],
+    "it": [
+      "cancellare la cronologia del browser",
+      "elimina la cronologia del browser",
+      "eliminare la cronologia del browser"
+    ],
+    "pt": [
+      "apagar o histórico do navegador",
+      "elimina o histórico do navegador",
+      "eliminar o histórico do navegador"
+    ]
+  },
+  "browser.full_cleanup": {
+    "ru": [
+      "очистить данные браузера",
+      "сотри данные браузера",
+      "стереть данные браузера"
+    ],
+    "en": [
+      "erase browser data",
+      "delete browser data",
+      "wipe browser data"
+    ],
+    "de": [
+      "die Browserdaten löschen",
+      "entferne die Browserdaten",
+      "die Browserdaten entfernen"
+    ],
+    "fr": [
+      "effacer les données du navigateur",
+      "supprime les données du navigateur",
+      "supprimer les données du navigateur"
+    ],
+    "es": [
+      "borrar los datos del navegador",
+      "elimina los datos del navegador",
+      "eliminar los datos del navegador"
+    ],
+    "it": [
+      "cancellare i dati del browser",
+      "elimina i dati del browser",
+      "eliminare i dati del browser"
+    ],
+    "pt": [
+      "apagar os dados do navegador",
+      "elimina os dados do navegador",
+      "eliminar os dados do navegador"
+    ]
+  },
+  "browser_advanced.context": {
+    "ru": [
+      "какая страница сейчас открыта в браузере",
+      "что открыто в текущей вкладке",
+      "сообщи сведения о текущей странице браузера"
+    ],
+    "en": [
+      "which page is currently open in the browser",
+      "what is open in the current browser tab",
+      "give me details of the current browser page"
+    ],
+    "de": [
+      "die aktuelle Browserseite zeigen",
+      "blende die aktuelle Browserseite ein",
+      "die aktuelle Browserseite einblenden"
+    ],
+    "fr": [
+      "montrer la page actuelle du navigateur",
+      "affiche la page actuelle du navigateur",
+      "afficher la page actuelle du navigateur"
+    ],
+    "es": [
+      "mostrar la página actual del navegador",
+      "visualiza la página actual del navegador",
+      "visualizar la página actual del navegador"
+    ],
+    "it": [
+      "mostrare la pagina corrente del browser",
+      "visualizza la pagina corrente del browser",
+      "visualizzare la pagina corrente del browser"
+    ],
+    "pt": [
+      "mostrar a página atual do navegador",
+      "exibe a página atual do navegador",
+      "exibir a página atual do navegador"
+    ]
+  },
+  "browser_advanced.activate_by_topic": {
+    "ru": [
+      "переключиться на вкладку про {topic}",
+      "перейди на вкладку про {topic}",
+      "перейти на вкладку про {topic}"
+    ],
+    "en": [
+      "move to the tab about {topic}",
+      "change to the tab about {topic}",
+      "switch over to the tab about {topic}"
+    ],
+    "de": [
+      "zum Tab über {topic} wechseln",
+      "springe zum Tab über {topic}",
+      "zum Tab über {topic} springen"
+    ],
+    "fr": [
+      "passer à l'onglet sur {topic}",
+      "va à l'onglet sur {topic}",
+      "aller à l'onglet sur {topic}"
+    ],
+    "es": [
+      "Ve a la pestaña relacionada con {topic}",
+      "Activa la pestaña que trata de {topic}",
+      "Busca y activa la pestaña sobre {topic}"
+    ],
+    "it": [
+      "passare alla scheda su {topic}",
+      "vai alla scheda su {topic}",
+      "andare alla scheda su {topic}"
+    ],
+    "pt": [
+      "Passa para o separador relacionado com {topic}",
+      "Ativa o separador que trata de {topic}",
+      "Procura e ativa o separador sobre {topic}"
+    ]
+  },
+  "browser_advanced.close_others": {
+    "ru": [
+      "закрой все вкладки кроме текущей",
+      "оставь открытой только эту вкладку",
+      "убери остальные вкладки"
+    ],
+    "en": [
+      "close every tab except this one",
+      "keep only the current tab open",
+      "dismiss the other browser tabs"
+    ],
+    "de": [
+      "Schließe alle Tabs bis auf den aktuellen",
+      "Lass nur diesen Tab offen",
+      "Mach die übrigen Browsertabs zu"
+    ],
+    "fr": [
+      "fermer les autres onglets",
+      "referme les autres onglets",
+      "refermer les autres onglets"
+    ],
+    "es": [
+      "Cierra las pestañas salvo la actual",
+      "Deja abierta solo esta pestaña",
+      "Cierra todas las otras pestañas del navegador"
+    ],
+    "it": [
+      "Chiudi le schede tranne quella attiva",
+      "Lascia aperta solo questa scheda",
+      "Chiudi tutte le altre schede del browser"
+    ],
+    "pt": [
+      "fechar os outros separadores",
+      "encerra os outros separadores",
+      "encerrar os outros separadores"
+    ]
+  },
+  "browser_advanced.restore_closed": {
+    "ru": [
+      "восстановить закрытую вкладку",
+      "верни закрытую вкладку",
+      "вернуть закрытую вкладку"
+    ],
+    "en": [
+      "recover the closed tab",
+      "bring back the closed tab",
+      "reopen the closed tab"
+    ],
+    "de": [
+      "Öffne den zuletzt geschlossenen Tab erneut",
+      "Hole den geschlossenen Browsertab zurück",
+      "Mach das Schließen des letzten Tabs rückgängig"
+    ],
+    "fr": [
+      "rouvrir l'onglet fermé",
+      "restaure l'onglet fermé",
+      "restaurer l'onglet fermé"
+    ],
+    "es": [
+      "restaurar la pestaña cerrada",
+      "recupera la pestaña cerrada",
+      "recuperar la pestaña cerrada"
+    ],
+    "it": [
+      "ripristinare la scheda chiusa",
+      "ristabilisci la scheda chiusa",
+      "ristabilire la scheda chiusa"
+    ],
+    "pt": [
+      "restaurar o separador fechado",
+      "repõe o separador fechado",
+      "repor o separador fechado"
+    ]
+  },
+  "browser_advanced.pin_current": {
+    "ru": [
+      "зафиксируй активную вкладку",
+      "закрепить эту вкладку",
+      "сделай текущую вкладку закреплённой"
+    ],
+    "en": [
+      "keep the current tab pinned",
+      "pin this browser tab",
+      "make the active tab a pinned tab"
+    ],
+    "de": [
+      "den aktuellen Tab anheften",
+      "fixiere den aktuellen Tab",
+      "den aktuellen Tab fixieren"
+    ],
+    "fr": [
+      "épingler l'onglet actuel",
+      "fixe l'onglet actuel",
+      "fixer l'onglet actuel"
+    ],
+    "es": [
+      "fijar la pestaña actual",
+      "ancla la pestaña actual",
+      "anclar la pestaña actual"
+    ],
+    "it": [
+      "fissare la scheda corrente",
+      "blocca la scheda corrente",
+      "bloccare la scheda corrente"
+    ],
+    "pt": [
+      "fixar o separador atual",
+      "prende o separador atual",
+      "prender o separador atual"
+    ]
+  },
+  "browser_advanced.move_to_new_window": {
+    "ru": [
+      "перенести вкладку в новое окно",
+      "перемести вкладку в новое окно",
+      "переместить вкладку в новое окно"
+    ],
+    "en": [
+      "transfer the tab to a new window",
+      "relocate the tab to a new window",
+      "send the tab to a new window"
+    ],
+    "de": [
+      "den Tab in ein neues Fenster verschieben",
+      "verlege den Tab in ein neues Fenster",
+      "den Tab in ein neues Fenster verlegen"
+    ],
+    "fr": [
+      "déplacer l'onglet dans une nouvelle fenêtre",
+      "transfère l'onglet dans une nouvelle fenêtre",
+      "transférer l'onglet dans une nouvelle fenêtre"
+    ],
+    "es": [
+      "mover la pestaña a una ventana nueva",
+      "traslada la pestaña a una ventana nueva",
+      "trasladar la pestaña a una ventana nueva"
+    ],
+    "it": [
+      "spostare la scheda in una nuova finestra",
+      "trasferisci la scheda in una nuova finestra",
+      "trasferire la scheda in una nuova finestra"
+    ],
+    "pt": [
+      "mover o separador para uma nova janela",
+      "desloca o separador para uma nova janela",
+      "deslocar o separador para uma nova janela"
+    ]
+  },
+  "browser_advanced.group_by_topic": {
+    "ru": [
+      "сгруппировать вкладки по теме {topic}",
+      "объедини вкладки по теме {topic}",
+      "объединить вкладки по теме {topic}"
+    ],
+    "en": [
+      "organize tabs about {topic} into a group",
+      "put tabs about {topic} in one group",
+      "gather the tabs about {topic} together"
+    ],
+    "de": [
+      "Tabs zum Thema {topic} gruppieren",
+      "bündele Tabs zum Thema {topic}",
+      "Tabs zum Thema {topic} bündeln"
+    ],
+    "fr": [
+      "regrouper les onglets sur {topic}",
+      "rassemble les onglets sur {topic}",
+      "rassembler les onglets sur {topic}"
+    ],
+    "es": [
+      "agrupar las pestañas sobre {topic}",
+      "reúne las pestañas sobre {topic}",
+      "reunir las pestañas sobre {topic}"
+    ],
+    "it": [
+      "raggruppare le schede su {topic}",
+      "riunisci le schede su {topic}",
+      "riunire le schede su {topic}"
+    ],
+    "pt": [
+      "agrupar os separadores sobre {topic}",
+      "reúne os separadores sobre {topic}",
+      "reunir os separadores sobre {topic}"
+    ]
+  },
+  "clipboard.current": {
+    "ru": [
+      "что сейчас в буфере обмена",
+      "какой текст скопирован",
+      "выведи текущую запись буфера"
+    ],
+    "en": [
+      "what is on the clipboard right now",
+      "what text have I copied",
+      "display the current clipboard entry"
+    ],
+    "de": [
+      "den Inhalt der Zwischenablage zeigen",
+      "blende den Inhalt der Zwischenablage ein",
+      "den Inhalt der Zwischenablage einblenden"
+    ],
+    "fr": [
+      "montrer le contenu du presse-papiers",
+      "affiche le contenu du presse-papiers",
+      "afficher le contenu du presse-papiers"
+    ],
+    "es": [
+      "mostrar el contenido del portapapeles",
+      "visualiza el contenido del portapapeles",
+      "visualizar el contenido del portapapeles"
+    ],
+    "it": [
+      "mostrare il contenuto degli appunti",
+      "visualizza il contenuto degli appunti",
+      "visualizzare il contenuto degli appunti"
+    ],
+    "pt": [
+      "mostrar o conteúdo da área de transferência",
+      "exibe o conteúdo da área de transferência",
+      "exibir o conteúdo da área de transferência"
+    ]
+  },
+  "clipboard.list": {
+    "ru": [
+      "что было скопировано раньше",
+      "перечисли записи истории буфера",
+      "какие записи сохранились в буфере"
+    ],
+    "en": [
+      "what did I copy earlier",
+      "list the entries in clipboard history",
+      "which clipboard entries have been saved"
+    ],
+    "de": [
+      "den Verlauf der Zwischenablage zeigen",
+      "blende den Verlauf der Zwischenablage ein",
+      "den Verlauf der Zwischenablage einblenden"
+    ],
+    "fr": [
+      "montrer l'historique du presse-papiers",
+      "affiche l'historique du presse-papiers",
+      "afficher l'historique du presse-papiers"
+    ],
+    "es": [
+      "mostrar el historial del portapapeles",
+      "visualiza el historial del portapapeles",
+      "visualizar el historial del portapapeles"
+    ],
+    "it": [
+      "mostrare la cronologia degli appunti",
+      "visualizza la cronologia degli appunti",
+      "visualizzare la cronologia degli appunti"
+    ],
+    "pt": [
+      "mostrar o histórico da área de transferência",
+      "exibe o histórico da área de transferência",
+      "exibir o histórico da área de transferência"
+    ]
+  },
+  "clipboard.set": {
+    "ru": [
+      "скопировать в буфер обмена {text}",
+      "помести в буфер обмена {text}",
+      "запиши в буфер обмена {text}"
+    ],
+    "en": [
+      "put {text} on the clipboard",
+      "place the text {text} in the clipboard",
+      "copy this text to the clipboard: {text}"
+    ],
+    "de": [
+      "in die Zwischenablage kopieren: {text}",
+      "lege folgenden Text in die Zwischenablage: {text}",
+      "speichere in der Zwischenablage: {text}"
+    ],
+    "fr": [
+      "copier dans le presse-papiers {text}",
+      "recopie dans le presse-papiers {text}",
+      "recopier dans le presse-papiers {text}"
+    ],
+    "es": [
+      "copiar al portapapeles {text}",
+      "duplica al portapapeles {text}",
+      "duplicar al portapapeles {text}"
+    ],
+    "it": [
+      "copiare negli appunti {text}",
+      "duplica negli appunti {text}",
+      "duplicare negli appunti {text}"
+    ],
+    "pt": [
+      "copiar para a área de transferência {text}",
+      "duplica para a área de transferência {text}",
+      "duplicar para a área de transferência {text}"
+    ]
+  },
+  "clipboard.clear": {
+    "ru": [
+      "очистить буфер обмена",
+      "сотри буфер обмена",
+      "стереть буфер обмена"
+    ],
+    "en": [
+      "empty the clipboard",
+      "remove the clipboard contents",
+      "erase all text from the clipboard"
+    ],
+    "de": [
+      "die Zwischenablage leeren",
+      "bereinige die Zwischenablage",
+      "die Zwischenablage bereinigen"
+    ],
+    "fr": [
+      "vider le presse-papiers",
+      "efface le presse-papiers",
+      "effacer le presse-papiers"
+    ],
+    "es": [
+      "vaciar el portapapeles",
+      "limpia el portapapeles",
+      "limpiar el portapapeles"
+    ],
+    "it": [
+      "svuotare gli appunti",
+      "pulisci gli appunti",
+      "pulire gli appunti"
+    ],
+    "pt": [
+      "limpar a área de transferência",
+      "esvazia a área de transferência",
+      "esvaziar a área de transferência"
+    ]
+  },
+  "clipboard.paste_history": {
+    "ru": [
+      "вставь элемент номер {index} из истории буфера",
+      "вставить сохранённую запись буфера {index}",
+      "вставь из буфера предыдущую запись номер {index}"
+    ],
+    "en": [
+      "insert item {index} from clipboard history",
+      "paste the saved clipboard entry {index}",
+      "paste entry number {index} from the clipboard history"
+    ],
+    "de": [
+      "Eintrag {index} aus dem Zwischenablageverlauf einfügen",
+      "setze Eintrag {index} aus dem Zwischenablageverlauf ein",
+      "Eintrag {index} aus dem Zwischenablageverlauf einsetzen"
+    ],
+    "fr": [
+      "coller l'entrée {index} de l'historique du presse-papiers",
+      "insère l'entrée {index} de l'historique du presse-papiers",
+      "insérer l'entrée {index} de l'historique du presse-papiers"
+    ],
+    "es": [
+      "pegar la entrada {index} del historial del portapapeles",
+      "inserta la entrada {index} del historial del portapapeles",
+      "insertar la entrada {index} del historial del portapapeles"
+    ],
+    "it": [
+      "incollare la voce {index} della cronologia degli appunti",
+      "inserisci la voce {index} della cronologia degli appunti",
+      "inserire la voce {index} della cronologia degli appunti"
+    ],
+    "pt": [
+      "colar o item {index} do histórico da área de transferência",
+      "insere o item {index} do histórico da área de transferência",
+      "inserir o item {index} do histórico da área de transferência"
+    ]
+  },
+  "clipboard.copy_history": {
+    "ru": [
+      "помести в буфер запись {index} из его истории",
+      "повторно скопируй запись {index} из истории буфера",
+      "верни в буфер элемент истории {index}"
+    ],
+    "en": [
+      "copy entry {index} from clipboard history again",
+      "put clipboard history item {index} back on the clipboard",
+      "restore saved clipboard entry {index} to the clipboard"
+    ],
+    "de": [
+      "Eintrag {index} aus dem Zwischenablageverlauf kopieren",
+      "dupliziere Eintrag {index} aus dem Zwischenablageverlauf",
+      "Eintrag {index} aus dem Zwischenablageverlauf duplizieren"
+    ],
+    "fr": [
+      "copier l'entrée {index} de l'historique du presse-papiers",
+      "recopie l'entrée {index} de l'historique du presse-papiers",
+      "recopier l'entrée {index} de l'historique du presse-papiers"
+    ],
+    "es": [
+      "copiar la entrada {index} del historial del portapapeles",
+      "duplica la entrada {index} del historial del portapapeles",
+      "duplicar la entrada {index} del historial del portapapeles"
+    ],
+    "it": [
+      "copiare la voce {index} della cronologia degli appunti",
+      "duplica la voce {index} della cronologia degli appunti",
+      "duplicare la voce {index} della cronologia degli appunti"
+    ],
+    "pt": [
+      "copiar o item {index} do histórico da área de transferência",
+      "duplica o item {index} do histórico da área de transferência",
+      "duplicar o item {index} do histórico da área de transferência"
+    ]
+  },
+  "clipboard.copy_page_url": {
+    "ru": [
+      "помести адрес текущей страницы в буфер",
+      "скопируй ссылку на эту страницу",
+      "запиши в буфер URL открытой страницы"
+    ],
+    "en": [
+      "put the current page URL on the clipboard",
+      "copy the link to this page",
+      "copy this browser page address to the clipboard"
+    ],
+    "de": [
+      "die Adresse der aktuellen Seite kopieren",
+      "dupliziere die Adresse der aktuellen Seite",
+      "die Adresse der aktuellen Seite duplizieren"
+    ],
+    "fr": [
+      "copier l'adresse de la page actuelle",
+      "recopie l'adresse de la page actuelle",
+      "recopier l'adresse de la page actuelle"
+    ],
+    "es": [
+      "copiar la dirección de la página actual",
+      "duplica la dirección de la página actual",
+      "duplicar la dirección de la página actual"
+    ],
+    "it": [
+      "copiare l'indirizzo della pagina corrente",
+      "duplica l'indirizzo della pagina corrente",
+      "duplicare l'indirizzo della pagina corrente"
+    ],
+    "pt": [
+      "copiar o endereço da página atual",
+      "duplica o endereço da página atual",
+      "duplicar o endereço da página atual"
+    ]
+  },
+  "developer.generate_python_app": {
+    "ru": [
+      "создать приложение Python по описанию {description}",
+      "сформируй приложение Python по описанию {description}",
+      "сформировать приложение Python по описанию {description}"
+    ],
+    "en": [
+      "make a Python application from description {description}",
+      "generate a Python application described as {description}",
+      "create a new Python application based on {description}"
+    ],
+    "de": [
+      "eine Python-Anwendung nach der Beschreibung {description} erstellen",
+      "erzeuge eine Python-Anwendung nach der Beschreibung {description}",
+      "eine Python-Anwendung nach der Beschreibung {description} erzeugen"
+    ],
+    "fr": [
+      "créer une application Python selon la description {description}",
+      "génère une application Python selon la description {description}",
+      "générer une application Python selon la description {description}"
+    ],
+    "es": [
+      "crear una aplicación Python según la descripción {description}",
+      "genera una aplicación Python según la descripción {description}",
+      "generar una aplicación Python según la descripción {description}"
+    ],
+    "it": [
+      "creare un'applicazione Python dalla descrizione {description}",
+      "genera un'applicazione Python dalla descrizione {description}",
+      "generare un'applicazione Python dalla descrizione {description}"
+    ],
+    "pt": [
+      "criar uma aplicação Python a partir da descrição {description}",
+      "gera uma aplicação Python a partir da descrição {description}",
+      "gerar uma aplicação Python a partir da descrição {description}"
+    ]
+  },
+  "developer.run_python_file": {
+    "ru": [
+      "запустить файл Python {path}",
+      "выполни файл Python {path}",
+      "выполнить файл Python {path}"
+    ],
+    "en": [
+      "execute Python file {path}",
+      "start Python file {path}",
+      "launch Python file {path}"
+    ],
+    "de": [
+      "die Python-Datei {path} ausführen",
+      "starte die Python-Datei {path}",
+      "die Python-Datei {path} starten"
+    ],
+    "fr": [
+      "exécuter le fichier Python {path}",
+      "lance le fichier Python {path}",
+      "lancer le fichier Python {path}"
+    ],
+    "es": [
+      "ejecutar el archivo Python {path}",
+      "inicia el archivo Python {path}",
+      "iniciar el archivo Python {path}"
+    ],
+    "it": [
+      "eseguire il file Python {path}",
+      "avvia il file Python {path}",
+      "avviare il file Python {path}"
+    ],
+    "pt": [
+      "executar o ficheiro Python {path}",
+      "inicia o ficheiro Python {path}",
+      "iniciar o ficheiro Python {path}"
+    ]
+  },
+  "diagnostics.self_test": {
+    "ru": [
+      "проверить работу ассистента",
+      "протестируй работу ассистента",
+      "протестировать работу ассистента"
+    ],
+    "en": [
+      "execute the assistant self-test",
+      "start the assistant self-test",
+      "launch the assistant self-test"
+    ],
+    "de": [
+      "die Funktionen des Assistenten prüfen",
+      "kontrolliere die Funktionen des Assistenten",
+      "die Funktionen des Assistenten kontrollieren"
+    ],
+    "fr": [
+      "tester le fonctionnement de l'assistant",
+      "vérifie le fonctionnement de l'assistant",
+      "vérifier le fonctionnement de l'assistant"
+    ],
+    "es": [
+      "comprobar el funcionamiento del asistente",
+      "verifica el funcionamiento del asistente",
+      "verificar el funcionamiento del asistente"
+    ],
+    "it": [
+      "verificare il funzionamento dell'assistente",
+      "controlla il funzionamento dell'assistente",
+      "controllare il funzionamento dell'assistente"
+    ],
+    "pt": [
+      "verificar o funcionamento do assistente",
+      "confere o funcionamento do assistente",
+      "conferir o funcionamento do assistente"
+    ]
+  },
+  "diagnostics.latency": {
+    "ru": [
+      "сколько времени занимает обработка команд",
+      "какие задержки измерены у команд",
+      "выведи измерения скорости отклика"
+    ],
+    "en": [
+      "how long does command processing take",
+      "what command delays have been measured",
+      "give me the response latency measurements"
+    ],
+    "de": [
+      "die Befehlslatenz zeigen",
+      "blende die Befehlslatenz ein",
+      "die Befehlslatenz einblenden"
+    ],
+    "fr": [
+      "montrer la latence des commandes",
+      "affiche la latence des commandes",
+      "afficher la latence des commandes"
+    ],
+    "es": [
+      "mostrar la latencia de los comandos",
+      "visualiza la latencia de los comandos",
+      "visualizar la latencia de los comandos"
+    ],
+    "it": [
+      "mostrare la latenza dei comandi",
+      "visualizza la latenza dei comandi",
+      "visualizzare la latenza dei comandi"
+    ],
+    "pt": [
+      "mostrar a latência dos comandos",
+      "exibe a latência dos comandos",
+      "exibir a latência dos comandos"
+    ]
+  },
+  "diagnostics.plugins": {
+    "ru": [
+      "какие плагины подключены к ассистенту",
+      "перечисли модули ассистента",
+      "выведи список доступных плагинов"
+    ],
+    "en": [
+      "which assistant plugins are connected",
+      "list the assistant modules",
+      "give me the available plugin list"
+    ],
+    "de": [
+      "die Assistenten-Plugins zeigen",
+      "blende die Assistenten-Plugins ein",
+      "die Assistenten-Plugins einblenden"
+    ],
+    "fr": [
+      "montrer les extensions de l'assistant",
+      "affiche les extensions de l'assistant",
+      "afficher les extensions de l'assistant"
+    ],
+    "es": [
+      "mostrar los complementos del asistente",
+      "visualiza los complementos del asistente",
+      "visualizar los complementos del asistente"
+    ],
+    "it": [
+      "mostrare le estensioni dell'assistente",
+      "visualizza le estensioni dell'assistente",
+      "visualizzare le estensioni dell'assistente"
+    ],
+    "pt": [
+      "mostrar os suplementos do assistente",
+      "exibe os suplementos do assistente",
+      "exibir os suplementos do assistente"
+    ]
+  },
+  "diagnostics.objects": {
+    "ru": [
+      "какие объекты видны на рабочем столе",
+      "перечисли распознанные объекты рабочего стола",
+      "выведи сведения об объектах рабочего стола"
+    ],
+    "en": [
+      "which desktop objects are visible",
+      "list the recognized desktop objects",
+      "give me details of the desktop objects"
+    ],
+    "de": [
+      "die Desktopobjekte zeigen",
+      "blende die Desktopobjekte ein",
+      "die Desktopobjekte einblenden"
+    ],
+    "fr": [
+      "montrer les objets du bureau",
+      "affiche les objets du bureau",
+      "afficher les objets du bureau"
+    ],
+    "es": [
+      "mostrar los objetos del escritorio",
+      "visualiza los objetos del escritorio",
+      "visualizar los objetos del escritorio"
+    ],
+    "it": [
+      "mostrare gli oggetti del desktop",
+      "visualizza gli oggetti del desktop",
+      "visualizzare gli oggetti del desktop"
+    ],
+    "pt": [
+      "mostrar os objetos do ambiente de trabalho",
+      "exibe os objetos do ambiente de trabalho",
+      "exibir os objetos do ambiente de trabalho"
+    ]
+  },
+  "filesystem.open": {
+    "ru": [
+      "открыть файл {source}",
+      "покажи файл {source}",
+      "показать файл {source}"
+    ],
+    "en": [
+      "bring up file {source}",
+      "display file {source}",
+      "open up file {source}"
+    ],
+    "de": [
+      "die Datei {source} öffnen",
+      "zeige die Datei {source}",
+      "die Datei {source} zeigen"
+    ],
+    "fr": [
+      "ouvrir le fichier {source}",
+      "affiche le fichier {source}",
+      "afficher le fichier {source}"
+    ],
+    "es": [
+      "abrir el archivo {source}",
+      "muestra el archivo {source}",
+      "mostrar el archivo {source}"
+    ],
+    "it": [
+      "aprire il file {source}",
+      "visualizza il file {source}",
+      "visualizzare il file {source}"
+    ],
+    "pt": [
+      "abrir o ficheiro {source}",
+      "mostra o ficheiro {source}",
+      "mostrar o ficheiro {source}"
+    ]
+  },
+  "filesystem.list": {
+    "ru": [
+      "что находится в папке {source}",
+      "перечисли файлы в папке {source}",
+      "выведи список содержимого папки {source}"
+    ],
+    "en": [
+      "what is in folder {source}",
+      "list the files inside folder {source}",
+      "give me the contents of directory {source}"
+    ],
+    "de": [
+      "den Inhalt des Ordners {source} zeigen",
+      "blende den Inhalt des Ordners {source} ein",
+      "den Inhalt des Ordners {source} einblenden"
+    ],
+    "fr": [
+      "montrer le contenu du dossier {source}",
+      "affiche le contenu du dossier {source}",
+      "afficher le contenu du dossier {source}"
+    ],
+    "es": [
+      "mostrar el contenido de la carpeta {source}",
+      "visualiza el contenido de la carpeta {source}",
+      "visualizar el contenido de la carpeta {source}"
+    ],
+    "it": [
+      "mostrare il contenuto della cartella {source}",
+      "visualizza il contenuto della cartella {source}",
+      "visualizzare il contenuto della cartella {source}"
+    ],
+    "pt": [
+      "mostrar o conteúdo da pasta {source}",
+      "exibe o conteúdo da pasta {source}",
+      "exibir o conteúdo da pasta {source}"
+    ]
+  },
+  "filesystem.find": {
+    "ru": [
+      "найти файл {name}",
+      "отыщи файл {name}",
+      "отыскать файл {name}"
+    ],
+    "en": [
+      "locate file {name}",
+      "search for file {name}",
+      "look for file {name}"
+    ],
+    "de": [
+      "die Datei {name} finden",
+      "suche die Datei {name}",
+      "die Datei {name} suchen"
+    ],
+    "fr": [
+      "trouver le fichier {name}",
+      "cherche le fichier {name}",
+      "chercher le fichier {name}"
+    ],
+    "es": [
+      "buscar el archivo {name}",
+      "localiza el archivo {name}",
+      "localizar el archivo {name}"
+    ],
+    "it": [
+      "trovare il file {name}",
+      "cerca il file {name}",
+      "cercare il file {name}"
+    ],
+    "pt": [
+      "encontrar o ficheiro {name}",
+      "localiza o ficheiro {name}",
+      "localizar o ficheiro {name}"
+    ]
+  },
+  "filesystem.create_folder": {
+    "ru": [
+      "сделай папку {destination}",
+      "добавь новую папку {destination}",
+      "создать папку {destination}"
+    ],
+    "en": [
+      "make folder {destination}",
+      "generate folder {destination}",
+      "create a new folder {destination}"
+    ],
+    "de": [
+      "den Ordner {destination} erstellen",
+      "erzeuge den Ordner {destination}",
+      "den Ordner {destination} erzeugen"
+    ],
+    "fr": [
+      "créer le dossier {destination}",
+      "génère le dossier {destination}",
+      "générer le dossier {destination}"
+    ],
+    "es": [
+      "crear la carpeta {destination}",
+      "genera la carpeta {destination}",
+      "generar la carpeta {destination}"
+    ],
+    "it": [
+      "creare la cartella {destination}",
+      "genera la cartella {destination}",
+      "generare la cartella {destination}"
+    ],
+    "pt": [
+      "criar a pasta {destination}",
+      "gera a pasta {destination}",
+      "gerar a pasta {destination}"
+    ]
+  },
+  "filesystem.copy": {
+    "ru": [
+      "скопировать файл {source} в {destination}",
+      "сделай копию файла {source} в {destination}",
+      "создай копию файла {source} в {destination}"
+    ],
+    "en": [
+      "duplicate file {source} at {destination}",
+      "save a copy of file {source} to {destination}",
+      "make a copy of file {source} in {destination}"
+    ],
+    "de": [
+      "die Datei {source} nach {destination} kopieren",
+      "dupliziere die Datei {source} nach {destination}",
+      "die Datei {source} nach {destination} duplizieren"
+    ],
+    "fr": [
+      "copier le fichier {source} vers {destination}",
+      "recopie le fichier {source} vers {destination}",
+      "recopier le fichier {source} vers {destination}"
+    ],
+    "es": [
+      "copiar el archivo {source} a {destination}",
+      "duplica el archivo {source} a {destination}",
+      "duplicar el archivo {source} a {destination}"
+    ],
+    "it": [
+      "copiare il file {source} in {destination}",
+      "duplica il file {source} in {destination}",
+      "duplicare il file {source} in {destination}"
+    ],
+    "pt": [
+      "copiar o ficheiro {source} para {destination}",
+      "duplica o ficheiro {source} para {destination}",
+      "duplicar o ficheiro {source} para {destination}"
+    ]
+  },
+  "filesystem.move": {
+    "ru": [
+      "переместить файл {source} в {destination}",
+      "перенеси файл {source} в {destination}",
+      "перенести файл {source} в {destination}"
+    ],
+    "en": [
+      "transfer file {source} to {destination}",
+      "relocate file {source} to {destination}",
+      "send file {source} to {destination}"
+    ],
+    "de": [
+      "die Datei {source} nach {destination} verschieben",
+      "verlege die Datei {source} nach {destination}",
+      "die Datei {source} nach {destination} verlegen"
+    ],
+    "fr": [
+      "déplacer le fichier {source} vers {destination}",
+      "transfère le fichier {source} vers {destination}",
+      "transférer le fichier {source} vers {destination}"
+    ],
+    "es": [
+      "mover el archivo {source} a {destination}",
+      "traslada el archivo {source} a {destination}",
+      "trasladar el archivo {source} a {destination}"
+    ],
+    "it": [
+      "spostare il file {source} in {destination}",
+      "trasferisci il file {source} in {destination}",
+      "trasferire il file {source} in {destination}"
+    ],
+    "pt": [
+      "mover o ficheiro {source} para {destination}",
+      "desloca o ficheiro {source} para {destination}",
+      "deslocar o ficheiro {source} para {destination}"
+    ]
+  },
+  "filesystem.rename": {
+    "ru": [
+      "переименовать файл {source} в {new_name}",
+      "измени имя файла {source} на {new_name}",
+      "дай файлу {source} имя {new_name}"
+    ],
+    "en": [
+      "change the name of file {source} to {new_name}",
+      "give file {source} the name {new_name}",
+      "change file {source} name to {new_name}"
+    ],
+    "de": [
+      "die Datei {source} in {new_name} umbenennen",
+      "gib der Datei {source} den Namen {new_name}",
+      "ändere den Namen der Datei {source} zu {new_name}"
+    ],
+    "fr": [
+      "Change le nom du fichier {source} en {new_name}",
+      "Donne au fichier {source} le nom {new_name}",
+      "Utilise {new_name} comme nouveau nom du fichier {source}"
+    ],
+    "es": [
+      "Cambia el nombre del archivo {source} a {new_name}",
+      "Pon al archivo {source} el nombre {new_name}",
+      "Usa {new_name} como nuevo nombre del archivo {source}"
+    ],
+    "it": [
+      "Cambia il nome del file {source} in {new_name}",
+      "Assegna al file {source} il nome {new_name}",
+      "Usa {new_name} come nuovo nome del file {source}"
+    ],
+    "pt": [
+      "Altera o nome do ficheiro {source} para {new_name}",
+      "Dá ao ficheiro {source} o nome {new_name}",
+      "Usa {new_name} como novo nome do ficheiro {source}"
+    ]
+  },
+  "filesystem.delete": {
+    "ru": [
+      "удалить файл {source} в корзину",
+      "убери файл {source} в корзину",
+      "убрать файл {source} в корзину"
+    ],
+    "en": [
+      "transfer file {source} to the recycle bin",
+      "relocate file {source} to the recycle bin",
+      "send file {source} to the recycle bin"
+    ],
+    "de": [
+      "die Datei {source} in den Papierkorb verschieben",
+      "verlege die Datei {source} in den Papierkorb",
+      "die Datei {source} in den Papierkorb verlegen"
+    ],
+    "fr": [
+      "placer le fichier {source} dans la corbeille",
+      "déplace le fichier {source} dans la corbeille",
+      "déplacer le fichier {source} dans la corbeille"
+    ],
+    "es": [
+      "mover el archivo {source} a la papelera",
+      "traslada el archivo {source} a la papelera",
+      "trasladar el archivo {source} a la papelera"
+    ],
+    "it": [
+      "spostare il file {source} nel cestino",
+      "trasferisci il file {source} nel cestino",
+      "trasferire il file {source} nel cestino"
+    ],
+    "pt": [
+      "mover o ficheiro {source} para a reciclagem",
+      "desloca o ficheiro {source} para a reciclagem",
+      "deslocar o ficheiro {source} para a reciclagem"
+    ]
+  },
+  "filesystem.delete_permanent": {
+    "ru": [
+      "удалить файл {source} безвозвратно",
+      "убери файл {source} безвозвратно",
+      "убрать файл {source} безвозвратно"
+    ],
+    "de": [
+      "die Datei {source} endgültig löschen",
+      "entferne die Datei {source} endgültig",
+      "die Datei {source} endgültig entfernen"
+    ],
+    "fr": [
+      "supprimer définitivement le fichier {source}",
+      "efface définitivement le fichier {source}",
+      "effacer définitivement le fichier {source}"
+    ],
+    "es": [
+      "eliminar definitivamente el archivo {source}",
+      "borra definitivamente el archivo {source}",
+      "borrar definitivamente el archivo {source}"
+    ],
+    "it": [
+      "eliminare definitivamente il file {source}",
+      "cancella definitivamente il file {source}",
+      "cancellare definitivamente il file {source}"
+    ],
+    "pt": [
+      "apagar permanentemente o ficheiro {source}",
+      "elimina permanentemente o ficheiro {source}",
+      "eliminar permanentemente o ficheiro {source}"
+    ],
+    "en": [
+      "delete file {source} permanently",
+      "erase file {source} without using the recycle bin",
+      "permanently remove file {source}"
+    ]
+  },
+  "filesystem.read_text": {
+    "ru": [
+      "прочитать файл {source}",
+      "прочти файл {source}",
+      "прочесть файл {source}"
+    ],
+    "en": [
+      "display contents of file {source}",
+      "show contents of file {source}",
+      "read out file {source}"
+    ],
+    "de": [
+      "Lies den Inhalt der Datei {source} vor",
+      "Was steht in der Datei {source}",
+      "Zeige mir den Textinhalt von {source}"
+    ],
+    "fr": [
+      "Lis le contenu du fichier {source}",
+      "Que contient le texte du fichier {source}",
+      "Affiche le texte contenu dans le fichier {source}"
+    ],
+    "es": [
+      "Lee el contenido del archivo {source}",
+      "Qué dice el texto del archivo {source}",
+      "Muestra el texto que contiene el archivo {source}"
+    ],
+    "it": [
+      "Leggi il contenuto del file {source}",
+      "Che cosa dice il testo del file {source}",
+      "Mostra il testo contenuto nel file {source}"
+    ],
+    "pt": [
+      "Lê o conteúdo do ficheiro {source}",
+      "O que diz o texto do ficheiro {source}",
+      "Mostra o texto contido no ficheiro {source}"
+    ]
+  },
+  "filesystem.write_text": {
+    "ru": [
+      "записать в файл {source}: {text}",
+      "сохрани в файл {source}: {text}",
+      "сохранить в файл {source}: {text}"
+    ],
+    "en": [
+      "save to file {source}: {text}",
+      "write text to file {source}: {text}",
+      "output text to file {source}: {text}"
+    ],
+    "de": [
+      "in die Datei {source}: {text} schreiben",
+      "tippe in die Datei {source}: {text}",
+      "in die Datei {source}: {text} tippen"
+    ],
+    "fr": [
+      "écrire dans le fichier {source}: {text}",
+      "saisis dans le fichier {source}: {text}",
+      "saisir dans le fichier {source}: {text}"
+    ],
+    "es": [
+      "escribir en el archivo {source}: {text}",
+      "introduce en el archivo {source}: {text}",
+      "introducir en el archivo {source}: {text}"
+    ],
+    "it": [
+      "scrivere nel file {source}: {text}",
+      "digita nel file {source}: {text}",
+      "digitare nel file {source}: {text}"
+    ],
+    "pt": [
+      "escrever no ficheiro {source}: {text}",
+      "introduz no ficheiro {source}: {text}",
+      "introduzir no ficheiro {source}: {text}"
+    ]
+  },
+  "filesystem.replace_text": {
+    "ru": [
+      "заменить в файле {source} текст {old_text} на {new_text}",
+      "измени в файле {source} текст {old_text} на {new_text}",
+      "изменить в файле {source} текст {old_text} на {new_text}"
+    ],
+    "en": [
+      "substitute {old_text} with {new_text} in file {source}",
+      "change {old_text} to {new_text} inside file {source}",
+      "in file {source} replace {old_text} with {new_text}"
+    ],
+    "de": [
+      "in der Datei {source} den Text {old_text} durch {new_text} ersetzen",
+      "tausche in der Datei {source} den Text {old_text} gegen {new_text} aus",
+      "ändere in der Datei {source} den Text {old_text} zu {new_text}"
+    ],
+    "fr": [
+      "remplacer {old_text} par {new_text} dans le fichier {source}",
+      "substitue {old_text} par {new_text} dans le fichier {source}",
+      "substituer {old_text} par {new_text} dans le fichier {source}"
+    ],
+    "es": [
+      "sustituir {old_text} por {new_text} en el archivo {source}",
+      "reemplaza {old_text} por {new_text} en el archivo {source}",
+      "reemplazar {old_text} por {new_text} en el archivo {source}"
+    ],
+    "it": [
+      "sostituire {old_text} con {new_text} nel file {source}",
+      "rimpiazza {old_text} con {new_text} nel file {source}",
+      "rimpiazzare {old_text} con {new_text} nel file {source}"
+    ],
+    "pt": [
+      "substituir {old_text} por {new_text} no ficheiro {source}",
+      "troca {old_text} por {new_text} no ficheiro {source}",
+      "trocar {old_text} por {new_text} no ficheiro {source}"
+    ]
+  },
+  "filesystem.create_text_file": {
+    "ru": [
+      "сделай текстовый файл {name}: {text}",
+      "создай документ {name} с текстом: {text}",
+      "запиши новый текстовый файл {name}: {text}"
+    ],
+    "en": [
+      "make text file {name}: {text}",
+      "generate text file {name}: {text}",
+      "create a new text file {name}: {text}"
+    ],
+    "de": [
+      "die Textdatei {name}: {text} erstellen",
+      "erzeuge die Textdatei {name}: {text}",
+      "die Textdatei {name}: {text} erzeugen"
+    ],
+    "fr": [
+      "créer le fichier texte {name}: {text}",
+      "génère le fichier texte {name}: {text}",
+      "générer le fichier texte {name}: {text}"
+    ],
+    "es": [
+      "crear el archivo de texto {name}: {text}",
+      "genera el archivo de texto {name}: {text}",
+      "generar el archivo de texto {name}: {text}"
+    ],
+    "it": [
+      "creare il file di testo {name}: {text}",
+      "genera il file di testo {name}: {text}",
+      "generare il file di testo {name}: {text}"
+    ],
+    "pt": [
+      "criar o ficheiro de texto {name}: {text}",
+      "gera o ficheiro de texto {name}: {text}",
+      "gerar o ficheiro de texto {name}: {text}"
+    ]
+  },
+  "filesystem.create_file": {
+    "ru": [
+      "сделай новый файл {name}",
+      "добавь новый файл {name}",
+      "создать файл {name}"
+    ],
+    "en": [
+      "make file {name}",
+      "generate file {name}",
+      "create a new file {name}"
+    ],
+    "de": [
+      "die Datei {name} erstellen",
+      "erzeuge die Datei {name}",
+      "die Datei {name} erzeugen"
+    ],
+    "fr": [
+      "créer le fichier {name}",
+      "génère le fichier {name}",
+      "générer le fichier {name}"
+    ],
+    "es": [
+      "crear el archivo {name}",
+      "genera el archivo {name}",
+      "generar el archivo {name}"
+    ],
+    "it": [
+      "creare il file {name}",
+      "genera il file {name}",
+      "generare il file {name}"
+    ],
+    "pt": [
+      "criar o ficheiro {name}",
+      "gera o ficheiro {name}",
+      "gerar o ficheiro {name}"
+    ]
+  },
+  "filesystem.append_text": {
+    "ru": [
+      "добавить в конец файла {source}: {text}",
+      "допиши в конец файла {source}: {text}",
+      "дописать в конец файла {source}: {text}"
+    ],
+    "en": [
+      "add to file {source}: {text}",
+      "append text to file {source}: {text}",
+      "add text to file {source}: {text}"
+    ],
+    "de": [
+      "ergänze die Datei {source} am Ende um: {text}",
+      "schreibe ans Ende der Datei {source}: {text}",
+      "an die Datei {source} anhängen: {text}"
+    ],
+    "fr": [
+      "ajouter à la fin du fichier {source}: {text}",
+      "insère à la fin du fichier {source}: {text}",
+      "insérer à la fin du fichier {source}: {text}"
+    ],
+    "es": [
+      "añadir al final del archivo {source}: {text}",
+      "agrega al final del archivo {source}: {text}",
+      "agregar al final del archivo {source}: {text}"
+    ],
+    "it": [
+      "aggiungere alla fine del file {source}: {text}",
+      "inserisci alla fine del file {source}: {text}",
+      "inserire alla fine del file {source}: {text}"
+    ],
+    "pt": [
+      "acrescentar ao fim do ficheiro {source}: {text}",
+      "adiciona ao fim do ficheiro {source}: {text}",
+      "adicionar ao fim do ficheiro {source}: {text}"
+    ]
+  },
+  "filesystem.insert_text": {
+    "ru": [
+      "вставить текст {text} в файл {source}",
+      "добавь текст {text} в файл {source}",
+      "добавить текст {text} в файл {source}"
+    ],
+    "en": [
+      "add text {text} into file {source}",
+      "place text {text} into file {source}",
+      "put text {text} into file {source}"
+    ],
+    "de": [
+      "den Text {text} in die Datei {source} einfügen",
+      "setze den Text {text} in die Datei {source} ein",
+      "den Text {text} in die Datei {source} einsetzen"
+    ],
+    "fr": [
+      "insérer le texte {text} dans le fichier {source}",
+      "ajoute le texte {text} dans le fichier {source}",
+      "ajouter le texte {text} dans le fichier {source}"
+    ],
+    "es": [
+      "insertar el texto {text} en el archivo {source}",
+      "introduce el texto {text} en el archivo {source}",
+      "introducir el texto {text} en el archivo {source}"
+    ],
+    "it": [
+      "inserire il testo {text} nel file {source}",
+      "aggiungi il testo {text} nel file {source}",
+      "aggiungere il testo {text} nel file {source}"
+    ],
+    "pt": [
+      "inserir o texto {text} no ficheiro {source}",
+      "adiciona o texto {text} no ficheiro {source}",
+      "adicionar o texto {text} no ficheiro {source}"
+    ]
+  },
+  "filesystem.search_text": {
+    "ru": [
+      "найти текст {query} в файле {source}",
+      "отыщи текст {query} в файле {source}",
+      "отыскать текст {query} в файле {source}"
+    ],
+    "en": [
+      "locate text {query} in file {source}",
+      "search for text {query} in file {source}",
+      "look for text {query} in file {source}"
+    ],
+    "de": [
+      "Suche in der Datei {source} nach dem Text {query}",
+      "Finde die Textstelle {query} in der Datei {source}",
+      "Durchsuche die Datei {source} nach {query}"
+    ],
+    "fr": [
+      "chercher le texte {query} dans le fichier {source}",
+      "recherche le texte {query} dans le fichier {source}",
+      "rechercher le texte {query} dans le fichier {source}"
+    ],
+    "es": [
+      "buscar el texto {query} en el archivo {source}",
+      "localiza el texto {query} en el archivo {source}",
+      "localizar el texto {query} en el archivo {source}"
+    ],
+    "it": [
+      "cercare il testo {query} nel file {source}",
+      "ricerca il testo {query} nel file {source}",
+      "ricercare il testo {query} nel file {source}"
+    ],
+    "pt": [
+      "procurar o texto {query} no ficheiro {source}",
+      "localiza o texto {query} no ficheiro {source}",
+      "localizar o texto {query} no ficheiro {source}"
+    ]
+  },
+  "filesystem.exists": {
+    "ru": [
+      "есть ли файл {source}",
+      "убедись, что файл {source} существует",
+      "проверь наличие файла {source}"
+    ],
+    "en": [
+      "does file {source} exist",
+      "is file {source} present",
+      "check for the existence of file {source}"
+    ],
+    "de": [
+      "Existiert die Datei {source}",
+      "Ist die Datei {source} vorhanden",
+      "Kontrolliere, ob es die Datei {source} gibt"
+    ],
+    "fr": [
+      "vérifier si le fichier {source} existe",
+      "contrôle si le fichier {source} existe",
+      "contrôler si le fichier {source} existe"
+    ],
+    "es": [
+      "comprobar si existe el archivo {source}",
+      "verifica si existe el archivo {source}",
+      "verificar si existe el archivo {source}"
+    ],
+    "it": [
+      "controllare se il file {source} esiste",
+      "verifica se il file {source} esiste",
+      "verificare se il file {source} esiste"
+    ],
+    "pt": [
+      "verificar se o ficheiro {source} existe",
+      "confere se o ficheiro {source} existe",
+      "conferir se o ficheiro {source} existe"
+    ]
+  },
+  "filesystem.info": {
+    "ru": [
+      "какие свойства у файла {source}",
+      "выведи сведения о файле {source}",
+      "сообщи параметры файла {source}"
+    ],
+    "en": [
+      "what are the properties of file {source}",
+      "give me details of file {source}",
+      "tell me the attributes of file {source}"
+    ],
+    "de": [
+      "die Eigenschaften der Datei {source} zeigen",
+      "blende die Eigenschaften der Datei {source} ein",
+      "die Eigenschaften der Datei {source} einblenden"
+    ],
+    "fr": [
+      "montrer les propriétés du fichier {source}",
+      "affiche les propriétés du fichier {source}",
+      "afficher les propriétés du fichier {source}"
+    ],
+    "es": [
+      "mostrar las propiedades del archivo {source}",
+      "visualiza las propiedades del archivo {source}",
+      "visualizar las propiedades del archivo {source}"
+    ],
+    "it": [
+      "mostrare le proprietà del file {source}",
+      "visualizza le proprietà del file {source}",
+      "visualizzare le proprietà del file {source}"
+    ],
+    "pt": [
+      "mostrar as propriedades do ficheiro {source}",
+      "exibe as propriedades do ficheiro {source}",
+      "exibir as propriedades do ficheiro {source}"
+    ]
+  },
+  "filesystem.zip": {
+    "ru": [
+      "упаковать {source} в архив {destination}",
+      "сожми {source} в архив {destination}",
+      "сжать {source} в архив {destination}"
+    ],
+    "en": [
+      "zip {source} into archive {destination}",
+      "pack {source} into archive {destination}",
+      "archive {source} into archive {destination}"
+    ],
+    "de": [
+      "erstelle das Archiv {destination} aus {source}",
+      "komprimiere {source} in das Archiv {destination}",
+      "archiviere {source} unter {destination}"
+    ],
+    "fr": [
+      "compresser {source} dans l'archive {destination}",
+      "archive {source} dans l'archive {destination}",
+      "archiver {source} dans l'archive {destination}"
+    ],
+    "es": [
+      "comprimir {source} en el archivo {destination}",
+      "empaqueta {source} en el archivo {destination}",
+      "empaquetar {source} en el archivo {destination}"
+    ],
+    "it": [
+      "comprimere {source} nell'archivio {destination}",
+      "archivia {source} nell'archivio {destination}",
+      "archiviare {source} nell'archivio {destination}"
+    ],
+    "pt": [
+      "comprimir {source} no arquivo {destination}",
+      "compacta {source} no arquivo {destination}",
+      "compactar {source} no arquivo {destination}"
+    ]
+  },
+  "filesystem.unzip": {
+    "ru": [
+      "распаковать архив {source} в {destination}",
+      "извлеки архив {source} в {destination}",
+      "извлечь архив {source} в {destination}"
+    ],
+    "en": [
+      "unpack archive {source} to {destination}",
+      "unzip archive {source} to {destination}",
+      "decompress archive {source} to {destination}"
+    ],
+    "de": [
+      "das Archiv {source} nach {destination} entpacken",
+      "extrahiere das Archiv {source} nach {destination}",
+      "das Archiv {source} nach {destination} extrahieren"
+    ],
+    "fr": [
+      "extraire l'archive {source} vers {destination}",
+      "décompresse l'archive {source} vers {destination}",
+      "décompresser l'archive {source} vers {destination}"
+    ],
+    "es": [
+      "extraer el archivo {source} en {destination}",
+      "descomprime el archivo {source} en {destination}",
+      "descomprimir el archivo {source} en {destination}"
+    ],
+    "it": [
+      "estrarre l'archivio {source} in {destination}",
+      "decomprimi l'archivio {source} in {destination}",
+      "decomprimere l'archivio {source} in {destination}"
+    ],
+    "pt": [
+      "extrair o arquivo {source} para {destination}",
+      "descomprime o arquivo {source} para {destination}",
+      "descomprimir o arquivo {source} para {destination}"
+    ]
+  },
+  "filesystem.list_drives": {
+    "ru": [
+      "какие диски есть на компьютере",
+      "перечисли доступные диски",
+      "выведи список накопителей"
+    ],
+    "en": [
+      "which drives are on this computer",
+      "list the available drives",
+      "give me a list of storage drives"
+    ],
+    "de": [
+      "die Laufwerke des Computers zeigen",
+      "blende die Laufwerke des Computers ein",
+      "die Laufwerke des Computers einblenden"
+    ],
+    "fr": [
+      "montrer les disques de l'ordinateur",
+      "affiche les disques de l'ordinateur",
+      "afficher les disques de l'ordinateur"
+    ],
+    "es": [
+      "mostrar las unidades del ordenador",
+      "visualiza las unidades del ordenador",
+      "visualizar las unidades del ordenador"
+    ],
+    "it": [
+      "mostrare le unità del computer",
+      "visualizza le unità del computer",
+      "visualizzare le unità del computer"
+    ],
+    "pt": [
+      "mostrar as unidades do computador",
+      "exibe as unidades do computador",
+      "exibir as unidades do computador"
+    ]
+  },
+  "filesystem.disk_usage": {
+    "ru": [
+      "сколько места свободно на диске {source}",
+      "сообщи остаток места на диске {source}",
+      "какой объём доступен на диске {source}"
+    ],
+    "en": [
+      "how much free space is on drive {source}",
+      "tell me the remaining space on drive {source}",
+      "what capacity is available on drive {source}"
+    ],
+    "de": [
+      "den freien Speicher auf Laufwerk {source} zeigen",
+      "blende den freien Speicher auf Laufwerk {source} ein",
+      "den freien Speicher auf Laufwerk {source} einblenden"
+    ],
+    "fr": [
+      "montrer l'espace libre sur le disque {source}",
+      "affiche l'espace libre sur le disque {source}",
+      "afficher l'espace libre sur le disque {source}"
+    ],
+    "es": [
+      "mostrar el espacio libre en la unidad {source}",
+      "visualiza el espacio libre en la unidad {source}",
+      "visualizar el espacio libre en la unidad {source}"
+    ],
+    "it": [
+      "mostrare lo spazio libero sull'unità {source}",
+      "visualizza lo spazio libero sull'unità {source}",
+      "visualizzare lo spazio libero sull'unità {source}"
+    ],
+    "pt": [
+      "mostrar o espaço livre na unidade {source}",
+      "exibe o espaço livre na unidade {source}",
+      "exibir o espaço livre na unidade {source}"
+    ]
+  },
+  "filesystem.tree": {
+    "ru": [
+      "как устроена папка {source}",
+      "выведи структуру каталога {source}",
+      "перечисли дерево подпапок {source}"
+    ],
+    "en": [
+      "what is the directory structure of {source}",
+      "display the folder hierarchy of {source}",
+      "list the subfolder tree under {source}"
+    ],
+    "de": [
+      "den Verzeichnisbaum von {source} zeigen",
+      "blende den Verzeichnisbaum von {source} ein",
+      "den Verzeichnisbaum von {source} einblenden"
+    ],
+    "fr": [
+      "montrer l'arborescence de {source}",
+      "affiche l'arborescence de {source}",
+      "afficher l'arborescence de {source}"
+    ],
+    "es": [
+      "mostrar el árbol de carpetas de {source}",
+      "visualiza el árbol de carpetas de {source}",
+      "visualizar el árbol de carpetas de {source}"
+    ],
+    "it": [
+      "mostrare l'albero delle cartelle di {source}",
+      "visualizza l'albero delle cartelle di {source}",
+      "visualizzare l'albero delle cartelle di {source}"
+    ],
+    "pt": [
+      "mostrar a árvore de pastas de {source}",
+      "exibe a árvore de pastas de {source}",
+      "exibir a árvore de pastas de {source}"
+    ]
+  },
+  "filesystem.hash": {
+    "ru": [
+      "вычислить контрольную сумму файла {source}",
+      "рассчитай контрольную сумму файла {source}",
+      "рассчитать контрольную сумму файла {source}"
+    ],
+    "en": [
+      "compute the checksum of file {source}",
+      "work out the checksum of file {source}",
+      "determine the checksum of file {source}"
+    ],
+    "de": [
+      "die Prüfsumme der Datei {source} berechnen",
+      "ermittle die Prüfsumme der Datei {source}",
+      "die Prüfsumme der Datei {source} ermitteln"
+    ],
+    "fr": [
+      "calculer la somme de contrôle du fichier {source}",
+      "détermine la somme de contrôle du fichier {source}",
+      "déterminer la somme de contrôle du fichier {source}"
+    ],
+    "es": [
+      "calcular la suma de comprobación del archivo {source}",
+      "determina la suma de comprobación del archivo {source}",
+      "determinar la suma de comprobación del archivo {source}"
+    ],
+    "it": [
+      "calcolare la somma di controllo del file {source}",
+      "determina la somma di controllo del file {source}",
+      "determinare la somma di controllo del file {source}"
+    ],
+    "pt": [
+      "calcular a soma de verificação do ficheiro {source}",
+      "determina a soma de verificação do ficheiro {source}",
+      "determinar a soma de verificação do ficheiro {source}"
+    ]
+  },
+  "filesystem.undo_last_change": {
+    "ru": [
+      "отменить последнее изменение файла",
+      "аннулируй последнее изменение файла",
+      "аннулировать последнее изменение файла"
+    ],
+    "en": [
+      "revert the last file change",
+      "reverse the last file change",
+      "roll back the last file change"
+    ],
+    "de": [
+      "die letzte Dateiänderung rückgängig machen",
+      "widerrufe die letzte Dateiänderung",
+      "die letzte Dateiänderung widerrufen"
+    ],
+    "fr": [
+      "annuler la dernière modification du fichier",
+      "révoque la dernière modification du fichier",
+      "révoquer la dernière modification du fichier"
+    ],
+    "es": [
+      "deshacer el último cambio del archivo",
+      "revierte el último cambio del archivo",
+      "revertir el último cambio del archivo"
+    ],
+    "it": [
+      "annullare l'ultima modifica del file",
+      "revoca l'ultima modifica del file",
+      "revocare l'ultima modifica del file"
+    ],
+    "pt": [
+      "desfazer a última alteração do ficheiro",
+      "reverte a última alteração do ficheiro",
+      "reverter a última alteração do ficheiro"
+    ]
+  },
+  "filesystem.reveal": {
+    "ru": [
+      "показать файл {source} в проводнике",
+      "отобрази файл {source} в проводнике",
+      "отобразить файл {source} в проводнике"
+    ],
+    "en": [
+      "show file {source} in Explorer",
+      "locate file {source} in Explorer",
+      "display file {source} in Explorer"
+    ],
+    "de": [
+      "die Datei {source} im Explorer zeigen",
+      "blende die Datei {source} im Explorer ein",
+      "die Datei {source} im Explorer einblenden"
+    ],
+    "fr": [
+      "montrer le fichier {source} dans l'explorateur",
+      "affiche le fichier {source} dans l'explorateur",
+      "afficher le fichier {source} dans l'explorateur"
+    ],
+    "es": [
+      "mostrar el archivo {source} en el explorador",
+      "visualiza el archivo {source} en el explorador",
+      "visualizar el archivo {source} en el explorador"
+    ],
+    "it": [
+      "mostrare il file {source} in Esplora file",
+      "visualizza il file {source} in Esplora file",
+      "visualizzare il file {source} in Esplora file"
+    ],
+    "pt": [
+      "mostrar o ficheiro {source} no explorador",
+      "exibe o ficheiro {source} no explorador",
+      "exibir o ficheiro {source} no explorador"
+    ]
+  },
+  "game.status": {
+    "ru": [
+      "запущена ли сейчас какая-нибудь игра",
+      "какая игра сейчас обнаружена",
+      "сообщи текущий статус игры"
+    ],
+    "en": [
+      "is any game running right now",
+      "which game is currently detected",
+      "tell me the current game status"
+    ],
+    "de": [
+      "den Spielstatus zeigen",
+      "blende den Spielstatus ein",
+      "den Spielstatus einblenden"
+    ],
+    "fr": [
+      "montrer l'état du jeu",
+      "affiche l'état du jeu",
+      "afficher l'état du jeu"
+    ],
+    "es": [
+      "mostrar el estado del juego",
+      "visualiza el estado del juego",
+      "visualizar el estado del juego"
+    ],
+    "it": [
+      "mostrare lo stato del gioco",
+      "visualizza lo stato del gioco",
+      "visualizzare lo stato del gioco"
+    ],
+    "pt": [
+      "mostrar o estado do jogo",
+      "exibe o estado do jogo",
+      "exibir o estado do jogo"
+    ]
+  },
+  "game.state": {
+    "ru": [
+      "что известно о текущей игре",
+      "выведи состояние запущенной игры",
+      "какие данные доступны о текущей игре"
+    ],
+    "en": [
+      "what is known about the current game",
+      "report the state of the running game",
+      "what data is available about the current game"
+    ],
+    "de": [
+      "den Zustand des aktuellen Spiels zeigen",
+      "blende den Zustand des aktuellen Spiels ein",
+      "den Zustand des aktuellen Spiels einblenden"
+    ],
+    "fr": [
+      "montrer l'état de la partie actuelle",
+      "affiche l'état de la partie actuelle",
+      "afficher l'état de la partie actuelle"
+    ],
+    "es": [
+      "mostrar el estado de la partida actual",
+      "visualiza el estado de la partida actual",
+      "visualizar el estado de la partida actual"
+    ],
+    "it": [
+      "mostrare lo stato della partita corrente",
+      "visualizza lo stato della partita corrente",
+      "visualizzare lo stato della partita corrente"
+    ],
+    "pt": [
+      "mostrar o estado da partida atual",
+      "exibe o estado da partida atual",
+      "exibir o estado da partida atual"
+    ]
+  },
+  "game.session_info": {
+    "ru": [
+      "что известно о моей игровой сессии",
+      "выведи подробности игровой сессии",
+      "какие сведения есть о сеансе игры"
+    ],
+    "en": [
+      "what is known about my gaming session",
+      "give me details of the gaming session",
+      "what information is available about the game session"
+    ],
+    "de": [
+      "Informationen zur Spielsitzung zeigen",
+      "blende Informationen zur Spielsitzung ein",
+      "Informationen zur Spielsitzung einblenden"
+    ],
+    "fr": [
+      "montrer les informations de la session de jeu",
+      "affiche les informations de la session de jeu",
+      "afficher les informations de la session de jeu"
+    ],
+    "es": [
+      "mostrar información de la sesión de juego",
+      "visualiza información de la sesión de juego",
+      "visualizar información de la sesión de juego"
+    ],
+    "it": [
+      "mostrare le informazioni della sessione di gioco",
+      "visualizza le informazioni della sessione di gioco",
+      "visualizzare le informazioni della sessione di gioco"
+    ],
+    "pt": [
+      "mostrar informações da sessão de jogo",
+      "exibe informações da sessão de jogo",
+      "exibir informações da sessão de jogo"
+    ]
+  },
+  "game.show_session": {
+    "ru": [
+      "какая игровая сессия сейчас идёт",
+      "выведи текущий сеанс игры",
+      "покажи сведения о текущем игровом сеансе"
+    ],
+    "en": [
+      "which gaming session is active",
+      "display the current gaming session",
+      "let me see the active game session"
+    ],
+    "de": [
+      "die aktuelle Spielsitzung zeigen",
+      "blende die aktuelle Spielsitzung ein",
+      "die aktuelle Spielsitzung einblenden"
+    ],
+    "fr": [
+      "montrer la session de jeu actuelle",
+      "affiche la session de jeu actuelle",
+      "afficher la session de jeu actuelle"
+    ],
+    "es": [
+      "mostrar la sesión de juego actual",
+      "visualiza la sesión de juego actual",
+      "visualizar la sesión de juego actual"
+    ],
+    "it": [
+      "mostrare la sessione di gioco corrente",
+      "visualizza la sessione di gioco corrente",
+      "visualizzare la sessione di gioco corrente"
+    ],
+    "pt": [
+      "mostrar a sessão de jogo atual",
+      "exibe a sessão de jogo atual",
+      "exibir a sessão de jogo atual"
+    ]
+  },
+  "game_locations.find": {
+    "ru": [
+      "найди сохранения игры {name}",
+      "покажи папку сохранений {name}",
+      "где лежат игровые сохранения {name}"
+    ],
+    "en": [
+      "find the saves for {name}",
+      "locate the save folder for {name}",
+      "show the saved games for {name}"
+    ],
+    "de": [
+      "finde die Spielstände von {name}",
+      "zeige den Speicherstandordner von {name}",
+      "wo liegen die Spielstände von {name}"
+    ],
+    "fr": [
+      "trouve les sauvegardes de {name}",
+      "montre le dossier des sauvegardes de {name}",
+      "où se trouvent les sauvegardes de {name}"
+    ],
+    "es": [
+      "localiza las partidas guardadas de {name}",
+      "muestra la carpeta de partidas de {name}",
+      "dónde se guardan las partidas de {name}"
+    ],
+    "it": [
+      "trova i salvataggi di {name}",
+      "mostra la cartella dei salvataggi di {name}",
+      "dove si trovano i salvataggi di {name}"
+    ],
+    "pt": [
+      "encontra os jogos guardados de {name}",
+      "mostra a pasta das gravações de {name}",
+      "onde ficam as gravações de {name}"
+    ]
+  },
+  "game_locations.open": {
+    "ru": [
+      "открыть папку установки игры {name}",
+      "покажи папку установки игры {name}",
+      "показать папку установки игры {name}"
+    ],
+    "en": [
+      "bring up installation folder for {name}",
+      "display installation folder for {name}",
+      "open up installation folder for {name}"
+    ],
+    "de": [
+      "den Installationsordner von {name} öffnen",
+      "zeige den Installationsordner von {name}",
+      "den Installationsordner von {name} zeigen"
+    ],
+    "fr": [
+      "ouvrir le dossier d'installation de {name}",
+      "affiche le dossier d'installation de {name}",
+      "afficher le dossier d'installation de {name}"
+    ],
+    "es": [
+      "abrir la carpeta de instalación de {name}",
+      "muestra la carpeta de instalación de {name}",
+      "mostrar la carpeta de instalación de {name}"
+    ],
+    "it": [
+      "aprire la cartella di installazione di {name}",
+      "visualizza la cartella di installazione di {name}",
+      "visualizzare la cartella di installazione di {name}"
+    ],
+    "pt": [
+      "abrir a pasta de instalação de {name}",
+      "mostra a pasta de instalação de {name}",
+      "mostrar a pasta de instalação de {name}"
+    ]
+  },
+  "hardware.status": {
+    "ru": [
+      "в каком состоянии оборудование компьютера",
+      "выведи показатели оборудования",
+      "сообщи состояние комплектующих"
+    ],
+    "en": [
+      "what condition is the computer hardware in",
+      "give me the hardware readings",
+      "report the state of the computer components"
+    ],
+    "de": [
+      "den Hardwarestatus zeigen",
+      "blende den Hardwarestatus ein",
+      "den Hardwarestatus einblenden"
+    ],
+    "fr": [
+      "montrer l'état du matériel",
+      "affiche l'état du matériel",
+      "afficher l'état du matériel"
+    ],
+    "es": [
+      "mostrar el estado del hardware",
+      "visualiza el estado del hardware",
+      "visualizar el estado del hardware"
+    ],
+    "it": [
+      "mostrare lo stato dell'hardware",
+      "visualizza lo stato dell'hardware",
+      "visualizzare lo stato dell'hardware"
+    ],
+    "pt": [
+      "mostrar o estado do hardware",
+      "exibe o estado do hardware",
+      "exibir o estado do hardware"
+    ]
+  },
+  "history.recent": {
+    "ru": [
+      "какие действия ассистент выполнял недавно",
+      "перечисли недавние команды ассистента",
+      "выведи журнал действий ассистента"
+    ],
+    "en": [
+      "what actions has the assistant performed recently",
+      "list the recent assistant commands",
+      "display the assistant action log"
+    ],
+    "de": [
+      "den Aktionsverlauf des Assistenten zeigen",
+      "blende den Aktionsverlauf des Assistenten ein",
+      "den Aktionsverlauf des Assistenten einblenden"
+    ],
+    "fr": [
+      "montrer l'historique des actions de l'assistant",
+      "affiche l'historique des actions de l'assistant",
+      "afficher l'historique des actions de l'assistant"
+    ],
+    "es": [
+      "mostrar el historial de acciones del asistente",
+      "visualiza el historial de acciones del asistente",
+      "visualizar el historial de acciones del asistente"
+    ],
+    "it": [
+      "mostrare la cronologia delle azioni dell'assistente",
+      "visualizza la cronologia delle azioni dell'assistente",
+      "visualizzare la cronologia delle azioni dell'assistente"
+    ],
+    "pt": [
+      "mostrar o histórico de ações do assistente",
+      "exibe o histórico de ações do assistente",
+      "exibir o histórico de ações do assistente"
+    ]
+  },
+  "history.undo": {
+    "ru": [
+      "отменить последнее действие",
+      "аннулируй последнее действие",
+      "аннулировать последнее действие"
+    ],
+    "en": [
+      "revert the last action",
+      "reverse the last action",
+      "roll back the last action"
+    ],
+    "de": [
+      "die letzte Aktion rückgängig machen",
+      "widerrufe die letzte Aktion",
+      "die letzte Aktion widerrufen"
+    ],
+    "fr": [
+      "annuler la dernière action",
+      "révoque la dernière action",
+      "révoquer la dernière action"
+    ],
+    "es": [
+      "deshacer la última acción",
+      "revierte la última acción",
+      "revertir la última acción"
+    ],
+    "it": [
+      "annullare l'ultima azione",
+      "revoca l'ultima azione",
+      "revocare l'ultima azione"
+    ],
+    "pt": [
+      "desfazer a última ação",
+      "reverte a última ação",
+      "reverter a última ação"
+    ]
+  },
+  "input_control.type_text": {
+    "ru": [
+      "напечатать текст {text}",
+      "введи текст {text}",
+      "ввести текст {text}"
+    ],
+    "en": [
+      "enter the text {text}",
+      "write the text {text}",
+      "type out the text {text}"
+    ],
+    "de": [
+      "den Text {text} tippen",
+      "schreibe den Text {text}",
+      "den Text {text} schreiben"
+    ],
+    "fr": [
+      "saisir le texte {text}",
+      "écris le texte {text}",
+      "écrire le texte {text}"
+    ],
+    "es": [
+      "escribir el texto {text}",
+      "introduce el texto {text}",
+      "introducir el texto {text}"
+    ],
+    "it": [
+      "digitare il testo {text}",
+      "scrivi il testo {text}",
+      "scrivere il testo {text}"
+    ],
+    "pt": [
+      "escrever o texto {text}",
+      "introduz o texto {text}",
+      "introduzir o texto {text}"
+    ]
+  },
+  "input_control.hotkey": {
+    "ru": [
+      "нажать сочетание клавиш {keys}",
+      "задействуй сочетание клавиш {keys}",
+      "задействовать сочетание клавиш {keys}"
+    ],
+    "en": [
+      "hit keyboard shortcut {keys}",
+      "use keyboard shortcut {keys}",
+      "activate keyboard shortcut {keys}"
+    ],
+    "de": [
+      "die Tastenkombination {keys} drücken",
+      "betätige die Tastenkombination {keys}",
+      "die Tastenkombination {keys} betätigen"
+    ],
+    "fr": [
+      "appuyer sur le raccourci clavier {keys}",
+      "utilise le raccourci clavier {keys}",
+      "exécute le raccourci clavier {keys}"
+    ],
+    "es": [
+      "pulsar el atajo de teclado {keys}",
+      "presiona el atajo de teclado {keys}",
+      "presionar el atajo de teclado {keys}"
+    ],
+    "it": [
+      "premere la combinazione di tasti {keys}",
+      "aziona la combinazione di tasti {keys}",
+      "azionare la combinazione di tasti {keys}"
+    ],
+    "pt": [
+      "premir o atalho de teclado {keys}",
+      "pressiona o atalho de teclado {keys}",
+      "pressionar o atalho de teclado {keys}"
+    ]
+  },
+  "input_control.click": {
+    "ru": [
+      "щёлкни по координатам {x} {y}",
+      "кликни мышью в точке {x} {y}",
+      "выполни щелчок по точке {x} {y}"
+    ],
+    "en": [
+      "click the mouse at coordinates {x} {y}",
+      "perform a click at coordinates {x} {y}",
+      "press the mouse button at coordinates {x} {y}"
+    ],
+    "de": [
+      "auf die Koordinaten {x} {y} klicken",
+      "drücke auf die Koordinaten {x} {y}",
+      "auf die Koordinaten {x} {y} drücken"
+    ],
+    "fr": [
+      "cliquer aux coordonnées {x} {y}",
+      "appuie aux coordonnées {x} {y}",
+      "appuyer aux coordonnées {x} {y}"
+    ],
+    "es": [
+      "Pulsa en el punto {x} {y}",
+      "Da un clic en las coordenadas {x} {y}",
+      "Haz clic en el punto de la pantalla {x} {y}"
+    ],
+    "it": [
+      "Fai un clic nel punto {x} {y}",
+      "Premi alle coordinate {x} {y}",
+      "Clicca nel punto dello schermo {x} {y}"
+    ],
+    "pt": [
+      "clicar nas coordenadas {x} {y}",
+      "carrega nas coordenadas {x} {y}",
+      "carregar nas coordenadas {x} {y}"
+    ]
+  },
+  "input_control.click_control": {
+    "ru": [
+      "нажать кнопку {name}",
+      "задействуй кнопку {name}",
+      "задействовать кнопку {name}"
+    ],
+    "en": [
+      "press the button {name}",
+      "click on the control named {name}",
+      "activate button {name}"
+    ],
+    "de": [
+      "auf die Schaltfläche {name} klicken",
+      "drücke auf die Schaltfläche {name}",
+      "auf die Schaltfläche {name} drücken"
+    ],
+    "fr": [
+      "cliquer sur le bouton {name}",
+      "appuie sur le bouton {name}",
+      "appuyer sur le bouton {name}"
+    ],
+    "es": [
+      "pulsar el botón {name}",
+      "presiona el botón {name}",
+      "presionar el botón {name}"
+    ],
+    "it": [
+      "premere il pulsante {name}",
+      "aziona il pulsante {name}",
+      "azionare il pulsante {name}"
+    ],
+    "pt": [
+      "clicar no botão {name}",
+      "carrega no botão {name}",
+      "carregar no botão {name}"
+    ]
+  },
+  "input_control.focus_control": {
+    "ru": [
+      "перейти к полю {name}",
+      "установи фокус на поле {name}",
+      "активируй поле {name}"
+    ],
+    "en": [
+      "activate the field {name}",
+      "move focus to the field {name}",
+      "put focus on the field {name}"
+    ],
+    "de": [
+      "zum Feld {name} wechseln",
+      "springe zum Feld {name}",
+      "zum Feld {name} springen"
+    ],
+    "fr": [
+      "placer le curseur dans le champ {name}",
+      "déplace le curseur dans le champ {name}",
+      "déplacer le curseur dans le champ {name}"
+    ],
+    "es": [
+      "seleccionar el campo {name}",
+      "elige el campo {name}",
+      "elegir el campo {name}"
+    ],
+    "it": [
+      "Porta il cursore nel campo {name}",
+      "Sposta il focus sul campo {name}",
+      "Attiva il campo di immissione {name}"
+    ],
+    "pt": [
+      "selecionar o campo {name}",
+      "escolhe o campo {name}",
+      "escolher o campo {name}"
+    ]
+  },
+  "input_control.set_control_text": {
+    "ru": [
+      "заполнить поле {name} текстом {text}",
+      "введи в поле {name} текст {text}",
+      "запиши в поле {name}: {text}"
+    ],
+    "en": [
+      "populate field {name} with {text}",
+      "complete field {name} with {text}",
+      "fill in field {name} with {text}"
+    ],
+    "de": [
+      "das Feld {name} mit {text} füllen",
+      "befülle das Feld {name} mit {text}",
+      "das Feld {name} mit {text} befüllen"
+    ],
+    "fr": [
+      "remplir le champ {name} avec {text}",
+      "complète le champ {name} avec {text}",
+      "compléter le champ {name} avec {text}"
+    ],
+    "es": [
+      "rellenar el campo {name} con {text}",
+      "completa el campo {name} con {text}",
+      "completar el campo {name} con {text}"
+    ],
+    "it": [
+      "compilare il campo {name} con {text}",
+      "riempi il campo {name} con {text}",
+      "riempire il campo {name} con {text}"
+    ],
+    "pt": [
+      "preencher o campo {name} com {text}",
+      "completa o campo {name} com {text}",
+      "completar o campo {name} com {text}"
+    ]
+  },
+  "input_control.list_controls": {
+    "ru": [
+      "какие элементы доступны в текущем окне",
+      "перечисли кнопки и поля окна",
+      "выведи список элементов управления окна"
+    ],
+    "en": [
+      "which controls are available in the current window",
+      "list the buttons and fields in the window",
+      "give me the window control list"
+    ],
+    "de": [
+      "die verfügbaren Fensterelemente zeigen",
+      "blende die verfügbaren Fensterelemente ein",
+      "die verfügbaren Fensterelemente einblenden"
+    ],
+    "fr": [
+      "montrer les éléments disponibles de la fenêtre",
+      "affiche les éléments disponibles de la fenêtre",
+      "afficher les éléments disponibles de la fenêtre"
+    ],
+    "es": [
+      "mostrar los controles disponibles de la ventana",
+      "visualiza los controles disponibles de la ventana",
+      "visualizar los controles disponibles de la ventana"
+    ],
+    "it": [
+      "mostrare i controlli disponibili della finestra",
+      "visualizza i controlli disponibili della finestra",
+      "visualizzare i controlli disponibili della finestra"
+    ],
+    "pt": [
+      "mostrar os controlos disponíveis da janela",
+      "exibe os controlos disponíveis da janela",
+      "exibir os controlos disponíveis da janela"
+    ]
+  },
+  "jarvis.status": {
+    "ru": [
+      "как работает сам ассистент",
+      "в каком состоянии NEO",
+      "сообщи состояние ассистента"
+    ],
+    "en": [
+      "how is the assistant itself running",
+      "what state is NEO in",
+      "report the assistant state"
+    ],
+    "de": [
+      "den Status des Assistenten zeigen",
+      "blende den Status des Assistenten ein",
+      "den Status des Assistenten einblenden"
+    ],
+    "fr": [
+      "montrer l'état de l'assistant",
+      "affiche l'état de l'assistant",
+      "afficher l'état de l'assistant"
+    ],
+    "es": [
+      "mostrar el estado del asistente",
+      "visualiza el estado del asistente",
+      "visualizar el estado del asistente"
+    ],
+    "it": [
+      "mostrare lo stato dell'assistente",
+      "visualizza lo stato dell'assistente",
+      "visualizzare lo stato dell'assistente"
+    ],
+    "pt": [
+      "mostrar o estado do assistente",
+      "exibe o estado do assistente",
+      "exibir o estado do assistente"
+    ]
+  },
+  "jarvis.shutdown": {
+    "ru": [
+      "завершить работу ассистента",
+      "останови работу ассистента",
+      "остановить работу ассистента"
+    ],
+    "de": [
+      "den Assistenten beenden",
+      "stoppe den Assistenten",
+      "den Assistenten stoppen"
+    ],
+    "fr": [
+      "arrêter l'assistant",
+      "stoppe l'assistant",
+      "stopper l'assistant"
+    ],
+    "es": [
+      "Cierra el programa del asistente",
+      "Termina el asistente de escritorio",
+      "Sal de la aplicación del asistente"
+    ],
+    "it": [
+      "chiudere l'assistente",
+      "termina l'assistente",
+      "terminare l'assistente"
+    ],
+    "pt": [
+      "encerrar o assistente",
+      "termina o assistente",
+      "terminar o assistente"
+    ],
+    "en": [
+      "stop the assistant",
+      "close the assistant",
+      "exit the assistant"
+    ]
+  },
+  "memory.remember": {
+    "ru": [
+      "запомнить {key}: {value}",
+      "сохрани в памяти {key}: {value}",
+      "сохранить в памяти {key}: {value}"
+    ],
+    "en": [
+      "memorize {key}: {value}",
+      "save in memory {key}: {value}",
+      "store in memory {key}: {value}"
+    ],
+    "de": [
+      "speichere den Eintrag {key}: {value}",
+      "merke dir unter {key}: {value}",
+      "bewahre diese Information auf: {key}: {value}"
+    ],
+    "fr": [
+      "retenir {key}: {value}",
+      "mémorise {key}: {value}",
+      "mémoriser {key}: {value}"
+    ],
+    "es": [
+      "recordar {key}: {value}",
+      "memoriza {key}: {value}",
+      "memorizar {key}: {value}"
+    ],
+    "it": [
+      "ricordare {key}: {value}",
+      "memorizza {key}: {value}",
+      "memorizzare {key}: {value}"
+    ],
+    "pt": [
+      "memorizar {key}: {value}",
+      "guarda na memória {key}: {value}",
+      "guardar na memória {key}: {value}"
+    ]
+  },
+  "memory.forget": {
+    "ru": [
+      "забыть сохранённую запись {key}",
+      "удали из памяти сохранённую запись {key}",
+      "удалить из памяти сохранённую запись {key}"
+    ],
+    "en": [
+      "remove the saved memory {key}",
+      "erase memory entry {key}",
+      "delete the fact stored as {key}"
+    ],
+    "de": [
+      "den gespeicherten Eintrag {key} vergessen",
+      "lösche den gespeicherten Eintrag {key}",
+      "den gespeicherten Eintrag {key} löschen"
+    ],
+    "fr": [
+      "oublier l'information enregistrée {key}",
+      "efface de la mémoire l'information enregistrée {key}",
+      "effacer de la mémoire l'information enregistrée {key}"
+    ],
+    "es": [
+      "olvidar el dato guardado {key}",
+      "borra de la memoria el dato guardado {key}",
+      "borrar de la memoria el dato guardado {key}"
+    ],
+    "it": [
+      "dimenticare il dato salvato {key}",
+      "rimuovi dalla memoria il dato salvato {key}",
+      "rimuovere dalla memoria il dato salvato {key}"
+    ],
+    "pt": [
+      "esquecer o dado guardado {key}",
+      "remove da memória o dado guardado {key}",
+      "remover da memória o dado guardado {key}"
+    ]
+  },
+  "memory.list": {
+    "ru": [
+      "что ты запомнил обо мне",
+      "перечисли сохранённые факты",
+      "какие сведения записаны в памяти"
+    ],
+    "en": [
+      "what have you remembered about me",
+      "list the facts saved in memory",
+      "which memories have been stored"
+    ],
+    "de": [
+      "die gespeicherten Informationen zeigen",
+      "blende die gespeicherten Informationen ein",
+      "die gespeicherten Informationen einblenden"
+    ],
+    "fr": [
+      "montrer les informations enregistrées",
+      "affiche les informations enregistrées",
+      "afficher les informations enregistrées"
+    ],
+    "es": [
+      "mostrar los datos guardados",
+      "visualiza los datos guardados",
+      "visualizar los datos guardados"
+    ],
+    "it": [
+      "mostrare le informazioni salvate",
+      "visualizza le informazioni salvate",
+      "visualizzare le informazioni salvate"
+    ],
+    "pt": [
+      "mostrar os dados guardados",
+      "exibe os dados guardados",
+      "exibir os dados guardados"
+    ]
+  },
+  "network.ping": {
+    "ru": [
+      "проверить доступность {host}",
+      "протестируй доступность {host}",
+      "протестировать доступность {host}"
+    ],
+    "en": [
+      "verify connectivity to {host}",
+      "test connectivity to {host}",
+      "check out connectivity to {host}"
+    ],
+    "de": [
+      "die Erreichbarkeit von {host} prüfen",
+      "kontrolliere die Erreichbarkeit von {host}",
+      "die Erreichbarkeit von {host} kontrollieren"
+    ],
+    "fr": [
+      "vérifier la connexion à {host}",
+      "contrôle la connexion à {host}",
+      "contrôler la connexion à {host}"
+    ],
+    "es": [
+      "comprobar la conexión con {host}",
+      "verifica la conexión con {host}",
+      "verificar la conexión con {host}"
+    ],
+    "it": [
+      "verificare la connessione a {host}",
+      "controlla la connessione a {host}",
+      "controllare la connessione a {host}"
+    ],
+    "pt": [
+      "verificar a ligação a {host}",
+      "confere a ligação a {host}",
+      "conferir a ligação a {host}"
+    ]
+  },
+  "network.info": {
+    "ru": [
+      "что известно о подключении к сети",
+      "выведи параметры сети",
+      "какие сетевые подключения доступны"
+    ],
+    "en": [
+      "what is known about the network connection",
+      "give me the network details",
+      "which network connections are available"
+    ],
+    "de": [
+      "die Netzwerkinformationen zeigen",
+      "blende die Netzwerkinformationen ein",
+      "die Netzwerkinformationen einblenden"
+    ],
+    "fr": [
+      "montrer les informations réseau",
+      "affiche les informations réseau",
+      "afficher les informations réseau"
+    ],
+    "es": [
+      "mostrar la información de red",
+      "visualiza la información de red",
+      "visualizar la información de red"
+    ],
+    "it": [
+      "mostrare le informazioni di rete",
+      "visualizza le informazioni di rete",
+      "visualizzare le informazioni di rete"
+    ],
+    "pt": [
+      "mostrar as informações de rede",
+      "exibe as informações de rede",
+      "exibir as informações de rede"
+    ]
+  },
+  "network.flush_dns": {
+    "ru": [
+      "очистить кэш DNS",
+      "сотри кэш DNS",
+      "стереть кэш DNS"
+    ],
+    "en": [
+      "clear the DNS cache",
+      "empty the DNS cache",
+      "purge the DNS cache"
+    ],
+    "de": [
+      "den DNS-Cache leeren",
+      "bereinige den DNS-Cache",
+      "den DNS-Cache bereinigen"
+    ],
+    "fr": [
+      "vider le cache DNS",
+      "efface le cache DNS",
+      "effacer le cache DNS"
+    ],
+    "es": [
+      "vaciar la caché DNS",
+      "limpia la caché DNS",
+      "limpiar la caché DNS"
+    ],
+    "it": [
+      "svuotare la cache DNS",
+      "pulisci la cache DNS",
+      "pulire la cache DNS"
+    ],
+    "pt": [
+      "limpar a cache DNS",
+      "esvazia a cache DNS",
+      "esvaziar a cache DNS"
+    ]
+  },
+  "scenario.list": {
+    "ru": [
+      "какие сценарии у меня сохранены",
+      "перечисли доступные сценарии",
+      "выведи список моих сценариев"
+    ],
+    "en": [
+      "which scenarios have I saved",
+      "list the available scenarios",
+      "give me my scenario list"
+    ],
+    "de": [
+      "meine Szenarien zeigen",
+      "blende meine Szenarien ein",
+      "meine Szenarien einblenden"
+    ],
+    "fr": [
+      "montrer mes scénarios",
+      "affiche mes scénarios",
+      "afficher mes scénarios"
+    ],
+    "es": [
+      "mostrar mis escenarios",
+      "visualiza mis escenarios",
+      "visualizar mis escenarios"
+    ],
+    "it": [
+      "mostrare i miei scenari",
+      "visualizza i miei scenari",
+      "visualizzare i miei scenari"
+    ],
+    "pt": [
+      "mostrar os meus cenários",
+      "exibe os meus cenários",
+      "exibir os meus cenários"
+    ]
+  },
+  "scenario.run": {
+    "ru": [
+      "запустить сценарий {name}",
+      "выполни сценарий {name}",
+      "выполнить сценарий {name}"
+    ],
+    "en": [
+      "execute scenario {name}",
+      "start scenario {name}",
+      "launch scenario {name}"
+    ],
+    "de": [
+      "das Szenario {name} starten",
+      "aktiviere das Szenario {name}",
+      "das Szenario {name} aktivieren"
+    ],
+    "fr": [
+      "lancer le scénario {name}",
+      "démarre le scénario {name}",
+      "démarrer le scénario {name}"
+    ],
+    "es": [
+      "ejecutar el escenario {name}",
+      "inicia el escenario {name}",
+      "iniciar el escenario {name}"
+    ],
+    "it": [
+      "avviare lo scenario {name}",
+      "lancia lo scenario {name}",
+      "lanciare lo scenario {name}"
+    ],
+    "pt": [
+      "executar o cenário {name}",
+      "inicia o cenário {name}",
+      "iniciar o cenário {name}"
+    ]
+  },
+  "search.files": {
+    "ru": [
+      "найти файл {query}",
+      "отыщи файл {query}",
+      "отыскать файл {query}"
+    ],
+    "en": [
+      "locate file {query}",
+      "search for file {query}",
+      "look for file {query}"
+    ],
+    "de": [
+      "die Datei {query} finden",
+      "suche die Datei {query}",
+      "die Datei {query} suchen"
+    ],
+    "fr": [
+      "trouver le fichier {query}",
+      "cherche le fichier {query}",
+      "chercher le fichier {query}"
+    ],
+    "es": [
+      "buscar el archivo {query}",
+      "localiza el archivo {query}",
+      "localizar el archivo {query}"
+    ],
+    "it": [
+      "trovare il file {query}",
+      "cerca il file {query}",
+      "cercare il file {query}"
+    ],
+    "pt": [
+      "encontrar o ficheiro {query}",
+      "localiza o ficheiro {query}",
+      "localizar o ficheiro {query}"
+    ]
+  },
+  "search.content": {
+    "ru": [
+      "найти файл по содержимому {query}",
+      "отыщи файл по содержимому {query}",
+      "отыскать файл по содержимому {query}"
+    ],
+    "en": [
+      "locate a file containing {query}",
+      "search for a file containing {query}",
+      "look for a file containing {query}"
+    ],
+    "de": [
+      "eine Datei mit dem Inhalt {query} finden",
+      "suche eine Datei mit dem Inhalt {query}",
+      "eine Datei mit dem Inhalt {query} suchen"
+    ],
+    "fr": [
+      "trouver un fichier contenant {query}",
+      "cherche un fichier contenant {query}",
+      "chercher un fichier contenant {query}"
+    ],
+    "es": [
+      "buscar un archivo que contenga {query}",
+      "localiza un archivo que contenga {query}",
+      "localizar un archivo que contenga {query}"
+    ],
+    "it": [
+      "trovare un file che contenga {query}",
+      "cerca un file che contenga {query}",
+      "cercare un file che contenga {query}"
+    ],
+    "pt": [
+      "encontrar um ficheiro que contenha {query}",
+      "localiza um ficheiro que contenha {query}",
+      "localizar um ficheiro que contenha {query}"
+    ]
+  },
+  "system.status": {
+    "ru": [
+      "как сейчас работает система",
+      "выведи показатели системы",
+      "сообщи состояние компьютера"
+    ],
+    "en": [
+      "how is the system running right now",
+      "give me the system readings",
+      "report the computer status"
+    ],
+    "de": [
+      "den Systemstatus zeigen",
+      "blende den Systemstatus ein",
+      "den Systemstatus einblenden"
+    ],
+    "fr": [
+      "montrer l'état du système",
+      "affiche l'état du système",
+      "afficher l'état du système"
+    ],
+    "es": [
+      "mostrar el estado del sistema",
+      "visualiza el estado del sistema",
+      "visualizar el estado del sistema"
+    ],
+    "it": [
+      "mostrare lo stato del sistema",
+      "visualizza lo stato del sistema",
+      "visualizzare lo stato del sistema"
+    ],
+    "pt": [
+      "mostrar o estado do sistema",
+      "exibe o estado do sistema",
+      "exibir o estado do sistema"
+    ]
+  },
+  "system.top_processes": {
+    "ru": [
+      "какие процессы сильнее всего нагружают компьютер",
+      "перечисли самые тяжёлые процессы",
+      "что больше всего расходует ресурсы компьютера"
+    ],
+    "en": [
+      "which processes are using the most resources",
+      "list the heaviest processes",
+      "what is consuming the most computer resources"
+    ],
+    "de": [
+      "die ressourcenintensivsten Prozesse zeigen",
+      "blende die ressourcenintensivsten Prozesse ein",
+      "die ressourcenintensivsten Prozesse einblenden"
+    ],
+    "fr": [
+      "montrer les processus les plus gourmands",
+      "affiche les processus les plus gourmands",
+      "afficher les processus les plus gourmands"
+    ],
+    "es": [
+      "mostrar los procesos que más recursos consumen",
+      "visualiza los procesos que más recursos consumen",
+      "visualizar los procesos que más recursos consumen"
+    ],
+    "it": [
+      "mostrare i processi che consumano più risorse",
+      "visualizza i processi che consumano più risorse",
+      "visualizzare i processi che consumano più risorse"
+    ],
+    "pt": [
+      "mostrar os processos que consomem mais recursos",
+      "exibe os processos que consomem mais recursos",
+      "exibir os processos que consomem mais recursos"
+    ]
+  },
+  "system.terminate_process": {
+    "ru": [
+      "завершить процесс {name}",
+      "останови процесс {name}",
+      "остановить процесс {name}"
+    ],
+    "en": [
+      "kill process {name}",
+      "stop process {name}",
+      "end process {name}"
+    ],
+    "de": [
+      "den Prozess {name} beenden",
+      "stoppe den Prozess {name}",
+      "den Prozess {name} stoppen"
+    ],
+    "fr": [
+      "terminer le processus {name}",
+      "arrête le processus {name}",
+      "arrêter le processus {name}"
+    ],
+    "es": [
+      "finalizar el proceso {name}",
+      "termina el proceso {name}",
+      "terminar el proceso {name}"
+    ],
+    "it": [
+      "terminare il processo {name}",
+      "arresta il processo {name}",
+      "arrestare il processo {name}"
+    ],
+    "pt": [
+      "terminar o processo {name}",
+      "encerra o processo {name}",
+      "encerrar o processo {name}"
+    ]
+  },
+  "system.open_settings": {
+    "ru": [
+      "открыть настройки Windows",
+      "покажи настройки Windows",
+      "показать настройки Windows"
+    ],
+    "en": [
+      "bring up Windows settings",
+      "display Windows settings",
+      "open up Windows settings"
+    ],
+    "de": [
+      "die Windows-Einstellungen öffnen",
+      "zeige die Windows-Einstellungen",
+      "die Windows-Einstellungen zeigen"
+    ],
+    "fr": [
+      "ouvrir les paramètres Windows",
+      "affiche les paramètres Windows",
+      "afficher les paramètres Windows"
+    ],
+    "es": [
+      "abrir la configuración de Windows",
+      "muestra la configuración de Windows",
+      "mostrar la configuración de Windows"
+    ],
+    "it": [
+      "aprire le impostazioni di Windows",
+      "visualizza le impostazioni di Windows",
+      "visualizzare le impostazioni di Windows"
+    ],
+    "pt": [
+      "abrir as definições do Windows",
+      "mostra as definições do Windows",
+      "mostrar as definições do Windows"
+    ]
+  },
+  "system.lock": {
+    "ru": [
+      "включи блокировку компьютера",
+      "заблокировать сеанс Windows",
+      "закрой доступ к текущему сеансу Windows"
+    ],
+    "en": [
+      "secure the computer",
+      "lock access to the computer",
+      "enable the lock on the computer"
+    ],
+    "de": [
+      "Sperre meine Windows-Sitzung",
+      "Aktiviere die Bildschirmsperre",
+      "Wechsle zum Sperrbildschirm"
+    ],
+    "fr": [
+      "Verrouille ma session Windows",
+      "Active le verrouillage de l’ordinateur",
+      "Passe à l’écran de verrouillage"
+    ],
+    "es": [
+      "Activa el bloqueo del ordenador",
+      "Bloquea mi sesión de Windows",
+      "Pasa a la pantalla de bloqueo"
+    ],
+    "it": [
+      "Attiva il blocco del computer",
+      "Blocca la mia sessione Windows",
+      "Passa alla schermata di blocco"
+    ],
+    "pt": [
+      "Ativa o bloqueio do computador",
+      "Bloqueia a minha sessão do Windows",
+      "Passa para o ecrã de bloqueio"
+    ]
+  },
+  "system.shutdown": {
+    "ru": [
+      "выключить компьютер",
+      "отключи компьютер",
+      "отключить компьютер"
+    ],
+    "de": [
+      "den Computer herunterfahren",
+      "schalte den Computer aus",
+      "den Computer ausschalten"
+    ],
+    "fr": [
+      "Arrête complètement l’ordinateur",
+      "Lance l’arrêt du PC",
+      "Éteins mon ordinateur Windows"
+    ],
+    "es": [
+      "Apaga por completo el ordenador",
+      "Inicia el apagado del PC",
+      "Apaga mi equipo Windows"
+    ],
+    "it": [
+      "Arresta completamente il computer",
+      "Avvia lo spegnimento del PC",
+      "Spegni il mio computer Windows"
+    ],
+    "pt": [
+      "Desliga completamente o computador",
+      "Inicia o encerramento do PC",
+      "Desliga o meu computador Windows"
+    ],
+    "en": [
+      "power off the computer",
+      "switch off the computer",
+      "turn off the computer"
+    ]
+  },
+  "system.restart": {
+    "ru": [
+      "перезагрузить компьютер",
+      "перезапусти компьютер",
+      "перезапустить компьютер"
+    ],
+    "en": [
+      "reboot the computer",
+      "restart this computer",
+      "perform a computer restart"
+    ],
+    "de": [
+      "den Computer neu starten",
+      "starte den Rechner erneut",
+      "führe einen Neustart des Computers durch"
+    ],
+    "fr": [
+      "redémarrer l'ordinateur",
+      "relance l'ordinateur",
+      "relancer l'ordinateur"
+    ],
+    "es": [
+      "reiniciar el ordenador",
+      "rearranca el ordenador",
+      "rearrancar el ordenador"
+    ],
+    "it": [
+      "riavviare il computer",
+      "rilancia il computer",
+      "rilanciare il computer"
+    ],
+    "pt": [
+      "reiniciar o computador",
+      "rearranca o computador",
+      "rearrancar o computador"
+    ]
+  },
+  "system.cancel_shutdown": {
+    "ru": [
+      "отменить выключение компьютера",
+      "аннулируй выключение компьютера",
+      "аннулировать выключение компьютера"
+    ],
+    "en": [
+      "abort computer shutdown",
+      "call off computer shutdown",
+      "stop computer shutdown"
+    ],
+    "de": [
+      "das Herunterfahren abbrechen",
+      "stoppe das Herunterfahren",
+      "das Herunterfahren stoppen"
+    ],
+    "fr": [
+      "annuler l'arrêt de l'ordinateur",
+      "révoque l'arrêt de l'ordinateur",
+      "révoquer l'arrêt de l'ordinateur"
+    ],
+    "es": [
+      "cancelar el apagado del ordenador",
+      "anula el apagado del ordenador",
+      "anular el apagado del ordenador"
+    ],
+    "it": [
+      "annullare lo spegnimento del computer",
+      "revoca lo spegnimento del computer",
+      "revocare lo spegnimento del computer"
+    ],
+    "pt": [
+      "cancelar o encerramento do computador",
+      "anula o encerramento do computador",
+      "anular o encerramento do computador"
+    ]
+  },
+  "system.sleep": {
+    "ru": [
+      "перевести компьютер в спящий режим",
+      "переключи компьютер в спящий режим",
+      "переключить компьютер в спящий режим"
+    ],
+    "en": [
+      "send the computer to sleep",
+      "activate sleep mode on the computer",
+      "switch the computer to sleep mode"
+    ],
+    "de": [
+      "den Computer in den Energiesparmodus versetzen",
+      "schicke den Computer in den Energiesparmodus",
+      "den Computer in den Energiesparmodus schicken"
+    ],
+    "fr": [
+      "mettre l'ordinateur en veille",
+      "place l'ordinateur en veille",
+      "placer l'ordinateur en veille"
+    ],
+    "es": [
+      "poner el ordenador en suspensión",
+      "coloca el ordenador en suspensión",
+      "colocar el ordenador en suspensión"
+    ],
+    "it": [
+      "mettere il computer in sospensione",
+      "porta il computer in sospensione",
+      "portare il computer in sospensione"
+    ],
+    "pt": [
+      "colocar o computador em suspensão",
+      "põe o computador em suspensão",
+      "pôr o computador em suspensão"
+    ]
+  },
+  "system.hibernate": {
+    "ru": [
+      "перевести компьютер в гибернацию",
+      "переключи компьютер в гибернацию",
+      "переключить компьютер в гибернацию"
+    ],
+    "en": [
+      "put the computer into hibernation",
+      "send this computer into hibernation",
+      "activate hibernation mode on the computer"
+    ],
+    "de": [
+      "den Computer in den Ruhezustand versetzen",
+      "schicke den Computer in den Ruhezustand",
+      "den Computer in den Ruhezustand schicken"
+    ],
+    "fr": [
+      "mettre l'ordinateur en veille prolongée",
+      "place l'ordinateur en veille prolongée",
+      "placer l'ordinateur en veille prolongée"
+    ],
+    "es": [
+      "hibernar el ordenador",
+      "pon en hibernación el ordenador",
+      "poner en hibernación el ordenador"
+    ],
+    "it": [
+      "mettere il computer in ibernazione",
+      "porta il computer in ibernazione",
+      "portare il computer in ibernazione"
+    ],
+    "pt": [
+      "colocar o computador em hibernação",
+      "põe o computador em hibernação",
+      "pôr o computador em hibernação"
+    ]
+  },
+  "system.set_bluetooth": {
+    "ru": [
+      "включить Bluetooth",
+      "активируй Bluetooth",
+      "активировать Bluetooth"
+    ],
+    "en": [
+      "enable Bluetooth",
+      "activate Bluetooth",
+      "switch Bluetooth on"
+    ],
+    "de": [
+      "Bluetooth einschalten",
+      "aktiviere Bluetooth",
+      "Bluetooth aktivieren"
+    ],
+    "fr": [
+      "activer le Bluetooth",
+      "mets en marche le Bluetooth",
+      "mettre en marche le Bluetooth"
+    ],
+    "es": [
+      "activar Bluetooth",
+      "habilita Bluetooth",
+      "habilitar Bluetooth"
+    ],
+    "it": [
+      "attivare il Bluetooth",
+      "abilita il Bluetooth",
+      "abilitare il Bluetooth"
+    ],
+    "pt": [
+      "ativar o Bluetooth",
+      "habilita o Bluetooth",
+      "habilitar o Bluetooth"
+    ]
+  },
+  "system.set_wifi": {
+    "ru": [
+      "включить Wi-Fi",
+      "активируй Wi-Fi",
+      "активировать Wi-Fi"
+    ],
+    "en": [
+      "enable Wi-Fi",
+      "activate Wi-Fi",
+      "switch Wi-Fi on"
+    ],
+    "de": [
+      "WLAN einschalten",
+      "aktiviere WLAN",
+      "WLAN aktivieren"
+    ],
+    "fr": [
+      "activer le Wi-Fi",
+      "mets en marche le Wi-Fi",
+      "mettre en marche le Wi-Fi"
+    ],
+    "es": [
+      "activar el Wi-Fi",
+      "habilita el Wi-Fi",
+      "habilitar el Wi-Fi"
+    ],
+    "it": [
+      "attivare il Wi-Fi",
+      "abilita il Wi-Fi",
+      "abilitare il Wi-Fi"
+    ],
+    "pt": [
+      "ativar o Wi-Fi",
+      "habilita o Wi-Fi",
+      "habilitar o Wi-Fi"
+    ]
+  },
+  "system.set_brightness": {
+    "ru": [
+      "установить яркость экрана {value} процентов",
+      "задай яркость экрана {value} процентов",
+      "задать яркость экрана {value} процентов"
+    ],
+    "en": [
+      "adjust screen brightness to {value} percent",
+      "change screen brightness to {value} percent",
+      "configure screen brightness to {value} percent"
+    ],
+    "de": [
+      "die Bildschirmhelligkeit auf {value} Prozent stellen",
+      "setze die Bildschirmhelligkeit auf {value} Prozent",
+      "die Bildschirmhelligkeit auf {value} Prozent setzen"
+    ],
+    "fr": [
+      "régler la luminosité de l'écran à {value} pour cent",
+      "ajuste la luminosité de l'écran à {value} pour cent",
+      "ajuster la luminosité de l'écran à {value} pour cent"
+    ],
+    "es": [
+      "ajustar el brillo de la pantalla al {value} por ciento",
+      "establece el brillo de la pantalla al {value} por ciento",
+      "establecer el brillo de la pantalla al {value} por ciento"
+    ],
+    "it": [
+      "impostare la luminosità dello schermo al {value} per cento",
+      "regola la luminosità dello schermo al {value} per cento",
+      "regolare la luminosità dello schermo al {value} per cento"
+    ],
+    "pt": [
+      "definir o brilho do ecrã para {value} por cento",
+      "estabelece o brilho do ecrã para {value} por cento",
+      "estabelecer o brilho do ecrã para {value} por cento"
+    ]
+  },
+  "system.open_task_manager": {
+    "ru": [
+      "открыть диспетчер задач",
+      "покажи диспетчер задач",
+      "показать диспетчер задач"
+    ],
+    "en": [
+      "bring up Task Manager",
+      "display Task Manager",
+      "open up Task Manager"
+    ],
+    "de": [
+      "den Task-Manager öffnen",
+      "zeige den Task-Manager",
+      "den Task-Manager zeigen"
+    ],
+    "fr": [
+      "ouvrir le gestionnaire des tâches",
+      "affiche le gestionnaire des tâches",
+      "afficher le gestionnaire des tâches"
+    ],
+    "es": [
+      "abrir el administrador de tareas",
+      "muestra el administrador de tareas",
+      "mostrar el administrador de tareas"
+    ],
+    "it": [
+      "aprire Gestione attività",
+      "visualizza Gestione attività",
+      "visualizzare Gestione attività"
+    ],
+    "pt": [
+      "abrir o Gestor de Tarefas",
+      "mostra o Gestor de Tarefas",
+      "mostrar o Gestor de Tarefas"
+    ]
+  },
+  "system.list_power_plans": {
+    "ru": [
+      "какие схемы питания доступны",
+      "перечисли планы электропитания",
+      "выведи список режимов питания"
+    ],
+    "en": [
+      "which power plans are available",
+      "list the power schemes",
+      "give me the list of power plans"
+    ],
+    "de": [
+      "die Energiesparpläne zeigen",
+      "blende die Energiesparpläne ein",
+      "die Energiesparpläne einblenden"
+    ],
+    "fr": [
+      "montrer les modes d'alimentation",
+      "affiche les modes d'alimentation",
+      "afficher les modes d'alimentation"
+    ],
+    "es": [
+      "mostrar los planes de energía",
+      "visualiza los planes de energía",
+      "visualizar los planes de energía"
+    ],
+    "it": [
+      "mostrare i piani di alimentazione",
+      "visualizza i piani di alimentazione",
+      "visualizzare i piani di alimentazione"
+    ],
+    "pt": [
+      "mostrar os planos de energia",
+      "exibe os planos de energia",
+      "exibir os planos de energia"
+    ]
+  },
+  "system.get_power_plan": {
+    "ru": [
+      "какая схема питания сейчас выбрана",
+      "какой план электропитания действует",
+      "сообщи активную схему питания"
+    ],
+    "en": [
+      "which power plan is selected",
+      "what power scheme is in use",
+      "tell me the active power plan"
+    ],
+    "de": [
+      "den aktuellen Energiesparplan zeigen",
+      "blende den aktuellen Energiesparplan ein",
+      "den aktuellen Energiesparplan einblenden"
+    ],
+    "fr": [
+      "montrer le mode d'alimentation actuel",
+      "affiche le mode d'alimentation actuel",
+      "afficher le mode d'alimentation actuel"
+    ],
+    "es": [
+      "mostrar el plan de energía actual",
+      "visualiza el plan de energía actual",
+      "visualizar el plan de energía actual"
+    ],
+    "it": [
+      "mostrare il piano di alimentazione corrente",
+      "visualizza il piano di alimentazione corrente",
+      "visualizzare il piano di alimentazione corrente"
+    ],
+    "pt": [
+      "mostrar o plano de energia atual",
+      "exibe o plano de energia atual",
+      "exibir o plano de energia atual"
+    ]
+  },
+  "system.set_power_plan": {
+    "ru": [
+      "выбрать схему электропитания {name}",
+      "укажи схему электропитания {name}",
+      "указать схему электропитания {name}"
+    ],
+    "en": [
+      "choose power plan {name}",
+      "use power plan {name}",
+      "switch to power plan {name}"
+    ],
+    "de": [
+      "den Energiesparplan {name} wählen",
+      "selektiere den Energiesparplan {name}",
+      "den Energiesparplan {name} selektieren"
+    ],
+    "fr": [
+      "choisir le mode d'alimentation {name}",
+      "sélectionne le mode d'alimentation {name}",
+      "sélectionner le mode d'alimentation {name}"
+    ],
+    "es": [
+      "elegir el plan de energía {name}",
+      "selecciona el plan de energía {name}",
+      "seleccionar el plan de energía {name}"
+    ],
+    "it": [
+      "scegliere il piano di alimentazione {name}",
+      "seleziona il piano di alimentazione {name}",
+      "selezionare il piano di alimentazione {name}"
+    ],
+    "pt": [
+      "escolher o plano de energia {name}",
+      "seleciona o plano de energia {name}",
+      "selecionar o plano de energia {name}"
+    ]
+  },
+  "system.turn_off_displays": {
+    "ru": [
+      "выключить мониторы",
+      "отключи мониторы",
+      "отключить мониторы"
+    ],
+    "en": [
+      "switch off the displays",
+      "power off the monitors",
+      "put the displays to sleep"
+    ],
+    "de": [
+      "Schalte nur die Monitore aus",
+      "Mach die Bildschirme dunkel",
+      "Schalte die Anzeige der Monitore aus"
+    ],
+    "fr": [
+      "Éteins uniquement les moniteurs",
+      "Coupe l’affichage des écrans",
+      "Mets les moniteurs hors tension"
+    ],
+    "es": [
+      "Apaga solamente las pantallas",
+      "Apaga la imagen de los monitores",
+      "Deja apagadas las pantallas"
+    ],
+    "it": [
+      "Spegni soltanto gli schermi",
+      "Disattiva la visualizzazione dei monitor",
+      "Lascia spenti gli schermi"
+    ],
+    "pt": [
+      "Desliga apenas os ecrãs",
+      "Apaga a imagem dos monitores",
+      "Deixa os ecrãs desligados"
+    ]
+  },
+  "system.get_mouse_sensitivity": {
+    "ru": [
+      "какая чувствительность мыши установлена",
+      "какой уровень чувствительности у мыши",
+      "сообщи текущую чувствительность мыши"
+    ],
+    "en": [
+      "what mouse sensitivity is set",
+      "how high is the mouse sensitivity",
+      "tell me the current mouse sensitivity"
+    ],
+    "de": [
+      "die Mausempfindlichkeit zeigen",
+      "blende die Mausempfindlichkeit ein",
+      "die Mausempfindlichkeit einblenden"
+    ],
+    "fr": [
+      "montrer la sensibilité de la souris",
+      "affiche la sensibilité de la souris",
+      "afficher la sensibilité de la souris"
+    ],
+    "es": [
+      "mostrar la sensibilidad del ratón",
+      "visualiza la sensibilidad del ratón",
+      "visualizar la sensibilidad del ratón"
+    ],
+    "it": [
+      "mostrare la sensibilità del mouse",
+      "visualizza la sensibilità del mouse",
+      "visualizzare la sensibilità del mouse"
+    ],
+    "pt": [
+      "mostrar a sensibilidade do rato",
+      "exibe a sensibilidade do rato",
+      "exibir a sensibilidade do rato"
+    ]
+  },
+  "system.set_mouse_sensitivity": {
+    "ru": [
+      "установить чувствительность мыши {value}",
+      "задай чувствительность мыши {value}",
+      "задать чувствительность мыши {value}"
+    ],
+    "en": [
+      "adjust mouse sensitivity to {value}",
+      "change mouse sensitivity to {value}",
+      "configure mouse sensitivity to {value}"
+    ],
+    "de": [
+      "die Mausempfindlichkeit auf {value} stellen",
+      "setze die Mausempfindlichkeit auf {value}",
+      "die Mausempfindlichkeit auf {value} setzen"
+    ],
+    "fr": [
+      "régler la sensibilité de la souris sur {value}",
+      "ajuste la sensibilité de la souris sur {value}",
+      "ajuster la sensibilité de la souris sur {value}"
+    ],
+    "es": [
+      "ajustar la sensibilidad del ratón a {value}",
+      "establece la sensibilidad del ratón a {value}",
+      "establecer la sensibilidad del ratón a {value}"
+    ],
+    "it": [
+      "impostare la sensibilità del mouse a {value}",
+      "regola la sensibilità del mouse a {value}",
+      "regolare la sensibilità del mouse a {value}"
+    ],
+    "pt": [
+      "definir a sensibilidade do rato para {value}",
+      "estabelece a sensibilidade do rato para {value}",
+      "estabelecer a sensibilidade do rato para {value}"
+    ]
+  },
+  "system.change_mouse_sensitivity": {
+    "ru": [
+      "увеличить чувствительность мыши на {value}",
+      "повысь чувствительность мыши на {value}",
+      "повысить чувствительность мыши на {value}"
+    ],
+    "en": [
+      "raise mouse sensitivity by {value}",
+      "turn up mouse sensitivity by {value}",
+      "boost mouse sensitivity by {value}"
+    ],
+    "de": [
+      "die Mausempfindlichkeit um {value} erhöhen",
+      "steigere die Mausempfindlichkeit um {value}",
+      "die Mausempfindlichkeit um {value} steigern"
+    ],
+    "fr": [
+      "augmenter la sensibilité de la souris de {value}",
+      "rehausse la sensibilité de la souris de {value}",
+      "rehausser la sensibilité de la souris de {value}"
+    ],
+    "es": [
+      "aumentar la sensibilidad del ratón en {value}",
+      "incrementa la sensibilidad del ratón en {value}",
+      "incrementar la sensibilidad del ratón en {value}"
+    ],
+    "it": [
+      "aumentare la sensibilità del mouse di {value}",
+      "incrementa la sensibilità del mouse di {value}",
+      "incrementare la sensibilità del mouse di {value}"
+    ],
+    "pt": [
+      "aumentar a sensibilidade do rato em {value}",
+      "incrementa a sensibilidade do rato em {value}",
+      "incrementar a sensibilidade do rato em {value}"
+    ]
+  },
+  "text_edit.dictate": {
+    "ru": [
+      "напечатать под диктовку {text}",
+      "введи под диктовку {text}",
+      "ввести под диктовку {text}"
+    ],
+    "en": [
+      "enter this dictation {text}",
+      "write this dictation {text}",
+      "type out this dictation {text}"
+    ],
+    "de": [
+      "dieses Diktat {text} schreiben",
+      "tippe dieses Diktat {text}",
+      "dieses Diktat {text} tippen"
+    ],
+    "fr": [
+      "saisir cette dictée {text}",
+      "écris cette dictée {text}",
+      "écrire cette dictée {text}"
+    ],
+    "es": [
+      "escribir este dictado {text}",
+      "introduce este dictado {text}",
+      "introducir este dictado {text}"
+    ],
+    "it": [
+      "scrivere questo dettato {text}",
+      "digita questo dettato {text}",
+      "digitare questo dettato {text}"
+    ],
+    "pt": [
+      "escrever este ditado {text}",
+      "introduz este ditado {text}",
+      "introduzir este ditado {text}"
+    ]
+  },
+  "text_edit.select_previous_paragraph": {
+    "ru": [
+      "выделить предыдущий абзац",
+      "отметь предыдущий абзац",
+      "отметить предыдущий абзац"
+    ],
+    "en": [
+      "highlight the previous paragraph",
+      "select the paragraph before this one",
+      "mark the preceding paragraph as selected"
+    ],
+    "de": [
+      "den vorherigen Absatz markieren",
+      "selektiere den vorherigen Absatz",
+      "den vorherigen Absatz selektieren"
+    ],
+    "fr": [
+      "sélectionner le paragraphe précédent",
+      "choisis le paragraphe précédent",
+      "choisir le paragraphe précédent"
+    ],
+    "es": [
+      "seleccionar el párrafo anterior",
+      "elige el párrafo anterior",
+      "elegir el párrafo anterior"
+    ],
+    "it": [
+      "selezionare il paragrafo precedente",
+      "marca il paragrafo precedente",
+      "marcare il paragrafo precedente"
+    ],
+    "pt": [
+      "selecionar o parágrafo anterior",
+      "escolhe o parágrafo anterior",
+      "escolher o parágrafo anterior"
+    ]
+  },
+  "text_edit.fix_selection": {
+    "ru": [
+      "исправить выделенный текст",
+      "скорректируй выделенный текст",
+      "скорректировать выделенный текст"
+    ],
+    "en": [
+      "fix the selected text",
+      "rectify the selected text",
+      "revise the selected text"
+    ],
+    "de": [
+      "den markierten Text korrigieren",
+      "berichtige den markierten Text",
+      "den markierten Text berichtigen"
+    ],
+    "fr": [
+      "corriger le texte sélectionné",
+      "rectifie le texte sélectionné",
+      "rectifier le texte sélectionné"
+    ],
+    "es": [
+      "corregir el texto seleccionado",
+      "rectifica el texto seleccionado",
+      "rectificar el texto seleccionado"
+    ],
+    "it": [
+      "correggere il testo selezionato",
+      "rettifica il testo selezionato",
+      "rettificare il testo selezionato"
+    ],
+    "pt": [
+      "corrigir o texto selecionado",
+      "retifica o texto selecionado",
+      "retificar o texto selecionado"
+    ]
+  },
+  "text_edit.replace_last_sentence": {
+    "ru": [
+      "заменить последнее предложение на {text}",
+      "измени последнее предложение на {text}",
+      "изменить последнее предложение на {text}"
+    ],
+    "en": [
+      "substitute the last sentence with {text}",
+      "swap the last sentence with {text}",
+      "exchange the last sentence with {text}"
+    ],
+    "de": [
+      "den letzten Satz durch {text} ersetzen",
+      "tausche den letzten Satz gegen {text} aus",
+      "ändere den letzten Satz zu {text}"
+    ],
+    "fr": [
+      "remplacer la dernière phrase par {text}",
+      "substitue la dernière phrase par {text}",
+      "substituer la dernière phrase par {text}"
+    ],
+    "es": [
+      "sustituir la última frase por {text}",
+      "reemplaza la última frase por {text}",
+      "reemplazar la última frase por {text}"
+    ],
+    "it": [
+      "sostituire l'ultima frase con {text}",
+      "rimpiazza l'ultima frase con {text}",
+      "rimpiazzare l'ultima frase con {text}"
+    ],
+    "pt": [
+      "substituir a última frase por {text}",
+      "troca a última frase por {text}",
+      "trocar a última frase por {text}"
+    ]
+  },
+  "game_locations.query": {
+    "ru": [
+      "найди сохранения игры {name}",
+      "покажи папку сохранений {name}",
+      "где лежат игровые сохранения {name}"
+    ],
+    "en": [
+      "find the saves for {name}",
+      "locate the save folder for {name}",
+      "show the saved games for {name}"
+    ],
+    "de": [
+      "finde die Spielstände von {name}",
+      "zeige den Speicherstandordner von {name}",
+      "wo liegen die Spielstände von {name}"
+    ],
+    "fr": [
+      "trouve les sauvegardes de {name}",
+      "montre le dossier des sauvegardes de {name}",
+      "où se trouvent les sauvegardes de {name}"
+    ],
+    "es": [
+      "localiza las partidas guardadas de {name}",
+      "muestra la carpeta de partidas de {name}",
+      "dónde se guardan las partidas de {name}"
+    ],
+    "it": [
+      "trova i salvataggi di {name}",
+      "mostra la cartella dei salvataggi di {name}",
+      "dove si trovano i salvataggi di {name}"
+    ],
+    "pt": [
+      "encontra os jogos guardados de {name}",
+      "mostra a pasta das gravações de {name}",
+      "onde ficam as gravações de {name}"
+    ]
+  }
+}
