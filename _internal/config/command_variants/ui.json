@@ -1,0 +1,437 @@
+{
+ "ui.type": {
+  "ru": [
+   "напиши здесь {text}",
+   "введи {text}",
+   "набери {text}",
+   "напечатай здесь {text}",
+   "вбей {text}"
+  ],
+  "en": [
+   "type in {text}",
+   "write here {text}",
+   "input {text}"
+  ],
+  "de": [
+   "gib ein {text}",
+   "schreibe hier {text}",
+   "tippe hier {text}"
+  ],
+  "fr": [
+   "tape ici {text}",
+   "écris ici {text}",
+   "saisis {text}"
+  ],
+  "es": [
+   "escribe aquí {text}",
+   "introduce {text}",
+   "teclea aquí {text}"
+  ],
+  "it": [
+   "digita {text}",
+   "inserisci {text}",
+   "batti {text}"
+  ],
+  "pt": [
+   "digita aqui {text}",
+   "escreve aqui {text}",
+   "introduz {text}"
+  ]
+ },
+ "ui.press": {
+  "ru": [
+   "нажми {key}",
+   "жми {key}",
+   "нажми на клавишу {key}",
+   "нажми на клаве {key}",
+   "тапни {key}",
+   "клавиша {key}"
+  ],
+  "en": [
+   "press {key}",
+   "hit {key}",
+   "press key {key}",
+   "hit the key {key}"
+  ],
+  "de": [
+   "drücke {key}",
+   "drück {key}",
+   "drücke Taste {key}"
+  ],
+  "fr": [
+   "appuie sur {key}",
+   "presse {key}",
+   "appuie sur la touche clavier {key}"
+  ],
+  "es": [
+   "pulsa {key}",
+   "presiona {key}",
+   "presiona la tecla {key}"
+  ],
+  "it": [
+   "premi {key}",
+   "schiaccia {key}",
+   "premi il tasto della tastiera {key}"
+  ],
+  "pt": [
+   "prime {key}",
+   "carrega em {key}",
+   "pressiona {key}"
+  ]
+ },
+ "ui.hints": {
+  "ru": [
+   "пронумеруй элементы",
+   "покажи номера",
+   "пронумеруй кнопки и ссылки",
+   "покажи что можно нажать",
+   "расставь номера"
+  ],
+  "en": [
+   "show numbers",
+   "number the elements",
+   "show clickable elements"
+  ],
+  "de": [
+   "zeige Nummern",
+   "nummeriere die Elemente"
+  ],
+  "fr": [
+   "affiche les numéros",
+   "numérote les éléments"
+  ],
+  "es": [
+   "muestra los números",
+   "numera los elementos"
+  ],
+  "it": [
+   "mostra i numeri",
+   "numera gli elementi"
+  ],
+  "pt": [
+   "mostra os números",
+   "numera os elementos"
+  ]
+ },
+ "ui.hints_off": {
+  "ru": [
+   "убери номера",
+   "спрячь номера",
+   "скрой номера"
+  ],
+  "en": [
+   "hide numbers",
+   "remove the numbers"
+  ],
+  "de": [
+   "Nummern ausblenden",
+   "entferne die Nummern"
+  ],
+  "fr": [
+   "cache les numéros",
+   "enlève les numéros"
+  ],
+  "es": [
+   "oculta los números",
+   "quita los números"
+  ],
+  "it": [
+   "nascondi i numeri",
+   "togli i numeri"
+  ],
+  "pt": [
+   "esconde os números",
+   "tira os números"
+  ]
+ },
+ "ui.click_number": {
+  "ru": [
+   "нажми номер {number}",
+   "кликни номер {number}",
+   "клик по номеру {number}"
+  ],
+  "en": [
+   "press number {number}",
+   "click on number {number}"
+  ],
+  "de": [
+   "klicke Nummer {number}",
+   "drücke Nummer {number}"
+  ],
+  "fr": [
+   "clique le numéro {number}"
+  ],
+  "es": [
+   "pulsa el número {number}"
+  ],
+  "it": [
+   "premi il numero {number}"
+  ],
+  "pt": [
+   "carrega no número {number}"
+  ]
+ },
+ "ui.click_link": {
+  "ru": [
+   "нажми на {index} ссылку",
+   "перейди по {index} ссылке",
+   "кликни {index} ссылку"
+  ],
+  "en": [
+   "click link {index}",
+   "click the {index} link",
+   "open the {index} link"
+  ],
+  "de": [
+   "klicke Link {index}",
+   "öffne den {index} Link"
+  ],
+  "fr": [
+   "clique sur le lien {index}",
+   "ouvre le {index} lien"
+  ],
+  "es": [
+   "pulsa el enlace {index}",
+   "abre el {index} enlace"
+  ],
+  "it": [
+   "clicca il link {index}",
+   "apri il {index} link"
+  ],
+  "pt": [
+   "clica no link {index}",
+   "abre o {index} link"
+  ]
+ },
+ "ui.click_button": {
+  "ru": [
+   "нажми на {index} кнопку",
+   "кликни {index} кнопку"
+  ],
+  "en": [
+   "click the {index} button",
+   "press the {index} button"
+  ],
+  "de": [
+   "drücke die {index} Schaltfläche",
+   "klicke die {index} Schaltfläche"
+  ],
+  "fr": [
+   "appuie sur le bouton numéro {index}",
+   "clique sur le {index} bouton"
+  ],
+  "es": [
+   "pulsa el {index} botón"
+  ],
+  "it": [
+   "premi il {index} pulsante"
+  ],
+  "pt": [
+   "carrega no botão número {index}",
+   "clica no {index} botão"
+  ]
+ },
+ "ui.click_item": {
+  "ru": [
+   "выбери {index} вариант",
+   "выбери {index} элемент списка"
+  ],
+  "en": [
+   "select the {index} item",
+   "choose the {index} option"
+  ],
+  "de": [
+   "wähle die {index} Option",
+   "wähle den {index} Eintrag"
+  ],
+  "fr": [
+   "choisis l'option {index}",
+   "choisis le {index} élément"
+  ],
+  "es": [
+   "elige la opción {index}"
+  ],
+  "it": [
+   "scegli l'opzione {index}"
+  ],
+  "pt": [
+   "escolhe a opção {index}"
+  ]
+ },
+ "ui.scroll_down": {
+  "ru": [
+   "листай вниз",
+   "полистай вниз",
+   "прокрути ниже",
+   "скролл вниз",
+   "пролистай вниз"
+  ],
+  "en": [
+   "scroll down a bit",
+   "page down"
+  ],
+  "de": [
+   "runter scrollen",
+   "scroll runter"
+  ],
+  "fr": [
+   "descends la page",
+   "fais défiler vers le bas"
+  ],
+  "es": [
+   "baja la página",
+   "desliza hacia abajo"
+  ],
+  "it": [
+   "scorri giù",
+   "vai giù nella pagina"
+  ],
+  "pt": [
+   "rola para baixo",
+   "desce a página"
+  ]
+ },
+ "ui.scroll_up": {
+  "ru": [
+   "листай вверх",
+   "полистай вверх",
+   "прокрути выше",
+   "скролл вверх",
+   "пролистай вверх"
+  ],
+  "en": [
+   "scroll up a bit",
+   "page up"
+  ],
+  "de": [
+   "hoch scrollen",
+   "scroll hoch"
+  ],
+  "fr": [
+   "remonte la page",
+   "fais défiler vers le haut"
+  ],
+  "es": [
+   "sube la página",
+   "desliza hacia arriba"
+  ],
+  "it": [
+   "scorri su",
+   "vai su nella pagina"
+  ],
+  "pt": [
+   "rola para cima",
+   "sobe a página"
+  ]
+ },
+ "ui.scroll_top": {
+  "ru": [
+   "в начало страницы",
+   "прокрути в начало",
+   "наверх страницы"
+  ],
+  "en": [
+   "go to the top of the page"
+  ],
+  "de": [
+   "zum Seitenanfang"
+  ],
+  "fr": [
+   "va en haut de la page"
+  ],
+  "es": [
+   "ve al principio de la página"
+  ],
+  "it": [
+   "vai all'inizio della pagina"
+  ],
+  "pt": [
+   "vai para o topo da página"
+  ]
+ },
+ "ui.scroll_bottom": {
+  "ru": [
+   "в конец страницы",
+   "прокрути в конец",
+   "вниз страницы до конца"
+  ],
+  "en": [
+   "go to the bottom of the page"
+  ],
+  "de": [
+   "zum Seitenende"
+  ],
+  "fr": [
+   "va en bas de la page"
+  ],
+  "es": [
+   "ve al final de la página"
+  ],
+  "it": [
+   "vai alla fine della pagina"
+  ],
+  "pt": [
+   "vai para o fim da página"
+  ]
+ },
+ "ui.read": {
+  "ru": [
+   "прочитай что написано в окне",
+   "прочитай текст на экране",
+   "что написано в окне"
+  ],
+  "en": [
+   "read the window text",
+   "what is written in the window"
+  ],
+  "de": [
+   "was steht im Fenster"
+  ],
+  "fr": [
+   "qu'est-ce qui est écrit dans la fenêtre"
+  ],
+  "es": [
+   "qué pone en la ventana"
+  ],
+  "it": [
+   "cosa c'è scritto nella finestra"
+  ],
+  "pt": [
+   "o que está escrito na janela"
+  ]
+ },
+ "ui.again": {
+  "ru": [
+   "повтори нажатие",
+   "нажми это ещё раз",
+   "кликни ещё раз",
+   "сделай это ещё раз",
+   "повтори последнее действие"
+  ],
+  "en": [
+   "click it again",
+   "press it again",
+   "repeat that"
+  ],
+  "de": [
+   "klicke nochmal",
+   "wiederhole das"
+  ],
+  "fr": [
+   "clique encore",
+   "répète ça"
+  ],
+  "es": [
+   "pulsa otra vez",
+   "repite eso"
+  ],
+  "it": [
+   "clicca di nuovo",
+   "ripeti"
+  ],
+  "pt": [
+   "clica outra vez",
+   "repete isso"
+  ]
+ }
+}
