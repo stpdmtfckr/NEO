@@ -1,0 +1,80 @@
+{
+  "music.my_wave": {
+    "ru": [
+      "включи моя волна",
+      "запусти моя волна",
+      "поставь моя волна",
+      "включи мая волна",
+      "включи маю волну"
+    ]
+  },
+  "discord.music_my_wave": {
+    "ru": [
+      "включи моя волна в дискорде",
+      "включи мою волну в дискорде",
+      "включи моя волна в Discord",
+      "моя волна в дискорде"
+    ]
+  },
+  "yandex_music.my_wave": {
+    "ru": [
+      "включи моя волна в яндекс музыке",
+      "включи моя волна на компьютере",
+      "включи мою волну на компьютере"
+    ]
+  },
+  "system_monitor.cpu": {
+    "ru": [
+      "покажи процессор"
+    ]
+  },
+  "music.queue_status": {
+    "ru": [
+      "какие треки дальше"
+    ]
+  },
+  "music.play_track": {
+    "ru": [
+      "включи трек {query}"
+    ],
+    "en": [
+      "play track {query}",
+      "play a track {query}"
+    ],
+    "de": [
+      "spiele den Track {query}"
+    ],
+    "fr": [
+      "joue le titre {query}"
+    ],
+    "es": [
+      "reproduce la pista {query}"
+    ],
+    "it": [
+      "riproduci la traccia {query}"
+    ],
+    "pt": [
+      "toca a faixa {query}"
+    ]
+  },
+  "system.shutdown": {
+    "en": [
+      "shutdown the computer"
+    ]
+  },
+  "jarvis.shutdown": {
+    "en": [
+      "shutdown the assistant"
+    ]
+  },
+  "music.unlike": {
+    "en": [
+      "remove the current song from my favorites"
+    ]
+  },
+  "music.stop": {
+    "ru": [
+      "выключи музыку"
+    ]
+  }
+}
