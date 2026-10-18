@@ -1,0 +1,60 @@
+{
+ "plugins.list": {
+  "ru": [
+   "какие плагины установлены",
+   "мои плагины",
+   "список плагинов"
+  ],
+  "en": [
+   "which plugins are installed",
+   "list plugins"
+  ],
+  "de": [
+   "welche Plugins sind installiert"
+  ],
+  "fr": [
+   "quels plugins sont installés"
+  ],
+  "es": [
+   "qué plugins hay instalados"
+  ],
+  "it": [
+   "quali plugin sono installati"
+  ],
+  "pt": [
+   "que plugins estão instalados"
+  ]
+ },
+ "plugins.approve": {
+  "ru": [
+   "подтверждаю включение плагина {name}"
+  ],
+  "en": [
+   "I approve the plugin {name}"
+  ]
+ },
+ "plugins.reload": {
+  "ru": [
+   "перезагрузи плагины",
+   "обнови плагины"
+  ],
+  "en": [
+   "reload plugins"
+  ],
+  "de": [
+   "Plugins neu laden"
+  ],
+  "fr": [
+   "recharge les plugins"
+  ],
+  "es": [
+   "recarga los plugins"
+  ],
+  "it": [
+   "ricarica i plugin"
+  ],
+  "pt": [
+   "recarrega os plugins"
+  ]
+ }
+}
