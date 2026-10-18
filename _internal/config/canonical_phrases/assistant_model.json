@@ -1,0 +1,47 @@
+{
+ "assistant_model.status": [
+  "Покажи состояние модели ассистента",
+  "Show the assistant model status",
+  "Zeige den Status des Assistenzmodells",
+  "Montre l’état du modèle d’assistant",
+  "Muestra el estado del modelo del asistente",
+  "Mostra lo stato del modello assistente",
+  "Mostra o estado do modelo do assistente"
+ ],
+ "assistant_model.install": [
+  "Установи модель ассистента",
+  "Install the assistant model",
+  "Installiere das Assistenzmodell",
+  "Installe le modèle d’assistant",
+  "Instala el modelo del asistente",
+  "Installa il modello assistente",
+  "Instala o modelo do assistente"
+ ],
+ "assistant_model.train": [
+  "Дообучи модель ассистента",
+  "Fine-tune the assistant model",
+  "Trainiere das Assistenzmodell nach",
+  "Affine le modèle d’assistant",
+  "Ajusta el modelo del asistente",
+  "Affina il modello assistente",
+  "Afina o modelo do assistente"
+ ],
+ "assistant_model.stop": [
+  "Останови дообучение модели ассистента",
+  "Stop fine-tuning the assistant model",
+  "Stoppe das Nachtraining des Assistenzmodells",
+  "Arrête l’affinage du modèle d’assistant",
+  "Detén el ajuste del modelo del asistente",
+  "Ferma l’affinamento del modello assistente",
+  "Para a afinação do modelo do assistente"
+ ],
+ "assistant_model.rollback": [
+  "Откати модель ассистента",
+  "Roll back the assistant model",
+  "Setze das Assistenzmodell zurück",
+  "Reviens à la version précédente du modèle d’assistant",
+  "Revierte el modelo del asistente",
+  "Ripristina la versione precedente del modello assistente",
+  "Reverte o modelo do assistente"
+ ]
+}
