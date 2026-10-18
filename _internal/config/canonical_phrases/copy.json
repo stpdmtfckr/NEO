@@ -1,0 +1,191 @@
+{
+ "copy.reply": [
+  "Скопируй свой последний ответ",
+  "Copy your last answer",
+  "Kopiere deine letzte Antwort",
+  "Copie ta dernière réponse",
+  "Copia tu última respuesta",
+  "Copia la tua ultima risposta",
+  "Copia a tua última resposta"
+ ],
+ "copy.previous_reply": [
+  "Скопируй свой предыдущий ответ",
+  "Copy your previous answer",
+  "Kopiere deine vorherige Antwort",
+  "Copie ta réponse précédente",
+  "Copia tu respuesta anterior",
+  "Copia la tua risposta precedente",
+  "Copia a tua resposta anterior"
+ ],
+ "copy.selection": [
+  "Скопируй выделенный текст",
+  "Copy the selected text",
+  "Kopiere den markierten Text",
+  "Copie le texte sélectionné",
+  "Copia el texto seleccionado",
+  "Copia il testo selezionato",
+  "Copia o texto selecionado"
+ ],
+ "copy.page": [
+  "Скопируй весь текст со страницы",
+  "Copy all the text from the page",
+  "Kopiere den ganzen Text der Seite",
+  "Copie tout le texte de la page",
+  "Copia todo el texto de la página",
+  "Copia tutto il testo della pagina",
+  "Copia todo o texto da página"
+ ],
+ "copy.file_text": [
+  "Скопируй текст из файла {name}",
+  "Copy the text from the file {name}",
+  "Kopiere den Text aus der Datei {name}",
+  "Copie le texte du fichier {name}",
+  "Copia el texto del archivo {name}",
+  "Copia il testo dal file {name}",
+  "Copia o texto do ficheiro {name}"
+ ],
+ "copy.file": [
+  "Скопируй файл {name}",
+  "Copy the file {name}",
+  "Kopiere die Datei {name}",
+  "Copie le fichier {name}",
+  "Copia el archivo {name}",
+  "Copia il file {name}",
+  "Copia o ficheiro {name}"
+ ],
+ "copy.folder": [
+  "Скопируй папку {name}",
+  "Copy the folder {name}",
+  "Kopiere den Ordner {name}",
+  "Copie le dossier {name}",
+  "Copia la carpeta {name}",
+  "Copia la cartella {name}",
+  "Copia a pasta {name}"
+ ],
+ "copy.url": [
+  "Скопируй адрес этой страницы",
+  "Copy the address of this page",
+  "Kopiere die Adresse dieser Seite",
+  "Copie l’adresse de cette page",
+  "Copia la dirección de esta página",
+  "Copia l’indirizzo di questa pagina",
+  "Copia o endereço desta página"
+ ],
+ "copy.link": [
+  "Скопируй {index} ссылку на странице",
+  "Copy link {index} on the page",
+  "Kopiere Link {index} auf der Seite",
+  "Copie le lien {index} de la page",
+  "Copia el enlace {index} de la página",
+  "Copia il link {index} della pagina",
+  "Copia o link {index} da página"
+ ],
+ "copy.screenshot": [
+  "Скопируй скриншот экрана в буфер",
+  "Copy a screenshot of the screen to the clipboard",
+  "Kopiere einen Screenshot des Bildschirms in die Zwischenablage",
+  "Copie une capture de l’écran dans le presse-papiers",
+  "Copia una captura de la pantalla al portapapeles",
+  "Copia uno screenshot dello schermo negli appunti",
+  "Copia uma captura do ecrã para a área de transferência"
+ ],
+ "copy.window_screenshot": [
+  "Скопируй скриншот окна в буфер",
+  "Copy a screenshot of the window to the clipboard",
+  "Kopiere einen Screenshot des Fensters in die Zwischenablage",
+  "Copie une capture de la fenêtre dans le presse-papiers",
+  "Copia una captura de la ventana al portapapeles",
+  "Copia uno screenshot della finestra negli appunti",
+  "Copia uma captura da janela para a área de transferência"
+ ],
+ "copy.last_screenshot": [
+  "Скопируй последний скриншот",
+  "Copy the last screenshot",
+  "Kopiere den letzten Screenshot",
+  "Copie la dernière capture",
+  "Copia la última captura",
+  "Copia l’ultimo screenshot",
+  "Copia a última captura"
+ ],
+ "copy.paste": [
+  "Вставь из буфера обмена",
+  "Paste from the clipboard",
+  "Füge aus der Zwischenablage ein",
+  "Colle depuis le presse-papiers",
+  "Pega desde el portapapeles",
+  "Incolla dagli appunti",
+  "Cola da área de transferência"
+ ],
+ "copy.paste_window": [
+  "Вставь в окно {name}",
+  "Paste into the window {name}",
+  "Füge in das Fenster {name} ein",
+  "Colle dans la fenêtre {name}",
+  "Pega en la ventana {name}",
+  "Incolla nella finestra {name}",
+  "Cola na janela {name}"
+ ],
+ "copy.paste_field": [
+  "Вставь в поле {name}",
+  "Paste into the field {name}",
+  "Füge in das Feld {name} ein",
+  "Colle dans le champ {name}",
+  "Pega en el campo {name}",
+  "Incolla nel campo {name}",
+  "Cola no campo {name}"
+ ],
+ "copy.paste_line": [
+  "Вставь в строку {index}",
+  "Paste into line {index}",
+  "Füge in Zeile {index} ein",
+  "Colle à la ligne {index}",
+  "Pega en la línea {index}",
+  "Incolla alla riga {index}",
+  "Cola na linha {index}"
+ ],
+ "copy.paste_end": [
+  "Вставь в конец текста",
+  "Paste at the end of the text",
+  "Füge am Ende des Textes ein",
+  "Colle à la fin du texte",
+  "Pega al final del texto",
+  "Incolla alla fine del testo",
+  "Cola no fim do texto"
+ ],
+ "copy.paste_file": [
+  "Допиши скопированное в файл {name}",
+  "Append the copied text to the file {name}",
+  "Hänge das Kopierte an die Datei {name} an",
+  "Ajoute le texte copié au fichier {name}",
+  "Añade lo copiado al archivo {name}",
+  "Aggiungi il testo copiato al file {name}",
+  "Acrescenta o texto copiado ao ficheiro {name}"
+ ],
+ "copy.paste_folder": [
+  "Вставь скопированное в папку {name}",
+  "Paste the copied items into the folder {name}",
+  "Füge das Kopierte in den Ordner {name} ein",
+  "Colle les éléments copiés dans le dossier {name}",
+  "Pega lo copiado en la carpeta {name}",
+  "Incolla gli elementi copiati nella cartella {name}",
+  "Cola o que foi copiado na pasta {name}"
+ ],
+ "copy.what": [
+  "Расскажи что я скопировал в буфер",
+  "What is on the clipboard now",
+  "Was ist jetzt in der Zwischenablage",
+  "Qu’y a-t-il dans le presse-papiers",
+  "Qué hay en el portapapeles",
+  "Cosa c’è negli appunti",
+  "O que está na área de transferência"
+ ],
+ "copy.paste_reply": [
+  "Вставь мой последний ответ в это поле",
+  "Paste your last answer into this field",
+  "Füge deine letzte Antwort in dieses Feld ein",
+  "Colle ta dernière réponse dans ce champ",
+  "Pega tu última respuesta en este campo",
+  "Incolla la tua ultima risposta in questo campo",
+  "Cola a tua última resposta neste campo"
+ ]
+}
