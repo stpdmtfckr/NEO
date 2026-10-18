@@ -1,0 +1,716 @@
+[
+  {
+    "locale": "ru",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_ru_queue_0",
+    "phrase": "выполни задачи по очереди",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_ru_queue_0",
+    "phrase": "Сколько оперативной памяти занято; Какая сейчас загрузка процессора",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_ru_queue_2",
+    "phrase": "выполни задачи по очереди",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_ru_queue_2",
+    "phrase": "Сколько оперативной памяти занято затем Какая сейчас загрузка процессора",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_ru_parallel_4",
+    "phrase": "выполни задачи параллельно",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_ru_parallel_4",
+    "phrase": "Сколько оперативной памяти занято; Какая сейчас загрузка процессора",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_en_queue_6",
+    "phrase": "run the tasks in sequence",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_en_queue_6",
+    "phrase": "How much RAM is in use; What is the current CPU usage",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_en_queue_8",
+    "phrase": "run the tasks in sequence",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_en_queue_8",
+    "phrase": "How much RAM is in use then What is the current CPU usage",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "en",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_en_parallel_10",
+    "phrase": "run the tasks in parallel",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_en_parallel_10",
+    "phrase": "How much RAM is in use; What is the current CPU usage",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_de_queue_12",
+    "phrase": "führe die Aufgaben nacheinander aus",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_de_queue_12",
+    "phrase": "Wie viel Arbeitsspeicher ist belegt; Wie hoch ist die aktuelle Prozessorauslastung",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_de_queue_14",
+    "phrase": "führe die Aufgaben nacheinander aus",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_de_queue_14",
+    "phrase": "Wie viel Arbeitsspeicher ist belegt dann Wie hoch ist die aktuelle Prozessorauslastung",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "de",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_de_parallel_16",
+    "phrase": "führe die Aufgaben parallel aus",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_de_parallel_16",
+    "phrase": "Wie viel Arbeitsspeicher ist belegt; Wie hoch ist die aktuelle Prozessorauslastung",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_fr_queue_18",
+    "phrase": "exécute les tâches dans l'ordre",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_fr_queue_18",
+    "phrase": "Quelle quantité de mémoire vive est utilisée; Quelle est l’utilisation actuelle du processeur",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_fr_queue_20",
+    "phrase": "exécute les tâches dans l'ordre",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_fr_queue_20",
+    "phrase": "Quelle quantité de mémoire vive est utilisée puis Quelle est l’utilisation actuelle du processeur",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_fr_parallel_22",
+    "phrase": "exécute les tâches en parallèle",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_fr_parallel_22",
+    "phrase": "Quelle quantité de mémoire vive est utilisée; Quelle est l’utilisation actuelle du processeur",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_es_queue_24",
+    "phrase": "ejecuta las tareas en orden",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_es_queue_24",
+    "phrase": "Cuánta memoria RAM se está usando; Cuál es el uso actual del procesador",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_es_queue_26",
+    "phrase": "ejecuta las tareas en orden",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_es_queue_26",
+    "phrase": "Cuánta memoria RAM se está usando luego Cuál es el uso actual del procesador",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "es",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_es_parallel_28",
+    "phrase": "ejecuta las tareas en paralelo",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_es_parallel_28",
+    "phrase": "Cuánta memoria RAM se está usando; Cuál es el uso actual del procesador",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_it_queue_30",
+    "phrase": "esegui le attività in sequenza",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_it_queue_30",
+    "phrase": "Quanta memoria RAM è in uso; Qual è l’utilizzo attuale del processore",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_it_queue_32",
+    "phrase": "esegui le attività in sequenza",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_it_queue_32",
+    "phrase": "Quanta memoria RAM è in uso poi Qual è l’utilizzo attuale del processore",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "it",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_it_parallel_34",
+    "phrase": "esegui le attività in parallelo",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_it_parallel_34",
+    "phrase": "Quanta memoria RAM è in uso; Qual è l’utilizzo attuale del processore",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_pt_queue_36",
+    "phrase": "executa as tarefas por ordem",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_pt_queue_36",
+    "phrase": "Quanta memória RAM está a ser utilizada; Qual é a utilização atual do processador",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_pt_queue_38",
+    "phrase": "executa as tarefas por ordem",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "automation",
+    "expected_action": "queue",
+    "source": "automation157",
+    "scenario_id": "automation157_pt_queue_38",
+    "phrase": "Quanta memória RAM está a ser utilizada depois Qual é a utilização atual do processador",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_pt_parallel_40",
+    "phrase": "executa as tarefas em paralelo",
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "expected_tool": "automation",
+    "expected_action": "parallel",
+    "source": "automation157",
+    "scenario_id": "automation157_pt_parallel_40",
+    "phrase": "Quanta memória RAM está a ser utilizada; Qual é a utilização atual do processador",
+    "keep_context": true,
+    "expected_args": {
+      "calls": [
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "memory"
+          }
+        },
+        {
+          "tool": "system_monitor",
+          "arguments": {
+            "action": "cpu"
+          }
+        }
+      ]
+    }
+  }
+]
