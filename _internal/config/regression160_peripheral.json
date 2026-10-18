@@ -1,0 +1,870 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "Переведи на",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_translate",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "de",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "NEO literal voice test",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de",
+      "text": "NEO literal voice test"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "Какая погода в городе",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_weather",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "Krasnoyarsk",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_weather",
+    "keep_context": true,
+    "expected_args": {
+      "city": "Krasnoyarsk"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "Проанализируй экран:",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_screen",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "Describe the title",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_screen",
+    "keep_context": true,
+    "expected_args": {
+      "instruction": "Describe the title"
+    }
+  },
+  {
+    "locale": "ru",
+    "phrase": "отметь пункт чек-листа на полке",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_shelf",
+    "keep_context": false,
+    "expected_args": {
+      "checked": true
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "NEO QA Checklist",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "ru",
+    "phrase": "1",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_ru_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist",
+      "index": 0
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "Translate into",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_translate",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "phrase": "de",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "phrase": "NEO literal voice test",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de",
+      "text": "NEO literal voice test"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "What is the weather like in",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_weather",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "phrase": "Krasnoyarsk",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_weather",
+    "keep_context": true,
+    "expected_args": {
+      "city": "Krasnoyarsk"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "Analyze the screen:",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_screen",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "phrase": "Describe the title",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_screen",
+    "keep_context": true,
+    "expected_args": {
+      "instruction": "Describe the title"
+    }
+  },
+  {
+    "locale": "en",
+    "phrase": "check a shelf checklist item",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_shelf",
+    "keep_context": false,
+    "expected_args": {
+      "checked": true
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "phrase": "NEO QA Checklist",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "en",
+    "phrase": "1",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_en_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist",
+      "index": 0
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "Übersetze auf",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_translate",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "phrase": "de",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "phrase": "NEO literal voice test",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de",
+      "text": "NEO literal voice test"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "Wie ist das Wetter in",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_weather",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "phrase": "Krasnoyarsk",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_weather",
+    "keep_context": true,
+    "expected_args": {
+      "city": "Krasnoyarsk"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "Analysiere den Bildschirm:",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_screen",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "phrase": "Describe the title",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_screen",
+    "keep_context": true,
+    "expected_args": {
+      "instruction": "Describe the title"
+    }
+  },
+  {
+    "locale": "de",
+    "phrase": "hake einen Punkt der Regalliste ab",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_shelf",
+    "keep_context": false,
+    "expected_args": {
+      "checked": true
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "phrase": "NEO QA Checklist",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "de",
+    "phrase": "1",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_de_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist",
+      "index": 0
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "Traduis en",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_translate",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "de",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "NEO literal voice test",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de",
+      "text": "NEO literal voice test"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "Quel temps fait-il à",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_weather",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "Krasnoyarsk",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_weather",
+    "keep_context": true,
+    "expected_args": {
+      "city": "Krasnoyarsk"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "Analyse l’écran :",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_screen",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "Describe the title",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_screen",
+    "keep_context": true,
+    "expected_args": {
+      "instruction": "Describe the title"
+    }
+  },
+  {
+    "locale": "fr",
+    "phrase": "coche un élément de la liste de l’étagère",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_shelf",
+    "keep_context": false,
+    "expected_args": {
+      "checked": true
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "NEO QA Checklist",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "fr",
+    "phrase": "1",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_fr_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist",
+      "index": 0
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "Traduce al",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_translate",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "phrase": "de",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "phrase": "NEO literal voice test",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de",
+      "text": "NEO literal voice test"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "Qué tiempo hace en",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_weather",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "phrase": "Krasnoyarsk",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_weather",
+    "keep_context": true,
+    "expected_args": {
+      "city": "Krasnoyarsk"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "Analiza la pantalla:",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_screen",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "phrase": "Describe the title",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_screen",
+    "keep_context": true,
+    "expected_args": {
+      "instruction": "Describe the title"
+    }
+  },
+  {
+    "locale": "es",
+    "phrase": "marca un punto de la lista de la estantería",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_shelf",
+    "keep_context": false,
+    "expected_args": {
+      "checked": true
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "phrase": "NEO QA Checklist",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "es",
+    "phrase": "1",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_es_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist",
+      "index": 0
+    }
+  },
+  {
+    "locale": "it",
+    "phrase": "Traduci in",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_translate",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "phrase": "de",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "phrase": "NEO literal voice test",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de",
+      "text": "NEO literal voice test"
+    }
+  },
+  {
+    "locale": "it",
+    "phrase": "Che tempo fa a",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_weather",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "phrase": "Krasnoyarsk",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_weather",
+    "keep_context": true,
+    "expected_args": {
+      "city": "Krasnoyarsk"
+    }
+  },
+  {
+    "locale": "it",
+    "phrase": "Analizza lo schermo:",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_screen",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "phrase": "Describe the title",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_screen",
+    "keep_context": true,
+    "expected_args": {
+      "instruction": "Describe the title"
+    }
+  },
+  {
+    "locale": "it",
+    "phrase": "spunta una voce della lista dello scaffale",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_shelf",
+    "keep_context": false,
+    "expected_args": {
+      "checked": true
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "phrase": "NEO QA Checklist",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "it",
+    "phrase": "1",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_it_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist",
+      "index": 0
+    }
+  },
+  {
+    "locale": "pt",
+    "phrase": "Traduz para",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_translate",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "phrase": "de",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "phrase": "NEO literal voice test",
+    "expected_tool": "translate",
+    "expected_action": "",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_translate",
+    "keep_context": true,
+    "expected_args": {
+      "target_language": "de",
+      "text": "NEO literal voice test"
+    }
+  },
+  {
+    "locale": "pt",
+    "phrase": "Como está o tempo em",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_weather",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "phrase": "Krasnoyarsk",
+    "expected_tool": "weather",
+    "expected_action": "summary",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_weather",
+    "keep_context": true,
+    "expected_args": {
+      "city": "Krasnoyarsk"
+    }
+  },
+  {
+    "locale": "pt",
+    "phrase": "Analisa o ecrã:",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_screen",
+    "keep_context": false,
+    "expected_args": {},
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "phrase": "Describe the title",
+    "expected_tool": "screen",
+    "expected_action": "analyze",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_screen",
+    "keep_context": true,
+    "expected_args": {
+      "instruction": "Describe the title"
+    }
+  },
+  {
+    "locale": "pt",
+    "phrase": "marque um item da lista da estante",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_shelf",
+    "keep_context": false,
+    "expected_args": {
+      "checked": true
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "phrase": "NEO QA Checklist",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist"
+    },
+    "expected_kind": "clarification"
+  },
+  {
+    "locale": "pt",
+    "phrase": "1",
+    "expected_tool": "shelf",
+    "expected_action": "check",
+    "source": "peripheral160",
+    "scenario_id": "peripheral160_pt_shelf",
+    "keep_context": true,
+    "expected_args": {
+      "checked": true,
+      "title": "NEO QA Checklist",
+      "index": 0
+    }
+  }
+]
