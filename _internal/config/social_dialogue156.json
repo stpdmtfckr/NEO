@@ -1,0 +1,1014 @@
+{
+  "version": 1,
+  "description": "Bounded native dialogue, explicit source limits and scoped continuations; no tools or external calls.",
+  "groups": [
+    {
+      "family": "conversation156",
+      "category": "conversation156",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "давай спокойно поболтаем",
+          "хочется немного поговорить с тобой",
+          "составь мне компанию ненадолго"
+        ],
+        "en": [
+          "let's have a quiet chat",
+          "I feel like talking to you for a while",
+          "keep me company for a bit"
+        ],
+        "de": [
+          "lass uns in Ruhe plaudern",
+          "ich möchte mich kurz mit dir unterhalten",
+          "leiste mir eine Weile Gesellschaft"
+        ],
+        "fr": [
+          "discutons tranquillement",
+          "j'ai envie de parler un moment avec toi",
+          "tiens-moi compagnie un moment"
+        ],
+        "es": [
+          "charlemos tranquilamente",
+          "me apetece hablar contigo un rato",
+          "hazme compañía un momento"
+        ],
+        "it": [
+          "chiacchieriamo con calma",
+          "ho voglia di parlare un po' con te",
+          "fammi compagnia per un momento"
+        ],
+        "pt": [
+          "vamos conversar com calma",
+          "apetece-me falar um pouco contigo",
+          "faz-me companhia por um momento"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Можем поговорить о твоём дне, выбрать небольшое дело или придумать короткий отдых. Что тебе сейчас ближе?",
+          "Я на связи. Хочется заняться делом или немного отдохнуть? Можно ответить просто «работой» или «отдыхом»."
+        ],
+        "en": [
+          "We can talk about your day, pick a small task, or think of a short break. What would suit you now?",
+          "I'm here. Would you rather do a little work or take a break? You can just answer “work” or “rest”."
+        ],
+        "de": [
+          "Wir können über deinen Tag reden, eine kleine Aufgabe wählen oder eine kurze Pause überlegen. Was passt gerade?",
+          "Ich bin da. Möchtest du etwas arbeiten oder dich ausruhen? Du kannst einfach „Arbeit“ oder „Erholung“ antworten."
+        ],
+        "fr": [
+          "On peut parler de ta journée, choisir une petite tâche ou réfléchir à une courte pause. Qu'est-ce qui te convient ?",
+          "Je suis là. Tu préfères travailler un peu ou te reposer ? Tu peux répondre simplement « travail » ou « détente »."
+        ],
+        "es": [
+          "Podemos hablar de tu día, elegir una tarea pequeña o pensar en una pausa. ¿Qué te apetece ahora?",
+          "Aquí estoy. ¿Prefieres avanzar con el trabajo o descansar? Puedes responder simplemente «trabajo» o «descanso»."
+        ],
+        "it": [
+          "Possiamo parlare della tua giornata, scegliere un piccolo compito o pensare a una pausa. Cosa preferisci adesso?",
+          "Sono qui. Preferisci lavorare un po' o riposarti? Puoi rispondere semplicemente «lavoro» o «riposo»."
+        ],
+        "pt": [
+          "Podemos falar do teu dia, escolher uma pequena tarefa ou pensar numa pausa. O que te apetece agora?",
+          "Estou aqui. Preferes trabalhar um pouco ou descansar? Podes responder apenas «trabalho» ou «descanso»."
+        ]
+      }
+    },
+    {
+      "family": "priorities156",
+      "category": "priorities156",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "у меня слишком много дел",
+          "помоги разобраться с приоритетами",
+          "не знаю за какое дело взяться"
+        ],
+        "en": [
+          "I have too many things to do",
+          "help me sort out my priorities",
+          "I don't know which task to tackle"
+        ],
+        "de": [
+          "ich habe zu viele Aufgaben",
+          "hilf mir meine Prioritäten zu ordnen",
+          "ich weiß nicht welche Aufgabe ich angehen soll"
+        ],
+        "fr": [
+          "j'ai trop de choses à faire",
+          "aide-moi à définir mes priorités",
+          "je ne sais pas quelle tâche commencer"
+        ],
+        "es": [
+          "tengo demasiadas cosas que hacer",
+          "ayúdame a ordenar mis prioridades",
+          "no sé qué tarea abordar"
+        ],
+        "it": [
+          "ho troppe cose da fare",
+          "aiutami a stabilire le priorità",
+          "non so quale compito affrontare"
+        ],
+        "pt": [
+          "tenho demasiadas coisas para fazer",
+          "ajuda-me a definir prioridades",
+          "não sei qual das minhas tarefas escolher"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Начни с дела, у которого ближайший срок или самые заметные последствия задержки. Если всё кажется срочным, так и скажи.",
+          "Выбери один результат, который важнее всего получить сегодня. Затем сократи его до первого небольшого шага. Что мешает выбрать?"
+        ],
+        "en": [
+          "Start with the task with the nearest deadline or the biggest cost of delay. If everything feels urgent, say so.",
+          "Choose one result that matters most today. Then shrink it to a small first step. What makes choosing difficult?"
+        ],
+        "de": [
+          "Beginne mit der Aufgabe, deren Frist am nächsten liegt oder deren Verzögerung die größten Folgen hätte. Wenn alles dringend erscheint, sag es.",
+          "Wähle ein Ergebnis, das heute besonders wichtig ist. Teile es dann in einen kleinen ersten Schritt auf. Was erschwert die Auswahl?"
+        ],
+        "fr": [
+          "Commence par la tâche dont l'échéance est la plus proche ou dont le retard aurait le plus de conséquences. Si tout semble urgent, dis-le.",
+          "Choisis un résultat particulièrement important aujourd'hui. Réduis-le ensuite à un premier petit pas. Qu'est-ce qui rend le choix difficile ?"
+        ],
+        "es": [
+          "Empieza por el plazo más cercano o por lo que tenga mayores consecuencias si se retrasa. Si todo parece urgente, dímelo.",
+          "Elige un resultado que sea especialmente importante hoy. Después redúcelo a un primer paso pequeño. ¿Qué dificulta la elección?"
+        ],
+        "it": [
+          "Inizia dal compito con la scadenza più vicina o il cui ritardo avrebbe le conseguenze maggiori. Se sembra tutto urgente, dimmelo.",
+          "Scegli un risultato particolarmente importante per oggi. Poi riducilo a un primo passo piccolo. Cosa rende difficile la scelta?"
+        ],
+        "pt": [
+          "Começa pela tarefa cujo prazo está mais próximo ou cujo atraso teria maiores consequências. Se tudo parecer urgente, diz-me.",
+          "Escolhe um resultado especialmente importante para hoje. Depois reduz esse objetivo a um primeiro passo pequeno. O que dificulta a escolha?"
+        ]
+      }
+    },
+    {
+      "family": "clarifying156",
+      "category": "clarifying156",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "как ты понимаешь неполные команды",
+          "почему ты задаешь уточняющие вопросы",
+          "можно говорить команды по частям"
+        ],
+        "en": [
+          "how do you understand incomplete commands",
+          "why do you ask clarifying questions",
+          "can I give commands in parts"
+        ],
+        "de": [
+          "wie verstehst du unvollständige Befehle",
+          "warum stellst du Rückfragen",
+          "kann ich Befehle in Teilen sagen"
+        ],
+        "fr": [
+          "comment comprends-tu les commandes incomplètes",
+          "pourquoi poses-tu des questions de précision",
+          "puis-je donner une commande en plusieurs fois"
+        ],
+        "es": [
+          "cómo entiendes las órdenes incompletas",
+          "por qué haces preguntas aclaratorias",
+          "puedo dar una orden por partes"
+        ],
+        "it": [
+          "come capisci i comandi incompleti",
+          "perché fai domande di chiarimento",
+          "posso dare un comando in più parti"
+        ],
+        "pt": [
+          "como entendes comandos incompletos",
+          "porque fazes perguntas de esclarecimento",
+          "posso dar um comando por partes"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Можно назвать действие, а недостающий объект добавить после моего вопроса. Например: «Открой папку», затем «Downloads». Если цель неоднозначна, лучше уточнить её.",
+          "Короткая команда удобна, когда понятно, к чему она относится. Для неопределённой цели нужен дополнительный вопрос. Хочешь пример с несколькими папками?"
+        ],
+        "en": [
+          "You can name the action and supply the missing object after my question. For example: “Open a folder”, then “Downloads”. An ambiguous target needs clarification.",
+          "A short command works well when its target is clear. An uncertain target needs another question. Would you like an example with several folders?"
+        ],
+        "de": [
+          "Du kannst zuerst die Aktion nennen und das fehlende Objekt nach meiner Frage ergänzen. Zum Beispiel: „Öffne einen Ordner“, dann „Downloads“. Mehrdeutige Ziele müssen geklärt werden.",
+          "Ein kurzer Befehl ist praktisch, wenn das Ziel klar ist. Bei einem unklaren Ziel braucht es eine Rückfrage. Möchtest du ein Beispiel mit mehreren Ordnern?"
+        ],
+        "fr": [
+          "Tu peux nommer l'action, puis compléter l'objet après ma question. Par exemple : « Ouvre un dossier », puis « Downloads ». Une cible ambiguë demande une précision.",
+          "Une commande courte convient quand sa cible est claire. Sinon, il faut préciser. Veux-tu un exemple avec plusieurs dossiers ?"
+        ],
+        "es": [
+          "Puedes decir la acción y completar el objeto después de mi pregunta. Por ejemplo: «Abre una carpeta», luego «Downloads». Si el destino es ambiguo, hay que aclararlo.",
+          "Una orden breve funciona cuando está claro a qué se refiere. Si no, hace falta una pregunta más. ¿Quieres un ejemplo con varias carpetas?"
+        ],
+        "it": [
+          "Puoi indicare l'azione e aggiungere l'oggetto dopo la mia domanda. Per esempio: «Apri una cartella», poi «Downloads». Una destinazione ambigua richiede un chiarimento.",
+          "Un comando breve funziona quando è chiaro a cosa si riferisce. Altrimenti serve una domanda in più. Vuoi un esempio con più cartelle?"
+        ],
+        "pt": [
+          "Podes dizer a ação e completar o objeto depois da minha pergunta. Por exemplo: «Abre uma pasta», depois «Downloads». Se o destino for ambíguo, é preciso esclarecer.",
+          "Um comando curto funciona quando se percebe a que se refere. Caso contrário, é necessária outra pergunta. Queres um exemplo com várias pastas?"
+        ]
+      }
+    },
+    {
+      "family": "sources156",
+      "category": "sources156",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "откуда ты берешь сведения для ответа",
+          "на чем основаны твои ответы",
+          "как отличить твои сведения от догадки"
+        ],
+        "en": [
+          "where do you get the information in your answers",
+          "what are your answers based on",
+          "how can I distinguish facts from your guesses"
+        ],
+        "de": [
+          "woher stammen die Informationen in deinen Antworten",
+          "worauf beruhen deine Antworten",
+          "wie unterscheide ich Fakten von deinen Vermutungen"
+        ],
+        "fr": [
+          "d'où viennent les informations dans tes réponses",
+          "sur quoi reposent tes réponses",
+          "comment distinguer tes faits de tes suppositions"
+        ],
+        "es": [
+          "de dónde sale la información de tus respuestas",
+          "en qué se basan tus respuestas",
+          "cómo distingo tus datos de tus suposiciones"
+        ],
+        "it": [
+          "da dove vengono le informazioni nelle tue risposte",
+          "su cosa si basano le tue risposte",
+          "come distinguo i fatti dalle tue supposizioni"
+        ],
+        "pt": [
+          "de onde vêm as informações das tuas respostas",
+          "em que se baseiam as tuas respostas",
+          "como distingo factos das tuas suposições"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Возможности и обычные ответы описаны в локальном атласе. Состояние компьютера и музыки получают соответствующие инструменты. Для свежих внешних сведений нужен доступный источник данных.",
+          "Локальный диалог использует подготовленные ответы, а результат действия должен подтверждаться инструментом. Если источник недоступен, нельзя выдавать предположение за проверенный факт."
+        ],
+        "en": [
+          "Capabilities and everyday replies are described in a local catalogue. Tools provide computer and music state. Fresh external information needs an available data source.",
+          "Local dialogue uses prepared replies, while an action result needs confirmation from its tool. If a source is unavailable, a guess must not be presented as a verified fact."
+        ],
+        "de": [
+          "Funktionen und Alltagsantworten stehen in einem lokalen Katalog. Werkzeuge liefern den Zustand von Computer und Musik. Aktuelle externe Informationen brauchen eine verfügbare Quelle.",
+          "Der lokale Dialog nutzt vorbereitete Antworten. Ein Aktionsergebnis muss vom Werkzeug bestätigt werden. Ohne verfügbare Quelle ist eine Vermutung kein geprüfter Fakt."
+        ],
+        "fr": [
+          "Les fonctions et les réponses courantes figurent dans un catalogue local. Les outils fournissent l'état de l'ordinateur et de la musique. Les informations externes récentes exigent une source disponible.",
+          "Le dialogue local utilise des réponses préparées. Un résultat d'action doit être confirmé par l'outil. Sans source disponible, une supposition ne doit pas devenir un fait vérifié."
+        ],
+        "es": [
+          "Las funciones y las respuestas habituales están en un catálogo local. Las herramientas proporcionan el estado del ordenador y de la música. Los datos externos recientes necesitan una fuente disponible.",
+          "El diálogo local usa respuestas preparadas. El resultado de una acción necesita confirmación de su herramienta. Sin una fuente disponible, una suposición no es un dato verificado."
+        ],
+        "it": [
+          "Le funzioni e le risposte abituali sono descritte in un catalogo locale. Gli strumenti forniscono lo stato del computer e della musica. Le informazioni esterne recenti richiedono una fonte disponibile.",
+          "Il dialogo locale usa risposte preparate. Il risultato di un'azione deve essere confermato dallo strumento. Senza una fonte disponibile, una supposizione non è un fatto verificato."
+        ],
+        "pt": [
+          "As funções e as respostas habituais estão num catálogo local. As ferramentas fornecem o estado do computador e da música. Informações externas recentes exigem uma fonte disponível.",
+          "O diálogo local usa respostas preparadas. O resultado de uma ação precisa de confirmação da ferramenta. Sem uma fonte disponível, uma suposição não é um facto verificado."
+        ]
+      }
+    },
+    {
+      "family": "uncertainty156",
+      "category": "uncertainty156",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "что ты сделаешь если не знаешь ответа",
+          "ты можешь признать что не знаешь",
+          "что если ты не уверен в ответе"
+        ],
+        "en": [
+          "what do you do if you don't know the answer",
+          "can you admit you don't know",
+          "what if you are unsure about an answer"
+        ],
+        "de": [
+          "was machst du wenn du die Antwort nicht weißt",
+          "kannst du zugeben dass du etwas nicht weißt",
+          "was ist wenn du bei einer Antwort unsicher bist"
+        ],
+        "fr": [
+          "que fais-tu si tu ne connais pas la réponse",
+          "peux-tu admettre que tu ne sais pas",
+          "et si tu n'es pas sûr d'une réponse"
+        ],
+        "es": [
+          "qué haces si no sabes la respuesta",
+          "puedes admitir que no lo sabes",
+          "qué pasa si no estás seguro de una respuesta"
+        ],
+        "it": [
+          "cosa fai se non conosci la risposta",
+          "puoi ammettere di non sapere",
+          "cosa succede se non sei sicuro di una risposta"
+        ],
+        "pt": [
+          "o que fazes se não souberes a resposta",
+          "consegues admitir que não sabes",
+          "e se não tiveres a certeza de uma resposta"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Если данных недостаточно, нужно сказать об этом или задать уточняющий вопрос. Уверенный тон сам по себе не делает ответ верным.",
+          "Я могу ошибаться. Недостающую цель команды лучше уточнить, а неизвестный факт — проверить по доступному источнику. Без проверки не стоит обещать точный ответ."
+        ],
+        "en": [
+          "If there is not enough information, I should say so or ask a clarifying question. Sounding confident does not make an answer correct.",
+          "I can make mistakes. A missing command target needs clarification, and an unknown fact needs an available source. Accuracy cannot be promised without checking."
+        ],
+        "de": [
+          "Wenn Informationen fehlen, sollte ich das sagen oder nachfragen. Ein sicherer Ton macht eine Antwort noch nicht richtig.",
+          "Ich kann Fehler machen. Ein fehlendes Befehlsziel muss geklärt und ein unbekannter Fakt anhand einer verfügbaren Quelle geprüft werden. Ohne Prüfung gibt es keine Gewissheit."
+        ],
+        "fr": [
+          "S'il manque des informations, je dois le signaler ou demander une précision. Un ton assuré ne rend pas une réponse correcte.",
+          "Je peux me tromper. Une cible manquante exige une précision et un fait inconnu une source disponible. Sans vérification, je ne peux pas promettre une réponse exacte."
+        ],
+        "es": [
+          "Si faltan datos, debo decirlo o pedir una aclaración. Un tono seguro no convierte una respuesta en correcta.",
+          "Puedo equivocarme. Un destino incompleto necesita aclaración y un dato desconocido una fuente disponible. Sin comprobarlo, no debo prometer una respuesta exacta."
+        ],
+        "it": [
+          "Se mancano informazioni, devo dirlo o chiedere un chiarimento. Un tono sicuro non rende corretta una risposta.",
+          "Posso sbagliare. Una destinazione incompleta richiede un chiarimento e un fatto sconosciuto una fonte disponibile. Senza verifica non posso promettere una risposta esatta."
+        ],
+        "pt": [
+          "Se faltarem dados, devo dizê-lo ou pedir um esclarecimento. Um tom confiante não torna uma resposta correta.",
+          "Posso enganar-me. Um destino incompleto precisa de esclarecimento e um facto desconhecido de uma fonte disponível. Sem verificar, não devo prometer uma resposta exata."
+        ]
+      }
+    },
+    {
+      "family": "feedback156",
+      "category": "feedback156",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "как сообщить что ты ошибся",
+          "что записать для исправления ошибки",
+          "как помочь улучшить твое понимание"
+        ],
+        "en": [
+          "how do I report that you made a mistake",
+          "what should I record to help fix a mistake",
+          "how can I help improve your understanding"
+        ],
+        "de": [
+          "wie melde ich einen Fehler von dir",
+          "was sollte ich zur Fehlerbehebung festhalten",
+          "wie kann ich dein Verständnis verbessern helfen"
+        ],
+        "fr": [
+          "comment signaler une erreur de ta part",
+          "que faut-il noter pour corriger une erreur",
+          "comment aider à améliorer ta compréhension"
+        ],
+        "es": [
+          "cómo informo de un error tuyo",
+          "qué debo anotar para corregir un error",
+          "cómo puedo ayudar a mejorar tu comprensión"
+        ],
+        "it": [
+          "come segnalo un tuo errore",
+          "cosa devo annotare per correggere un errore",
+          "come posso aiutare a migliorare la tua comprensione"
+        ],
+        "pt": [
+          "como comunico um erro teu",
+          "o que devo anotar para corrigir um erro",
+          "como posso ajudar a melhorar a tua compreensão"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Для разбора полезны три вещи: что ты сказал, что появилось в расшифровке и какое действие ожидалось. Если проблема повторяется, сохрани результат NEO_TEST.cmd.",
+          "Сравни исходную фразу, распознанный текст и фактический результат. Так можно отделить ошибку слуха от ошибки выбора команды. Само сообщение об ошибке не меняет мои правила."
+        ],
+        "en": [
+          "Three things help diagnosis: what you said, what the transcript showed, and what action you expected. If it repeats, save the NEO_TEST.cmd result.",
+          "Compare your original phrase, the recognized text, and the actual result. This separates speech recognition errors from command selection errors. Reporting an error alone does not change my rules."
+        ],
+        "de": [
+          "Für die Diagnose helfen drei Angaben: was du gesagt hast, was erkannt wurde und welche Aktion du erwartet hast. Speichere bei wiederholten Problemen das Ergebnis von NEO_TEST.cmd.",
+          "Vergleiche Originalsatz, erkannten Text und tatsächliches Ergebnis. So trennt man Spracherkennung und Befehlsauswahl. Eine Fehlermeldung allein ändert meine Regeln nicht."
+        ],
+        "fr": [
+          "Trois éléments aident au diagnostic : ta phrase, sa transcription et l'action attendue. Si le problème se répète, conserve le résultat de NEO_TEST.cmd.",
+          "Compare la phrase d'origine, le texte reconnu et le résultat réel. Cela distingue une erreur de reconnaissance d'une erreur de commande. Un signalement seul ne change pas mes règles."
+        ],
+        "es": [
+          "Para el diagnóstico sirven tres cosas: lo que dijiste, la transcripción y la acción esperada. Si se repite, guarda el resultado de NEO_TEST.cmd.",
+          "Compara la frase original, el texto reconocido y el resultado real. Así se separan los fallos de reconocimiento de los de selección de comandos. Informar de un error no cambia por sí solo mis reglas."
+        ],
+        "it": [
+          "Per la diagnosi servono tre cose: quello che hai detto, la trascrizione e l'azione attesa. Se il problema si ripete, conserva il risultato di NEO_TEST.cmd.",
+          "Confronta frase originale, testo riconosciuto e risultato effettivo. Così distingui un errore di riconoscimento da uno di scelta del comando. Segnalare un errore non cambia da solo le mie regole."
+        ],
+        "pt": [
+          "Para o diagnóstico ajudam três coisas: o que disseste, a transcrição e a ação esperada. Se o problema se repetir, guarda o resultado de NEO_TEST.cmd.",
+          "Compara a frase original, o texto reconhecido e o resultado real. Assim separam-se erros de reconhecimento e de escolha do comando. Comunicar um erro não altera, por si só, as minhas regras."
+        ]
+      }
+    }
+  ],
+  "followups": {
+    "ru": {
+      "всё срочно": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Раздели дела на два списка: с реальным сроком и те, которые просто хочется закончить. Начни с ближайшего обязательного срока.",
+          "Если сроки одинаковые, выбери дело, от которого зависят остальные. Первый шаг должен быть достаточно маленьким, чтобы начать сейчас."
+        ]
+      },
+      "все дела срочные": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Раздели дела на два списка: с реальным сроком и те, которые просто хочется закончить. Начни с ближайшего обязательного срока.",
+          "Если сроки одинаковые, выбери дело, от которого зависят остальные. Первый шаг должен быть достаточно маленьким, чтобы начать сейчас."
+        ]
+      },
+      "пример с несколькими папками": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Если открыто несколько папок и ты говоришь «Закрой папку», нужно выбрать нужную по названию или номеру. Это помогает не закрыть другую папку.",
+          "Например, открыты Downloads и Documents. На просьбу закрыть папку я должен уточнить, какую из них ты имеешь в виду. Этот пример сам окна не закрывает."
+        ]
+      },
+      "а если папок несколько": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Если открыто несколько папок и ты говоришь «Закрой папку», нужно выбрать нужную по названию или номеру. Это помогает не закрыть другую папку.",
+          "Например, открыты Downloads и Documents. На просьбу закрыть папку я должен уточнить, какую из них ты имеешь в виду. Этот пример сам окна не закрывает."
+        ]
+      },
+      "а без доступа к сети": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Без сети остаются локальные функции и подготовленный диалог. Актуальные внешние сведения без источника подтвердить нельзя.",
+          "Если сервис недоступен, его данные могут отсутствовать или устареть. Я должен сообщить об этом, а не придумывать состояние сервиса."
+        ]
+      },
+      "а если источник недоступен": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Без сети остаются локальные функции и подготовленный диалог. Актуальные внешние сведения без источника подтвердить нельзя.",
+          "Если сервис недоступен, его данные могут отсутствовать или устареть. Я должен сообщить об этом, а не придумывать состояние сервиса."
+        ]
+      },
+      "как описать такую ошибку": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Например: сказал «открой Downloads», в расшифровке появилось «открой даунлоадс», ожидал папку, а получил другой ответ. Добавь время события и результат NEO_TEST.cmd.",
+          "Укажи точную фразу, видимый текст распознавания, ожидаемый результат и что произошло на самом деле. Пароли и содержимое личных сообщений для такого описания не нужны."
+        ]
+      },
+      "что указать в отчете об ошибке": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Например: сказал «открой Downloads», в расшифровке появилось «открой даунлоадс», ожидал папку, а получил другой ответ. Добавь время события и результат NEO_TEST.cmd.",
+          "Укажи точную фразу, видимый текст распознавания, ожидаемый результат и что произошло на самом деле. Пароли и содержимое личных сообщений для такого описания не нужны."
+        ]
+      }
+    },
+    "en": {
+      "everything is urgent": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Split the tasks into two lists: real deadlines and things you simply want finished. Start with the nearest firm deadline.",
+          "If deadlines are equal, choose the task that the others depend on. Make the first step small enough to start now."
+        ]
+      },
+      "all the tasks are urgent": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Split the tasks into two lists: real deadlines and things you simply want finished. Start with the nearest firm deadline.",
+          "If deadlines are equal, choose the task that the others depend on. Make the first step small enough to start now."
+        ]
+      },
+      "an example with several folders": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "If several folders are open and you say “Close a folder”, the target needs to be chosen by name or number. That avoids closing the wrong folder.",
+          "For example, Downloads and Documents are open. A request to close a folder needs a question about which one. This example does not close any windows."
+        ]
+      },
+      "what if there are several folders": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "If several folders are open and you say “Close a folder”, the target needs to be chosen by name or number. That avoids closing the wrong folder.",
+          "For example, Downloads and Documents are open. A request to close a folder needs a question about which one. This example does not close any windows."
+        ]
+      },
+      "what about no network access": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Local functions and prepared dialogue remain available offline. Current external information cannot be verified without its source.",
+          "If a service is unavailable, its data may be missing or outdated. I should report that instead of inventing its state."
+        ]
+      },
+      "what if the source is unavailable": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Local functions and prepared dialogue remain available offline. Current external information cannot be verified without its source.",
+          "If a service is unavailable, its data may be missing or outdated. I should report that instead of inventing its state."
+        ]
+      },
+      "how should I describe that error": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "For example: said “open Downloads”, the transcript showed something different, expected the folder, but got another response. Add the event time and the NEO_TEST.cmd result.",
+          "Include the exact phrase, visible transcript, expected result, and what actually happened. Passwords and private message contents are not needed for that description."
+        ]
+      },
+      "what should I include in a bug report": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "For example: said “open Downloads”, the transcript showed something different, expected the folder, but got another response. Add the event time and the NEO_TEST.cmd result.",
+          "Include the exact phrase, visible transcript, expected result, and what actually happened. Passwords and private message contents are not needed for that description."
+        ]
+      }
+    },
+    "de": {
+      "alles ist dringend": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Trenne echte Fristen von Dingen, die du einfach gern fertig hättest. Beginne mit der nächsten verbindlichen Frist.",
+          "Sind die Fristen gleich, wähle die Aufgabe, von der andere abhängen. Der erste Schritt sollte klein genug sein, um jetzt anzufangen."
+        ]
+      },
+      "alle Aufgaben sind dringend": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Trenne echte Fristen von Dingen, die du einfach gern fertig hättest. Beginne mit der nächsten verbindlichen Frist.",
+          "Sind die Fristen gleich, wähle die Aufgabe, von der andere abhängen. Der erste Schritt sollte klein genug sein, um jetzt anzufangen."
+        ]
+      },
+      "ein Beispiel mit mehreren Ordnern": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Sind mehrere Ordner offen und du sagst „Schließe einen Ordner“, muss das Ziel per Name oder Nummer gewählt werden. So wird nicht der falsche Ordner geschlossen.",
+          "Zum Beispiel sind Downloads und Documents offen. Dann muss ich bei „Schließe einen Ordner“ fragen, welchen du meinst. Dieses Beispiel schließt keine Fenster."
+        ]
+      },
+      "und wenn mehrere Ordner offen sind": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Sind mehrere Ordner offen und du sagst „Schließe einen Ordner“, muss das Ziel per Name oder Nummer gewählt werden. So wird nicht der falsche Ordner geschlossen.",
+          "Zum Beispiel sind Downloads und Documents offen. Dann muss ich bei „Schließe einen Ordner“ fragen, welchen du meinst. Dieses Beispiel schließt keine Fenster."
+        ]
+      },
+      "und ohne Netzwerkzugang": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Lokale Funktionen und vorbereitete Dialoge bleiben offline verfügbar. Aktuelle externe Angaben lassen sich ohne Quelle nicht bestätigen.",
+          "Ist ein Dienst nicht erreichbar, können seine Daten fehlen oder veraltet sein. Das sollte ich melden, statt seinen Zustand zu erfinden."
+        ]
+      },
+      "und wenn die Quelle nicht verfügbar ist": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Lokale Funktionen und vorbereitete Dialoge bleiben offline verfügbar. Aktuelle externe Angaben lassen sich ohne Quelle nicht bestätigen.",
+          "Ist ein Dienst nicht erreichbar, können seine Daten fehlen oder veraltet sein. Das sollte ich melden, statt seinen Zustand zu erfinden."
+        ]
+      },
+      "wie beschreibe ich so einen Fehler": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Zum Beispiel: „Öffne Downloads“ gesagt, etwas anderes erkannt, einen Ordner erwartet, aber eine andere Antwort erhalten. Ergänze die Uhrzeit und das Ergebnis von NEO_TEST.cmd.",
+          "Nenne den genauen Satz, den erkannten Text, das erwartete Ergebnis und was tatsächlich geschah. Passwörter und private Nachrichten sind dafür nicht nötig."
+        ]
+      },
+      "was gehört in einen Fehlerbericht": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Zum Beispiel: „Öffne Downloads“ gesagt, etwas anderes erkannt, einen Ordner erwartet, aber eine andere Antwort erhalten. Ergänze die Uhrzeit und das Ergebnis von NEO_TEST.cmd.",
+          "Nenne den genauen Satz, den erkannten Text, das erwartete Ergebnis und was tatsächlich geschah. Passwörter und private Nachrichten sind dafür nicht nötig."
+        ]
+      }
+    },
+    "fr": {
+      "tout est urgent": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Sépare les vraies échéances des choses que tu souhaites simplement terminer. Commence par l'échéance obligatoire la plus proche.",
+          "Si les échéances sont identiques, choisis la tâche dont dépendent les autres. Le premier pas doit être assez petit pour commencer maintenant."
+        ]
+      },
+      "toutes les tâches sont urgentes": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Sépare les vraies échéances des choses que tu souhaites simplement terminer. Commence par l'échéance obligatoire la plus proche.",
+          "Si les échéances sont identiques, choisis la tâche dont dépendent les autres. Le premier pas doit être assez petit pour commencer maintenant."
+        ]
+      },
+      "un exemple avec plusieurs dossiers": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Si plusieurs dossiers sont ouverts et que tu dis « Ferme un dossier », il faut choisir la cible par nom ou numéro. Cela évite de fermer le mauvais.",
+          "Par exemple, Downloads et Documents sont ouverts. Une demande de fermeture exige de préciser lequel. Cet exemple ne ferme aucune fenêtre."
+        ]
+      },
+      "et s'il y a plusieurs dossiers": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Si plusieurs dossiers sont ouverts et que tu dis « Ferme un dossier », il faut choisir la cible par nom ou numéro. Cela évite de fermer le mauvais.",
+          "Par exemple, Downloads et Documents sont ouverts. Une demande de fermeture exige de préciser lequel. Cet exemple ne ferme aucune fenêtre."
+        ]
+      },
+      "et sans accès au réseau": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Les fonctions locales et le dialogue préparé restent disponibles hors ligne. Les informations externes récentes ne peuvent pas être confirmées sans source.",
+          "Si un service est indisponible, ses données peuvent manquer ou être périmées. Je dois le signaler au lieu d'inventer son état."
+        ]
+      },
+      "et si la source est indisponible": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Les fonctions locales et le dialogue préparé restent disponibles hors ligne. Les informations externes récentes ne peuvent pas être confirmées sans source.",
+          "Si un service est indisponible, ses données peuvent manquer ou être périmées. Je dois le signaler au lieu d'inventer son état."
+        ]
+      },
+      "comment décrire cette erreur": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Par exemple : « Ouvre Downloads » a été dit, la transcription était différente, un dossier était attendu, mais une autre réponse est arrivée. Ajoute l'heure et le résultat de NEO_TEST.cmd.",
+          "Indique la phrase exacte, la transcription visible, le résultat attendu et ce qui s'est réellement passé. Les mots de passe et les messages privés ne sont pas nécessaires."
+        ]
+      },
+      "que faut-il inclure dans un rapport d'erreur": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Par exemple : « Ouvre Downloads » a été dit, la transcription était différente, un dossier était attendu, mais une autre réponse est arrivée. Ajoute l'heure et le résultat de NEO_TEST.cmd.",
+          "Indique la phrase exacte, la transcription visible, le résultat attendu et ce qui s'est réellement passé. Les mots de passe et les messages privés ne sont pas nécessaires."
+        ]
+      }
+    },
+    "es": {
+      "todo es urgente": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Separa los plazos reales de las cosas que simplemente quieres terminar. Empieza por el compromiso más cercano.",
+          "Si los plazos son iguales, elige la tarea de la que dependen las demás. Haz el primer paso lo bastante pequeño para empezar ahora."
+        ]
+      },
+      "todas las tareas son urgentes": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Separa los plazos reales de las cosas que simplemente quieres terminar. Empieza por el compromiso más cercano.",
+          "Si los plazos son iguales, elige la tarea de la que dependen las demás. Haz el primer paso lo bastante pequeño para empezar ahora."
+        ]
+      },
+      "un ejemplo con varias carpetas": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Si hay varias carpetas abiertas y dices «Cierra una carpeta», hay que elegirla por nombre o número. Así se evita cerrar la equivocada.",
+          "Por ejemplo, están abiertas Downloads y Documents. Para cerrar una carpeta debo preguntar cuál quieres. Este ejemplo no cierra ventanas."
+        ]
+      },
+      "y si hay varias carpetas": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Si hay varias carpetas abiertas y dices «Cierra una carpeta», hay que elegirla por nombre o número. Así se evita cerrar la equivocada.",
+          "Por ejemplo, están abiertas Downloads y Documents. Para cerrar una carpeta debo preguntar cuál quieres. Este ejemplo no cierra ventanas."
+        ]
+      },
+      "y sin acceso a la red": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Las funciones locales y el diálogo preparado siguen disponibles sin conexión. Los datos externos actuales no se pueden confirmar sin su fuente.",
+          "Si un servicio no está disponible, sus datos pueden faltar o estar desactualizados. Debo indicarlo en lugar de inventar su estado."
+        ]
+      },
+      "y si la fuente no está disponible": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Las funciones locales y el diálogo preparado siguen disponibles sin conexión. Los datos externos actuales no se pueden confirmar sin su fuente.",
+          "Si un servicio no está disponible, sus datos pueden faltar o estar desactualizados. Debo indicarlo en lugar de inventar su estado."
+        ]
+      },
+      "cómo describo ese error": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Por ejemplo: dije «abre Downloads», la transcripción era distinta, esperaba la carpeta y recibí otra respuesta. Añade la hora y el resultado de NEO_TEST.cmd.",
+          "Indica la frase exacta, la transcripción visible, el resultado esperado y lo que ocurrió. No hacen falta contraseñas ni el contenido de mensajes privados."
+        ]
+      },
+      "qué incluyo en un informe de error": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Por ejemplo: dije «abre Downloads», la transcripción era distinta, esperaba la carpeta y recibí otra respuesta. Añade la hora y el resultado de NEO_TEST.cmd.",
+          "Indica la frase exacta, la transcripción visible, el resultado esperado y lo que ocurrió. No hacen falta contraseñas ni el contenido de mensajes privados."
+        ]
+      }
+    },
+    "it": {
+      "è tutto urgente": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Separa le scadenze reali dalle cose che vorresti semplicemente finire. Inizia dalla scadenza obbligatoria più vicina.",
+          "Se le scadenze coincidono, scegli il compito da cui dipendono gli altri. Il primo passo deve essere abbastanza piccolo da iniziare subito."
+        ]
+      },
+      "tutti i compiti sono urgenti": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Separa le scadenze reali dalle cose che vorresti semplicemente finire. Inizia dalla scadenza obbligatoria più vicina.",
+          "Se le scadenze coincidono, scegli il compito da cui dipendono gli altri. Il primo passo deve essere abbastanza piccolo da iniziare subito."
+        ]
+      },
+      "un esempio con più cartelle": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Se sono aperte più cartelle e dici «Chiudi una cartella», occorre sceglierla per nome o numero. Così si evita di chiudere quella sbagliata.",
+          "Per esempio, sono aperte Downloads e Documents. Alla richiesta di chiudere una cartella devo chiedere quale. Questo esempio non chiude finestre."
+        ]
+      },
+      "e se ci sono più cartelle": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Se sono aperte più cartelle e dici «Chiudi una cartella», occorre sceglierla per nome o numero. Così si evita di chiudere quella sbagliata.",
+          "Per esempio, sono aperte Downloads e Documents. Alla richiesta di chiudere una cartella devo chiedere quale. Questo esempio non chiude finestre."
+        ]
+      },
+      "e senza accesso alla rete": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Le funzioni locali e il dialogo preparato restano disponibili offline. Le informazioni esterne attuali non possono essere confermate senza una fonte.",
+          "Se un servizio non è disponibile, i suoi dati possono mancare o essere vecchi. Devo segnalarlo invece di inventarne lo stato."
+        ]
+      },
+      "e se la fonte non è disponibile": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "Le funzioni locali e il dialogo preparato restano disponibili offline. Le informazioni esterne attuali non possono essere confermate senza una fonte.",
+          "Se un servizio non è disponibile, i suoi dati possono mancare o essere vecchi. Devo segnalarlo invece di inventarne lo stato."
+        ]
+      },
+      "come descrivo questo errore": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Per esempio: ho detto «apri Downloads», la trascrizione era diversa, mi aspettavo la cartella e ho ricevuto un'altra risposta. Aggiungi l'ora e il risultato di NEO_TEST.cmd.",
+          "Indica frase esatta, trascrizione visibile, risultato atteso e ciò che è successo davvero. Password e contenuti dei messaggi privati non sono necessari."
+        ]
+      },
+      "cosa includo in una segnalazione di errore": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Per esempio: ho detto «apri Downloads», la trascrizione era diversa, mi aspettavo la cartella e ho ricevuto un'altra risposta. Aggiungi l'ora e il risultato di NEO_TEST.cmd.",
+          "Indica frase esatta, trascrizione visibile, risultato atteso e ciò che è successo davvero. Password e contenuti dei messaggi privati non sono necessari."
+        ]
+      }
+    },
+    "pt": {
+      "é tudo urgente": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Separa os prazos reais das coisas que apenas gostarias de terminar. Começa pelo compromisso mais próximo.",
+          "Se os prazos forem iguais, escolhe a tarefa de que as outras dependem. O primeiro passo deve ser pequeno o suficiente para começar agora."
+        ]
+      },
+      "todas as tarefas são urgentes": {
+        "topic": "priorities156",
+        "requires": [
+          "priorities156"
+        ],
+        "answers": [
+          "Separa os prazos reais das coisas que apenas gostarias de terminar. Começa pelo compromisso mais próximo.",
+          "Se os prazos forem iguais, escolhe a tarefa de que as outras dependem. O primeiro passo deve ser pequeno o suficiente para começar agora."
+        ]
+      },
+      "um exemplo com várias pastas": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Se houver várias pastas abertas e disseres «Fecha uma pasta», é preciso escolhê-la por nome ou número. Assim evita-se fechar a errada.",
+          "Por exemplo, Downloads e Documents estão abertas. Para fechar uma pasta, devo perguntar qual pretendes. Este exemplo não fecha janelas."
+        ]
+      },
+      "e se houver várias pastas": {
+        "topic": "clarifying156",
+        "requires": [
+          "clarifying156"
+        ],
+        "answers": [
+          "Se houver várias pastas abertas e disseres «Fecha uma pasta», é preciso escolhê-la por nome ou número. Assim evita-se fechar a errada.",
+          "Por exemplo, Downloads e Documents estão abertas. Para fechar uma pasta, devo perguntar qual pretendes. Este exemplo não fecha janelas."
+        ]
+      },
+      "e sem acesso à rede": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "As funções locais e o diálogo preparado continuam disponíveis sem rede. Informações externas atuais não podem ser confirmadas sem a sua fonte.",
+          "Se um serviço estiver indisponível, os dados podem faltar ou estar desatualizados. Devo indicá-lo em vez de inventar o estado do serviço."
+        ]
+      },
+      "e se a fonte estiver indisponível": {
+        "topic": "sources156",
+        "requires": [
+          "sources156"
+        ],
+        "answers": [
+          "As funções locais e o diálogo preparado continuam disponíveis sem rede. Informações externas atuais não podem ser confirmadas sem a sua fonte.",
+          "Se um serviço estiver indisponível, os dados podem faltar ou estar desatualizados. Devo indicá-lo em vez de inventar o estado do serviço."
+        ]
+      },
+      "como descrevo esse erro": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Por exemplo: disse «abre Downloads», a transcrição era diferente, esperava a pasta e recebi outra resposta. Acrescenta a hora e o resultado de NEO_TEST.cmd.",
+          "Indica a frase exata, a transcrição visível, o resultado esperado e o que realmente aconteceu. Não são necessárias palavras-passe nem conteúdos de mensagens privadas."
+        ]
+      },
+      "o que incluo num relatório de erro": {
+        "topic": "feedback156",
+        "requires": [
+          "feedback156"
+        ],
+        "answers": [
+          "Por exemplo: disse «abre Downloads», a transcrição era diferente, esperava a pasta e recebi outra resposta. Acrescenta a hora e o resultado de NEO_TEST.cmd.",
+          "Indica a frase exata, a transcrição visível, o resultado esperado e o que realmente aconteceu. Não são necessárias palavras-passe nem conteúdos de mensagens privadas."
+        ]
+      }
+    }
+  }
+}
