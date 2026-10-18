@@ -1,0 +1,1279 @@
+{
+  "version": 1,
+  "languages": {
+    "ru": {
+      "пусть музыка играет дальше": [
+        "music",
+        "play"
+      ],
+      "давай продолжим слушать музыку": [
+        "music",
+        "play"
+      ],
+      "можно снова включить музыку": [
+        "music",
+        "play"
+      ],
+      "давай пока без музыки": [
+        "music",
+        "pause"
+      ],
+      "приостанови музыку ненадолго": [
+        "music",
+        "pause"
+      ],
+      "пока поставь музыку на паузу": [
+        "music",
+        "pause"
+      ],
+      "давай послушаем следующую песню": [
+        "music",
+        "next"
+      ],
+      "перейди к следующей композиции": [
+        "music",
+        "next"
+      ],
+      "эта песня надоела переключи": [
+        "music",
+        "next"
+      ],
+      "верни песню которая была перед этой": [
+        "music",
+        "previous"
+      ],
+      "хочу послушать предыдущий трек": [
+        "music",
+        "previous"
+      ],
+      "переключи на прошлую композицию": [
+        "music",
+        "previous"
+      ],
+      "запусти мою персональную волну": [
+        "music",
+        "my_wave"
+      ],
+      "хочу послушать мою волну": [
+        "music",
+        "my_wave"
+      ],
+      "давай включим мою волну": [
+        "music",
+        "my_wave"
+      ],
+      "напомни что сейчас играет": [
+        "music",
+        "status"
+      ],
+      "скажи название текущей песни": [
+        "music",
+        "status"
+      ],
+      "что за композиция играет сейчас": [
+        "music",
+        "status"
+      ],
+      "что будет играть после этой песни": [
+        "music",
+        "queue_status"
+      ],
+      "покажи ближайшие песни в очереди": [
+        "music",
+        "queue_status"
+      ],
+      "какие треки стоят дальше": [
+        "music",
+        "queue_status"
+      ],
+      "сделай музыку немного громче": [
+        "music",
+        "volume_up"
+      ],
+      "прибавь громкости музыке": [
+        "music",
+        "volume_up"
+      ],
+      "музыку чуть погромче": [
+        "music",
+        "volume_up"
+      ],
+      "сделай музыку немного тише": [
+        "music",
+        "volume_down"
+      ],
+      "убавь громкости музыке": [
+        "music",
+        "volume_down"
+      ],
+      "музыку чуть потише": [
+        "music",
+        "volume_down"
+      ],
+      "давай песни вперемешку": [
+        "music",
+        "shuffle_on"
+      ],
+      "включи случайный порядок музыки": [
+        "music",
+        "shuffle_on"
+      ],
+      "пусть треки идут вразброс": [
+        "music",
+        "shuffle_on"
+      ],
+      "давай песни по порядку": [
+        "music",
+        "shuffle_off"
+      ],
+      "выключи случайный порядок музыки": [
+        "music",
+        "shuffle_off"
+      ],
+      "перестань перемешивать песни": [
+        "music",
+        "shuffle_off"
+      ],
+      "повторяй именно эту песню": [
+        "music",
+        "repeat_track"
+      ],
+      "пусть текущий трек играет по кругу": [
+        "music",
+        "repeat_track"
+      ],
+      "зацикли эту композицию": [
+        "music",
+        "repeat_track"
+      ],
+      "хватит повторять эту песню": [
+        "music",
+        "repeat_off"
+      ],
+      "убери повтор музыки": [
+        "music",
+        "repeat_off"
+      ],
+      "отключи зацикливание трека": [
+        "music",
+        "repeat_off"
+      ],
+      "какой сегодня день": [
+        "date_info",
+        "date_info"
+      ],
+      "напомни какое сегодня число": [
+        "date_info",
+        "date_info"
+      ],
+      "какая дата на сегодня": [
+        "date_info",
+        "date_info"
+      ],
+      "какие приложения сейчас работают": [
+        "application",
+        "list_active"
+      ],
+      "покажи все запущенные приложения": [
+        "application",
+        "list_active"
+      ],
+      "что у меня сейчас открыто": [
+        "application",
+        "list_active"
+      ]
+    },
+    "en": {
+      "let the music keep playing": [
+        "music",
+        "play"
+      ],
+      "let us keep listening to music": [
+        "music",
+        "play"
+      ],
+      "resume the music please": [
+        "music",
+        "play"
+      ],
+      "pause the music for a moment": [
+        "music",
+        "pause"
+      ],
+      "let us pause the music": [
+        "music",
+        "pause"
+      ],
+      "put the music on hold": [
+        "music",
+        "pause"
+      ],
+      "let us hear the next song": [
+        "music",
+        "next"
+      ],
+      "move on to the following track": [
+        "music",
+        "next"
+      ],
+      "skip this song please": [
+        "music",
+        "next"
+      ],
+      "go back to the song before this one": [
+        "music",
+        "previous"
+      ],
+      "I want to hear the previous track": [
+        "music",
+        "previous"
+      ],
+      "switch to the preceding song": [
+        "music",
+        "previous"
+      ],
+      "start my personal wave": [
+        "music",
+        "my_wave"
+      ],
+      "I want to listen to My Wave": [
+        "music",
+        "my_wave"
+      ],
+      "let us turn on My Wave": [
+        "music",
+        "my_wave"
+      ],
+      "remind me what is playing": [
+        "music",
+        "status"
+      ],
+      "tell me the current song title": [
+        "music",
+        "status"
+      ],
+      "which track is playing now": [
+        "music",
+        "status"
+      ],
+      "what will play after this song": [
+        "music",
+        "queue_status"
+      ],
+      "show the upcoming songs in the queue": [
+        "music",
+        "queue_status"
+      ],
+      "which tracks are queued next": [
+        "music",
+        "queue_status"
+      ],
+      "make the music a little louder": [
+        "music",
+        "volume_up"
+      ],
+      "raise the music volume a bit": [
+        "music",
+        "volume_up"
+      ],
+      "turn the music up slightly": [
+        "music",
+        "volume_up"
+      ],
+      "make the music a little quieter": [
+        "music",
+        "volume_down"
+      ],
+      "lower the music volume a bit": [
+        "music",
+        "volume_down"
+      ],
+      "turn the music down slightly": [
+        "music",
+        "volume_down"
+      ],
+      "play the songs in random order": [
+        "music",
+        "shuffle_on"
+      ],
+      "turn on shuffled music playback": [
+        "music",
+        "shuffle_on"
+      ],
+      "mix up the song order": [
+        "music",
+        "shuffle_on"
+      ],
+      "play the songs in order": [
+        "music",
+        "shuffle_off"
+      ],
+      "turn off shuffled music playback": [
+        "music",
+        "shuffle_off"
+      ],
+      "stop shuffling the songs": [
+        "music",
+        "shuffle_off"
+      ],
+      "keep repeating this song": [
+        "music",
+        "repeat_track"
+      ],
+      "loop the current track": [
+        "music",
+        "repeat_track"
+      ],
+      "play this song on repeat": [
+        "music",
+        "repeat_track"
+      ],
+      "stop repeating this song": [
+        "music",
+        "repeat_off"
+      ],
+      "turn off music repeat": [
+        "music",
+        "repeat_off"
+      ],
+      "disable the track loop": [
+        "music",
+        "repeat_off"
+      ],
+      "what day is it today": [
+        "date_info",
+        "date_info"
+      ],
+      "remind me of today's date": [
+        "date_info",
+        "date_info"
+      ],
+      "tell me the current date": [
+        "date_info",
+        "date_info"
+      ],
+      "which applications are running now": [
+        "application",
+        "list_active"
+      ],
+      "show all running applications": [
+        "application",
+        "list_active"
+      ],
+      "what apps do I have open": [
+        "application",
+        "list_active"
+      ]
+    },
+    "de": {
+      "lass die Musik weiterlaufen": [
+        "music",
+        "play"
+      ],
+      "spielen wir die Musik weiter": [
+        "music",
+        "play"
+      ],
+      "bitte die Musik fortsetzen": [
+        "music",
+        "play"
+      ],
+      "halte die Musik kurz an": [
+        "music",
+        "pause"
+      ],
+      "machen wir eine Musikpause": [
+        "music",
+        "pause"
+      ],
+      "pausiere die Musik einen Moment": [
+        "music",
+        "pause"
+      ],
+      "hören wir das nächste Lied": [
+        "music",
+        "next"
+      ],
+      "gehe zum nächsten Musikstück": [
+        "music",
+        "next"
+      ],
+      "überspring dieses Lied bitte": [
+        "music",
+        "next"
+      ],
+      "geh zum Lied davor zurück": [
+        "music",
+        "previous"
+      ],
+      "ich möchte den vorigen Titel hören": [
+        "music",
+        "previous"
+      ],
+      "wechsle zum vorherigen Musikstück": [
+        "music",
+        "previous"
+      ],
+      "starte meine persönliche Welle": [
+        "music",
+        "my_wave"
+      ],
+      "ich möchte Meine Welle hören": [
+        "music",
+        "my_wave"
+      ],
+      "schalte Meine Welle ein": [
+        "music",
+        "my_wave"
+      ],
+      "erinnere mich was gerade läuft": [
+        "music",
+        "status"
+      ],
+      "sag mir den aktuellen Songtitel": [
+        "music",
+        "status"
+      ],
+      "welches Musikstück läuft gerade": [
+        "music",
+        "status"
+      ],
+      "was läuft nach diesem Lied": [
+        "music",
+        "queue_status"
+      ],
+      "zeige die nächsten Lieder in der Warteschlange": [
+        "music",
+        "queue_status"
+      ],
+      "welche Titel stehen als Nächstes an": [
+        "music",
+        "queue_status"
+      ],
+      "mach die Musik etwas lauter": [
+        "music",
+        "volume_up"
+      ],
+      "erhöhe die Musiklautstärke etwas": [
+        "music",
+        "volume_up"
+      ],
+      "dreh die Musik ein wenig auf": [
+        "music",
+        "volume_up"
+      ],
+      "mach die Musik etwas leiser": [
+        "music",
+        "volume_down"
+      ],
+      "senke die Musiklautstärke etwas": [
+        "music",
+        "volume_down"
+      ],
+      "dreh die Musik ein wenig herunter": [
+        "music",
+        "volume_down"
+      ],
+      "spiele die Lieder in zufälliger Reihenfolge": [
+        "music",
+        "shuffle_on"
+      ],
+      "schalte die Zufallswiedergabe der Musik ein": [
+        "music",
+        "shuffle_on"
+      ],
+      "mische die Liedreihenfolge": [
+        "music",
+        "shuffle_on"
+      ],
+      "spiele die Lieder der Reihe nach": [
+        "music",
+        "shuffle_off"
+      ],
+      "schalte die Zufallswiedergabe der Musik aus": [
+        "music",
+        "shuffle_off"
+      ],
+      "mische die Lieder nicht mehr": [
+        "music",
+        "shuffle_off"
+      ],
+      "wiederhole genau dieses Lied": [
+        "music",
+        "repeat_track"
+      ],
+      "spiele den aktuellen Titel in Dauerschleife": [
+        "music",
+        "repeat_track"
+      ],
+      "lass dieses Lied sich wiederholen": [
+        "music",
+        "repeat_track"
+      ],
+      "hör auf dieses Lied zu wiederholen": [
+        "music",
+        "repeat_off"
+      ],
+      "schalte die Musikwiederholung aus": [
+        "music",
+        "repeat_off"
+      ],
+      "beende die Titelschleife": [
+        "music",
+        "repeat_off"
+      ],
+      "welcher Tag ist heute": [
+        "date_info",
+        "date_info"
+      ],
+      "erinnere mich an das heutige Datum": [
+        "date_info",
+        "date_info"
+      ],
+      "sag mir das aktuelle Datum": [
+        "date_info",
+        "date_info"
+      ],
+      "welche Anwendungen laufen gerade": [
+        "application",
+        "list_active"
+      ],
+      "zeige alle laufenden Anwendungen": [
+        "application",
+        "list_active"
+      ],
+      "welche Apps habe ich geöffnet": [
+        "application",
+        "list_active"
+      ]
+    },
+    "fr": {
+      "laisse la musique continuer": [
+        "music",
+        "play"
+      ],
+      "reprenons la musique": [
+        "music",
+        "play"
+      ],
+      "remets la musique en lecture": [
+        "music",
+        "play"
+      ],
+      "mets la musique en pause un instant": [
+        "music",
+        "pause"
+      ],
+      "faisons une pause musicale": [
+        "music",
+        "pause"
+      ],
+      "suspends la musique pour le moment": [
+        "music",
+        "pause"
+      ],
+      "écoutons la chanson suivante": [
+        "music",
+        "next"
+      ],
+      "passe au morceau suivant": [
+        "music",
+        "next"
+      ],
+      "saute cette chanson s'il te plaît": [
+        "music",
+        "next"
+      ],
+      "reviens à la chanson précédente": [
+        "music",
+        "previous"
+      ],
+      "je veux réécouter le morceau précédent": [
+        "music",
+        "previous"
+      ],
+      "remets le titre d'avant": [
+        "music",
+        "previous"
+      ],
+      "lance ma vague personnelle": [
+        "music",
+        "my_wave"
+      ],
+      "je veux écouter Ma Vague": [
+        "music",
+        "my_wave"
+      ],
+      "mettons Ma Vague": [
+        "music",
+        "my_wave"
+      ],
+      "rappelle-moi ce qui joue": [
+        "music",
+        "status"
+      ],
+      "donne-moi le titre de la chanson actuelle": [
+        "music",
+        "status"
+      ],
+      "quel morceau passe en ce moment": [
+        "music",
+        "status"
+      ],
+      "que jouera-t-on après cette chanson": [
+        "music",
+        "queue_status"
+      ],
+      "montre les prochaines chansons en attente": [
+        "music",
+        "queue_status"
+      ],
+      "quels titres sont prévus ensuite": [
+        "music",
+        "queue_status"
+      ],
+      "monte un peu le son de la musique": [
+        "music",
+        "volume_up"
+      ],
+      "augmente légèrement le volume musical": [
+        "music",
+        "volume_up"
+      ],
+      "mets la musique un peu plus fort": [
+        "music",
+        "volume_up"
+      ],
+      "baisse un peu le son de la musique": [
+        "music",
+        "volume_down"
+      ],
+      "réduis légèrement le volume musical": [
+        "music",
+        "volume_down"
+      ],
+      "mets la musique un peu moins fort": [
+        "music",
+        "volume_down"
+      ],
+      "joue les chansons dans un ordre aléatoire": [
+        "music",
+        "shuffle_on"
+      ],
+      "active la lecture musicale aléatoire": [
+        "music",
+        "shuffle_on"
+      ],
+      "mélange l'ordre des chansons": [
+        "music",
+        "shuffle_on"
+      ],
+      "joue les chansons dans l'ordre": [
+        "music",
+        "shuffle_off"
+      ],
+      "désactive la lecture musicale aléatoire": [
+        "music",
+        "shuffle_off"
+      ],
+      "arrête de mélanger les chansons": [
+        "music",
+        "shuffle_off"
+      ],
+      "répète cette chanson en boucle": [
+        "music",
+        "repeat_track"
+      ],
+      "mets le morceau actuel en boucle": [
+        "music",
+        "repeat_track"
+      ],
+      "rejoue toujours cette chanson": [
+        "music",
+        "repeat_track"
+      ],
+      "arrête de répéter cette chanson": [
+        "music",
+        "repeat_off"
+      ],
+      "désactive la répétition musicale": [
+        "music",
+        "repeat_off"
+      ],
+      "enlève la boucle du morceau": [
+        "music",
+        "repeat_off"
+      ],
+      "quel jour sommes-nous aujourd'hui": [
+        "date_info",
+        "date_info"
+      ],
+      "rappelle-moi la date d'aujourd'hui": [
+        "date_info",
+        "date_info"
+      ],
+      "donne-moi la date actuelle": [
+        "date_info",
+        "date_info"
+      ],
+      "quelles applications sont en cours": [
+        "application",
+        "list_active"
+      ],
+      "montre toutes les applications ouvertes": [
+        "application",
+        "list_active"
+      ],
+      "quelles applis ai-je ouvertes": [
+        "application",
+        "list_active"
+      ]
+    },
+    "es": {
+      "que siga sonando la música": [
+        "music",
+        "play"
+      ],
+      "sigamos escuchando música": [
+        "music",
+        "play"
+      ],
+      "reanuda la música por favor": [
+        "music",
+        "play"
+      ],
+      "pon la música en pausa un momento": [
+        "music",
+        "pause"
+      ],
+      "hagamos una pausa en la música": [
+        "music",
+        "pause"
+      ],
+      "pausa la música por ahora": [
+        "music",
+        "pause"
+      ],
+      "escuchemos la siguiente canción": [
+        "music",
+        "next"
+      ],
+      "pasa al siguiente tema": [
+        "music",
+        "next"
+      ],
+      "salta esta canción por favor": [
+        "music",
+        "next"
+      ],
+      "vuelve a la canción anterior": [
+        "music",
+        "previous"
+      ],
+      "quiero escuchar el tema anterior": [
+        "music",
+        "previous"
+      ],
+      "pon la canción de antes": [
+        "music",
+        "previous"
+      ],
+      "inicia mi ola personal": [
+        "music",
+        "my_wave"
+      ],
+      "quiero escuchar Mi Ola": [
+        "music",
+        "my_wave"
+      ],
+      "pongamos Mi Ola": [
+        "music",
+        "my_wave"
+      ],
+      "recuérdame qué está sonando": [
+        "music",
+        "status"
+      ],
+      "dime el título de la canción actual": [
+        "music",
+        "status"
+      ],
+      "qué tema suena ahora": [
+        "music",
+        "status"
+      ],
+      "qué sonará después de esta canción": [
+        "music",
+        "queue_status"
+      ],
+      "muestra las próximas canciones de la cola": [
+        "music",
+        "queue_status"
+      ],
+      "qué temas están en espera": [
+        "music",
+        "queue_status"
+      ],
+      "sube un poco el volumen de la música": [
+        "music",
+        "volume_up"
+      ],
+      "pon la música un poco más alta": [
+        "music",
+        "volume_up"
+      ],
+      "aumenta ligeramente el volumen musical": [
+        "music",
+        "volume_up"
+      ],
+      "baja un poco el volumen de la música": [
+        "music",
+        "volume_down"
+      ],
+      "pon la música un poco más baja": [
+        "music",
+        "volume_down"
+      ],
+      "reduce ligeramente el volumen musical": [
+        "music",
+        "volume_down"
+      ],
+      "reproduce las canciones en orden aleatorio": [
+        "music",
+        "shuffle_on"
+      ],
+      "activa la reproducción musical aleatoria": [
+        "music",
+        "shuffle_on"
+      ],
+      "mezcla el orden de las canciones": [
+        "music",
+        "shuffle_on"
+      ],
+      "reproduce las canciones en orden": [
+        "music",
+        "shuffle_off"
+      ],
+      "desactiva la reproducción musical aleatoria": [
+        "music",
+        "shuffle_off"
+      ],
+      "deja de mezclar las canciones": [
+        "music",
+        "shuffle_off"
+      ],
+      "repite esta canción en bucle": [
+        "music",
+        "repeat_track"
+      ],
+      "pon el tema actual en repetición": [
+        "music",
+        "repeat_track"
+      ],
+      "sigue repitiendo esta canción": [
+        "music",
+        "repeat_track"
+      ],
+      "deja de repetir esta canción": [
+        "music",
+        "repeat_off"
+      ],
+      "desactiva la repetición musical": [
+        "music",
+        "repeat_off"
+      ],
+      "quita el bucle del tema": [
+        "music",
+        "repeat_off"
+      ],
+      "qué día es hoy": [
+        "date_info",
+        "date_info"
+      ],
+      "recuérdame la fecha de hoy": [
+        "date_info",
+        "date_info"
+      ],
+      "dime la fecha actual": [
+        "date_info",
+        "date_info"
+      ],
+      "qué aplicaciones están ejecutándose": [
+        "application",
+        "list_active"
+      ],
+      "muestra todas las aplicaciones abiertas": [
+        "application",
+        "list_active"
+      ],
+      "qué apps tengo abiertas": [
+        "application",
+        "list_active"
+      ]
+    },
+    "it": {
+      "lascia continuare la musica": [
+        "music",
+        "play"
+      ],
+      "continuiamo ad ascoltare musica": [
+        "music",
+        "play"
+      ],
+      "riprendi la musica per favore": [
+        "music",
+        "play"
+      ],
+      "metti la musica in pausa un momento": [
+        "music",
+        "pause"
+      ],
+      "facciamo una pausa musicale": [
+        "music",
+        "pause"
+      ],
+      "sospendi la musica per ora": [
+        "music",
+        "pause"
+      ],
+      "ascoltiamo la prossima canzone": [
+        "music",
+        "next"
+      ],
+      "passa al brano successivo": [
+        "music",
+        "next"
+      ],
+      "salta questa canzone per favore": [
+        "music",
+        "next"
+      ],
+      "torna alla canzone precedente": [
+        "music",
+        "previous"
+      ],
+      "voglio ascoltare il brano precedente": [
+        "music",
+        "previous"
+      ],
+      "rimetti il pezzo di prima": [
+        "music",
+        "previous"
+      ],
+      "avvia la mia onda personale": [
+        "music",
+        "my_wave"
+      ],
+      "voglio ascoltare La Mia Onda": [
+        "music",
+        "my_wave"
+      ],
+      "mettiamo La Mia Onda": [
+        "music",
+        "my_wave"
+      ],
+      "ricordami cosa sta suonando": [
+        "music",
+        "status"
+      ],
+      "dimmi il titolo della canzone attuale": [
+        "music",
+        "status"
+      ],
+      "quale brano sta suonando ora": [
+        "music",
+        "status"
+      ],
+      "che cosa suonerà dopo questa canzone": [
+        "music",
+        "queue_status"
+      ],
+      "mostra le prossime canzoni in coda": [
+        "music",
+        "queue_status"
+      ],
+      "quali brani sono in attesa": [
+        "music",
+        "queue_status"
+      ],
+      "alza un poco il volume della musica": [
+        "music",
+        "volume_up"
+      ],
+      "metti la musica un po più alta": [
+        "music",
+        "volume_up"
+      ],
+      "aumenta leggermente il volume musicale": [
+        "music",
+        "volume_up"
+      ],
+      "abbassa un poco il volume della musica": [
+        "music",
+        "volume_down"
+      ],
+      "metti la musica un po più bassa": [
+        "music",
+        "volume_down"
+      ],
+      "riduci leggermente il volume musicale": [
+        "music",
+        "volume_down"
+      ],
+      "riproduci le canzoni in ordine casuale": [
+        "music",
+        "shuffle_on"
+      ],
+      "attiva la riproduzione musicale casuale": [
+        "music",
+        "shuffle_on"
+      ],
+      "mescola l'ordine delle canzoni": [
+        "music",
+        "shuffle_on"
+      ],
+      "riproduci le canzoni in ordine": [
+        "music",
+        "shuffle_off"
+      ],
+      "disattiva la riproduzione musicale casuale": [
+        "music",
+        "shuffle_off"
+      ],
+      "smetti di mescolare le canzoni": [
+        "music",
+        "shuffle_off"
+      ],
+      "ripeti questa canzone in continuazione": [
+        "music",
+        "repeat_track"
+      ],
+      "metti il brano attuale in loop": [
+        "music",
+        "repeat_track"
+      ],
+      "continua a ripetere questa canzone": [
+        "music",
+        "repeat_track"
+      ],
+      "smetti di ripetere questa canzone": [
+        "music",
+        "repeat_off"
+      ],
+      "disattiva la ripetizione musicale": [
+        "music",
+        "repeat_off"
+      ],
+      "togli il loop del brano": [
+        "music",
+        "repeat_off"
+      ],
+      "che giorno è oggi": [
+        "date_info",
+        "date_info"
+      ],
+      "ricordami la data di oggi": [
+        "date_info",
+        "date_info"
+      ],
+      "dimmi la data attuale": [
+        "date_info",
+        "date_info"
+      ],
+      "quali applicazioni sono in esecuzione": [
+        "application",
+        "list_active"
+      ],
+      "mostra tutte le applicazioni aperte": [
+        "application",
+        "list_active"
+      ],
+      "quali app ho aperte": [
+        "application",
+        "list_active"
+      ]
+    },
+    "pt": {
+      "deixa a música continuar": [
+        "music",
+        "play"
+      ],
+      "vamos continuar a ouvir música": [
+        "music",
+        "play"
+      ],
+      "retoma a música por favor": [
+        "music",
+        "play"
+      ],
+      "pausa a música por um momento": [
+        "music",
+        "pause"
+      ],
+      "vamos fazer uma pausa na música": [
+        "music",
+        "pause"
+      ],
+      "põe a música em pausa por agora": [
+        "music",
+        "pause"
+      ],
+      "vamos ouvir a próxima música": [
+        "music",
+        "next"
+      ],
+      "passa à faixa seguinte": [
+        "music",
+        "next"
+      ],
+      "salta esta música por favor": [
+        "music",
+        "next"
+      ],
+      "volta à música anterior": [
+        "music",
+        "previous"
+      ],
+      "quero ouvir a faixa anterior": [
+        "music",
+        "previous"
+      ],
+      "põe a música de antes": [
+        "music",
+        "previous"
+      ],
+      "inicia a minha onda pessoal": [
+        "music",
+        "my_wave"
+      ],
+      "quero ouvir A Minha Onda": [
+        "music",
+        "my_wave"
+      ],
+      "vamos ligar A Minha Onda": [
+        "music",
+        "my_wave"
+      ],
+      "lembra-me o que está a tocar": [
+        "music",
+        "status"
+      ],
+      "diz o título da música atual": [
+        "music",
+        "status"
+      ],
+      "que faixa está a tocar agora": [
+        "music",
+        "status"
+      ],
+      "o que vai tocar depois desta música": [
+        "music",
+        "queue_status"
+      ],
+      "mostra as próximas músicas na fila": [
+        "music",
+        "queue_status"
+      ],
+      "que faixas estão a seguir": [
+        "music",
+        "queue_status"
+      ],
+      "aumenta um pouco o volume da música": [
+        "music",
+        "volume_up"
+      ],
+      "põe a música um pouco mais alta": [
+        "music",
+        "volume_up"
+      ],
+      "sobe ligeiramente o volume musical": [
+        "music",
+        "volume_up"
+      ],
+      "reduz um pouco o volume da música": [
+        "music",
+        "volume_down"
+      ],
+      "põe a música um pouco mais baixa": [
+        "music",
+        "volume_down"
+      ],
+      "baixa ligeiramente o volume musical": [
+        "music",
+        "volume_down"
+      ],
+      "toca as músicas por ordem aleatória": [
+        "music",
+        "shuffle_on"
+      ],
+      "ativa a reprodução musical aleatória": [
+        "music",
+        "shuffle_on"
+      ],
+      "baralha a ordem das músicas": [
+        "music",
+        "shuffle_on"
+      ],
+      "toca as músicas por ordem": [
+        "music",
+        "shuffle_off"
+      ],
+      "desativa a reprodução musical aleatória": [
+        "music",
+        "shuffle_off"
+      ],
+      "deixa de baralhar as músicas": [
+        "music",
+        "shuffle_off"
+      ],
+      "repete esta música em ciclo": [
+        "music",
+        "repeat_track"
+      ],
+      "põe a faixa atual em repetição": [
+        "music",
+        "repeat_track"
+      ],
+      "continua a repetir esta música": [
+        "music",
+        "repeat_track"
+      ],
+      "deixa de repetir esta música": [
+        "music",
+        "repeat_off"
+      ],
+      "desativa a repetição musical": [
+        "music",
+        "repeat_off"
+      ],
+      "tira a faixa do ciclo": [
+        "music",
+        "repeat_off"
+      ],
+      "que dia é hoje": [
+        "date_info",
+        "date_info"
+      ],
+      "lembra-me a data de hoje": [
+        "date_info",
+        "date_info"
+      ],
+      "diz-me a data atual": [
+        "date_info",
+        "date_info"
+      ],
+      "que aplicações estão em execução": [
+        "application",
+        "list_active"
+      ],
+      "mostra todas as aplicações abertas": [
+        "application",
+        "list_active"
+      ],
+      "que apps tenho abertas": [
+        "application",
+        "list_active"
+      ]
+    }
+  }
+}
