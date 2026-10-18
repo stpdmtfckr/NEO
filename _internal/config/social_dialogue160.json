@@ -1,0 +1,1414 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "category": "hello",
+      "family": "hello",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "привет"
+        ],
+        "en": [
+          "hello"
+        ],
+        "de": [
+          "hallo"
+        ],
+        "fr": [
+          "bonjour"
+        ],
+        "es": [
+          "hola"
+        ],
+        "it": [
+          "ciao"
+        ],
+        "pt": [
+          "olá"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Привет! Рад тебя слышать. Как проходит день?",
+          "Привет! Что сегодня будем делать?",
+          "Привет! Можем поболтать или заняться делами — что тебе хочется?",
+          "Здравствуй! С чего начнём?",
+          "Привет! Я на связи. Рассказывай, что у тебя нового.",
+          "Привет! Чем могу помочь сегодня?",
+          "Здравствуй! Рад нашему разговору. Какие у тебя планы?",
+          "Привет! Хочешь поговорить или нужна помощь с чем-нибудь?"
+        ],
+        "en": [
+          "Hi! Good to hear from you. How is your day going?",
+          "Hello! What would you like to do today?",
+          "Hi! We can chat or work on something. What do you have in mind?",
+          "Hello! Where shall we start?",
+          "Hi! I’m here. What’s new with you?",
+          "Hello! How can I help today?"
+        ],
+        "de": [
+          "Hallo! Schön, von dir zu hören. Wie läuft dein Tag?",
+          "Hallo! Was möchtest du heute machen?",
+          "Hallo! Möchtest du plaudern oder etwas erledigen?",
+          "Hallo! Womit fangen wir an?",
+          "Hallo! Ich bin da. Was gibt es bei dir Neues?",
+          "Hallo! Wobei kann ich dir heute helfen?"
+        ],
+        "fr": [
+          "Salut ! Ça fait plaisir de te retrouver. Comment se passe ta journée ?",
+          "Bonjour ! Qu’aimerais-tu faire aujourd’hui ?",
+          "Salut ! On peut discuter ou s’occuper de quelque chose. Qu’est-ce qui te tente ?",
+          "Bonjour ! Par quoi commence-t-on ?",
+          "Salut ! Je suis là. Quoi de neuf de ton côté ?",
+          "Bonjour ! Comment puis-je t’aider aujourd’hui ?"
+        ],
+        "es": [
+          "¡Hola! Qué gusto saludarte. ¿Cómo va tu día?",
+          "¡Hola! ¿Qué te gustaría hacer hoy?",
+          "¡Hola! Podemos charlar o hacer algo. ¿Qué tienes en mente?",
+          "¡Hola! ¿Por dónde empezamos?",
+          "¡Hola! Aquí estoy. ¿Qué hay de nuevo?",
+          "¡Hola! ¿En qué puedo ayudarte hoy?"
+        ],
+        "it": [
+          "Ciao! Mi fa piacere sentirti. Come va la giornata?",
+          "Ciao! Che cosa ti andrebbe di fare oggi?",
+          "Ciao! Possiamo chiacchierare o occuparci di qualcosa. Che ne dici?",
+          "Ciao! Da dove cominciamo?",
+          "Ciao! Sono qui. Che cosa mi racconti?",
+          "Ciao! Come posso aiutarti oggi?"
+        ],
+        "pt": [
+          "Olá! Que bom falar contigo. Como vai o teu dia?",
+          "Olá! O que gostarias de fazer hoje?",
+          "Olá! Podemos conversar ou tratar de alguma coisa. O que te apetece?",
+          "Olá! Por onde começamos?",
+          "Olá! Estou por aqui. O que há de novo?",
+          "Olá! Como posso ajudar hoje?"
+        ]
+      }
+    },
+    {
+      "category": "how",
+      "family": "well",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "как дела"
+        ],
+        "en": [
+          "how are you"
+        ],
+        "de": [
+          "wie geht es dir"
+        ],
+        "fr": [
+          "comment ça va"
+        ],
+        "es": [
+          "cómo estás"
+        ],
+        "it": [
+          "come stai"
+        ],
+        "pt": [
+          "como estás"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Хорошо, спасибо! Рад тебя слышать. Как у тебя дела?",
+          "Спасибо, что спрашиваешь! Я на связи и рад разговору. Как проходит твой день?",
+          "Хорошо! Можем немного поболтать. У тебя сегодня спокойный день или много дел?",
+          "Рад нашему разговору. А ты как — день удачно складывается?",
+          "Я здесь, готов и поболтать, и помочь с делами. Но сначала расскажи: как ты?",
+          "Спасибо за заботу! Рад тебя слышать. Что у тебя сегодня интересного?",
+          "У меня без новостей, зато с тобой приятно поболтать. Как твой день?",
+          "Хорошо! А у тебя как настроение — хочется поговорить или чем-нибудь отвлечься?"
+        ],
+        "en": [
+          "Good, thanks! It’s nice to hear from you. How are you doing?",
+          "Thanks for asking! I’m here and happy to chat. How is your day going?",
+          "Doing well! Has your day been quiet or busy?",
+          "Good to hear from you. How have things been today?",
+          "I’m here for a chat or a task. First, how are you?",
+          "Thanks for checking in! What has your day been like?"
+        ],
+        "de": [
+          "Gut, danke! Schön, von dir zu hören. Wie geht es dir?",
+          "Danke der Nachfrage! Ich bin da und plaudere gern mit dir. Wie läuft dein Tag?",
+          "Gut! Ist dein Tag eher ruhig oder hast du viel zu tun?",
+          "Schön, dass du dich meldest. Wie war dein Tag bisher?",
+          "Ich bin für ein Gespräch oder eine Aufgabe da. Aber erst mal: Wie geht es dir?",
+          "Danke, dass du fragst! Was hat dich heute beschäftigt?"
+        ],
+        "fr": [
+          "Bien, merci ! Ça fait plaisir de te parler. Et toi, comment vas-tu ?",
+          "Merci de demander ! Je suis là pour discuter. Comment se passe ta journée ?",
+          "Ça va bien ! Ta journée est plutôt calme ou chargée ?",
+          "Ça fait plaisir de te retrouver. Comment ça se passe de ton côté ?",
+          "Je suis là pour discuter ou te donner un coup de main. Et toi, ça va ?",
+          "Merci de prendre des nouvelles ! Quoi de neuf dans ta journée ?"
+        ],
+        "es": [
+          "¡Bien, gracias! Me alegra hablar contigo. ¿Tú cómo estás?",
+          "¡Gracias por preguntar! Aquí estoy para charlar. ¿Cómo va tu día?",
+          "¡Bien! ¿Tu día está tranquilo o tienes muchas cosas que hacer?",
+          "Qué gusto que me saludes. ¿Qué tal te ha ido hoy?",
+          "Estoy aquí para charlar o echarte una mano. Pero primero, ¿cómo estás?",
+          "¡Gracias por acordarte! ¿Qué tal ha sido tu día?"
+        ],
+        "it": [
+          "Bene, grazie! Mi fa piacere parlare con te. Tu come stai?",
+          "Grazie per averlo chiesto! Sono qui per chiacchierare. Come va la giornata?",
+          "Bene! La tua giornata è tranquilla o piena di impegni?",
+          "Mi fa piacere sentirti. Come sta andando oggi?",
+          "Sono qui per parlare o darti una mano. Ma prima: come stai?",
+          "Grazie del pensiero! Che cosa mi racconti della tua giornata?"
+        ],
+        "pt": [
+          "Bem, obrigado! É bom falar contigo. E tu, como estás?",
+          "Obrigado por perguntares! Estou aqui para conversar. Como vai o teu dia?",
+          "Tudo bem! O teu dia está tranquilo ou cheio de coisas para fazer?",
+          "Que bom ter notícias tuas. Como tem corrido o dia?",
+          "Estou aqui para conversar ou dar uma ajuda. Mas primeiro: como estás?",
+          "Obrigado pelo carinho! O que contas do teu dia?"
+        ]
+      }
+    },
+    {
+      "category": "thanks",
+      "family": "thanks",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "спасибо"
+        ],
+        "en": [
+          "thanks"
+        ],
+        "de": [
+          "danke"
+        ],
+        "fr": [
+          "merci"
+        ],
+        "es": [
+          "gracias"
+        ],
+        "it": [
+          "grazie"
+        ],
+        "pt": [
+          "obrigado"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Пожалуйста! Рад, что пригодилось.",
+          "Не за что! Если понадобится ещё помощь, обращайся.",
+          "Всегда пожалуйста. Хорошо, что удалось разобраться.",
+          "Рад помочь! Есть ещё что-нибудь, с чем нужна помощь?",
+          "Пожалуйста! Можно двигаться дальше или сделать небольшую паузу.",
+          "На здоровье! Приятно знать, что это помогло."
+        ],
+        "en": [
+          "You’re welcome! Glad it was useful.",
+          "No problem! Let me know if you need anything else.",
+          "You’re welcome. I’m glad that helped.",
+          "Happy to help! Is there anything else you need?",
+          "You’re welcome! We can move on whenever you’re ready.",
+          "Glad I could help. Thanks for letting me know!"
+        ],
+        "de": [
+          "Gern geschehen! Schön, dass es hilfreich war.",
+          "Kein Problem! Melde dich, wenn du noch Hilfe brauchst.",
+          "Immer gern. Schön, dass das geholfen hat.",
+          "Gern! Brauchst du noch bei etwas Hilfe?",
+          "Gern geschehen! Wir können weitermachen, wenn du möchtest.",
+          "Schön, dass ich helfen konnte. Danke für die Rückmeldung!"
+        ],
+        "fr": [
+          "Avec plaisir ! Je suis content que ce soit utile.",
+          "Pas de souci ! Dis-moi si tu as besoin d’autre chose.",
+          "Je t’en prie. Tant mieux si ça t’a aidé.",
+          "Avec plaisir ! Il y a autre chose dont tu as besoin ?",
+          "Je t’en prie ! On peut continuer quand tu veux.",
+          "Content d’avoir pu aider. Merci de me le dire !"
+        ],
+        "es": [
+          "¡De nada! Me alegra que te haya servido.",
+          "¡No hay de qué! Dime si necesitas algo más.",
+          "Con gusto. Qué bien que haya sido útil.",
+          "¡Encantado de ayudar! ¿Necesitas alguna otra cosa?",
+          "¡De nada! Podemos seguir cuando quieras.",
+          "Me alegra haber ayudado. ¡Gracias por decírmelo!"
+        ],
+        "it": [
+          "Prego! Mi fa piacere che sia stato utile.",
+          "Di nulla! Dimmi pure se ti serve altro.",
+          "Figurati. Sono contento che sia servito.",
+          "Volentieri! Ti serve una mano con qualcos’altro?",
+          "Prego! Possiamo continuare quando vuoi.",
+          "Mi fa piacere averti aiutato. Grazie per avermelo detto!"
+        ],
+        "pt": [
+          "De nada! Ainda bem que foi útil.",
+          "Não tens de quê! Diz se precisares de mais alguma coisa.",
+          "Com gosto. Fico contente por ter ajudado.",
+          "Sempre às ordens! Precisas de ajuda com mais alguma coisa?",
+          "De nada! Podemos continuar quando quiseres.",
+          "Fico contente por ter ajudado. Obrigado por dizeres!"
+        ]
+      }
+    },
+    {
+      "category": "farewell",
+      "family": "bye",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "пока"
+        ],
+        "en": [
+          "bye"
+        ],
+        "de": [
+          "tschüss"
+        ],
+        "fr": [
+          "au revoir"
+        ],
+        "es": [
+          "adiós"
+        ],
+        "it": [
+          "arrivederci"
+        ],
+        "pt": [
+          "tchau"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Пока! Хорошего тебе дня.",
+          "До встречи! Буду здесь, если понадоблюсь.",
+          "Пока! Был рад поболтать.",
+          "До скорого! Пусть оставшиеся дела пройдут легко.",
+          "До встречи! Возвращайся, когда захочешь продолжить.",
+          "Пока! Удачи с твоими планами."
+        ],
+        "en": [
+          "Bye! Have a good day.",
+          "See you! I’ll be here if you need me.",
+          "Goodbye! It was nice chatting.",
+          "See you later! Hope the rest of your day goes well.",
+          "Bye! Come back whenever you want to continue.",
+          "Take care! Good luck with your plans."
+        ],
+        "de": [
+          "Tschüss! Hab einen schönen Tag.",
+          "Bis bald! Ich bin da, wenn du mich brauchst.",
+          "Tschüss! Schön, dass wir geplaudert haben.",
+          "Bis später! Lass den Tag gut ausklingen.",
+          "Bis bald! Wir können jederzeit weiterreden.",
+          "Mach’s gut! Viel Erfolg mit deinen Plänen."
+        ],
+        "fr": [
+          "Au revoir ! Bonne journée à toi.",
+          "À bientôt ! Je serai là si tu as besoin de moi.",
+          "Salut ! Ça m’a fait plaisir de discuter.",
+          "À plus tard ! Bonne fin de journée.",
+          "Au revoir ! Reviens quand tu veux continuer.",
+          "À bientôt ! Bon courage pour tes projets."
+        ],
+        "es": [
+          "¡Adiós! Que tengas un buen día.",
+          "¡Hasta luego! Aquí estaré si me necesitas.",
+          "¡Adiós! Ha sido un gusto charlar.",
+          "¡Hasta pronto! Que vaya bien el resto del día.",
+          "¡Nos vemos! Vuelve cuando quieras seguir hablando.",
+          "¡Cuídate! Mucha suerte con tus planes."
+        ],
+        "it": [
+          "Ciao! Buona giornata.",
+          "A presto! Sono qui se ti serve qualcosa.",
+          "Ciao! È stato bello chiacchierare.",
+          "A dopo! Buon proseguimento di giornata.",
+          "Arrivederci! Torna quando vuoi continuare.",
+          "A presto! In bocca al lupo per i tuoi progetti."
+        ],
+        "pt": [
+          "Até logo! Tem um bom dia.",
+          "Até breve! Estarei aqui se precisares de mim.",
+          "Tchau! Foi bom conversar contigo.",
+          "Até já! Que o resto do dia corra bem.",
+          "Até à próxima! Volta quando quiseres continuar.",
+          "Até breve! Boa sorte com os teus planos."
+        ]
+      }
+    },
+    {
+      "category": "greeting_how160",
+      "family": "greeting_how160",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "привет как дела",
+          "привет как ты",
+          "здравствуй как дела"
+        ],
+        "en": [
+          "hello how are you",
+          "hi how are you"
+        ],
+        "de": [
+          "hallo wie geht es dir",
+          "hallo wie gehts"
+        ],
+        "fr": [
+          "bonjour comment ça va",
+          "salut ça va"
+        ],
+        "es": [
+          "hola cómo estás",
+          "hola qué tal"
+        ],
+        "it": [
+          "ciao come stai",
+          "ciao come va"
+        ],
+        "pt": [
+          "olá como estás",
+          "oi tudo bem"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Привет! Хорошо, спасибо! Рад тебя слышать. Как у тебя дела?",
+          "Привет! Спасибо, что спрашиваешь! Я на связи и рад разговору. Как проходит твой день?",
+          "Привет! Хорошо! Можем немного поболтать. У тебя сегодня спокойный день или много дел?",
+          "Привет! Рад нашему разговору. А ты как — день удачно складывается?",
+          "Привет! Я здесь, готов и поболтать, и помочь с делами. Но сначала расскажи: как ты?",
+          "Привет! Спасибо за заботу! Рад тебя слышать. Что у тебя сегодня интересного?",
+          "Привет! У меня без новостей, зато с тобой приятно поболтать. Как твой день?",
+          "Привет! Хорошо! А у тебя как настроение — хочется поговорить или чем-нибудь отвлечься?"
+        ],
+        "en": [
+          "Hi! Good, thanks! It’s nice to hear from you. How are you doing?",
+          "Hi! Thanks for asking! I’m here and happy to chat. How is your day going?",
+          "Hi! Doing well! Has your day been quiet or busy?",
+          "Hi! Good to hear from you. How have things been today?",
+          "Hi! I’m here for a chat or a task. First, how are you?",
+          "Hi! Thanks for checking in! What has your day been like?"
+        ],
+        "de": [
+          "Hallo! Gut, danke! Schön, von dir zu hören. Wie geht es dir?",
+          "Hallo! Danke der Nachfrage! Ich bin da und plaudere gern mit dir. Wie läuft dein Tag?",
+          "Hallo! Gut! Ist dein Tag eher ruhig oder hast du viel zu tun?",
+          "Hallo! Schön, dass du dich meldest. Wie war dein Tag bisher?",
+          "Hallo! Ich bin für ein Gespräch oder eine Aufgabe da. Aber erst mal: Wie geht es dir?",
+          "Hallo! Danke, dass du fragst! Was hat dich heute beschäftigt?"
+        ],
+        "fr": [
+          "Salut ! Bien, merci ! Ça fait plaisir de te parler. Et toi, comment vas-tu ?",
+          "Salut ! Merci de demander ! Je suis là pour discuter. Comment se passe ta journée ?",
+          "Salut ! Ça va bien ! Ta journée est plutôt calme ou chargée ?",
+          "Salut ! Ça fait plaisir de te retrouver. Comment ça se passe de ton côté ?",
+          "Salut ! Je suis là pour discuter ou te donner un coup de main. Et toi, ça va ?",
+          "Salut ! Merci de prendre des nouvelles ! Quoi de neuf dans ta journée ?"
+        ],
+        "es": [
+          "¡Hola! ¡Bien, gracias! Me alegra hablar contigo. ¿Tú cómo estás?",
+          "¡Hola! ¡Gracias por preguntar! Aquí estoy para charlar. ¿Cómo va tu día?",
+          "¡Hola! ¡Bien! ¿Tu día está tranquilo o tienes muchas cosas que hacer?",
+          "¡Hola! Qué gusto que me saludes. ¿Qué tal te ha ido hoy?",
+          "¡Hola! Estoy aquí para charlar o echarte una mano. Pero primero, ¿cómo estás?",
+          "¡Hola! ¡Gracias por acordarte! ¿Qué tal ha sido tu día?"
+        ],
+        "it": [
+          "Ciao! Bene, grazie! Mi fa piacere parlare con te. Tu come stai?",
+          "Ciao! Grazie per averlo chiesto! Sono qui per chiacchierare. Come va la giornata?",
+          "Ciao! Bene! La tua giornata è tranquilla o piena di impegni?",
+          "Ciao! Mi fa piacere sentirti. Come sta andando oggi?",
+          "Ciao! Sono qui per parlare o darti una mano. Ma prima: come stai?",
+          "Ciao! Grazie del pensiero! Che cosa mi racconti della tua giornata?"
+        ],
+        "pt": [
+          "Olá! Bem, obrigado! É bom falar contigo. E tu, como estás?",
+          "Olá! Obrigado por perguntares! Estou aqui para conversar. Como vai o teu dia?",
+          "Olá! Tudo bem! O teu dia está tranquilo ou cheio de coisas para fazer?",
+          "Olá! Que bom ter notícias tuas. Como tem corrido o dia?",
+          "Olá! Estou aqui para conversar ou dar uma ajuda. Mas primeiro: como estás?",
+          "Olá! Obrigado pelo carinho! O que contas do teu dia?"
+        ]
+      }
+    },
+    {
+      "category": "night",
+      "family": "night",
+      "replace_responses": true,
+      "phrases": {
+        "ru": [
+          "спокойной ночи"
+        ],
+        "en": [
+          "good night"
+        ],
+        "de": [
+          "gute nacht"
+        ],
+        "fr": [
+          "bonne nuit"
+        ],
+        "es": [
+          "que descanses"
+        ],
+        "it": [
+          "buonanotte"
+        ],
+        "pt": [
+          "boa noite e até amanhã"
+        ]
+      },
+      "answers": {
+        "ru": [
+          "Спокойной ночи! Отдыхай.",
+          "Доброй ночи! Высыпайся.",
+          "Спокойной ночи! Буду здесь, когда понадоблюсь."
+        ],
+        "en": [
+          "Good night! Get some rest.",
+          "Sleep well!",
+          "Good night! I’ll be here when you need me."
+        ],
+        "de": [
+          "Gute Nacht! Erhol dich gut.",
+          "Schlaf gut!",
+          "Gute Nacht! Ich bin da, wenn du mich brauchst."
+        ],
+        "fr": [
+          "Bonne nuit ! Repose-toi bien.",
+          "Dors bien !",
+          "Bonne nuit ! Je serai là quand tu auras besoin de moi."
+        ],
+        "es": [
+          "¡Buenas noches! Descansa.",
+          "¡Que duermas bien!",
+          "¡Buenas noches! Aquí estaré cuando me necesites."
+        ],
+        "it": [
+          "Buonanotte! Riposati.",
+          "Dormi bene!",
+          "Buonanotte! Sarò qui quando ti servo."
+        ],
+        "pt": [
+          "Boa noite! Descansa bem.",
+          "Dorme bem!",
+          "Boa noite! Estarei aqui quando precisares de mim."
+        ]
+      }
+    }
+  ],
+  "followups": {
+    "ru": {
+      "у меня хорошо": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Здорово! Пусть день и дальше складывается удачно.",
+          "Рад это слышать! Хочешь рассказать, что хорошего произошло?",
+          "Отлично! Можем просто поболтать или заняться тем, что ты задумал."
+        ]
+      },
+      "у меня все хорошо": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Здорово! Пусть день и дальше складывается удачно.",
+          "Рад это слышать! Хочешь рассказать, что хорошего произошло?",
+          "Отлично! Можем просто поболтать или заняться тем, что ты задумал."
+        ]
+      },
+      "у меня тоже хорошо": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Здорово! Пусть день и дальше складывается удачно.",
+          "Рад это слышать! Хочешь рассказать, что хорошего произошло?",
+          "Отлично! Можем просто поболтать или заняться тем, что ты задумал."
+        ]
+      },
+      "у меня нормально": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Понимаю. Не каждый день должен быть особенным. Можно просто немного поболтать.",
+          "Бывает. Хочешь отвлечься короткой шуткой или поговорить о чём-нибудь?",
+          "Спокойный обычный день — тоже неплохо. Что сейчас хочется делать?"
+        ]
+      },
+      "обычный день": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Понимаю. Не каждый день должен быть особенным. Можно просто немного поболтать.",
+          "Бывает. Хочешь отвлечься короткой шуткой или поговорить о чём-нибудь?",
+          "Спокойный обычный день — тоже неплохо. Что сейчас хочется делать?"
+        ]
+      },
+      "у меня не очень": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Жаль, что день не задался. Хочешь рассказать, что случилось, или лучше немного отвлечься?",
+          "Понимаю, неприятно. Можем спокойно поговорить — без спешки и новых дел.",
+          "Жаль это слышать. Если хочется отвлечься, могу рассказать шутку, а если выговориться — я слушаю."
+        ]
+      },
+      "у меня плохой день": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Жаль, что день не задался. Хочешь рассказать, что случилось, или лучше немного отвлечься?",
+          "Понимаю, неприятно. Можем спокойно поговорить — без спешки и новых дел.",
+          "Жаль это слышать. Если хочется отвлечься, могу рассказать шутку, а если выговориться — я слушаю."
+        ]
+      },
+      "отлично": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Здорово! Пусть день и дальше складывается удачно.",
+          "Рад это слышать! Хочешь рассказать, что хорошего произошло?",
+          "Отлично! Можем просто поболтать или заняться тем, что ты задумал."
+        ]
+      },
+      "все хорошо": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Здорово! Пусть день и дальше складывается удачно.",
+          "Рад это слышать! Хочешь рассказать, что хорошего произошло?",
+          "Отлично! Можем просто поболтать или заняться тем, что ты задумал."
+        ]
+      },
+      "у меня отлично": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Здорово! Пусть день и дальше складывается удачно.",
+          "Рад это слышать! Хочешь рассказать, что хорошего произошло?",
+          "Отлично! Можем просто поболтать или заняться тем, что ты задумал."
+        ]
+      },
+      "нормально": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Понимаю. Не каждый день должен быть особенным. Можно просто немного поболтать.",
+          "Бывает. Хочешь отвлечься короткой шуткой или поговорить о чём-нибудь?",
+          "Спокойный обычный день — тоже неплохо. Что сейчас хочется делать?"
+        ]
+      },
+      "все как обычно": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Понимаю. Не каждый день должен быть особенным. Можно просто немного поболтать.",
+          "Бывает. Хочешь отвлечься короткой шуткой или поговорить о чём-нибудь?",
+          "Спокойный обычный день — тоже неплохо. Что сейчас хочется делать?"
+        ]
+      },
+      "не очень": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Жаль, что день не задался. Хочешь рассказать, что случилось, или лучше немного отвлечься?",
+          "Понимаю, неприятно. Можем спокойно поговорить — без спешки и новых дел.",
+          "Жаль это слышать. Если хочется отвлечься, могу рассказать шутку, а если выговориться — я слушаю."
+        ]
+      },
+      "так себе": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Жаль, что день не задался. Хочешь рассказать, что случилось, или лучше немного отвлечься?",
+          "Понимаю, неприятно. Можем спокойно поговорить — без спешки и новых дел.",
+          "Жаль это слышать. Если хочется отвлечься, могу рассказать шутку, а если выговориться — я слушаю."
+        ]
+      }
+    },
+    "en": {
+      "i am doing well": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Good to hear! I hope the rest of your day goes well too.",
+          "That’s great! Want to tell me what has gone well?",
+          "Nice! We can chat or get on with whatever you have planned."
+        ]
+      },
+      "i am good too": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Good to hear! I hope the rest of your day goes well too.",
+          "That’s great! Want to tell me what has gone well?",
+          "Nice! We can chat or get on with whatever you have planned."
+        ]
+      },
+      "i am okay": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "I understand. Not every day has to be special. We can just chat for a bit.",
+          "Fair enough. Would you like a short joke or a little conversation?",
+          "An ordinary day can be fine too. What would you like to do now?"
+        ]
+      },
+      "just an ordinary day": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "I understand. Not every day has to be special. We can just chat for a bit.",
+          "Fair enough. Would you like a short joke or a little conversation?",
+          "An ordinary day can be fine too. What would you like to do now?"
+        ]
+      },
+      "i am not doing so well": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "I’m sorry your day has been rough. Would you like to talk about it or have a distraction?",
+          "That sounds unpleasant. We can talk for a bit, without rushing into another task.",
+          "Sorry to hear that. I can tell you a joke if you want a distraction, or listen if you want to talk."
+        ]
+      },
+      "my day has been rough": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "I’m sorry your day has been rough. Would you like to talk about it or have a distraction?",
+          "That sounds unpleasant. We can talk for a bit, without rushing into another task.",
+          "Sorry to hear that. I can tell you a joke if you want a distraction, or listen if you want to talk."
+        ]
+      },
+      "pretty good": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Good to hear! I hope the rest of your day goes well too.",
+          "That’s great! Want to tell me what has gone well?",
+          "Nice! We can chat or get on with whatever you have planned."
+        ]
+      },
+      "same as usual": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "I understand. Not every day has to be special. We can just chat for a bit.",
+          "Fair enough. Would you like a short joke or a little conversation?",
+          "An ordinary day can be fine too. What would you like to do now?"
+        ]
+      },
+      "not great": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "I’m sorry your day has been rough. Would you like to talk about it or have a distraction?",
+          "That sounds unpleasant. We can talk for a bit, without rushing into another task.",
+          "Sorry to hear that. I can tell you a joke if you want a distraction, or listen if you want to talk."
+        ]
+      }
+    },
+    "de": {
+      "mir geht es gut": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Schön zu hören! Hoffentlich geht dein Tag genauso gut weiter.",
+          "Das freut mich! Möchtest du erzählen, was gut gelaufen ist?",
+          "Schön! Wir können plaudern oder uns um deine Pläne kümmern."
+        ]
+      },
+      "mir geht es auch gut": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Schön zu hören! Hoffentlich geht dein Tag genauso gut weiter.",
+          "Das freut mich! Möchtest du erzählen, was gut gelaufen ist?",
+          "Schön! Wir können plaudern oder uns um deine Pläne kümmern."
+        ]
+      },
+      "es geht mir ganz okay": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Verstehe. Nicht jeder Tag muss besonders sein. Wir können einfach ein bisschen plaudern.",
+          "Kommt vor. Möchtest du einen kurzen Witz hören oder reden?",
+          "Ein ganz normaler Tag ist auch in Ordnung. Worauf hast du jetzt Lust?"
+        ]
+      },
+      "ein ganz normaler tag": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Verstehe. Nicht jeder Tag muss besonders sein. Wir können einfach ein bisschen plaudern.",
+          "Kommt vor. Möchtest du einen kurzen Witz hören oder reden?",
+          "Ein ganz normaler Tag ist auch in Ordnung. Worauf hast du jetzt Lust?"
+        ]
+      },
+      "mir geht es nicht so gut": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Schade, dass dein Tag schwierig war. Möchtest du erzählen oder dich lieber ablenken?",
+          "Das klingt unangenehm. Wir können in Ruhe reden, ohne gleich die nächste Aufgabe anzugehen.",
+          "Das tut mir leid. Ich kann dich mit einem Witz ablenken oder dir zuhören."
+        ]
+      },
+      "mein tag war schwierig": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Schade, dass dein Tag schwierig war. Möchtest du erzählen oder dich lieber ablenken?",
+          "Das klingt unangenehm. Wir können in Ruhe reden, ohne gleich die nächste Aufgabe anzugehen.",
+          "Das tut mir leid. Ich kann dich mit einem Witz ablenken oder dir zuhören."
+        ]
+      },
+      "ziemlich gut": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Schön zu hören! Hoffentlich geht dein Tag genauso gut weiter.",
+          "Das freut mich! Möchtest du erzählen, was gut gelaufen ist?",
+          "Schön! Wir können plaudern oder uns um deine Pläne kümmern."
+        ]
+      },
+      "wie immer": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Verstehe. Nicht jeder Tag muss besonders sein. Wir können einfach ein bisschen plaudern.",
+          "Kommt vor. Möchtest du einen kurzen Witz hören oder reden?",
+          "Ein ganz normaler Tag ist auch in Ordnung. Worauf hast du jetzt Lust?"
+        ]
+      },
+      "nicht so gut": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Schade, dass dein Tag schwierig war. Möchtest du erzählen oder dich lieber ablenken?",
+          "Das klingt unangenehm. Wir können in Ruhe reden, ohne gleich die nächste Aufgabe anzugehen.",
+          "Das tut mir leid. Ich kann dich mit einem Witz ablenken oder dir zuhören."
+        ]
+      }
+    },
+    "fr": {
+      "je vais bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Tant mieux ! J’espère que la suite de ta journée sera aussi agréable.",
+          "Super ! Tu veux raconter ce qui s’est bien passé ?",
+          "C’est chouette ! On peut discuter ou s’occuper de ce que tu avais prévu."
+        ]
+      },
+      "moi aussi ça va": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Tant mieux ! J’espère que la suite de ta journée sera aussi agréable.",
+          "Super ! Tu veux raconter ce qui s’est bien passé ?",
+          "C’est chouette ! On peut discuter ou s’occuper de ce que tu avais prévu."
+        ]
+      },
+      "ça va comme ci comme ça": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Je comprends. Chaque journée n’a pas besoin d’être exceptionnelle. On peut juste discuter un peu.",
+          "Ça arrive. Tu préfères une petite blague ou un peu de conversation ?",
+          "Une journée ordinaire, ça peut faire du bien aussi. Qu’aimerais-tu faire maintenant ?"
+        ]
+      },
+      "une journée ordinaire": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Je comprends. Chaque journée n’a pas besoin d’être exceptionnelle. On peut juste discuter un peu.",
+          "Ça arrive. Tu préfères une petite blague ou un peu de conversation ?",
+          "Une journée ordinaire, ça peut faire du bien aussi. Qu’aimerais-tu faire maintenant ?"
+        ]
+      },
+      "je ne vais pas très bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Je suis désolé que ta journée ait été difficile. Tu veux en parler ou te changer les idées ?",
+          "Ça n’a pas l’air agréable. On peut discuter tranquillement, sans se précipiter vers une autre tâche.",
+          "Je suis désolé de l’apprendre. Je peux raconter une blague pour te distraire, ou t’écouter si tu préfères parler."
+        ]
+      },
+      "ma journée a été difficile": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Je suis désolé que ta journée ait été difficile. Tu veux en parler ou te changer les idées ?",
+          "Ça n’a pas l’air agréable. On peut discuter tranquillement, sans se précipiter vers une autre tâche.",
+          "Je suis désolé de l’apprendre. Je peux raconter une blague pour te distraire, ou t’écouter si tu préfères parler."
+        ]
+      },
+      "plutôt bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Tant mieux ! J’espère que la suite de ta journée sera aussi agréable.",
+          "Super ! Tu veux raconter ce qui s’est bien passé ?",
+          "C’est chouette ! On peut discuter ou s’occuper de ce que tu avais prévu."
+        ]
+      },
+      "comme d’habitude": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Je comprends. Chaque journée n’a pas besoin d’être exceptionnelle. On peut juste discuter un peu.",
+          "Ça arrive. Tu préfères une petite blague ou un peu de conversation ?",
+          "Une journée ordinaire, ça peut faire du bien aussi. Qu’aimerais-tu faire maintenant ?"
+        ]
+      },
+      "pas très bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Je suis désolé que ta journée ait été difficile. Tu veux en parler ou te changer les idées ?",
+          "Ça n’a pas l’air agréable. On peut discuter tranquillement, sans se précipiter vers une autre tâche.",
+          "Je suis désolé de l’apprendre. Je peux raconter une blague pour te distraire, ou t’écouter si tu préfères parler."
+        ]
+      }
+    },
+    "es": {
+      "estoy bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "¡Qué bien! Ojalá el resto del día siga así.",
+          "¡Me alegro! ¿Quieres contarme qué ha salido bien?",
+          "¡Genial! Podemos charlar o ponernos con lo que tenías pensado."
+        ]
+      },
+      "yo también estoy bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "¡Qué bien! Ojalá el resto del día siga así.",
+          "¡Me alegro! ¿Quieres contarme qué ha salido bien?",
+          "¡Genial! Podemos charlar o ponernos con lo que tenías pensado."
+        ]
+      },
+      "estoy regular": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Te entiendo. No todos los días tienen que ser especiales. Podemos charlar un rato.",
+          "A veces pasa. ¿Te apetece un chiste corto o conversar un poco?",
+          "Un día normal también está bien. ¿Qué te apetece hacer ahora?"
+        ]
+      },
+      "un día normal": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Te entiendo. No todos los días tienen que ser especiales. Podemos charlar un rato.",
+          "A veces pasa. ¿Te apetece un chiste corto o conversar un poco?",
+          "Un día normal también está bien. ¿Qué te apetece hacer ahora?"
+        ]
+      },
+      "no estoy muy bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Siento que el día haya sido difícil. ¿Quieres contarlo o prefieres distraerte un poco?",
+          "Suena desagradable. Podemos hablar con calma, sin pasar enseguida a otra tarea.",
+          "Siento oír eso. Puedo contarte un chiste para distraerte o escucharte si prefieres hablar."
+        ]
+      },
+      "mi día ha sido difícil": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Siento que el día haya sido difícil. ¿Quieres contarlo o prefieres distraerte un poco?",
+          "Suena desagradable. Podemos hablar con calma, sin pasar enseguida a otra tarea.",
+          "Siento oír eso. Puedo contarte un chiste para distraerte o escucharte si prefieres hablar."
+        ]
+      },
+      "bastante bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "¡Qué bien! Ojalá el resto del día siga así.",
+          "¡Me alegro! ¿Quieres contarme qué ha salido bien?",
+          "¡Genial! Podemos charlar o ponernos con lo que tenías pensado."
+        ]
+      },
+      "como siempre": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Te entiendo. No todos los días tienen que ser especiales. Podemos charlar un rato.",
+          "A veces pasa. ¿Te apetece un chiste corto o conversar un poco?",
+          "Un día normal también está bien. ¿Qué te apetece hacer ahora?"
+        ]
+      },
+      "no muy bien": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Siento que el día haya sido difícil. ¿Quieres contarlo o prefieres distraerte un poco?",
+          "Suena desagradable. Podemos hablar con calma, sin pasar enseguida a otra tarea.",
+          "Siento oír eso. Puedo contarte un chiste para distraerte o escucharte si prefieres hablar."
+        ]
+      }
+    },
+    "it": {
+      "sto bene": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Mi fa piacere! Spero che il resto della giornata vada altrettanto bene.",
+          "Ottimo! Vuoi raccontarmi che cosa è andato bene?",
+          "Bello! Possiamo chiacchierare o occuparci di quello che avevi in mente."
+        ]
+      },
+      "anche io sto bene": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Mi fa piacere! Spero che il resto della giornata vada altrettanto bene.",
+          "Ottimo! Vuoi raccontarmi che cosa è andato bene?",
+          "Bello! Possiamo chiacchierare o occuparci di quello che avevi in mente."
+        ]
+      },
+      "così così": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Capisco. Non tutte le giornate devono essere speciali. Possiamo semplicemente chiacchierare.",
+          "Capita. Ti va una battuta breve o un po’ di conversazione?",
+          "Anche una giornata normale va bene. Che cosa ti andrebbe di fare ora?"
+        ]
+      },
+      "una giornata normale": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Capisco. Non tutte le giornate devono essere speciali. Possiamo semplicemente chiacchierare.",
+          "Capita. Ti va una battuta breve o un po’ di conversazione?",
+          "Anche una giornata normale va bene. Che cosa ti andrebbe di fare ora?"
+        ]
+      },
+      "non sto molto bene": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Mi dispiace che la giornata sia stata difficile. Vuoi parlarne o preferisci distrarti un po’?",
+          "Non dev’essere piacevole. Possiamo parlare con calma, senza passare subito a un altro impegno.",
+          "Mi dispiace sentirlo. Posso raccontarti una battuta per distrarti oppure ascoltarti, se vuoi parlare."
+        ]
+      },
+      "la mia giornata è stata difficile": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Mi dispiace che la giornata sia stata difficile. Vuoi parlarne o preferisci distrarti un po’?",
+          "Non dev’essere piacevole. Possiamo parlare con calma, senza passare subito a un altro impegno.",
+          "Mi dispiace sentirlo. Posso raccontarti una battuta per distrarti oppure ascoltarti, se vuoi parlare."
+        ]
+      },
+      "abbastanza bene": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Mi fa piacere! Spero che il resto della giornata vada altrettanto bene.",
+          "Ottimo! Vuoi raccontarmi che cosa è andato bene?",
+          "Bello! Possiamo chiacchierare o occuparci di quello che avevi in mente."
+        ]
+      },
+      "come al solito": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Capisco. Non tutte le giornate devono essere speciali. Possiamo semplicemente chiacchierare.",
+          "Capita. Ti va una battuta breve o un po’ di conversazione?",
+          "Anche una giornata normale va bene. Che cosa ti andrebbe di fare ora?"
+        ]
+      },
+      "non molto bene": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Mi dispiace che la giornata sia stata difficile. Vuoi parlarne o preferisci distrarti un po’?",
+          "Non dev’essere piacevole. Possiamo parlare con calma, senza passare subito a un altro impegno.",
+          "Mi dispiace sentirlo. Posso raccontarti una battuta per distrarti oppure ascoltarti, se vuoi parlare."
+        ]
+      }
+    },
+    "pt": {
+      "estou bem": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Ainda bem! Espero que o resto do dia continue assim.",
+          "Que bom! Queres contar o que correu bem?",
+          "Ótimo! Podemos conversar ou tratar do que tinhas planeado."
+        ]
+      },
+      "também estou bem": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Ainda bem! Espero que o resto do dia continue assim.",
+          "Que bom! Queres contar o que correu bem?",
+          "Ótimo! Podemos conversar ou tratar do que tinhas planeado."
+        ]
+      },
+      "mais ou menos": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Percebo. Nem todos os dias precisam de ser especiais. Podemos só conversar um pouco.",
+          "Acontece. Apetece-te uma piada curta ou um pouco de conversa?",
+          "Um dia normal também pode ser bom. O que te apetece fazer agora?"
+        ]
+      },
+      "um dia normal": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Percebo. Nem todos os dias precisam de ser especiais. Podemos só conversar um pouco.",
+          "Acontece. Apetece-te uma piada curta ou um pouco de conversa?",
+          "Um dia normal também pode ser bom. O que te apetece fazer agora?"
+        ]
+      },
+      "não estou muito bem": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Lamento que o dia tenha sido difícil. Queres contar ou preferes distrair-te um pouco?",
+          "Parece desagradável. Podemos conversar com calma, sem passar logo a outra tarefa.",
+          "Tenho pena de ouvir isso. Posso contar uma piada para te distrair ou ouvir-te, se preferires falar."
+        ]
+      },
+      "o meu dia foi difícil": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Lamento que o dia tenha sido difícil. Queres contar ou preferes distrair-te um pouco?",
+          "Parece desagradável. Podemos conversar com calma, sem passar logo a outra tarefa.",
+          "Tenho pena de ouvir isso. Posso contar uma piada para te distrair ou ouvir-te, se preferires falar."
+        ]
+      },
+      "bastante bem": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Ainda bem! Espero que o resto do dia continue assim.",
+          "Que bom! Queres contar o que correu bem?",
+          "Ótimo! Podemos conversar ou tratar do que tinhas planeado."
+        ]
+      },
+      "como sempre": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Percebo. Nem todos os dias precisam de ser especiais. Podemos só conversar um pouco.",
+          "Acontece. Apetece-te uma piada curta ou um pouco de conversa?",
+          "Um dia normal também pode ser bom. O que te apetece fazer agora?"
+        ]
+      },
+      "não muito bem": {
+        "topic": "wellbeing160",
+        "requires": [
+          "well",
+          "greeting_how160",
+          "wellbeing160"
+        ],
+        "answers": [
+          "Lamento que o dia tenha sido difícil. Queres contar ou preferes distrair-te um pouco?",
+          "Parece desagradável. Podemos conversar com calma, sem passar logo a outra tarefa.",
+          "Tenho pena de ouvir isso. Posso contar uma piada para te distrair ou ouvir-te, se preferires falar."
+        ]
+      }
+    }
+  }
+}
