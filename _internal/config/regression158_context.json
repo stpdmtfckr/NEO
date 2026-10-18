@@ -1,0 +1,288 @@
+[
+  {
+    "locale": "ru",
+    "phrase": "где находятся файлы игры Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "ru",
+    "phrase": "найди все папки игры Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "ru",
+    "phrase": "где установлен Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "ru",
+    "phrase": "где находится приложение Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "ru",
+    "phrase": "покажи все папки связанные с игрой Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "ru",
+    "phrase": "продолжи поиск файлов игры Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "ru",
+    "phrase": "где хранятся файлы приложения Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "en",
+    "phrase": "where are the files of the game Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "en",
+    "phrase": "show me all folders for the app Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "en",
+    "phrase": "where is Discord installed",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "en",
+    "phrase": "continue searching for files for game Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "de",
+    "phrase": "wo sind die Dateien von dem Spiel Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "de",
+    "phrase": "zeige alle Ordner von der Anwendung Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "de",
+    "phrase": "wo ist Discord installiert",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "fr",
+    "phrase": "où sont les fichiers du jeu Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "fr",
+    "phrase": "affiche les dossiers de l’application Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "fr",
+    "phrase": "où est installé Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "es",
+    "phrase": "dónde están los archivos del juego Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "es",
+    "phrase": "muestra las carpetas de la aplicación Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "es",
+    "phrase": "dónde está instalado Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "it",
+    "phrase": "dove sono i file del gioco Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "it",
+    "phrase": "mostra le cartelle del programma Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "it",
+    "phrase": "dove è installato Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "pt",
+    "phrase": "onde estão os arquivos do jogo Darktide",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Darktide",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "pt",
+    "phrase": "mostra as pastas do programa Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  },
+  {
+    "locale": "pt",
+    "phrase": "onde está instalado Discord",
+    "expected_tool": "game_locations",
+    "expected_action": "find",
+    "expected_args": {
+      "name": "Discord",
+      "kind": "all"
+    },
+    "source": "context158_locations"
+  }
+]
