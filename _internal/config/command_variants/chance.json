@@ -1,0 +1,104 @@
+{
+  "chance.roll_die": {
+    "ru": [
+      "брось кубик",
+      "кинь кубик",
+      "брось игральный кубик",
+      "подбрось кубик",
+      "сделай бросок кубика"
+    ],
+    "en": [
+      "roll a die",
+      "roll the dice",
+      "roll a dice",
+      "throw a die",
+      "give me a dice roll"
+    ],
+    "de": [
+      "würfle",
+      "wirf einen würfel",
+      "würfle einmal",
+      "lass den würfel rollen",
+      "würfel bitte"
+    ],
+    "fr": [
+      "lance un dé",
+      "jette un dé",
+      "fais un lancer de dé",
+      "lance le dé",
+      "peux-tu lancer un dé"
+    ],
+    "es": [
+      "tira un dado",
+      "lanza un dado",
+      "haz una tirada de dado",
+      "tira el dado",
+      "puedes lanzar un dado"
+    ],
+    "it": [
+      "tira un dado",
+      "lancia un dado",
+      "fai un lancio di dado",
+      "tira il dado",
+      "puoi lanciare un dado"
+    ],
+    "pt": [
+      "lança um dado",
+      "joga um dado",
+      "rola um dado",
+      "atira um dado",
+      "podes lançar um dado"
+    ]
+  },
+  "chance.flip_coin": {
+    "ru": [
+      "подкинь монетку",
+      "брось монетку",
+      "подбрось монету",
+      "подкинь монету",
+      "кинь монетку"
+    ],
+    "en": [
+      "flip a coin",
+      "toss a coin",
+      "flip the coin",
+      "give me a coin toss",
+      "toss the coin"
+    ],
+    "de": [
+      "wirf eine münze",
+      "wirf die münze",
+      "mache einen münzwurf",
+      "münze werfen",
+      "kannst du eine münze werfen"
+    ],
+    "fr": [
+      "lance une pièce",
+      "jette une pièce",
+      "tire à pile ou face",
+      "fais un pile ou face",
+      "peux-tu lancer une pièce"
+    ],
+    "es": [
+      "lanza una moneda",
+      "tira una moneda",
+      "echa una moneda al aire",
+      "lanza la moneda",
+      "puedes tirar una moneda"
+    ],
+    "it": [
+      "lancia una moneta",
+      "tira una moneta",
+      "fai testa o croce",
+      "lancia la moneta",
+      "puoi lanciare una moneta"
+    ],
+    "pt": [
+      "lança uma moeda",
+      "atira uma moeda ao ar",
+      "joga uma moeda",
+      "lança a moeda",
+      "podes lançar uma moeda"
+    ]
+  }
+}
