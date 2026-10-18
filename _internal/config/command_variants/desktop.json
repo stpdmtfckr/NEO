@@ -1,0 +1,2370 @@
+{
+  "activity.list": {
+    "ru": [
+      "покажи, что происходило на компьютере",
+      "какие действия записаны в истории",
+      "открой журнал моей активности"
+    ],
+    "en": [
+      "show what happened on my computer",
+      "what activities have been recorded",
+      "let me see my activity log"
+    ],
+    "de": [
+      "zeige, was auf meinem Computer passiert ist",
+      "welche Aktivitäten wurden aufgezeichnet",
+      "zeig mir mein Aktivitätsprotokoll"
+    ],
+    "fr": [
+      "montre ce qui s’est passé sur mon ordinateur",
+      "quelles activités ont été enregistrées",
+      "fais-moi voir mon journal d’activité"
+    ],
+    "es": [
+      "enséñame qué ha pasado en mi ordenador",
+      "qué actividades se han registrado",
+      "déjame ver el registro de mi actividad"
+    ],
+    "it": [
+      "fammi vedere cosa è successo sul computer",
+      "quali attività sono state registrate",
+      "mostrami il registro delle mie attività"
+    ],
+    "pt": [
+      "mostre o que aconteceu no meu computador",
+      "quais atividades foram registradas",
+      "deixe-me ver o registro das minhas atividades"
+    ]
+  },
+  "activity.search": {
+    "ru": [
+      "поищи {query} в журнале активности",
+      "есть ли в истории активности {query}",
+      "покажи записи активности про {query}"
+    ],
+    "en": [
+      "look for {query} in the activity log",
+      "is there anything about {query} in my activity history",
+      "show activity entries about {query}"
+    ],
+    "de": [
+      "finde {query} im Aktivitätsprotokoll",
+      "steht etwas über {query} in meinem Aktivitätsverlauf",
+      "zeige Aktivitätseinträge zu {query}"
+    ],
+    "fr": [
+      "recherche {query} dans le journal d’activité",
+      "y a-t-il quelque chose sur {query} dans mon historique d’activité",
+      "montre les activités concernant {query}"
+    ],
+    "es": [
+      "localiza {query} en el registro de actividad",
+      "hay algo sobre {query} en mi historial de actividad",
+      "enseña las actividades relacionadas con {query}"
+    ],
+    "it": [
+      "cerca {query} nel registro delle attività",
+      "c’è qualcosa su {query} nella cronologia delle attività",
+      "mostra le attività relative a {query}"
+    ],
+    "pt": [
+      "busque {query} no registro de atividades",
+      "há algo sobre {query} no meu histórico de atividades",
+      "mostre as atividades relacionadas a {query}"
+    ]
+  },
+  "activity.pause": {
+    "ru": [
+      "поставь историю активности на паузу",
+      "временно прекрати записывать мои действия",
+      "приостанови журналирование активности"
+    ],
+    "en": [
+      "put activity recording on hold",
+      "temporarily stop recording my activity",
+      "suspend my activity log"
+    ],
+    "de": [
+      "halte die Aktivitätsaufzeichnung an",
+      "zeichne meine Aktivitäten vorübergehend nicht auf",
+      "unterbrich das Aktivitätsprotokoll"
+    ],
+    "fr": [
+      "arrête temporairement de noter mon activité",
+      "suspends le journal d’activité",
+      "fais une pause dans l’enregistrement de mes activités"
+    ],
+    "es": [
+      "detén temporalmente el registro de mi actividad",
+      "suspende el historial de actividad",
+      "deja de registrar mis actividades por ahora"
+    ],
+    "it": [
+      "interrompi temporaneamente il registro delle attività",
+      "metti in pausa la cronologia delle attività",
+      "smetti di registrare le mie attività per ora"
+    ],
+    "pt": [
+      "interrompa temporariamente o registro das minhas atividades",
+      "suspenda o histórico de atividades",
+      "pare de registrar minhas atividades por enquanto"
+    ]
+  },
+  "activity.resume": {
+    "ru": [
+      "снова записывай мои действия",
+      "продолжи вести историю активности",
+      "сними историю активности с паузы"
+    ],
+    "en": [
+      "start recording my activity again",
+      "continue keeping my activity history",
+      "take activity recording off pause"
+    ],
+    "de": [
+      "zeichne meine Aktivitäten wieder auf",
+      "führe meinen Aktivitätsverlauf weiter",
+      "hebe die Pause der Aktivitätsaufzeichnung auf"
+    ],
+    "fr": [
+      "recommence à enregistrer mon activité",
+      "continue à tenir mon historique d’activité",
+      "relance le journal d’activité"
+    ],
+    "es": [
+      "vuelve a registrar mi actividad",
+      "continúa guardando mi historial de actividad",
+      "quita la pausa del registro de actividad"
+    ],
+    "it": [
+      "ricomincia a registrare le mie attività",
+      "continua a tenere la cronologia delle attività",
+      "togli la pausa al registro delle attività"
+    ],
+    "pt": [
+      "volte a registrar minhas atividades",
+      "continue mantendo meu histórico de atividades",
+      "tire o registro de atividades da pausa"
+    ]
+  },
+  "activity.clear": {
+    "ru": [
+      "удали записи моей активности",
+      "сотри журнал активности",
+      "убери всю историю моих действий"
+    ],
+    "en": [
+      "erase my activity records",
+      "delete the activity log",
+      "remove all recorded activity"
+    ],
+    "de": [
+      "entferne meine Aktivitätsaufzeichnungen",
+      "leere das Aktivitätsprotokoll",
+      "lösche alle aufgezeichneten Aktivitäten"
+    ],
+    "fr": [
+      "supprime les traces de mon activité",
+      "vide le journal d’activité",
+      "retire tout l’historique de mes actions"
+    ],
+    "es": [
+      "elimina los registros de mi actividad",
+      "vacía el registro de actividad",
+      "borra todas las actividades registradas"
+    ],
+    "it": [
+      "elimina i dati della mia attività",
+      "svuota il registro delle attività",
+      "cancella tutte le attività registrate"
+    ],
+    "pt": [
+      "apague os registros das minhas atividades",
+      "esvazie o registro de atividades",
+      "exclua todo o histórico das minhas ações"
+    ]
+  },
+  "activity.export": {
+    "ru": [
+      "выгрузи журнал активности в файл",
+      "сохрани копию истории активности",
+      "сделай экспорт записанных действий"
+    ],
+    "en": [
+      "save my activity log to a file",
+      "make a copy of my activity history",
+      "export the recorded activities"
+    ],
+    "de": [
+      "speichere mein Aktivitätsprotokoll in einer Datei",
+      "erstelle eine Kopie meines Aktivitätsverlaufs",
+      "exportiere die aufgezeichneten Aktivitäten"
+    ],
+    "fr": [
+      "enregistre mon journal d’activité dans un fichier",
+      "crée une copie de mon historique d’activité",
+      "exporte les activités enregistrées"
+    ],
+    "es": [
+      "guarda mi registro de actividad en un archivo",
+      "crea una copia de mi historial de actividad",
+      "exporta las actividades registradas"
+    ],
+    "it": [
+      "salva il registro delle attività in un file",
+      "crea una copia della cronologia delle attività",
+      "esporta le attività registrate"
+    ],
+    "pt": [
+      "salve meu registro de atividades em um arquivo",
+      "crie uma cópia do meu histórico de atividades",
+      "exporte as atividades registradas"
+    ]
+  },
+  "downloads.list": {
+    "ru": [
+      "какие у меня есть загрузки",
+      "выведи перечень скачиваний",
+      "покажи загружаемые файлы"
+    ],
+    "en": [
+      "which downloads do I have",
+      "list my downloaded and downloading files",
+      "let me see the download list"
+    ],
+    "de": [
+      "welche Downloads habe ich",
+      "liste meine heruntergeladenen und laufenden Dateien auf",
+      "zeig mir die Downloadliste"
+    ],
+    "fr": [
+      "quels sont mes téléchargements",
+      "dresse la liste de mes fichiers téléchargés et en cours",
+      "fais-moi voir la liste des téléchargements"
+    ],
+    "es": [
+      "qué descargas tengo",
+      "enumera mis archivos descargados y en descarga",
+      "enséñame la lista de descargas"
+    ],
+    "it": [
+      "quali download ho",
+      "elenca i file scaricati e in download",
+      "fammi vedere l’elenco dei download"
+    ],
+    "pt": [
+      "quais downloads eu tenho",
+      "liste os arquivos baixados e em download",
+      "deixe-me ver a lista de downloads"
+    ]
+  },
+  "downloads.status": {
+    "ru": [
+      "как идёт скачивание файлов",
+      "есть ли сейчас активные загрузки",
+      "покажи состояние текущих загрузок"
+    ],
+    "en": [
+      "how are my downloads progressing",
+      "are any downloads running now",
+      "show the status of current downloads"
+    ],
+    "de": [
+      "wie kommen meine Downloads voran",
+      "laufen gerade Downloads",
+      "zeige den Status der aktuellen Downloads"
+    ],
+    "fr": [
+      "où en sont mes téléchargements",
+      "y a-t-il des téléchargements actifs",
+      "montre l’état des téléchargements en cours"
+    ],
+    "es": [
+      "cómo van mis descargas",
+      "hay alguna descarga en curso",
+      "muestra el estado de las descargas actuales"
+    ],
+    "it": [
+      "come procedono i download",
+      "ci sono download attivi adesso",
+      "mostra lo stato dei download in corso"
+    ],
+    "pt": [
+      "como estão meus downloads",
+      "há algum download em andamento",
+      "mostre o estado dos downloads atuais"
+    ]
+  },
+  "desktop.resolve": {
+    "ru": [
+      "помоги отыскать на компьютере {query}",
+      "где на этом компьютере находится {query}",
+      "проверь, есть ли на компьютере {query}"
+    ],
+    "en": [
+      "help me locate {query} on this computer",
+      "where can I find {query} on this PC",
+      "check whether this computer has {query}"
+    ],
+    "de": [
+      "hilf mir, {query} auf diesem Computer zu finden",
+      "wo finde ich {query} auf diesem PC",
+      "prüfe, ob {query} auf diesem Computer vorhanden ist"
+    ],
+    "fr": [
+      "aide-moi à retrouver {query} sur cet ordinateur",
+      "où puis-je trouver {query} sur ce PC",
+      "vérifie si {query} se trouve sur cet ordinateur"
+    ],
+    "es": [
+      "ayúdame a localizar {query} en este ordenador",
+      "dónde puedo encontrar {query} en este equipo",
+      "comprueba si este ordenador tiene {query}"
+    ],
+    "it": [
+      "aiutami a trovare {query} su questo computer",
+      "dove posso trovare {query} su questo PC",
+      "controlla se {query} è presente su questo computer"
+    ],
+    "pt": [
+      "ajude-me a localizar {query} neste computador",
+      "onde posso encontrar {query} neste PC",
+      "verifique se este computador tem {query}"
+    ]
+  },
+  "desktop.open": {
+    "ru": [
+      "открой локальный объект {query}",
+      "открой мне с этого компьютера {query}",
+      "покажи мне на компьютере {query}"
+    ],
+    "en": [
+      "bring up the local item {query}",
+      "open the local item {query}",
+      "bring up {query} from this PC"
+    ],
+    "de": [
+      "rufe das lokale Element {query} auf",
+      "öffne das lokale Element {query}",
+      "rufe {query} auf diesem PC auf"
+    ],
+    "fr": [
+      "affiche l’élément local {query}",
+      "ouvre l’élément local {query}",
+      "affiche {query} depuis ce PC"
+    ],
+    "es": [
+      "muéstrame el elemento local {query}",
+      "abre el elemento local {query}",
+      "muéstrame {query} desde este equipo"
+    ],
+    "it": [
+      "mostra l’elemento locale {query}",
+      "apri l’elemento locale {query}",
+      "richiama {query} da questo PC"
+    ],
+    "pt": [
+      "exiba o item local {query}",
+      "abra o item local {query}",
+      "traga {query} deste PC"
+    ]
+  },
+  "desktop_features.settings": {
+    "ru": [
+      "перейди к настройкам виджетов",
+      "покажи параметры книжного шкафа",
+      "хочу настроить полку и заметки"
+    ],
+    "en": [
+      "go to widget settings",
+      "show the bookshelf preferences",
+      "I want to customize the shelf and notes"
+    ],
+    "de": [
+      "gehe zu den Widget-Einstellungen",
+      "zeige die Einstellungen der Ablage",
+      "ich möchte die Ablage und Notizen anpassen"
+    ],
+    "fr": [
+      "va dans les paramètres des widgets",
+      "montre les préférences de l’étagère",
+      "je veux personnaliser l’étagère et les notes"
+    ],
+    "es": [
+      "ve a la configuración de los widgets",
+      "muestra las preferencias de la estantería",
+      "quiero personalizar la estantería y las notas"
+    ],
+    "it": [
+      "vai alle impostazioni dei widget",
+      "mostra le preferenze dello scaffale",
+      "voglio personalizzare lo scaffale e le note"
+    ],
+    "pt": [
+      "vá para as configurações dos widgets",
+      "mostre as preferências da estante",
+      "quero personalizar a estante e as notas"
+    ]
+  },
+  "mini_browser.open": {
+    "ru": [
+      "покажи страницу {url} в маленьком браузере",
+      "выведи сайт {url} в мини-окно",
+      "запусти мини-браузер со страницей {url}"
+    ],
+    "en": [
+      "show {url} in a small browser window",
+      "bring up {url} in the mini browser",
+      "launch the mini browser with {url}"
+    ],
+    "de": [
+      "zeige {url} in einem kleinen Browserfenster",
+      "rufe {url} im Mini-Browser auf",
+      "starte den Mini-Browser mit {url}"
+    ],
+    "fr": [
+      "montre {url} dans une petite fenêtre de navigateur",
+      "affiche le site {url} dans le mini-navigateur",
+      "lance le mini-navigateur avec {url}"
+    ],
+    "es": [
+      "muestra {url} en una ventana pequeña del navegador",
+      "carga {url} en el mini navegador",
+      "inicia el mini navegador con {url}"
+    ],
+    "it": [
+      "mostra {url} in una piccola finestra del browser",
+      "carica {url} nel mini browser",
+      "avvia il mini browser con {url}"
+    ],
+    "pt": [
+      "mostre {url} em uma pequena janela do navegador",
+      "carregue {url} no mini navegador",
+      "inicie o mini navegador com {url}"
+    ]
+  },
+  "mini_browser.close": {
+    "ru": [
+      "убери окно мини-браузера",
+      "заверши работу мини-браузера",
+      "закрой маленькое окно браузера"
+    ],
+    "en": [
+      "shut the mini browser window",
+      "dismiss the mini browser",
+      "close the small browser window"
+    ],
+    "de": [
+      "mache das Mini-Browserfenster zu",
+      "beende den Mini-Browser",
+      "schließe das kleine Browserfenster"
+    ],
+    "fr": [
+      "referme la fenêtre du mini-navigateur",
+      "quitte le mini-navigateur",
+      "ferme la petite fenêtre du navigateur"
+    ],
+    "es": [
+      "cierra la ventana del mini navegador",
+      "sal del mini navegador",
+      "quita la pequeña ventana del navegador"
+    ],
+    "it": [
+      "chiudi la finestra del mini browser",
+      "esci dal mini browser",
+      "togli la piccola finestra del browser"
+    ],
+    "pt": [
+      "encerre a janela do mini navegador",
+      "saia do mini navegador",
+      "feche a pequena janela do navegador"
+    ]
+  },
+  "mini_browser.pin": {
+    "ru": [
+      "пусть мини-браузер будет поверх остальных окон",
+      "оставь маленький браузер на переднем плане",
+      "зафиксируй мини-браузер поверх приложений"
+    ],
+    "en": [
+      "keep the mini browser above other windows",
+      "make the mini browser stay on top",
+      "keep the small browser in the foreground"
+    ],
+    "de": [
+      "halte den Mini-Browser über anderen Fenstern",
+      "lass den Mini-Browser immer im Vordergrund",
+      "fixiere den kleinen Browser über den Anwendungen"
+    ],
+    "fr": [
+      "laisse le mini-navigateur au-dessus des autres fenêtres",
+      "maintiens le petit navigateur au premier plan",
+      "épingle le mini-navigateur au-dessus des applications"
+    ],
+    "es": [
+      "mantén el mini navegador sobre las demás ventanas",
+      "deja el pequeño navegador en primer plano",
+      "ancla el mini navegador sobre las aplicaciones"
+    ],
+    "it": [
+      "mantieni il mini browser sopra le altre finestre",
+      "lascia il piccolo browser in primo piano",
+      "blocca il mini browser sopra le applicazioni"
+    ],
+    "pt": [
+      "mantenha o mini navegador acima das outras janelas",
+      "deixe o pequeno navegador em primeiro plano",
+      "prenda o mini navegador sobre os aplicativos"
+    ]
+  },
+  "mini_browser.zoom": {
+    "ru": [
+      "сделай масштаб маленького браузера {zoom} процентов",
+      "измени увеличение мини-браузера на {zoom} процентов",
+      "выставь для мини-браузера масштаб {zoom} процентов"
+    ],
+    "en": [
+      "change the small browser zoom to {zoom} percent",
+      "use {zoom} percent zoom in the mini browser",
+      "adjust mini browser magnification to {zoom} percent"
+    ],
+    "de": [
+      "ändere den Zoom des kleinen Browsers auf {zoom} Prozent",
+      "verwende {zoom} Prozent Zoom im Mini-Browser",
+      "passe die Vergrößerung des Mini-Browsers auf {zoom} Prozent an"
+    ],
+    "fr": [
+      "passe le zoom du petit navigateur à {zoom} pour cent",
+      "utilise un zoom de {zoom} pour cent dans le mini-navigateur",
+      "ajuste le grossissement du mini-navigateur à {zoom} pour cent"
+    ],
+    "es": [
+      "cambia el zoom del navegador pequeño al {zoom} por ciento",
+      "usa un zoom del {zoom} por ciento en el mini navegador",
+      "ajusta la ampliación del mini navegador al {zoom} por ciento"
+    ],
+    "it": [
+      "cambia lo zoom del piccolo browser al {zoom} per cento",
+      "usa uno zoom del {zoom} per cento nel mini browser",
+      "regola l’ingrandimento del mini browser al {zoom} per cento"
+    ],
+    "pt": [
+      "mude o zoom do navegador pequeno para {zoom} por cento",
+      "use zoom de {zoom} por cento no mini navegador",
+      "ajuste a ampliação do mini navegador para {zoom} por cento"
+    ]
+  },
+  "shelf.show": {
+    "ru": [
+      "открой книжный шкаф",
+      "разверни мою полку с заметками",
+      "хочу увидеть книжную полку"
+    ],
+    "en": [
+      "open my bookshelf",
+      "bring up my shelf of notes",
+      "let me see the bookshelf"
+    ],
+    "de": [
+      "öffne meine Ablage",
+      "blende meine Notizablage ein",
+      "ich möchte die Ablage sehen"
+    ],
+    "fr": [
+      "ouvre mon étagère",
+      "fais apparaître mon étagère de notes",
+      "je voudrais voir l’étagère"
+    ],
+    "es": [
+      "abre mi estantería",
+      "despliega mi estante de notas",
+      "quiero ver la estantería"
+    ],
+    "it": [
+      "apri il mio scaffale",
+      "fai comparire lo scaffale delle note",
+      "voglio vedere lo scaffale"
+    ],
+    "pt": [
+      "abra minha estante",
+      "exiba minha estante de notas",
+      "quero ver a estante"
+    ]
+  },
+  "shelf.hide": {
+    "ru": [
+      "закрой книжный шкаф",
+      "убери с экрана полку с заметками",
+      "спрячь книжную полку"
+    ],
+    "en": [
+      "close my bookshelf",
+      "take the notes shelf off the screen",
+      "put the bookshelf away"
+    ],
+    "de": [
+      "schließe meine Ablage",
+      "nimm die Notizablage vom Bildschirm",
+      "verstecke die Ablage"
+    ],
+    "fr": [
+      "ferme mon étagère",
+      "retire l’étagère de notes de l’écran",
+      "cache l’étagère"
+    ],
+    "es": [
+      "cierra mi estantería",
+      "quita el estante de notas de la pantalla",
+      "esconde la estantería"
+    ],
+    "it": [
+      "chiudi il mio scaffale",
+      "togli lo scaffale delle note dallo schermo",
+      "nascondi lo scaffale delle note"
+    ],
+    "pt": [
+      "feche minha estante",
+      "tire a estante de notas da tela",
+      "esconda a estante"
+    ]
+  },
+  "shelf.toggle": {
+    "ru": [
+      "поменяй состояние видимости книжного шкафа",
+      "переключи показ полки с заметками",
+      "инвертируй видимость книжной полки"
+    ],
+    "en": [
+      "switch whether the bookshelf is visible",
+      "toggle the display of my notes shelf",
+      "invert the bookshelf’s visibility"
+    ],
+    "de": [
+      "wechsle den Sichtbarkeitszustand der Ablage",
+      "schalte die Anzeige meiner Notizablage um",
+      "kehre die Sichtbarkeit der Ablage um"
+    ],
+    "fr": [
+      "bascule l’affichage de l’étagère",
+      "change l’état de visibilité de mon étagère de notes",
+      "alterne entre afficher et masquer l’étagère"
+    ],
+    "es": [
+      "cambia el estado de visibilidad de la estantería",
+      "alterna la visualización de mi estante de notas",
+      "invierte la visibilidad de la estantería"
+    ],
+    "it": [
+      "cambia lo stato di visibilità dello scaffale",
+      "alterna la visualizzazione del mio scaffale di note",
+      "inverti la visibilità dello scaffale"
+    ],
+    "pt": [
+      "mude o estado de visibilidade da estante",
+      "alterne a exibição da minha estante de notas",
+      "inverta a visibilidade da estante"
+    ]
+  },
+  "shelf.list": {
+    "ru": [
+      "перечисли содержимое книжного шкафа",
+      "какие карточки есть на моей полке",
+      "покажи список объектов книжной полки"
+    ],
+    "en": [
+      "list the contents of my bookshelf",
+      "which cards are on my shelf",
+      "show all items stored on the bookshelf"
+    ],
+    "de": [
+      "liste den Inhalt meiner Ablage auf",
+      "welche Karten liegen in meiner Ablage",
+      "zeige alle gespeicherten Ablageelemente"
+    ],
+    "fr": [
+      "énumère le contenu de mon étagère",
+      "quelles fiches se trouvent sur mon étagère",
+      "montre tous les éléments de l’étagère"
+    ],
+    "es": [
+      "enumera el contenido de mi estantería",
+      "qué tarjetas hay en mi estante",
+      "muestra todos los elementos de la estantería"
+    ],
+    "it": [
+      "elenca il contenuto del mio scaffale",
+      "quali schede ci sono sullo scaffale",
+      "mostra tutti gli elementi conservati sullo scaffale"
+    ],
+    "pt": [
+      "liste o conteúdo da minha estante",
+      "quais cartões estão na minha estante",
+      "mostre todos os itens guardados na estante"
+    ]
+  },
+  "shelf.read": {
+    "ru": [
+      "зачитай заметку {title}",
+      "прочти мне запись {title} с полки",
+      "прочитай текст заметки {title}"
+    ],
+    "en": [
+      "read out my note {title}",
+      "read me the shelf note {title}",
+      "read the text of note {title}"
+    ],
+    "de": [
+      "lies mir die Notiz {title} vor",
+      "lies den Text meiner Notiz {title}",
+      "lies meine Ablagenotiz {title}"
+    ],
+    "fr": [
+      "lis-moi la note {title}",
+      "fais la lecture de ma note {title}",
+      "lis le texte de la note {title}"
+    ],
+    "es": [
+      "léeme la nota {title}",
+      "lee el texto de mi nota {title}",
+      "da lectura a la nota {title}"
+    ],
+    "it": [
+      "leggimi la nota {title}",
+      "leggi il testo della mia nota {title}",
+      "dammi lettura della nota {title}"
+    ],
+    "pt": [
+      "leia para mim a nota {title}",
+      "leia o texto da minha nota {title}",
+      "faça a leitura da nota {title}"
+    ]
+  },
+  "shelf.get": {
+    "ru": [
+      "что написано в заметке {title}",
+      "выведи содержимое записи {title} с полки",
+      "какой текст в заметке {title}"
+    ],
+    "en": [
+      "what does the note {title} say",
+      "display the contents of shelf note {title}",
+      "what text is in my note {title}"
+    ],
+    "de": [
+      "was steht in der Notiz {title}",
+      "gib den Inhalt meiner Ablagenotiz {title} aus",
+      "welchen Text enthält die Notiz {title}"
+    ],
+    "fr": [
+      "qu’est-il écrit dans la note {title}",
+      "montre le contenu de ma note {title}",
+      "quel texte contient la note {title}"
+    ],
+    "es": [
+      "qué dice la nota {title}",
+      "enséñame el contenido de mi nota {title}",
+      "qué texto contiene la nota {title}"
+    ],
+    "it": [
+      "cosa c’è scritto nella nota {title}",
+      "visualizza il contenuto della mia nota {title}",
+      "quale testo contiene la nota {title}"
+    ],
+    "pt": [
+      "o que diz a nota {title}",
+      "exiba o conteúdo da minha nota {title}",
+      "qual texto está na nota {title}"
+    ]
+  },
+  "shelf.create": {
+    "ru": [
+      "заведи заметку {title} с текстом: {content}",
+      "добавь на полку новую заметку {title}: {content}",
+      "запиши в новую заметку {title}: {content}"
+    ],
+    "en": [
+      "make a new note called {title} with text: {content}",
+      "add a new shelf note {title}: {content}",
+      "write a new note {title}: {content}"
+    ],
+    "de": [
+      "lege eine neue Notiz {title} mit folgendem Text an: {content}",
+      "füge eine neue Ablagenotiz {title} hinzu: {content}",
+      "schreibe eine neue Notiz {title}: {content}"
+    ],
+    "fr": [
+      "fais une nouvelle note intitulée {title} avec le texte : {content}",
+      "ajoute une nouvelle note {title} à l’étagère : {content}",
+      "rédige une nouvelle note {title} : {content}"
+    ],
+    "es": [
+      "haz una nota nueva llamada {title} con el texto: {content}",
+      "añade una nota nueva {title} a la estantería: {content}",
+      "escribe una nota nueva {title}: {content}"
+    ],
+    "it": [
+      "prepara una nuova nota {title} con il testo: {content}",
+      "aggiungi una nuova nota {title} allo scaffale: {content}",
+      "scrivi una nuova nota {title}: {content}"
+    ],
+    "pt": [
+      "faça uma nova nota chamada {title} com o texto: {content}",
+      "adicione uma nova nota {title} à estante: {content}",
+      "escreva uma nova nota {title}: {content}"
+    ]
+  },
+  "shelf.update": {
+    "ru": [
+      "замени содержимое заметки {title} на: {content}",
+      "перепиши заметку {title} следующим текстом: {content}",
+      "установи для заметки {title} новый текст: {content}"
+    ],
+    "en": [
+      "replace the contents of note {title} with: {content}",
+      "rewrite the note {title} as: {content}",
+      "give note {title} this new text: {content}"
+    ],
+    "de": [
+      "ersetze den Inhalt der Notiz {title} durch: {content}",
+      "schreibe die Notiz {title} neu: {content}",
+      "setze für die Notiz {title} diesen neuen Text: {content}"
+    ],
+    "fr": [
+      "remplace le contenu de la note {title} par : {content}",
+      "réécris la note {title} ainsi : {content}",
+      "donne à la note {title} ce nouveau texte : {content}"
+    ],
+    "es": [
+      "sustituye el contenido de la nota {title} por: {content}",
+      "reescribe la nota {title} así: {content}",
+      "pon este nuevo texto en la nota {title}: {content}"
+    ],
+    "it": [
+      "sostituisci il contenuto della nota {title} con: {content}",
+      "riscrivi la nota {title} così: {content}",
+      "imposta questo nuovo testo nella nota {title}: {content}"
+    ],
+    "pt": [
+      "substitua o conteúdo da nota {title} por: {content}",
+      "reescreva a nota {title} assim: {content}",
+      "coloque este novo texto na nota {title}: {content}"
+    ]
+  },
+  "shelf.check": {
+    "ru": [
+      "поставь галочку у пункта {index} в списке {title}",
+      "пометь пункт {index} выполненным в чек-листе {title}",
+      "заверши пункт {index} списка {title}"
+    ],
+    "en": [
+      "tick item {index} in checklist {title}",
+      "mark item {index} as done in checklist {title}",
+      "complete item {index} of checklist {title}"
+    ],
+    "de": [
+      "setze ein Häkchen bei Punkt {index} in der Liste {title}",
+      "markiere Punkt {index} in der Checkliste {title} als erledigt",
+      "schließe Punkt {index} der Checkliste {title} ab"
+    ],
+    "fr": [
+      "mets une coche à l’élément {index} de la liste {title}",
+      "marque l’élément {index} comme terminé dans la liste {title}",
+      "termine l’élément {index} de la liste {title}"
+    ],
+    "es": [
+      "pon una marca en el punto {index} de la lista {title}",
+      "marca como hecho el punto {index} de la lista {title}",
+      "completa el punto {index} de la lista {title}"
+    ],
+    "it": [
+      "metti una spunta alla voce {index} della lista {title}",
+      "segna come fatta la voce {index} della lista {title}",
+      "completa la voce {index} della lista {title}"
+    ],
+    "pt": [
+      "coloque uma marca no item {index} da lista {title}",
+      "marque como concluído o item {index} da lista {title}",
+      "conclua o item {index} da lista {title}"
+    ]
+  },
+  "shelf.delete": {
+    "ru": [
+      "удали с книжной полки заметку {title}",
+      "сотри запись {title} из книжного шкафа",
+      "убери с полки карточку заметки {title}"
+    ],
+    "en": [
+      "delete the shelf note {title}",
+      "erase note {title} from the bookshelf",
+      "remove the card for note {title}"
+    ],
+    "de": [
+      "lösche die Ablagenotiz {title}",
+      "beseitige die Notiz {title} aus der Ablage",
+      "entferne die Karte der Notiz {title}"
+    ],
+    "fr": [
+      "supprime la note {title} de l’étagère",
+      "efface la fiche de la note {title}",
+      "enlève de l’étagère la note {title}"
+    ],
+    "es": [
+      "elimina la nota {title} de la estantería",
+      "borra la ficha de la nota {title}",
+      "retira de la estantería la nota {title}"
+    ],
+    "it": [
+      "elimina la nota {title} dallo scaffale",
+      "cancella la scheda della nota {title}",
+      "togli dallo scaffale la nota {title}"
+    ],
+    "pt": [
+      "exclua a nota {title} da estante",
+      "apague o cartão da nota {title}",
+      "tire da estante a nota {title}"
+    ]
+  },
+  "shelf.import_file": {
+    "ru": [
+      "положи файл {path} в книжный шкаф",
+      "импортируй на полку файл {path}",
+      "создай на полке карточку файла {path}"
+    ],
+    "en": [
+      "put the file {path} on my shelf",
+      "import {path} into the bookshelf",
+      "create a shelf card for file {path}"
+    ],
+    "de": [
+      "lege die Datei {path} auf meine Ablage",
+      "importiere {path} in die Ablage",
+      "erstelle eine Ablagekarte für die Datei {path}"
+    ],
+    "fr": [
+      "pose le fichier {path} sur mon étagère",
+      "importe {path} dans l’étagère",
+      "crée une fiche sur l’étagère pour le fichier {path}"
+    ],
+    "es": [
+      "pon el archivo {path} en mi estantería",
+      "importa {path} a la estantería",
+      "crea una tarjeta en la estantería para el archivo {path}"
+    ],
+    "it": [
+      "metti il file {path} sul mio scaffale",
+      "importa {path} nello scaffale",
+      "crea una scheda sullo scaffale per il file {path}"
+    ],
+    "pt": [
+      "coloque o arquivo {path} na minha estante",
+      "importe {path} para a estante",
+      "crie um cartão na estante para o arquivo {path}"
+    ]
+  },
+  "shelf.pin": {
+    "ru": [
+      "оставь заметку {title} поверх окон",
+      "зафиксируй на экране заметку {title}",
+      "прикрепи заметку {title} к рабочему столу"
+    ],
+    "en": [
+      "keep note {title} above other windows",
+      "pin note {title} to the desktop",
+      "make note {title} stay visible"
+    ],
+    "de": [
+      "halte die Notiz {title} über anderen Fenstern",
+      "fixiere die Notiz {title} auf dem Desktop",
+      "lass die Notiz {title} sichtbar bleiben"
+    ],
+    "fr": [
+      "garde la note {title} au-dessus des fenêtres",
+      "fixe la note {title} sur le bureau",
+      "laisse la note {title} visible"
+    ],
+    "es": [
+      "mantén la nota {title} sobre las ventanas",
+      "ancla la nota {title} al escritorio",
+      "deja visible la nota {title}"
+    ],
+    "it": [
+      "mantieni la nota {title} sopra le finestre",
+      "fissa la nota {title} sul desktop",
+      "lascia visibile la nota {title}"
+    ],
+    "pt": [
+      "mantenha a nota {title} sobre as janelas",
+      "prenda a nota {title} à área de trabalho",
+      "deixe a nota {title} visível"
+    ]
+  },
+  "shelf.copy": {
+    "ru": [
+      "помести заметку {title} в буфер обмена",
+      "скопируй содержимое записи {title} с полки",
+      "отправь текст заметки {title} в буфер"
+    ],
+    "en": [
+      "put note {title} on the clipboard",
+      "copy the contents of shelf note {title}",
+      "send the text of note {title} to the clipboard"
+    ],
+    "de": [
+      "lege die Notiz {title} in die Zwischenablage",
+      "kopiere den Inhalt der Ablagenotiz {title}",
+      "übertrage den Text der Notiz {title} in die Zwischenablage"
+    ],
+    "fr": [
+      "mets la note {title} dans le presse-papiers",
+      "copie le contenu de la note {title} de l’étagère",
+      "envoie le texte de la note {title} au presse-papiers"
+    ],
+    "es": [
+      "pon la nota {title} en el portapapeles",
+      "copia el contenido de la nota {title} de la estantería",
+      "envía el texto de la nota {title} al portapapeles"
+    ],
+    "it": [
+      "metti la nota {title} negli appunti",
+      "copia il contenuto della nota {title} dello scaffale",
+      "trasferisci il testo della nota {title} negli appunti"
+    ],
+    "pt": [
+      "coloque a nota {title} na área de transferência",
+      "copie o conteúdo da nota {title} da estante",
+      "envie o texto da nota {title} para a área de transferência"
+    ]
+  },
+  "overlay.show": {
+    "ru": [
+      "выведи на экран панель {name}",
+      "открой информационный виджет {name}",
+      "сделай видимой панель {name}"
+    ],
+    "en": [
+      "bring up information panel {name}",
+      "display the information widget {name}",
+      "make information panel {name} visible"
+    ],
+    "de": [
+      "blende die Informationsanzeige {name} ein",
+      "öffne das Informationswidget {name}",
+      "mache die Informationsanzeige {name} sichtbar"
+    ],
+    "fr": [
+      "fais apparaître le panneau d’information {name}",
+      "ouvre le widget d’information {name}",
+      "rends visible le panneau d’information {name}"
+    ],
+    "es": [
+      "despliega el panel de información {name}",
+      "abre el widget informativo {name}",
+      "haz visible el panel de información {name}"
+    ],
+    "it": [
+      "fai comparire il pannello informativo {name}",
+      "apri il widget informativo {name}",
+      "rendi visibile il pannello informativo {name}"
+    ],
+    "pt": [
+      "exiba o painel de informações {name}",
+      "abra o widget de informações {name}",
+      "torne visível o painel de informações {name}"
+    ]
+  },
+  "overlay.hide": {
+    "ru": [
+      "спрячь панель {name}",
+      "убери информационный виджет {name} с экрана",
+      "сделай невидимой панель {name}"
+    ],
+    "en": [
+      "conceal information panel {name}",
+      "take information widget {name} off the screen",
+      "make information panel {name} invisible"
+    ],
+    "de": [
+      "verstecke die Informationsanzeige {name}",
+      "nimm das Informationswidget {name} vom Bildschirm",
+      "mache die Informationsanzeige {name} unsichtbar"
+    ],
+    "fr": [
+      "cache le panneau d’information {name}",
+      "retire le widget d’information {name} de l’écran",
+      "rends invisible le panneau d’information {name}"
+    ],
+    "es": [
+      "esconde el panel de información {name}",
+      "quita el widget informativo {name} de la pantalla",
+      "haz invisible el panel de información {name}"
+    ],
+    "it": [
+      "nascondi il widget informativo {name}",
+      "togli il pannello informativo {name} dallo schermo",
+      "rendi invisibile il pannello informativo {name}"
+    ],
+    "pt": [
+      "esconda o painel de informações {name}",
+      "tire o widget de informações {name} da tela",
+      "torne invisível o painel de informações {name}"
+    ]
+  },
+  "overlay.close": {
+    "ru": [
+      "закрой виджет информации {name}",
+      "заверши показ информационной панели {name}",
+      "закрой оверлей {name}"
+    ],
+    "en": [
+      "close the information widget {name}",
+      "dismiss information panel {name}",
+      "close overlay {name}"
+    ],
+    "de": [
+      "schließe das Informationswidget {name}",
+      "beende die Informationsanzeige {name}",
+      "schließe das Overlay {name}"
+    ],
+    "fr": [
+      "ferme le widget d’information {name}",
+      "referme le panneau d’information {name}",
+      "ferme la fenêtre superposée {name}"
+    ],
+    "es": [
+      "cierra el widget informativo {name}",
+      "cierra la ventana del panel de información {name}",
+      "cierra la superposición {name}"
+    ],
+    "it": [
+      "chiudi il widget informativo {name}",
+      "chiudi la finestra del pannello informativo {name}",
+      "chiudi la sovrapposizione {name}"
+    ],
+    "pt": [
+      "feche o widget de informações {name}",
+      "encerre a exibição do painel de informações {name}",
+      "feche a sobreposição {name}"
+    ]
+  },
+  "overlay.delete": {
+    "ru": [
+      "удали виджет информации {name}",
+      "сотри информационную панель {name}",
+      "убери панель {name} из сохранённых"
+    ],
+    "en": [
+      "delete the information widget {name}",
+      "erase information panel {name}",
+      "remove {name} from my saved information panels"
+    ],
+    "de": [
+      "lösche das Informationswidget {name}",
+      "entferne die Informationsanzeige {name}",
+      "nimm {name} aus meinen gespeicherten Informationsanzeigen"
+    ],
+    "fr": [
+      "supprime le widget d’information {name}",
+      "efface le panneau d’information {name}",
+      "retire {name} de mes panneaux d’information enregistrés"
+    ],
+    "es": [
+      "elimina el widget informativo {name}",
+      "borra el panel de información {name}",
+      "quita {name} de mis paneles de información guardados"
+    ],
+    "it": [
+      "elimina il widget informativo {name}",
+      "cancella il pannello informativo {name}",
+      "rimuovi {name} dai pannelli informativi salvati"
+    ],
+    "pt": [
+      "exclua o widget de informações {name}",
+      "apague o painel de informações {name}",
+      "remova {name} dos meus painéis de informações salvos"
+    ]
+  },
+  "overlay.rename": {
+    "ru": [
+      "дай панели {name} название {new_name}",
+      "измени имя панели {name} на {new_name}",
+      "назови информационную панель {name} именем {new_name}"
+    ],
+    "en": [
+      "give panel {name} the name {new_name}",
+      "change the name of panel {name} to {new_name}",
+      "call information panel {name} by the name {new_name}"
+    ],
+    "de": [
+      "gib der Anzeige {name} den Namen {new_name}",
+      "ändere den Namen der Anzeige {name} in {new_name}",
+      "nenne die Informationsanzeige {name} künftig {new_name}"
+    ],
+    "fr": [
+      "donne au panneau {name} le nom {new_name}",
+      "change le nom du panneau {name} en {new_name}",
+      "appelle désormais le panneau d’information {name} : {new_name}"
+    ],
+    "es": [
+      "dale al panel {name} el nombre {new_name}",
+      "renombra el panel {name} como {new_name}",
+      "llama al panel informativo {name} con el nombre {new_name}"
+    ],
+    "it": [
+      "assegna al pannello {name} il nome {new_name}",
+      "cambia il nome del pannello {name} in {new_name}",
+      "chiama il pannello informativo {name} con il nome {new_name}"
+    ],
+    "pt": [
+      "dê ao painel {name} o nome {new_name}",
+      "altere o nome do painel {name} para {new_name}",
+      "chame o painel de informações {name} de {new_name}"
+    ]
+  },
+  "overlay.list": {
+    "ru": [
+      "какие информационные панели у меня есть",
+      "перечисли мои оверлеи",
+      "выведи список сохранённых виджетов информации"
+    ],
+    "en": [
+      "which information panels do I have",
+      "list my information overlays",
+      "show my saved information widgets"
+    ],
+    "de": [
+      "welche Informationsanzeigen habe ich",
+      "zähle meine Informations-Overlays auf",
+      "zeige meine gespeicherten Informationswidgets"
+    ],
+    "fr": [
+      "quels panneaux d’information ai-je",
+      "énumère mes panneaux superposés",
+      "montre mes widgets d’information enregistrés"
+    ],
+    "es": [
+      "qué paneles de información tengo",
+      "enumera mis paneles superpuestos",
+      "enseña mis widgets informativos guardados"
+    ],
+    "it": [
+      "quali pannelli informativi ho",
+      "elenca i miei pannelli sovrapposti",
+      "mostra i widget informativi salvati"
+    ],
+    "pt": [
+      "quais painéis de informações eu tenho",
+      "enumere meus painéis sobrepostos",
+      "exiba meus widgets de informações salvos"
+    ]
+  },
+  "overlay.hide_all": {
+    "ru": [
+      "спрячь все мои информационные панели",
+      "убери с экрана все оверлеи",
+      "сделай все информационные виджеты невидимыми"
+    ],
+    "en": [
+      "conceal all my information panels",
+      "take all information overlays off the screen",
+      "make every information widget invisible"
+    ],
+    "de": [
+      "verstecke alle meine Informationsanzeigen",
+      "nimm alle Informations-Overlays vom Bildschirm",
+      "mache sämtliche Informationswidgets unsichtbar"
+    ],
+    "fr": [
+      "cache tous mes panneaux d’information",
+      "retire de l’écran tous les panneaux superposés",
+      "rends tous les widgets d’information invisibles"
+    ],
+    "es": [
+      "esconde todos mis paneles de información",
+      "quita de la pantalla todos los paneles superpuestos",
+      "haz invisibles todos los widgets informativos"
+    ],
+    "it": [
+      "nascondi tutti i miei pannelli informativi",
+      "togli dallo schermo tutti i pannelli sovrapposti",
+      "rendi invisibili tutti i widget informativi"
+    ],
+    "pt": [
+      "esconda todos os meus painéis de informações",
+      "tire da tela todos os painéis sobrepostos",
+      "torne todos os widgets de informações invisíveis"
+    ]
+  },
+  "overlay.delete_all": {
+    "ru": [
+      "сотри все сохранённые информационные панели",
+      "удали все мои оверлеи",
+      "очисти коллекцию информационных виджетов"
+    ],
+    "en": [
+      "erase all saved information panels",
+      "remove all my information overlays",
+      "delete my entire collection of information widgets"
+    ],
+    "de": [
+      "entferne alle gespeicherten Informationsanzeigen",
+      "lösche sämtliche Informations-Overlays",
+      "leere meine Sammlung von Informationswidgets"
+    ],
+    "fr": [
+      "efface tous les panneaux d’information enregistrés",
+      "supprime tous mes panneaux superposés",
+      "vide ma collection de widgets d’information"
+    ],
+    "es": [
+      "borra todos los paneles de información guardados",
+      "elimina todos mis paneles superpuestos",
+      "vacía mi colección de widgets informativos"
+    ],
+    "it": [
+      "cancella tutti i pannelli informativi salvati",
+      "elimina tutti i miei pannelli sovrapposti",
+      "svuota la raccolta di widget informativi"
+    ],
+    "pt": [
+      "apague todos os painéis de informações salvos",
+      "remova todos os meus painéis sobrepostos",
+      "esvazie minha coleção de widgets de informações"
+    ]
+  },
+  "overlay.set_text": {
+    "ru": [
+      "замени содержимое панели {name} на: {text}",
+      "перепиши текст панели {name}: {text}",
+      "установи для панели {name} текст: {text}"
+    ],
+    "en": [
+      "replace the contents of panel {name} with: {text}",
+      "rewrite the text in panel {name}: {text}",
+      "give panel {name} this text: {text}"
+    ],
+    "de": [
+      "ersetze den Inhalt der Anzeige {name} durch: {text}",
+      "schreibe den Text der Anzeige {name} neu: {text}",
+      "gib der Anzeige {name} diesen Text: {text}"
+    ],
+    "fr": [
+      "remplace le contenu du panneau {name} par : {text}",
+      "réécris le texte du panneau {name} : {text}",
+      "donne au panneau {name} ce texte : {text}"
+    ],
+    "es": [
+      "sustituye el contenido del panel {name} por: {text}",
+      "reescribe el texto del panel {name}: {text}",
+      "asigna al panel {name} este texto: {text}"
+    ],
+    "it": [
+      "sostituisci il contenuto del pannello {name} con: {text}",
+      "riscrivi il testo del pannello {name}: {text}",
+      "assegna al pannello {name} questo testo: {text}"
+    ],
+    "pt": [
+      "substitua o conteúdo do painel {name} por: {text}",
+      "reescreva o texto do painel {name}: {text}",
+      "atribua ao painel {name} este texto: {text}"
+    ]
+  },
+  "overlay.append_text": {
+    "ru": [
+      "добавь в конец панели {name}: {text}",
+      "дополни текст панели {name} строкой: {text}",
+      "припиши к содержимому панели {name}: {text}"
+    ],
+    "en": [
+      "add this to the end of panel {name}: {text}",
+      "extend the text in panel {name} with: {text}",
+      "tack this onto panel {name}: {text}"
+    ],
+    "de": [
+      "füge am Ende der Anzeige {name} Folgendes hinzu: {text}",
+      "erweitere den Text der Anzeige {name} um: {text}",
+      "hänge an die Anzeige {name} diesen Text an: {text}"
+    ],
+    "fr": [
+      "ajoute à la fin du panneau {name} : {text}",
+      "complète le texte du panneau {name} avec : {text}",
+      "prolonge le contenu du panneau {name} par : {text}"
+    ],
+    "es": [
+      "agrega al final del panel {name}: {text}",
+      "amplía el texto del panel {name} con: {text}",
+      "incorpora al final del contenido del panel {name}: {text}"
+    ],
+    "it": [
+      "aggiungi alla fine del pannello {name}: {text}",
+      "estendi il testo del pannello {name} con: {text}",
+      "accoda al contenuto del pannello {name}: {text}"
+    ],
+    "pt": [
+      "adicione ao final do painel {name}: {text}",
+      "complemente o texto do painel {name} com: {text}",
+      "acrescente ao conteúdo do painel {name}: {text}"
+    ]
+  },
+  "overlay.remove_text": {
+    "ru": [
+      "убери фрагмент {text} из панели {name}",
+      "сотри фрагмент {text} в панели {name}",
+      "удали из информационной панели {name} фразу {text}"
+    ],
+    "en": [
+      "remove the passage {text} from panel {name}",
+      "erase the passage {text} in panel {name}",
+      "delete the phrase {text} from information panel {name}"
+    ],
+    "de": [
+      "entferne den Abschnitt {text} aus der Anzeige {name}",
+      "lösche die Passage {text} in der Anzeige {name}",
+      "streiche den Ausdruck {text} aus der Informationsanzeige {name}"
+    ],
+    "fr": [
+      "retire le passage {text} du panneau {name}",
+      "efface le fragment {text} dans le panneau {name}",
+      "supprime la phrase {text} du panneau d’information {name}"
+    ],
+    "es": [
+      "quita el fragmento {text} del panel {name}",
+      "borra el pasaje {text} del panel {name}",
+      "elimina la frase {text} del panel de información {name}"
+    ],
+    "it": [
+      "togli il frammento {text} dal pannello {name}",
+      "cancella il passaggio {text} nel pannello {name}",
+      "elimina la frase {text} dal pannello informativo {name}"
+    ],
+    "pt": [
+      "tire o trecho {text} do painel {name}",
+      "apague a passagem {text} no painel {name}",
+      "exclua a frase {text} do painel de informações {name}"
+    ]
+  },
+  "overlay.clear_text": {
+    "ru": [
+      "сотри всё написанное в панели {name}",
+      "сделай текст панели {name} пустым",
+      "удали содержимое информационной панели {name}"
+    ],
+    "en": [
+      "erase everything written in panel {name}",
+      "make the text of panel {name} blank",
+      "delete the contents of information panel {name}"
+    ],
+    "de": [
+      "lösche alles Geschriebene in der Anzeige {name}",
+      "mache den Text der Anzeige {name} leer",
+      "entferne den Inhalt der Informationsanzeige {name}"
+    ],
+    "fr": [
+      "efface tout ce qui est écrit dans le panneau {name}",
+      "laisse le panneau {name} sans texte",
+      "supprime le contenu du panneau d’information {name}"
+    ],
+    "es": [
+      "borra todo lo escrito en el panel {name}",
+      "deja en blanco el texto del panel {name}",
+      "elimina el contenido del panel de información {name}"
+    ],
+    "it": [
+      "cancella tutto ciò che è scritto nel pannello {name}",
+      "lascia vuoto il testo del pannello {name}",
+      "elimina il contenuto del pannello informativo {name}"
+    ],
+    "pt": [
+      "apague tudo que está escrito no painel {name}",
+      "deixe o texto do painel {name} em branco",
+      "exclua o conteúdo do painel de informações {name}"
+    ]
+  },
+  "overlay.move": {
+    "ru": [
+      "поставь панель {name} справа вверху",
+      "расположи информационный виджет {name} в верхнем правом углу",
+      "перенеси панель {name} наверх к правому краю"
+    ],
+    "en": [
+      "put panel {name} at the upper right",
+      "position information widget {name} in the top right corner",
+      "place panel {name} near the upper right edge"
+    ],
+    "de": [
+      "stelle die Anzeige {name} nach rechts oben",
+      "positioniere das Informationswidget {name} in der rechten oberen Ecke",
+      "setze die Anzeige {name} an den oberen rechten Rand"
+    ],
+    "fr": [
+      "place le panneau {name} en haut à droite",
+      "positionne le widget d’information {name} dans le coin supérieur droit",
+      "mets le panneau {name} près du bord supérieur droit"
+    ],
+    "es": [
+      "coloca el panel {name} arriba a la derecha",
+      "sitúa el widget informativo {name} en la esquina superior derecha",
+      "pon el panel {name} junto al borde superior derecho"
+    ],
+    "it": [
+      "metti il pannello {name} in alto a destra",
+      "posiziona il widget informativo {name} nell’angolo superiore destro",
+      "colloca il pannello {name} vicino al bordo superiore destro"
+    ],
+    "pt": [
+      "coloque o painel {name} no alto à direita",
+      "posicione o widget de informações {name} no canto superior direito",
+      "ponha o painel {name} junto à borda superior direita"
+    ]
+  },
+  "overlay.checklist_create": {
+    "ru": [
+      "заведи информационную панель со списком дел {name}",
+      "добавь виджет чек-листа {name}",
+      "сделай оверлей с чек-листом {name}"
+    ],
+    "en": [
+      "make an information panel for checklist {name}",
+      "add a checklist widget called {name}",
+      "create an overlay with checklist {name}"
+    ],
+    "de": [
+      "lege eine Informationsanzeige für die Checkliste {name} an",
+      "füge ein Checklistenwidget namens {name} hinzu",
+      "erstelle ein Overlay mit der Checkliste {name}"
+    ],
+    "fr": [
+      "fais un panneau d’information pour la liste {name}",
+      "ajoute un widget de liste nommé {name}",
+      "crée une fenêtre superposée avec la liste {name}"
+    ],
+    "es": [
+      "haz un panel informativo para la lista {name}",
+      "añade un widget de lista llamado {name}",
+      "crea una superposición con la lista {name}"
+    ],
+    "it": [
+      "prepara un pannello informativo per la lista {name}",
+      "aggiungi un widget con lista chiamato {name}",
+      "crea una sovrapposizione con la lista {name}"
+    ],
+    "pt": [
+      "faça um painel de informações para a lista {name}",
+      "adicione um widget de lista chamado {name}",
+      "crie uma sobreposição com a lista {name}"
+    ]
+  },
+  "overlay.checklist_add": {
+    "ru": [
+      "внеси в список дел панели {name} задачу {text}",
+      "дополни чек-лист панели {name} пунктом {text}",
+      "создай пункт {text} в списке панели {name}"
+    ],
+    "en": [
+      "put task {text} on the checklist in panel {name}",
+      "extend the checklist in panel {name} with item {text}",
+      "create item {text} in the list on panel {name}"
+    ],
+    "de": [
+      "trage die Aufgabe {text} in die Checkliste der Anzeige {name} ein",
+      "ergänze die Checkliste der Anzeige {name} um Punkt {text}",
+      "erstelle den Eintrag {text} in der Liste der Anzeige {name}"
+    ],
+    "fr": [
+      "inscris la tâche {text} dans la liste du panneau {name}",
+      "complète la liste du panneau {name} avec l’élément {text}",
+      "crée l’élément {text} dans la liste du panneau {name}"
+    ],
+    "es": [
+      "pon la tarea {text} en la lista del panel {name}",
+      "amplía la lista del panel {name} con el punto {text}",
+      "crea el punto {text} en la lista del panel {name}"
+    ],
+    "it": [
+      "inserisci l’attività {text} nella lista del pannello {name}",
+      "estendi la lista del pannello {name} con la voce {text}",
+      "crea la voce {text} nella lista del pannello {name}"
+    ],
+    "pt": [
+      "coloque a tarefa {text} na lista do painel {name}",
+      "complemente a lista do painel {name} com o item {text}",
+      "crie o item {text} na lista do painel {name}"
+    ]
+  },
+  "overlay.checklist_check": {
+    "ru": [
+      "поставь галочку у пункта {index} в списке панели {name}",
+      "пометь выполненным пункт {index} чек-листа панели {name}",
+      "заверши пункт {index} в списке дел панели {name}"
+    ],
+    "en": [
+      "tick item {index} in the list on panel {name}",
+      "mark item {index} done in the checklist on panel {name}",
+      "complete checklist item {index} in panel {name}"
+    ],
+    "de": [
+      "setze ein Häkchen bei Punkt {index} in der Liste der Anzeige {name}",
+      "markiere Punkt {index} in der Checkliste der Anzeige {name} als erledigt",
+      "schließe Checklistenpunkt {index} in der Anzeige {name} ab"
+    ],
+    "fr": [
+      "mets une coche à l’élément {index} dans la liste du panneau {name}",
+      "marque l’élément {index} comme terminé dans la liste du panneau {name}",
+      "termine l’élément {index} de la liste du panneau {name}"
+    ],
+    "es": [
+      "pon una marca en el punto {index} de la lista del panel {name}",
+      "marca como hecho el punto {index} de la lista del panel {name}",
+      "completa el punto {index} de la lista del panel {name}"
+    ],
+    "it": [
+      "metti una spunta alla voce {index} nella lista del pannello {name}",
+      "segna come fatta la voce {index} della lista del pannello {name}",
+      "completa la voce {index} della lista del pannello {name}"
+    ],
+    "pt": [
+      "coloque uma marca no item {index} da lista do painel {name}",
+      "marque como concluído o item {index} da lista do painel {name}",
+      "conclua o item {index} da lista do painel {name}"
+    ]
+  },
+  "overlay.checklist_uncheck": {
+    "ru": [
+      "убери галочку у пункта {index} в списке панели {name}",
+      "пометь невыполненным пункт {index} чек-листа панели {name}",
+      "верни пункт {index} списка панели {name} в незавершённые"
+    ],
+    "en": [
+      "untick item {index} in the list on panel {name}",
+      "mark checklist item {index} in panel {name} as not done",
+      "put item {index} in panel {name} back on the pending list"
+    ],
+    "de": [
+      "nehme das Häkchen bei Punkt {index} in der Liste der Anzeige {name} weg",
+      "markiere Checklistenpunkt {index} in der Anzeige {name} als unerledigt",
+      "setze Punkt {index} der Liste der Anzeige {name} wieder auf offen"
+    ],
+    "fr": [
+      "enlève la coche de l’élément {index} dans la liste du panneau {name}",
+      "marque l’élément {index} de la liste du panneau {name} comme non terminé",
+      "remets l’élément {index} de la liste du panneau {name} à faire"
+    ],
+    "es": [
+      "quita la marca del punto {index} de la lista del panel {name}",
+      "marca como no hecho el punto {index} de la lista del panel {name}",
+      "devuelve el punto {index} de la lista del panel {name} a pendientes"
+    ],
+    "it": [
+      "togli la marca alla voce {index} nella lista del pannello {name}",
+      "segna come non fatta la voce {index} della lista del pannello {name}",
+      "rimetti la voce {index} della lista del pannello {name} tra le attività da fare"
+    ],
+    "pt": [
+      "tire a marca do item {index} da lista do painel {name}",
+      "marque como não concluído o item {index} da lista do painel {name}",
+      "devolva o item {index} da lista do painel {name} aos pendentes"
+    ]
+  },
+  "overlay.checklist_remove": {
+    "ru": [
+      "удали из списка панели {name} пункт {index}",
+      "убери строку {index} чек-листа панели {name}",
+      "сотри задачу {index} в списке панели {name}"
+    ],
+    "en": [
+      "delete item {index} from the list on panel {name}",
+      "drop checklist entry {index} from panel {name}",
+      "erase task {index} in the list on panel {name}"
+    ],
+    "de": [
+      "lösche Punkt {index} aus der Liste der Anzeige {name}",
+      "streiche den Checklistenpunkt {index} aus der Anzeige {name}",
+      "beseitige Aufgabe {index} in der Liste der Anzeige {name}"
+    ],
+    "fr": [
+      "retire l’élément {index} de la liste du panneau {name}",
+      "enlève l’entrée {index} de la liste du panneau {name}",
+      "efface la tâche {index} dans la liste du panneau {name}"
+    ],
+    "es": [
+      "quita el punto {index} de la lista del panel {name}",
+      "retira la entrada {index} de la lista del panel {name}",
+      "borra la tarea {index} de la lista del panel {name}"
+    ],
+    "it": [
+      "togli la voce {index} dalla lista del pannello {name}",
+      "rimuovi l’elemento {index} dalla lista del pannello {name}",
+      "cancella l’attività {index} nella lista del pannello {name}"
+    ],
+    "pt": [
+      "tire o item {index} da lista do painel {name}",
+      "exclua a entrada {index} da lista do painel {name}",
+      "apague a tarefa {index} da lista do painel {name}"
+    ]
+  },
+  "overlay.checklist_clear": {
+    "ru": [
+      "удали все пункты из чек-листа панели {name}",
+      "сделай список задач панели {name} пустым",
+      "сотри список дел в панели {name}"
+    ],
+    "en": [
+      "remove every item from the checklist in panel {name}",
+      "empty the task list in panel {name}",
+      "erase the checklist contents in panel {name}"
+    ],
+    "de": [
+      "entferne alle Punkte aus der Checkliste der Anzeige {name}",
+      "mache die Aufgabenliste der Anzeige {name} leer",
+      "lösche den Inhalt der Checkliste in der Anzeige {name}"
+    ],
+    "fr": [
+      "supprime tous les éléments de la liste du panneau {name}",
+      "laisse vide la liste des tâches du panneau {name}",
+      "efface le contenu de la liste du panneau {name}"
+    ],
+    "es": [
+      "elimina todos los puntos de la lista del panel {name}",
+      "deja vacía la lista de tareas del panel {name}",
+      "borra el contenido de la lista del panel {name}"
+    ],
+    "it": [
+      "elimina tutte le voci della lista del pannello {name}",
+      "lascia vuota la lista delle attività del pannello {name}",
+      "cancella il contenuto della lista del pannello {name}"
+    ],
+    "pt": [
+      "remova todos os itens da lista do painel {name}",
+      "esvazie a lista de tarefas do painel {name}",
+      "apague o conteúdo da lista do painel {name}"
+    ]
+  },
+  "overlay.checklist_complete_all": {
+    "ru": [
+      "поставь галочки у всех пунктов списка панели {name}",
+      "пометь весь чек-лист панели {name} выполненным",
+      "заверши все задачи в списке панели {name}"
+    ],
+    "en": [
+      "tick all items in the list on panel {name}",
+      "mark the entire checklist in panel {name} as done",
+      "complete every task in the list on panel {name}"
+    ],
+    "de": [
+      "setze Häkchen bei allen Punkten der Liste der Anzeige {name}",
+      "markiere die gesamte Checkliste der Anzeige {name} als erledigt",
+      "schließe alle Aufgaben in der Liste der Anzeige {name} ab"
+    ],
+    "fr": [
+      "mets une coche à tous les éléments de la liste du panneau {name}",
+      "marque toute la liste du panneau {name} comme terminée",
+      "termine toutes les tâches de la liste du panneau {name}"
+    ],
+    "es": [
+      "pon una marca en todos los puntos de la lista del panel {name}",
+      "marca toda la lista del panel {name} como hecha",
+      "completa todas las tareas de la lista del panel {name}"
+    ],
+    "it": [
+      "metti una spunta a tutte le voci della lista del pannello {name}",
+      "segna come fatta tutta la lista del pannello {name}",
+      "completa tutte le attività della lista del pannello {name}"
+    ],
+    "pt": [
+      "coloque uma marca em todos os itens da lista do painel {name}",
+      "marque toda a lista do painel {name} como concluída",
+      "conclua todas as tarefas da lista do painel {name}"
+    ]
+  },
+  "overlay.checklist_uncheck_all": {
+    "ru": [
+      "убери все галочки из списка панели {name}",
+      "пометь весь чек-лист панели {name} невыполненным",
+      "верни все задачи списка панели {name} в незавершённые"
+    ],
+    "en": [
+      "untick all items in the list on panel {name}",
+      "mark the whole checklist in panel {name} as not done",
+      "put every task in panel {name} back on the pending list"
+    ],
+    "de": [
+      "entferne sämtliche Häkchen aus der Liste der Anzeige {name}",
+      "markiere die gesamte Checkliste der Anzeige {name} als unerledigt",
+      "setze alle Aufgaben der Liste der Anzeige {name} wieder auf offen"
+    ],
+    "fr": [
+      "enlève toutes les coches de la liste du panneau {name}",
+      "marque toute la liste du panneau {name} comme non terminée",
+      "remets toutes les tâches de la liste du panneau {name} à faire"
+    ],
+    "es": [
+      "quita todas las marcas de la lista del panel {name}",
+      "marca toda la lista del panel {name} como no hecha",
+      "devuelve todas las tareas de la lista del panel {name} a pendientes"
+    ],
+    "it": [
+      "rimuovi tutte le spunte dalla lista del pannello {name}",
+      "segna tutta la lista del pannello {name} come non fatta",
+      "rimetti tutte le attività della lista del pannello {name} tra quelle da fare"
+    ],
+    "pt": [
+      "tire todas as marcas da lista do painel {name}",
+      "marque toda a lista do painel {name} como não concluída",
+      "devolva todas as tarefas da lista do painel {name} aos pendentes"
+    ]
+  },
+  "overlay.style": {
+    "ru": [
+      "измени шрифт панели {name} до размера {font_size}",
+      "сделай размер текста в панели {name} равным {font_size}",
+      "выставь кегль панели {name}: {font_size}"
+    ],
+    "en": [
+      "change the font size in panel {name} to {font_size}",
+      "make the text in panel {name} size {font_size}",
+      "use font size {font_size} for panel {name}"
+    ],
+    "de": [
+      "ändere die Schriftgröße der Anzeige {name} auf {font_size}",
+      "mache den Text der Anzeige {name} {font_size} Punkt groß",
+      "verwende Schriftgröße {font_size} für die Anzeige {name}"
+    ],
+    "fr": [
+      "change la taille de police du panneau {name} à {font_size}",
+      "mets le texte du panneau {name} en taille {font_size}",
+      "utilise une police de taille {font_size} pour le panneau {name}"
+    ],
+    "es": [
+      "cambia el tamaño de letra del panel {name} a {font_size}",
+      "haz que el texto del panel {name} tenga tamaño {font_size}",
+      "usa una letra de tamaño {font_size} para el panel {name}"
+    ],
+    "it": [
+      "cambia la dimensione del carattere nel pannello {name} a {font_size}",
+      "porta il testo del pannello {name} alla dimensione {font_size}",
+      "usa un carattere di dimensione {font_size} per il pannello {name}"
+    ],
+    "pt": [
+      "mude o tamanho da fonte do painel {name} para {font_size}",
+      "coloque o texto do painel {name} no tamanho {font_size}",
+      "use fonte de tamanho {font_size} no painel {name}"
+    ]
+  },
+  "window.active": {
+    "ru": [
+      "в каком окне я сейчас работаю",
+      "покажи текущее активное окно",
+      "какое окно сейчас на переднем плане"
+    ],
+    "en": [
+      "which window am I working in",
+      "show the currently active window",
+      "what window is in the foreground"
+    ],
+    "de": [
+      "in welchem Fenster arbeite ich gerade",
+      "zeige das momentan aktive Fenster",
+      "welches Fenster ist im Vordergrund"
+    ],
+    "fr": [
+      "dans quelle fenêtre suis-je en train de travailler",
+      "montre la fenêtre actuellement active",
+      "quelle fenêtre est au premier plan"
+    ],
+    "es": [
+      "en qué ventana estoy trabajando",
+      "muestra la ventana activa actualmente",
+      "qué ventana está en primer plano"
+    ],
+    "it": [
+      "in quale finestra sto lavorando",
+      "mostra la finestra attualmente attiva",
+      "quale finestra è in primo piano"
+    ],
+    "pt": [
+      "em qual janela estou trabalhando",
+      "mostre a janela ativa no momento",
+      "qual janela está em primeiro plano"
+    ]
+  },
+  "window.list": {
+    "ru": [
+      "какие окна сейчас открыты",
+      "перечисли окна на рабочем столе",
+      "выведи список открытых окон"
+    ],
+    "en": [
+      "which windows are open right now",
+      "list the windows on my desktop",
+      "display a list of open windows"
+    ],
+    "de": [
+      "welche Fenster sind gerade geöffnet",
+      "liste die Fenster auf meinem Desktop auf",
+      "gib eine Liste der offenen Fenster aus"
+    ],
+    "fr": [
+      "quelles fenêtres sont ouvertes en ce moment",
+      "énumère les fenêtres sur mon bureau",
+      "montre la liste des fenêtres ouvertes"
+    ],
+    "es": [
+      "qué ventanas están abiertas ahora",
+      "enumera las ventanas de mi escritorio",
+      "enseña la lista de ventanas abiertas"
+    ],
+    "it": [
+      "quali finestre sono aperte adesso",
+      "elenca le finestre sul desktop",
+      "visualizza l’elenco delle finestre aperte"
+    ],
+    "pt": [
+      "quais janelas estão abertas agora",
+      "liste as janelas da minha área de trabalho",
+      "exiba a lista de janelas abertas"
+    ]
+  },
+  "window.focus": {
+    "ru": [
+      "активируй окно {title}",
+      "выведи окно {title} на передний план",
+      "сделай окно {title} текущим"
+    ],
+    "en": [
+      "activate the window {title}",
+      "bring the window {title} to the foreground",
+      "give focus to window {title}"
+    ],
+    "de": [
+      "aktiviere das Fenster {title}",
+      "hole das Fenster {title} in den Vordergrund",
+      "gib dem Fenster {title} den Fokus"
+    ],
+    "fr": [
+      "active la fenêtre {title}",
+      "amène la fenêtre {title} au premier plan",
+      "donne le focus à la fenêtre {title}"
+    ],
+    "es": [
+      "activa la ventana {title}",
+      "trae la ventana {title} al primer plano",
+      "dale el foco a la ventana {title}"
+    ],
+    "it": [
+      "attiva la finestra {title}",
+      "porta la finestra {title} in primo piano",
+      "dai il focus alla finestra {title}"
+    ],
+    "pt": [
+      "ative a janela {title}",
+      "traga a janela {title} para o primeiro plano",
+      "dê o foco à janela {title}"
+    ]
+  },
+  "window.minimize": {
+    "ru": [
+      "убери окно {title} на панель задач",
+      "сделай окно {title} свёрнутым",
+      "минимизируй окно {title}"
+    ],
+    "en": [
+      "put window {title} on the taskbar",
+      "shrink window {title} to the taskbar",
+      "minimize the open window {title}"
+    ],
+    "de": [
+      "lege das Fenster {title} in die Taskleiste",
+      "verkleinere das Fenster {title} auf die Taskleiste",
+      "minimiere das geöffnete Fenster {title}"
+    ],
+    "fr": [
+      "envoie la fenêtre {title} dans la barre des tâches",
+      "réduis la fenêtre {title} dans la barre des tâches",
+      "minimise la fenêtre {title}"
+    ],
+    "es": [
+      "lleva la ventana {title} a la barra de tareas",
+      "reduce la ventana {title} a la barra de tareas",
+      "minimiza la ventana abierta {title}"
+    ],
+    "it": [
+      "metti la finestra {title} nella barra delle applicazioni",
+      "minimizza la finestra {title}",
+      "riduci la finestra aperta {title} a icona"
+    ],
+    "pt": [
+      "mande a janela {title} para a barra de tarefas",
+      "reduza a janela {title} à barra de tarefas",
+      "minimize a janela aberta {title}"
+    ]
+  },
+  "window.maximize": {
+    "ru": [
+      "максимизируй окно {title}",
+      "сделай окно {title} максимально большим",
+      "растяни окно {title} на весь рабочий стол"
+    ],
+    "en": [
+      "make window {title} as large as possible",
+      "expand window {title} to fill the desktop",
+      "maximize the open window {title}"
+    ],
+    "de": [
+      "vergrößere das Fenster {title} so weit wie möglich",
+      "dehne das Fenster {title} über den ganzen Desktop aus",
+      "maximiere das geöffnete Fenster {title}"
+    ],
+    "fr": [
+      "agrandis au maximum la fenêtre {title}",
+      "étends la fenêtre {title} sur tout le bureau",
+      "maximise la fenêtre {title}"
+    ],
+    "es": [
+      "haz lo más grande posible la ventana {title}",
+      "expande la ventana {title} para llenar el escritorio",
+      "maximiza la ventana abierta {title}"
+    ],
+    "it": [
+      "ingrandisci al massimo la finestra {title}",
+      "espandi la finestra {title} su tutto il desktop",
+      "massimizza la finestra {title}"
+    ],
+    "pt": [
+      "deixe a janela {title} o maior possível",
+      "expanda a janela {title} para preencher a área de trabalho",
+      "maximize a janela aberta {title}"
+    ]
+  },
+  "window.restore": {
+    "ru": [
+      "верни окну {title} обычный размер",
+      "отмени разворачивание окна {title}",
+      "восстанови прежнюю геометрию окна {title}"
+    ],
+    "en": [
+      "return window {title} to its normal size",
+      "undo maximization of window {title}",
+      "restore the previous dimensions of window {title}"
+    ],
+    "de": [
+      "bringe das Fenster {title} auf seine normale Größe zurück",
+      "hebe die Maximierung des Fensters {title} auf",
+      "stelle die früheren Abmessungen des Fensters {title} wieder her"
+    ],
+    "fr": [
+      "remets la fenêtre {title} à sa taille normale",
+      "annule l’agrandissement maximal de la fenêtre {title}",
+      "restaure les dimensions précédentes de la fenêtre {title}"
+    ],
+    "es": [
+      "devuelve la ventana {title} a su tamaño normal",
+      "deshaz la maximización de la ventana {title}",
+      "recupera las dimensiones anteriores de la ventana {title}"
+    ],
+    "it": [
+      "riporta la finestra {title} alle dimensioni normali",
+      "annulla la massimizzazione della finestra {title}",
+      "recupera le dimensioni precedenti della finestra {title}"
+    ],
+    "pt": [
+      "devolva a janela {title} ao tamanho normal",
+      "desfaça a maximização da janela {title}",
+      "recupere as dimensões anteriores da janela {title}"
+    ]
+  },
+  "window.close": {
+    "ru": [
+      "закрой открытое окно {title}",
+      "отправь окну {title} команду закрытия",
+      "заверши работу окна {title}"
+    ],
+    "en": [
+      "shut the open window {title}",
+      "dismiss the window {title}",
+      "send a close request to window {title}"
+    ],
+    "de": [
+      "mache das geöffnete Fenster {title} zu",
+      "schließe das offene Fenster {title}",
+      "sende dem Fenster {title} eine Schließanforderung"
+    ],
+    "fr": [
+      "referme la fenêtre {title}",
+      "ferme la fenêtre ouverte {title}",
+      "envoie une demande de fermeture à la fenêtre {title}"
+    ],
+    "es": [
+      "cierra la ventana abierta {title}",
+      "manda cerrar la ventana {title}",
+      "envía una solicitud de cierre a la ventana {title}"
+    ],
+    "it": [
+      "chiudi la finestra aperta {title}",
+      "richiudi la finestra {title}",
+      "invia una richiesta di chiusura alla finestra {title}"
+    ],
+    "pt": [
+      "feche a janela aberta {title}",
+      "mande fechar a janela {title}",
+      "envie uma solicitação de fechamento à janela {title}"
+    ]
+  },
+  "window.move_resize": {
+    "ru": [
+      "задай окну {title} ширину {width} и высоту {height}",
+      "выставь размер окна {title}: {width} на {height}",
+      "сделай окно {title} размером {width} на {height}"
+    ],
+    "en": [
+      "give window {title} a width of {width} and height of {height}",
+      "set the dimensions of window {title} to {width} by {height}",
+      "make window {title} {width} wide and {height} high"
+    ],
+    "de": [
+      "gib dem Fenster {title} die Breite {width} und Höhe {height}",
+      "stelle die Abmessungen des Fensters {title} auf {width} mal {height}",
+      "mache das Fenster {title} {width} breit und {height} hoch"
+    ],
+    "fr": [
+      "donne à la fenêtre {title} une largeur de {width} et une hauteur de {height}",
+      "règle les dimensions de la fenêtre {title} sur {width} par {height}",
+      "fais une fenêtre {title} de {width} de large et {height} de haut"
+    ],
+    "es": [
+      "dale a la ventana {title} un ancho de {width} y una altura de {height}",
+      "fija las dimensiones de la ventana {title} en {width} por {height}",
+      "haz que la ventana {title} tenga {width} de ancho y {height} de alto"
+    ],
+    "it": [
+      "assegna alla finestra {title} larghezza {width} e altezza {height}",
+      "imposta le dimensioni della finestra {title} a {width} per {height}",
+      "rendi la finestra {title} larga {width} e alta {height}"
+    ],
+    "pt": [
+      "dê à janela {title} largura {width} e altura {height}",
+      "defina as dimensões da janela {title} como {width} por {height}",
+      "deixe a janela {title} com {width} de largura e {height} de altura"
+    ]
+  },
+  "window.move_to_monitor": {
+    "ru": [
+      "отправь окно {title} на экран {monitor}",
+      "покажи окно {title} на дисплее {monitor}",
+      "перемести окно {title} к монитору {monitor}"
+    ],
+    "en": [
+      "send window {title} to screen {monitor}",
+      "put window {title} on display {monitor}",
+      "transfer window {title} to monitor {monitor}"
+    ],
+    "de": [
+      "schicke das Fenster {title} auf Bildschirm {monitor}",
+      "setze das Fenster {title} auf Display {monitor}",
+      "verlege das Fenster {title} auf Monitor {monitor}"
+    ],
+    "fr": [
+      "envoie la fenêtre {title} sur l’écran {monitor}",
+      "place la fenêtre {title} sur le moniteur {monitor}",
+      "transfère la fenêtre {title} vers l’écran {monitor}"
+    ],
+    "es": [
+      "envía la ventana {title} a la pantalla {monitor}",
+      "coloca la ventana {title} en el monitor {monitor}",
+      "traslada la ventana {title} al monitor {monitor}"
+    ],
+    "it": [
+      "invia la finestra {title} allo schermo {monitor}",
+      "metti la finestra {title} sul display {monitor}",
+      "trasferisci la finestra {title} al monitor {monitor}"
+    ],
+    "pt": [
+      "envie a janela {title} para a tela {monitor}",
+      "coloque a janela {title} no monitor {monitor}",
+      "transfira a janela {title} para o monitor {monitor}"
+    ]
+  },
+  "window_advanced.list_instances": {
+    "ru": [
+      "сколько окон открыто у приложения {application}",
+      "перечисли экземпляры окон {application}",
+      "какие окна относятся к приложению {application}"
+    ],
+    "en": [
+      "which open windows belong to {application}",
+      "list the window instances of {application}",
+      "let me see all open windows for {application}"
+    ],
+    "de": [
+      "welche offenen Fenster gehören zu {application}",
+      "liste die Fensterinstanzen von {application} auf",
+      "zeig mir sämtliche offenen Fenster von {application}"
+    ],
+    "fr": [
+      "quelles fenêtres ouvertes appartiennent à {application}",
+      "énumère les instances de fenêtre de {application}",
+      "fais-moi voir toutes les fenêtres ouvertes de {application}"
+    ],
+    "es": [
+      "qué ventanas abiertas pertenecen a {application}",
+      "enumera las instancias de ventana de {application}",
+      "enséñame todas las ventanas abiertas de {application}"
+    ],
+    "it": [
+      "quali finestre aperte appartengono a {application}",
+      "elenca le istanze di finestra di {application}",
+      "fammi vedere tutte le finestre aperte di {application}"
+    ],
+    "pt": [
+      "quais janelas abertas pertencem a {application}",
+      "liste as instâncias de janela de {application}",
+      "deixe-me ver todas as janelas abertas de {application}"
+    ]
+  },
+  "window_advanced.focus_instance": {
+    "ru": [
+      "активируй у приложения {application} окно номер {index}",
+      "выведи на передний план окно {index} приложения {application}",
+      "сделай текущим окно {index} у приложения {application}"
+    ],
+    "en": [
+      "activate window number {index} of {application}",
+      "bring window {index} of {application} to the foreground",
+      "focus the instance {index} of {application}"
+    ],
+    "de": [
+      "aktiviere Fensternummer {index} von {application}",
+      "hole Fenster {index} von {application} in den Vordergrund",
+      "fokussiere Fensterinstanz {index} von {application}"
+    ],
+    "fr": [
+      "active la fenêtre numéro {index} de {application}",
+      "amène au premier plan la fenêtre {index} de {application}",
+      "donne le focus à l’instance {index} de {application}"
+    ],
+    "es": [
+      "activa la ventana número {index} de {application}",
+      "trae al primer plano la ventana {index} de {application}",
+      "dale el foco a la instancia {index} de {application}"
+    ],
+    "it": [
+      "attiva la finestra numero {index} di {application}",
+      "porta in primo piano la finestra {index} di {application}",
+      "dai il focus all’istanza {index} di {application}"
+    ],
+    "pt": [
+      "ative a janela número {index} de {application}",
+      "traga para o primeiro plano a janela {index} de {application}",
+      "dê o foco à instância {index} de {application}"
+    ]
+  },
+  "window_advanced.move_instance": {
+    "ru": [
+      "отправь окно номер {index} приложения {application} на экран {monitor}",
+      "помести экземпляр окна {index} приложения {application} на монитор {monitor}",
+      "переведи на дисплей {monitor} окно {index} приложения {application}"
+    ],
+    "en": [
+      "send window number {index} of {application} to screen {monitor}",
+      "place window instance {index} of {application} on monitor {monitor}",
+      "transfer window {index} of {application} to display {monitor}"
+    ],
+    "de": [
+      "schicke Fensternummer {index} von {application} auf Bildschirm {monitor}",
+      "setze Fensterinstanz {index} von {application} auf Monitor {monitor}",
+      "verlege Fenster {index} von {application} auf Display {monitor}"
+    ],
+    "fr": [
+      "envoie la fenêtre numéro {index} de {application} sur l’écran {monitor}",
+      "place l’instance de fenêtre {index} de {application} sur le moniteur {monitor}",
+      "transfère la fenêtre {index} de {application} vers l’écran {monitor}"
+    ],
+    "es": [
+      "envía la ventana número {index} de {application} a la pantalla {monitor}",
+      "coloca la instancia de ventana {index} de {application} en el monitor {monitor}",
+      "traslada la ventana {index} de {application} a la pantalla {monitor}"
+    ],
+    "it": [
+      "invia la finestra numero {index} di {application} allo schermo {monitor}",
+      "metti l’istanza di finestra {index} di {application} sul monitor {monitor}",
+      "trasferisci la finestra {index} di {application} al display {monitor}"
+    ],
+    "pt": [
+      "envie a janela número {index} de {application} para a tela {monitor}",
+      "coloque a instância de janela {index} de {application} no monitor {monitor}",
+      "transfira a janela {index} de {application} para a tela {monitor}"
+    ]
+  },
+  "window_advanced.close_with_content": {
+    "ru": [
+      "закрой то окно, где открыт документ {content}",
+      "заверши окно с содержимым {content}",
+      "закрой окно, в котором показано {content}"
+    ],
+    "en": [
+      "close the window where document {content} is open",
+      "shut the window displaying {content}",
+      "dismiss the window with content {content}"
+    ],
+    "de": [
+      "schließe das Fenster, in dem das Dokument {content} geöffnet ist",
+      "mache das Fenster mit dem Inhalt {content} zu",
+      "schließe das Fenster, das {content} anzeigt"
+    ],
+    "fr": [
+      "ferme la fenêtre où le document {content} est ouvert",
+      "referme la fenêtre affichant {content}",
+      "ferme la fenêtre avec le contenu {content}"
+    ],
+    "es": [
+      "cierra la ventana donde está abierto el documento {content}",
+      "cierra la ventana que muestra {content}",
+      "manda cerrar la ventana con el contenido {content}"
+    ],
+    "it": [
+      "chiudi la finestra dove è aperto il documento {content}",
+      "richiudi la finestra che mostra {content}",
+      "chiudi la finestra con il contenuto {content}"
+    ],
+    "pt": [
+      "feche a janela onde o documento {content} está aberto",
+      "encerre a janela que exibe {content}",
+      "mande fechar a janela com o conteúdo {content}"
+    ]
+  },
+  "window_advanced.keep_only_content": {
+    "ru": [
+      "закрой остальные окна, оставив окно с {content}",
+      "сохрани открытым только окно, где есть {content}",
+      "убери все другие окна, кроме окна с {content}"
+    ],
+    "en": [
+      "close the other windows and keep the one with {content}",
+      "leave only the window displaying {content} open",
+      "dismiss every other window except the one containing {content}"
+    ],
+    "de": [
+      "schließe die anderen Fenster und behalte das mit {content}",
+      "lasse nur das Fenster geöffnet, das {content} anzeigt",
+      "mache alle anderen Fenster außer dem mit {content} zu"
+    ],
+    "fr": [
+      "ferme les autres fenêtres en gardant celle avec {content}",
+      "laisse ouverte uniquement la fenêtre affichant {content}",
+      "referme toutes les autres fenêtres sauf celle contenant {content}"
+    ],
+    "es": [
+      "cierra las otras ventanas dejando la que contiene {content}",
+      "deja abierta únicamente la ventana que muestra {content}",
+      "quita todas las demás ventanas salvo la que contiene {content}"
+    ],
+    "it": [
+      "chiudi le altre finestre lasciando quella con {content}",
+      "lascia aperta solo la finestra che mostra {content}",
+      "richiudi tutte le altre finestre tranne quella che contiene {content}"
+    ],
+    "pt": [
+      "feche as outras janelas deixando aquela com {content}",
+      "deixe aberta apenas a janela que exibe {content}",
+      "encerre todas as outras janelas exceto aquela que contém {content}"
+    ]
+  }
+}
