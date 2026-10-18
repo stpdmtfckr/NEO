@@ -1,0 +1,628 @@
+{
+  "version": 1,
+  "scope": "whole-utterance read-only shorthand",
+  "languages": {
+    "ru": {
+      "очередь дискорда": [
+        "discord",
+        "music_queue_status"
+      ],
+      "очередь в дискорде": [
+        "discord",
+        "music_queue_status"
+      ],
+      "дискорд очередь песен": [
+        "discord",
+        "music_queue_status"
+      ],
+      "очеред дискорда": [
+        "discord",
+        "music_queue_status"
+      ],
+      "очередь discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "очередь музыки": [
+        "music",
+        "queue_status"
+      ],
+      "музыкальная очередь": [
+        "music",
+        "queue_status"
+      ],
+      "очередь треков": [
+        "music",
+        "queue_status"
+      ],
+      "таймеры": [
+        "timer",
+        "list"
+      ],
+      "мои таймеры": [
+        "timer",
+        "list"
+      ],
+      "напоминания": [
+        "timer",
+        "list"
+      ],
+      "мои напоминания": [
+        "timer",
+        "list"
+      ],
+      "активные приложения": [
+        "application",
+        "list_active"
+      ],
+      "открытые приложения": [
+        "application",
+        "list_active"
+      ],
+      "запущенные программы": [
+        "application",
+        "list_active"
+      ],
+      "вкладки браузера": [
+        "browser_advanced",
+        "context"
+      ],
+      "открытые вкладки": [
+        "browser_advanced",
+        "context"
+      ],
+      "содержимое буфера": [
+        "clipboard",
+        "current"
+      ],
+      "что в буфере": [
+        "clipboard",
+        "current"
+      ],
+      "история буфера": [
+        "clipboard",
+        "list"
+      ],
+      "история буфера обмена": [
+        "clipboard",
+        "list"
+      ],
+      "мои панели": [
+        "overlay",
+        "list"
+      ],
+      "список окон заметок": [
+        "overlay",
+        "list"
+      ],
+      "панели заметок": [
+        "overlay",
+        "list"
+      ],
+      "непрочитанная почта": [
+        "email",
+        "unread"
+      ],
+      "непрочитанные письма": [
+        "email",
+        "unread"
+      ],
+      "почта за сутки": [
+        "email",
+        "recent24h"
+      ],
+      "письма за сутки": [
+        "email",
+        "recent24h"
+      ],
+      "состояние компьютера": [
+        "system_monitor",
+        "summary"
+      ],
+      "нагрузка компьютера": [
+        "system_monitor",
+        "summary"
+      ]
+    },
+    "en": {
+      "queue discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "queue in discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "discord song queue": [
+        "discord",
+        "music_queue_status"
+      ],
+      "music queue": [
+        "music",
+        "queue_status"
+      ],
+      "song queue": [
+        "music",
+        "queue_status"
+      ],
+      "timers": [
+        "timer",
+        "list"
+      ],
+      "my timers": [
+        "timer",
+        "list"
+      ],
+      "my reminders": [
+        "timer",
+        "list"
+      ],
+      "active applications": [
+        "application",
+        "list_active"
+      ],
+      "running applications": [
+        "application",
+        "list_active"
+      ],
+      "running programs": [
+        "application",
+        "list_active"
+      ],
+      "browser tabs": [
+        "browser_advanced",
+        "context"
+      ],
+      "open tabs": [
+        "browser_advanced",
+        "context"
+      ],
+      "clipboard contents": [
+        "clipboard",
+        "current"
+      ],
+      "what is in the clipboard": [
+        "clipboard",
+        "current"
+      ],
+      "clipboard history": [
+        "clipboard",
+        "list"
+      ],
+      "my panels": [
+        "overlay",
+        "list"
+      ],
+      "note panels": [
+        "overlay",
+        "list"
+      ],
+      "unread mail": [
+        "email",
+        "unread"
+      ],
+      "unread emails": [
+        "email",
+        "unread"
+      ],
+      "mail from the last 24 hours": [
+        "email",
+        "recent24h"
+      ],
+      "emails from the last 24 hours": [
+        "email",
+        "recent24h"
+      ],
+      "computer status": [
+        "system_monitor",
+        "summary"
+      ],
+      "system load": [
+        "system_monitor",
+        "summary"
+      ]
+    },
+    "de": {
+      "warteschlange in discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "discord titelliste": [
+        "discord",
+        "music_queue_status"
+      ],
+      "musikwarteschlange": [
+        "music",
+        "queue_status"
+      ],
+      "titelwarteschlange": [
+        "music",
+        "queue_status"
+      ],
+      "timerliste": [
+        "timer",
+        "list"
+      ],
+      "meine timer": [
+        "timer",
+        "list"
+      ],
+      "meine erinnerungen": [
+        "timer",
+        "list"
+      ],
+      "aktive anwendungen": [
+        "application",
+        "list_active"
+      ],
+      "laufende programme": [
+        "application",
+        "list_active"
+      ],
+      "browser-tabs": [
+        "browser_advanced",
+        "context"
+      ],
+      "offene tabs": [
+        "browser_advanced",
+        "context"
+      ],
+      "inhalt der zwischenablage": [
+        "clipboard",
+        "current"
+      ],
+      "was ist in der zwischenablage": [
+        "clipboard",
+        "current"
+      ],
+      "verlauf der zwischenablage": [
+        "clipboard",
+        "list"
+      ],
+      "meine panels": [
+        "overlay",
+        "list"
+      ],
+      "notizfenster": [
+        "overlay",
+        "list"
+      ],
+      "ungelesene post": [
+        "email",
+        "unread"
+      ],
+      "ungelesene e-mails": [
+        "email",
+        "unread"
+      ],
+      "post der letzten 24 stunden": [
+        "email",
+        "recent24h"
+      ],
+      "e-mails der letzten 24 stunden": [
+        "email",
+        "recent24h"
+      ],
+      "computerstatus": [
+        "system_monitor",
+        "summary"
+      ],
+      "systemauslastung": [
+        "system_monitor",
+        "summary"
+      ]
+    },
+    "fr": {
+      "file d’attente de discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "file d’attente dans discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "file musicale": [
+        "music",
+        "queue_status"
+      ],
+      "file des chansons": [
+        "music",
+        "queue_status"
+      ],
+      "mes minuteurs": [
+        "timer",
+        "list"
+      ],
+      "mes rappels": [
+        "timer",
+        "list"
+      ],
+      "applications actives": [
+        "application",
+        "list_active"
+      ],
+      "programmes ouverts": [
+        "application",
+        "list_active"
+      ],
+      "onglets du navigateur": [
+        "browser_advanced",
+        "context"
+      ],
+      "onglets ouverts": [
+        "browser_advanced",
+        "context"
+      ],
+      "contenu du presse-papiers": [
+        "clipboard",
+        "current"
+      ],
+      "historique du presse-papiers": [
+        "clipboard",
+        "list"
+      ],
+      "mes panneaux": [
+        "overlay",
+        "list"
+      ],
+      "panneaux de notes": [
+        "overlay",
+        "list"
+      ],
+      "courrier non lu": [
+        "email",
+        "unread"
+      ],
+      "e-mails non lus": [
+        "email",
+        "unread"
+      ],
+      "courrier des dernières 24 heures": [
+        "email",
+        "recent24h"
+      ],
+      "état du système": [
+        "system_monitor",
+        "summary"
+      ],
+      "charge du système": [
+        "system_monitor",
+        "summary"
+      ]
+    },
+    "es": {
+      "cola de discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "cola en discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "cola musical": [
+        "music",
+        "queue_status"
+      ],
+      "cola de canciones": [
+        "music",
+        "queue_status"
+      ],
+      "mis temporizadores": [
+        "timer",
+        "list"
+      ],
+      "mis recordatorios": [
+        "timer",
+        "list"
+      ],
+      "aplicaciones activas": [
+        "application",
+        "list_active"
+      ],
+      "programas abiertos": [
+        "application",
+        "list_active"
+      ],
+      "pestañas del navegador": [
+        "browser_advanced",
+        "context"
+      ],
+      "pestañas abiertas": [
+        "browser_advanced",
+        "context"
+      ],
+      "contenido del portapapeles": [
+        "clipboard",
+        "current"
+      ],
+      "historial del portapapeles": [
+        "clipboard",
+        "list"
+      ],
+      "mis paneles": [
+        "overlay",
+        "list"
+      ],
+      "paneles de notas": [
+        "overlay",
+        "list"
+      ],
+      "correo sin leer": [
+        "email",
+        "unread"
+      ],
+      "correos no leídos": [
+        "email",
+        "unread"
+      ],
+      "correo de las últimas 24 horas": [
+        "email",
+        "recent24h"
+      ],
+      "estado del sistema": [
+        "system_monitor",
+        "summary"
+      ],
+      "carga del sistema": [
+        "system_monitor",
+        "summary"
+      ]
+    },
+    "it": {
+      "coda di discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "coda su discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "coda musicale": [
+        "music",
+        "queue_status"
+      ],
+      "coda delle canzoni": [
+        "music",
+        "queue_status"
+      ],
+      "i miei timer": [
+        "timer",
+        "list"
+      ],
+      "i miei promemoria": [
+        "timer",
+        "list"
+      ],
+      "applicazioni attive": [
+        "application",
+        "list_active"
+      ],
+      "programmi aperti": [
+        "application",
+        "list_active"
+      ],
+      "schede del browser": [
+        "browser_advanced",
+        "context"
+      ],
+      "schede aperte": [
+        "browser_advanced",
+        "context"
+      ],
+      "contenuto degli appunti": [
+        "clipboard",
+        "current"
+      ],
+      "cronologia degli appunti": [
+        "clipboard",
+        "list"
+      ],
+      "i miei pannelli": [
+        "overlay",
+        "list"
+      ],
+      "pannelli delle note": [
+        "overlay",
+        "list"
+      ],
+      "posta non letta": [
+        "email",
+        "unread"
+      ],
+      "email non lette": [
+        "email",
+        "unread"
+      ],
+      "posta delle ultime 24 ore": [
+        "email",
+        "recent24h"
+      ],
+      "stato del sistema": [
+        "system_monitor",
+        "summary"
+      ],
+      "carico del sistema": [
+        "system_monitor",
+        "summary"
+      ]
+    },
+    "pt": {
+      "fila do discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "fila no discord": [
+        "discord",
+        "music_queue_status"
+      ],
+      "fila de músicas": [
+        "music",
+        "queue_status"
+      ],
+      "fila musical": [
+        "music",
+        "queue_status"
+      ],
+      "meus temporizadores": [
+        "timer",
+        "list"
+      ],
+      "meus lembretes": [
+        "timer",
+        "list"
+      ],
+      "aplicações ativas": [
+        "application",
+        "list_active"
+      ],
+      "programas abertos": [
+        "application",
+        "list_active"
+      ],
+      "abas do navegador": [
+        "browser_advanced",
+        "context"
+      ],
+      "abas abertas": [
+        "browser_advanced",
+        "context"
+      ],
+      "conteúdo da área de transferência": [
+        "clipboard",
+        "current"
+      ],
+      "histórico da área de transferência": [
+        "clipboard",
+        "list"
+      ],
+      "meus painéis": [
+        "overlay",
+        "list"
+      ],
+      "painéis de notas": [
+        "overlay",
+        "list"
+      ],
+      "correio não lido": [
+        "email",
+        "unread"
+      ],
+      "emails não lidos": [
+        "email",
+        "unread"
+      ],
+      "correio das últimas 24 horas": [
+        "email",
+        "recent24h"
+      ],
+      "estado do sistema": [
+        "system_monitor",
+        "summary"
+      ],
+      "carga do sistema": [
+        "system_monitor",
+        "summary"
+      ]
+    }
+  }
+}
